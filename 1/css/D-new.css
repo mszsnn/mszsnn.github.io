@@ -1,0 +1,360 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+
+}
+body {
+	background: #F2F2F2;
+	width: auto;
+	height:auto;
+}
+
+
+/*header*/
+
+header {
+  width: 100%;
+  height: 1.72rem;
+  background: #1D89F7;
+}
+
+header > div {
+  width: 100%;
+  height: 1.72rem;
+  background: #1D89F7;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+header > div .X-left-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header > div .X-left-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-left-section a .X-header-left {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+header > div .X-right-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header > div .X-right-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-right-section a .X-header-right {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+header > div .X-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: 0rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-two {
+  width: 2.05rem;
+  height: 0.28rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-three {
+  width: 1.62rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-four {
+  width: 1.6rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-five {
+  width: 1.98rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-six {
+  width: 1.48rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-seven {
+  width: 1.21rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-eight {
+  width: 1.26rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-nine {
+  width: 1.63rem;
+  height: 0.27rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-shop {
+  width: 50%;
+  height: 0.5rem;
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 5.8rem;
+    overflow: hidden;
+    position:relative;
+}
+.swiper-container > .swiper-wrapper {
+    width: 300%;
+    height: 100%;
+}
+.swiper-container > .swiper-wrapper > .swiper-slide{
+    width: 100%;
+    height: 100%;
+    float:left;
+}
+.D-bannerbox{
+	width:8.19rem;
+	height:4.57rem;
+	background-image: url(../img/D-img/D-new1.png);
+	background-size:102%;
+	background-position: -0.1rem -0.1rem;
+	position: absolute;
+	top:0;left:0;
+}
+.D-bannerimg{
+	width:8.19rem;
+	height:1.56rem;
+	background-image: url(../img/D-img/D-new3.png);
+	background-size:100%;
+	position:absolute;
+	left:0;
+	top:-0.2rem;
+}
+.D-bannertop{
+	width:4.96rem;
+	height:1.41rem;
+	background-image: url(../img/D-img/D-new22.png);
+	background-size:100%;
+	position:absolute;
+	left:0.4rem;
+	top:0rem;
+}
+.D-bannerbottom{
+	width:6.51rem;
+	height:1.79rem;
+	background-image: url(../img/D-img/D-new5.png);
+	background-size:100%;
+	position:absolute;
+	left:0.5rem;
+	bottom:0.1rem;
+}
+.D-bannerbottom1{
+	width:6.43rem;
+	height:1.35rem;
+	background-image: url(../img/D-img/D-new4_03.png);
+	background-size:100%;
+	position:absolute;
+	left:0.5rem;
+	bottom:0.55rem;
+}
+
+
+.D-wenzibox{
+	width:100%;
+	height:5.15rem;
+	padding:0 0.8rem;
+	box-sizing: border-box;
+	margin:0 auto;
+} 
+.D-wenzibox > div.D-zi1{
+	width:100%;
+	height:0.45rem;
+}
+.D-wenzibox > div.D-zi1 > span:first-child{
+	display: block;
+	float:left;
+	font-size:0.4rem;
+	font-weight:bold;
+	color:#2e363c;
+}
+.D-wenzibox > div.D-zi1 > span:last-child{
+	display: block;
+	float:left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
+	font-size: 0.26rem;
+	font-weight:normal;
+	color:#151719;
+}
+.D-wenzibox > div.D-zi2{
+	width:100%;
+	height:0.4rem;
+	margin-top:0.1rem;
+}
+.D-wenzibox > div.D-zi2 > span:first-child{
+	display: block;
+	float:left;
+	margin-left:-2.5rem;
+	font-size:0.36rem;
+	font-weight:bold;
+	color:#2e9fef;
+}
+.D-wenzibox > div.D-zi2 > span:last-child{
+	display: block;
+	float:left;
+	margin-left:-1.15rem;
+	font-size: 0.36rem;
+	font-weight:normal;
+	color:#2e9fef;
+}
+.D-wenzibox > div.D-zi3{
+	width:100%;
+	height:0.85rem;
+	margin-top:0.2rem;
+}
+.D-wenzibox > div.D-zi3 > span:first-child{
+	display: block;
+	font-size:0.22rem;
+	line-height: 0.4rem;
+	color:#2e363c;
+}
+.D-wenzibox > div.D-zi3 > span:last-child{
+	display: block;
+	font-size: 0.22rem;
+	line-height: 0.4rem;
+	color:#2e363c;
+}
+.D-wenzibox > div.D-zi31{
+	margin-top:0rem;
+}
+.D-wenzibox > div.D-zi4{
+	width:5.15rem;
+	height:1.05rem;
+	font-size: 0.22rem;
+	line-height: 0.4rem;
+}
+
+
+
+.D-bottom{
+	width:100%;
+	height:1rem;
+	background:#fff;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.D-bottom > div:first-child{
+	width:1.52rem;
+	height:0.51rem;
+	background-image: url(../img/D-img/D-new6.png);
+	background-size:1.52rem;
+	position:absolute;
+	left:1rem;
+	top:0.25rem;
+}
+.D-bottom > div:last-child{
+	width:1.52rem;
+	height:0.51rem;
+	background-image: url(../img/D-img/D-new7.png);
+	background-size:1.52rem;
+	position:absolute;
+	left:4.84rem;
+	top:0.25rem;
+}
+.D-bottom a{
+	display: block;
+	width:100%;
+	height:100%;
+}

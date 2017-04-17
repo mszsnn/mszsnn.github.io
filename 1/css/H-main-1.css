@@ -1,0 +1,679 @@
+@charset "UTF-8";
+#scroller {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+#wrapper {
+  position: absolute;
+  z-index: -1;
+  top: 2.2rem;
+  bottom: 0.48rem;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1d89f7;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.H-top-title {
+  width: 100%;
+  height: 0.4rem;
+}
+
+.H-top-box-1 {
+  width: 100%;
+  height: 1.1rem;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.H-head-img {
+  background-image: url("../img/H-img/head/H-head-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.01rem;
+  width: 1.01rem;
+  height: 1.08rem;
+  margin-left: 0.24rem;
+  float: left;
+}
+
+.H-head-book {
+  background-image: url("../img/H-img/head/H-head-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.52rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.245rem;
+}
+
+.H-head-text-box {
+  height: 0.58rem;
+  width: 1.11rem;
+  position: absolute;
+  left: 50%;
+  top: 0.26rem;
+  margin-left: -0.555rem;
+}
+
+.H-head-text {
+  width: 1.1rem;
+  height: 0.3rem;
+  text-align: center;
+  line-height: 0.3rem;
+  margin-top: 0.01rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+.H-head-text-logo {
+  background-image: url("../img/H-img/head/H-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.88rem;
+  height: 0.26rem;
+  width: 0.88rem;
+  margin-left: 0.14rem;
+}
+
+.H-head-dian-1, .H-head-dian-2 {
+  width: 0.14rem;
+  height: 0.06rem;
+  background-image: url("../img/H-img/head/H-dian-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.14rem;
+  float: left;
+  margin-top: 0.1rem;
+}
+
+.H-head-dian-2 {
+  background-image: url("../img/H-img/head/H-dian-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.14rem;
+}
+
+.H-head-text-title {
+  float: left;
+  font-size: 0.3rem;
+  font-family: '苹方';
+  width: 0.6rem;
+  height: 0.3rem;
+  margin-left: 0.04rem;
+  margin-right: 0.04rem;
+  color: #fff;
+}
+
+.H-head-list, .H-head-paly {
+  background-image: url("../img/H-img/head/H-head-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.56rem;
+  width: 0.56rem;
+  height: 0.56rem;
+  float: right;
+  margin-top: 0.245rem;
+  margin-right: 0.16rem;
+}
+
+.H-head-paly {
+  background-image: url("../img/H-img/head/H-head-4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.56rem;
+}
+
+.H-top-box-2 {
+  width: 100%;
+  height: 0.7rem;
+}
+
+.H-top-main-1 {
+  background-image: url("../img/H-img/head/H-top-box.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.9rem;
+  width: 2.9rem;
+  height: 0.62rem;
+  float: left;
+  margin-left: 2.3rem;
+}
+
+.H-top-main-text-1 {
+  background-image: url("../img/H-img/head/H-head-5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+  width: 1.3rem;
+  height: 0.5rem;
+  float: left;
+  margin-left: 0.08rem;
+  margin-top: 0.06rem;
+}
+
+.H-top-main-text-2 {
+  background-image: url("../img/H-img/head/H-head-6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.93rem;
+  width: 0.93rem;
+  height: 0.5rem;
+  margin-top: 0.06rem;
+  margin-right: 0.3rem;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background: #FFFFFF;
+}
+
+.H-bottom-1 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.62rem;
+  margin-left: 0.4rem;
+}
+
+.H-bottom-2 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.51rem;
+}
+
+.H-bottom-3 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.62rem;
+}
+
+.H-bottom-4 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.45rem;
+}
+
+.H-bottom-line {
+  width: 0.7rem;
+  float: left;
+  height: 100%;
+  background-image: url("../img/H-img/head/H-main-line.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.01rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.H-main-banner {
+  padding-top: 0.3rem;
+  height: 5.2rem;
+  background: #1D89F7;
+  background-image: url("../img/H-img/head/H-main-bg-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 7.5rem;
+}
+
+.H-banner-background-img {
+  background-image: url(../img/H-img/banner/7.png);
+  background-size: 6.31rem;
+  width: 6.31rem;
+  height: 0.45rem;
+  position: absolute;
+  top: -0.24rem;
+  left: 0.7rem;
+  z-index: 8;
+}
+
+.H-banner-box {
+  width: 6.4rem;
+  height: 5.2rem;
+  position: relative;
+  padding-left: 0.75rem;
+  overflow: hidden;
+}
+
+.H-banner-dian-box {
+  width: 0.94rem;
+  height: 0.2rem;
+  border-radius: 0.1rem;
+  background: rgba(54, 155, 227, 0.8);
+  position: absolute;
+  left: 50%;
+  top: 3.4rem;
+  margin-left: 0rem;
+  line-height:0rem;
+  z-index: 30;
+}
+.H-banner-dian-box > span{
+	display: block;
+	margin-left: 0.1rem;
+	margin-top: 0.02rem;
+	float: left;
+	background: #FFFFFF;
+}
+.H-banner-dian-box > li {
+  width: 0.08rem;
+  height: 0.08rem;
+  border-radius: 0.04rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  float: left;
+  margin-left: 0.06rem;
+  margin-top: 0.06rem;
+ 
+}
+
+.H-banner-dian-box > li.H-active {
+  width: 0.24rem;
+}
+
+.H-banner-1 {
+  display: block;
+  width: 6.4rem;
+  height: 3.98rem;
+  background-image: url("../img/H-img/banner/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 6.4rem;
+  margin-top: 0.2rem;
+  /*position: absolute;
+  top: 0.2rem;
+  left: 0.6rem;
+  z-index: 10;*/
+}
+
+.H-banner-cover {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+
+  height: 0.52rem;
+  border-radius: 3px 3px;
+}
+.H-swiper-box{
+	width: 300%;
+	height: 100%;
+	overflow: hidden;
+}
+.H-banner-head {
+  background-image: url("../img/H-img/banner/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.39rem;
+  width: 1.39rem;
+  height: 0.37rem;
+  float: left;
+  margin-top: 0.06rem;
+  margin-left: 0.1rem;
+}
+
+.H-banner-explain-box {
+  width: 5.56rem;
+  height: 1.63rem;
+  position: absolute;
+  top: 3.34rem;
+  left: 0.9rem;
+  overflow: hidden;
+  z-index: 20;
+  background: url(../img/H-img/banner/4.png);
+  background-size: 5.56rem;
+  background-repeat: no-repeat;
+}
+
+.H-banner-explain-img {
+  width: 1.22rem;
+  height: 1.63rem;
+  float: left;
+  background: url(../img/H-img/banner/3.png);
+  background-size: 1.22rem;
+  background-position-x: 0.02rem;
+  background-repeat: no-repeat;
+}
+
+.H-banner-explain-text {
+  width: 4.34rem;
+  height: 1.20rem;
+  overflow: hidden;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  position: relative;
+}
+
+.H-banner-explain-text p {
+  color: #369be3;
+  font-weight: 600;
+  font-size: 0.24rem;
+  font-family: "San Francisco Display";
+}
+
+.H-banner-explain-text h5 {
+  color: #2e363c;
+  font-size: 0.22rem;
+  font-weight: 400;
+}
+
+.H-banner-icon-1, .H-banner-icon-2 {
+  width: 1.4rem;
+  height: 0.56rem;
+  background: url(../img/H-img/banner/5.png);
+  background-size: 0.56rem;
+  float: left;
+  background-repeat: no-repeat;
+  margin-left: -0.08rem;
+  margin-top: -0.08rem;
+  position: relative;
+}
+
+.H-banner-icon-2 {
+  margin-left: 0.2rem;
+  background-image: url(../img/H-img/banner/6.png);
+}
+
+.H-banner-shu {
+  color: #e6e6e6;
+  font-size: 12px;
+  position: absolute;
+  top: 0.14rem;
+  left: 1.4rem;
+}
+
+.H-banner-icon-1 h6, .H-banner-icon-2 h6 {
+  font-size: 12px;
+  font-weight: 100;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.12rem;
+}
+
+.H-main-body {
+  width: 100%;
+  height: auto;
+  background: #f2f2f2;
+  padding-top: 0.36rem;
+}
+
+.H-search-box {
+  width: 7.02rem;
+  height: 0.49rem;
+  border-radius: 0.3rem;
+  background: #FFFFFF;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 0.11rem;
+}
+
+#H-search {
+  position: absolute;
+  display: block;
+  width: 5.3rem;
+  height: 0.36rem;
+  top: 0.11rem;
+  left: 0.7rem;
+  border: none;
+}
+
+.H-search-icon {
+  position: absolute;
+  width: 0.36rem;
+  height: 0.36rem;
+  top: 0.11rem;
+  left: 0.34rem;
+}
+
+.H-search-dian {
+  background: url(../img/H-img/H-main-dian.png);
+  background-size: 0.23rem;
+  width: 0.23rem;
+  height: 0.6rem;
+  position: absolute;
+  top: 0;
+  left: 0.04rem;
+}
+
+.H-search-yy {
+  background: url(../img/H-img/H-yy.png);
+  background-size: 0.7rem;
+  width: 0.7rem;
+  height: 0.36rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.11rem;
+}
+
+.H-main-like-box, .H-main-tuijian-box, .H-main-renqi-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0.2rem;
+}
+
+.H-like-title-box, .H-tuijian-title-box, .H-renqi-title-box {
+  width: 100%;
+  background: url(../img/H-img/H-like.png);
+  background-size: 7.5rem;
+  height: 0.94rem;
+}
+
+.H-like-more, .H-tuijian-more {
+  display: block;
+  width: 0.76rem;
+  height: 0.6rem;
+  background: url(../img/H-img/H-h-dian.png);
+  background-size: 0.76rem;
+  float: right;
+}
+
+.H-like-book-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 0.1rem;
+}
+
+.H-like-book-1, .H-like-book-2, .H-like-book-3 {
+  background-image: url("../img/H-img/H-book-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.21rem;
+  width: 2.21rem;
+  height: 3.57rem;
+  float: left;
+  margin-left: 0.24rem;
+}
+
+.H-like-book-2 {
+  background-image: url(../img/H-img/H-book-2.png);
+  margin-left: 0.2rem;
+}
+
+.H-like-book-3 {
+  background-image: url(../img/H-img/H-book-3.png);
+  margin-left: 0.2rem;
+}
+
+.H-tuijian-title-box {
+  background-image: url(../img/H-img/H-tuijian.png);
+}
+
+.H-tuijian-more {
+  background-image: url(../img/H-img/H-g-dian.png);
+}
+
+.H-tuijian-main-box {
+  width: 7.02rem;
+  height: 4.43rem;
+  margin-left: 0.2rem;
+  overflow: hidden;
+}
+
+.H-tuijian-img {
+  display: block;
+  background: url(../img/H-img/H-tuijian-1.png);
+  background-size: 7.02rem;
+  width: 7.02rem;
+  height: 4.45rem;
+  margin-top: 0.2rem;
+}
+
+.H-main-renqi-box {
+  margin-top: 0.2rem;
+  padding-bottom: 0.4rem;
+}
+
+.H-renqi-title-box {
+  background-image: url(../img/H-img/H-paihang.png);
+  margin-bottom: 0.12rem;
+}
+
+.H-renqi-main-box {
+  width: 7.02rem;
+  height: 1.5rem;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 0.04rem;
+  margin-top: 0.12rem;
+  position: relative;
+}
+
+.H-renqi-main-box .H-renqi-img-1 {
+  width: 0.8rem;
+  float: left;
+  margin-left: 0.24rem;
+  margin-top: 0.19rem;
+}
+
+.H-renqi-titleBox {
+  width: 3rem;
+  height: 0.6rem;
+  float: left;
+  position: relative;
+}
+
+.H-renqi-titleBox .title-1 {
+  display: block;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #2c3840;
+  float: left;
+  margin-left: 0.14rem;
+  margin-top: 0.04rem;
+}
+
+.H-renqi-titleBox .title-2 {
+  display: block;
+  font-size: 0.2rem;
+  font-weight: bold;
+  float: left;
+  color: #39abf9;
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.H-renqi-titleBox .title-3 {
+  display: block;
+  position: absolute;
+  width: 0.57rem;
+  height: 0.03rem;
+  background-image: url(../img/H-img/H-diandian.png);
+  background-size: 0.57rem;
+  background-repeat: no-repeat;
+  top: 0.46rem;
+  left: 0.2rem;
+}
+
+.H-renqi-data {
+  width: 3.04rem;
+  height: 0.56rem;
+  float: left;
+}
+
+.H-renqi-data .H-renqi-img-2 {
+  float: left;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-top: 0.02rem;
+  margin-left: 0.2rem;
+}
+
+.H-renqi-data .H-renqi-data-1 {
+  font-size: 0.24rem;
+  width: 1.16rem;
+  height: auto;
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.H-renqi-data .H-renqi-data-img {
+  background: url(../img/H-img/H-renqi-data.png);
+  width: 2.35rem;
+  height: 0.17rem;
+  background-size: 2.35rem;
+  float: left;
+  margin-left: 0.9rem;
+  margin-top: -0.1rem;
+}
+
+.H-renqi-hot {
+  width: 0.83rem;
+  height: 1.03rem;
+  background: url(../img/H-img/H-hot.png);
+  background-size: 0.83rem;
+  position: absolute;
+  right: 0.2rem;
+  top: -0.16rem;
+}

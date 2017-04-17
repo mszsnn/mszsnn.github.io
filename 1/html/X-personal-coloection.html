@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />	
+			
+		<title>readApp</title>
+		
+		<link rel="stylesheet" href="../common/css/common.css" />
+		<script src="../common/js/jquery.min.js"></script>
+		<script src="../common/js/common.js"></script>
+		
+		<link rel="stylesheet" href="../css/X-main-1.css" />
+		<script src="../js/X-main-1.js"></script>
+		
+		<script src="../js/iscroll.js"></script>
+		<script >
+			function isPassive() {
+			    var supportsPassiveOption = false;
+			    try {
+			        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+			            get: function () {
+			                supportsPassiveOption = true;
+			            }
+			        }));
+			    } catch(e) {}
+			    return supportsPassiveOption;
+			};
+		</script>
+		
+		<script type="text/javascript">
+			var myScroll;
+			function loaded () {
+				myScroll = new IScroll('#wrapper', {
+					mouseWheel: true,  
+				    scrollbars: false ,
+				});
+			}
+			
+			document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+				capture: false,
+				passive: false
+			} : false);
+	
+		</script>
+	</head>
+	
+	<style type="text/css">
+		* {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		
+		html {
+			-ms-touch-action: none;
+		}
+		
+		body,ul,li {
+			padding: 0;
+			margin: 0;
+			border: 0;
+		}
+		
+		body {
+			font-size: 12px;
+			font-family: ubuntu, helvetica, arial;
+			overflow: hidden; /* this is important to prevent the whole page to bounce */
+		}
+		
+		
+		
+		#wrapper {
+			position: absolute;
+			z-index: 10;
+			top:1.8rem;
+			bottom:0;
+			left: 0;
+			width: 100%;
+			/*background: #ccc;*/
+			overflow: hidden;
+		}
+		
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+			-webkit-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			transform: translateZ(0);
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-text-size-adjust: none;
+			-moz-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+			-o-text-size-adjust: none;
+			text-size-adjust: none;
+		}
+		
+		#scroller ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			/*text-align: left;*/
+		}
+		
+		#scroller li {
+			/*padding:0 1.24rem;*/
+			width:7.02rem;
+   			height:3.6rem;
+			margin:0 auto;
+			border-radius:0.1rem;
+			/*line-height: 1rem;*/
+			/*border-bottom: 1px solid #ccc;
+			border-top: 1px solid #fff;*/
+			background-color:#FFF;
+			/*font-size: 14px;*/
+			margin-bottom:0.2rem;
+		}
+		#scroller li > div:nth-child(1){
+			margin-right:0.21rem;
+		}
+		#scroller li > div:nth-child(2){
+			margin-right:0.21rem;
+		}
+	</style>
+	
+	
+	<body onload="loaded()">
+		<header>
+			<!--<img src="../img/X-1.png" alt="" class="X-header-top"/>-->
+			<div>
+				<section class="X-left-section">
+					<a href="X-personal-center.html">
+						<img src="../img/x-img/X-2-1.png" alt="" class="X-header-left"/>
+					</a>
+				</section>
+				<span class="X-shop">个人收藏</span>
+				
+				<img src="../img/X-img/X-13-1.png" alt="" class="X-header-medium"/>
+				<img src="../img/X-img/X-67-1.png" alt="" class="X-header-medium-two-personal"/>
+			</div>
+		</header>
+		
+		<!--<section class="X-personal-clooection">
+			<ul>
+				<li>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-1.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>人间</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>失格</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>WORD</span>
+								<span>&LOST</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>3260</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>52163</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-2.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>笑看</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>苍生</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>MAYBE</span>
+								<span>&LIVELI</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>2856</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>45612</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-3.png" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>神探</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>夏洛克</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>DETE</span>
+								<span>&HER</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>2154</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>32654</span>
+							</div>
+						</section>
+					</div>
+				</li>	
+				<li>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-4.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>艺术</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>道路</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>ART</span>
+								<span>&ROAD</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>2016</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>32151</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-5.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>人性</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>之美</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>HUM</span>
+								<span>&NATURE</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>2154</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>10213</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-6.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>灵魂</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>救赎</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>SOUL</span>
+								<span>&REDEM</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>1230</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>4598</span>
+							</div>
+						</section>
+					</div>
+				</li>
+				<li>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-7.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>生命</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>起源</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>ORIGIN</span>
+								<span>&LOST</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>1123</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>5698</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-8.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>绿野</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>仙踪</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>WIZAR</span>
+								<span>&OFOZ</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>5620</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>4189</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-9.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>福尔</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>侦探</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>DETE</span>
+								<span>&HER</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>2154</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>32654</span>
+							</div>
+						</section>
+					</div>
+				</li>
+				<li>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-10.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>墨子</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>定律</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>MOZI</span>
+								<span>&LAWSOF</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>3652</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>5210</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-11.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>造福</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>大地</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>BENEFI</span>
+								<span>&EARTH</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>2856</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>45612</span>
+							</div>
+						</section>
+					</div>
+					<div class="X-personal">
+						<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+						<img src="../img/X-img/X-collection-12.jpg" alt="" class="X-personal-two"/>
+						<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+						
+						<section class="X-personal-section"> 
+							<div class="X-personal-div-one">
+								<span>神州</span>
+								<img src="../img/X-img/X-68.png" alt="" />
+								<span>浩土</span>
+							</div>
+							<div class="X-personal-div-two">
+								<img src="../img/X-img/X-26.png" alt="" />
+								<span>SHENZ</span>
+								<span>&OUTU</span>
+							</div>
+							<div class="X-personal-div-three">
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+								<img src="../img/X-img/X-69.png" alt="" />
+							</div>
+							<div class="X-personal-div-four">
+								 <img src="../img/X-img/X-70.png" alt="" />
+								 <span>1102</span>
+								 <img src="../img/X-img/X-71.png" alt="" />
+								  <span>1546</span>
+							</div>
+						</section>
+					</div>
+				</li>
+			</ul>
+		</section>-->
+		
+		
+		
+		<div id="wrapper">
+			<div id="scroller">
+				<ul>
+					<li>
+						<div class="X-personal">
+							<a href="H-detail.html">
+								<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+								<img src="../img/X-img/X-collection-1.jpg" alt="" class="X-personal-two"/>
+								<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+								
+								<section class="X-personal-section"> 
+									<div class="X-personal-div-one">
+										<span>人间</span>
+										<img src="../img/X-img/X-68.png" alt="" />
+										<span>失格</span>
+									</div>
+									<div class="X-personal-div-two">
+										<img src="../img/X-img/X-26.png" alt="" />
+										<span>WORD</span>
+										<span>&LOST</span>
+									</div>
+									<div class="X-personal-div-three">
+										<img src="../img/X-img/X-69.png" alt="" />
+										<img src="../img/X-img/X-69.png" alt="" />
+										<img src="../img/X-img/X-69.png" alt="" />
+										<img src="../img/X-img/X-69.png" alt="" />
+									</div>
+									<div class="X-personal-div-four">
+										 <img src="../img/X-img/X-70.png" alt="" />
+										 <span>3260</span>
+										 <img src="../img/X-img/X-71.png" alt="" />
+										  <span>52163</span>
+									</div>
+								</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-2.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>笑看</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>苍生</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>MAYBE</span>
+									<span>&LIVELI</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>2856</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>45612</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-3.png" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>神探</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>夏洛克</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>DETE</span>
+									<span>&HER</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>2154</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>32654</span>
+								</div>
+							</section>
+							</a>
+						</div>
+					</li>	
+					<li>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-4.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>艺术</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>道路</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>ART</span>
+									<span>&ROAD</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>2016</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>32151</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-5.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>人性</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>之美</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>HUM</span>
+									<span>&NATURE</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>2154</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>10213</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-6.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>灵魂</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>救赎</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>SOUL</span>
+									<span>&REDEM</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>1230</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>4598</span>
+								</div>
+							</section>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-7.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>生命</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>起源</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>ORIGIN</span>
+									<span>&LOST</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>1123</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>5698</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-8.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>绿野</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>仙踪</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>WIZAR</span>
+									<span>&OFOZ</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>5620</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>4189</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-9.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>福尔</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>侦探</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>DETE</span>
+									<span>&HER</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>2154</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>32654</span>
+								</div>
+							</section>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-10.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>墨子</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>定律</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>MOZI</span>
+									<span>&LAWSOF</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>3652</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>5210</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-11.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>造福</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>大地</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>BENEFI</span>
+									<span>&EARTH</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>2856</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>45612</span>
+								</div>
+							</section>
+							</a>
+						</div>
+						<div class="X-personal">
+							<a href="H-detail.html">
+							<img src="../img/X-img/X-73.png" alt="" class="X-personal-one"/>
+							<img src="../img/X-img/X-collection-12.jpg" alt="" class="X-personal-two"/>
+							<img src="../img/X-img/X-72.png" alt="" class="X-personal-three"/>
+							
+							<section class="X-personal-section"> 
+								<div class="X-personal-div-one">
+									<span>神州</span>
+									<img src="../img/X-img/X-68.png" alt="" />
+									<span>浩土</span>
+								</div>
+								<div class="X-personal-div-two">
+									<img src="../img/X-img/X-26.png" alt="" />
+									<span>SHENZ</span>
+									<span>&OUTU</span>
+								</div>
+								<div class="X-personal-div-three">
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+									<img src="../img/X-img/X-69.png" alt="" />
+								</div>
+								<div class="X-personal-div-four">
+									 <img src="../img/X-img/X-70.png" alt="" />
+									 <span>1102</span>
+									 <img src="../img/X-img/X-71.png" alt="" />
+									  <span>1546</span>
+								</div>
+							</section>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>	
+		</div>
+		
+	</body>
+</html>

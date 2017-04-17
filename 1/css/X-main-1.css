@@ -1,0 +1,2827 @@
+@charset "UTF-8";
+html {
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #F2F2F2;
+  font-weight: normal;
+  font-family: "苹方";
+}
+
+/*X-header*/
+header {
+  width: 100%;
+  height: 2.2rem;
+  position: relative;
+}
+
+header > div {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+header > div .X-left-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header > div .X-left-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-left-section a .X-header-left {
+  display: block;
+  width: 0.61rem;
+  height: 0.68rem;
+}
+
+header > div .X-right-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header > div .X-right-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-right-section a .X-header-right {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+header > div .X-header-medium {
+  width: 7.5rem;
+  height: 0.33rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.3rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-two {
+  width: 2.05rem;
+  height: 0.28rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-three {
+  width: 1.62rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-four {
+  width: 1.6rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-five {
+  width: 1.98rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-six {
+  width: 1.48rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-seven {
+  width: 1.21rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-eight {
+  width: 1.26rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-nine {
+  width: 1.63rem;
+  height: 0.27rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-shop {
+  width: 50%;
+  height: 0.5rem;
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+/*X-first*/
+.X-first {
+  width: 100%;
+  height: 6.5rem;
+  overflow: hidden;
+}
+
+.X-first ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 1.6rem;
+  z-index: 3;
+}
+
+.X-first ul li {
+  width: 7.05rem;
+  height: 1.5rem;
+  background: #FFF;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+  border-radius: 0.2rem;
+  font-size: 0.12rem;
+}
+
+.X-first ul li .X-li-div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.X-first .X-first-med {
+  float: left;
+  width: 3.6rem;
+  height: 1.32rem;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.X-first ul li .X-one {
+  width: 1.07rem;
+  height: 1.32rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+
+.X-first ul li .X-pone {
+  width: 5rem;
+  height: 0.2rem;
+  float: left;
+  margin-left: 0.1rem;
+}
+
+.X-first ul li .X-pone > a:nth-child(1) {
+  font-size: 0.25rem;
+  color: #344047;
+  font-weight: bold;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+.X-first ul li .X-pone > a:nth-child(2) {
+  font-size: 0.12rem;
+  color: #3CABF9;
+  font-weight: bold;
+  float: left;
+  margin-top: 0.12rem;
+  margin-left: 0.1rem;
+}
+
+.X-first ul li .X-pone > a:nth-child(3) {
+  font-size: 0.25rem;
+  color: #3CABF9;
+  float: left;
+  margin-top: 0.12rem;
+}
+
+.X-first ul li .X-pone > .X-zang_one {
+  width: 1rem;
+  height: 0.4rem;
+  float: left;
+  margin-top: 0.02rem;
+  margin-left: 0.1rem;
+}
+
+.X-first ul li .X-ptwo {
+  font-size: 0.12rem;
+  width: 5rem;
+  height: 0.2rem;
+  float: left;
+  color: #686464;
+  margin-top: 0.3rem;
+  margin-left: 0.1rem;
+}
+
+.X-first ul li .X-pthree {
+  width: 5rem;
+  height: 0.2rem;
+  float: left;
+  margin-left: 0.1rem;
+}
+
+.X-first ul li .X-pthree .X-two {
+  width: 1.57rem;
+  height: 0.38rem;
+  margin-top: 0.1rem;
+  margin-right: 0.4rem;
+  float: left;
+}
+
+.X-first ul li .X-pthree .X-three {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: left;
+  margin-top: 0.15rem;
+}
+
+/*X-pfour*/
+.X-pfour {
+  position: absolute;
+  right: 0.25rem;
+  top: 0.6rem;
+}
+
+.X-pfour h5 {
+  font-size: 0.34rem;
+  color: #3AF4E9;
+}
+
+.X-pfour h6 {
+  font-size: 0.12rem;
+  color: #3AF4E9;
+}
+
+.X-first .X-underline {
+  width: 0.7rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0.06rem;
+  top: 0.41rem;
+}
+
+/*X-circle-one .X-circle-two*/
+.X-first ul li .X-li-div .X-circle-one {
+  width: 0.14rem;
+  height: 0.14rem;
+  border: 0.02rem solid #38E5DB;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.23rem;
+  top: 50%;
+  margin-top: -0.07rem;
+}
+
+.X-first ul li .X-li-div .X-circle-one .X-circle-two {
+  width: 0.1rem;
+  height: 0.1rem;
+  background: #38E5DB;
+  border-radius: 50%;
+  margin-top: 0.02rem;
+  margin-left: 0.02rem;
+}
+
+.X-first ul li:nth-child(2) .X-li-div .X-circle-one .X-circle-two {
+  display: none;
+}
+
+.X-first ul li:nth-child(3) .X-li-div .X-circle-one .X-circle-two {
+  display: none;
+}
+
+.X-first ul li:nth-child(4) .X-li-div .X-circle-one .X-circle-two {
+  display: none;
+}
+
+/*X-shop-two*/
+.X-shop-two-one {
+  width: 100%;
+  height: 6.5rem;
+  overflow: hidden;
+}
+
+.X-shop-two-one ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 2.05rem;
+  z-index: 3;
+}
+
+.X-shop-two-one ul li {
+  width: 7.05rem;
+  height: 1.5rem;
+  background: #FFF;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+  border-radius: 0.2rem;
+  font-size: 0.12rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.X-shop-two-one .X-li-div_one .X-first-med {
+  float: left;
+  width: 3.6rem;
+  height: 1.32rem;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-one {
+  width: 1.07rem;
+  height: 1.32rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pone {
+  width: 5rem;
+  height: 0.2rem;
+  float: left;
+  margin-left: 0.1rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pone > a:nth-child(1) {
+  font-size: 0.25rem;
+  color: #344047;
+  font-weight: bold;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pone > a:nth-child(2) {
+  font-size: 0.12rem;
+  color: #3CABF9;
+  font-weight: bold;
+  float: left;
+  margin-top: 0.12rem;
+  margin-left: 0.1rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pone > a:nth-child(3) {
+  font-size: 0.25rem;
+  color: #3CABF9;
+  float: left;
+  margin-top: 0.12rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pone > .X-zang_one {
+  width: 1rem;
+  height: 0.4rem;
+  float: left;
+  margin-top: 0.02rem;
+  margin-left: 0.1rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-ptwo {
+  font-size: 0.12rem;
+  width: 5rem;
+  height: 0.2rem;
+  float: left;
+  color: #686464;
+  margin-top: 0.3rem;
+  margin-left: 0.1rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pthree {
+  width: 5rem;
+  height: 0.2rem;
+  float: left;
+  margin-left: 0.1rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pthree .X-two {
+  width: 1.57rem;
+  height: 0.38rem;
+  margin-top: 0.1rem;
+  margin-right: 0.4rem;
+  float: left;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pthree .X-three {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: left;
+  margin-top: 0.15rem;
+}
+
+/*X-pfour*/
+.X-shop-two-one ul li .X-li-div_one .X-pfour {
+  position: absolute;
+  right: 0.25rem;
+  top: 0.6rem;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pfour h5 {
+  font-size: 0.34rem;
+  color: #3AF4E9;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-pfour h6 {
+  font-size: 0.12rem;
+  color: #3AF4E9;
+}
+
+.X-shop-two-one ul li .X-li-div_one .X-underline {
+  width: 0.7rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 0.06rem;
+  top: 0.41rem;
+}
+
+.X-second div {
+  width: 100%;
+  height: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.X-second div:nth-child(1) {
+  width: 100%;
+  height: 0.3rem;
+  margin-top: 0.45rem;
+  color: #989FA8;
+}
+
+.X-second div:nth-child(2) {
+  width: 100%;
+  height: 0.5rem;
+  color: #3AF4E9;
+}
+
+.X-second div:nth-child(3) {
+  width: 100%;
+  height: 0.3rem;
+}
+
+.X-second div:nth-child(1) span {
+  float: right;
+  font-size: 0.12rem;
+  margin-right: 0.24rem;
+}
+
+.X-second div:nth-child(2) span {
+  float: right;
+  font-size: 0.12rem;
+}
+
+.X-second div:nth-child(2) span:nth-child(1) {
+  font-size: 0.5rem;
+  margin-right: 0.24rem;
+}
+
+.X-second div:nth-child(2) span:nth-child(2) {
+  margin-top: 0.25rem;
+  margin-right: 0.1rem;
+}
+
+.X-second div:nth-child(3) span {
+  float: right;
+  font-size: 0.12rem;
+}
+
+.X-second div:nth-child(3) span:nth-child(1) {
+  color: #3AF4E9;
+  font-size: 0.3rem;
+  margin-right: 0.24rem;
+}
+
+.X-second div:nth-child(3) span:nth-child(2) {
+  color: #7E8691;
+  margin-right: 0.1rem;
+}
+
+.X-second .X-second-left {
+  width: 0.6rem;
+  height: 0.3rem;
+  float: right;
+  margin-top: 0.04rem;
+}
+
+/*footer*/
+.X-footer {
+  display: block;
+  width: 3.8rem;
+  height: 1.4rem;
+  margin: 0 auto;
+  margin-top: 0.45rem;
+}
+
+.X-shop-two-one ul li .X-li-div-two {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.X-shop-two-one ul li .X-li-div-two .top {
+  width: 6.7rem;
+  height: 50%;
+  margin: 0 auto;
+  border-bottom: 0.03rem solid #E4E4E4;
+}
+
+.X-shop-two-one ul li .X-li-div-two .top span:nth-child(1) {
+  float: left;
+  font-size: 0.3rem;
+  color: #ADADAD;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+
+.X-shop-two-one ul li .X-li-div-two .top span:nth-child(2) {
+  float: right;
+  font-size: 0.12rem;
+  color: #C4C4C4;
+  margin-right: 0.12rem;
+  margin-top: 0.3rem;
+}
+
+.X-shop-two-one ul li .X-li-div-two .top span:nth-child(3) {
+  float: right;
+  font-size: 0.35rem;
+  color: #29E3B0;
+  margin-top: 0.2rem;
+  margin-right: 0.04rem;
+  font-weight: bold;
+}
+
+.X-shop-two-one ul li .X-li-div-two .top span:nth-child(4) {
+  float: right;
+  font-size: 0.12rem;
+  color: #C4C4C4;
+  margin-top: 0.25rem;
+  margin-right: 0.04rem;
+}
+
+.X-shop-two-one ul li .X-li-div-two .bottom {
+  width: 6.7rem;
+  height: 50%;
+  margin: 0 auto;
+  border-bottom: 0.03rem solid #E4E4E4;
+  position: relative;
+}
+
+.X-shop-two-one ul li .X-li-div-two .bottom span:nth-child(1) {
+  float: left;
+  font-size: 0.3rem;
+  color: #ADADAD;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+
+.X-shop-two-one ul li .X-li-div-two .bottom span.one {
+  float: right;
+  font-size: 0.12rem;
+  color: #29E3B0;
+  margin-right: 0.12rem;
+  margin-top: 0.3rem;
+  font-weight: bold;
+}
+
+.X-shop-two-one ul li .X-li-div-two .bottom span.two {
+  float: right;
+  font-size: 0.4rem;
+  color: #29E3B0;
+  margin-right: 0.12rem;
+  margin-top: 0.18rem;
+  font-weight: bold;
+}
+
+.X-shop-two-one ul li .X-li-div-two .bottom span.three {
+  float: right;
+  font-size: 0.3rem;
+  color: #A0A0A0;
+  margin-right: 0.12rem;
+  margin-top: 0.18rem;
+}
+
+.X-shop-two-one ul li .X-li-div-two .X-circle-one {
+  width: 0.28rem;
+  height: 0.28rem;
+  background: #9AF2ED;
+  border-radius: 50%;
+  position: absolute;
+  right: 2.2rem;
+  top: 1.05rem;
+}
+
+.X-shop-two-one ul li .X-li-div-two .X-circle-one .X-circle-two {
+  width: 0.16rem;
+  height: 0.16rem;
+  background: #38E5DB;
+  border-radius: 50%;
+  margin-top: 0.06rem;
+  margin-left: 0.06rem;
+}
+
+.X-shop3_one {
+  width: 100%;
+  height: 0.8rem;
+  margin-top: 0.25rem;
+  position: relative;
+  text-align: center;
+}
+
+.X-shop3_one img {
+  display: block;
+  width: 1.11rem;
+  height: 0.14rem;
+  margin-left: 3.2rem;
+}
+
+.X-shop3_one h1 {
+  font-size: 0.3rem;
+  color: #5D5D5D;
+}
+
+.X-shop3_one h2 {
+  font-size: 0.12rem;
+  color: #5D5D5D;
+}
+
+.X-shop3_one h2 span:nth-child(1) {
+  color: #9FC1F5;
+}
+
+.X-shop3_one h2 span:nth-child(2) {
+  color: #76ACF6;
+  font-weight: bold;
+}
+
+.X-shop3_one h2 span:nth-child(3) {
+  color: #9FC1F5;
+}
+
+.X-shop3_two {
+  width: 100%;
+  height: 1.11rem;
+  margin-top: 0.5rem;
+}
+
+.X-shop3_two .X-left {
+  width: 3.41rem;
+  height: 0.8rem;
+  float: left;
+  margin-left: 0.24rem;
+}
+
+.X-shop3_two .X-left img.X-one {
+  width: 1.11rem;
+  height: 1.11rem;
+  display: block;
+  float: left;
+}
+
+.X-shop3_two .X-left .X-lefts {
+  width: 2.3rem;
+  height: 1.11rem;
+  float: left;
+  position: relative;
+}
+
+.X-shop3_two .X-left .X-lefts .X-left_right {
+  width: 2rem;
+  height: 1rem;
+  background: #F19D4C;
+  border-radius: 5px;
+  position: absolute;
+  right: -0.04rem;
+  top: 50%;
+  margin-top: -0.5rem;
+}
+
+.X-shop3_two .X-left .X-lefts .X-top-left {
+  width: 2rem;
+  height: 1rem;
+  background: #E9E7E7;
+  border-radius: 5px;
+  position: absolute;
+  left: 0.05rem;
+  top: 50%;
+  margin-top: -0.5rem;
+}
+
+.X-shop3_two .X-left .X-lefts .X-top {
+  width: 2.2rem;
+  height: 1.15rem;
+  background: #FFF;
+  border-radius: 5px;
+  position: absolute;
+  left: 0.1rem;
+  top: 0rem;
+}
+
+.X-shop3_two .X-left .X-lefts .X-top h1 {
+  font-size: 0.2rem;
+  color: #00A9F2;
+  margin-left: 0.3rem;
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+
+.X-shop3_two .X-left .X-top img:nth-child(2) {
+  width: 0.82rem;
+  height: 0.06rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.55rem;
+}
+
+.X-shop3_two .X-left .X-lefts .X-top img:nth-child(3) {
+  width: 1.75rem;
+  height: 0.21rem;
+  position: absolute;
+  left: 0.25rem;
+  top: 0.7rem;
+}
+
+.X-shop3_two .X-right {
+  width: 3.41rem;
+  height: 0.8rem;
+  float: right;
+  margin-right: 0.24rem;
+}
+
+.X-shop3_two .X-right img.X-one {
+  width: 1.11rem;
+  height: 1.11rem;
+  float: left;
+  display: block;
+}
+
+.X-shop3_two .X-right .X-lefts {
+  width: 2.3rem;
+  height: 1.11rem;
+  float: left;
+  position: relative;
+}
+
+.X-shop3_two .X-right .X-lefts .X-left_right {
+  width: 2rem;
+  height: 1rem;
+  background: #F19D4C;
+  border-radius: 5px;
+  position: absolute;
+  right: -0.04rem;
+  top: 50%;
+  margin-top: -0.5rem;
+}
+
+.X-shop3_two .X-right .X-lefts .X-top-left {
+  width: 2rem;
+  height: 1rem;
+  background: #E9E7E7;
+  border-radius: 5px;
+  position: absolute;
+  left: 0.05rem;
+  top: 50%;
+  margin-top: -0.5rem;
+}
+
+.X-shop3_two .X-right .X-lefts .X-top {
+  width: 2.2rem;
+  height: 1.15rem;
+  background: #FFF;
+  border-radius: 5px;
+  position: absolute;
+  left: 0.1rem;
+  top: 0rem;
+}
+
+.X-shop3_two .X-right .X-lefts .X-top h1 {
+  font-size: 0.2rem;
+  color: #00A9F2;
+  margin-left: 0.3rem;
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+
+.X-shop3_two .X-right .X-top img:nth-child(2) {
+  width: 0.82rem;
+  height: 0.06rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.55rem;
+}
+
+.X-shop3_two .X-right .X-lefts .X-top img:nth-child(3) {
+  width: 1.75rem;
+  height: 0.21rem;
+  position: absolute;
+  left: 0.25rem;
+  top: 0.7rem;
+}
+
+.X-shop3_three {
+  width: 100%;
+  height: 0.8rem;
+  margin-top: 0.4rem;
+  position: relative;
+  text-align: center;
+}
+
+.X-shop3_three img {
+  display: block;
+  width: 1.11rem;
+  height: 0.14rem;
+  margin-left: 3.2rem;
+}
+
+.X-shop3_three h1 {
+  font-size: 0.3rem;
+  color: #5D5D5D;
+}
+
+.X-shop3_three h2 {
+  font-size: 0.12rem;
+  color: #5D5D5D;
+}
+
+.X-shop3_three h2 span:nth-child(1) {
+  color: #9FC1F5;
+}
+
+.X-shop3_three h2 span:nth-child(2) {
+  color: #76ACF6;
+  font-weight: bold;
+}
+
+.X-shop3_three h2 span:nth-child(3) {
+  color: #9FC1F5;
+}
+
+ul.X-shop-ul {
+  width: 7.02rem;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+}
+
+ul.X-shop-ul li {
+  width: 7.02rem;
+  height: 1.5rem;
+  background: #FFF;
+  border-radius: 10px;
+  position: relative;
+}
+
+ul.X-shop-ul li:nth-child(1) {
+  margin-bottom: 0.15rem;
+}
+
+ul.X-shop-ul li .left {
+  width: 1.15rem;
+  height: 1.5rem;
+  float: left;
+  margin-left: 0.2rem;
+}
+
+ul.X-shop-ul li .left img {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-top: 0.2rem;
+}
+
+ul.X-shop-ul li .right {
+  width: 4.8rem;
+  height: 1.5rem;
+  float: left;
+}
+
+ul.X-shop-ull li .right .top {
+  width: 4.8rem;
+  height: 0.75rem;
+}
+
+ul.X-shop-ul li .right .top span {
+  font-size: 0.3rem;
+  float: left;
+  margin-top: 0.3rem;
+  color: #5D5D5D;
+}
+
+ul.X-shop-ul li .right .top img:nth-child(2) {
+  float: left;
+  width: 2.26rem;
+  height: 0.22rem;
+  margin-top: 0.45rem;
+}
+
+ul.X-shop-ul li .right .top img:nth-child(3) {
+  float: left;
+  width: 0.7rem;
+  height: 0.39rem;
+  margin-top: 0.3rem;
+}
+
+ul.X-shop-ul li .right .bottom {
+  width: 4.8rem;
+  height: 0.75rem;
+}
+
+ul.X-shop-ul li .right .bottom span {
+  font-size: 0.2rem;
+  color: #AAA9A9;
+  float: left;
+  margin-top: 0.1rem;
+}
+
+ul.X-shop-ul li .circle {
+  position: absolute;
+  left: 1.3rem;
+  top: 0.65rem;
+}
+
+.X-shop-four-one {
+  width: 5rem;
+  height: 0.4rem;
+  margin-left: 0.45rem;
+  margin-top: 0.3rem;
+  font-size: 0.3rem;
+  color: #666867;
+}
+
+.X-shop-four-two {
+  width: 100%;
+  height: 1.6rem;
+  margin-top: 0.2rem;
+}
+
+.X-shop-four-two .left {
+  width: 50%;
+  height: 1.6rem;
+  float: left;
+}
+
+.X-shop-four-two .left img {
+  width: 0.35rem;
+  height: 0.31rem;
+  display: block;
+  margin-left: 0.4rem;
+}
+
+.X-shop-four-two .left h1 {
+  font-size: 0.4rem;
+  color: #B4B4B4;
+  margin-left: 0.4rem;
+  margin-top: 0.1rem;
+}
+
+.X-shop-four-two .right {
+  width: 50%;
+  height: 1.6rem;
+  float: left;
+}
+
+.X-shop-four-two .right div:nth-child(1) {
+  width: 100%;
+  height: 1rem;
+}
+
+.X-shop-four-two .right div:nth-child(2) {
+  width: 100%;
+  height: 0.6rem;
+}
+
+.X-shop-four-two .right div img {
+  width: 0.97rem;
+  height: 0.97rem;
+  display: block;
+  float: right;
+  margin-right: 0.7rem;
+}
+
+.X-shop-four-two .right div h1 {
+  float: right;
+  font-size: 0.3rem;
+  color: #B4B4B4;
+  margin-right: 0.7rem;
+}
+
+.X-shop-four-three {
+  width: 100%;
+  height: 1.8rem;
+}
+
+.X-shop-four-three span:nth-child(1) {
+  font-size: 1.6rem;
+  color: #29E3B0;
+  float: left;
+  margin-left: 0.4rem;
+}
+
+.X-shop-four-three span:nth-child(2) {
+  font-size: 0.1rem;
+  color: #646665;
+  float: left;
+  margin-top: 1.25rem;
+  font-weight: bold;
+}
+
+.X-shop-four-three span:nth-child(3) {
+  font-size: 0.35rem;
+  color: #646665;
+  float: left;
+  margin-top: 1.15rem;
+  font-weight: bold;
+  margin-left: 0.05rem;
+}
+
+.X-shop-four-four {
+  width: 100%;
+  height: 5.93rem;
+}
+
+.X-shop-four-four .X-shop-four-four-rect {
+  width: 0.09rem;
+  height: 2.2rem;
+  float: left;
+  margin-top: 3rem;
+  margin-left: -1.8rem;
+}
+
+.X-shop-four-four .X-shop-four-four-rect div {
+  width: 0.09rem;
+  height: 0.38rem;
+  background: #A6EDE9;
+  margin-bottom: 0.06rem;
+}
+
+.X-shop-four-four .X-shop-four-four-rect div.rect {
+  width: 0.09rem;
+  height: 0.38rem;
+  background: #38E5DB;
+  margin-bottom: 0.06rem;
+}
+
+.X-shop-four-four .X-shop-four-four-imgs {
+  width: 5.19rem;
+  height: 5.93rem;
+  float: right;
+  position: relative;
+}
+
+.X-shop-four-four .X-shop-four-four-imgs img {
+  width: 5.19rem;
+  height: 5.93rem;
+  position: absolute;
+  right: 0rem;
+  top: 0;
+}
+
+.X-shop-five-one {
+  display: block;
+  width: 1.23rem;
+  height: 1.01rem;
+  margin-left: 3.13rem;
+  margin-top: 0.1rem;
+}
+
+.X-shop-five-two {
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #5D5D5D;
+}
+
+.X-shop-five-three {
+  display: block;
+  width: 4.63rem;
+  height: 0.3rem;
+  margin-left: 1.5rem;
+}
+
+.X-shop-five-four {
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+.X-shop-five-four span {
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  font-size: 0.3rem;
+  color: #A1A1A1;
+}
+
+.X-shop-five-four .X-circle-five {
+  width: 0.16rem;
+  height: 0.16rem;
+  background: #A0E3BD;
+  border-radius: 50%;
+  position: absolute;
+  left: 2.6rem;
+  top: 0.24rem;
+  margin-top: -0.07rem;
+}
+
+.X-shop-five-four .X-circle-five .X-circle-five-four {
+  width: 0.09rem;
+  height: 0.09rem;
+  background: #23CC6C;
+  border-radius: 50%;
+  margin-top: 0.035rem;
+  margin-left: 0.035rem;
+}
+
+.X-shop-five-five {
+  display: block;
+  width: 2.98rem;
+  height: 0.26rem;
+  margin-left: 2.25rem;
+}
+
+.X-shop-five-six {
+  width: 100%;
+  height: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.X-shop-five-six .top {
+  width: 100%;
+  height: 0.48rem;
+  text-align: center;
+}
+
+.X-shop-five-six .top span {
+  display: block;
+  font-size: 0.5rem;
+  color: #29E3B0;
+  font-weight: bold;
+}
+
+.X-shop-five-six .bottom {
+  width: 100%;
+  height: 0.4rem;
+}
+
+.X-shop-five-six .bottom span {
+  display: block;
+  float: left;
+  font-size: 0.12rem;
+  color: #3AE4B5;
+  margin-left: 3.7rem;
+  font-weight: bold;
+}
+
+.X-shop-five-seven {
+  display: block;
+  width: 5.41rem;
+  height: 4.61rem;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+.X-shop-six {
+  width: 4.3rem;
+  height: 4.8rem;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+
+.X-shop-six .X-shop-six-one {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.X-shop-six .X-shop-six-two {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  left: 1.95rem;
+  top: 0;
+}
+
+.X-shop-six .X-shop-six-three {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.X-shop-six .X-shop-six-four {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  left: 0;
+  top: 2.2rem;
+}
+
+.X-shop-six .X-shop-six-five {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  left: 1.95rem;
+  top: 2.2rem;
+}
+
+.X-shop-six .X-shop-six-six {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  right: 0;
+  top: 2.2rem;
+}
+
+.X-shop-six .X-shop-six-seven {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  left: 0;
+  top: 4.4rem;
+}
+
+.X-shop-six .X-shop-six-eight {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  left: 1.95rem;
+  top: 4.4rem;
+}
+
+.X-shop-six .X-shop-six-nine {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  border: 0.01rem solid #D5D5D5;
+  position: absolute;
+  right: 0;
+  top: 4.4rem;
+}
+
+.X-shop-seven-pasword {
+  width: 5.1rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  margin-top: 0.15rem;
+  position: relative;
+}
+
+.X-shop-seven-pasword form {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.X-shop-seven-pasword form input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: left;
+  position: relative;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all section:nth-child(1) {
+  margin-right: 0.3rem;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all section:nth-child(2) {
+  margin-right: 0.3rem;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all section:nth-child(3) {
+  margin-right: 0.3rem;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all section:nth-child(4) {
+  margin-right: 0.3rem;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all section:nth-child(5) {
+  margin-right: 0.3rem;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-rect {
+  width: 0.6rem;
+  height: 0.05rem;
+  background: #B3B3B3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-rects {
+  width: 0.6rem;
+  height: 0.05rem;
+  background: #23CC6C;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-circle {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 50%;
+  background: #23CC6C;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.05rem;
+  margin: auto;
+  display: none;
+}
+
+.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-circles {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 50%;
+  background: #23CC6C;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.05rem;
+  margin: auto;
+}
+
+.X-shop-eight-one {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.15rem;
+}
+
+.X-shop-eight-one img {
+  display: block;
+  width: 1.17rem;
+  height: 0.76rem;
+  margin: 0 auto;
+}
+
+.X-shop-eight-two {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.15rem;
+}
+
+.X-shop-eight-two img {
+  display: block;
+  width: 2.18rem;
+  height: 0.69rem;
+  margin: 0 auto;
+}
+
+.X-shop-eight-three {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.X-shop-eight-three h1 {
+  color: #A9A8A8;
+  font-size: 0.3rem;
+}
+
+.X-shop-eight-three img {
+  display: block;
+  width: 2.04rem;
+  height: 0.35rem;
+  margin-left: 2rem;
+}
+
+.X-shop-eight-four {
+  width: 3rem;
+  height: 1rem;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+}
+
+.X-shop-eight-four .left {
+  width: 50%;
+  height: 1rem;
+  float: left;
+}
+
+.X-shop-eight-four .left h1 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-shop-eight-four .left h1 span {
+  font-size: 0.12rem;
+  color: #3694F6;
+  float: right;
+  margin-right: 0.2rem;
+}
+
+.X-shop-eight-four .left img {
+  display: block;
+  width: 0.83rem;
+  height: 0.3rem;
+  float: right;
+  margin-right: 0.2rem;
+}
+
+.X-shop-eight-four .left h3 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-shop-eight-four .left h3 span {
+  font-size: 0.2rem;
+  color: #A1A0A0;
+  float: right;
+  margin-right: 0.2rem;
+  font-weight: normal;
+}
+
+.X-shop-eight-four .right {
+  width: 50%;
+  height: 1rem;
+  float: left;
+}
+
+.X-shop-eight-four .right h1 {
+  width: 100%;
+  height: auto;
+}
+
+.X-shop-eight-four .right h1 span {
+  float: left;
+  font-size: 0.8rem;
+  color: #1D89F7;
+  margin-top: -0.3rem;
+  font-family: "苹方";
+}
+
+.X-shop-eight-four .right img {
+  display: block;
+  width: 1.06rem;
+  height: 0.23rem;
+  float: left;
+  margin-left: 0.6rem;
+  margin-top: -0.2rem;
+}
+
+.X-shop-eight-five {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.X-shop-eight-five h1 {
+  color: #2E90F7;
+  font-size: 0.3rem;
+}
+
+.X-shop-eight-five img {
+  display: block;
+  width: 3.82rem;
+  height: 0.4rem;
+  margin: 0 auto;
+}
+
+.X-shop-eight-six {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.2rem;
+}
+
+.X-shop-eight-six a {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.X-shop-eight-six a img {
+  display: block;
+  width: 100%;
+  height: 2.65rem;
+  margin: 0 auto;
+}
+
+.X-shop-eight-seven {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.15rem;
+  text-align: center;
+}
+
+.X-shop-eight-seven a {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-shop-eight-seven a h1 {
+  color: #A6A6A6;
+  font-size: 0.3rem;
+}
+
+.X-shop-eight-seven a img {
+  display: block;
+  width: 2.03rem;
+  height: 0.34rem;
+  margin: 0 auto;
+}
+
+.X-shop-nine {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 1.69rem;
+  z-index: 10;
+}
+
+.X-shop-nine .X-shop-nine-div {
+  width: 7.5rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.X-shop-nine .X-shop-nine-div a {
+  display: block;
+  width: 7.5rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-shop-nine div:nth-child(1) img {
+  width: 100%;
+  height: 2.65rem;
+  display: block;
+}
+
+.X-shop-nine div:nth-child(2) img {
+  width: 100%;
+  height: 2.64rem;
+  display: block;
+}
+
+.X-shop-nine div:nth-child(3) img {
+  width: 100%;
+  display: block;
+}
+
+.X-shop-nine div:nth-child(4) img {
+  width: 100%;
+  height: 2.81rem;
+  display: block;
+}
+
+.X-header-medium-two-change {
+  width: 1.69rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+.X-change-remarks {
+  width: 100%;
+  height: 2.17rem;
+  overflow: hidden;
+}
+
+.X-change-remarks ul {
+  width: 7.02rem;
+  height: 2.17rem;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.8rem;
+  margin: auto;
+  z-index: 2;
+}
+
+.X-change-remarks ul li {
+  width: 7.02rem;
+  height: 2.17rem;
+  border-radius: 0;
+  background: #FFF;
+}
+
+.X-change-remarks ul li div.X-remarks {
+  width: 7.02rem;
+  height: 2.17rem;
+  font-size: 0.12rem;
+  color: #DBDBDB;
+}
+
+.X-change-remarks-imgs {
+  width: 2.64rem;
+  height: 0.97rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7.5rem;
+}
+
+.X-change-remarks-imgs a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.X-change-remarks-imgs a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.X-header-medium-two-move {
+  width: 1.29rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+.X-move {
+  width: 7.02rem;
+  height: 1rem;
+  font-size: 0.12rem;
+  color: #DBDBDB;
+  overflow: hidden;
+  position: relative;
+}
+
+.X-move h1 {
+  margin-left: 0.24rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.1rem;
+}
+
+.X-move h1 span {
+  font-size: 0.18rem;
+  color: #797979;
+}
+
+.X-move h2 {
+  margin-left: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.X-move h2 span {
+  font-size: 0.12rem;
+  color: #C0C0C0;
+}
+
+.X-move img {
+  width: 0.48rem;
+  height: 0.06rem;
+  position: absolute;
+  left: 0.24rem;
+  top: 0.53rem;
+}
+
+.X-header-medium-two-history {
+  width: 2.15rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+.X-history {
+  width: 7.02rem;
+  height: 1rem;
+  font-size: 0.12rem;
+  color: #DBDBDB;
+  overflow: hidden;
+}
+
+.X-history h1 {
+  margin-left: 0.24rem;
+  margin-top: 0.15rem;
+}
+
+.X-history h1 span {
+  font-size: 0.12rem;
+  color: #797979;
+  font-family: normal;
+}
+
+.X-history .X-history-imgs {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-left: 0.24rem;
+  margin-top: 0.15rem;
+}
+
+.X-history .X-history-imgs img {
+  display: block;
+  width: 1.60rem;
+  height: 0.24rem;
+}
+
+.X-history .X-history-two {
+  display: block;
+  width: 0.48rem;
+  height: 0.06rem;
+  position: absolute;
+  left: 0.24rem;
+  top: 0.53rem;
+}
+
+.X-header-medium-two-personal {
+  width: 1.98rem;
+  height: 0.21rem;
+  overflow: hidden;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+.X-personal {
+  width: 2.2rem;
+  height: 3.6rem;
+  float: left;
+  position: relative;
+}
+
+.X-personal .X-personal-one {
+  width: 2.2rem;
+  height: 100%;
+}
+
+.X-personal .X-personal-two {
+  width: 1.6rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+.X-personal .X-personal-three {
+  width: 0.37rem;
+  height: 0.37rem;
+  position: absolute;
+  right: 0.17rem;
+  top: 1.97rem;
+}
+
+.X-personal .X-personal-section {
+  width: 100%;
+  height: 1.36rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2rem;
+  margin: auto;
+}
+
+.X-personal .X-personal-section .X-personal-div-one {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal .X-personal-section .X-personal-div-one span {
+  float: left;
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #30393F;
+  margin-top: 0.2rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-one span:nth-child(1) {
+  margin-left: 0.14rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-one img {
+  float: left;
+  width: 0.12rem;
+  height: 0.13rem;
+  margin-top: 0.3rem;
+  margin-left: 0.05rem;
+  margin-right: 0.05rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-two {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal .X-personal-section .X-personal-div-two img {
+  display: block;
+  width: 0.82rem;
+  height: 0.06rem;
+  margin-left: 0.14rem;
+  margin-top: 0.04rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-two span {
+  float: left;
+  font-size: 0.12rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-two span:nth-child(2) {
+  margin-left: 0.14rem;
+  color: #7B8085;
+}
+
+.X-personal .X-personal-section .X-personal-div-two span:nth-child(3) {
+  margin-left: 0.05rem;
+  color: #585E63;
+  font-weight: bold;
+}
+
+.X-personal .X-personal-section .X-personal-div-three {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.04rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-three img {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  float: left;
+}
+
+.X-personal .X-personal-section .X-personal-div-three img:nth-child(1) {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  float: left;
+  margin-left: 0.14rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-four {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal .X-personal-section .X-personal-div-four span:nth-child(2) {
+  display: block;
+  width: 0.56rem;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  font-size: 0.12rem;
+  color: #CED0D1;
+  margin-top: 0.05rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-four span:nth-child(4) {
+  display: block;
+  width: 0.7rem;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  font-size: 0.12rem;
+  color: #CED0D1;
+  margin-top: 0.05rem;
+}
+
+.X-personal .X-personal-section .X-personal-div-four img {
+  display: block;
+  width: 0.45rem;
+  height: 0.4rem;
+  float: left;
+}
+
+header.X-personal-header {
+  width: 7.5rem;
+  height: 8rem;
+}
+
+header.X-personal-header .X-header-personal {
+  width: 7.5rem;
+  height: 8rem;
+}
+
+header.X-personal-header .X-header-color {
+  width: 100%;
+  height: 2.2rem;
+  background: transparent;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+header.X-personal-header .X-header-color .X-right-personal {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header.X-personal-header .X-header-color .X-right-personal a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header.X-personal-header .X-header-color .X-right-personal a .X-right-personal-center {
+  display: block;
+  width: 0.64rem;
+  height: 0.62rem;
+}
+
+.X-header-medium-two-center {
+  width: 1.59rem;
+  height: 0.23rem;
+  overflow: hidden;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+.X-personal-main-one {
+  height: 2.5rem;
+  width: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0.3rem;
+  top: 1.65rem;
+}
+
+.X-personal-main-one .X-personal-main-photo {
+  float: left;
+  display: block;
+  width: 1.98rem;
+  height: 2.2rem;
+}
+
+.X-personal-main-one .X-personal-main-star {
+  float: left;
+  margin-top: 1.5rem;
+}
+
+.X-personal-main-one .X-personal-main-star img {
+  float: left;
+  display: block;
+  width: 0.28rem;
+  height: 0.29rem;
+  margin-right: 0.05rem;
+}
+
+.X-personal-main-two {
+  width: 7.02rem;
+  height: 1.2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  margin: auto;
+}
+
+.X-personal-main-two .X-section-li {
+  width: 2rem;
+  height: 1.2rem;
+  float: left;
+  margin-left: 0.24rem;
+}
+
+.X-personal-main-two .X-section-li .X-left {
+  width: 0.8rem;
+  height: 1.2rem;
+  float: left;
+}
+
+.X-personal-main-two .X-section-li .X-left img {
+  width: 0.77rem;
+  height: 0.79rem;
+}
+
+.X-personal-main-two .X-section-li .X-med {
+  width: 1rem;
+  height: 1.2rem;
+  float: left;
+}
+
+.X-personal-main-two .X-section-li .X-med h1 {
+  font-size: 0.12rem;
+  margin-top: 0.15rem;
+  color: #838181;
+}
+
+.X-personal-main-two .X-section-li .X-med img {
+  display: block;
+  width: 1.1rem;
+  height: 0.14rem;
+  margin-top: 0.05rem;
+}
+
+.X-personal-main-two .X-section-li .X-med h3 {
+  font-size: 0.12rem;
+  color: #FFA854;
+}
+
+.X-personal-main-two .X-section-li .X-right {
+  width: 0.2rem;
+  height: 1.2rem;
+  float: left;
+}
+
+.X-personal-main-two .X-section-li .X-right img {
+  width: 0.22rem;
+  height: 0.58rem;
+  margin-left: 0.2rem;
+}
+
+.X-personal-main-medium {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+.X-personal-main-three {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.X-personal-main-three .X-personal-three-li {
+  width: 7.02rem;
+  height: 0.8rem;
+  background: #FFF;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top {
+  width: 7.02rem;
+  height: 0.5rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top .X-personal-one {
+  float: left;
+  width: 0.49rem;
+  height: 0.44rem;
+  margin-left: 0.24rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top span {
+  float: left;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top span:nth-child(2) {
+  font-size: 0.32rem;
+  color: #AAA9A9;
+  margin-left: 0.2rem;
+  margin-top: 0.05rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top span:nth-child(3) {
+  font-size: 0.12rem;
+  color: #FFCCA1;
+  margin-left: 0.24rem;
+  margin-top: 0.2rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top .X-personal-two {
+  float: right;
+  width: 0.9rem;
+  height: 0.48rem;
+  margin-right: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-bottom {
+  width: 7.02rem;
+  height: 0.3rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-bottom img {
+  display: block;
+  width: 7.02rem;
+  height: 0.25rem;
+  float: left;
+  margin-top: -0.05rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top .X-personal-six {
+  float: right;
+  width: 0.44rem;
+  height: 0.41rem;
+  margin-right: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top .X-personal-three {
+  float: left;
+  width: 0.49rem;
+  height: 0.33rem;
+  margin-left: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top .X-personal-four {
+  float: left;
+  width: 0.47rem;
+  height: 0.53rem;
+  margin-left: 0.24rem;
+  margin-top: 0rem;
+}
+
+.X-personal-main-three .X-personal-three-li .X-top .X-personal-five {
+  float: left;
+  width: 0.48rem;
+  height: 0.37rem;
+  margin-left: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.X-personal-main-four {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.2rem;
+  margin-bottom: 1.16rem;
+}
+
+.X-personal-main-four .X-title {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.X-personal-main-four .X-title a {
+  width: 7.02rem;
+  height: 0.6rem;
+}
+
+.X-personal-main-four .X-title .X-title-left {
+  float: left;
+}
+
+.X-personal-main-four .X-title .X-title-left span {
+  font-size: 0.3rem;
+  float: left;
+  color: #6F6F6F;
+  font-weight: bold;
+}
+
+.X-personal-main-four .X-title .X-title-left span:nth-child(1) {
+  margin-left: 0.24rem;
+}
+
+.X-personal-main-four .X-title .X-title-left img {
+  display: block;
+  float: left;
+  width: 0.13rem;
+  height: 0.13rem;
+  margin-top: 0.15rem;
+  margin-left: 0.02rem;
+  margin-right: 0.02rem;
+}
+
+.X-personal-main-four .X-title .X-title-med {
+  float: left;
+}
+
+.X-personal-main-four .X-title .X-title-med span:nth-child(1) {
+  float: left;
+  font-size: 0.12rem;
+  color: #9DD1FA;
+  margin-left: 0.2rem;
+  margin-top: 0.15rem;
+}
+
+.X-personal-main-four .X-title .X-title-med span:nth-child(2) {
+  float: left;
+  font-size: 0.24rem;
+  color: #90CBFA;
+  font-weight: bold;
+  margin-left: 0.1rem;
+  margin-top: 0.14rem;
+}
+
+.X-personal-main-four .X-title .X-title-right {
+  float: right;
+  width: 0.67rem;
+  height: 0.6rem;
+}
+
+.X-personal-main-four .X-title .X-title-right img {
+  display: block;
+  width: 0.67rem;
+  height: 0.27rem;
+  margin-top: 0.12rem;
+}
+
+.X-personal-main-four .X-content {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal-main-four .X-content ul {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal-main-four .X-content ul li {
+  width: 7.02rem;
+  height: 3.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal {
+  width: 2.2rem;
+  height: 3.6rem;
+  float: left;
+  position: relative;
+}
+
+.X-personal-main-four .X-content ul li > div:nth-child(1) {
+  margin-right: 0.21rem;
+}
+
+.X-personal-main-four .X-content ul li > div:nth-child(2) {
+  margin-right: 0.21rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-one {
+  width: 2.2rem;
+  height: 100%;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-two {
+  width: 1.6rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-three {
+  width: 0.37rem;
+  height: 0.37rem;
+  position: absolute;
+  right: 0.17rem;
+  top: 1.97rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section {
+  width: 100%;
+  height: 1.36rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2rem;
+  margin: auto;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-one {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-one span {
+  float: left;
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #30393F;
+  margin-top: 0.2rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-one span:nth-child(1) {
+  margin-left: 0.14rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-one img {
+  float: left;
+  width: 0.12rem;
+  height: 0.13rem;
+  margin-top: 0.3rem;
+  margin-left: 0.05rem;
+  margin-right: 0.05rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-two {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-two img {
+  display: block;
+  width: 0.82rem;
+  height: 0.06rem;
+  margin-left: 0.14rem;
+  margin-top: 0.04rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-two span {
+  float: left;
+  font-size: 0.12rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-two span:nth-child(2) {
+  margin-left: 0.14rem;
+  color: #7B8085;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-two span:nth-child(3) {
+  margin-left: 0.05rem;
+  color: #585E63;
+  font-weight: bold;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-three {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0.04rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-three img {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  float: left;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-three img:nth-child(1) {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  float: left;
+  margin-left: 0.14rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-four {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-four span:nth-child(2) {
+  display: block;
+  width: 0.56rem;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  font-size: 0.12rem;
+  color: #CED0D1;
+  margin-top: 0.05rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-four span:nth-child(4) {
+  display: block;
+  width: 0.7rem;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  font-size: 0.12rem;
+  color: #CED0D1;
+  margin-top: 0.05rem;
+}
+
+.X-personal-main-four .X-content ul li .X-personal .X-personal-section .X-personal-div-four img {
+  display: block;
+  width: 0.45rem;
+  height: 0.4rem;
+  float: left;
+}
+
+.X-personal-center-footers {
+  width: 100%;
+  height: 1.16rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.X-personal-center-footers .X-footer-main-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.X-personal-center-footers .X-bottom {
+  width: 100%;
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.X-personal-center-footers .X-bottom .X-bottom-li {
+  width: 25%;
+  height: 1rem;
+  text-align: center;
+  float: left;
+}
+
+.X-personal-center-footers .X-bottom .X-bottom-li .X-left {
+  width: 60%;
+  height: 1rem;
+}
+
+.X-personal-center-footers .X-bottom .X-bottom-li .X-left img {
+  display: block;
+}
+
+.X-personal-center-footers .X-bottom .X-bottom-li .X-left span {
+  display: block;
+  font-size: 0.12rem;
+  color: #7D878F;
+  margin-left: 0.2rem;
+}
+
+.X-personal-center-footers .X-bottom .X-bottom-li .X-right {
+  width: 40%;
+  height: 1rem;
+}
+
+.X-personal-center-footers .X-bottom section:nth-child(1) .X-left img {
+  display: block;
+  width: 0.84rem;
+  height: 0.64rem;
+  margin-left: 0.3rem;
+}
+
+.X-personal-center-footers .X-bottom section:nth-child(2) .X-left img {
+  display: block;
+  width: 0.67rem;
+  height: 0.64rem;
+  margin-left: 0.35rem;
+}
+
+.X-personal-center-footers .X-bottom section:nth-child(3) .X-left img {
+  display: block;
+  width: 0.88rem;
+  height: 0.64rem;
+  margin-left: 0.24rem;
+}
+
+.X-personal-center-footers .X-bottom section:nth-child(4) .X-left img {
+  display: block;
+  width: 0.7rem;
+  height: 0.64rem;
+  margin-left: 0.35rem;
+}
+
+header.X-friend-personal-header {
+  width: 7.5rem;
+  height: 100%;
+}
+
+header.X-friend-personal-header .X-header-personal {
+  display: block;
+  width: 7.5rem;
+  height: 100%;
+}
+
+header.X-friend-personal-header .X-header-color {
+  width: 100%;
+  height: 2.2rem;
+  background: transparent;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+header.X-friend-personal-header .X-header-color .X-right-personal {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header.X-friend-personal-header .X-header-color .X-right-personal a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header.X-friend-personal-header .X-header-color .X-right-personal a .X-right-personal-center {
+  display: block;
+  width: 0.64rem;
+  height: 0.62rem;
+}
+
+.X-friend-personal-main-one {
+  height: 2.5rem;
+  width: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0.3rem;
+  top: 1.65rem;
+}
+
+.X-friend-personal-main-one .X-left {
+  float: left;
+  width: 1.96rem;
+  height: 2.07rem;
+}
+
+.X-friend-personal-main-one .X-left .X-personal-main-photo {
+  display: block;
+  width: 1.96rem;
+  height: 2.07rem;
+}
+
+.X-friend-personal-main-one .X-right {
+  float: left;
+  width: 2rem;
+  height: 1.8rem;
+}
+
+.X-friend-personal-main-one .X-right h1 {
+  font-size: 0.12rem;
+  color: #38E5DB;
+  margin-top: 0.35rem;
+  margin-left: 0.24rem;
+}
+
+.X-friend-personal-main-one .X-right .X-point {
+  display: block;
+  width: 1.33rem;
+  height: 0.14rem;
+  margin-left: 0.24rem;
+  margin-top: 0.01rem;
+  margin-bottom: 0.01rem;
+}
+
+.X-friend-personal-main-one .X-right h2 {
+  font-size: 0.12rem;
+  color: #FFF;
+  margin-left: 0.24rem;
+  font-weight: normal;
+  margin-bottom: 0.02rem;
+}
+
+.X-friend-personal-main-one .X-right .X-personal-main-star {
+  width: 2rem;
+  height: 0.3rem;
+  margin-left: 0.24rem;
+}
+
+.X-friend-personal-main-one .X-right .X-personal-main-star img {
+  float: left;
+  display: block;
+  width: 0.28rem;
+  height: 0.29rem;
+  margin-right: 0.05rem;
+}
+
+.X-friend-personal-main-three {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8.3rem;
+  margin: auto;
+}
+
+.X-friend-personal-main-three .X-personal-three-li {
+  width: 7.02rem;
+  height: 0.8rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top {
+  width: 7.02rem;
+  height: 0.5rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top .X-personal-one {
+  float: left;
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-left: 0.24rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top span {
+  float: left;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top span:nth-child(2) {
+  font-size: 0.32rem;
+  color: #AAA9A9;
+  margin-left: 0.2rem;
+  margin-top: 0.05rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top span:nth-child(3) {
+  font-size: 0.12rem;
+  color: #FFCCA1;
+  margin-left: 0.24rem;
+  margin-top: 0.2rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-bottom {
+  width: 7.02rem;
+  height: 0.3rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-bottom img {
+  display: block;
+  width: 7.02rem;
+  height: 0.25rem;
+  float: left;
+  margin-top: -0.05rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top .X-personal-six {
+  float: right;
+  width: 0.44rem;
+  height: 0.41rem;
+  margin-right: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top .X-personal-three {
+  float: left;
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-left: 0.24rem;
+  margin-top: 0rem;
+}
+
+.X-friend-personal-main-three .X-personal-three-li .X-top .X-personal-four {
+  float: left;
+  width: 0.48rem;
+  height: 0.42rem;
+  margin-left: 0.24rem;
+  margin-top: 0rem;
+}
+
+.X-friend-personal-main-four {
+  width: 7.02rem;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.62rem;
+  margin: auto;
+}
+
+.X-friend-personal-main-four img {
+  display: block;
+  width: 2.87rem;
+  height: 1.05rem;
+  margin: 0 auto;
+}

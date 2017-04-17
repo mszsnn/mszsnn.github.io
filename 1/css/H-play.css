@@ -1,0 +1,200 @@
+a,button,input{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+body{
+    -webkit-user-select:none;
+    -webkit-text-size-adjust:100%;
+    -webkit-overflow-scrolling:touch;
+    background: #ECECEC;
+}
+*{
+    font-family: "helvetica";
+    max-height:9999999px;
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-size:0.12rem;
+}
+a{
+    text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+}
+
+header > div {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+header div .H-shop{
+	display: block;
+	font-size: 0.34rem;
+	margin-top: 0.45rem;
+	padding-left: -0.2rem;
+	color: #fff;
+}
+header > div .H-left-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header > div .H-left-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .H-left-section a .H-header-left {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+header > div .H-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: 0rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header > div .H-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .H-header-medium-two-two {
+  width: 2.05rem;
+  height: 0.28rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .H-header-medium-two-three {
+  width: 1.62rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+.H-picture{
+	width: 100%;
+	height: 6.5rem;
+	background:#1D89F7;
+	position: relative;
+}
+.H-picture img.H-picture-title{
+	display: block;
+	margin: 0 auto;
+	width: 0.8rem;
+}
+.H-picture img.H-play{
+	width: 3.18rem;
+	height: 3.18rem;
+	margin-top: 0.7rem;
+	margin-left: 3.35rem;
+}
+.H-picture img.H-play-top{
+	height: 3.8rem;
+	position: absolute;
+	left: 0.98rem;
+	top:0.63rem;
+	z-index: 2;
+}
+.H-picture img.H-note{
+	display: block;
+	width: 5.8rem;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+}
+
+.H-song p{
+	width: 100%;
+	text-align: center;
+}
+.H-song p.H-song-name{
+	font-size: 0.36rem;
+	margin-top: 0.2rem;
+	font-weight: 700;
+	color: #333;
+}
+.H-song p.H-song-author{
+	color: #313136;
+	margin-top: 0.05rem;
+}
+.H-song p.H-song-title{
+	font-size: 0.32rem;
+	color: #6E6C6C;
+	margin-top: 0.1rem;
+}
+.H-song .H-icon{
+	height: 1.8rem;
+	margin-top: 0.4rem;
+}
+.H-song .H-icon img{
+	display: block;
+	float: left;
+}
+.H-song img.H-icon-left,.H-song img.H-icon-right{
+	width: 1.2rem;
+	margin-top: 0.2rem;
+}
+.H-song img.H-icon-left{
+	margin-left: 1.4rem;
+}
+
+.H-song img.H-icon-center{
+	width: 1.5rem;
+	margin-left: 0.3rem;
+}
+.H-song img.H-icon-menu{
+	width: 0.8rem;
+	margin-top: 0.45rem;
+	margin-left: 0.3rem;
+}
+
+.H-volume .H-horn{
+	width: 0.5rem;
+	margin-left: 0.6rem;
+}
+.H-volume .H-volume-bottom{
+	width: 5.6rem;
+	height: 0.3rem;
+	float: right;
+	margin-right: 0.6rem;
+	background: #fff;
+	border-radius: 0.3rem;
+	position: relative;
+}
+.H-volume .H-volume-top{
+	width: 3.4rem;
+	height: 0.3rem;
+	background: #000;
+	border-radius: 0.3rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

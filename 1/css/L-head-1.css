@@ -1,0 +1,56 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+.box{
+	width:100%;
+	height:100%;
+	position:relative;
+	background-image:url(../img/L-img/10.png);
+	background-size:100% 100%;
+}
+ul{
+	width:6.48rem;
+	height:8.51rem;
+	box-sizing:border-box;
+	padding:0.2rem  0.4rem;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+ul>li:nth-child(-n+2){
+	width:100%;
+	height:auto;
+}
+ul>li:first-child{
+	margin-bottom:0.4rem;
+}
+ul>li:nth-child(3){
+	width:3.38rem;
+	height:3.42rem;
+	margin:0.8rem auto;
+}
+ul>li:last-child{
+	width:100%;
+	height:1rem;
+}
+ul>li:last-child>a:first-child{
+	float:left;
+	width:auto;
+	height:1rem;
+	display:block;
+}
+ul>li:last-child>a:last-child{
+	float:right;
+	width:auto;
+	height:1rem;
+	display:block;
+}
+ul>li>img{
+	width:100%;
+	display:block;
+}
+ul>li:last-child>a>img{
+	height:100%;
+	display:block;
+}

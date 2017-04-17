@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>兴趣爱好</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<link rel="stylesheet" type="text/css" href="../common/css/common.css"/>
+		<link rel="stylesheet" href="../css/D-hobby.css" />
+		<script type="text/javascript" src="../common/js/common.js"></script>
+		<script src="../common/js/jquery.min.js"></script>
+		<script src="../js/iscroll.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/css/swiper.min.css"/>
+		<script type="text/javascript" src="../js/swiper.min.js"></script>
+	</head>
+	<style>
+.H-main-banner {
+  padding-top: 0.3rem;
+  height: 5.2rem;
+  background: #1D89F7;
+  background-image: url("../img/H-img/head/H-main-bg-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 7.5rem;
+}
+
+.H-banner-background-img {
+  background-image: url(../img/H-img/banner/7.png);
+  background-size: 6.31rem;
+  width: 6.31rem;
+  height: 0.45rem;
+  position: absolute;
+  top: -0.24rem;
+  left: 0.7rem;
+  z-index: 8;
+}
+
+.H-banner-box {
+  width: 6.4rem;
+  height: 5.2rem;
+  position: relative;
+  padding-left: 0.75rem;
+  overflow: hidden;
+  top: 0.2rem;
+}
+
+.H-banner-dian-box {
+  width: 0.94rem;
+  height: 0.2rem;
+  border-radius: 0.1rem;
+  background: rgba(54, 155, 227, 0.8);
+  position: absolute;
+  left: 50%;
+  top: 3.4rem;
+  margin-left: 0rem;
+  line-height:0rem;
+  z-index: 30;
+}
+.H-banner-dian-box > span{
+	display: block;
+	margin-left: 0.1rem;
+	margin-top: 0.02rem;
+	float: left;
+	background: #FFFFFF;
+}
+.H-banner-dian-box > li {
+  width: 0.08rem;
+  height: 0.08rem;
+  border-radius: 0.04rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  float: left;
+  margin-left: 0.06rem;
+  margin-top: 0.06rem;
+ 
+}
+
+.H-banner-dian-box > li.H-active {
+  width: 0.24rem;
+}
+
+.H-banner-1 {
+  display: block;
+  width: 6.4rem;
+  height: 3.98rem;
+  background-image: url("../img/H-img/banner/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 6.4rem;
+  margin-top: 0.2rem;
+  /*position: absolute;
+  top: 0.2rem;
+  left: 0.6rem;
+  z-index: 10;*/
+}
+
+.H-banner-cover {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+
+  height: 0.52rem;
+  border-radius: 3px 3px;
+}
+.H-swiper-box{
+	width: 300%;
+	height: 100%;
+	overflow: hidden;
+}
+.H-banner-head {
+  background-image: url("../img/H-img/banner/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.39rem;
+  width: 1.39rem;
+  height: 0.37rem;
+  float: left;
+  margin-top: 0.06rem;
+  margin-left: 0.1rem;
+}
+
+.H-banner-explain-box {
+  width: 5.56rem;
+  height: 1.63rem;
+  position: absolute;
+  top: 3.34rem;
+  left: 0.9rem;
+  overflow: hidden;
+  z-index: 20;
+  background: url(../img/H-img/banner/4.png);
+  background-size: 5.56rem;
+  background-repeat: no-repeat;
+}
+
+.H-banner-explain-img {
+  width: 1.22rem;
+  height: 1.63rem;
+  float: left;
+  background: url(../img/H-img/banner/3.png);
+  background-size: 1.22rem;
+  background-position-x: 0.02rem;
+  background-repeat: no-repeat;
+}
+
+.H-banner-explain-text {
+  width: 4.34rem;
+  height: 1.20rem;
+  overflow: hidden;
+  margin-top: 0.4rem;
+  margin-left: 1.4rem;
+  position: relative;
+}
+
+.H-banner-explain-text p {
+  color: #369be3;
+  font-weight: 600;
+  font-size: 0.24rem;
+  font-family: "San Francisco Display";
+}
+
+.H-banner-explain-text h5 {
+  color: #2e363c;
+  font-size: 0.22rem;
+  font-weight: 400;
+}
+
+.H-banner-icon-1, .H-banner-icon-2 {
+  width: 1.4rem;
+  height: 0.56rem;
+  background: url(../img/H-img/banner/5.png);
+  background-size: 0.56rem;
+  float: left;
+  background-repeat: no-repeat;
+  margin-left: -0.08rem;
+  margin-top: -0.08rem;
+  position: relative;
+}
+
+.H-banner-icon-2 {
+  margin-left: 0.2rem;
+  background-image: url(../img/H-img/banner/6.png);
+}
+
+.H-banner-shu {
+  color: #e6e6e6;
+  font-size: 12px;
+  position: absolute;
+  top: 0.14rem;
+  left: 1.4rem;
+}
+
+.H-banner-icon-1 h6, .H-banner-icon-2 h6 {
+  font-size: 12px;
+  font-weight: 100;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.12rem;
+}
+#wrapper {
+	position: absolute;
+	left:0;
+	top:1.6rem;
+	width: 100%;
+	height: 10.4rem;
+	overflow: hidden;
+}
+#scroller{
+	position:absolute;
+	width:100%;
+	overflow: hidden;
+}
+.D-box{
+	width:100%;
+	height:4.7rem;
+	display: none;
+}
+.D-xian{
+	display: block;
+}
+	</style>
+	<script>
+		var myScroll;
+		window.onload=function(){			
+			myScroll=new IScroll("#wrapper", {
+				scrollbars: false,
+				mouseWheel: true,
+				interactiveScrollbars: true,
+				shrinkScrollbars: 'clip',
+				fadeScrollbars: true,
+				resizeScrollbars:true,
+				click:true
+			});
+			$(".D-nav > ul").each(function(index){
+				$(this).click(function(){
+					console.log(index)
+					$(".D-nav > ul").removeClass();
+					$(this).addClass("D-first");
+					$('.D-box').removeClass("D-xian").eq(index).addClass("D-xian")
+				})
+			})
+		}
+	</script>
+	<body>
+		<!--头部-->
+		<header style="position: fixed;">
+			<div class="H-top-title"></div>
+			<div class="H-top-box-1">
+				<a href="X-personal-center.html" class="H-head-img"></a>
+				<div class="H-head-text-box">
+					<div class="H-head-text-logo"></div>
+					<div class="H-head-text">
+						<div class="H-head-dian-1"></div>
+						<div class="H-head-text-title">摸书</div>
+						<div class="H-head-dian-2"></div>
+					</div>
+				</div>
+				<div class="H-head-paly"><a href="H-play.html"></a></div>
+				<div class="H-head-list"><a href="D-comment.html"></a></div>
+			</div>
+		</header>
+		<!--banner开始-->
+		<div id="wrapper">
+			<div id="scroller">
+			<div class="H-main-banner">
+					<div class="H-banner-box">
+						<!--轮播点-->
+						<ul class="H-banner-dian-box">
+						</ul>
+						<div class="H-banner-background-img"></div>
+						<div class="H-swiper-box">
+							<div class="swiper-wrapper">
+								<a href="" class="H-banner-1 swiper-slide">
+									<div class="H-banner-cover">
+										<div class="H-banner-head"></div>
+									</div>
+								</a>
+								<a href="" class="H-banner-1 H-banner-active-2 swiper-slide">
+									<div class="H-banner-cover">
+										<div class="H-banner-head"></div>
+									</div>
+								</a>
+								<a href="" class="H-banner-1 swiper-slide">
+									<div class="H-banner-cover">
+										<div class="H-banner-head"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+							
+						<div class="H-banner-explain-box">
+							<div class="H-banner-explain-img"></div>
+							<div class="H-banner-explain-text">
+								<p>WORLD<span class="span-1">LOST</span> <span class="span-2">TAIZAI.ZHI</span></p>
+								<h5>主角从青少年到中年为了逃避现实</h5>
+								<div class="H-banner-icon-1">
+									<h6>3260</h6>
+									<span class="H-banner-shu">|</span>
+								</div>
+								<div class="H-banner-icon-2">
+									<h6>3260</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+			<div class="H-main-body">
+				<div class="H-search-box">
+					<div class="H-search-dian"></div>
+					<img src="../img/H-img/H-search-icon.png" class="H-search-icon"/>
+					<input type="text" placeholder="Search" name="search" id="H-search" value="" />
+					<div class="H-search-yy"></div>
+				</div>				
+			</div>
+		</div>
+		<!--导航-->
+		<div class="D-nav">
+			<ul class="D-first">
+				<li>
+					<div><span></span></div>
+					<div>最新动态</div>
+					<div><span></span></div>
+				</li>
+				<li>THELATEST</li>
+				<li></li>
+			</ul>
+			<ul>
+				<li>
+					<div><span></span></div>
+					<div>最近浏览</div>
+					<div><span></span></div>
+				</li>
+				<li>RECENTB</li>
+				<li></li>
+			</ul>
+			<ul>
+				<li>
+					<div><span></span></div>
+					<div>我发表的</div>
+					<div><span></span></div>
+				</li>
+				<li>IPUBLISHED</li>
+				<li></li>
+			</ul>
+			<ul>
+				<li>
+					<div><span></span></div>
+					<div>我的兴趣</div>
+					<div><span></span></div>
+				</li>
+				<li>MYINTEREST</li>
+			</ul>
+		</div>
+		<div class="D-tiao"></div>
+		
+				<div class="D-box D-xian">
+					<div class="H-renqi-main-box">
+						<div class="H-renqi-hot"></div>
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">三毛</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">JIHU.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="D-box">
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="D-box">
+					<div class="H-renqi-main-box">
+						<div class="H-renqi-hot"></div>
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="D-box">
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+					<div class="H-renqi-main-box">
+						<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+						<div class="H-renqi-titleBox">
+							<span class="title-1">间失格</span>
+							<span class="title-2">WORLDLOST</span>
+							<span class="title-3"></span>
+						</div>
+						<div class="H-renqi-data">
+							<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+							<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+							<div class="H-renqi-data-img"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!--底部-->
+		<footer style="position: fixed;">
+			<a href="H-main-1.html" class="H-bottom-1"></a>
+			<div class="H-bottom-line"></div>
+			<div class="H-bottom-2"><a href="W-xiaoyuan.html"></a></div>
+			<div class="H-bottom-line"></div>
+			<div class="H-bottom-3"><a href="D-hobby.html"></a></div>
+			<div class="H-bottom-line"></div>
+			<a href="X-personal-center.html" class="H-bottom-4"></a>
+		</footer>
+	</body>
+	<script>
+	var swiper = new Swiper('.H-swiper-box', {
+        pagination: '.H-banner-dian-box',
+//      paginationClickable: false,
+        spaceBetween:20	,
+        
+    });
+	</script>
+</html>

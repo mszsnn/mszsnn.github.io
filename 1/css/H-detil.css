@@ -1,0 +1,281 @@
+body{
+	background: #F2F2F2;
+}
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  position: relative;
+}
+
+header .X-header-left {
+  width: 0.64rem;
+  width: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header .X-header-right {
+  width: 0.64rem;
+  width: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header .X-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header .X-shop {
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+}
+
+.H-detil-bannerbox {
+  width: 100%;
+  height: 4.78rem;
+  background: url(../img/H-img/H-book-bg.png);
+  background-size: 7.51rem;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.H-detil-banner-img {
+  width: 5.54rem;
+  height: 4.08rem;
+  background-image: url(../img/H-img/H-detil-1.png);
+  background-size: 5.54rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -0.2rem;
+  left: 50%;
+  margin-left: -2.74rem;
+}
+
+.H-detil-bannerbox-2 {
+  width: 5.54rem;
+  height: 0.84rem;
+  position: absolute;
+  top: 6.08rem;
+  left: 50%;
+  margin-left: -2.74rem;
+}
+
+.H-detil-banner-detil {
+  background-image: url(../img/H-img/H-detil-detil.png);
+  background-size: 5.54rem;
+  background-repeat: no-repeat;
+  width: 5.54rem;
+  height: 0.84rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.H-detil-text-box {
+  width: 100%;
+  height: 5.2rem;
+  background-color: #F2F2F2;
+}
+
+.H-detil-text-title {
+  background-size: 7.5rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/H-img/H-detil-title.png);
+  width: 7.5rem;
+  height: 0.9rem;
+}
+
+.H-startBox {
+  width: 4.9rem;
+  text-align: center;
+  height: 0.34rem;
+  line-height: 0rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 2.6rem;
+}
+
+.H-startBox span {
+  display: inline-block;
+  width: 0.35rem;
+  height: 0.34rem;
+  background-image: url(../img/H-img/H-xing.png);
+  background-size: 0.35rem;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 0.1rem;
+}
+
+.H-detil-author {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.26rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.H-detil-author span {
+  float: left;
+  margin-top: 0.08rem;
+}
+
+.H-detil-author .H-1 {
+  background-image: url(../img/H-img/icon/1.png);
+  background-size: 0.22rem;
+  background-repeat: no-repeat;
+  font-size: 0.12rem;
+  padding-left: 0.2rem;
+  display: inline-block;
+  width: 0.48rem;
+  height: 0.26rem;
+  margin-left: 2.9rem;
+}
+
+.H-detil-author .H-2 {
+  display: inline-block;
+  font-size: 0.12rem;
+  font-weight: bold;
+}
+
+.H-detil-number {
+  width: 100%;
+  height: 0.4rem;
+  background-image: url(../img/H-img/H-detil-number.png);
+  background-size: 7.51rem;
+  background-repeat: no-repeat;
+  padding-bottom: 0.1rem;
+}
+
+.H-detil-sign {
+  width: 100%;
+  height: 0.44rem;
+  background-image: url(../img/H-img/H-detil-2.png);
+  background-size: 7.5rem;
+  background-repeat: no-repeat;
+}
+
+.H-detil-text {
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.4rem;
+}
+
+.H-detil-text span {
+  font-size: 0.14rem;
+  text-align: center;
+  line-height: 0.14rem;
+}
+
+.H-detil-join{
+	text-align: center;
+}
+.H-detil-join img{
+	width: 1.5rem;
+}
+
+.H-detil-list{
+	width: 100%
+}
+.H-detil-list .H-list-title{
+	width: 100%;
+	height: 0.55rem;
+	overflow: hidden;
+}
+.H-detil-list .H-list-title img:first-child{
+	display: block;
+	width: 3rem;
+	float: left;
+	margin-top: 0.05rem;
+	margin-left: 0.2rem;
+}
+.H-detil-list .H-list-title img:last-child{
+	display: block;
+	float: right;
+	margin-right: 0.2rem;
+	margin-top: -0.3rem;
+}
+
+.H-detil-section{
+	width: 100%;
+}
+.H-detil-section .H-detil-catalog{
+	width: 7.03rem;
+	height: 0.93rem;
+	margin: 0 auto;
+	background-image: url(../img/H-img/H-catalog-bg.png);
+	background-size: 7.03rem;
+	margin-top: 0.15rem;
+}
+.H-detil-section .H-detil-catalog img{
+	display: block;
+	width: 0.55rem;
+	position: relative;
+	left: 0.2rem;
+	top: 0.22rem;
+}
+.H-detil-section .H-detil-catalog .H-catalog-con{
+	width: 6rem;
+	text-align: center;
+	float: right;
+	line-height: 0.9rem;
+	margin-top: -0.58rem;
+}
+.H-detil-section .H-detil-catalog span{
+	font-size: 0.2rem;
+	float: left;
+	margin-left: 0.15rem;
+}
+.H-detil-section .H-detil-catalog .H-catalog-title{
+	color:#2F92F7;
+}
+.H-detil-author{
+	margin-top: 0.15rem;
+}
+.H-detil-author .H-author-title{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.H-detil-author .H-author-title img:first-child{
+	width: 1.8rem;
+}
+.H-detil-author .H-author-title .H-author-dian{
+	display: block;
+	width: 0.6rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0;
+}
+.H-detil-author .H-author-con{
+	margin-top: 0.2rem;
+}
+.H-detil-author .H-author-con img{
+	width: 2.2rem;
+}

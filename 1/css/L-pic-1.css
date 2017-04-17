@@ -1,0 +1,116 @@
+@charset "UTF-8";
+html {
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #F2F2F2;
+  font-weight: normal;
+  font-family: "苹方";
+}
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+}
+
+header > div {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+header > div .X-left-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header > div .X-left-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-left-section a .X-header-left {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+
+
+header > div .X-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-shop {
+	display:block;
+  width: 50%;
+  height: 0.5rem;
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+section.pic{
+	box-sizing:border-box;
+	padding:0.34rem 0.24rem 0 0.24rem;
+	width:100%;
+	height:10rem;
+}
+section.pic>div{
+	width:25%;
+	height:auto;
+	float:left;
+	box-sizing:border-box;
+	padding:0.05rem;
+}
+section.pic>div>img{
+	width:100%;
+	height:1.6rem;
+	display:block;
+}
+section.pic>div>a>img{
+	width:100%;
+	height:1.6rem;
+	display:block;
+}
+section.pic>div>a{
+	display:block;
+	width:auto;
+	height:auto;
+}
+

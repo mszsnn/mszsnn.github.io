@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />	
+			
+		<title>readApp</title>
+		
+		<link rel="stylesheet" href="../common/css/common.css" />
+		<script src="../common/js/jquery.min.js"></script>
+		<script src="../common/js/common.js"></script>
+		
+		<link rel="stylesheet" href="../css/X-main-1.css" />
+		<script src="../js/X-main-1.js"></script>
+		
+		
+		<script src="../js/iscroll.js"></script>
+		<script >
+			function isPassive() {
+			    var supportsPassiveOption = false;
+			    try {
+			        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+			            get: function () {
+			                supportsPassiveOption = true;
+			            }
+			        }));
+			    } catch(e) {}
+			    return supportsPassiveOption;
+			};
+		</script>
+		
+	
+		<script type="text/javascript">
+			var myScroll;
+			function loaded () {
+				myScroll = new IScroll('#wrapper', {
+					mouseWheel: true,  
+				    scrollbars: false,
+				});
+			}
+			
+			document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+				capture: false,
+				passive: false
+			} : false);
+	
+		</script>
+	
+	</head>
+	
+	<style type="text/css">
+		* {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		
+		html {
+			-ms-touch-action: none;
+		}
+		
+		body,ul,li {
+			padding: 0;
+			margin: 0;
+			border: 0;
+		}
+		
+		body {
+			font-size: 12px;
+			font-family: ubuntu, helvetica, arial;
+			overflow: hidden; /* this is important to prevent the whole page to bounce */
+		}
+		
+		
+		
+		#wrapper {
+			position: absolute;
+			z-index: 10;
+			top:1.8rem;
+			bottom:0;
+			left: 0;
+			width: 100%;
+			/*background: #ccc;*/
+			overflow: hidden;
+		}
+		
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+			-webkit-transform: translateZ(0);
+			-moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			-o-transform: translateZ(0);
+			transform: translateZ(0);
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			-webkit-text-size-adjust: none;
+			-moz-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+			-o-text-size-adjust: none;
+			text-size-adjust: none;
+		}
+		
+		#scroller ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			/*text-align: left;*/
+		}
+		
+		#scroller li {
+			/*padding:0 1.24rem;*/
+			width:7.02rem;
+			margin:0 auto;
+			height:1rem;
+			border-radius:0.1rem;
+			margin-bottom:0.1rem;
+			/*line-height: 1rem;*/
+			/*border-bottom: 1px solid #ccc;
+			border-top: 1px solid #fff;*/
+			background-color:#FFF;
+			/*font-size: 14px;*/
+		}
+
+	</style>
+
+	
+	
+	<body onload="loaded()">
+		<header>
+			<!--<img src="../img/X-1.png" alt="" class="X-header-top"/>-->
+			<div>
+				<section class="X-left-section">
+					<a href="X-personal-center.html">
+						<img src="../img/x-img/X-2-1.png" alt="" class="X-header-left"/>
+					</a>
+				</section>
+				<span class="X-shop">历史记录</span>
+				
+				<img src="../img/X-img/X-13-1.png" alt="" class="X-header-medium"/>
+				<img src="../img/X-img/X-61.png" alt="" class="X-header-medium-two-history"/>
+			</div>
+		</header>
+		
+		
+		<!--<section class="X-history-record">
+			<ul>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>盗墓笔记</span>
+							<span>第三章</span>
+							<span>五十年后</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-64.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>三国的小人物</span>
+							<span>第十五章</span>
+							<span>贾诩：三国第一智者</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-65.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>虎部队</span>
+							<span>第一百零三章</span>
+							<span>混战</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-66.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+			</ul>
+		</section>-->
+		
+		
+	
+	<div id="wrapper">
+		<div id="scroller">
+			<ul>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>盗墓笔记</span>
+							<span>第三章</span>
+							<span>五十年后</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-64.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>三国的小人物</span>
+							<span>第十五章</span>
+							<span>贾诩：三国第一智者</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-65.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>虎部队</span>
+							<span>第一百零三章</span>
+							<span>混战</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-66.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>盗墓笔记</span>
+							<span>第三章</span>
+							<span>五十年后</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-64.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>三国的小人物</span>
+							<span>第十五章</span>
+							<span>贾诩：三国第一智者</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-65.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>虎部队</span>
+							<span>第一百零三章</span>
+							<span>混战</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-66.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>盗墓笔记</span>
+							<span>第三章</span>
+							<span>五十年后</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-64.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>三国的小人物</span>
+							<span>第十五章</span>
+							<span>贾诩：三国第一智者</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-65.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>虎部队</span>
+							<span>第一百零三章</span>
+							<span>混战</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-66.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>盗墓笔记</span>
+							<span>第三章</span>
+							<span>五十年后</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-64.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>三国的小人物</span>
+							<span>第十五章</span>
+							<span>贾诩：三国第一智者</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-65.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+				<li>
+					<div class="X-history">
+						<h1>
+							<span>虎部队</span>
+							<span>第一百零三章</span>
+							<span>混战</span>
+						</h1>
+						<div class="X-history-imgs">
+							<img src="../img/X-img/X-66.png" alt="" class="X-history-one"/>
+						</div>
+						<img src="../img/X-img/X-60.png" alt="" class="X-history-two"/>
+					</div>	
+				</li>
+			</ul>
+		</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../common/css/swiper.min.css" />
+		<script src="../common/js/swiper.min.js"></script>
+	</head>
+	<style>
+		.swiper-container{
+			width:100%;
+			height:300px;
+		}
+	</style>
+	<body>
+		<div class="swiper-container one">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	           <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
+	    </div>
+		<div class="swiper-container two">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	           <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="">
+	            		<img src="../img/W-img/W-schoolnews-banner1.png" alt="" />
+	            	</a>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- Add Arrows -->
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
+	    </div>
+	</body>
+</html>
+<script>
+	
+    var swiper = new Swiper('.one', {
+        nextButton: '.one .swiper-button-next',
+        prevButton: '.one .swiper-button-prev',
+        pagination: '.one .swiper-pagination',
+        paginationType: 'fraction'
+    });
+  var swiper = new Swiper('.two', {
+        nextButton: '.two .swiper-button-next',
+        prevButton: '.two .swiper-button-prev',
+        pagination: '.two .swiper-pagination',
+        paginationType: 'fraction'
+    });
+</script>

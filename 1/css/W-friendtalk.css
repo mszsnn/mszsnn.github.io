@@ -1,0 +1,258 @@
+
+body{
+background: #F2F2F2;
+
+}
+
+/*X-header*/
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+}
+
+header > div {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+header > div .X-left-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header > div .X-left-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-left-section a .X-header-left {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+header > div .X-right-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header > div .X-right-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header > div .X-right-section a .X-header-right {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+header > div .X-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: 0rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-two {
+  width: 2.05rem;
+  height: 0.28rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-three {
+  width: 1.62rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-four {
+  width: 1.6rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-five {
+  width: 1.98rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-six {
+  width: 1.48rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-seven {
+  width: 1.21rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-eight {
+  width: 1.26rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-nine {
+  width: 1.63rem;
+  height: 0.27rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-shop {
+  width: 50%;
+  height: 0.5rem;
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+
+
+.W-footer{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width:100%;
+	background: #fff;
+	height:1.68rem;
+}
+/*搜索条*/
+.H-search-box {
+	width: 7.02rem;
+	height: 0.49rem;
+	border-radius: 0.3rem;
+	background: #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	top: 0.1rem;
+	padding-top: 0.11rem;
+	border:2px solid #8EC4FA;
+	
+}
+
+#H-search {
+	position: absolute;
+	display: block;
+	width: 5.3rem;
+	height: 0.36rem;
+	top: 0.11rem;
+	left: 0.7rem;
+	border:none;
+
+}
+
+.H-search-icon {
+	position: absolute;
+	width: 0.36rem;
+	height: 0.36rem;
+	top: 0.11rem;
+	left: 0.34rem;
+}
+
+.H-search-dian {
+	background: url(../img/H-img/H-main-dian.png);
+	background-size: 0.23rem;
+	width: 0.23rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0;
+	left: 0.04rem;
+}
+
+.H-search-yy {
+	background: url(../img/H-img/H-yy.png);
+	background-size: 0.7rem;
+	width: 0.7rem;
+	height: 0.36rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.11rem;
+}
+
+.W-footer>ul{
+	width:100%;
+	height:0.9rem;
+}
+.W-footer>ul>li{
+	width:25%;
+	height:0.9rem;
+	background: #FFFFFF;
+	float: left;
+	margin-top: 0.2rem;
+
+}
+.W-footer>ul>li>img{
+	width:100%;
+	display: block;
+	float: left;
+	margin-top: 0.2rem;
+}

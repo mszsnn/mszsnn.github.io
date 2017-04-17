@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>好友通讯录页面</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+
+		<link rel="stylesheet" type="text/css" href="../css/W-friendcall.css" />
+		<link rel="stylesheet" href="../common/css/common.css" />
+		<script src="../common/js/jquery.min.js"></script>
+		<script src="../common/js/common.js"></script>
+		<script src="../js/iscroll.js"></script>
+		<script src="../js/W-friendcall.js"></script>
+		
+	<script>
+//		  实例化一个对象myScroll;
+		var myScroll;
+		window.onload=function(){
+			myScroll = new IScroll('#wrapper', {
+				mouseWheel:true,
+				
+			})
+			window.addEventListener("mousewheel",function(){
+				
+				$('header').addClass("W-index")
+			})
+//				alert(1)
+			
+	
+		}
+
+		//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+		//	capture: false,
+		//	passive: false
+		//} : false);
+		
+//		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+//			capture: false,
+//			passive: false
+//		} : false);
+		
+		
+		
+	</script>
+	</head>
+
+	<body>
+<header>
+			<!--<img src="../img/X-1.png" alt="" class="X-header-top"/>-->
+			<div>
+				<section class="X-left-section">
+					<a href="">
+						<img src="../img/x-img/X-2.png" alt="" class="X-header-left"/>
+					</a>
+				</section>
+				<span class="X-shop">好友列表</span>
+				
+				<img src="../img/X-img/X-13.png" alt="" class="X-header-medium"/>
+				<img src="../img/X-img/X-67.png" alt="" class="X-header-medium-two-personal"/>
+			</div>
+		</header>
+			<div id="wrapper">
+			<div id="scroller">
+		<ul class="W-box">
+			<li class="W-tiao">
+				<img class="W-img1" src="../img/W-img/W-friendcall1.png" alt="" />
+				<div class="W-fontbox">
+					<div class="W-font1">
+						<p>更改备注名称</p>
+					</div>
+					<img class="W-dian" src="../img/W-img/W-friendcall-tiao1.png" alt="" />
+					<div class="W-font2">
+						<p>CHANGE THE NOTE NAME</p>
+					</div>
+				</div>
+				<a href="W-friendtalk.html" class="W-img2-a">
+					<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				</a>
+			</li>
+			<li class="W-tiao">
+				<img class="W-img1" src="../img/W-img/W-friendcall2.png" alt="" />
+				<div class="W-fontbox">
+					<div class="W-font1">
+						<p>更改好友分组</p>
+					</div>
+					<img class="W-dian" src="../img/W-img/W-friendcall-tiao2.png" alt="" />
+
+					<div class="W-font2">
+						<p>CHANGES TO THE GROUP</p>
+					</div>
+				</div>
+				<a href="W-friendtalk.html" class="W-img2-a">
+					<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				</a>
+			</li>
+			<li class="W-tiao">
+				<img class="W-img1" src="../img/W-img/W-friendcall3.png" alt="" />
+				<div class="W-fontbox">
+					<div class="W-font1">
+						<p>设为特别关注</p>
+					</div>
+					<img class="W-dian" src="../img/W-img/W-friendcall-tiao3.png" alt="" />
+
+					<div class="W-font2">
+						<p>SET TO SPECTAL ATTENTION TO</p>
+					</div>
+				</div>
+				<a href="W-friendtalk.html" class="W-img2-a">
+					<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				</a>
+			</li>
+
+		</ul>
+		<div class="W-calltop">
+			<div class="W-fontone">
+				<p>联</p>
+				<span>·</span>
+				<p>系</p>
+				<span>·</span>
+				<p>好</p>
+				<span>·</span>
+				<p>友</p>
+
+			</div>
+
+			
+				<img src="../img/W-img/W-school-yyutiao.png" class="W-fonttwo"/>
+
+			
+			<img src="../img/W-img/W-friendcall-toptiao.png" alt="" />
+		</div>
+		<div class="H-search-box">
+					<div class="H-search-dian"></div>
+					<img src="../img/H-img/H-search-icon.png" class="H-search-icon"/>
+					<input type="text" placeholder="Search" name="search" id="H-search" value="" />
+					<div class="H-search-yy"></div>
+		</div>
+		
+		<div class="W-call-xianshi"></div>
+		<ul class="W-call-list">
+			<li class="W-call-li1">
+				<div class="W-call-neibubox">
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ANNA.</span>
+						<span  class="W-call-span2">JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li  class="W-call-li2">
+				<div class="W-call-neibubox">
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ALANE.</span>
+						<span  class="W-call-span2">YUN</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">HANGZHOU</span>
+						<span  class="W-call-span2">JIANGSU</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk2.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li  class="W-call-li3">
+				<div class="W-call-neibubox">
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">AGMEG.</span>
+						<span  class="W-call-span2">EGA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">SGEAGAWE</span>
+						<span  class="W-call-span2">AGEGAEA</span>
+						
+					
+				</div>
+				</a>
+				<a href="W-friendtalk3.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+				
+			<li class="W-call-li4">
+				<div class="W-call-neibubox">
+				
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">AMJKI.</span>
+						<span  class="W-call-span2">OIP</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li class="W-call-li5">
+				<div class="W-call-neibubox">
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">AJIUY.</span>
+						<span  class="W-call-span2">EFAE</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">AFEGAEGV</span>
+						<span  class="W-call-span2">AFEGA</span>
+						
+					
+				</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li class="W-call-li1">
+				<div class="W-call-neibubox">
+				
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">AJIUY</span>
+						<span  class="W-call-span2">.JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+					</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li class="W-call-li2">
+				<div class="W-call-neibubox">
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ANNA</span>
+						<span  class="W-call-span2">.JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li class="W-call-li3">
+				
+				<div class="W-call-neibubox">
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ANNA</span>
+						<span  class="W-call-span2">.JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+
+			<li class="W-call-li4">
+				<div class="W-call-neibubox">
+				
+			<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ANNA</span>
+						<span  class="W-call-span2">.JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li class="W-call-li5">
+				<div class="W-call-neibubox">
+				
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ANNA</span>
+						<span  class="W-call-span2">.JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+			<li class="W-call-li1">
+				<div class="W-call-neibubox">
+				
+				<a href="X-friend-personal-center.html" class="W-call-fontbox">
+					<div class="W-call-font1">
+						<span class="W-call-span1">ANNA</span>
+						<span  class="W-call-span2">.JIA</span>
+						<img src="../img/W-img/W-friendcall-xing5.png" alt="" />
+						
+					</div>
+					<p>网球执教年网球执教年网</p>
+					<div class="W-call-font2">
+						<img src="../img/W-img/W-friendcall-dingwei.png" alt="" />
+						<span  class="W-call-span1">TAIYUAN</span>
+						<span  class="W-call-span2">SHANXI</span>
+						
+					</div>
+				</a>
+				<a href="W-friendtalk.html" class="W-call-message">
+					<img src="../img/W-img/W-friendcall-message.png" alt="" />
+				</a>
+				</div>
+				<div class="W-call-display">
+					<img src="../img/W-img/W-call-like.png" alt="" />
+					<img src="../img/W-img/W-call-del.png" alt="" />
+					
+				</div>
+			</li>
+		</ul>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript">
+	$(window).scroll(function(){
+			
+			$("header").addClass("W-index")
+//			console.log($("header"))
+			console.log(222)
+		})
+		
+</script>

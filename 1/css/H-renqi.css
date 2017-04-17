@@ -1,0 +1,372 @@
+body{
+	background: #F2F2F2;
+
+}
+#wrapper{
+	width:7.5rem;
+	height:6.27rem;
+	position:relative;
+	/*overflow: hidden;*/
+	top:2.4rem;
+}
+/*header*/
+header{
+	width:100%;
+	height:2.2rem;
+	background:#1D89F7;
+	text-align:center;
+	position:fixed;
+	z-index: 31;
+}
+.X-header-top{
+	width:100%;
+	height:0.4rem;
+	display:block;
+}
+.X-header-left{
+	width:0.64rem;
+	width:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-right{
+	width:0.64rem;
+	width:0.64rem;
+	float:right;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
+}
+.X-shop{
+	font-size:18px;
+	color:#FFF;
+}
+.H-renqi-buding{
+	background: #F2F2F2;
+	width:100%;
+	height:0.6rem;
+	position:fixed;
+	top:2.2rem;
+	left:0;
+	z-index: 30;
+	
+
+}
+/*data*/
+
+.H-renqi-date{
+	width:4.04rem;
+	background-image:url(../img/H-img/H-renqi-date.png);
+	height:1.01rem;
+	background-size: 4.04rem ;
+	background-position: center center;
+	/*margin: 0 auto;*/
+	position:fixed;
+	top:1.8rem;
+	left:1.7rem;
+	z-index: 31;
+
+}
+.H-renqi-date>.H-renqi-datebox{
+	width:4.04rem;
+	height:1.01rem;
+	
+}
+.H-renqi-date>.H-renqi-datebox>li{
+	width:0.63rem;
+	height:0.71rem;
+	/*background: red;*/
+	margin-top: 0.3rem;
+	float: left;
+	font-size: 0.2rem;
+	text-align: center;
+	margin-left: 0.65rem;
+	/*line-height: 1.01rem;*/
+	box-sizing: border-box;
+	
+}
+.H-renqi-date>.H-renqi-datebox>li>img{
+	height:0.32rem;
+	display: block;
+}
+.H-renqi-date>.H-renqi-datebox>li.H-renqi-active{
+	width:0.76rem;
+	margin-top: 0.4rem;
+
+}
+/*年月日结束*/
+/*.H-renqi-date>.H-renqi-datebox>li:nth-child(2){
+
+	margin-top: 0.2rem;
+	
+}
+.H-renqi-date>.H-renqi-datebox>li>p:nth-child(2){
+	color: #AAAAAA;
+}*/
+.H-main-body {
+  width: 100%;
+  height:auto;
+  background: #f2f2f2;
+  padding-top: 0.36rem;
+  position: absolute;
+  /*top:2.2rem;*/
+  left:0;
+}
+
+.H-search-box {
+  width: 7.02rem;
+  height: 0.49rem;
+  border-radius: 0.3rem;
+  background: #FFFFFF;
+  margin: 0 auto;
+  position: relative;
+ 
+  padding-top: 0.11rem;
+}
+
+#H-search {
+  position: absolute;
+  display: block;
+  width: 5.3rem;
+  height: 0.36rem;
+  top: 0.11rem;
+  left: 0.7rem;
+  border: none;
+}
+
+.H-search-icon {
+  position: absolute;
+  width: 0.36rem;
+  height: 0.36rem;
+  top: 0.11rem;
+  left: 0.34rem;
+}
+
+.H-search-dian {
+  background: url(../img/H-img/H-main-dian.png);
+  background-size: 0.23rem;
+  width: 0.23rem;
+  height: 0.6rem;
+  position: absolute;
+  top: 0;
+  left: 0.04rem;
+}
+
+.H-search-yy {
+  background: url(../img/H-img/H-yy.png);
+  background-size: 0.7rem;
+  width: 0.7rem;
+  height: 0.36rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.11rem;
+}
+
+.H-main-like-box, .H-main-tuijian-box, .H-main-renqi-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0.2rem;
+}
+
+.H-like-title-box, .H-tuijian-title-box, .H-renqi-title-box {
+  width: 100%;
+  background: url(../img/H-img/H-like.png);
+  background-size: 7.5rem;
+  height: 0.94rem;
+}
+
+.H-like-more, .H-tuijian-more {
+  display: block;
+  width: 0.76rem;
+  height: 0.6rem;
+  background: url(../img/H-img/H-h-dian.png);
+  background-size: 0.76rem;
+  float: right;
+}
+
+.H-like-book-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 0.1rem;
+}
+
+.H-like-book-1, .H-like-book-2, .H-like-book-3 {
+  background-image: url("../img/H-img/H-book-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.21rem;
+  width: 2.21rem;
+  height: 3.57rem;
+  float: left;
+  margin-left: 0.24rem;
+}
+
+.H-like-book-2 {
+  background-image: url(../img/H-img/H-book-2.png);
+  margin-left: 0.2rem;
+}
+
+.H-like-book-3 {
+  background-image: url(../img/H-img/H-book-3.png);
+  margin-left: 0.2rem;
+}
+
+.H-tuijian-title-box {
+  background-image: url(../img/H-img/H-tuijian.png);
+}
+
+.H-tuijian-more {
+  background-image: url(../img/H-img/H-g-dian.png);
+}
+
+.H-tuijian-main-box {
+  width: 7.02rem;
+  height: 4.43rem;
+  margin-left: 0.2rem;
+  overflow: hidden;
+}
+
+.H-tuijian-img {
+  display: block;
+  background: url(../img/H-img/H-tuijian-1.png);
+  background-size: 7.02rem;
+  width: 7.02rem;
+  height: 4.45rem;
+  margin-top: 0.2rem;
+}
+
+.H-main-renqi-box {
+  /*margin-top: 0.2rem;*/
+  padding-bottom: 0.4rem;
+  position: absolute;
+   /*top:2.5rem;*/
+  left:0;
+}
+
+.H-renqi-title-box {
+  background-image: url(../img/H-img/H-paihang.png);
+  margin-bottom: 0.12rem;
+}
+
+.H-renqi-main-box {
+  width: 7.02rem;
+  height: 1.5rem;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 0.04rem;
+  margin-top: 0.12rem;
+  position: relative;
+}
+
+.H-renqi-main-box .H-renqi-img-1 {
+  width: 0.8rem;
+  float: left;
+  margin-left: 0.24rem;
+  margin-top: 0.19rem;
+}
+
+.H-renqi-titleBox {
+  width: 3rem;
+  height: 0.6rem;
+  float: left;
+  position: relative;
+}
+
+.H-renqi-titleBox .title-1 {
+  display: block;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #2c3840;
+  float: left;
+  margin-left: 0.14rem;
+  margin-top: 0.04rem;
+}
+
+.H-renqi-titleBox .title-2 {
+  display: block;
+  font-size: 0.2rem;
+  font-weight: bold;
+  float: left;
+  color: #39abf9;
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.H-renqi-titleBox .title-3 {
+  display: block;
+  position: absolute;
+  width: 0.57rem;
+  height: 0.03rem;
+  background-image: url(../img/H-img/H-diandian.png);
+  background-size: 0.57rem;
+  background-repeat: no-repeat;
+  top: 0.46rem;
+  left: 0.2rem;
+}
+
+.H-renqi-data {
+  width: 3.04rem;
+  height: 0.56rem;
+  float: left;
+}
+
+.H-renqi-data .H-renqi-img-2 {
+  float: left;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-top: 0.02rem;
+  margin-left: 0.2rem;
+}
+
+.H-renqi-data .H-renqi-data-1 {
+  font-size: 0.24rem;
+  width: 1.16rem;
+  height: auto;
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.H-renqi-data .H-renqi-data-img {
+  background: url(../img/H-img/H-renqi-data.png);
+  width: 2.35rem;
+  height: 0.17rem;
+  background-size: 2.35rem;
+  float: left;
+  margin-left: 0.9rem;
+  margin-top: -0.1rem;
+}
+
+.H-renqi-hot {
+  width: 0.83rem;
+  height: 1.03rem;
+  background: url(../img/H-img/H-hot.png);
+  background-size: 0.83rem;
+  position: absolute;
+  right: 0.2rem;
+  top: -0.16rem;
+}
+.H-renqi-box-active{
+	z-index: 10;
+}
