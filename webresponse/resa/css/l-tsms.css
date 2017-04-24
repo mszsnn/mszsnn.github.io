@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container > .row > .aa {
+  height: 110px;
+  background: #F6F9FA;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container > .row > .aa .bb {
+  font-size: 18px;
+  color: #6d6d6d;
+  /* line-height: 5px; */
+  margin-bottom: 10px;
+}
+
+.container > .row > .aa .l-c {
+  font-size: 20px;
+}
+
+.container > .row > .aa .l-cc {
+  width: 30%;
+  height: 1px;
+  background: #DEDEDE;
+  margin: 0 auto;
+}
+
+.container > .row > .aa .l-cc .cs {
+  width: 20%;
+  height: 2px;
+  background: #AE8E71;
+  margin: 0 auto;
+}
+
+.container > .row > .aa .l-s {
+  font-size: 5px;
+  margin-top: 10px;
+  color: #949494;
+}
+
+.container > .row .bbb {
+  height: 50px;
+  margin-top: 25px;
+}
+
+.container > .row .bbb .ljb-qqq {
+  width: 260px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.container > .row .bbb .ljb-qqq .l-pp {
+  font-size: 18px;
+  color: #B7B5B5;
+  float: left;
+  margin-right: 10px;
+}
+
+.container > .row .bbb .ljb-qqq .l-ppp {
+  font-size: 18px;
+  color: #542C17;
+  float: left;
+}
+
+.container > .row .bbb .ljb-qqq .l-pppp {
+  font-size: 18px;
+  color: #B7B5B5;
+  float: left;
+  margin-left: 10px;
+}
+
+.olm {
+  display: none;
+}
+
+.sss {
+  display: block;
+}
+
+.container > .row > .olm > .bbbb {
+  height: 280px;
+  margin-top: 150px;
+  text-align: center;
+  transition: transform 0.8s;
+}
+.container > .row > .olm > .bbbb .l-k {
+  width: 236px;
+  height: 280px;
+  margin-top: 80px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+/* .lok{
+  margin-top: 50px;
+} */
+.container > .row > .olm > .bbbb .l-k img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container > .row > .olm > .bbbb .lop {
+  width: 238px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: -1px;
+}
+
+.container > .row > .olm > .bbbb .lop .l-one {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.container > .row > .olm > .bbbb .lop .l-two {
+  font-size: 12px;
+}
+
+.container > .row > .olm > .bbbb .lop .l-three {
+  font-size: 6px;
+  color: #ccc;
+}
+
+.container > .row > .olm > .bbbb:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 975px) {
+  .container > .row .bbbb .fg {
+    width: 72%;
+    height: 280px;
+  }
+}
+
+@media (max-width: 955px) {
+  .container > .row .bbbb .fg {
+    width: 70%;
+    height: 280px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container > .row .bbbb .fg {
+    width: 71%;
+    height: 280px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container > .row .bbbb .fg {
+    width: 35%;
+    height: 280px;
+  }
+  .hh {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+
+  div.backgr {
+    height: 80px;
+  }
+
+  .container > .row > .olm > div.diyi{
+    margin-top: 55px;
+  }
+  img.z-nav-1 {
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+
+  div.dingwei, div.z-nav-3 {
+    margin-top: 20px;
+  }
+
+  body > ul:first-child{
+    position: absolute;
+    top: 80px;
+    left: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .container > .row .bbbb .fg {
+    width: 53%;
+    height: 280px;
+  }
+  .hh {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .container > .row .bbbb .fg {
+    width: 75%;
+    height: 280px;
+  }
+
+ .grid figure a {
+   border-radius: 5px;
+  }
+  .hh {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .container > .row .bbbb .fg {
+    width: 93%;
+    height: 280px;
+  }
+  .hh {
+    display: none;
+  }
+}
+
+.boo {
+  height: 70px;
+  text-align: center;
+  margin: 150px 0;
+}
+
+.boo .po {
+  width: 63%;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.boo .po .lkj {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.hh {
+  height: 60px;
+  margin-top: 150px;
+}
+
+.hh .h-l {
+  width: 460px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hh .h-l div {
+  width: 42px;
+  height: 42px;
+  margin: 0 24px;
+  float: left;
+}
+
+.hh .h-l > a {
+  margin: 15px 6px;
+  font-size: 16px;
+  color: #898989;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.hh .h-l > a:hover {
+  text-decoration: none;
+}
+
+.hh .h-l .bg {
+  width: 20px;
+  height: 20px;
+  background: #6d3b0f;
+  border-radius: 50%;
+  color: #fff;
+}

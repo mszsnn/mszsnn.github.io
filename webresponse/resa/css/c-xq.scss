@@ -1,0 +1,152 @@
+
+.container>.row{
+  .c-crumbs{
+  width: 100%;
+  text-align: left;
+  margin: 40px 0;
+    padding: 0 8%;
+  .c-pan{
+    a,span{
+      text-decoration: none;
+      color: #5e3a19;
+      font-size: 16px;
+    }
+    span:last-child{
+      color: #7a7a7a;
+      font-size: 16px;
+    }
+  }
+}
+  .c-title1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    p:first-child{
+      font-family: 'Kokila';
+      font-size: 24px;
+      font-weight: bold;
+      color: #5a4435;
+    }
+    p:last-child{
+      font-family: 'Kokila';
+      font-size: 16px;
+      color: #535353;
+    }
+  }
+  .c-title2{
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 0;
+    p:first-child{
+      font-family: 'Kokila';
+      font-size: 24px;
+      color: #6d6d6d;
+      text-transform: uppercase;
+    }
+    p:last-child{
+      font-family: 'Kokila';
+      font-size: 12px;
+      color: #4e4b4b;
+      text-transform: uppercase;
+    }
+  }
+}
+.c-title1{
+  display: block;
+}
+.c-title2{
+  display: none;
+}
+.c-wordbox{
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 8%;
+  overflow: hidden;
+  .c-word{
+    p{
+      text-align: justify;
+      font-size: 14px;
+      color: #231815;
+      margin: 20px 0;
+    }
+  }
+  img{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .c-word-english{
+    p{
+      text-align: justify;
+      font-size: 13px;
+      color: #231815;
+      margin: 20px 0;
+      font-family: 'Kokila';;
+    }
+  }
+
+}
+.c-page{
+  margin: 15px 8%;
+  height: 45px;
+  padding: 9px 0;
+  border-top: 1px solid #97adb6;
+  border-bottom: 1px solid #97adb6;
+  &>div{
+    a,span{
+      text-decoration: none;
+      color: #5e3a19;
+      font-size: 16px;
+    }
+    span:last-child{
+      color: #7a7a7a;
+      font-size: 16px;
+    }
+  }
+  &>.page-left{
+    float: left;
+  }
+  &>.page-right{
+    float: right;
+  }
+}
+.mem{
+  text-align: center;
+  margin: 40px 0;
+  span{
+    font-size: 12px;
+    color: #333;
+  }
+  p{
+    font-family: 'Kokila';
+    font-size: 12px;
+    color: #3b3b3b;
+  }
+}
+@media (max-width: 768px){
+  .c-title2{
+    display: block;
+  }
+  .c-crumbs,.c-page,.mem{
+    display: none;
+  }
+}
+//页尾
+.footer {
+  height: auto;
+  background: black;
+}
+
+.row {
+  margin: 0;
+}
+
+.footer .footer-bottom {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}

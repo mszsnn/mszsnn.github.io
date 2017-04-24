@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.q-head {
+  height: auto;
+}
+
+.q-head p {
+  margin: 0;
+  height: auto;
+}
+
+.q-header {
+  height: 11rem;
+  background: url(../img/q-header.png) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.q-header .q-hFont {
+  height: 4.54rem;
+  background: url(../img/q-nav.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.q-header .q-hFont p {
+  height: 1.51rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.q-header .q-hFont p a {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  color: #a6a6a6;
+  font-weight: 500;
+  font-size: 0.34rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.q-header .q-hFont p a span {
+  display: block;
+  width: 100%;
+  color: #50af71;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.2rem;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: #08635a;
+  overflow: hidden;
+  padding-top: .1rem;
+}
+
+footer p {
+  height: .5rem;
+  line-height: .36rem;
+  text-align: center;
+  color: #bcc7c6;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 0.5rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  footer .q-contant {
+    margin-top: 2rem;
+  }
+  footer p {
+    line-height: .52rem;
+  }
+}
+
+.q-headFont {
+  position: absolute;
+  top: 0;
+  left: 1.6rem;
+  width: 1.6rem;
+  height: auto;
+  background: #fff;
+}
+
+.q-headFont > p {
+  margin: 0;
+  height: .48rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q-headFont > p img {
+  width: 80%;
+  height: .38rem;
+}
+
+.q-headFont > div {
+  height: auto;
+  background: url(../img/q-nav.png) no-repeat;
+  background-size: 100%;
+}
+
+.q-headFont > div p {
+  height: .295rem;
+  background: url(../img/q-shadow.png) no-repeat;
+  background-size: 100%;
+  padding-top: .1rem;
+}
+
+.q-headFont > div p a {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  color: #a6a6a6;
+  font-weight: 500;
+  font-size: 0.08rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.q-headFont > div p a span {
+  display: block;
+  width: 100%;
+  color: #50af71;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.09rem;
+}

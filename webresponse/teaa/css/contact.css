@@ -1,0 +1,105 @@
+a:hover {
+  text-decoration: none;
+}
+.contact-location{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#where {
+  font-size: 14px;
+  color: #393939;
+}
+
+#where > a {
+  font-size: 14px;
+  color: #393939;
+}
+
+@media screen and (max-width: 992px) {
+  #where {
+    font-size: 20px !important;
+  }
+  #where a {
+    font-size: 20px;
+  }
+}
+
+.contact-title {
+  overflow: hidden;
+}
+
+.contact-title div {
+  text-align: center;
+}
+
+.contact-us {
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact-us div {
+  margin-top: 80px;
+}
+
+.contact-us div:nth-child(2) {
+  margin-top: 50px;
+}
+
+.map {
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.map img {
+  width: 100%;
+}
+
+.contact-bottom {
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-bottom div:last-child {
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+	.contact-bottom div:first-child img {
+	  width: 100%;
+	}
+}
+.contact-bottom div:last-child img {
+  width: 100%;
+}
+
+.form > div {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.form .left input {
+	width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.form .right {
+  margin-top: 20px;
+}
+
+.form .right textarea {
+  width: 100%;
+  height: 190px;
+}
+
+.form .button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form .button button {
+  width: 200px;
+  height: 40px;
+  background: none;
+}

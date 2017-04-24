@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  height: 2000px;
+}
+
+.container > .row > .aa {
+  height: 110px;
+  background: #fff;
+  text-align: center;
+}
+
+.container > .row > .aa .bb {
+  font-size: 14px;
+  color: #6d6d6d;
+  line-height: 5px;
+}
+
+.container > .row > .aa .l-c {
+  font-size: 20px;
+}
+
+.container > .row > .aa .l-cc {
+  width: 460px;
+  height: 1px;
+  background: #DEDEDE;
+  margin: 0 auto;
+}
+
+.container > .row > .aa .l-cc .cs {
+  width: 50px;
+  height: 2px;
+  background: #AE8E71;
+  margin: 0 auto;
+}
+
+.container > .row > .aa .l-s {
+  font-size: 5px;
+  margin-top: 10px;
+  color: #949494;
+}
+
+.container > .row > .bbb {
+  height: 50px;
+  margin-top: 88px;
+}
+
+.container > .row > .bbb .ljb-qqq {
+  width: 240px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.container > .row > .bbb .ljb-qqq .l-pp {
+  font-size: 18px;
+  color: #B7B5B5;
+  float: left;
+}
+
+.container > .row > .bbb .ljb-qqq .l-ppp {
+  font-size: 18px;
+  color: #542C17;
+  float: left;
+}
+
+.container > .row > .bbb .ljb-qqq .l-pppp {
+  font-size: 18px;
+  color: #B7B5B5;
+  float: left;
+}
+
+.container > .row > .bbbb {
+  height: 280px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.container > .row > .bbbb .container {
+  height: 280px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.container > .row > .bbbb .container .sdf {
+  width: 238px;
+  height: 280px;
+}
+
+.container > .row > .bbbb .container .l-k {
+  width: 236px;
+  height: 280px;
+  margin-top: 80px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.container > .row > .bbbb .container .l-k img {
+  width: 100%;
+}
+
+.container > .row > .bbbb .container .lop {
+  width: 238px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: -1px;
+}
+
+.container > .row > .bbbb .container .lop .l-one {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.container > .row > .bbbb .container .lop .l-two {
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.container > .row > .bbbb .container .lop .l-three {
+  font-size: 6px;
+  margin-top: -8px;
+  color: #ccc;
+}
+
+.container > .row > .bbbb:hover {
+  transform: translateY(-10px);
+}

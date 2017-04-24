@@ -1,0 +1,218 @@
+body, ul, li, p, h1, h2, h3, h4, h5, h6, input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 66.666666%;
+}
+
+#wheres {
+  overflow: hidden;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#where {
+  font-size: 14px;
+  color: #393939;
+}
+
+#where > a {
+  font-size: 14px;
+  color: #393939;
+}
+
+div.word {
+  height: 80px;
+  width: auto;
+  margin: 0 auto;
+}
+
+div.word > img {
+  height: 100%;
+  width: auto;
+  margin: 50px auto;
+  display: block;
+}
+
+div.title {
+  width: 100%;
+  height: auto;
+}
+
+div.title > img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.work-title {
+  border-bottom: 1px dashed #bfbfbf;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.work-title h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #727272;
+  margin-bottom: 20px;
+}
+
+.work-one {
+  padding-top: 50px;
+}
+
+.work-one > .row img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.work-one > .row > div {
+  margin-top: 30px;
+}
+
+.work-one > .row > div p {
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-overflow: ellipsis;
+}
+
+.work-one > .row > div h3 {
+  margin: 10px 0;
+}
+
+.work-one > .row > div.fixed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-one > .row > div.fixed > div {
+  padding: 0;
+  margin-right: 20px;
+}
+
+.work-one > .row > div.fixed > div:last-child {
+  margin-right: 0px;
+}
+
+.work-tow {
+  padding-top: 50px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+.work-tow p.english {
+  margin-top: 30px;
+  color: #767676;
+}
+
+.work-tow p:last-child {
+  color: #767676;
+}
+
+.work-three {
+  padding-top: 50px;
+  color: #555555;
+  font-size: 14px;
+}
+
+.work-three div.img {
+  margin-bottom: 30px;
+}
+
+.work-three div.img h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.work-three div.img h2 > span {
+  color: #c71623;
+}
+
+.work-three div.img h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.work-three img {
+  width: 100%;
+  height: auto;
+}
+
+.work-three p.english {
+  margin-top: 30px;
+  color: #767676;
+}
+
+.work-three p:last-child {
+  color: #767676;
+}
+
+div.detail-bottom div div {
+  height: 100px;
+  line-height: 100px;
+}
+
+div.detail-bottom div .left {
+  float: left;
+}
+
+div.detail-bottom div .left span {
+  margin-left: 10px;
+}
+
+div.detail-bottom div .right {
+  float: right;
+}
+
+div.detail-bottom div .right span {
+  margin-right: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin-top: 50px;
+  border-bottom: 1px dashed #bfbfbf;
+}
+
+.last-line {
+  margin-top: 0px;
+}
+
+div.titleend {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -19999;
+}
+
+div.titleend > img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+}

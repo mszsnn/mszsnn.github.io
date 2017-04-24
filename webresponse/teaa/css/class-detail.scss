@@ -1,0 +1,127 @@
+.row{
+    width: 96%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+#where{
+   font-size: 14px;
+   color: #393939;
+   >a{
+       font-size: 14px;
+       color: #393939;
+   }
+}
+@media screen and (max-width:992px){
+    #where{
+        font-size: 20px !important;
+        a{
+           font-size: 20px;
+        } 
+    }        
+}
+div.title {
+    overflow: hidden;
+    div{
+        text-align: center;  
+        margin-top: 70px;        
+    }
+    div:nth-child(2),div:nth-child(3){
+        img{
+            width: 100%;
+        }
+    }
+}
+div.con{
+    margin-top: 70px;
+    overflow: hidden;  
+    .img{
+        overflow: hidden;
+        img{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }     
+    .text{
+        overflow: hidden;
+        @media screen and (min-width: 992px){
+            p:nth-child(4){
+                height: 100px;
+                overflow: hidden;
+            }
+            p:nth-child(5){
+                height: 140px;
+                overflow: hidden;
+            }
+        }        
+        p{            
+            span{
+                color: #B24B2F;
+                font-weight: 600;
+            }
+        }
+        p.con{            
+            margin-top: 20px;
+        }
+        .detail-class-s{
+            margin-top: 10px;
+            img{
+               width: 100%; 
+            }            
+        }
+    } 
+}
+div.detail-con{
+    color: #818181;
+    margin-top: 40px;
+    overflow: hidden;
+    padding-left: 2%;
+    box-sizing: border-box;
+    div:first-child{
+        margin: 30px 0; 
+        overflow: hidden; 
+    }
+}
+div.imgs{
+    padding-left: 2%;
+    margin-top: 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+    img{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+}
+div.detail-bottom{
+    margin-top: 40px;
+    padding-left: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+    div{        
+        div{
+            height: 100px;
+            line-height: 100px;
+        }
+        .left{
+            float: left;
+            margin-left: 20px;
+            span{
+                margin-left: 10px;
+            }
+        }
+        .right{
+            float: right;
+            margin-right: 20px;
+            span{
+                margin-right: 10px;
+            }
+        }
+    }   
+}
+div.detail-foot{
+    text-align: center;
+    margin-top:70px;
+}

@@ -1,0 +1,258 @@
+body, ul, li, p, h1, h2, h3, h4, h5, h6, input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+}
+
+#wheres {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#where {
+  font-size: 20px;
+  color: #393939;
+}
+
+#where > a {
+  font-size: 20px;
+  color: #393939;
+}
+
+div.word {
+  height: 80px;
+  width: auto;
+  margin: 0 auto;
+}
+
+div.word > img {
+  height: 100%;
+  width: auto;
+  margin: 50px auto;
+  display: block;
+}
+
+div.title {
+  width: 100%;
+  height: auto;
+}
+
+div.title > img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+div.title > img:nth-child(2) {
+  margin: 0 auto;
+}
+
+div#shougong-zuopin {
+  background: #dfe7ec;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+div#shougong-zuopin > .ul {
+  display: none;
+}
+
+div#shougong-zuopin > .active1 {
+  display: block;
+}
+
+.box {
+  width: 89%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 14px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.box > .img {
+  width: 100%;
+  height: auto;
+}
+
+.box > .img > img {
+  width: 100%;
+  height: auto;
+}
+
+.box > .img:hover {
+  box-shadow: 0 0 2px 15px #f0f0f0;
+}
+
+.box > h3 {
+  font-size: 24px;
+  margin: 20px 0;
+  height: 20px;
+}
+
+.box > p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  color: #959595;
+  text-align: center;
+  font-size: 10px;
+}
+
+.button > button {
+  width: 10%;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+  border: 1.45px solid #959595;
+  font-size: 8px;
+}
+
+.button > div {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 1px solid #959595;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.button > input {
+  width: 10%;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+  border: 1.45px solid #959595;
+  text-align: center;
+  font-weight: 600;
+  font-size: 8px;
+}
+
+.button > div.active {
+  background: #959595;
+  color: #fff;
+}
+
+div.titleend {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -19999;
+}
+
+div.titleend > img {
+  width: 100%;
+  height: auto;
+}
+
+div#shougong-yiren {
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+div#shougong-yiren > .ul {
+  display: none;
+}
+
+div#shougong-yiren > .active1 {
+  display: block;
+}
+
+div#shougong-yiren .box > .img:hover {
+  box-shadow: 0 0 15px 17px #ccc;
+}
+
+div#shougong-yiren .box > .img > img:hover {
+  transform: translateY(2px);
+  box-shadow: 0 0 0px 10px #fff;
+}
+
+div#shougong-yiren h3 {
+  font-size: 24px;
+  margin: 20px 0;
+  height: 20px;
+}
+
+div#shougong-yiren p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: hidden;
+  height: 20px;
+}
+
+div#shougong-yiren p:last-child {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .box h3 {
+    font-size: 20px;
+  }
+  .box p {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 66.66%;
+    margin: 0 auto;
+  }
+  #wheres {
+    width: 80%;
+  }
+  #wheres #where {
+    font-size: 14px;
+  }
+  #wheres #where a {
+    font-size: 14px;
+  }
+  div.titleend > img {
+    margin-top: -100px;
+  }
+  .button {
+    width: 70%;
+    font-size: 14px;
+  }
+  .button button {
+    font-size: 14px;
+  }
+  .button input {
+    font-size: 14px;
+  }
+}

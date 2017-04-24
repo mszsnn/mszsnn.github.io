@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.g_top{
+    img{
+        margin-top: 20px;
+        width:30px;
+        float: left;
+    }
+}
+.g_nav{
+    width: 240px;
+    height:53px;
+    float: left;
+    li{
+        float: left;
+        height: 53px;
+        width: 80px;
+        a{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            width: 100%;
+            text-align: center;
+            line-height:8px;
+            font-size: 14px;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+            line-height: 8px;
+            font-size: 9px;
+        }
+    }
+    li:nth-child(2){
+        display: flex;
+    }
+    li:nth-child(2):after{
+        content: ">";
+        display: block;
+        float: left;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "宋体";
+    }
+    li:nth-child(3){
+        h1{
+            color: #06897c
+        }
+        p{
+            color: #06897c;
+        }
+    }
+}
+.g_imgtop{
+    width: 100%;
+    height: 143px;
+    position: relative;
+    img{
+        width: 306px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+.g_imghead{
+    width: 100%;
+    height: 114px;
+    img{
+        width: 306px;
+    }
+}
+.g_p{
+    width: 100%;
+    height: auto;
+    p{
+        width: 100%;
+        color:#464444 ;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        font-weight: 500;
+        line-height: 22px;
+    }
+}
+.g_p1{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    p{
+        width: 100%;
+        color:#464444 ;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        font-weight: 500;
+        line-height: 22px;
+    }
+}
+.g_h{
+    width: 100%;
+    height: auto;
+    h1{
+        word-break: break-all;
+        width: 100%;
+        color:#464444 ;
+        font-size: 14px;
+        font-family:"苹方";
+        font-weight: 500;
+        line-height: 22px;
+    }
+}
+.g_lvline{
+    width: 100%;
+    height: 132px;
+    background: #3ea99e;
+}
+
+@mixin text{
+    width: 100%;
+    text-align: center;
+}
+.g_linian{
+   width: 100%;
+   height: auto;
+    margin-top: 50px;
+   h2{
+      @include text ;
+      color: #3ea99e;
+      font-weight: bold;
+      font-size: 34px;
+   }
+   p{
+      @include text ;
+       color: #3ea99e;
+       font-size: 22px;
+       font-family: '苹方';
+   }
+}
+.g_dream{
+    width: 100%;
+    height: auto;
+    margin:{
+        top: 50px;
+    }
+    h3{
+       @include text;
+       color: #3ea99e;
+       font-size: 20px;
+       font-weight: 600; 
+    }
+    em{
+        display: block;
+        @include text;
+        color: #a5a5a5;
+        font-size: 16px;
+        font-family: '苹方';
+    }
+    p{
+        @include text;
+        color: #231815;
+        font-size: 14px;
+        font-family: "微软雅黑";
+    }
+}
+.g_copy1{
+    margin-top: 50px;
+}
+.g_display{
+    margin:{
+        top: 50px;
+        bottom:50px
+    }
+    display: none;
+}
+.g_active{
+    margin:{
+        top: 50px;
+        bottom: 50px;
+    }
+    width: 100%;
+    height: 704px;
+    overflow: hidden;
+    position: relative;
+    .g_tu{
+        height: 100%;
+        float: left;
+        position: absolute;
+        left: 0;
+        top: 0;
+        .t{
+            position: absolute;
+            right: 0px;
+            bottom: 352px;
+            z-index: 1;
+        }
+        .b{
+            position: absolute;
+            right: 20px;
+            bottom: 0;
+            z-index: 1; 
+        }
+    }
+    .g_tu1{
+        height: 100%;
+        float: left;
+        position: absolute;
+        right: 0;
+        top: 0;
+        .g_right{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            img{
+               width: 100%;
+            }
+        }
+    }
+}
+.g_sxian{
+    display: none;
+}
+.g_shadow{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1200px){
+    .g_active{
+        margin:{
+            top: 0;
+            bottom: 50px;
+        }
+        overflow: hidden;
+        position: relative;
+    }
+    .t{
+        width: 100%;
+        position: absolute;
+        right: -30px !important;
+        bottom: 302px !important;
+        z-index: 1;
+    }
+    .b{
+        width: 80%;
+        position: absolute;
+        right: 10px !important;
+        bottom: 0;
+        z-index: 1; 
+    }
+    .g_right{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        img{
+           width: 100%;
+        }
+    }
+}
+@media screen and (max-width:992px){
+    .g_imgtop{
+        width: 100%;
+        height: 1.7rem;
+        position: relative;
+        margin-top: 20px;
+        img{
+            width: 3.62rem;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+    .g_imghead{
+        width: 100%;
+        height: 1.14rem;
+        img{
+            width: 3.5rem;
+        }
+    }
+    .g_linian{
+       h2{
+          font-size: 0.34rem;
+       }
+       p{
+           font-size: 0.22rem;
+       }
+    }
+    .g_dream{
+        h3{
+           font-size: 0.28rem;
+        }
+        em{
+            font-size: 0.2rem;
+        }
+        p{
+            font-size: 0.18rem;
+        }
+    }
+    .g_display1{
+        display: none;
+    }
+    .g_display{
+        display: block;
+    }
+    .g_img1{
+        width: 100%;
+        img{
+            width: 4.72rem;
+        }
+    }
+    .g_img2{
+        width: 30%;
+        margin-top: -1.7rem;
+        float: right;
+        img{
+            width:100%;
+        }
+    }
+    .g_img3{
+        width: 70%;
+        float: right;
+        margin-top: -1.7rem;
+        img{
+            width:100%;
+        }
+    }
+    .g_sxian{
+        display: block;
+        .g_l{
+            
+        }
+    }
+}

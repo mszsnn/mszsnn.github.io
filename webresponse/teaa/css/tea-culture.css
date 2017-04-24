@@ -1,0 +1,168 @@
+body, ul, li, p, h1, h2, h3, h4, h5, h6, input {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  width: 66.666666%;
+  margin: 0 auto;
+}
+
+#wheres {
+  overflow: hidden;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#where {
+  font-size: 14px;
+  color: #393939;
+}
+
+#where > a {
+  font-size: 14px;
+  color: #393939;
+}
+
+div.word {
+  height: 80px;
+  width: auto;
+  margin: 0 auto;
+}
+
+div.word > img {
+  height: 100%;
+  width: auto;
+  margin: 50px auto;
+  display: block;
+}
+
+div.title {
+  width: 100%;
+  height: auto;
+}
+
+div.title > img {
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+  height: auto;
+}
+
+div.title > img:nth-child(2) {
+  margin: 0 auto;
+}
+
+.ziti {
+  color: #6c6c6c;
+}
+
+.ziti h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.ziti h2 > span {
+  color: #b2643a;
+  font-weight: 700;
+}
+
+.ziti h3 {
+  font-size: 20px;
+}
+
+.ziti .tiao {
+  margin: 25px 0;
+  width: 40%;
+  height: 2px;
+  background: #7e918d;
+}
+
+.p p {
+  font-size: 14px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+  color: #787878;
+}
+
+.p p.english {
+  font-size: 12px;
+  color: #7b7b7b;
+}
+
+.title {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.title .col-xs-12 {
+  background: #e1dede;
+  margin: 20px auto;
+}
+
+.title img {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+div.titleend {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -19999;
+}
+
+div.titleend > img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .title .col-xs-12 {
+    background: #fff;
+  }
+  .title img {
+    width: 100%;
+  }
+  #where {
+    font-size: 20px;
+  }
+  #where > a {
+    font-size: 20px;
+  }
+  .ziti h3 {
+    font-size: 24px;
+  }
+  .p p {
+    font-size: 20px;
+  }
+  .p p.english {
+    font-size: 18px;
+  }
+}

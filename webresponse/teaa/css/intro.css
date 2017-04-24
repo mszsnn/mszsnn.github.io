@@ -1,0 +1,92 @@
+a:hover {
+  text-decoration: none;
+}
+.intro-title{
+	margin-bottom: 40px;
+}
+#where {
+  font-size: 14px;
+  color: #393939;
+}
+
+#where > a {
+  font-size: 14px;
+  color: #393939;
+}
+
+@media screen and (max-width: 992px) {
+  #where {
+    font-size: 20px;
+  }
+  #where a {
+    font-size: 20px;
+  }
+}
+
+div.con {
+  height: auto;
+  margin: 0 auto;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+div.con .top {
+  overflow: hidden;
+}
+
+div.con .top p > span {
+  color: #B33819;
+  font-weight: 600;
+}
+
+div.con .top p.con {
+  color: #595959;
+  margin-top: 10px;
+}
+
+div.con img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 992px) {
+  div.con .top p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  div.con .top p.con {
+    font-size: 18px;
+    color: #6b6b6b;
+  }
+  div.con .bottom p.con {
+    font-size: 18px;
+    color: #6b6b6b;
+  }
+}
+
+div.title {
+  height: 150px;
+  text-align: center;
+}
+
+div.title .int-catalog {
+  margin-top: 40px;
+}
+
+div.title .int-catalog img {
+  width: 100%;
+}
+
+.row > div.bottom {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+	.row > div.bottom img{
+		width: 100%;
+	}
+}
+

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.container {
+  margin-top: 0.15rem; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.g_top img {
+  margin-top: 20px;
+  width: 30px;
+  float: left; }
+
+.g_nav {
+  width: 240px;
+  height: 53px;
+  float: left; }
+  .g_nav li {
+    float: left;
+    height: 53px;
+    width: 80px; }
+    .g_nav li a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    .g_nav li h1 {
+      width: 100%;
+      text-align: center;
+      line-height: 8px;
+      font-size: 14px; }
+    .g_nav li p {
+      width: 100%;
+      text-align: center;
+      line-height: 8px;
+      font-size: 9px; }
+  .g_nav li:nth-child(2) {
+    display: flex; }
+  .g_nav li:nth-child(2):after {
+    content: ">";
+    display: block;
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "宋体"; }
+  .g_nav li:nth-child(3) h1 {
+    color: #06897c; }
+  .g_nav li:nth-child(3) p {
+    color: #06897c; }
+
+.title-one > img {
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 100px;
+  margin-top: 40px; }
+
+.section-one > div {
+  margin-bottom: 50px; }
+  .section-one > div div {
+    width: 104px;
+    height: 36px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    color: #393535;
+    background: #e5e5e5;
+    cursor: pointer;
+    transition: all 0.3s linear; }
+    .section-one > div div:hover {
+      background: #06897C;
+      color: #fff; }
+  .section-one > div h2 {
+    margin-bottom: 20px;
+    margin-top: 10px; }
+  .section-one > div h4 {
+    margin-bottom: 20px;
+    font-size: 20px; }
+
+.section-one > .bg-1 {
+  height: 360px;
+  background-image: url("../img/c-jiudian1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 17px;
+  background-clip: padding-box; }
+
+.section-one > .bg-2 {
+  height: 360px;
+  background-image: url("../img/c-jiudian2.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 17px;
+  background-clip: padding-box; }
+
+@media screen and (max-width: 768px) {
+  .section-one > .bg-1 {
+    margin-left: 2.333333%; }
+  .section-one > .bg-2 {
+    margin-left: 2.333333%; } }
+
+.section-two > div {
+  margin-bottom: 50px; }
+  .section-two > div h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px; }
+  .section-two > div h4 {
+    margin-bottom: 20px;
+    font-size: 16px; }
+  .section-two > div div {
+    width: 104px;
+    height: 36px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    color: #393535;
+    background: #e5e5e5;
+    cursor: pointer;
+    transition: all 0.3s linear; }
+    .section-two > div div:hover {
+      background: #06897C;
+      color: #fff; }
+  .section-two > div p {
+    font-size: 12px; }
+
+.section-two > div > img {
+  width: 100%;
+  margin-bottom: 20px;
+  opacity: 1;
+  transition: opacity 0.3s linear; }
+  .section-two > div > img:hover {
+    opacity: 0.7; }
+
+.little {
+  text-align: center; }
+
+.little > img {
+  width: 60%; }
+
+@media screen and (min-width: 768px) {
+  .little {
+    display: none; } }

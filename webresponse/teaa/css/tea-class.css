@@ -1,0 +1,55 @@
+a:hover {
+  text-decoration: none;
+}
+
+#where {
+  font-size: 14px;
+  color: #393939;
+}
+
+#where > a {
+  font-size: 14px;
+  color: #393939;
+}
+
+@media screen and (max-width: 992px) {
+  #where {
+    font-size: 20px !important;
+  }
+  #where a {
+    font-size: 20px;
+  }
+  .con p.con {
+  	font-size: 20px;
+  }
+}
+
+.catalog, .bottom {
+  text-align: center;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}
+
+img.title {
+  width: 100%;
+}
+
+.con div{
+  margin-top: 40px;
+}
+div.imgbox{
+	padding-top: 30px;
+}
+.con p.con {
+  color: #535353;
+}
+.con > img{
+	width: 100%;
+}
+@media screen and (max-width: 768px) {
+	.con .bottom img{
+		width: 100%;
+	}
+}

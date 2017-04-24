@@ -1,0 +1,235 @@
+//@media only screen and (max-width: 768px) {
+.g_top{
+  img{
+    margin-top: 20px;
+    width:30px;
+    float: left;
+  }
+}
+.g_nav{
+  width: 240px;
+  height:53px;
+  float: left;
+  li{
+    float: left;
+    height: 53px;
+    width: 80px;
+    a{
+      display: block;
+      width: 100%;
+      height: 100%;
+      color:#000;
+      text-decoration: none;
+    }
+    h1{
+      width: 100%;
+      text-align: center;
+      line-height:8px;
+      font-size: 14px;
+    }
+    p{
+      width: 100%;
+      text-align: center;
+      line-height: 8px;
+      font-size: 9px;
+    }
+  }
+  li:nth-child(2){
+    display: flex;
+  }
+  li:nth-child(2):after{
+    content: ">";
+    display: block;
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "宋体";
+  }
+  li:nth-child(3){
+    h1{
+      color: #06897c
+    }
+    p{
+      color: #06897c;
+    }
+  }
+}
+  .f-ti{
+    .f-imgx{
+      text-align: center;
+      margin:{
+        top:100px;
+        bottom:50px;
+      }
+      img{
+        width:3rem;
+      }
+    }
+    .f-left{
+      //height:413px;
+      background:#06857A;
+      text-align: center;
+      width:3.15rem;
+      height:3.55rem;
+      line-height: 3.55rem;
+      padding:0;
+      float:left;
+      img{
+        width:3.0rem;
+        height:3.4rem;
+      }
+    }
+    .f-right{
+      text-align:left;
+      float:left;
+      width:3.5rem;
+      margin-left:0.08rem;
+      img{
+        height:0.5rem;
+      }
+      h1{
+        font-size:0.26rem;
+      }
+      p{
+        text-align: justify;
+        font-size:0.18rem;
+      }
+    }
+    .f-line{
+      height:1px;
+      border:1px dotted #999;
+      margin:{
+        top:10px;
+        bottom:10px;
+      }
+    }
+    .f-icon{
+      text-align: center;
+      div{
+        height:120px;
+        line-height:120px;
+        margin:{
+          top:15px;
+          bottom:15px;
+        }
+      }
+      img{
+        width:35%;
+        transition:all 0.25s linear;
+        &:hover{
+          transform:scale(1.2);
+        }
+      }
+    }
+    .f-img2{
+      img{
+        width:100%;
+      }
+    }
+    .f-zi{
+      margin-top:50px;
+      i{
+        text-align: center;
+        font-weight:700;
+        line-height:26px;
+        color:#42AB9C;
+      }
+      p{
+        text-align: center;
+        color:#959595;
+        font-size:16px;
+        margin-top: 10px;
+      }
+    }
+    .zhong{
+      text-align: center;
+      img{
+        width:90%;
+      }
+    }
+
+    .f-xiao,.f-imgx,.zhong{
+      display: block;
+    }
+    .f-da,.f-imgd{
+      display: none;
+    }
+    .zhong{
+      text-align: center;
+    }
+  }
+ //}
+ @media only screen and (min-width: 768px){
+   .f-icon{
+     text-align: center;
+     div{
+       height:120px;
+       line-height:120px;
+     }
+     img{
+       width:50px;
+     }
+     h4{
+       margin-bottom:20px;
+     }
+   }
+   .f-ti{
+     .f-xiao,.f-imgx,.zhong{
+       display: none;
+     }
+     .f-imgd{
+       display: block;
+       text-align: center;
+       margin:{
+         top:100px;
+         bottom:50px;
+       }
+       img{
+         width:1.5rem;
+       }
+     }
+     .f-da{
+       display:block;
+       color:#fff;
+       > div{
+         margin-top:20px;
+         background:#6CD2C7;
+         padding-bottom:20px;
+         &:hover > div:first-child > img{
+           transform:scale(1.2);
+         }
+         div:first-child{
+           width:105%;
+           background:#fff;
+           margin:{
+             left:3%;
+             top:-10%;
+           }
+           overflow: hidden;
+           img{
+             width:100%;
+             margin:{
+               left:2%;
+               bottom:2%;
+             }
+             transition:all 0.5s ease;
+             &:hover{
+               transform:scale(1.2);
+             }
+           }
+
+         }
+         p{
+           font-size: 0.08rem;
+         }
+         img:nth-child(2){
+           margin:0.14rem 0;
+         }
+         h1{
+           font-size:0.16rem;
+         }
+       }
+     }
+   }
+ }

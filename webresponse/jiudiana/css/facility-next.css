@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.g_top img {
+  margin-top: 20px;
+  width: 30px;
+  float: left; }
+
+.g_nav {
+  width: 240px;
+  height: 53px;
+  float: left; }
+  .g_nav li {
+    float: left;
+    height: 53px;
+    width: 80px; }
+    .g_nav li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #000;
+      text-decoration: none; }
+    .g_nav li h1 {
+      width: 100%;
+      text-align: center;
+      line-height: 8px;
+      font-size: 14px; }
+    .g_nav li p {
+      width: 100%;
+      text-align: center;
+      line-height: 8px;
+      font-size: 9px; }
+  .g_nav li:nth-child(2) {
+    display: flex; }
+  .g_nav li:nth-child(2):after {
+    content: ">";
+    display: block;
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "宋体"; }
+  .g_nav li:nth-child(3) h1 {
+    color: #06897c; }
+  .g_nav li:nth-child(3) p {
+    color: #06897c; }
+
+.f-ti .f-imgx {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px; }
+  .f-ti .f-imgx img {
+    width: 3rem; }
+
+.f-ti .f-wen img {
+  width: 100%; }
+
+.f-ti .f-wen p {
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 0.19rem; }
+
+.f-tu img {
+  width: 100%; }
+
+.f-zi {
+  margin-top: 50px; }
+  .f-zi i {
+    text-align: center;
+    font-weight: 700;
+    line-height: 26px;
+    color: #42AB9C; }
+  .f-zi p {
+    text-align: center;
+    color: #959595;
+    font-size: 16px;
+    margin-top: 10px; }
+
+.f-xiao {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px; }
+  .f-xiao img {
+    width: 90%; }
+
+.f-imgx, .f-xiao {
+  display: block; }
+
+.f-imgd, .f-only {
+  display: none; }
+
+footer p {
+  text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  .f-imgx, .f-xiao {
+    display: none; }
+  .f-only {
+    display: block; }
+  .f-ti .f-imgd {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px; }
+    .f-ti .f-imgd img {
+      width: 1.5rem; }
+  .f-ti .f-wen > p {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 0.1rem; } }

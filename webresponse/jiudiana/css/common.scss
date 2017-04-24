@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none !important;
+}
+//头部
+.q-head{
+    height: auto;
+    p {
+       margin: 0;
+       height: auto;
+    }
+}
+.q-header{
+    height: 11rem;
+    background: url(../img/q-header.png) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    .q-hFont{
+        height: 4.54rem;
+        background: url(../img/q-nav.png) no-repeat;
+        background-size: 100% 100%;
+        p{
+            height: 1.51rem;
+            margin: 0;
+            overflow: hidden;
+            a{
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                color: #a6a6a6;
+                font-weight: 500;
+                font-size: 0.34rem;
+                align-content: center;
+                justify-content: center;
+                span{
+                    display: block;
+                    width: 100%;
+                    color: #50af71;
+                    text-align: center;
+                    font:{
+                        weight: bolder;
+                        size: 0.2rem;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+//尾部
+footer{
+    width: 100%;
+    height: auto;
+    background: #08635a;
+    overflow: hidden;
+    padding-top: .1rem;
+    p{
+        height: .5rem;
+        line-height: .36rem;
+        text-align: center;
+        color: #bcc7c6;
+    }
+}
+@media screen and (min-width: 768px) {
+    footer{
+        height: 0.5rem;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        .q-contant{
+            margin-top: 2rem;
+        }
+        p{
+            line-height: .52rem;
+        }
+    }
+}
+.q-headFont{
+    position: absolute;
+    top: 0;
+    left: 1.6rem;
+    width: 1.6rem;
+    height: auto;
+    background: #fff;
+    > p{
+        margin: 0;
+        height: .48rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+            height: .38rem;
+        }
+    }
+    
+    > div{
+       height: auto; 
+       background: url(../img/q-nav.png) no-repeat;
+       background-size: 100%;
+       p{
+           height: .295rem;
+           background:url(../img/q-shadow.png) no-repeat;
+           background-size: 100%;
+           padding-top: .1rem;
+           a{
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                color: #a6a6a6;
+                font-weight: 500;
+                font-size: 0.08rem;
+                align-content: center;
+                justify-content: center;
+                span{
+                    display: block;
+                    width: 100%;
+                    color: #50af71;
+                    text-align: center;
+                    font:{
+                        weight: bolder;
+                        size: 0.09rem;
+                    }
+                }
+            }
+       }
+    }
+}

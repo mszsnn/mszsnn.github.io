@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import url("common.css");
+.footer {
+  height: auto;
+  background: black; 
+  }
+
+.row{
+  margin: 0;
+}
+.footer .footer-bottom {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  font-family: "΢���ź�";
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box; }

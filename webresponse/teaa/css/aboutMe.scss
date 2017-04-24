@@ -1,0 +1,171 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,input{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+a:hover{
+    text-decoration:none;
+    color: #000;   
+}
+
+
+.container{
+    width: 66.666666%;
+    margin: 0 auto;
+}
+
+//位置
+#wheres{
+    overflow: hidden;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#where{
+   font-size: 14px;
+   color: #393939;
+   >a{
+       font-size: 14px;
+       color: #393939;
+   }
+}
+
+
+//字
+div.word{
+    height: 80px;
+    width: auto;
+    margin: 0 auto;
+    >img{
+        height: 100%;
+        width: auto;
+        margin: 50px auto;
+        display: block;
+    }
+}
+//title
+div.title{
+    width: 100%;
+    height: auto;
+    >img{
+        display: block;
+        margin: 50px auto;
+        width: 100%;
+        height: auto;
+    }
+    >img:nth-child(2){
+        margin: 0 auto;
+    }
+    
+}
+
+//字体
+.ziti {
+    color: #6c6c6c; 
+    
+    h2{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 15px;
+        >span{
+        color: #b2643a;
+        font-weight: 700;
+        }
+    }
+    h3{
+      font-size: 20px;  
+    }
+    .tiao{
+        margin: 25px 0;
+        width:40%;
+        height: 2px;
+        background: #7e918d;
+    }
+}
+
+//段落
+.p{
+     p{
+      font-size: 14px;
+      width: 100%;
+      height: auto;
+      overflow: hidden;  
+      margin-bottom: 15px;
+      color: #787878;
+    }
+    p.english{
+        font-size: 12px;
+        color: #7b7b7b;
+    }
+    p.english:first-child{
+        margin-top: 50px;
+    }
+    
+}
+.title{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .col-xs-12{
+        background: #e1dede;
+        margin: 20px auto;
+            
+    }
+    img{
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+div.titleend{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -19999;
+    >img{
+        width: 100%;
+        height: auto;
+//      margin-top: -100px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .container{
+        width:100%!important;
+        margin: 0 auto;
+    }
+    .title {
+       .col-xs-12{
+            background: #fff;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    #where{
+        font-size: 20px;
+        a{
+            font-size: 20px;
+        }
+    }
+    
+    
+    .ziti h3{
+        font-size:24px;
+    }
+      .p p{
+          font-size: 20px;
+      }  
+      .p p.english{
+          font-size: 18px;
+      } 
+}

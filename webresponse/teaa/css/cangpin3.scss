@@ -1,0 +1,208 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,input{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+a:hover{
+    text-decoration:none;
+    color: #000;   
+}
+
+
+.container{
+    width: 66.666666%;
+//  margin: 0 auto;
+}
+
+//位置
+#wheres{
+    overflow: hidden;
+    width: 80%;
+}
+
+
+#where{
+   font-size: 14px;
+   color: #393939;
+   >a{
+       font-size: 14px;
+       color: #393939;
+   }
+}
+
+//字
+div.word{
+    height: 80px;
+    width: auto;
+    margin: 0 auto;
+    >img{
+        height: 100%;
+        width: auto;
+        margin: 50px auto;
+        display: block;
+    }
+}
+//title
+div.title{
+    width: 100%;
+    height: auto;
+    >img{
+        display: block;
+        margin: 0px auto;
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+//中间的字
+
+.work-title{ 
+    border-bottom: 1px dashed #bfbfbf;
+    padding-top: 30px;
+    padding-bottom:30px ;
+    h2{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        color: #727272;
+        margin-bottom: 20px;
+    }
+}
+//第一部分
+.work-one{
+    padding-top: 50px;
+    >.row{
+         img{
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        >div{
+            margin-top: 30px;
+            p{
+                height: 20px;
+                overflow: hidden;
+                margin-bottom: 10px;
+                text-overflow: ellipsis;
+            }
+            h3{
+                margin: 10px 0;
+            }
+        } 
+        >div.fixed{
+            display: flex;
+            justify-content: space-between;
+            >div{
+                padding: 0;
+                margin-right: 20px;
+            }
+            >div:last-child{
+                margin-right: 0px;
+            }
+        }   
+    }
+    
+}
+
+.work-tow{
+    padding-top: 50px;
+    color: #6d6d6d;
+    font-size: 14px;
+    p.english{
+        margin-top:30px ;
+        color: #767676;
+    }
+    p:last-child{
+        color: #767676;
+        
+    }
+}
+
+.work-three{
+    padding-top: 50px;
+    color: #555555;
+    font-size: 14px;
+    div.img{
+        margin-bottom: 30px;
+        h2{
+            font-size: 20px;
+            margin-top: 30px;
+            >span{
+                color: #c71623;
+            }
+        }
+        h3{
+            font-size: 20px;
+            margin: 10px 0;
+        }
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    p.english{
+        margin-top:30px ;
+        color: #767676;
+    }
+    p:last-child{
+        color: #767676;
+        
+    }
+}
+
+div.detail-bottom{
+    div{        
+        div{
+            height: 100px;
+            line-height: 100px;
+        }
+        .left{
+            float: left;
+            span{
+                margin-left: 10px;
+            }
+        }
+        .right{
+            float: right;
+            span{
+                margin-right: 10px;
+            }
+        }
+    }   
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    margin-top: 50px;
+    border-bottom: 1px dashed #bfbfbf;   
+}
+
+.last-line{
+    margin-top: 0px;
+    
+}
+
+div.titleend{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -19999;
+    >img{
+        width: 100%;
+        height: auto;
+//      margin-top: -100px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .container{
+        width:100%!important;
+    }    
+}

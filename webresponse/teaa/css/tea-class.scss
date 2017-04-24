@@ -1,0 +1,36 @@
+a:hover{
+    text-decoration: none;
+}
+#where{
+    font-size: 14px;
+    color: #393939;
+    >a{
+        font-size: 14px;
+        color: #393939;
+    }
+}
+@media screen and (max-width:992px){
+    #where{
+        font-size: 20px !important;
+        a{
+           font-size: 20px;
+        } 
+    }        
+}
+.catalog,.bottom{
+    text-align: center;
+}
+.bottom{
+    margin-bottom: 50px;
+}
+.row{
+    img.title{
+        width: 100%;
+    }
+    >div{
+       margin-top: 40px; 
+    }   
+    p.con{
+        color: #535353;
+    }
+}

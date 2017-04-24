@@ -1,0 +1,252 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,input{
+    margin:0;
+    padding:0;
+    list-style: none;
+//  font-size: 14px/20px;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+a:hover{
+    text-decoration:none;
+    color: #000;   
+}
+
+
+.container{
+    width: 100%;
+//  margin: 0 auto;
+}
+
+//位置
+#wheres{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#where{
+   font-size: 20px;
+   color: #393939;
+   >a{
+       font-size: 20px;
+       color: #393939;
+   }
+}
+
+//字
+div.word{
+    height: 80px;
+    width: auto;
+    margin: 0 auto;
+    >img{
+        height: 100%;
+        width: auto;
+        margin: 50px auto;
+        display: block;
+    }
+}
+//title
+div.title{
+    width: 100%;
+    height: auto;
+    >img{
+        display: block;
+        margin: 0px auto;
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+    >img:nth-child(2){
+        margin: 0 auto;
+    }
+}
+
+div#shougong-zuopin{
+    background: rgba(223,231,236,1);
+    height: auto;
+    padding-top:60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+//  overflow: hidden;
+    >.ul{
+        display: none;
+    }
+    >.active1{
+        display: block;
+    }
+}
+
+
+.box{
+//  width: 320px;
+    width: 89%;
+//  height: 420px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    >.img{
+        width: 100%;
+        height: auto;
+        >img{
+          width: 100%;
+          height: auto;  
+        }
+    }
+   >.img:hover{
+       box-shadow: 0 0 2px 15px #f0f0f0; 
+    }
+    >h3{
+        font-size: 24px;
+        margin: 20px 0;
+        height: 20px;
+    }
+    >p{
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        overflow: hidden;
+        height: 20px;
+        line-height: 20px;
+    }
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    color: #959595;
+    text-align: center;
+    font-size: 10px;
+    >button{
+//    width: 80px;
+      width: 10%;
+      border-radius: 10px;
+      outline: none;
+      background: rgba(0,0,0,0);  
+      box-shadow: none;
+      border: 1.45px solid #959595;  
+      font-size: 8px;
+    }
+    >div{
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        border: 1px solid #959595;
+        line-height: 26px;  
+        cursor:pointer;  
+    }
+    >input{
+//      width: 80px;
+        width: 10%;
+        border-radius: 10px;
+        outline: none;
+        background: rgba(0,0,0,0);  
+        box-shadow: none;
+        border: 1.45px solid #959595;
+        text-align: center;
+        font-weight: 600;
+        font-size: 8px;
+        
+    }
+    >div.active{
+        background: #959595;
+        color: #fff;
+    }
+}
+
+
+div.titleend{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -19999;
+    >img{
+        width: 100%;
+        height: auto;
+//      margin-top: -100px;
+    }
+}
+
+div#shougong-yiren{
+    height: auto;
+    padding-top:60px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    >.ul{
+        display: none;
+    }
+    >.active1{
+        display: block;
+    }
+     .box>.img:hover{
+        box-shadow: 0 0 15px 17px #ccc;
+        }
+     .box>.img>img:hover{
+       transform:translateY(2px) ;
+       box-shadow: 0 0 0px 10px #fff;    
+    }
+    h3{
+        font-size: 24px; 
+        margin: 20px 0;
+        height: 20px;
+    }
+    
+    p{
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        overflow: hidden;
+        height: 20px;
+  
+    }
+    p:last-child{
+      
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 992px){
+          .box h3  {
+              font-size: 20px;
+          }
+          .box p  {
+              font-size: 14px!important;
+          }           
+        }
+
+@media (min-width: 992px) { 
+    .container{
+        width:66.66%;
+        margin: 0 auto;
+    }
+    #wheres{
+        width: 80%;
+        #where{
+            font-size: 14px;
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+    
+    div.titleend>img{
+        margin-top: -100px;
+    }
+    .button {
+        width: 70%;
+        font-size:14px ;
+        button{
+           font-size:14px ; 
+        } 
+       input{
+           font-size:14px ;
+       }
+    }
+}
