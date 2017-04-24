@@ -1,0 +1,1040 @@
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.d-content{
+  width: 100%;
+  height:auto;
+  margin:0 auto;
+  padding:0;
+}
+.row{
+  padding:0;
+  margin:0;
+}
+section.floor1{
+  width:100%;
+  margin:0 auto;
+  padding:0 15px;
+  box-sizing: border-box;
+  height:auto;
+  .title1{
+    padding:0;
+    height:200px;
+    text-align: center;
+    line-height: 200px;
+    img{
+      height:55%;
+    }
+  }
+  .f1-content-l{
+    height:auto;
+    box-sizing: border-box;
+    position: relative;
+    h3{
+      margin:20px 0 0;
+      font:{
+        size:20px;
+        weight:normal;
+      }
+      b{
+        color:#ffd500;
+      }
+    }
+    span{
+      color:#0e0e0e;
+      font:{
+        size:14px;
+      }
+    }
+    div.slogan{
+      color:#4e3427;
+      font-size: 14px;
+    }
+    img.decorate1{
+      display:none;
+      position: absolute;
+      right:-25%;
+      z-index:100;
+    }
+    p{
+      width:95%;
+    }
+    p:first-of-type{
+      margin-top:20px;
+      font-size: 12px;
+    }
+    p:nth-of-type(2){
+      margin-top:20px;
+      font:{
+        size: 10px;
+        weight:normal;
+        family: 'San Francisco Display';
+      }
+      color:#797979;
+    }
+    a{
+      display:block;
+      text-align: center;
+      width:100%;
+      height:auto;
+      margin-top: 40px;
+      img:last-child{
+        //margin-top: 10px;
+      }
+    }
+  }
+  .f1-content-r{
+    padding:0;
+    height:auto;
+    .carousel1-imgBox{
+      height:auto;
+      //position: relative;
+      margin:0;
+      li{
+        width:100%;
+        height:100%;
+        //position: absolute;
+        //left:0;
+        //right:0;
+        overflow: hidden;
+        img{
+          width:100%;
+        }
+      }
+    }
+    div.decorate2{
+      width:100%;
+      height:auto;
+      overflow: hidden;
+      display: none;
+      h4{
+        margin:10px 0 0;
+        float:left;
+        font:{
+          size:24px;
+          family: "San Francisco Display";
+        }
+      }
+      div.line{
+        width:200px;
+        height:2px;
+        background:#3e2216;
+        float: left;
+        margin-top:22px;
+        margin-left:10px;
+      }
+      div.circle{
+        width:8px;
+        height:8px;
+        background:#3e2216;
+        border-radius: 50%;
+        float: left;
+        margin-top:19px;
+      }
+    }
+    div.box{
+      text-align: left;
+      .box-decorate{
+        display:none;
+        h4{
+          float: left;
+          margin:6px 0 0;
+        }
+        div.circle{
+          width:10px;
+          height:10px;
+          background:#4e3427;
+          border-radius: 50%;
+          float: left;
+          margin:{
+            top:10px;
+            left:10px;
+          }
+        }
+      }
+
+      .carousel1-circle{
+        //float:left;
+        width:90px;
+        height:10px;
+        //margin:10px auto 0;
+        margin:0 auto;
+        //margin-top:10px;
+        //margin-left:35%;
+        display: flex;
+        justify-content: space-around;
+        li{
+          width:10px;
+          height:100%;
+          background:#4e3427;
+          border-radius: 50%;
+        }
+        li.carousel1-circle-first{
+          background:#fff;
+          border:2px solid #4e3427;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}
+section.floor2{
+  width:100%;
+  height:auto;
+  margin-top: 30px;
+  background: {
+    image:url("../img/indeximg/small-background1.jpg");
+    position: center 26%;
+    size:100% auto;
+    repeat: no-repeat;
+  };
+  .inset{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+    .title2{
+      width:100%;
+      height:200px;
+      text-align: center;
+      background:{
+        image: url("../img/indeximg/title2.png");
+        repeat: no-repeat;
+        size:auto 40%;
+        position: center;
+      };
+      img{
+        display:none;
+      }
+    }
+    .f2-content-l{
+      height:100%;
+      padding:0;
+      .carousel2-imgBox{
+        width:100%;
+        height:auto;
+        //position: relative;
+        li{
+          width:100%;
+          height:100%;
+          //position: absolute;
+          //left:0;
+          //top:0;
+          overflow: hidden;
+          img{
+            width:100%;
+          }
+        }
+      }
+      .carousel2-circle{
+        width:90px;
+        height:10px;
+        margin-top:10px;
+        margin-left:40%;
+        //margin:0 auto;
+        display: flex;
+        justify-content: space-around;
+        li{
+          width:10px;
+          height:100%;
+          background:#4e3427;
+          border-radius: 50%;
+        }
+        li.carousel2-circle-first{
+          background:#fff;
+          border:2px solid #4e3427;
+          box-sizing: border-box;
+        }
+      }
+
+    }
+    .f2-content-r{
+      padding:0;
+      height:100%;
+      text-align: center;
+      .icon1{
+        margin-top: 20px;
+        width:70%;
+      }
+
+      p{
+        width:90%;
+        height:auto;
+        margin:20px auto;
+        font-size: 12px;
+      }
+      p:nth-of-type(1){
+        margin-top: 40px;
+      }
+      p:nth-of-type(2){
+        font-size: 10px;
+        color:#616161;
+      }
+      a{
+        margin-top:30px;
+        display: block;
+        width:100%;
+        height:auto;
+        img{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+section.floor3{
+  width:100%;
+  height:auto;
+  position: relative;
+  margin-top:60px;
+  .f3-content-1{
+    padding:0;
+    margin:0;
+    img.bg{
+      width:100%;
+      display: none;
+    }
+    a.circle{
+      text-decoration: none;
+      display: none;
+      position: absolute;
+      left:51%;
+      top:33%;
+      width:64px;
+      height:64px;
+      background:#ffd500;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 64px;
+      color:#fff;
+      font-size: 44px;
+    }
+    div.title{
+      display:block;
+      width:100%;
+      height:200px;
+      line-height: 200px;
+      text-align: center;
+      img{
+        height:40%;
+      }
+    }
+    img:nth-of-type(3){
+      width:100%;
+      margin-top:-39%;
+      display:block;
+    }
+    img:nth-of-type(4){
+      width:100%;
+    }
+    img.bg~img{
+      width:100%;
+      display:block;
+    }
+  }
+  .f3-content-2l,.f3-content-2r,.f3-content-3{
+    display:block;
+  }
+  .f3-content-2l{
+    padding:0;
+    img{
+      margin-top:-28%;
+      width:100%;
+      //margin-top:-100px;
+      //margin-left:24px;
+    }
+  }
+
+  .f3-content-2r{
+    padding:0;
+    p{
+      padding:0 10px;
+      margin-top:20%;
+      color:#8a8989;
+      font:{
+        size:10px;
+        weight:normal;
+        family: "San Francisco Display";
+      }
+    }
+  }
+  .f3-content-3{
+    padding:0;
+    margin:0;
+    img{
+      width:100%;
+    }
+    img:first-child{
+      margin-top:-12%;
+    }
+  }
+}
+section.floor4{
+  .f4-content-1{
+    display:none;
+    padding:0;
+    div.color-block{
+      width:100%;
+      height:382px;
+      margin-top:-140px;
+      background: rgba(89,46,22,0.9);
+      position: relative;
+      img.flower{
+        position: absolute;
+        right:7%;
+        top:-10%;
+      }
+      .f4-title-l{
+        text-align: right;
+        color:#fff;
+        font-family: 'San Francisco Display';
+        h3{
+          margin-top:10%;
+          font-size: 32px;
+          margin-right:20px;
+        }
+        span{
+          font-size: 26px;
+          font-weight:100;
+          margin-right:20px;
+        }
+        div.rect{
+          width:5px;
+          height:70px;
+          background:#fff;
+          float: right;
+          margin-top:-7%;
+        }
+      }
+      .f4-title-r{
+        text-align: left;
+        p{
+          width:60%;
+          color:#fff;
+          font-size:12px;
+          font-weight:100;
+        }
+        p:first-of-type{
+          margin-top:12%;
+          font-family: "微软雅黑";
+        }
+        p:nth-of-type(2){
+          font-family: "San Francisco Display";
+        }
+      }
+    }
+  }
+  .f4-content-2{
+    display:none;
+    padding:0;
+    height:auto;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    position: relative;
+    top:-150px;
+    z-index:10000;
+    img.bg2{
+      width:100%;
+    }
+    div.title4{
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:auto;
+      overflow: hidden;
+      color:#141414;
+      text-align: center;
+      div.title4-1{
+        width:100%;
+        height:auto;
+        text-align: center;
+        overflow: hidden;
+        margin:{
+          top:50px;
+          bottom:10px;
+        }
+        span:first-of-type{
+          font:{
+            size:24px;
+            weight: bold;
+            family: 'San Francisco Display';
+          }
+        }
+        span:nth-of-type(2){
+          font:{
+            size:24px;
+            family: 'San Francisco Display';
+            weight: 400;
+          }
+        }
+      }
+      span{
+        font:{
+          size:18px;
+          family: '微软雅黑';
+        }
+      }
+    }
+    div.carousel3{
+      width:65%;
+      height:38%;
+      position: absolute;
+      left:4%;
+      top:20%;
+      overflow: hidden;
+      ul{
+        li{
+          width:100%;
+          //height:100%;
+          position: absolute;
+          left:0;
+          top:0;
+          >img{
+            width:100%;
+          }
+          div.mask{
+            //display:none;
+            width:100%;
+            height:100%;
+            background:rgba(0,0,0,0.8);
+            position: absolute;
+            left:0;
+            top:0;
+            text-align: center;
+            >img:first-of-type{
+              margin-top:15%;
+            }
+            .introduce{
+              margin-top:15px;
+              span{
+                color:#fff;
+                font:{
+                  size:12px;
+                  family: 'San Francisco Display';
+                }
+              }
+            }
+            p{
+              width:50%;
+              margin:10px auto 0;
+              color:#fff;
+              font:{
+                size:12px;
+                family: 'San Francisco Display';
+              }
+
+            }
+
+          }
+        }
+        li:hover > div.mask{
+          //display:block;
+        }
+      }
+      .carousel3-left,.carousel3-right{
+        width:28px;
+        height:28px;
+        position: absolute;
+        bottom:0;
+        text-align: center;
+        line-height: 28px;
+        color:#fff;
+        font:{
+          size:20px;
+          family: '宋体';
+          weight:bold;
+        }
+        z-index: 100;
+      }
+      div.carousel3-left{
+        right:0;
+        background:#ffdc36;
+      }
+      div.carousel3-right{
+        right:28px;
+        background:#393939;
+      }
+    }
+    div.font{
+      width:48%;
+      height:auto;
+      position: absolute;
+      right:6%;
+      top:30%;
+      padding:0 30px;
+      box-sizing: border-box;
+      div.font-1{
+        width:100%;
+        text-align: right;
+        font-family: 'San Francisco Display';
+        h3{
+          margin-top:30%;
+          font-size: 24px;
+        }
+        div.small-rect{
+          width:21px;
+          height:3px;
+          background:#000;
+          float:right;
+        }
+        p{
+          margin-top: 30px;
+          width:47%;
+          float: right;
+          margin-right: -21px;
+        }
+      }
+      div.f4-decorate{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+        position: relative;
+        div.f4-decorate-rect{
+          width:100%;
+          height:2px;
+          background:#000;
+          margin-top:50%;
+        }
+        div.f4-decorate-circle{
+          width:6px;
+          height:6px;
+          background:#000;
+          position: absolute;
+          left:0;
+          top:-2px;
+          border-radius: 50%;
+        }
+        div.f4-decorate-smallrect{
+          width:47px;
+          height:4px;
+          background:#000;
+          position: absolute;
+          right:0;
+          top:-1px;
+        }
+      }
+      p:first-of-type{
+        margin-top:40px;
+        text-align: right;
+        color:#000;
+        font:{
+          size:14px;
+        }
+      }
+      p:nth-of-type(2){
+        margin-top: 30px;
+        color:#323232;
+        text-align: right;
+        font:{
+          size:12px;
+          family: 'San Francisco Display';
+        }
+      }
+    }
+    //div.font-decorate{
+    //  position: relative;
+    //  top:50%;
+    //  left:0;
+    //}
+    a{
+      display:block;
+      width:350px;
+      height:auto;
+      position: absolute;
+      left:0;
+      bottom:0;
+      img{
+        width:100%;
+      }
+    }
+  }
+  background:none;
+  .f4-content-3{
+    display:none;
+    height:720px;
+    margin-top: -310px;
+    padding:0;
+    position: relative;
+    ul.carousel4{
+      width:100%;
+      height:100%;
+      position: relative;
+      li{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        left:0;
+        top:0;
+        text-align: center;
+        background: {
+          size:auto 76%;
+          repeat: no-repeat;
+          position: center bottom;
+        };
+      }
+      li:first-child{
+        background-image: url("../img/indeximg/person1.png");
+      }
+    }
+    ul.carousel4-rect{
+      width:1160px;
+      height:130px;
+      display:flex;
+      justify-content: space-around;
+      position: absolute;
+      bottom:20px;
+      left:50%;
+      margin-left:-480px;
+      li{
+        width:200px;
+        height:100%;
+        background:red;
+      }
+      li.first{
+        width:400px;
+      }
+    }
+  }
+  .f4-small-content-1{
+    padding:0;
+    display:block;
+    width:100%;
+    height:auto;
+    background: {
+      image: url("../img/indeximg/f4-small-background.png");
+      size:100% auto;
+      position: 0 0;
+      repeat: no-repeat;
+    };
+    text-align: center;
+    color:#fff;
+    font-family: 'San Francisco Display';
+    margin-top:-26%;
+    h3{
+      margin-top:30%;
+      font-size: 24px;
+      margin-right:20px;
+      >img{
+        height:24px;
+      }
+    }
+    >span{
+      font-size: 14px;
+      font-weight:100;
+      margin-right:20px;
+    }
+    div.d-rect{
+      width:85%;
+      height:3px;
+      margin:10px auto 10px;
+      background:#fff;
+    }
+    >p{
+      width:90%;
+      margin:20px auto 0;
+      color:#fff;
+      font-size: 12px;
+      font-weight: 100;
+    }
+    div.d-title{
+      width: 100%;
+      height:auto;
+      margin-top:18%;
+      color:#000;
+      text-align: center;
+      span:first-child{
+        font:{
+          weight:bold;
+          family: "San Francisco Display";
+          size:20px;
+        }
+      }
+      span:nth-of-type(2){
+        font:{
+          size:20px;
+          family: "San Francisco Display";
+          weight: 200;
+        }
+      }
+      img{
+        margin-bottom: 17px;
+      }
+    }
+    div.d-playimg{
+      width:80%;
+      height:auto;
+      margin:20px auto 0;
+      position: relative;
+      >img{
+        width:100%;
+      }
+      div.mask{
+        //display:none;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.8);
+        position: absolute;
+        left:0;
+        top:0;
+        text-align: center;
+        >img:first-of-type{
+          margin-top:10%;
+          height:30%;
+        }
+        .introduce{
+          margin-top:15px;
+          img{
+            width:20%;
+          }
+          >span{
+            color:#fff;
+            font:{
+              size:18px;
+              family: 'San Francisco Display';
+              weight: 400;
+            }
+          }
+        }
+        p{
+          width:85%;
+          margin:10px auto 0;
+          color:#fff;
+          font:{
+            size:10px;
+            family: 'San Francisco Display';
+          }
+
+        }
+
+      }
+    }
+    div.d-font{
+      width:100%;
+      height:auto;
+      text-align: center;
+      color:#000;
+      h2{
+        font-weight: bold;
+      }
+      div.d-underline{
+        width:106px;
+        height:3px;
+        background: #000;
+        margin:0 auto;
+      }
+      >p{
+          color:#000;
+          width:86%;
+          margin:0 auto;
+        font:{
+          size:16px;
+          family: "微软雅黑";
+          weight: 400;
+        }
+      }
+      p:first-of-type{
+        margin-top:18px;
+      }
+      p:nth-of-type(2){
+        width:85%;
+      }
+    }
+    div.d-more{
+      width:100%;
+      height:auto;
+      text-align: right;
+      padding-right: 60px;
+      box-sizing: border-box;
+      img{
+        margin:20px 0;
+      }
+    }
+    >img{
+      width:100%;
+      margin-top:50px;
+    }
+    div.d-introduce{
+      width:100%;
+      height:auto;
+      color:#000;
+      padding:0 5%;
+      box-sizing: border-box;
+      h1{
+        text-align: left;
+        font:{
+          size:48px;
+          weight: bold;
+        }
+        span{
+          color:#ffd500;
+        }
+      }
+      h4{
+        text-align: left;
+        font:{
+          size:18px;
+          weight: 500;
+        }
+      }
+      >p{
+        width:100%;
+        color:#252525;
+        font:{
+          size:14px;
+          weight:400;
+        }
+      }
+    }
+    div.d-view{
+      width:100%;
+      height:auto;
+      text-align: right;
+      padding-left:80px;
+      box-sizing: border-box;
+      img{
+        width:126px;
+        margin:20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  section.floor1{
+    width:1200px;
+    padding:0;
+    .title1{
+      height:280px;
+      line-height: 280px;
+      img{
+        height:60%;
+      }
+    }
+    .f1-content-r{
+      div.decorate2{
+        display:block;
+      }
+      div.box {
+        .box-decorate{
+          display:block;
+        }
+        .carousel1-circle{
+          margin-top: 10px;
+        }
+      }
+    }
+    .f1-content-l{
+      padding-left:60px;
+      h3{
+        font-size: 24px;
+        margin:30px 0 0;
+      }
+      span{
+        font-size:12px;
+      }
+      div.slogan{
+        font-size: 14px;
+      }
+      img.decorate1{
+        display:block;
+      }
+      p:first-of-type{
+        margin-top:120px;
+        font-size: 14px;
+      }
+      p:nth-of-type(2){
+        font-size: 12px;
+      }
+      a{
+        margin-top:60px;
+        text-align: left;
+      }
+    }
+  }
+  section.floor2{
+    margin-top:90px;
+    background-image: url("../img/indeximg/background1.png");
+    .inset{
+      width:1200px;
+      .title2{
+        position: absolute;
+        right:0;
+        top:-21px;
+        width:auto;
+        height: auto;
+        text-align: center;
+        background: none;
+        img{
+          display:block;
+          height:252px;
+        }
+      }
+      .f2-content-l{
+        margin:0 auto;
+        .carousel2-imgBox{
+          margin-top:128px;
+        }
+      }
+      .f2-content-r{
+        .icon1{
+          margin-top: 280px;
+          width:283px;
+        }
+        p{
+          width:60%;
+        }
+        p:first-of-type{
+          font-size: 14px;
+        }
+        p:nth-of-type(2){
+          font-size: 12px;
+        }
+        a{
+          margin-top:20px;
+        }
+      }
+    }
+  }
+  section.floor3{
+    margin-top:80px;
+    .f3-content-1{
+      img.bg{
+        display:inline-block;
+      }
+      a.circle{
+        display:block;
+      }
+      div.title{
+        display:none;
+      }
+      img.bg~img{
+        display:none;
+      }
+    }
+    .f3-content-2l,.f3-content-2r,.f3-content-3{
+      display:none;
+    }
+  }
+  section.floor4{
+    .f4-content-1,.f4-content-2,.f4-content-3{
+      display:block;
+    }
+    .f4-content-1{
+      font-size: 32px;
+    }
+    background: {
+      image: url("../img/indeximg/f4-background.png");
+      position: center bottom;
+      size:105% auto;
+      repeat: no-repeat;
+    };
+    .f4-small-content-1{
+      display:none;
+    }
+  }
+}

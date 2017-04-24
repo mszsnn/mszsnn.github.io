@@ -1,0 +1,552 @@
+body {
+  background-color: #fff; }
+
+@media (min-width: 1200px) {
+  .danye .hid {
+    display: block; }
+
+  .danye .hid1 {
+    display: none; }
+
+  .whileBG {
+    width: 100%;
+    height: auto;
+    background: #CCA670;
+    position: relative; }
+
+  .BG1 {
+    width: 100%;
+    height: 328px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0px; }
+
+  .BG2 {
+    width: 100%;
+    height: 295px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0px; }
+
+  .danye {
+    width: 1200px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  .danye .img {
+    width: 100% !important;
+    height: 505px !important;
+    margin-bottom: 130px !important;
+    margin-top: 130px;
+    position: relative !important; }
+
+  .danye .img > img.img1 {
+    display: block;
+    position: absolute;
+    left: -33.8%;
+    top: 0px;
+    width: 115%;
+    height: auto; }
+
+  .danye .img > img.img2 {
+    display: block;
+    position: absolute;
+    right: -36.4%;
+    bottom: 15px;
+    width: 90%;
+    height: auto; }
+
+  .danye .dylogo {
+    width: 100%;
+    height: 120px;
+    line-height: 120px; }
+
+  .dylogo > img {
+    padding-left: 30px; }
+
+  .danye .acta1-l {
+    position: absolute;
+    width: 0px;
+    height: 182px;
+    left: 0;
+    top: 128px;
+    box-shadow: 0 0 30px 14px rgba(234, 234, 234, 0.7); }
+
+  .danye .acta1-r {
+    position: absolute;
+    width: 0px;
+    height: 182px;
+    right: 0;
+    top: 128px;
+    box-shadow: 0 0 30px 14px rgba(234, 234, 234, 0.7); }
+
+  .danye .acta2-l {
+    position: absolute;
+    width: 0px;
+    height: 278px;
+    left: 0;
+    bottom: 0px;
+    box-shadow: 0 0 30px 14px rgba(234, 234, 234, 0.7); }
+
+  .danye .acta2-r {
+    position: absolute;
+    width: 0px;
+    height: 278px;
+    right: 0;
+    bottom: 0px;
+    box-shadow: 0 0 30px 14px rgba(234, 234, 234, 0.7); }
+
+  .danye article > ul > li > div {
+    width: 9px;
+    height: 9px; }
+
+  .danye article > ul > li > p {
+    font-size: 14px; }
+
+  .danye ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important; }
+
+  .danye section {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .danye .line {
+    height: 10px;
+    background: #592E16;
+    width: 100%;
+    margin-bottom: 90px; }
+
+  .danye .title {
+    margin: 0 auto;
+    text-align: center; }
+
+  .danye .title > div {
+    height: 40px;
+    width: auto; }
+
+  .danye .title > div > span {
+    font-size: 22px;
+    color: #592e16 !important;
+    font-weight: bold !important; }
+
+  .danye .title > div > img {
+    display: inline-block;
+    line-height: 40px; }
+
+  .danye h2 {
+    color: #97785F !important;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: bold !important;
+    margin: 15px 0 !important; }
+
+  .danye small {
+    font-size: 100% !important;
+    text-transform: uppercase;
+    color: #97785f !important; }
+
+  .danye h3 {
+    margin: 5px 0 !important; }
+
+  .danye h3 > small {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #717171 !important;
+    font-weight: 100 !important; }
+
+  .danye p {
+    font-size: 14px !important;
+    color: #82685D !important;
+    margin-bottom: 0px; }
+
+  .danye p.di {
+    margin-bottom: 72px; }
+
+  .danye .jiejian {
+    width: 84%;
+    height: 50px;
+    border-bottom: 2px solid #b28850;
+    margin: 0  auto;
+    margin-top: 122px;
+    margin-bottom: 36px;
+    position: relative; }
+
+  .danye .jiejian > div.cir {
+    width: 6px;
+    height: 6px;
+    background: #B28850;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    box-shadow: 0 0 1px #592E16; }
+
+  .danye .gs {
+    width: 132px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    background-image: url(../img/CWFdanyePC-img/danyeBg.jpg); }
+
+  .danye .gs-line {
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    width: 137px;
+    height: 4px;
+    background-color: #b28850; }
+
+  .danye .gs > span {
+    color: #592e16;
+    font-size: 30px; }
+
+  .danye blockquote {
+    float: left;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 5px !important;
+    display: inline-block !important;
+    border-left: 5px solid #592E16 !important;
+    margin: 0px !important; }
+
+  .danye blockquote > h5 {
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: 5px !important;
+    margin-bottom: 1px !important;
+    color: #592E16 !important;
+    font-weight: bold !important; }
+
+  .danye blockquote > h5 > span {
+    text-transform: lowercase;
+    color: #C28F75 !important;
+    font-size: 8px !important; }
+
+  .danye blockquote > p {
+    color: #82685D !important;
+    font-size: 12px !important; }
+
+  .danye article {
+    width: 83.8%;
+    height: auto;
+    margin: 0 auto; }
+
+  .danye article > ul > li > div {
+    display: inline-block;
+    background: #592e16; }
+
+  .danye article > ul > li > h1 {
+    display: inline-block;
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B4B4B; }
+
+  .danye article > ul > li > span {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #c3c3c3; }
+
+  .danye article > ul > li > p {
+    line-height: 20px;
+    color: #787878 !important;
+    margin-bottom: 20px; }
+
+  .danye p.English {
+    line-height: 14px;
+    color: #9d9d9d !important;
+    font-size: 12px !important;
+    font-family: "sans-serif;"; }
+
+  .pptop {
+    margin-bottom: 100px !important;
+    margin-top: 20px; } }
+@media (max-width: 768px) {
+  .danye .line {
+    display: none; }
+
+  .danye .hid1 {
+    display: block; }
+
+  .danye .hid {
+    display: none; }
+
+  .danye .col-sm-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  body {
+    background: #fff !important; }
+
+  .danye .tit {
+    margin-top: 15px !important; }
+
+  .danye .title {
+    margin-top: 75px !important; }
+
+  .danye .jiejian {
+    width: 94.1%; }
+
+  .danye .title > div > span {
+    font-size: 33px !important;
+    color: #592e16 !important;
+    font-weight: bold !important; }
+
+  .danye article {
+    width: 94.1%; }
+
+  .danye article > ul > li > p {
+    font-size: 12px !important; }
+
+  .danye article > ul > li > span {
+    display: block; }
+
+  .danye article > ul > li > div {
+    width: 12px;
+    height: 12px;
+    display: inline-block; }
+
+  .danye .title > h2 {
+    font-size: 34px !important; }
+
+  .danye .title > h3 {
+    margin-bottom: 28px !important; }
+
+  .danye .title > h3 > small {
+    font-size: 34px !important; }
+
+  .danye .title > p {
+    font-size: 18px !important; }
+
+  .danye .jiejian {
+    height: 62px !important; }
+
+  .danye .gs {
+    width: 150px !important;
+    height: 54px !important; }
+
+  .danye .gs > span {
+    font-size: 32px !important; }
+
+  .danye .dylogo {
+    display: none; }
+
+  .danye article > ul > li > h1 {
+    font-size: 16px !important; }
+
+  .danye article > ul > li > span {
+    font-size: 12px !important; }
+
+  .danye .English {
+    font-size: 12px !important;
+    font-weight: 100 !important; }
+
+  .danye .img {
+    overflow: hidden;
+    width: 119% !important;
+    height: auto !important;
+    height: 165px !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px;
+    position: relative !important;
+    left: -30px;
+    top: 0; }
+
+  .danye .img > img.img1 {
+    display: block;
+    position: absolute;
+    left: -15.7%;
+    top: 0px;
+    width: 108%;
+    height: auto;
+    overflow: hidden; }
+
+  .danye .img > img.img2 {
+    display: block;
+    position: absolute;
+    right: -10%;
+    top: 75px;
+    width: 90%;
+    height: auto;
+    overflow: hidden; }
+
+  .danye ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important; }
+
+  .danye section {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .danye .line {
+    height: 10px;
+    background: #592E16;
+    width: 100%;
+    margin-bottom: 90px; }
+
+  .danye .title {
+    margin: 0 auto;
+    text-align: center; }
+
+  .danye .title > div {
+    height: 40px;
+    width: auto; }
+
+  .danye .title > div > span {
+    font-size: 22px;
+    color: #592e16 !important;
+    font-weight: bold !important; }
+
+  .danye .title > div > img {
+    display: inline-block;
+    line-height: 40px; }
+
+  .danye h2 {
+    color: #97785F !important;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: bold !important;
+    margin: 15px 0 !important; }
+
+  .danye small {
+    font-size: 100% !important;
+    text-transform: uppercase;
+    color: #97785f !important; }
+
+  .danye h3 {
+    margin: 5px 0 !important; }
+
+  .danye h3 > small {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #717171 !important;
+    font-weight: 100 !important; }
+
+  .danye p {
+    font-size: 12px !important;
+    color: #82685D !important;
+    margin-bottom: 0px; }
+
+  .danye p.di {
+    margin-bottom: 72px; }
+
+  .danye .jiejian {
+    height: 50px;
+    border-bottom: 2px solid #b28850;
+    margin: 0  auto;
+    margin-top: 122px;
+    margin-bottom: 36px;
+    position: relative; }
+
+  .danye .jiejian > div.cir {
+    width: 6px;
+    height: 6px;
+    background: #B28850;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    box-shadow: 0 0 1px #592E16; }
+
+  .danye .gs {
+    width: 132px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    background-image: url(../img/CWFdanyePC-img/danyeBg.jpg); }
+
+  .danye .gs-line {
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    width: 137px;
+    height: 4px;
+    background-color: #b28850; }
+
+  .danye .gs > span {
+    color: #592e16;
+    font-size: 30px; }
+
+  .danye blockquote {
+    float: left;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 5px !important;
+    display: inline-block !important;
+    border-left: 5px solid #592E16 !important;
+    margin: 0px !important; }
+
+  .danye blockquote > h5 {
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: 5px !important;
+    margin-bottom: 1px !important;
+    color: #592E16 !important;
+    font-weight: bold !important; }
+
+  .danye blockquote > h5 > span {
+    text-transform: lowercase;
+    color: #C28F75 !important;
+    font-size: 8px !important; }
+
+  .danye blockquote > p {
+    color: #82685D !important;
+    font-size: 12px !important; }
+
+  .danye article {
+    width: 83.8%;
+    height: auto;
+    margin: 0 auto; }
+
+  .danye article > ul > li > div {
+    display: inline-block;
+    background: #592e16; }
+
+  .danye article > ul > li > h1 {
+    display: inline-block;
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B4B4B; }
+
+  .danye article > ul > li > span {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #c3c3c3; }
+
+  .danye article > ul > li > p {
+    line-height: 20px;
+    color: #787878 !important; }
+
+  .danye .English {
+    line-height: 14px;
+    color: #9d9d9d !important;
+    font-size: 12px;
+    font-family: "sans-serif;"; } }
+
+/*# sourceMappingURL=CWFdanyePC.css.map */

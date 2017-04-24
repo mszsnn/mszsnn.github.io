@@ -1,0 +1,1088 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+section.floor1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+section.floor1 .title1 {
+  padding: 0;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+section.floor1 .title1 img {
+  height: 55%;
+}
+
+section.floor1 .f1-content-l {
+  height: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+section.floor1 .f1-content-l h3 {
+  margin: 20px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+section.floor1 .f1-content-l h3 b {
+  color: #ffd500;
+}
+
+section.floor1 .f1-content-l span {
+  color: #0e0e0e;
+  font-size: 14px;
+}
+
+section.floor1 .f1-content-l div.slogan {
+  color: #4e3427;
+  font-size: 14px;
+}
+
+section.floor1 .f1-content-l img.decorate1 {
+  display: none;
+  position: absolute;
+  right: -25%;
+  z-index: 100;
+}
+
+section.floor1 .f1-content-l p {
+  width: 95%;
+}
+
+section.floor1 .f1-content-l p:first-of-type {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+section.floor1 .f1-content-l p:nth-of-type(2) {
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: 'San Francisco Display';
+  color: #797979;
+}
+
+section.floor1 .f1-content-l a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+section.floor1 .f1-content-r {
+  padding: 0;
+  height: auto;
+}
+
+section.floor1 .f1-content-r .carousel1-imgBox {
+  height: auto;
+  margin: 0;
+}
+
+section.floor1 .f1-content-r .carousel1-imgBox li {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+section.floor1 .f1-content-r .carousel1-imgBox li img {
+  width: 100%;
+}
+
+section.floor1 .f1-content-r div.decorate2 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+
+section.floor1 .f1-content-r div.decorate2 h4 {
+  margin: 10px 0 0;
+  float: left;
+  font-size: 24px;
+  font-family: "San Francisco Display";
+}
+
+section.floor1 .f1-content-r div.decorate2 div.line {
+  width: 200px;
+  height: 2px;
+  background: #3e2216;
+  float: left;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+
+section.floor1 .f1-content-r div.decorate2 div.circle {
+  width: 8px;
+  height: 8px;
+  background: #3e2216;
+  border-radius: 50%;
+  float: left;
+  margin-top: 19px;
+}
+
+section.floor1 .f1-content-r div.box {
+  text-align: left;
+}
+
+section.floor1 .f1-content-r div.box .box-decorate {
+  display: none;
+}
+
+section.floor1 .f1-content-r div.box .box-decorate h4 {
+  float: left;
+  margin: 6px 0 0;
+}
+
+section.floor1 .f1-content-r div.box .box-decorate div.circle {
+  width: 10px;
+  height: 10px;
+  background: #4e3427;
+  border-radius: 50%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+section.floor1 .f1-content-r div.box .carousel1-circle {
+  width: 90px;
+  height: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.floor1 .f1-content-r div.box .carousel1-circle li {
+  width: 10px;
+  height: 100%;
+  background: #4e3427;
+  border-radius: 50%;
+}
+
+section.floor1 .f1-content-r div.box .carousel1-circle li.carousel1-circle-first {
+  background: #fff;
+  border: 2px solid #4e3427;
+  box-sizing: border-box;
+}
+
+section.floor2 {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  background-image: url("../img/indeximg/small-background1.jpg");
+  background-position: center 26%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+section.floor2 .inset {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+section.floor2 .inset .title2 {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../img/indeximg/title2.png");
+  background-repeat: no-repeat;
+  background-size: auto 40%;
+  background-position: center;
+}
+
+section.floor2 .inset .title2 img {
+  display: none;
+}
+
+section.floor2 .inset .f2-content-l {
+  height: 100%;
+  padding: 0;
+}
+
+section.floor2 .inset .f2-content-l .carousel2-imgBox {
+  width: 100%;
+  height: auto;
+}
+
+section.floor2 .inset .f2-content-l .carousel2-imgBox li {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+section.floor2 .inset .f2-content-l .carousel2-imgBox li img {
+  width: 100%;
+}
+
+section.floor2 .inset .f2-content-l .carousel2-circle {
+  width: 90px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.floor2 .inset .f2-content-l .carousel2-circle li {
+  width: 10px;
+  height: 100%;
+  background: #4e3427;
+  border-radius: 50%;
+}
+
+section.floor2 .inset .f2-content-l .carousel2-circle li.carousel2-circle-first {
+  background: #fff;
+  border: 2px solid #4e3427;
+  box-sizing: border-box;
+}
+
+section.floor2 .inset .f2-content-r {
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+section.floor2 .inset .f2-content-r .icon1 {
+  margin-top: 20px;
+  width: 70%;
+}
+
+section.floor2 .inset .f2-content-r p {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  font-size: 12px;
+}
+
+section.floor2 .inset .f2-content-r p:nth-of-type(1) {
+  margin-top: 40px;
+}
+
+section.floor2 .inset .f2-content-r p:nth-of-type(2) {
+  font-size: 10px;
+  color: #616161;
+}
+
+section.floor2 .inset .f2-content-r a {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+section.floor2 .inset .f2-content-r a img {
+  text-align: center;
+}
+
+section.floor3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 60px;
+}
+
+section.floor3 .f3-content-1 {
+  padding: 0;
+  margin: 0;
+}
+
+section.floor3 .f3-content-1 img.bg {
+  width: 100%;
+  display: none;
+}
+
+section.floor3 .f3-content-1 a.circle {
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  left: 51%;
+  top: 33%;
+  width: 64px;
+  height: 64px;
+  background: #ffd500;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 64px;
+  color: #fff;
+  font-size: 44px;
+}
+
+section.floor3 .f3-content-1 div.title {
+  display: block;
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+section.floor3 .f3-content-1 div.title img {
+  height: 40%;
+}
+
+section.floor3 .f3-content-1 img:nth-of-type(3) {
+  width: 100%;
+  margin-top: -39%;
+  display: block;
+}
+
+section.floor3 .f3-content-1 img:nth-of-type(4) {
+  width: 100%;
+}
+
+section.floor3 .f3-content-1 img.bg ~ img {
+  width: 100%;
+  display: block;
+}
+
+section.floor3 .f3-content-2l, section.floor3 .f3-content-2r, section.floor3 .f3-content-3 {
+  display: block;
+}
+
+section.floor3 .f3-content-2l {
+  padding: 0;
+}
+
+section.floor3 .f3-content-2l img {
+  margin-top: -28%;
+  width: 100%;
+}
+
+section.floor3 .f3-content-2r {
+  padding: 0;
+}
+
+section.floor3 .f3-content-2r p {
+  padding: 0 10px;
+  margin-top: 20%;
+  color: #8a8989;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: "San Francisco Display";
+}
+
+section.floor3 .f3-content-3 {
+  padding: 0;
+  margin: 0;
+}
+
+section.floor3 .f3-content-3 img {
+  width: 100%;
+}
+
+section.floor3 .f3-content-3 img:first-child {
+  margin-top: -12%;
+}
+
+section.floor4 {
+  background: none;
+}
+
+section.floor4 .f4-content-1 {
+  display: none;
+  padding: 0;
+}
+
+section.floor4 .f4-content-1 div.color-block {
+  width: 100%;
+  height: 382px;
+  margin-top: -140px;
+  background: rgba(89, 46, 22, 0.9);
+  position: relative;
+}
+
+section.floor4 .f4-content-1 div.color-block img.flower {
+  position: absolute;
+  right: 7%;
+  top: -10%;
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-l {
+  text-align: right;
+  color: #fff;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-l h3 {
+  margin-top: 10%;
+  font-size: 32px;
+  margin-right: 20px;
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-l span {
+  font-size: 26px;
+  font-weight: 100;
+  margin-right: 20px;
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-l div.rect {
+  width: 5px;
+  height: 70px;
+  background: #fff;
+  float: right;
+  margin-top: -7%;
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-r {
+  text-align: left;
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-r p {
+  width: 60%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-r p:first-of-type {
+  margin-top: 12%;
+  font-family: "微软雅黑";
+}
+
+section.floor4 .f4-content-1 div.color-block .f4-title-r p:nth-of-type(2) {
+  font-family: "San Francisco Display";
+}
+
+section.floor4 .f4-content-2 {
+  display: none;
+  padding: 0;
+  height: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -150px;
+  z-index: 10000;
+}
+
+section.floor4 .f4-content-2 img.bg2 {
+  width: 100%;
+}
+
+section.floor4 .f4-content-2 div.title4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #141414;
+  text-align: center;
+}
+
+section.floor4 .f4-content-2 div.title4 div.title4-1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+section.floor4 .f4-content-2 div.title4 div.title4-1 span:first-of-type {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-content-2 div.title4 div.title4-1 span:nth-of-type(2) {
+  font-size: 24px;
+  font-family: 'San Francisco Display';
+  font-weight: 400;
+}
+
+section.floor4 .f4-content-2 div.title4 span {
+  font-size: 18px;
+  font-family: '微软雅黑';
+}
+
+section.floor4 .f4-content-2 div.carousel3 {
+  width: 65%;
+  height: 38%;
+  position: absolute;
+  left: 4%;
+  top: 20%;
+  overflow: hidden;
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li > img {
+  width: 100%;
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li div.mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li div.mask > img:first-of-type {
+  margin-top: 15%;
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li div.mask .introduce {
+  margin-top: 15px;
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li div.mask .introduce span {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-content-2 div.carousel3 ul li div.mask p {
+  width: 50%;
+  margin: 10px auto 0;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-content-2 div.carousel3 .carousel3-left, section.floor4 .f4-content-2 div.carousel3 .carousel3-right {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  font-size: 20px;
+  font-family: '宋体';
+  font-weight: bold;
+  z-index: 100;
+}
+
+section.floor4 .f4-content-2 div.carousel3 div.carousel3-left {
+  right: 0;
+  background: #ffdc36;
+}
+
+section.floor4 .f4-content-2 div.carousel3 div.carousel3-right {
+  right: 28px;
+  background: #393939;
+}
+
+section.floor4 .f4-content-2 div.font {
+  width: 48%;
+  height: auto;
+  position: absolute;
+  right: 6%;
+  top: 30%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+section.floor4 .f4-content-2 div.font div.font-1 {
+  width: 100%;
+  text-align: right;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-content-2 div.font div.font-1 h3 {
+  margin-top: 30%;
+  font-size: 24px;
+}
+
+section.floor4 .f4-content-2 div.font div.font-1 div.small-rect {
+  width: 21px;
+  height: 3px;
+  background: #000;
+  float: right;
+}
+
+section.floor4 .f4-content-2 div.font div.font-1 p {
+  margin-top: 30px;
+  width: 47%;
+  float: right;
+  margin-right: -21px;
+}
+
+section.floor4 .f4-content-2 div.font div.f4-decorate {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+section.floor4 .f4-content-2 div.font div.f4-decorate div.f4-decorate-rect {
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin-top: 50%;
+}
+
+section.floor4 .f4-content-2 div.font div.f4-decorate div.f4-decorate-circle {
+  width: 6px;
+  height: 6px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  border-radius: 50%;
+}
+
+section.floor4 .f4-content-2 div.font div.f4-decorate div.f4-decorate-smallrect {
+  width: 47px;
+  height: 4px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+
+section.floor4 .f4-content-2 div.font p:first-of-type {
+  margin-top: 40px;
+  text-align: right;
+  color: #000;
+  font-size: 14px;
+}
+
+section.floor4 .f4-content-2 div.font p:nth-of-type(2) {
+  margin-top: 30px;
+  color: #323232;
+  text-align: right;
+  font-size: 12px;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-content-2 a {
+  display: block;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+section.floor4 .f4-content-2 a img {
+  width: 100%;
+}
+
+section.floor4 .f4-content-3 {
+  display: none;
+  height: 720px;
+  margin-top: -310px;
+  padding: 0;
+  position: relative;
+}
+
+section.floor4 .f4-content-3 ul.carousel4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+section.floor4 .f4-content-3 ul.carousel4 li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-size: auto 76%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+section.floor4 .f4-content-3 ul.carousel4 li:first-child {
+  background-image: url("../img/indeximg/person1.png");
+}
+
+section.floor4 .f4-content-3 ul.carousel4-rect {
+  width: 1160px;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -480px;
+}
+
+section.floor4 .f4-content-3 ul.carousel4-rect li {
+  width: 200px;
+  height: 100%;
+  background: red;
+}
+
+section.floor4 .f4-content-3 ul.carousel4-rect li.first {
+  width: 400px;
+}
+
+section.floor4 .f4-small-content-1 {
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: url("../img/indeximg/f4-small-background.png");
+  background-size: 100% auto;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  font-family: 'San Francisco Display';
+  margin-top: -26%;
+}
+
+section.floor4 .f4-small-content-1 h3 {
+  margin-top: 30%;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+section.floor4 .f4-small-content-1 h3 > img {
+  height: 24px;
+}
+
+section.floor4 .f4-small-content-1 > span {
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 20px;
+}
+
+section.floor4 .f4-small-content-1 div.d-rect {
+  width: 85%;
+  height: 3px;
+  margin: 10px auto 10px;
+  background: #fff;
+}
+
+section.floor4 .f4-small-content-1 > p {
+  width: 90%;
+  margin: 20px auto 0;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+section.floor4 .f4-small-content-1 div.d-title {
+  width: 100%;
+  height: auto;
+  margin-top: 18%;
+  color: #000;
+  text-align: center;
+}
+
+section.floor4 .f4-small-content-1 div.d-title span:first-child {
+  font-weight: bold;
+  font-family: "San Francisco Display";
+  font-size: 20px;
+}
+
+section.floor4 .f4-small-content-1 div.d-title span:nth-of-type(2) {
+  font-size: 20px;
+  font-family: "San Francisco Display";
+  font-weight: 200;
+}
+
+section.floor4 .f4-small-content-1 div.d-title img {
+  margin-bottom: 17px;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg {
+  width: 80%;
+  height: auto;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg > img {
+  width: 100%;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg div.mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg div.mask > img:first-of-type {
+  margin-top: 10%;
+  height: 30%;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg div.mask .introduce {
+  margin-top: 15px;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg div.mask .introduce img {
+  width: 20%;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg div.mask .introduce > span {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'San Francisco Display';
+  font-weight: 400;
+}
+
+section.floor4 .f4-small-content-1 div.d-playimg div.mask p {
+  width: 85%;
+  margin: 10px auto 0;
+  color: #fff;
+  font-size: 10px;
+  font-family: 'San Francisco Display';
+}
+
+section.floor4 .f4-small-content-1 div.d-font {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #000;
+}
+
+section.floor4 .f4-small-content-1 div.d-font h2 {
+  font-weight: bold;
+}
+
+section.floor4 .f4-small-content-1 div.d-font div.d-underline {
+  width: 106px;
+  height: 3px;
+  background: #000;
+  margin: 0 auto;
+}
+
+section.floor4 .f4-small-content-1 div.d-font > p {
+  color: #000;
+  width: 86%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+}
+
+section.floor4 .f4-small-content-1 div.d-font p:first-of-type {
+  margin-top: 18px;
+}
+
+section.floor4 .f4-small-content-1 div.d-font p:nth-of-type(2) {
+  width: 85%;
+}
+
+section.floor4 .f4-small-content-1 div.d-more {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+section.floor4 .f4-small-content-1 div.d-more img {
+  margin: 20px 0;
+}
+
+section.floor4 .f4-small-content-1 > img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+section.floor4 .f4-small-content-1 div.d-introduce {
+  width: 100%;
+  height: auto;
+  color: #000;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+section.floor4 .f4-small-content-1 div.d-introduce h1 {
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+section.floor4 .f4-small-content-1 div.d-introduce h1 span {
+  color: #ffd500;
+}
+
+section.floor4 .f4-small-content-1 div.d-introduce h4 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+section.floor4 .f4-small-content-1 div.d-introduce > p {
+  width: 100%;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+section.floor4 .f4-small-content-1 div.d-view {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+
+section.floor4 .f4-small-content-1 div.d-view img {
+  width: 126px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  section.floor1 {
+    width: 1200px;
+    padding: 0;
+  }
+  section.floor1 .title1 {
+    height: 280px;
+    line-height: 280px;
+  }
+  section.floor1 .title1 img {
+    height: 60%;
+  }
+  section.floor1 .f1-content-r div.decorate2 {
+    display: block;
+  }
+  section.floor1 .f1-content-r div.box .box-decorate {
+    display: block;
+  }
+  section.floor1 .f1-content-r div.box .carousel1-circle {
+    margin-top: 10px;
+  }
+  section.floor1 .f1-content-l {
+    padding-left: 60px;
+  }
+  section.floor1 .f1-content-l h3 {
+    font-size: 24px;
+    margin: 30px 0 0;
+  }
+  section.floor1 .f1-content-l span {
+    font-size: 12px;
+  }
+  section.floor1 .f1-content-l div.slogan {
+    font-size: 14px;
+  }
+  section.floor1 .f1-content-l img.decorate1 {
+    display: block;
+  }
+  section.floor1 .f1-content-l p:first-of-type {
+    margin-top: 120px;
+    font-size: 14px;
+  }
+  section.floor1 .f1-content-l p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  section.floor1 .f1-content-l a {
+    margin-top: 60px;
+    text-align: left;
+  }
+  section.floor2 {
+    margin-top: 90px;
+    background-image: url("../img/indeximg/background1.png");
+  }
+  section.floor2 .inset {
+    width: 1200px;
+  }
+  section.floor2 .inset .title2 {
+    position: absolute;
+    right: 0;
+    top: -21px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: none;
+  }
+  section.floor2 .inset .title2 img {
+    display: block;
+    height: 252px;
+  }
+  section.floor2 .inset .f2-content-l {
+    margin: 0 auto;
+  }
+  section.floor2 .inset .f2-content-l .carousel2-imgBox {
+    margin-top: 128px;
+  }
+  section.floor2 .inset .f2-content-r .icon1 {
+    margin-top: 280px;
+    width: 283px;
+  }
+  section.floor2 .inset .f2-content-r p {
+    width: 60%;
+  }
+  section.floor2 .inset .f2-content-r p:first-of-type {
+    font-size: 14px;
+  }
+  section.floor2 .inset .f2-content-r p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  section.floor2 .inset .f2-content-r a {
+    margin-top: 20px;
+  }
+  section.floor3 {
+    margin-top: 80px;
+  }
+  section.floor3 .f3-content-1 img.bg {
+    display: inline-block;
+  }
+  section.floor3 .f3-content-1 a.circle {
+    display: block;
+  }
+  section.floor3 .f3-content-1 div.title {
+    display: none;
+  }
+  section.floor3 .f3-content-1 img.bg ~ img {
+    display: none;
+  }
+  section.floor3 .f3-content-2l, section.floor3 .f3-content-2r, section.floor3 .f3-content-3 {
+    display: none;
+  }
+  section.floor4 {
+    background-image: url("../img/indeximg/f4-background.png");
+    background-position: center bottom;
+    background-size: 105% auto;
+    background-repeat: no-repeat;
+  }
+  section.floor4 .f4-content-1, section.floor4 .f4-content-2, section.floor4 .f4-content-3 {
+    display: block;
+  }
+  section.floor4 .f4-content-1 {
+    font-size: 32px;
+  }
+  section.floor4 .f4-small-content-1 {
+    display: none;
+  }
+}

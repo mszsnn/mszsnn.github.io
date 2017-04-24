@@ -1,0 +1,850 @@
+main .container {
+  margin: 35px auto 0;
+  position: relative;
+}
+
+div.row {
+  margin: 25px 0;
+}
+
+div.sec1 div:nth-child(1) p:nth-child(1) {
+  font-size: 15px;
+  color: #97785f;
+  text-transform: uppercase;
+}
+
+div.sec1 div:nth-child(1) p:nth-child(2) {
+  color: #717171;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+div.sec1 div:nth-child(1) p:nth-child(3) {
+  color: #592e16;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+div.sec2 {
+  position: relative;
+}
+
+div.sec2 div > p:nth-child(1) {
+  margin: 15px 0 0 0;
+  font-size: 12px;
+  color: #0d0d0d;
+  text-transform: uppercase;
+}
+
+div.sec2 div > p:nth-child(1) strong {
+  font-size: 18px;
+}
+
+div.sec2 div > p:nth-child(2) {
+  color: #0d0d0d;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+div.sec2 div > span {
+  margin: 15px 0;
+  display: block;
+  width: 85%;
+  height: 2px;
+  background: url(../img/cfwenzhang/xian.png) 100%;
+  position: relative;
+}
+
+div.sec2 div > span i {
+  position: absolute;
+  top: -1px;
+  width: 33px;
+  height: 4px;
+  background: #592e16;
+}
+
+div.sec2 div > p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div.sec2 div > p:nth-child(4) {
+  margin: 30px 0px 30px 0;
+}
+
+div.sec2 div.more {
+  margin-left: 70%;
+  width: 75px;
+  height: 40px;
+  line-height: 45px;
+  background: url(../img/more.png) no-repeat;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+  font-size: 12px;
+  background-size: contain;
+}
+
+div.sec2 div.more a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #111111;
+}
+
+div.sec2 div.more a:hover {
+  text-decoration: none;
+}
+
+div.sec2 em {
+  display: block;
+  width: 58px;
+  height: 3px;
+  position: absolute;
+  top: 40px;
+  z-index: 200;
+}
+
+div.sec2 em:nth-child(3) {
+  left: 571px;
+  background: #fff;
+}
+
+div.sec2 em:nth-child(4) {
+  left: 629px;
+  background: #000;
+}
+
+div.sec3 {
+  position: relative;
+}
+
+div.sec3 div > p:nth-child(1) {
+  margin: 15px 0 0 0;
+  font-size: 12px;
+  color: #0d0d0d;
+  text-transform: uppercase;
+}
+
+div.sec3 div > p:nth-child(1) strong {
+  font-size: 18px;
+}
+
+div.sec3 div > p:nth-child(2) {
+  color: #0d0d0d;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+div.sec3 div > span {
+  margin: 15px 0;
+  display: block;
+  width: 85%;
+  height: 2px;
+  background: url(../img/cfwenzhang/xian.png) 100%;
+  position: relative;
+}
+
+div.sec3 div > span i {
+  position: absolute;
+  top: -1px;
+  width: 33px;
+  height: 4px;
+  background: #592e16;
+}
+
+div.sec3 div > p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div.sec3 div > p:nth-child(4) {
+  margin: 30px 0px 30px 0;
+}
+
+div.sec3 div.more {
+  margin-left: 25px;
+  width: 75px;
+  height: 40px;
+  line-height: 45px;
+  background: url(../img/more.png) no-repeat;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+  font-size: 12px;
+  background-size: contain;
+}
+
+div.sec3 div.more a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #111111;
+}
+
+div.sec3 div.more a:hover {
+  text-decoration: none;
+}
+
+div.sec3 em {
+  display: block;
+  width: 116px;
+  height: 3px;
+  position: absolute;
+  top: 40px;
+  z-index: 200;
+}
+
+div.sec3 em:nth-child(3) {
+  left: -80px;
+  background: #000;
+}
+
+div.lg > div:nth-child(1) {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px #593015 dashed;
+  position: relative;
+}
+
+div.lg > div:nth-child(1) > div {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+div.lg > div:nth-child(1) > div > span:first-child {
+  display: block;
+  float: left;
+  width: 66px;
+  height: 36px;
+  background: url(../img/L-img/13.png);
+  line-height: 36px;
+  text-align: center;
+  color: #593015;
+  font-size: 14px;
+}
+
+div.lg > div:nth-child(1) > div > span:nth-child(2) {
+  display: block;
+  float: left;
+  width: 2px;
+  height: 36px;
+  background: #593015;
+  margin: 0 2px;
+}
+
+div.lg > div:nth-child(1) > div > ul {
+  width: 70%;
+  height: 41px;
+  float: left;
+}
+
+div.lg > div:nth-child(1) > div > ul > li:first-child {
+  width: 100%;
+}
+
+div.lg > div:nth-child(1) > div > ul > li:first-child > span:first-child {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5E381F;
+}
+
+div.lg > div:nth-child(1) > div > ul > li:first-child > span:nth-child(2) {
+  font-size: 12px;
+  color: #5E381F;
+}
+
+div.lg > div:nth-child(1) > div > ul > li:nth-child(2) {
+  width: 100%;
+}
+
+div.lg > div:nth-child(1) > div > ul > li:nth-child(2) span {
+  font-size: 12px;
+}
+
+div.lg > div:nth-child(1) > div > span:nth-child(4) {
+  display: block;
+  height: 4px;
+  width: 132px;
+  background: #B28851;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+div.lg > div:nth-child(2) {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 38px 0;
+}
+
+div.lg > div:nth-child(2) > div {
+  float: left;
+  width: auto;
+  margin: 0 10px;
+  margin-top: 5px;
+}
+
+div.lg > div:nth-child(2) > div span {
+  float: left;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #592e16;
+}
+
+div.lg > div:nth-child(2) p:nth-child(2) {
+  width: auto;
+  float: left;
+  color: #464646;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+div.lg > div:nth-child(2) > span {
+  margin: 0 10px;
+  color: #464646;
+  font-weight: bolder;
+}
+
+div.lg > div:nth-child(2) p:nth-child(4) {
+  width: auto;
+  text-transform: uppercase;
+  display: inline-block;
+  color: rgba(70, 70, 70, 0.4);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+ul.sec4 li {
+  height: auto;
+  padding: 0 10px 5px 10px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+ul.sec4 li div:nth-child(2) {
+  margin: 25px 0;
+}
+
+ul.sec4 li div:nth-child(2) img {
+  width: auto;
+}
+
+ul.sec4 li div:nth-child(3) > div > p {
+  font-size: 15px;
+  font-weight: bold;
+  width: auto;
+  display: inline-block;
+  margin: 0;
+  color: #000;
+}
+
+ul.sec4 li div:nth-child(3) > div > span:nth-child(2) {
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1px solid #e93a72;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #e93a72;
+}
+
+ul.sec4 li div:nth-child(3) > div > span:nth-child(3) {
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1px solid #e9db3a;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #e9db3a;
+}
+
+ul.sec4 li div:nth-child(3) > p:nth-child(2) {
+  font-size: 12px;
+  margin: 0;
+  height: 30px;
+  color: #1f1f1f;
+}
+
+ul.sec4 li div:nth-child(3) > p:nth-child(2) > span {
+  margin-top: 8px;
+  float: right;
+  font-size: 12px;
+  color: #909090;
+}
+
+ul.sec4 li div:nth-child(3) > p:nth-child(2) > span i {
+  display: inline-block;
+  margin-right: 3px;
+  width: 11px;
+  height: 11px;
+  background: url(../img/cfwenzhang/clock.png);
+}
+
+ul.sec4 li div:nth-child(3) > span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+ul.sec4 li div:nth-child(3) > span i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+ul.sec4 li div:nth-child(3) > span i:nth-child(1) {
+  left: -2px;
+}
+
+ul.sec4 li div:nth-child(3) > span i:nth-child(2) {
+  right: -2px;
+}
+
+ul.sec4 li div:nth-child(3) p:nth-child(4) {
+  font-size: 14px;
+  font-weight: 200;
+  color: #7f7f7f;
+}
+
+div.flower_bg {
+  padding: 0;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+div.flower_bg img {
+  float: right;
+}
+
+div.fenye {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 750px) {
+  main .container {
+    width: 1190px;
+    margin: 75px auto 0;
+    position: relative;
+  }
+  div.title img {
+    width: auto;
+  }
+  div.row {
+    margin: 75px 0;
+  }
+  div.sec1 div:nth-child(1) p:nth-child(1) {
+    font-size: 42px;
+    color: #97785f;
+    text-transform: uppercase;
+  }
+  div.sec1 div:nth-child(1) p:nth-child(2) {
+    color: #717171;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+  div.sec1 div:nth-child(1) p:nth-child(3) {
+    color: #592e16;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  div.sec2 {
+    position: relative;
+  }
+  div.sec2 div > p:nth-child(1) {
+    font-size: 18px;
+    color: #0d0d0d;
+    text-transform: uppercase;
+  }
+  div.sec2 div > p:nth-child(1) strong {
+    font-size: 30px;
+  }
+  div.sec2 div > p:nth-child(2) {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 15px;
+  }
+  div.sec2 div > span {
+    margin: 15px 25px;
+    display: block;
+    width: 85%;
+    height: 2px;
+    background: url(../img/cfwenzhang/xian.png) 100%;
+    position: relative;
+  }
+  div.sec2 div > span i {
+    position: absolute;
+    top: -1px;
+    width: 33px;
+    height: 4px;
+    background: #592e16;
+  }
+  div.sec2 div > p {
+    margin: 30px 30px 15px 25px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  div.sec2 div > p:nth-child(4) {
+    margin: 60px 0px 100px 25px;
+  }
+  div.sec2 div.more {
+    margin-left: 70%;
+    width: 75px;
+    height: 40px;
+    line-height: 45px;
+    background: url(../img/more.png) no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    background-size: contain;
+  }
+  div.sec2 div.more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #111111;
+  }
+  div.sec2 div.more a:hover {
+    text-decoration: none;
+  }
+  div.sec2 em {
+    display: block;
+    width: 58px;
+    height: 3px;
+    position: absolute;
+    top: 40px;
+    z-index: 200;
+  }
+  div.sec2 em:nth-child(3) {
+    left: 571px;
+    background: #fff;
+  }
+  div.sec2 em:nth-child(4) {
+    left: 629px;
+    background: #000;
+  }
+  div.sec3 {
+    position: relative;
+  }
+  div.sec3 div > p:nth-child(1) {
+    font-size: 18px;
+    color: #0d0d0d;
+    text-transform: uppercase;
+  }
+  div.sec3 div > p:nth-child(1) strong {
+    font-size: 30px;
+  }
+  div.sec3 div > p:nth-child(2) {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 15px;
+  }
+  div.sec3 div > span {
+    margin: 15px 25px;
+    display: block;
+    width: 85%;
+    height: 2px;
+    background: url(../img/cfwenzhang/xian.png) 100%;
+    position: relative;
+  }
+  div.sec3 div > span i {
+    position: absolute;
+    top: -1px;
+    width: 33px;
+    height: 4px;
+    background: #592e16;
+  }
+  div.sec3 div > p {
+    margin: 30px 30px 15px 25px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  div.sec3 div > p:nth-child(4) {
+    margin: 60px 0px 100px 25px;
+  }
+  div.sec3 div.more {
+    margin-left: 25px;
+    width: 75px;
+    height: 40px;
+    line-height: 45px;
+    background: url(../img/more.png) no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111111;
+    font-size: 12px;
+    background-size: contain;
+  }
+  div.sec3 div.more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #111111;
+  }
+  div.sec3 div.more a:hover {
+    text-decoration: none;
+  }
+  div.sec3 em {
+    display: block;
+    width: 116px;
+    height: 3px;
+    position: absolute;
+    top: 40px;
+    z-index: 200;
+  }
+  div.sec3 em:nth-child(3) {
+    left: -80px;
+    background: #000;
+  }
+  div.lg > div:nth-child(1) {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px #593015 dashed;
+    position: relative;
+  }
+  div.lg > div:nth-child(1) > div {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  div.lg > div:nth-child(1) > div > span:first-child {
+    display: block;
+    float: left;
+    width: 132px;
+    height: 42px;
+    background: url(../img/L-img/13.png);
+    line-height: 41px;
+    text-align: center;
+    color: #593015;
+    font-size: 28px;
+  }
+  div.lg > div:nth-child(1) > div > span:nth-child(2) {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 41px;
+    line-height: 32px;
+    text-align: center;
+    color: #593015;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  div.lg > div:nth-child(1) > div > ul {
+    width: 317px;
+    height: 41px;
+    float: left;
+  }
+  div.lg > div:nth-child(1) > div > ul > li:first-child {
+    width: 100%;
+  }
+  div.lg > div:nth-child(1) > div > ul > li:first-child > span:first-child {
+    font-size: 13px;
+    font-weight: bold;
+    color: #5E381F;
+  }
+  div.lg > div:nth-child(1) > div > ul > li:first-child > span:nth-child(2) {
+    font-size: 13px;
+    color: #5E381F;
+  }
+  div.lg > div:nth-child(1) > div > ul > li:nth-child(2) {
+    width: 100%;
+  }
+  div.lg > div:nth-child(1) > div > ul > li:nth-child(2) span {
+    font-size: 9px;
+  }
+  div.lg > div:nth-child(1) > div > span:nth-child(4) {
+    display: block;
+    height: 4px;
+    width: 132px;
+    background: #B28851;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+  }
+  div.lg > div:nth-child(2) {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 38px 0;
+  }
+  div.lg > div:nth-child(2) > div {
+    float: left;
+    width: auto;
+    margin: 0 10px;
+    margin-top: 5px;
+  }
+  div.lg > div:nth-child(2) > div span {
+    float: left;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #592e16;
+  }
+  div.lg > div:nth-child(2) p:nth-child(2) {
+    width: auto;
+    float: left;
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  div.lg > div:nth-child(2) > span {
+    margin: 0 10px;
+    color: #464646;
+    font-weight: bolder;
+  }
+  div.lg > div:nth-child(2) p:nth-child(4) {
+    width: auto;
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgba(70, 70, 70, 0.4);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  ul.sec4 li {
+    margin: 10px 0;
+    height: 250px;
+    padding: 50px 40px 50px 30px;
+    transition: all 0.2s;
+    position: relative;
+  }
+  ul.sec4 li div:nth-child(2) img {
+    width: auto;
+  }
+  ul.sec4 li div:nth-child(3) > div > p {
+    font-size: 18px;
+    font-weight: bold;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+  }
+  ul.sec4 li div:nth-child(3) > div > span:nth-child(2) {
+    display: inline-block;
+    width: 40px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid #e93a72;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #e93a72;
+  }
+  ul.sec4 li div:nth-child(3) > div > span:nth-child(3) {
+    display: inline-block;
+    width: 40px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid #e9db3a;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #e9db3a;
+  }
+  ul.sec4 li div:nth-child(3) > p:nth-child(2) {
+    font-size: 16px;
+    margin: 0;
+  }
+  ul.sec4 li div:nth-child(3) > p:nth-child(2) > span {
+    margin-top: 8px;
+    float: right;
+    font-size: 12px;
+    color: #909090;
+  }
+  ul.sec4 li div:nth-child(3) > p:nth-child(2) > span i {
+    display: inline-block;
+    margin-right: 3px;
+    width: 11px;
+    height: 11px;
+    background: url(../img/cfwenzhang/clock.png);
+  }
+  ul.sec4 li div:nth-child(3) > span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  ul.sec4 li div:nth-child(3) > span i {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  ul.sec4 li div:nth-child(3) > span i:nth-child(1) {
+    left: -2px;
+  }
+  ul.sec4 li div:nth-child(3) > span i:nth-child(2) {
+    right: -2px;
+  }
+  ul.sec4 li div:nth-child(3) p:nth-child(4) {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  ul.sec4 li div.num {
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    opacity: 0;
+  }
+  ul.sec4 li:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, -2px, 0);
+  }
+  ul.sec4 li:hover div.num {
+    opacity: 1;
+  }
+  div.flower_bg {
+    position: absolute;
+    top: -75px;
+    right: -79px;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+  }
+  div.flower_bg img {
+    float: right;
+  }
+  div.fenye {
+    margin-bottom: 50px;
+  }
+}

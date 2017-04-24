@@ -1,0 +1,674 @@
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+
+}
+@media screen and(max-width:768px) {
+  .hiddenDa{
+    display:none;
+
+  }
+
+  section.tit{
+    margin:0px auto;
+    margin-top:75px;
+    width:100%;
+    height:auto;
+    text-align: center;
+  }
+  section.con{
+    text-align: left;
+  }
+  section > h1{
+    font-size:40px;
+    color:#97785f;
+    margin:{
+      top:0;
+      bottom:8px;
+    }
+  }
+  section > h2{
+    font-weight:bold;
+    font-size:24px;
+    margin:{
+      top:0;
+      bottom:8px;
+    }
+  }
+  section > h3{
+    font-size:18px;
+    font-weight:400;
+    color:#717171;
+    margin:{
+      top:0;
+      bottom:8px;
+    }
+  }
+  //
+  section.neiRong{
+    position:relative;
+    text-align: center;
+  }
+  section > .bg{
+    margin:0 auto;
+    width:90%;
+    height:770px;
+    box-shadow:0 0 7px 1px rgba(185,185,185,0.35);
+  }
+  section > .bg > h1{
+    line-height: 41px;
+    font-size:24px;
+    font-weight:400;
+    color:#717171;
+    padding-top:60px;
+  }
+  section > .bg > h2{
+    font-size:24px;
+    font-weight:400;
+    color:#bababa;
+  }
+  section > .bg > h3{
+    font-size:24px;
+    font-weight:400;
+    color:#717171;
+    b{
+      color:#1d1d1d;
+      font-size:26px;
+      line-height: 65px;
+    }
+  }
+  section > .bg >.img-bg{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+  }
+  section > .bg >.img-bg>img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:auto;
+    left:0;
+    top:275px;
+
+  }
+  section > .jiejian{
+    width:100%;
+    height:50px;
+    border-bottom:2px dashed #b28850;
+    margin:0  auto;
+    margin-top:75px;
+    margin-bottom: 36px;
+    position: relative;
+  }
+  section > .jiejian > div.cir{
+    width:6px;
+    height:6px;
+    background:#B28850;
+    border-radius: 50%;
+    position:absolute;
+    right:0;
+    bottom:-4px;
+    box-shadow:0 0 1px #592E16;
+  }
+  section > .jiejian > .gs{
+    width:132px;
+    height:40px;
+    display:inline-block;
+    //background:#E3E2E1;
+    text-align: center;
+    position:relative;
+    float:left;
+    margin-right:5px;
+    background-image:url(../img/CWFdanyePC-img/danyeBg.jpg);
+  }
+  section > .jiejian > .gs > .gs-line{
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    width:140px;
+    height:4px;
+    background-color: #b28850;
+  }
+  section > .jiejian > .gs > span{
+    color:#592e16;
+    font-size:30px;
+  }
+  section > .jiejian > .block{
+    float:left;
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left:5px;
+    display:inline-block;
+    border-left: 5px solid #592E16;
+    margin: 0px;
+  }
+
+  section > .jiejian > blockquote > h5{
+    margin-right:10px;
+    text-transform: uppercase;
+    margin-top:5px!important;
+    margin-bottom:1px!important;
+    color:#592E16!important;
+    font-weight:bold!important;
+  }
+  section > .jiejian > blockquote > h5 >span{
+    text-transform: lowercase;
+    color:#C28F75!important;
+    font-size:8px!important;
+  }
+  section > .jiejian > blockquote > p{
+    color:#82685D!important;
+    font-size:12px!important;
+  }
+  section >ul.square{
+    text-align: left;
+  }
+  section.con >ul.square >li >div{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:#592e16;
+  }
+  section.con > ul.square >li >span{
+    margin-left:15px;
+    font-size:18px;
+    font-weight:bold;
+    color:#464646;
+    opacity: 0.4;
+    text-align: center;
+  }
+  section.con > ul.square >li >h4{
+    display:inline-block;
+  }
+  section > ul.list{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+  }
+  section > ul.list > li{
+    width:45%;
+    height:auto;
+  }
+  section > ul.list > li > div{
+    margin-top:40px;
+    width:100%;
+    height:40px;
+    border-bottom:1px solid #5c5c5d;
+    position: relative;
+    text-align: left;
+    line-height:40px;
+  }
+  section > ul.list > li > div > input{
+    border:0;
+    width:70%;
+    height:95%;
+    outline: medium;
+  }
+  section > ul.list > li > div > input::-webkit-input-placeholder{
+    color:#a2a2a2;
+    font-size:12px;
+  }
+  section > ul.list > li > div > span{
+    color:#a2a2a2;
+    font-size:12px;
+    line-height: 40px;
+  }
+  section > ul.list > li > div > div.ch{
+    text-align: center;
+    position:absolute;
+    right:14px;
+    top:0;
+    background: #ffffff;
+    border:{
+      top:1px solid #fff;
+      bottom:1px solid #fff;
+      left:1px solid #fff;
+      right:1px solid #fff;
+    }
+    height:38px;
+    width:20%;
+    z-index:4;
+    //display:none;
+  }
+  section > ul.list > li > div > div.ys{
+    border:{
+      top:1px solid #f09646;
+      bottom:1px solid #fff;
+      left:1px solid #f09646;
+      right:1px solid #f09646;
+    }
+    height:48px;
+  }
+
+  section > ul.list > li > div > ul.ch1{
+    width:85%;
+    height:auto;
+    border-radius:10px;
+    position:absolute;
+    right:-13px;
+    top:45px;
+    border:1px solid #f09646;
+    z-index: 3;
+    background-color: #fff;
+    display:none;
+  }
+  section > ul.list > li > div > ul.bl{
+    display: block;
+  }
+  section > ul.list > li > div > ul >li{
+    width:100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+  }
+  section > ul.list > li > div > ul >li.choose{
+    width:100%;
+    height:50px;
+    background:#f09646;
+
+  }
+
+  section > textarea{
+    width:100%;
+    height:148px;
+    border:1px solid #232323;
+    font-size:16px;
+    color:#a2a2a2;
+    resize: none;
+  }
+  section > h6{
+    font-size:16px;
+    color:#a2a2a2;
+    font-weight:400;
+    position:relative;
+    text-align: left;
+    margin-bottom:80px;
+  }
+  section > h6 >input{
+    border:0;
+    outline:medium;
+  }
+  section > h6 > img{
+    display:block;
+    float:right;
+    width:auto;
+    height:50px;
+    position:absolute;
+    right:0;
+    top:-25px;
+  }
+  section > h6 > div{
+    width:50%;
+    border:1px solid #5c5c5d;
+  }
+
+  section > ul.list > li > div >img {
+    width: 25px;
+    height: auto;
+    display: inline-block;
+  }
+  section > ul.list > li > div:hover >img{
+    width:25px;
+    height:auto;
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-position: -5px -5px;
+    background-size:35px 35px ;
+    background-image:url(../img/CWFcontantUS-img/contant19.png);
+  }
+  //section > ul.list > li.choose > div.ch:hover ul{
+  //  display:block;
+  //}
+  //section > ul.list > li.choose > div.ch:hover div{
+  //  border:{
+  //    bottom:1px solid #fff;
+  //    top:1px solid #f09646;
+  //    left:1px solid #f09646;
+  //    right:1px solid #f09646;
+  //  }
+  //  height:51px;
+  //  display:block;
+  //}
+  //section > ul.list > li.choose > div.ch:hover ul{
+  //  display:block;
+  //}
+  //section > ul.list > li > div > ul >li:hover{
+  //  background:#f09646;
+  //}
+
+}
+
+@media screen and (min-width:1200px) {
+
+  .hidXiao{
+    display:none;
+  }
+  .backgd{
+    position:relative;
+  }
+  .bkd{
+    position:absolute;
+    top:150px;
+    right:55px;
+    z-index:2;
+    width:103%;
+    height:auto;
+  }
+  .con{
+    margin-top:250px;
+
+  }
+
+  .img{
+    width:100%;
+    height:135px;
+  }
+  .img > img{
+    line-height: 135px;
+    display:inline-block;
+    margin-top:35px;
+  }
+  .title{
+    margin-top:45px;
+    width:100%;
+    height:115px;
+    border-bottom:1px solid #d8d8d8;
+  }
+  .title > h1{
+    color:#97785f;
+    font-size:36px;
+    margin-top:0;
+    margin-bottom:2px;
+  }
+  .title > h2{
+    color:#0f0f0f;
+    font-size:24px;
+    margin-top:0;
+    margin-bottom:2px;
+  }
+  .title > h3{
+    color:#717171;
+    font-size:18px;
+    margin-top:0;
+    margin-bottom:2px;
+  }
+
+  section > .bg{
+    padding-left:75px;
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-bottom:200px;
+    width:100%;
+    height:817px;
+    box-shadow:0 0 15px 5px rgba(185,185,185,0.35);
+  }
+  section > .bg > h1{
+    line-height: 41px;
+    font-size:18px;
+    color:#717171;
+    padding-top:60px;
+  }
+  section > .bg > h2{
+    font-size:18px;
+    color:#bababa;
+  }
+  section > .bg > h3{
+    font-size:18px;
+    color:#717171;
+    b{
+      color:#1d1d1d;
+      font-size:20px;
+      line-height: 65px;
+    }
+  }
+  section > .bg >.img-bg{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+  }
+  section > .bg >.img-bg>img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:auto;
+    left:0;
+    top:275px;
+  }
+
+  section.con > .jiejian{
+    width:100%;
+    height:50px;
+    border-bottom:2px dashed #b28850;
+    margin:0  auto;
+    margin-top:75px;
+    margin-bottom: 36px;
+    position: relative;
+  }
+  section.con > .jiejian > .gs{
+    width:132px;
+    height:40px;
+    display:inline-block;
+    //background:#E3E2E1;
+    text-align: center;
+    position:relative;
+    float:left;
+    margin-right:5px;
+    background-image:url(../img/CWFdanyePC-img/danyeBg.jpg);
+  }
+  section.con > .jiejian >.gs > .gs-line{
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    width:148px;
+    height:4px;
+    background-color: #b28850;
+  }
+  section.con > .jiejian > .gs > span{
+    color:#592e16;
+    font-size:30px;
+  }
+  section.con > .jiejian > .block{
+    float:left;
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left:5px;
+    display:inline-block;
+    border-left: 5px solid #592E16;
+    margin: 0px;
+  }
+
+  section.con > .jiejian > blockquote > h5{
+    margin-right:10px;
+    text-transform: uppercase;
+    margin-top:5px!important;
+    margin-bottom:1px!important;
+    color:#592E16!important;
+    font-weight:bold!important;
+  }
+  section.con > .jiejian > blockquote > h5 >span{
+    text-transform: lowercase;
+    color:#C28F75!important;
+    font-size:8px!important;
+  }
+  section.con > .jiejian > blockquote > p{
+    color:#82685D!important;
+    font-size:12px!important;
+  }
+  section.con >ul.square1{
+    text-align: left;
+  }
+  section >ul.square1 >li >div{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:#592e16;
+  }
+  section >ul.square1 >li >h4{
+    display:inline-block;
+    color:#464646;
+    font-weight:bold;
+  }
+  section > ul.square1 >li >span{
+    margin-left:15px;
+    font-size:18px;
+    font-weight:bold;
+    color:#464646;
+    opacity: 0.4;
+    text-align: center;
+  }
+  section > ul.list{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+  }
+  section > ul.list > li{
+    width:30%;
+    height:auto;
+  }
+  section > ul.list > li > div{
+    margin-top:40px;
+    width:100%;
+    height:40px;
+    border-bottom:1px solid #5c5c5d;
+    position: relative;
+    text-align: left;
+  }
+  section > ul.list > li > div >img {
+    width: 25px;
+    height: auto;
+    display: inline-block;
+  }
+  section > ul.list > li > div:hover >img{
+    width:25px;
+    height:auto;
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-position: -5px -5px;
+    background-size:35px 35px ;
+    background-image:url(../img/CWFcontantUS-img/contant19.png);
+  }
+  section > ul.list > li.choose > div.ch:hover ul{
+    display:block;
+  }
+  section > ul.list > li.choose > div.ch:hover div{
+    border:{
+      bottom:1px solid #fff;
+      top:1px solid #f09646;
+      left:1px solid #f09646;
+      right:1px solid #f09646;
+    }
+    height:51px;
+  }
+  section > ul.list > li > div > ul >li:hover{
+    background:#f09646;
+  }
+  section > ul.list > li > div > input{
+    border:0;
+    outline: medium;
+  }
+  section > ul.list > li > div > input::-webkit-input-placeholder{
+    color:#a2a2a2;
+    font-size:14px;
+  }
+  section > ul.list > li > div > span{
+    color:#a2a2a2;
+    font-size:14px;
+    line-height: 40px;
+
+  }
+  section > ul.list > li > div > div{
+    position:absolute;
+    right:14px;
+    top:0;
+    background: #ffffff;
+    border:1px solid #fff;
+    height:39px;
+    width:20%;
+    z-index:10;
+    text-align: center;
+  }
+  section > ul.list > li > div > ul{
+    width:85%;
+    height:auto;
+    border-radius:10px;
+    position:absolute;
+    right:-13px;
+    top:50px;
+    border:1px solid #f09646;
+    z-index: 3;
+    background-color: #fff;
+    display:none;
+  }
+  //section.con > ul.list > li > div > ul.choo{
+  //  display:block;
+  //}
+  //section.con > ul.list > li > div > div.cho{
+  //  border:{
+  //    bottom:1px solid #fff;
+  //    top:1px solid #f09646;
+  //    left:1px solid #f09646;
+  //    right:1px solid #f09646;
+  //  }
+  //  height:51px;
+  //}
+  section > ul.list > li > div > ul >li{
+    width:100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  section > ul.list > li > div > ul >li.choose{
+    width:100%;
+    height:50px;
+    background:#f09646;
+  }
+
+  section > textarea{
+    width:100%;
+    height:148px;
+    border:1px solid #232323;
+    font-size:16px;
+    color:#a2a2a2;
+    resize: none;
+    margin-top:40px;
+  }
+  section > h6{
+    font-size:16px;
+    color:#a2a2a2;
+    font-weight:400;
+    position:relative;
+    text-align: left;
+    margin-top:30px;
+    margin-bottom: 65px;
+  }
+  section > h6 > div{
+    width:20%;
+    border:1px solid #5c5c5d;
+  }
+
+  section > h6 > img{
+    display:block;
+    float:right;
+    width:auto;
+    height:70px;
+    position:absolute;
+    right:0;
+    top:-25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

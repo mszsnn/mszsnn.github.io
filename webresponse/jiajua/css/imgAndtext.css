@@ -1,0 +1,850 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.d-content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.circle {
+  display: none;
+}
+
+section.navigation {
+  display: none;
+  width: 100%;
+  height: 140px;
+  line-height: 140px;
+}
+
+section.header {
+  text-align: center;
+  height: auto;
+  font-family: "San Francisco Display";
+}
+
+section.header h2 {
+  color: #97785f;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+section.header h4 {
+  color: #717171;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+section.header p {
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  font-size: 12px;
+  color: #592e16;
+}
+
+section.floor1 {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+section.floor1 .floor1-left {
+  background: none;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+section.floor1 .floor1-left > img {
+  display: block;
+}
+
+section.floor1 .floor1-right {
+  display: none;
+  background: #fff;
+  height: 100%;
+  padding: 0;
+}
+
+section.floor1 .floor1-right .r-top {
+  width: 100%;
+  height: 50%;
+  background-image: url("../img/img/图文3.jpg");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+section.floor1 .floor1-right .r-bottom {
+  padding: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+section.floor1 .floor1-right .r-bottom h5 {
+  margin-top: 35px;
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+
+section.floor1 a.circle {
+  text-decoration: none;
+  display: none;
+  width: 44px;
+  height: 44px;
+  background: #f09646;
+  position: absolute;
+  right: 31.33%;
+  bottom: 82px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 44px;
+  font-size: 18px;
+}
+
+section.small-floor1 {
+  background: #f7f7f7;
+  text-align: center;
+  display: block;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+section.small-floor1 > div {
+  background: #F9F9F9;
+}
+
+section.small-floor1 > .floor1-right {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+section.small-floor1 > .floor1-right .r-bottom {
+  background: #f7f7f7;
+  padding-top: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+section.small-floor1 > .floor1-right .r-bottom h5 {
+  margin: 0;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+section.small-floor1 > .floor1-right .r-bottom p {
+  font-size: 10px;
+}
+
+section.small-floor1 > .floor1-right .r-bottom img.aa {
+  width: 30px;
+}
+
+section.small-floor1 > .floor1-right .r-bottom img.dzq-img {
+  width: 80%;
+}
+
+section.small-floor1 > .floor1-right .r-top {
+  background: #f7f7f7;
+}
+
+section.floor2 {
+  background: transparent;
+  z-index: 0;
+}
+
+section.floor2 .floor1-right .r-bottom {
+  background-color: #fff;
+}
+
+section.floor2 .floor1-right .r-bottom div {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+section.floor2 .floor1-right .r-bottom div img, section.floor2 .floor1-right .r-bottom div span {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  font-size: 20px;
+  font-family: 'San Francisco Display';
+}
+
+section.floor2 .floor1-right .r-bottom div img b, section.floor2 .floor1-right .r-bottom div span b {
+  font-family: "微软雅黑";
+}
+
+section.floor2 .floor1-right .r-bottom p {
+  float: left;
+  color: #353535;
+  font-family: 'San Francisco Display';
+  font-size: 14px;
+}
+
+section.floor2 .floor1-right .r-top {
+  background-color: #fff;
+  background-image: url("../img/img/图文7.png");
+  background-size: 100%;
+}
+
+section.floor2 a.circle {
+  display: none;
+  text-decoration: none;
+  cursor: inherit;
+  left: 31.33%;
+  top: 150px;
+  background-color: yellow;
+  color: #000;
+}
+
+section.floor3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+section.floor3 .floor1-left {
+  background: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+section.floor3 .floor1-right {
+  height: auto;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+
+section.floor3 .floor1-right div.img-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+section.floor3 .floor1-right div.img-box img {
+  width: 100%;
+}
+
+section.floor3 .floor1-right div.img-box div.color-block {
+  width: 60px;
+  height: 6px;
+  background: #592e16;
+  position: absolute;
+  left: 50%;
+  top: 11px;
+  margin-left: -30px;
+}
+
+section.floor3 .floor1-right h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-family: 'San Francisco Display';
+  font-size: 18px;
+}
+
+section.floor3 .floor1-right h2 b {
+  font-size: 30px;
+}
+
+section.floor3 .floor1-right h3 {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+
+section.floor3 .floor1-right p {
+  margin-left: 45px;
+  width: 80%;
+  height: auto;
+  color: #0d0d0d;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  margin-top: 20px;
+}
+
+section.floor3 .floor1-right a {
+  float: right;
+  margin: 20px;
+}
+
+section.floor4 {
+  width: 100%;
+  height: 110px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  position: relative;
+}
+
+section.floor4 img.bgl {
+  position: absolute;
+  left: -299px;
+  top: -250px;
+  display: none;
+}
+
+section.floor4 img.bg2 {
+  position: absolute;
+  right: -202px;
+  top: -150px;
+  display: none;
+}
+
+section.floor4 .d-f4-content {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+section.floor4 .d-f4-content .f4-1 {
+  position: relative;
+  z-index: 100;
+  margin: 55px auto 0;
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  line-height: 50px;
+  font-family: "San Francisco Display";
+}
+
+section.floor4 .d-f4-content .f4-1 div.product-features {
+  width: 85px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #592e16;
+  float: left;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  background-image: url("../img/img/图文11.jpg");
+}
+
+section.floor4 .d-f4-content .f4-1 div.rect {
+  float: left;
+  width: 5px;
+  height: 35px;
+  margin-left: 6px;
+  margin-top: 3px;
+  margin-right: 6px;
+  background: #592e16;
+}
+
+section.floor4 .d-f4-content .f4-1 div.font {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section.floor4 .d-f4-content .f4-1 div.font span {
+  display: block;
+  height: 20px;
+  width: auto;
+  line-height: 20px;
+  color: #b87b59;
+}
+
+section.floor4 .d-f4-content .f4-1 div.font span b {
+  font-size: 12px;
+  color: #592e16;
+}
+
+section.floor4 .d-f4-content .f4-1 div.font p {
+  font-size: 10px;
+  color: #592e16;
+  height: 20px;
+  width: auto;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+section.floor4 .d-f4-content div.img-box {
+  width: 90%;
+  height: 10px;
+  margin: 0 auto;
+  line-height: 10px;
+  top: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+
+section.floor4 .d-f4-content div.img-box div.color-block {
+  width: 136px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  background: #b28850;
+}
+
+section.floor4 .d-f4-content div.selling-title {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 40px auto 0;
+}
+
+section.floor4 .d-f4-content div.selling-title div.selling-rect {
+  width: 9px;
+  height: 9px;
+  background: #592e16;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+section.floor4 .d-f4-content div.selling-title span:first-of-type {
+  color: #464646;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+
+section.floor4 .d-f4-content div.selling-title span:nth-of-type(2) {
+  color: #d5d5d5;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+section.floor4 .d-f4-content div.selling-title span:nth-of-type(3) {
+  color: #d5d5d5;
+  font-weight: bold;
+  font-family: 'San Francisco Display';
+}
+
+section.floor5 {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-top: 60px;
+  text-align: center;
+}
+
+section.floor5 .d-f5-content {
+  padding: 0;
+}
+
+section.floor5 .d-f5-content h1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'San Francisco Display';
+  margin-top: 50px;
+}
+
+section.floor5 .d-f5-content div.center {
+  width: 78%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+section.floor5 .d-f5-content div.center div {
+  display: none;
+  width: 60px;
+  height: 2px;
+  background: #000;
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+section.floor5 .d-f5-content div.center span {
+  float: left;
+  color: #141414;
+  font-size: 14px;
+}
+
+section.floor5 .d-f5-content p {
+  width: 75%;
+  height: auto;
+  margin: 20px auto 0;
+  color: #141414;
+  font-size: 10px;
+}
+
+section.floor6 {
+  width: 100%;
+  margin: 0 auto 100px;
+  height: auto;
+}
+
+section.floor6 .f6-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section.floor6 .f6-1 div.f6-rect {
+  height: auto;
+  overflow: hidden;
+  padding: 10px 15px;
+  background-clip: content-box;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset {
+  position: relative;
+  padding: 5px;
+  margin: 30px auto 0;
+  box-sizing: border-box;
+  width: 95%;
+  height: auto;
+  transition: all 0.3s;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset img.diamond {
+  width: 50px;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  margin-left: -25px;
+  display: none;
+  transition: all 0.3s;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset div.inset-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset div.inset-img img.img {
+  width: 100%;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset div.inset-img > img {
+  display: block;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset img.img-icon {
+  width: 20px;
+  z-index: 300;
+  display: none;
+  transition: all 0.3s;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset img.img-icon1 {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset img.img-icon2 {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset img.img-icon3 {
+  position: absolute;
+  left: 2px;
+  bottom: 2px;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset img.img-icon4 {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset h4 {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "微软雅黑";
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset h4 span {
+  color: #cfcfcf;
+  font-weight: normal;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset h5 {
+  color: #515151;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset ul.num {
+  width: 100%;
+  height: auto;
+  display: flex;
+  color: #515151;
+  box-sizing: border-box;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset ul.num li {
+  width: 50%;
+  height: auto;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset ul.num li .num-circle {
+  width: 7px;
+  height: 7px;
+  background: #ccc;
+  border-radius: 50%;
+  float: left;
+  margin-top: 0;
+  margin-right: 2px;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset ul.num li h5 {
+  font-weight: 100;
+  font-size: 6px;
+  float: left;
+  margin: 0;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset:hover {
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset:hover img.diamond {
+  display: block;
+}
+
+section.floor6 .f6-1 div.f6-rect div.inset:hover img.img-icon {
+  display: block;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #fff;
+    background-image: url("../img/img/background1.png");
+    background-repeat: no-repeat;
+    background-position: right 17%;
+    background-size: 70% auto;
+  }
+  body .circle {
+    display: block;
+  }
+  .d-content {
+    width: 70%;
+  }
+  section.navigation {
+    display: block;
+  }
+  section.header {
+    top: 0;
+    height: 240px;
+  }
+  section.floor1 {
+    height: 435px;
+  }
+  section.floor1 .floor1-left {
+    height: 100%;
+    background-color: #fff;
+    background-image: url("../img/img/图文2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  section.floor1 .floor1-left > img {
+    display: none;
+  }
+  section.floor1 .floor1-right {
+    display: block;
+  }
+  section.floor1 .floor1-right .r-top {
+    background-size: 100% auto;
+    background-position: center bottom;
+  }
+  section.small-floor1 {
+    display: none;
+  }
+  section.floor2 {
+    top: -90px;
+  }
+  section.floor2 .floor1-left {
+    background-image: url("../img/img/图文5.jpg");
+    background-size: 100% auto;
+    background-position: 0 bottom;
+    background-color: transparent;
+  }
+  section.floor2 .floor1-right .r-top {
+    background-size: 100% auto;
+    background-position: center bottom;
+  }
+  section.floor2 .floor1-right .r-bottom div {
+    margin-top: 85px;
+  }
+  section.floor2 a.circle {
+    display: block;
+  }
+  section.floor3 {
+    height: 435px;
+    top: -90px;
+  }
+  section.floor3 .floor1-left {
+    height: 100%;
+    background-image: url("../img/img/图文9.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    background-size: 100% auto;
+  }
+  section.floor3 .floor1-left img {
+    display: none;
+  }
+  section.floor3 .floor1-right {
+    height: 100%;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  section.floor3 .floor1-right a {
+    display: inline-block;
+  }
+  section.floor3 .floor1-right p {
+    width: 100%;
+    margin-left: 0;
+  }
+  section.floor3 .floor1-right div.img-box div.color-block {
+    width: 20px;
+    height: 4px;
+    background: #592e16;
+    position: absolute;
+    left: 25px;
+    top: 11px;
+  }
+  section.floor4 img.bgl {
+    display: inline-block;
+  }
+  section.floor4 img.bg2 {
+    display: inline-block;
+  }
+  section.floor4 .d-f4-content .f4-1 div.product-features {
+    width: 132px;
+    font-size: 30px;
+  }
+  section.floor4 .d-f4-content .f4-1 div.font span b {
+    font-size: 18px;
+  }
+  section.floor4 .d-f4-content .f4-1 div.font p {
+    font-size: 12px;
+  }
+  section.floor5 .d-f5-content {
+    padding: 0;
+  }
+  section.floor5 .d-f5-content h1 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  section.floor5 .d-f5-content div.center {
+    padding-left: 0;
+    width: 48%;
+  }
+  section.floor5 .d-f5-content div.center div {
+    width: 112px;
+  }
+  section.floor5 .d-f5-content p {
+    width: 70%;
+    font-size: 14px;
+  }
+  section.floor6 .f6-1 div.f6-rect {
+    height: 450px;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset {
+    height: 90%;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset h4, section.floor6 .f6-1 div.f6-rect div.inset h5, section.floor6 .f6-1 div.f6-rect div.inset ul.num {
+    padding-left: 0;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset h4 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset H5 {
+    font-size: 18px;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img {
+    height: 268px;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img > img {
+    display: none;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img1 {
+    background-image: url("../img/img/图文13.jpg");
+    background-position: center;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img2 {
+    background-image: url("../img/img/图文14.jpg");
+    background-position: center;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img3 {
+    background-image: url("../img/img/图文15.jpg");
+    background-position: center;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img4 {
+    background-image: url("../img/img/图文16.jpg");
+    background-position: center;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img5 {
+    background-image: url("../img/img/图文17.jpg");
+    background-position: center;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset div.inset-img6 {
+    background-image: url("../img/img/图文18.jpg");
+    background-position: center;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset ul.num li .num-circle {
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+  }
+  section.floor6 .f6-1 div.f6-rect div.inset ul.num li h5 {
+    font-size: 12px;
+  }
+}
