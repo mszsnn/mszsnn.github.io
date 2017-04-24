@@ -1,0 +1,469 @@
+@charset "UTF-8";
+@media screen and (max-width: 1920px) and (min-width: 768px) {
+  .container-fluid {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box; }
+  .nav {
+    width: 100%;
+    height: 49px; }
+  .nav > .container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+  .nav > .container > .logo {
+    height: 43px;
+    margin-top: 3px;
+    float: left; }
+  .nav > .container > .name {
+    height: 31px;
+    margin-top: 9px;
+    float: left;
+    margin-left: 4px; }
+  .nav > .container > .letter {
+    float: left;
+    line-height: 49px;
+    margin-left: 41px; }
+  .nav > .container > .letter > a {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 49px;
+    color: #e63f3a;
+    font-size: 17px;
+    margin-left: 10px;
+    text-align: center; }
+  .nav > .container > .letter > .active {
+    background: #e63f3a;
+    color: #fff; }
+  .nav > .container > form {
+    float: right;
+    margin-top: 11px;
+    margin-right: 72px;
+    width: 182px;
+    height: 28px;
+    background-image: url("../img/lp/index-3.png");
+    background-size: 100%;
+    background-position: center;
+    position: relative; }
+  .nav > .container > form > input {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 23px;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    z-index: 3; }
+  .nav > .container > form > .search {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 19px;
+    z-index: 4; }
+  .row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left; }
+  .long {
+    width: 100%;
+    height: auto;
+    float: left; }
+  .bg {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/gx/gx-zuopinzhanshi-title.png);
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .work {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    float: left; }
+    .work img {
+      margin: 0 auto;
+      display: block; }
+  .photo {
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    float: left; }
+    .photo div {
+      width: 80%;
+      height: auto;
+      margin: 0 auto; }
+      .photo div img {
+        width: 17%;
+        height: 100%;
+        margin: 0 3.6%; }
+  .photo3 {
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    float: left; }
+    .photo3 div {
+      width: 80%;
+      height: auto;
+      margin: 0 auto; }
+      .photo3 div img {
+        width: 17%;
+        height: 100%;
+        margin: 0 3.6%; }
+  .word {
+    width: 100%;
+    height: auto; }
+    .word p {
+      width: 74%;
+      height: 100%;
+      margin: 20px auto;
+      font-size: 18px;
+      font-family: "微软雅黑";
+      color: #C9C8C7; }
+  .duo {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    float: left; }
+    .duo div {
+      width: 74%;
+      height: auto;
+      margin: 0 auto; }
+      .duo div img {
+        width: 10%;
+        height: 100%; }
+  .wordxiao {
+    width: 100%;
+    height: auto; }
+    .wordxiao p {
+      width: 74%;
+      height: 100%;
+      margin: 16px auto;
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #F0F0F0; }
+  .swiper-container {
+    display: none; }
+  .bannerxm {
+    display: none; }
+  .lunbo {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    float: left; }
+    .lunbo .diandian {
+      width: 30%;
+      height: 100%;
+      margin: 0 auto;
+      position: relative; }
+      .lunbo .diandian div {
+        width: 20px;
+        height: 20px;
+        float: left;
+        text-align: center; }
+      .lunbo .diandian .active3 {
+        background: red;
+        border-radius: 50%;
+        color: white; }
+      .lunbo .diandian .button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30px;
+        font-family: '宋体';
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        line-height: 20px;
+        background: red; }
+      .lunbo .diandian .zuo {
+        left: -35px; }
+      .lunbo .diandian .you {
+        right: -33px; }
+      .lunbo .diandian input {
+        width: 160px;
+        height: 25px;
+        border-radius: 20px;
+        margin-left: 20px;
+        border: 1px solid red; }
+      .lunbo .diandian .glyphicon {
+        position: absolute;
+        right: 22px;
+        top: 5px;
+        color: red; }
+  .lunbo1 {
+    display: none; }
+  .dibu {
+    width: 100%;
+    height: 500px;
+    float: left; }
+    .dibu div {
+      width: 100%;
+      height: 100%;
+      background-image: url(../img/gx/gx-dibubg.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative; }
+      .dibu div .phone {
+        width: 150px;
+        height: 20px;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 11%; }
+      .dibu div .ooo {
+        width: 150px;
+        height: 20px;
+        font-size: 12px;
+        color: #a89c9c;
+        position: absolute;
+        top: 55%;
+        left: 11%; }
+      .dibu div .add {
+        width: 215px;
+        height: 20px;
+        font-size: 12px;
+        color: #a89c9c;
+        position: absolute;
+        top: 62.5%;
+        left: 11%; }
+      .dibu div .yinwen {
+        width: 430px;
+        height: 20px;
+        font-size: 12px;
+        color: #ccc5c5;
+        position: absolute;
+        top: 75%;
+        left: 8%; }
+      .dibu div input {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 27%;
+        right: 14%; }
+      .dibu div div {
+        width: 60px;
+        height: 39px;
+        position: absolute;
+        top: 27.2%;
+        right: 8.5%;
+        background: white; }
+        .dibu div div img {
+          width: 45%;
+          height: auto;
+          margin-left: 25%;
+          margin-top: 10%; }
+      .dibu div .fenxiang {
+        width: 110px;
+        height: auto;
+        position: absolute;
+        top: 37%;
+        right: 8.5%; }
+      .dibu div .silei {
+        width: 370px;
+        height: auto;
+        position: absolute;
+        bottom: 22%;
+        right: 8.5%; }
+  .dibu1 {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box; }
+  .nav {
+    display: none; }
+  .row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left; }
+  .long {
+    width: 100%;
+    height: auto;
+    float: left; }
+  .bg {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/gx/gx-zuopinzhanshi-title.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: none; }
+  .work {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    float: left; }
+    .work img {
+      width: 100%;
+      margin: 0 auto;
+      display: block; }
+  .photo {
+    display: none; }
+  .photo3 {
+    width: 100%;
+    height: auto;
+    margin: 30px auto; }
+    .photo3 div {
+      width: 100%;
+      height: auto; }
+      .photo3 div img {
+        width: 50%;
+        height: 100%;
+        margin: 20px 1.6%; }
+  .word {
+    width: 100%;
+    height: auto; }
+    .word p {
+      width: 96%;
+      height: 100%;
+      margin: 20px auto;
+      font-size: 18px;
+      font-family: "微软雅黑";
+      color: #C9C8C7; }
+  .duo {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    float: left; }
+    .duo div {
+      width: 100%;
+      height: auto;
+      margin-left: 1.6%; }
+      .duo div img {
+        width: 20%;
+        height: 100%; }
+  .wordxiao {
+    width: 100%;
+    height: auto; }
+    .wordxiao p {
+      width: 97%;
+      height: 100%;
+      margin: 16px auto;
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #F0F0F0; }
+  .bannerxm {
+    width: 100%;
+    height: 1019px;
+    overflow: hidden;
+    position: relative; }
+  .bannerxm > .nav1 {
+    height: 107px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000; }
+  .bannerxm > .nav1 > .container {
+    width: 83.4%;
+    padding-top: 19px;
+    box-sizing: border-box; }
+  .bannerxm > .nav1 > .container > .logo {
+    float: left;
+    width: 35px; }
+  .bannerxm > .nav1 > .container > .name {
+    margin-left: 6px;
+    width: 80px; }
+  .bannerxm > .nav1 > .container > .set {
+    float: right;
+    width: 30px; }
+  .bannerxm > .nav1 > .container > .search {
+    float: right;
+    margin-right: 10px;
+    width: 30px; }
+  .bannerxm > .list {
+    width: 338px;
+    height: 108px;
+    position: absolute;
+    top: 28%;
+    left: 58%;
+    margin-top: -54px;
+    margin-left: -164px;
+    z-index: 101; }
+  .bannerxm > .list > a {
+    float: left;
+    width: 27%;
+    height: 50%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    line-height: 54px;
+    text-align: center;
+    color: #d7d7d7;
+    font-size: 18px; }
+  .bannerxm > .list > .active1 {
+    background: #fff;
+    color: #d93f3a;
+    font-weight: bold; }
+  .bannerxm > .screen1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.6s linear; }
+  .bannerxm > .screen1 > img {
+    width: 100%; }
+  .bannerxm > .screen1:nth-child(1) {
+    z-index: 1; }
+  .bannerxm > .circle {
+    width: 114px;
+    height: 14px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -57px; }
+  .bannerxm > .circle > div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: left;
+    margin-left: 8px; }
+  .bannerxm > .circle > .active {
+    width: 35px;
+    height: 10px;
+    border-radius: 10px; }
+  .lunbo {
+    display: none; }
+  .lunbo1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0 auto; }
+    .lunbo1 div {
+      width: 80%;
+      height: 100%;
+      margin: 0 auto; }
+      .lunbo1 div .shang {
+        width: 100px;
+        height: 35px;
+        border: 2px solid red;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        margin: 0 auto;
+        font-size: 18px;
+        color: red; }
+      .lunbo1 div .shang1 {
+        float: left;
+        text-align: center;
+        font-size: 26px;
+        color: red;
+        margin: 0 10px; }
+  .dibu {
+    display: none; }
+  .dibu1 {
+    width: 100%; } }

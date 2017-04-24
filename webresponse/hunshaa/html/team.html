@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>team</title>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/swiper.css" />
+    <script src="../js/swiper.js"></script>
+    <link href="../css/expander.css" rel="stylesheet">
+	<link href="../css/theme.css" rel="stylesheet">
+	<script src="../js/jquery-latest.min.js"></script>
+	<script src="../js/expander.min.js"></script>
+    <script src='../js/index.js'></script>
+    <link rel="stylesheet" href="../css/tuandui.css">
+    <script src='../js/tuandui.js'></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+	a{
+		text-decoration: none;
+		color: #DD5B4B;
+	}
+    @media screen and (min-width: 768px){
+     .container-fluid {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.row {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  float: left; }
+
+.long2 {
+  width: 100%;
+  height: auto;
+  float: left; }
+    html,body{
+        background: #fff;
+        
+    	width: 100%;
+        /*min-width: 1200px;*/
+        overflow-x: hidden;
+    }
+	.pho1,.jt2,.jt3,.bea,.cir,.vid,.vider,.cen,.circle,.meinv,.beauty,.cle,.more,.small,.xiaoping{
+			    	display:none;
+			    }
+    .main{
+    	width: 80%;
+    	margin: 0 auto;
+    }
+	.t1 > a{
+		background: darkgray;
+	}
+
+    .pho{
+        display: block;
+    }
+    .top{
+    	width: 100%;
+    	height: 50px;
+    	margin: 0 auto;
+    	margin-left: 115px;
+    }
+    .logo{
+    	width:10%;
+    	float: left;
+    	margin-top: 10px;
+    }
+    .mid{
+    	width: 60%;
+    	float: left;
+    	margin-left: 50px;
+    	color: #DD5B4B;
+    	line-height: 60px;
+    	font-size: 16px;
+    	cursor: pointer;
+    }
+    .mid a{
+    	width: 15%;
+    	float: left;
+    	margin-left: 10px;
+    }
+    .mid .first{
+    	width: 8%;
+    }
+    .mid span{
+    	margin-left: -20px;
+    }
+    .mid .say{
+    	background: #DD5B4B;
+    	color: #fff;
+    	text-align: center;
+    }
+    .banner{
+    	width: 100%;
+    	/*height: 100%;*/
+    }
+    .banner img{
+    	width: 100%;
+    }
+    .js{
+    	width: 30%;
+    	margin: 0 auto;
+    }
+    .js img{
+    	width: 100%;
+    	margin-top: 50px;
+    }
+    .zx{
+    	width: 20%;
+    }
+    .zx img{
+    	width: 100%;
+    }
+    .pho{
+    	width: 100%;
+    	height: auto;
+    	margin: 0 auto;
+    	border-top:1px solid gainsboro;
+    }
+    .pho .zzsc{
+    	width: 100%;
+    	margin-top: 30px;
+    	margin-left: 50px;
+    }
+     .pho div img{
+     	width: 20%;
+     }
+     .pho div img:nth-child(2){
+     	margin-left: 100px;
+     }
+     .pho div img:nth-child(3){
+     	margin-left: 100px;
+     }
+    /*.pho .pho2,.pho3{
+    	margin-left: 150px;
+    }*/
+    .jt{
+    	width: 20%;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    	cursor: pointer;
+    }
+    .jt img{
+    	width: 100%;
+    	margin-top: 50px;
+    }
+    .jt1{
+    	width: 100%;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    	/*margin-left: 100px;*/
+    }
+     .jt1 img{
+    	width: 100%;
+    }
+    .will{
+    	width: 100%;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    	margin-left: 50px;
+    }
+     .will img{
+     	margin-top: 50px;
+    	width: 20%;
+    }
+    .will .imgContainer img{
+    	width:100%;
+    	margin-left: 50px;
+    }
+    .will .imgContainer:nth-child(2){
+    	margin-left: 100px;
+    }
+    .will .imgContainer:nth-child(3){
+    	margin-left: 100px;
+    }
+    .will div:nth-child(1){
+    	width: 70%;
+    	margin-left: -50px;
+    }
+    .will .picture{
+    	width: 100%;
+    	
+    }
+    .will .picture .imgContainer{
+    	width: 20%;
+    	display: inline-block;
+    }
+     .t1{
+    	width: 100%;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    	margin-left: 50px;
+    }
+    .tu{
+    	width: 100%;
+    	margin-left: 0px;
+    	margin-top: 100px;
+    }
+    .tu img{
+    	width: 20%;
+    }
+   	.after{
+    	width: 100%;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    	margin-left: 50px;
+    }
+     .after img{
+    	width: 20%;
+    }
+    .after img:nth-child(2){
+    	margin-left: 100px;
+    }
+    .after img:nth-child(3){
+    	margin-left: 100px;
+    }
+     /*.after img{
+    	width: 100%;
+    }*/
+    .lar1{
+    	width: 100%;
+    	/*height: 400px;*/
+    	margin-top: 50px;
+    }
+    .lar1 img{
+    	width: 100%;
+    }
+    .footer{
+    	width: 63%;
+    	margin: 0 auto;
+    	margin-top: 100px;
+    	margin-left: 200px;
+    }
+     .footer img{
+    	width: 100%;
+    }
+    .mm{
+    	width: 35%;
+    	margin-top: 60px;
+    	margin: 0 auto;
+    }
+    .mm img{
+    	margin-top: 30px;
+    	margin-left: 60px;
+    }
+	.zzsc img{
+		width: 25%;
+		margin:1%; 
+		border-radius:5px; 
+		float:left;
+		}
+	.zzsc .rotatesimg{
+		-webkit-animation:transform-5 2s ease 500ms alternate none 1;
+		animation:transform-5 2s ease 500ms alternate none 1;
+		}
+	@-webkit-keyframes transform-5 { 
+		from{-webkit-transform:perspective(400px) rotateY(180deg);transform:perspective(400px) rotateY(180deg);} 
+	    to{-webkit-transform:perspective(400px) rotateY(0deg);transform:perspective(400px) rotateY(0deg);} 
+}
+	@keyframes transform-5 { 
+		from{-webkit-transform:perspective(400px) rotateY(180deg);transform:perspective(400px) rotateY(180deg);} 
+	    to{-webkit-transform:perspective(400px) rotateY(0deg);transform:perspective(400px) rotateY(0deg);} 
+}
+     .last{
+    	width: 100%;
+    	margin-top: 50px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .last img{
+    	width: 100%;
+    }
+    /*input{
+    	width: 10%;
+    	position: absolute;
+    	bottom: 6.5%;
+    	right: 22%;
+    	margin-top: -50px;
+    }*/
+     .tf{
+    	display: none;
+    }
+    /*.search{
+    	width: 3%;
+    	position: absolute;
+    	bottom: 6.5%;
+    	right: 19%;
+    	background: #aba6a6;
+    	height: 24px;
+    	text-align: center;
+    	line-height: 24px;
+    }*/
+    form {
+    float: right;
+    margin-top: 11px;
+    margin-right: 150px;
+    width: 182px;
+    height: 28px;
+    background-image: url("../img/lp/index-3.png");
+    background-size: 100%;
+    background-position: center;
+    position: relative; }
+  form > input {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 23px;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    z-index: 3; }
+ 	form > .search {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 19px;
+    z-index: 4; }
+    .tf{
+    	display: none;
+    	width: 100%;
+    }
+    .tf img{
+    	width: 100%;
+    	display: none;
+    }
+  }
+  @media screen and (max-width: 768px){
+  	 .container-fluid {
+  width: 750px;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.row {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  float: left; }
+
+.long2 {
+  width: 100%;
+  height: auto;
+  float: left; }
+    html,body{
+        background: #fff;
+    	width: 100%;
+        /*min-width: 1200px;*/
+        overflow-x: hidden;
+    }
+    .daping .container-fluid{
+    	display: none;
+    }
+    /*.daping .bannerxm{
+        display: block;
+    }*/
+     .xiaoping .bannerxm1{
+        width:100%;
+        height: 1019px;
+        overflow:hidden;
+        position:relative;
+    }
+    .bannerxm1>.nav{
+        height:107px;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:100;
+    }
+    .bannerxm1>.nav>.container{
+        width:83.4%;
+        padding-top:19px;
+        box-sizing:border-box;
+    }
+    .bannerxm1>.nav>.container>.logo{    
+        float:left;
+        width:35px;  
+    }
+    .bannerxm1>.nav>.container>.name{
+        margin-left:6px;
+        width:80px; 
+    }
+    .bannerxm1>.nav>.container>.set{
+        float:right;  
+        width:30px; 
+    }
+    .bannerxm1>.nav>.container>.search{
+        float:right;  
+        margin-right:10px;
+        width:30px;
+    }
+    .bannerxm1>.list{
+        width:338px;
+        height:108px;
+        position:absolute;
+        top:28%;
+        left:50%;
+        margin-top:-54px;
+        margin-left:-164px;
+        z-index:101;
+    }
+    .bannerxm1>.list>a{
+        float:left;
+        width:33.33%;
+        height:50%;
+        border-radius:10px;
+        border:2px solid #fff;
+        line-height:54px;
+        text-align:center;
+        color:#d7d7d7;
+        font-size:20px;
+    }
+    .bannerxm1>.list>.active1{
+        background:#fff;
+        color:#d93f3a;
+        font-weight:bold;
+    }
+    .bannerxm1>.screen{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        transition:opacity 0.6s linear;
+    }
+    .bannerxm1>.screen>img{
+        width:100%;
+    }
+    .bannerxm1>.screen:nth-child(1){
+        z-index:1;
+    }
+    .bannerxm1>.circle{
+        width:114px;
+        height:14px;
+        position:absolute;
+        bottom:60px;
+        left:50%;
+        z-index:2;
+        margin-left:-57px;
+    }
+    .bannerxm1>.circle>div{
+        width:10px;
+        height:10px;
+        border-radius:50%;
+        border:2px solid #fff;
+        float:left;
+        margin-left:8px;
+    }
+    .bannerxm1>.circle>.active{
+        width:35px;
+        height:10px;
+        border-radius:10px;
+    }
+   /*   .small .bannerxm {
+    width: 100%;
+    height: 1019px;
+    overflow: hidden;
+    position: relative; }
+  .small .bannerxm > .nav {
+    height: 107px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100; }
+  .small .bannerxm > .nav > .container {
+    width: 83.4%;
+    padding-top: 19px;
+    box-sizing: border-box; }
+  .small .bannerxm > .nav > .container > .logo {
+    float: left; }
+  .small .bannerxm > .nav > .container > .name {
+    margin-left: 6px; }
+  .small .bannerxm > .nav > .container > .set {
+    float: right; }
+  .small .bannerxm > .nav > .container > .search {
+    float: right;
+    margin-right: 10px; }
+  .small .bannerxm > .list {
+    width: 482px;
+    height: 154px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    margin-top: -72px;
+    margin-left: -241px;
+    z-index: 101; }
+  .small .bannerxm > .list > a {
+    float: left;
+    width: 160px;
+    height: 77px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    line-height: 77px;
+    text-align: center;
+    color: #d7d7d7;
+    font-size: 28px; }
+  .small .bannerxm > .list > .active1 {
+    background: #fff;
+    color: #d93f3a;
+    font-weight: bold; }
+  .small .bannerxm > .screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.6s linear; }
+  .small .bannerxm > .screen > img {
+    width: 100%; }
+  .small .bannerxm > .screen:nth-child(1) {
+    z-index: 1; }
+  .small .bannerxm > .circle {
+    width: 114px;
+    height: 14px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -57px; }
+  .small .bannerxm > .circle > div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: left;
+    margin-left: 8px; }
+  .small .bannerxm > .circle > .active {
+    width: 35px;
+    height: 10px;
+    border-radius: 10px; }
+  .small .bannerxm > .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    margin-top: -20px;
+    font-family: '宋体';
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px; }
+  .small .bannerxm > .left {
+    left: 10px; }
+  .small .bannerxm > .right {
+    right: 10px; } }*/
+    .js{
+    	width: 50%;
+    	margin: 0 auto;
+    	/*margin-left: 200px;*/
+    }
+    .js img{
+    	width: 100%;
+    	margin-top: 50px;
+    }
+    .zx{
+    	width: 100%;
+    	/*margin-left: 50px;*/
+    	margin-top: 70px;
+    }
+    .zx img{
+    	width: 30%;
+    }
+    .pho1{
+    	width: 100%;
+    	/*height: 336px;*/
+    	margin: 0 auto;
+    	border-top:1px solid gainsboro;
+    	/*margin-left: 50px;*/
+    }
+    .pho1 img{
+    	margin-top: 20px;
+    	width: 100%;
+    	float: left;
+    }
+    /*.pho .pho2,.pho3,.pho{
+    	display: none;
+    }*/
+    .jt2{
+    	width: 240px;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    	cursor: pointer;
+    }
+    .jt2 img{
+    	margin-left: 40px;
+    	width: 100%;
+    	margin-top: 50px;
+    }
+    .jt3{
+    	width: 100%;
+    	margin: 0 auto;
+    	/*margin-top: 50px;*/
+    	/*margin-left: 50px;*/
+    }
+     .jt3 img{
+    	width: 100%;
+    }
+     .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .bea{
+    	width: 25%;
+    	/*margin-left: 50px;*/
+    	margin-top: 20px;
+    }
+    .bea img{
+    	width: 100%;
+    }
+    .cir{
+    	width: 100%;
+    	margin-top: 20px;
+    	/*margin-left: 50px;*/
+    	color: gainsboro;
+    }
+    .more{
+    	width: 100px;
+    	margin: 0 auto;
+    	margin-left: 300px;
+    	font-weight: bolder;
+    	font-size: 14px;
+    	background: red;
+    	margin-top: 20px;
+    }
+    .vid{
+    	width: 25%;
+    	/*margin-left: 50px;*/
+    	margin-top: 50px;
+    }
+    .vid img{
+    	width: 100%;
+    }
+    .vider{
+    	width: 100%;
+    	/*margin-left: 50px;*/
+    	margin-top: 20px;
+    }
+    .cen{
+    	width: 8%;
+		color: #FFFFFF;
+    	z-index: 5;
+    	margin-left: 255px;
+    	position: relative;
+    	top: -200px;
+    	font-size:30px ;
+    	text-align: center;
+    	font-family: '宋体';
+    }
+    .meinv{
+    	width: 35%;
+    	margin-left: 140px;
+    	-webkit-animation:run 10s linear 0s infinite;
+    }
+    /*.will,.t1,.lar1,.footer,.last,input,.search{
+    	display: none;
+    }*/
+    .beauty{
+    	width: 20%;
+    	/*margin-left: 50px;*/
+    	margin-top: 20px;
+    }
+    .beauty img{
+    	width: 100%;
+    }
+    .cle{
+    	/*margin-left: 50px;*/
+    	margin-top: 30px;
+    	color: gainsboro;
+    	width: 100%;
+    }
+    .tf{
+        margin-top: 50px;
+    	width: 100%;
+    }
+    .tf img{
+    	width: 100%;
+    }
+   	.meinv:hover{     
+            -webkit-animation-play-state:paused;     
+        }     
+    @-webkit-keyframes run{     
+            from{     
+                -webkit-transform:rotate(0deg);     
+            }     
+            to{     
+                -webkit-transform:rotate(360deg);     
+            }     
+        }     
+  }
+</style>
+<body>
+<div class="daping">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 long2">
+				 <div class="top">
+	        <div class="logo">
+	        	<img src="../img/lg/logo1_03.png" alt="" />
+	        </div>
+	        <div class="mid">
+	        	<a class="first">首页</a>
+	        	<a>婚纱礼服</a>
+	        	<a>作品展示</a>
+	        	<a>摄影风格</a>
+	        	<a>关于我们</a>
+	        	<a class="say">团队介绍</a>
+	        </div>
+	        <div class="right">
+	        	<form action="" method="">
+					<input type="text" name='search'>
+					<img class='search' src="../img/lp/index-4.png">
+				</form>
+	        </div>
+	    </div>  
+	    <div class="banner">
+	    	<img src="../img/lg/team-1_02.png" alt="" />
+	    </div>
+	<div class="main">
+        <div class='small'>
+    <div class='bannerxm'>
+            <div class='nav'>
+                <div class='container'>
+                    <img class='logo' src="../img/lp/index-62.png">
+                    <img class='name' src="../img/lp/index-63.png">
+                    <img class='set' src="../img/lp/index-61.png">
+                    <img class='search' src="../img/lp/index-60.png">
+                </div>
+            </div>
+            <div class="list">
+                <a href='javascript:;'>网站首页</a>
+                <a href='javascript:;' >婚纱礼服</a>
+                <a href='javascript:;' >作品展示</a>
+                <a href='javascript:;'>摄影风格</a>
+                <a href='javascript:;'>关于我们</a>
+                <a href='javascript:;' class="active1">团队介绍</a>
+            </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='circle'>
+            <div class='active'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!--<div class="left button">&lt;</div>
+        <div class="right button">&gt;</div>-->
+    </div>  
+</div>
+	    <div class="js">
+	    	<img src="../img/lg/js_03.png" alt="" />
+	    </div>
+	    <div class="zx">
+	    	<img src="../img/lg/js_07.png" alt="" />
+	    </div>
+	    <div class="pho">
+	    	<!--<div>
+	    		<img src="" alt="" />
+	    		<img src="" alt="" class="pho2"/>
+	    		<img src="" alt="" class="pho3"/>
+	    	</div>-->
+			<div class="zzsc">
+				<img src="../img/lg/team-2_05.png" class="rotates rotatesimg" />
+    			<img src="../img/lg/team-2_08.png" class="rotates rotatesimg" />
+    			<img src="../img/lg/team-2_10.png" class="rotates rotatesimg" />
+</div>
+	    </div>
+	    <div class="pho1">
+			<img src="../img/lg/111_03.png" alt="" />
+		</div>
+	    <div class="jt">
+	    	<img src="../img/lg/js_11.png" alt="" />
+	    </div>
+	    <div class="jt1">
+	    	<img src="../img/lg/qqq_03.png" alt="" />
+	    </div>
+	    <div class="jt2">
+			<img src="../img/lg/js_11.png" alt="" />
+		</div>
+		<div class="jt3">
+			<img src="../img/lg/photo_03.png" alt="" />
+		</div>
+	    <div class="will">
+	    	<div>
+	    		<img src="../img/lg/xiu_13.png" alt="" />
+	    	</div>
+	    	<div class="picture">
+	    		<div class="imgContainer">
+			<img src="../img/lg/ddd_03.png"	data-expander='{animation:"flip3d"}'>
+		</div>
+	    		<div class="imgContainer">
+			<img src="../img/lg/ddd_06.png"	data-expander='{animation:"rotate"}'>
+		</div>
+		<div class="imgContainer">
+			<img src="../img/lg/ddd_08.png"	data-expander='{animation:"fade"}'>
+		</div>
+	    	</div>
+	    </div>
+	    <div class="t1">
+	    		张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。<a
+				href="smith.html">more++</a>
+	    </div>
+	    <div class="tu">
+	    	<img src="../img/lg/tutu_07.png" alt="" />
+	    </div>
+	    <div class="after">
+	    	<img src="../img/lg/sss_14.png" alt="" />
+	    	<img src="../img/lg/sss_17.png" alt="" />
+	    	<img src="../img/lg/sss_19.png" alt="" />
+	    </div>
+	    <div class="mm">
+	    	<img src="../img/lg/mmm_27.png" alt="" />
+	    </div>
+	</div>
+	    <div class="lar1">
+	    	<img src="../img/lg/large_02.png" alt="" />
+	    </div>
+	    <div class="footer">
+	    	<img src="../img/lg/footer_03.png" alt="" />
+	    </div>
+	    <div class="last">
+	    	<img src="../img/lg/kt_03.png" alt="" />
+	    </div>
+	    <div class="bea">
+			    	<img src="../img/lg/nianhua_03.png" alt="" />
+			    </div>
+			    <div class="cir">
+			    		张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。
+			    </div>
+			    <div class="more">
+			    	<a href="smith.html">show more -></a>
+			    </div>
+			    <div class="vid">
+			    	<img src="../img/lg/vider_06.png" alt="" />
+			    </div>
+			    <div class="vider">
+			    	 <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<img src="../img/lg/aaa_03.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+            	<img src="../img/lg/111_03.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+            	<img src="../img/lg/aaa_03.png" alt="" />
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+			    	<div class="meinv">
+			    		<img src="../img/lg/girl_07.png" alt="" />
+			    	</div>
+			    	<div class="beauty">
+			    		<img src="../img/lg/beauty_11.png" alt="" />
+			    	</div>
+			    	<div class="cle">
+			    		Stephen Curry (Stephen Curry), was born on March 14, 1988, in Akron, Ohio (Akron, Ohio), American professional basketball player, the secretary point guard, playing for the NBA golden state warriors.
+Stephen curry through to enter the NBA draft in 2009 has been played for the warriors, rookie season in the best rookie first team, in 2014, 2015 in west all-star line-up, 2014-15 elected MVP season, the first squad named best team, and help the warriors won the NBA championship.
+Stephen curry with team USA won the world championship in Turkey in 2010, with the USA basketball World Cup in Spain in 2014.
+			    	</div>
+			</div>
+		</div>
+	</div>
+	<div class="tf">
+			<img src="../img/lg/contact-us_03.png" alt="" />
+	</div>
+</div>
+
+<div class="xiaoping">
+        <div class='bannerxm1'>
+            <div class='nav'>
+                <div class='container'>
+                    <img class='logo' src="../img/lp/index-62.png">
+                    <img class='name' src="../img/lp/index-63.png">
+                    <img class='set' src="../img/lp/index-61.png">
+                    <img class='search' src="../img/lp/index-60.png">
+                </div>
+            </div>
+            <div class="list">
+                <a href='index.html'>网站首页</a>
+                <a href='zxq-hslf.html' target="_blank">婚纱礼服</a>
+                <a href='zuopinzhanshi.html' target="_blank">作品展示</a>
+                <a href='fengge.html' target="_blank">摄影风格</a>
+                <a href='zxq-gywm.html' target="_blank">关于我们</a>
+                <a href='javascript:;' target="_blank" class="active1">团队介绍</a>
+            </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='circle'>
+            <div class='active'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- floor1 -->
+        <div class="js">
+            <img src="../img/lg/js_03.png" alt="" />
+        </div>
+        <div class="zx">
+            <img src="../img/lg/js_07.png" alt="" />
+        </div>
+        <div class="pho1">
+            <img src="../img/lg/111_03.png" alt="" />
+        </div>
+        <div class="jt2">
+            <img src="../img/lg/js_11.png" alt="" />
+        </div>
+        <div class="jt3">
+            <img src="../img/lg/photo_03.png" alt="" />
+        </div>
+        <div class="bea">
+            <img src="../img/lg/nianhua_03.png" alt="" />
+        </div>
+        <div class="cir">
+                张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。
+        </div>
+        <div class="show">
+            <a href='smith.html'>show more -></a>
+        </div>
+        <div class="vid">
+            <img src="../img/lg/vider_06.png" alt="" />
+        </div>
+        <div class="vider">
+            <img src="../img/lg/aaa_03.png" alt="" />
+            <!-- <div class="cen">
+                <a href="javascript:;">enter</a>
+            </div> -->
+            <div class="circle">
+                
+            </div>
+            <div class="meinv">
+                <img src="../img/lg/girl_07.png" alt="" />
+            </div>
+            <div class="beauty">
+                <img src="../img/lg/beauty_11.png" alt="" />
+            </div>
+            <div class="cle">
+                Stephen Curry (Stephen Curry), was born on March 14, 1988, in Akron, Ohio (Akron, Ohio), American professional basketball player, the secretary point guard, playing for the NBA golden state warriors.
+Stephen curry through to enter the NBA draft in 2009 has been played for the warriors, rookie season in the best rookie first team, in 2014, 2015 in west all-star line-up, 2014-15 elected MVP season, the first squad named best team, and help the warriors won the NBA championship.
+Stephen curry with team USA won the world championship in Turkey in 2010, with the USA basketball World Cup in Spain in 2014.
+            </div>
+        </div>
+        <img src="../img/gx/gx-dibu-xiaoping1.png" alt="" class="dibu1"/>   
+        </div> 
+</div>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    var index =0;
+var timeout= setInterval(function(){
+	if (index > 10){
+		window.clearInterval(timeout)
+	}
+	$("article").eq(index).addClass("show");
+	index++
+},300);
+
+function showFoo(){
+	$("#fooId").trigger("expand");
+}
+
+$("#expandSettings").on("click", function(){
+	if ($("ul.settings").hasClass("open")){
+		$("ul.settings").removeClass("open");
+	}else{
+		$("ul.settings").addClass("open");
+
+	}
+});
+</script>

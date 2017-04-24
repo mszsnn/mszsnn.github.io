@@ -1,0 +1,190 @@
+@media screen and (max-width: 768px) {
+  .zxq-top {
+    width: 100%;
+    height: 49px;
+    background: red; }
+    .zxq-top .zxq-top1 {
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+      background: yellow; }
+  .zxq-header {
+    width: 100%;
+    height: 325px; }
+    .zxq-header img {
+      width: 100%;
+      height: 100%; }
+  .zxq-first {
+    width: 750px;
+    height: auto;
+    margin: 0 auto; }
+    .zxq-first img {
+      width: 100%;
+      height: auto; }
+  .zxq-second {
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto; }
+    .zxq-second img {
+      width: 100%;
+      height: 100%; }
+  .zxq-jian {
+    width: 1200px;
+    height: 53px;
+    margin: 0 auto; }
+    .zxq-jian p {
+      width: 862px;
+      margin: 0 auto;
+      height: 50%; }
+    .zxq-jian p:first-child {
+      font-size: 24px;
+      line-height: 24px;
+      color: #c4c3c3; }
+    .zxq-jian p:last-child {
+      font-size: 22px;
+      line-height: 24px;
+      color: #696969; }
+      .zxq-jian p:last-child span {
+        color: #e63b4f; }
+  .zxq-duan1 {
+    width: 1200px;
+    height: 95px;
+    margin: 0 auto;
+    margin-top: 77px; }
+    .zxq-duan1 p {
+      width: 863px;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 14px;
+      line-height: 24px;
+      color: #969696;
+      text-align: justify; }
+      .zxq-duan1 p mark {
+        color: #e63b4f;
+        background: none; }
+  .zxq-duan2 {
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 28px; }
+    .zxq-duan2 p {
+      width: 863px;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 14px;
+      line-height: 24px;
+      color: #969696;
+      text-align: justify; }
+  .zxq-duan3 {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 62px; }
+    .zxq-duan3 p {
+      width: 863px;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 12px;
+      line-height: 18px;
+      color: #a1a1a1;
+      word-break: break-all;
+      text-align: justify; }
+  .zxq-duan4 {
+    width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 36px; }
+    .zxq-duan4 p {
+      width: 863px;
+      height: 100%;
+      margin: 0 auto;
+      font-size: 12px;
+      line-height: 18px;
+      color: #a1a1a1;
+      word-break: break-all;
+      text-align: justify; }
+  .zxq-duan5 {
+    width: 1200px;
+    height: 492px;
+    margin: 0 auto; }
+    .zxq-duan5 .zxq-imgs {
+      width: 863px;
+      height: 100%;
+      margin: 0 auto;
+      position: relative; }
+      .zxq-duan5 .zxq-imgs img:first-child {
+        width: 498px;
+        height: 303px;
+        position: absolute;
+        left: 0;
+        top: 108px;
+        z-index: 2; }
+      .zxq-duan5 .zxq-imgs img:last-child {
+        width: 498px;
+        height: 263px;
+        position: absolute;
+        right: 0;
+        top: 56px;
+        z-index: 1; }
+  .zxq-wh {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto; }
+    .zxq-wh .zxq-wh1 {
+      width: 863px;
+      margin: 0 auto; }
+      .zxq-wh .zxq-wh1 img {
+        width: 863px;
+        height: 506px; }
+  .zxq-fw {
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto; }
+    .zxq-fw .zxq-zhishang {
+      width: 863px;
+      height: 450px;
+      margin: 0 auto; }
+      .zxq-fw .zxq-zhishang .zxq-gywmleft {
+        width: 420px;
+        height: auto;
+        float: left; }
+        .zxq-fw .zxq-zhishang .zxq-gywmleft img {
+          width: 420px;
+          height: auto; }
+      .zxq-fw .zxq-zhishang .zxq-gywmright {
+        width: 417px;
+        height: auto;
+        float: left;
+        margin-left: 26px; }
+        .zxq-fw .zxq-zhishang .zxq-gywmright p {
+          width: 100%;
+          height: 23px;
+          font-size: 30px;
+          line-height: 30px;
+          color: #c2c1c1; }
+          .zxq-fw .zxq-zhishang .zxq-gywmright p span {
+            color: #e73c50; }
+        .zxq-fw .zxq-zhishang .zxq-gywmright .second-p {
+          font-size: 24px;
+          line-height: 30px;
+          color: #e73c50; }
+        .zxq-fw .zxq-zhishang .zxq-gywmright .three-p {
+          font-size: 14px;
+          line-height: 24px;
+          color: #c2c1c1;
+          margin-top: 59px; }
+        .zxq-fw .zxq-zhishang .zxq-gywmright .four-p {
+          font-size: 12px;
+          line-height: 20px;
+          color: #c2c1c1;
+          margin-top: 90px; }
+      .zxq-fw .zxq-zhishang .zxq-zh {
+        width: 863px;
+        height: 20px;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+        float: left;
+        color: #d4d4d4;
+        font-size: 12px;
+        margin-top: 95px; } }
