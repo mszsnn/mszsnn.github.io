@@ -1,0 +1,133 @@
+.bread {
+  color: #aaa; 
+  margin-top:20px;}
+  .bread span {
+    color: #aaa; }
+  .bread a {
+    color: #aaa; }
+
+.title {
+  display: block;
+  margin: 20px auto; }
+
+.img-thumbnail {
+  border: 0;
+  margin-bottom: 10px; }
+
+.col-xs-4 > span {
+  font-size: 18px;
+  color: #858585; }
+
+p {
+  margin-top: 20px;
+  color: #858585;
+  text-align: justify; }
+
+p.chinese {
+  letter-spacing: 2px;
+  font-size: 16px; }
+
+p.english {
+  line-height: 25px;
+  font-size: 16px; }
+
+.fynav {
+  width: 80%;
+  height: 30px;
+  margin: 50px auto; }
+
+.dian {
+  width: 14%;
+  border: 1px solid #565656;
+  text-align: center;
+  border-radius: 10px;
+  float: left;
+  height: 20px;
+  margin-right: 20px; }
+
+.ye {
+  width: 40%;
+  float: left;
+  margin-left: 20px; }
+
+.ye > li {
+  float: left;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background: #898989;
+  text-align: center;
+  color: #fff; }
+
+.ye > li:nth-child(4), .ye > li:nth-child(5) {
+  background: #fff;
+  color: #000; }
+
+.tz {
+  width: 14%;
+  border: 1px solid #565656;
+  text-align: center;
+  border-radius: 10px;
+  float: left;
+  height: 20px; }
+
+.tz > div {
+  float: right;
+  height: 20px;
+  border: 1px solid #565656;
+  box-sizing: border-box;
+  font-size: 12px;
+  border-radius: 10px; }
+
+.col-lg-12 .fynav {
+  width: 80%;
+  height: 30px;
+  margin: 50px auto; }
+  .col-lg-12 .fynav .dian {
+    width: 14%;
+    border: 1px solid #565656;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    height: 20px;
+    margin-right: 10px; }
+  .col-lg-12 .fynav ul {
+    width: 53%;
+    float: left;
+    margin-left: 20px; }
+    .col-lg-12 .fynav ul li {
+      float: left;
+      margin-left: 10px;
+      width: 20px;
+      height: 20px;
+      background: #898989;
+      text-align: center;
+      color: #fff;
+      margin-right: 10px; }
+    .col-lg-12 .fynav ul li:nth-child(8), .col-lg-12 .fynav ul li:nth-child(11) {
+      background: #fff;
+      color: #000; }
+  .col-lg-12 .fynav .tz {
+    width: 14%;
+    border: 1px solid #565656;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    height: 20px; }
+    .col-lg-12 .fynav .tz div {
+      width: 50%;
+      float: right;
+      border: 1px solid #565656;
+      font-size: 12px;
+      border-radius: 10px; }
+
+.icon-xia {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0; }
+@media screen and (max-width:376px ) {
+	.col-xs-4 > span{
+		font-size: 14px;
+	}
+}
