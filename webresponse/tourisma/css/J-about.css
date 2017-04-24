@@ -1,0 +1,402 @@
+body{
+height: 5000px;
+}
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+/*大屏*/
+.a-bg{
+	width:100%;
+	height:800px;
+	background: url(../img/a-bg_02.png) center center no-repeat;
+	background-size:cover;
+	/*background-origin: padding-box;*/
+	/*margin-top:75px ;*/
+	overflow: hidden;
+}
+.a-bg p{
+	width:210px;
+	height:35px;
+	border:1px solid #fff;
+    box-sizing: border-box;
+    line-height: 35px;
+	margin: 320px auto 0;
+	text-align: center;
+}
+.a-bg p a{
+   color:#fff;
+   font-size:15px;
+   font-family: '微软雅黑';
+}
+.a-bg p a:hover{
+    text-decoration: none;
+}
+.team{
+	height:3000px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	margin-top: -350px;
+}
+.about-team{
+    width:283px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.team-dt{
+     width:390px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.space{
+    background: #97785f;
+    height:1px;
+    margin-top: 50px;
+}
+.team p{
+    font-size:13px;
+    font-family: '宋体';
+    color:#a6a6a6;
+    text-align: center;
+    margin-bottom:0 ;
+}
+.team .dt .title{
+   font-size:12px;
+   text-align: center;
+}
+.dt{
+   overflow: hidden;
+}
+.team .des{
+   margin: 30px auto 0;
+   font-size:12px;
+}
+.team .des ~ p{
+   margin-top:8px;
+   font-size:12px;
+}
+.team .desy{
+   margin-bottom: 60px;
+   font-family: "微软雅黑";
+   font-weight: 400;
+}
+.pic{
+   margin-bottom: 20px;
+   position:relative;
+}
+.pic img:first-child{
+   margin-top: 20px;
+   width:100%;
+}
+.pic img:nth-child(2){
+   width:280px;
+   width:500px;
+   float: right;
+}
+.pic img:nth-child(3){
+   width: 200px;
+   position:absolute;
+   top: -15px;
+   left:230px;
+}
+.img-active{
+   position:relative;
+   margin-top:250px ;
+   margin-bottom:200px ;
+   height:500px;
+}
+.a-pc li:first-child img{
+  
+   position:absolute;
+   margin-top:-50px ;
+   z-index: 5000;
+}
+.a-pc li:nth-child(2) img{
+  
+   position:absolute;
+   margin-top: 130px;
+  
+}
+.a-pc li:nth-child(3) img{  
+   position:absolute;
+   margin-top: -180px;
+  /* left:500px;*/
+   z-index: 200;
+}
+.a-pc li:nth-child(4) img{
+   margin-top: -80px;
+   position:absolute;
+    margin-left: -80px;
+   
+}
+.activity .team-dt{
+   width:390px;
+   
+   margin: 0 auto;
+   margin-top: 60px;
+   margin-bottom: 20px;
+}
+.activity .col-sm-7{
+   height:400px;
+  /* background: red;*/
+   
+}
+.activity .col-sm-7 h5{
+   margin-top:420px ;
+   text-align: center;
+}
+.activity .col-sm-5{
+   height:auto;
+  /* background: blue;*/
+   
+}
+.activity .col-sm-7 h5 ~ p{
+    text-align: center;
+    color: #787878;
+   font-family: "微软雅黑";
+   font-size:10px;
+}
+.activity .col-sm-7 h5 + p + p{
+  margin-top: 20px;
+}
+.activity p.active-t{
+    width: 150px;
+    margin: 0 auto;  
+    text-align:left;  
+    font-family: '苹方';
+    color:#7c7c7c;
+}
+.activity .col-sm-5 ul{
+   height:5px;
+   margin: 0 auto;
+   width:auto;
+   margin-top:140px ;
+}
+.activity .col-sm-5 li{
+   float:left;
+   background: #bebebe;
+   width:20px;
+   height:5px;
+   border-radius: 3px;
+   margin-right:9px;
+   
+}
+.activity .col-sm-5 li.first{
+    background: #7ecef4;
+}
+.activity .col-sm-5 ul ~ p{
+   text-align: left;
+   font-weight: 600;
+   font-family: "微软雅黑";
+   color:#4d4d4d;
+}
+.activity .col-sm-5 ul + p{
+   margin-top:30px ;
+}
+.activity .col-sm-5 .bold{
+   font-size:25px;
+}
+.activity .col-sm-5 .bold + p{
+   font-size:11px;
+   font-weight:300;
+   margin-top:20px ;
+   line-height: 20px;
+}
+.activity .col-sm-5 .bold-next{
+   font-size: 10px;
+   font-weight: 200;
+   margin-top:50px ;
+}
+.activity .col-sm-5 .bold-next1{
+   margin-top:10px ;
+}
+.activity .col-sm-5 .bold-next1 + p{
+  margin-top: 30px;
+}
+.activity .col-sm-5 .bold-next1 + p + p{
+  font-weight: normal;
+}
+/*相同的样式*/
+.a-phone{
+    display:none ;
+}
+.rec1,.rec2,.a-map{
+    display: none;
+}
+.a-form{
+   display: none;
+}
+/*小屏*/
+@media screen and (max-width: 768px) {
+.a-bg{
+	width:100%;
+	
+	background: url(../img/a-bg_02.png) center center no-repeat;
+	background-size:cover;
+	/*background-origin: padding-box;*/
+	/*margin-top:75px ;*/
+	overflow: hidden;
+}
+.a-bg p{
+      margin-top: 360px;
+ }
+ .dt .title{
+     font-weight: 400;
+ }
+ .a-pc{
+     display: none;
+ }
+ .a-phone{
+     display: block;
+ }
+ .a-phone p:nth-child(2){
+    margin-bottom: 30px;
+ }
+ .a-phone p:nth-child(3){
+    margin-bottom: 0;
+ }
+ .a-phone p:nth-child(4){
+    margin-bottom: 0;
+ }
+ .a-phone .des{
+     text-align: left;
+     font-size:13px;
+     font-weight: bold;
+ }
+.a-phone .desy{
+     text-align: left;
+ }
+.team{
+      padding:0;
+ }
+div.pic{
+      padding: 0;
+}
+img.pic{
+      padding: 0;
+}
+ul.a-phone{
+      height:auto;
+}
+ul.a-phone li{
+      height:auto;
+}
+.a-phone img{
+      padding:0;
+}
+div.img-active{
+     margin-top: 40px;
+}
+h5,h5 ~ p{
+     display: none;
+}
+p.active-t{
+     margin: 0;
+}
+.img-active{
+  margin-bottom: 0;
+}
+.img-active ul.xuecar{
+    margin: 0;
+}
+.a-phone p:first-child{
+    margin-top: 100px;
+    font-weight: bold;
+    width:auto;
+}
+.img-active .descript{
+    font-weight: bold;
+}
+.bold + p{
+    font-weight: bold !important;
+}
+.rec1,.rec2,.a-map{
+    display: block;
+}
+.rec1{
+    margin-top: 30px;
+}
+.rec1,.rec2{
+    height:35px;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: center;
+    padding:0;
+}
+.rec1{
+    margin-top: 30px;
+    background: #f9c45e;
+    color:#fff;
+    font-size:16px;
+    
+}
+.rec1 span:first-child{
+    font-weight: bold;
+}
+.rec2{
+    border:#bfbfbf solid 1px;
+}
+.rec2 span:nth-child(2){
+    line-height: 35px;
+    text-align: center;
+    color:#000;
+    font-size:18px;
+    font-weight: bold;
+}
+.rec2 span:nth-child(1){
+    float:left;
+    display:block ;
+    width:2px;
+    height:25px;
+    background: #000;
+     margin-top: 5px;
+}
+.rec2 span:nth-child(3){
+    display:block ;
+    width:2px;
+    height:25px;
+    background: #000;
+    float:right;
+    margin-top: 5px;
+}
+.a-map{
+    margin-top: 45px;
+}
+.a-form{
+    display: block;
+    height:150px;
+    background:#fff;
+    margin-top: -70px;
+}
+.a-form form{
+   text-align: center;
+   margin-top: 20px;
+}
+.a-form form input{
+   margin-bottom: 10px;
+   color:#7d7d7d;
+   font-size:12px;
+   padding:1px 10px 1px 10px;
+   box-sizing: border-box;
+   outline: none;
+}
+.a-form form input:last-child{
+   height:50px;
+}
+
+.activity .team-dt{
+   width:370px;
+   
+   margin: 0 auto;
+   margin-top: 60px;
+   margin-bottom: 20px;
+}
+.pre .l-phone{
+   font-weight: bold;
+}
+}

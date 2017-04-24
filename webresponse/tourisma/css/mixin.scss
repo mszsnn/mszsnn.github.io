@@ -1,0 +1,25 @@
+@function a(){
+	@return 30px;
+}
+$size: a();
+@debug $size;
+@mixin cude($size){
+	width:$size;
+	height:$size;
+}
+@mixin rect($w,$h){
+	width:$w;
+	height:$h;
+}
+@mixin circle($size){
+	@include cude($size);
+	border-radius:50%;
+}
+@function bg(){
+	$r:floor(random()*256);
+	$g:floor(random()*100);
+	$b:floor(random()*100);
+	$a:floor(random()*4 + 3)/10;
+	$color:rgba($r,$g,$b,$a);
+	@return $color;
+}

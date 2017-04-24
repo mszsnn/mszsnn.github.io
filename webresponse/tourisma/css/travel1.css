@@ -1,0 +1,1385 @@
+@charset "UTF-8";
+@import url(base.css);
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+.H-header {
+  height: 88px;
+  width: 750px; }
+
+.H-logo {
+  float: left;
+  margin-top: 32px;
+  margin-left: 13px; }
+
+.H-text {
+  font-size: 24px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: "苹方"; }
+
+.H-head-icon-list {
+  float: right;
+  width: 60px;
+  height: auto;
+  position: relative;
+  margin-top: 32px; }
+  .H-head-icon-list img {
+    cursor: pointer; }
+
+.H-list-box {
+  width: 684px;
+  height: 162px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -636px;
+  top: 50px;
+  font-family: "苹方";
+  color: #a2a2a2;
+  font-size: 30px;
+  text-align: center;
+  line-height: 77px;
+  background-image: url(../img/H-img/list-border.png);
+  border: 1px solid #535353;
+  background-size: 684px;
+  display: none; }
+  .H-list-box a {
+    display: block;
+    color: #A2A2A2;
+    width: 226px;
+    height: 77px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px; }
+  .H-list-box .H-active {
+    color: #000; }
+
+.H-banner-box {
+  height: 803px;
+  background-image: url(../img/H-img/H-min-banner.png);
+  background-size: auto 803px;
+  background-position: -99px;
+  background-repeat: no-repeat; }
+  .H-banner-box .tin-2 {
+    display: block;
+    margin-top: 270px;
+    margin-bottom: 90px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #FFFFFF; }
+  .H-banner-box p {
+    font-size: 72px;
+    text-align: center;
+    line-height: 72px;
+    color: #FFFFFF; }
+    .H-banner-box p span {
+      color: #f9c45e;
+      font-size: 72px;
+      display: inline-block; }
+  .H-banner-box b {
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'helvetica';
+    margin-top: 60px; }
+    .H-banner-box b span {
+      color: #f9c45e; }
+  .H-banner-box .china {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "苹方";
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px; }
+    .H-banner-box .china span {
+      color: #f9c45e; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.H-big-header {
+  background-color: #020203;
+  height: 72px; }
+
+.H-big-logo img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px; }
+
+.H-big-logo p {
+  margin-top: 18px;
+  margin-left: 16px;
+  float: left;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: "微软雅黑"; }
+  .H-big-logo p span {
+    display: inline-block;
+    font-size: 20px;
+    font-family: helvetica; }
+
+.H-adorn {
+  background-image: url(../img/H-img/H-head-adorn.png);
+  width: 69px;
+  height: 100px;
+  background-size: 69px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+
+.H-header-list {
+  margin-top: 32px;
+  font-size: 18px; }
+  .H-header-list a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .H-header-list a:hover {
+    text-decoration: none;
+    color: #f9c45e; }
+  .H-header-list .H-active-1 {
+    color: #f9c45e; }
+
+.H-search {
+  position: relative; }
+  .H-search .H-inputbox {
+    padding: 4px 0px 4px 26px;
+    height: 26px;
+    border-radius: 13px;
+    width: 108px;
+    margin-top: 31px;
+    background-color: #FFFFFF; }
+  .H-search input {
+    width: 90%;
+    height: 100%;
+    border: none; }
+  .H-search span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 37px;
+    left: 24px; }
+
+.banner {
+  width: 100%;
+  height: 626px;
+  background: url(../img/feng.png) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .banner .app-banner {
+    display: none; }
+  .banner .banner-tu {
+    width: 726px;
+    height: 219px;
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+    text-align: center; }
+    .banner .banner-tu h1 {
+      font-size: 80px;
+      color: #384253; }
+      .banner .banner-tu h1 strong {
+        color: #6e423b; }
+    .banner .banner-tu .han {
+      font-size: 18px;
+      color: #4a3e36; }
+    .banner .banner-tu .ying {
+      width: 440px;
+      font-size: 14px;
+      color: #fefefe;
+      margin: 0 auto;
+      padding-top: 10px; }
+    .banner .banner-tu .ying1 {
+      display: none; }
+    .banner .banner-tu .left {
+      width: 22px;
+      height: 22px;
+      background: url(../img/left.png) no-repeat;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+    .banner .banner-tu .right {
+      width: 22px;
+      height: 22px;
+      background: url(../img/right.png) no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 0;
+      top: 0; }
+
+.center {
+  width: 100%;
+  height: 4297px;
+  position: relative; }
+  .center .center-top {
+    height: 471px; }
+    .center .center-top .TV {
+      width: 719px;
+      height: 452px;
+      background: url(../img/cy.png) no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -70px;
+      left: 100px; }
+      .center .center-top .TV .bo {
+        width: 179px;
+        height: 179px;
+        background: url(../img/bo.png) no-repeat;
+        background-size: cover;
+        position: absolute; }
+      .center .center-top .TV video {
+        width: 719px;
+        height: 452px; }
+    .center .center-top .ZI {
+      width: 591px;
+      height: 432px;
+      background: url(../img/591.png) no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -20px;
+      right: 20px;
+      overflow: hidden; }
+      .center .center-top .ZI .ZI-zi {
+        width: 333px;
+        height: 240px;
+        float: right;
+        margin-right: 54px;
+        margin-top: 40px;
+        color: #fff;
+        text-align: right; }
+        .center .center-top .ZI .ZI-zi .p1 {
+          font-size: 30px; }
+        .center .center-top .ZI .ZI-zi .p2 {
+          padding-top: 5px;
+          font-size: 24px; }
+        .center .center-top .ZI .ZI-zi .p3 {
+          font-size: 24px; }
+        .center .center-top .ZI .ZI-zi .p4 {
+          padding-top: 10px;
+          font-size: 16px; }
+        .center .center-top .ZI .ZI-zi .p5 {
+          font-size: 16px; }
+        .center .center-top .ZI .ZI-zi .p6 {
+          padding-top: 10px;
+          font-size: 12px; }
+        .center .center-top .ZI .ZI-zi .xian {
+          width: 35px;
+          height: 3px;
+          background: url(../img/98.png) no-repeat;
+          background-size: cover;
+          display: block;
+          float: right; }
+      .center .center-top .ZI .ZI-1 {
+        width: 796px;
+        height: 821px;
+        background: url(../img/5911.png) no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: -330px; }
+  .center .nei {
+    width: 1200px;
+    height: 3886px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px #b4b4b4;
+    background: #fff; }
+    .center .nei .nei-1 {
+      width: 1100px;
+      height: 1430px;
+      margin: 0 auto;
+      text-align: center; }
+      .center .nei .nei-1 .center-row {
+        width: 100%;
+        padding-top: 80px;
+        position: relative; }
+        .center .nei .nei-1 .center-row .center-border {
+          width: 253px;
+          height: 47px;
+          background: url(../img/border.png) no-repeat;
+          display: block;
+          position: relative;
+          margin: 0 auto; }
+          .center .nei .nei-1 .center-row .center-border span {
+            color: black;
+            font-size: 24px;
+            position: absolute;
+            top: 16px;
+            right: 50%;
+            margin-right: -63px; }
+          .center .nei .nei-1 .center-row .center-border .yuan {
+            width: 22px;
+            height: 22px;
+            background: url(../img/yuan.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 22px;
+            left: 115px; }
+        .center .nei .nei-1 .center-row .left-top {
+          width: 30px;
+          height: 30px;
+          background: url(../img/left-top.png) no-repeat;
+          position: absolute;
+          left: 416px;
+          top: 71px; }
+        .center .nei .nei-1 .center-row .right-bottom {
+          width: 30px;
+          height: 30px;
+          background: url(../img/right-bottom.png) no-repeat;
+          position: absolute;
+          right: -8px;
+          bottom: -8px; }
+        .center .nei .nei-1 .center-row h2 {
+          font-size: 36px;
+          color: #000;
+          padding-top: 10px; }
+        .center .nei .nei-1 .center-row h6 {
+          font-size: 16px;
+          color: #cecece;
+          font-weight: 500; }
+          .center .nei .nei-1 .center-row h6 strong {
+            color: #959595; }
+      .center .nei .nei-1 .center-bao {
+        width: 1000px;
+        height: 160px;
+        padding-top: 16px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .center .nei .nei-1 .center-bao .xian {
+          width: 46px;
+          height: 3px;
+          background: url(../img/xian.png) no-repeat;
+          background-size: cover; }
+        .center .nei .nei-1 .center-bao p {
+          font-size: 12px;
+          color: #c1c1c1; }
+        .center .nei .nei-1 .center-bao em {
+          font-weight: 600;
+          font-size: 15px; }
+        .center .nei .nei-1 .center-bao .jing {
+          width: 320px;
+          font-size: 12px;
+          color: #eee;
+          display: flex;
+          justify-content: space-between; }
+        .center .nei .nei-1 .center-bao .xian1 {
+          width: 1000px;
+          height: 3px;
+          background: url(../img/xian1.png) no-repeat;
+          background-size: cover; }
+      .center .nei .nei-1 .center-bei {
+        width: 1100px;
+        height: 469px;
+        margin-top: 77px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left; }
+        .center .nei .nei-1 .center-bei .bei-tu {
+          width: 558px;
+          height: 469px;
+          background: url(../img/beiying.png) no-repeat;
+          background-size: cover;
+          filter: grayscale(1); }
+        .center .nei .nei-1 .center-bei .bei-zi {
+          width: 471px;
+          height: 469px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          .center .nei .nei-1 .center-bei .bei-zi h2 {
+            font-size: 30px;
+            color: #000;
+            font-weight: 500; }
+          .center .nei .nei-1 .center-bei .bei-zi h3 {
+            font-size: 24px;
+            color: #F9C767;
+            font-weight: 500; }
+            .center .nei .nei-1 .center-bei .bei-zi h3 strong {
+              color: #97785f; }
+          .center .nei .nei-1 .center-bei .bei-zi .p1 {
+            font-size: 16px;
+            color: #333;
+            margin-top: -25px; }
+          .center .nei .nei-1 .center-bei .bei-zi .p2 {
+            font-size: 14px;
+            color: #7d7d7d; }
+          .center .nei .nei-1 .center-bei .bei-zi .p3 {
+            font-size: 12px;
+            color: #d4d4d4; }
+          .center .nei .nei-1 .center-bei .bei-zi .xian {
+            width: 116px;
+            height: 2px;
+            background: url(../img/bei-xian.png) no-repeat;
+            background-size: cover;
+            margin-top: -20px; }
+          .center .nei .nei-1 .center-bei .bei-zi .feiji {
+            width: 165px;
+            height: 110px;
+            background: url(../img/feiji.png) no-repeat;
+            background-size: cover; }
+      .center .nei .nei-1 .center-all {
+        width: 1100px;
+        height: 300px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: space-around; }
+        .center .nei .nei-1 .center-all .all {
+          width: 320px;
+          height: 300px;
+          display: flex;
+          position: relative; }
+          .center .nei .nei-1 .center-all .all .all-shu {
+            width: 3px;
+            height: 212px;
+            background: url(../img/shu.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 5px; }
+            .center .nei .nei-1 .center-all .all .all-shu .fang {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu1.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px; }
+            .center .nei .nei-1 .center-all .all .all-shu .fang-1 {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu2.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px;
+              top: 68px; }
+            .center .nei .nei-1 .center-all .all .all-shu .fang-2 {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu2.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px;
+              top: 129px; }
+            .center .nei .nei-1 .center-all .all .all-shu .fang-3 {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu2.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px;
+              top: 195px; }
+          .center .nei .nei-1 .center-all .all .all-zi {
+            width: 310px;
+            height: 212px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            padding-left: 40px; }
+            .center .nei .nei-1 .center-all .all .all-zi p {
+              color: #F9C45E;
+              font-size: 20px; }
+            .center .nei .nei-1 .center-all .all .all-zi .p1 {
+              font-size: 16px;
+              color: #666; }
+          .center .nei .nei-1 .center-all .all .all-a {
+            width: 141px;
+            height: 34px;
+            background: #F9C86B;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -70px;
+            line-height: 34px; }
+            .center .nei .nei-1 .center-all .all .all-a a {
+              width: 100%;
+              height: 100%;
+              color: #fff;
+              font-size: 14px;
+              display: block; }
+        .center .nei .nei-1 .center-all .all-right {
+          width: 710px;
+          height: 300px;
+          display: flex;
+          position: relative; }
+          .center .nei .nei-1 .center-all .all-right .right-left {
+            width: 354px;
+            height: 300px;
+            background: url(../img/ren.png) no-repeat;
+            background-size: cover;
+            position: absolute; }
+          .center .nei .nei-1 .center-all .all-right .right-center {
+            width: 408px;
+            height: 205px;
+            background: url(../img/hui.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 20px;
+            right: 20px; }
+            .center .nei .nei-1 .center-all .all-right .right-center .zi {
+              width: 210px;
+              margin: 50px auto;
+              text-align: left; }
+              .center .nei .nei-1 .center-all .all-right .right-center .zi .p1 {
+                font-size: 16px;
+                color: #97785F;
+                padding-bottom: 15px; }
+              .center .nei .nei-1 .center-all .all-right .right-center .zi .p2 {
+                font-size: 14px;
+                color: #333; }
+          .center .nei .nei-1 .center-all .all-right .right-right {
+            width: 294px;
+            height: 120px;
+            display: flex;
+            position: absolute;
+            right: 0;
+            bottom: 0; }
+            .center .nei .nei-1 .center-all .all-right .right-right ul {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              align-items: flex-end; }
+              .center .nei .nei-1 .center-all .all-right .right-right ul li {
+                width: 59px;
+                height: 50px;
+                background: url(../img/yi1.png) no-repeat;
+                background-size: cover; }
+              .center .nei .nei-1 .center-all .all-right .right-right ul .yi {
+                width: 59px;
+                height: 50px;
+                background: url(../img/yi.png) no-repeat;
+                background-size: cover; }
+      .center .nei .nei-1 .center-di {
+        width: 100%;
+        height: 114px;
+        text-align: center; }
+        .center .nei .nei-1 .center-di .zi {
+          width: 220px;
+          margin: 0 auto;
+          margin-top: 50px; }
+          .center .nei .nei-1 .center-di .zi p {
+            font-size: 12px;
+            color: #bcbcbc; }
+    .center .nei .nei-2 {
+      width: 1100px;
+      height: 1200px;
+      margin: 0 auto;
+      text-align: center; }
+      .center .nei .nei-2 .center-row {
+        width: 100%;
+        padding-top: 80px;
+        position: relative; }
+        .center .nei .nei-2 .center-row .center-border {
+          width: 253px;
+          height: 47px;
+          background: url(../img/border.png) no-repeat;
+          display: block;
+          position: relative;
+          margin: 0 auto; }
+          .center .nei .nei-2 .center-row .center-border span {
+            color: black;
+            font-size: 24px;
+            position: absolute;
+            top: 16px;
+            right: 50%;
+            margin-right: -63px; }
+          .center .nei .nei-2 .center-row .center-border .yuan {
+            width: 22px;
+            height: 22px;
+            background: url(../img/yuan.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 22px;
+            left: 115px; }
+        .center .nei .nei-2 .center-row .left-top {
+          width: 30px;
+          height: 30px;
+          background: url(../img/left-top.png) no-repeat;
+          position: absolute;
+          left: 416px;
+          top: 71px; }
+        .center .nei .nei-2 .center-row .right-bottom {
+          width: 30px;
+          height: 30px;
+          background: url(../img/right-bottom.png) no-repeat;
+          position: absolute;
+          right: -8px;
+          bottom: -8px; }
+        .center .nei .nei-2 .center-row h2 {
+          font-size: 36px;
+          color: #000;
+          padding-top: 10px; }
+        .center .nei .nei-2 .center-row h6 {
+          font-size: 16px;
+          color: #cecece;
+          font-weight: 500; }
+          .center .nei .nei-2 .center-row h6 strong {
+            color: #959595; }
+      .center .nei .nei-2 .center-bao {
+        width: 1000px;
+        height: 160px;
+        padding-top: 16px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .center .nei .nei-2 .center-bao .xian {
+          width: 46px;
+          height: 3px;
+          background: url(../img/xian.png) no-repeat;
+          background-size: cover; }
+        .center .nei .nei-2 .center-bao p {
+          font-size: 12px;
+          color: #c1c1c1; }
+        .center .nei .nei-2 .center-bao em {
+          font-weight: 600;
+          font-size: 15px; }
+        .center .nei .nei-2 .center-bao .jing {
+          width: 320px;
+          font-size: 12px;
+          color: #eee;
+          display: flex;
+          justify-content: space-between; }
+        .center .nei .nei-2 .center-bao .xian1 {
+          width: 1000px;
+          height: 3px;
+          background: url(../img/xian1.png) no-repeat;
+          background-size: cover; }
+      .center .nei .nei-2 .center-tiao {
+        width: 1065px;
+        height: 453px;
+        margin-top: 80px;
+        display: flex; }
+        .center .nei .nei-2 .center-tiao .tiao-zi {
+          width: 365px;
+          height: 453px;
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          .center .nei .nei-2 .center-tiao .tiao-zi h2 {
+            font-size: 30px;
+            color: #000;
+            font-weight: 500; }
+          .center .nei .nei-2 .center-tiao .tiao-zi h3 {
+            font-size: 24px;
+            color: #F9C767;
+            font-weight: 500; }
+            .center .nei .nei-2 .center-tiao .tiao-zi h3 strong {
+              color: #97785f; }
+          .center .nei .nei-2 .center-tiao .tiao-zi .p1 {
+            font-size: 16px;
+            color: #333;
+            margin-top: -40px; }
+          .center .nei .nei-2 .center-tiao .tiao-zi .p2 {
+            width: 238px;
+            font-size: 14px;
+            color: #d4d4d4; }
+          .center .nei .nei-2 .center-tiao .tiao-zi .p3 {
+            width: 238px;
+            font-size: 14px;
+            color: #d4d4d4;
+            margin-top: -25px; }
+          .center .nei .nei-2 .center-tiao .tiao-zi .p4 {
+            font-size: 16px;
+            color: #686868; }
+          .center .nei .nei-2 .center-tiao .tiao-zi .xian {
+            width: 116px;
+            height: 2px;
+            background: url(../img/bei-xian.png) no-repeat;
+            background-size: cover;
+            margin-top: -20px; }
+        .center .nei .nei-2 .center-tiao .tiao-tu {
+          width: 700px;
+          height: 453px;
+          background: url(../img/shi.png) no-repeat;
+          background-size: cover; }
+      .center .nei .nei-2 .center-fen {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px; }
+        .center .nei .nei-2 .center-fen .fen-center {
+          width: 380px;
+          height: 30px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+          .center .nei .nei-2 .center-fen .fen-center .aa {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .center .nei .nei-2 .center-fen .fen-center .aa a {
+              color: #fff; }
+          .center .nei .nei-2 .center-fen .fen-center .dian {
+            background: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 30px; }
+            .center .nei .nei-2 .center-fen .fen-center .dian a {
+              color: #000; }
+          .center .nei .nei-2 .center-fen .fen-center .yanse {
+            background: #ca966e; }
+          .center .nei .nei-2 .center-fen .fen-center .fen-right-1 {
+            display: block;
+            width: 27px;
+            height: 25px;
+            background: url(../img/fen-right.png) no-repeat;
+            background-size: cover; }
+          .center .nei .nei-2 .center-fen .fen-center .fen-left-1 {
+            display: block;
+            width: 27px;
+            height: 25px;
+            background: url(../img/fen-left.png) no-repeat;
+            background-size: cover; }
+        .center .nei .nei-2 .center-fen .GO {
+          width: 120px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: inherit;
+          font-size: 18px; }
+          .center .nei .nei-2 .center-fen .GO .kuang {
+            width: 31px;
+            height: 16px;
+            background: url(../img/juxing.png) no-repeat;
+            background-size: cover; }
+          .center .nei .nei-2 .center-fen .GO a {
+            color: #000; }
+          .center .nei .nei-2 .center-fen .GO .aa {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .center .nei .nei-2 .center-fen .GO .aa a {
+              color: #fff;
+              font-size: 16px; }
+      .center .nei .nei-2 .center-lianxi {
+        width: 330px;
+        height: 52px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        float: right;
+        margin-top: 50px; }
+        .center .nei .nei-2 .center-lianxi a {
+          font-size: 18px;
+          color: #3d3d3d; }
+        .center .nei .nei-2 .center-lianxi .tu {
+          width: 52px;
+          height: 52px;
+          background: url(../img/weixin.png) no-repeat;
+          background-size: cover;
+          display: block; }
+        .center .nei .nei-2 .center-lianxi .tu1 {
+          width: 52px;
+          height: 52px;
+          background: url(../img/qq.png) no-repeat;
+          background-size: cover;
+          display: block; }
+        .center .nei .nei-2 .center-lianxi .tu2 {
+          width: 52px;
+          height: 52px;
+          background: url(../img/xinlang.png) no-repeat;
+          background-size: cover;
+          display: block; }
+    .center .nei .nei-3 {
+      width: 1100px;
+      height: 1256px;
+      margin: 0 auto; }
+      .center .nei .nei-3 .pinglun {
+        width: 108px;
+        height: 41px;
+        background: url(../img/14.png) no-repeat;
+        background-size: cover; }
+      .center .nei .nei-3 .xian {
+        width: 1000px;
+        height: 2px;
+        background: url(../img/xian2.png) no-repeat;
+        background-size: cover;
+        margin-top: 10px; }
+      .center .nei .nei-3 .pinglun-1 {
+        width: 1000px;
+        height: 138px;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between; }
+        .center .nei .nei-3 .pinglun-1 .pinglun-tu {
+          width: 79px;
+          height: 79px;
+          background: url(../img/renwu.png) no-repeat;
+          background-size: cover; }
+        .center .nei .nei-3 .pinglun-1 .pinglun-zi {
+          width: 898px;
+          height: 138px;
+          background: url(../img/pinglun.png) no-repeat;
+          background-size: cover;
+          position: relative; }
+          .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi {
+            width: 750px;
+            padding-top: 30px;
+            padding-left: 60px; }
+            .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi .zi-1 {
+              width: 300px;
+              display: flex;
+              justify-content: space-around;
+              align-items: center; }
+              .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi .zi-1 .p1 {
+                font-size: 16px;
+                color: #9F4401; }
+              .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi .zi-1 .zi-1-1 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center; }
+                .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi .zi-1 .zi-1-1 .yuan {
+                  width: 12px;
+                  height: 12px;
+                  border-radius: 50%;
+                  background: #c5c5c5;
+                  margin-right: 5px; }
+                .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi .zi-1 .zi-1-1 span {
+                  font-size: 12px;
+                  color: #c5c5c5; }
+            .center .nei .nei-3 .pinglun-1 .pinglun-zi .zi p {
+              font-size: 14px;
+              color: #c5c5c5;
+              padding-top: 5px; }
+          .center .nei .nei-3 .pinglun-1 .pinglun-zi .lou {
+            width: 55px;
+            height: 55px;
+            position: absolute;
+            right: 10px;
+            bottom: 5px; }
+            .center .nei .nei-3 .pinglun-1 .pinglun-zi .lou .a1 {
+              font-size: 14px;
+              color: #c5c5c5;
+              position: absolute;
+              right: 45px;
+              bottom: 40px; }
+            .center .nei .nei-3 .pinglun-1 .pinglun-zi .lou .a2 {
+              font-size: 14px;
+              color: #c5c5c5;
+              position: absolute;
+              right: 23px;
+              bottom: 17px; }
+            .center .nei .nei-3 .pinglun-1 .pinglun-zi .lou .xie {
+              width: 32px;
+              height: 32px;
+              background: url(../img/xie.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              right: 25px; }
+      .center .nei .nei-3 .liuyan {
+        width: 1000px;
+        height: 287px;
+        margin-top: 130px;
+        position: relative; }
+        .center .nei .nei-3 .liuyan .liuyan-1 {
+          width: 310px;
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between; }
+          .center .nei .nei-3 .liuyan .liuyan-1 h2 {
+            font-size: 26px;
+            color: #222D30; }
+            .center .nei .nei-3 .liuyan .liuyan-1 h2 strong {
+              color: #97785F; }
+          .center .nei .nei-3 .liuyan .liuyan-1 .dian {
+            width: 3px;
+            height: 3px;
+            background: url(../img/111.png) no-repeat;
+            background-size: cover; }
+        .center .nei .nei-3 .liuyan .jia {
+          width: 141px;
+          height: 141px;
+          background: url(../img/+.png) no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: 80px; }
+        .center .nei .nei-3 .liuyan .liuyan-kuang {
+          width: 987px;
+          height: 144px;
+          background: url(../img/998.png) no-repeat;
+          background-size: cover;
+          position: absolute;
+          right: 0;
+          top: 100px; }
+          .center .nei .nei-3 .liuyan .liuyan-kuang .liuyan-xian {
+            width: 788px;
+            height: 50px;
+            position: absolute;
+            bottom: 20px;
+            left: 160px; }
+            .center .nei .nei-3 .liuyan .liuyan-kuang .liuyan-xian .xian {
+              width: 788px;
+              height: 2px;
+              background: url(../img/788.png) no-repeat;
+              background-size: cover; }
+            .center .nei .nei-3 .liuyan .liuyan-kuang .liuyan-xian p {
+              font-size: 24px;
+              color: #dfdfdf; }
+        .center .nei .nei-3 .liuyan .liuyan-zi {
+          position: absolute;
+          bottom: 12px;
+          left: 15px; }
+          .center .nei .nei-3 .liuyan .liuyan-zi p {
+            font-size: 14px; }
+            .center .nei .nei-3 .liuyan .liuyan-zi p a {
+              color: #F9C96E; }
+        .center .nei .nei-3 .liuyan .tijiao {
+          width: 160px;
+          height: 35px;
+          background: #3d3d3d;
+          text-align: center;
+          line-height: 35px;
+          position: absolute;
+          right: 0;
+          bottom: 0px; }
+          .center .nei .nei-3 .liuyan .tijiao a {
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            color: #fff;
+            display: block;
+            font-weight: 600; }
+
+.app-center {
+  display: none; }
+
+footer {
+  height: 320px;
+  background: #000;
+  position: absolute;
+  bottom: 0; }
+  footer #bottom {
+    height: 100%;
+    position: relative; }
+    footer #bottom #botz {
+      height: 160px;
+      margin-top: 120px; }
+      footer #bottom #botz div {
+        width: 20%;
+        height: 160px;
+        float: left;
+        text-align: center; }
+        footer #bottom #botz div h1 {
+          font: 600 15px/20px "";
+          color: #fff;
+          margin: 10px 0 15px; }
+        footer #bottom #botz div p a {
+          color: #fff;
+          font: 200 12px/20px "";
+          text-decoration: none; }
+      footer #bottom #botz div:nth-child(2) img {
+        margin-bottom: 2px; }
+      footer #bottom #botz div:last-child img {
+        margin-bottom: 4px; }
+    footer #bottom #bott {
+      height: 100%;
+      position: relative; }
+      footer #bottom #bott div:first-child {
+        width: 230px;
+        height: 150px;
+        padding: 10px;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        z-index: 2;
+        background: #fff; }
+        footer #bottom #bott div:first-child form input {
+          margin-bottom: 5px; }
+        footer #bottom #bott div:first-child form #content {
+          height: 50px; }
+      footer #bottom #bott #map {
+        width: 360px;
+        height: 250px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-image: url("../img/47.png");
+        background-size: cover; }
+
+@media screen and (max-width: 850px) {
+  .banner {
+    width: 750px;
+    height: 887px;
+    background: url(../img/app.png) no-repeat;
+    background-size: cover;
+    position: relative; }
+    .banner .banner-tu {
+      width: 562px;
+      height: 203px;
+      position: absolute;
+      right: 30px;
+      bottom: 50%; }
+      .banner .banner-tu h1 {
+        font-size: 64px; }
+      .banner .banner-tu .han {
+        font-size: 20px;
+        color: #333; }
+      .banner .banner-tu .ying1 {
+        display: block;
+        font-size: 20px;
+        color: #fefefe; }
+      .banner .banner-tu .ying {
+        display: none; }
+      .banner .banner-tu .lefe {
+        background: url(../img/app-l.png) no-repeat; }
+      .banner .banner-tu .right {
+        background: url(../img/app-r.png) no-repeat; }
+    .banner .app-banner {
+      display: block;
+      width: 253px;
+      height: 46px;
+      border: 2px solid #dfdfdf;
+      text-align: center;
+      line-height: 46px;
+      position: absolute;
+      bottom: 207px;
+      left: 50%;
+      margin-left: -127px; }
+      .banner .app-banner a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: #fff;
+        font-size: 18px; }
+  .center {
+    display: none; }
+  .app-center {
+    display: block;
+    width: 100%;
+    height: 4350px; }
+    .app-center .app {
+      width: 700px;
+      height: 100%;
+      margin: 0 auto; }
+      .app-center .app .app-chao {
+        width: 100%;
+        height: 700px;
+        position: relative; }
+        .app-center .app .app-chao .TV {
+          width: 700px;
+          height: 455px;
+          background: url(../img/cy.png) no-repeat;
+          background-size: cover;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          bottom: 0; }
+          .app-center .app .app-chao .TV .bo {
+            width: 179px;
+            height: 179px;
+            background: url(../img/bo.png) no-repeat;
+            background-size: cover; }
+        .app-center .app .app-chao .ZI {
+          width: 700px;
+          height: 279px;
+          background: url(../img/591.png) no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: -30px;
+          overflow: hidden; }
+          .app-center .app .app-chao .ZI .ZI-zi {
+            width: 333px;
+            height: 240px;
+            float: right;
+            margin-right: 54px;
+            margin-top: 40px;
+            color: #fff;
+            text-align: right; }
+            .app-center .app .app-chao .ZI .ZI-zi .p1 {
+              font-size: 30px; }
+            .app-center .app .app-chao .ZI .ZI-zi .p2 {
+              padding-top: 5px;
+              font-size: 24px; }
+            .app-center .app .app-chao .ZI .ZI-zi .p3 {
+              font-size: 24px; }
+            .app-center .app .app-chao .ZI .ZI-zi .p4 {
+              padding-top: 10px;
+              font-size: 16px; }
+            .app-center .app .app-chao .ZI .ZI-zi .p5 {
+              font-size: 16px; }
+            .app-center .app .app-chao .ZI .ZI-zi .p6 {
+              display: none; }
+            .app-center .app .app-chao .ZI .ZI-zi .xian {
+              width: 35px;
+              height: 3px;
+              background: url(../img/98.png) no-repeat;
+              background-size: cover;
+              display: block;
+              float: right; }
+          .app-center .app .app-chao .ZI .ZI-1 {
+            width: 796px;
+            height: 821px;
+            background: url(../img/5911.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: -330px; }
+      .app-center .app .app-cen {
+        width: 100%; }
+        .app-center .app .app-cen .center-row {
+          width: 100%;
+          padding-top: 105px;
+          position: relative;
+          text-align: center; }
+          .app-center .app .app-cen .center-row .center-border {
+            width: 253px;
+            height: 47px;
+            background: url(../img/border.png) no-repeat;
+            display: block;
+            position: relative;
+            margin: 0 auto; }
+            .app-center .app .app-cen .center-row .center-border span {
+              color: black;
+              font-size: 24px;
+              position: absolute;
+              top: 16px;
+              right: 50%;
+              margin-right: -63px; }
+            .app-center .app .app-cen .center-row .center-border .yuan {
+              width: 22px;
+              height: 22px;
+              background: url(../img/yuan.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              top: 22px;
+              left: 115px; }
+          .app-center .app .app-cen .center-row .left-top {
+            width: 30px;
+            height: 30px;
+            background: url(../img/left-top.png) no-repeat;
+            position: absolute;
+            left: 215px;
+            top: 95px; }
+          .app-center .app .app-cen .center-row .right-bottom {
+            width: 30px;
+            height: 30px;
+            background: url(../img/right-bottom.png) no-repeat;
+            position: absolute;
+            right: -8px;
+            bottom: -8px; }
+          .app-center .app .app-cen .center-row h2 {
+            font-size: 36px;
+            color: #000;
+            padding-top: 10px; }
+          .app-center .app .app-cen .center-row h6 {
+            font-size: 16px;
+            color: #cecece;
+            font-weight: 500; }
+            .app-center .app .app-cen .center-row h6 strong {
+              color: #959595; }
+        .app-center .app .app-cen .center-bao {
+          width: 100%;
+          height: 160px;
+          padding-top: 16px;
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around; }
+          .app-center .app .app-cen .center-bao .xian {
+            width: 46px;
+            height: 3px;
+            background: url(../img/xian.png) no-repeat;
+            background-size: cover; }
+          .app-center .app .app-cen .center-bao p {
+            font-size: 12px;
+            color: #c1c1c1; }
+          .app-center .app .app-cen .center-bao em {
+            font-weight: 600;
+            font-size: 15px; }
+          .app-center .app .app-cen .center-bao .jing {
+            width: 320px;
+            font-size: 12px;
+            color: #eee;
+            display: flex;
+            justify-content: space-between; }
+          .app-center .app .app-cen .center-bao .xian1 {
+            width: 100%;
+            height: 3px;
+            background: url(../img/xian1.png) no-repeat;
+            background-size: cover; }
+        .app-center .app .app-cen .center-tu {
+          width: 100%;
+          height: 510px;
+          background: url(../img/700.png) no-repeat;
+          background-size: cover;
+          margin-top: 40px; }
+        .app-center .app .app-cen .center-shi {
+          width: 100%;
+          height: 510px;
+          background: url(../img/shi.png) no-repeat;
+          background-size: cover;
+          margin-top: 40px; }
+        .app-center .app .app-cen .bei-zi {
+          width: 630px;
+          height: 453px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin: 0 auto; }
+          .app-center .app .app-cen .bei-zi h2 {
+            font-size: 36px;
+            color: #000;
+            font-weight: 500; }
+          .app-center .app .app-cen .bei-zi h3 {
+            font-size: 34px;
+            color: #F9C767;
+            font-weight: 500; }
+            .app-center .app .app-cen .bei-zi h3 strong {
+              color: #97785f; }
+          .app-center .app .app-cen .bei-zi .p1 {
+            font-size: 24px;
+            color: #333;
+            margin-top: -25px; }
+          .app-center .app .app-cen .bei-zi .p2 {
+            font-size: 20px;
+            color: #7d7d7d; }
+          .app-center .app .app-cen .bei-zi .p3 {
+            font-size: 18px;
+            color: #d4d4d4; }
+          .app-center .app .app-cen .bei-zi .xian {
+            width: 116px;
+            height: 2px;
+            background: url(../img/bei-xian.png) no-repeat;
+            background-size: cover;
+            margin-top: -20px; }
+        .app-center .app .app-cen .center-mi {
+          width: 700px;
+          height: 300px;
+          margin-top: 50px;
+          position: relative; }
+          .app-center .app .app-cen .center-mi .mi-tu {
+            width: 354px;
+            height: 300px;
+            background: url(../img/354.png) no-repeat;
+            background-size: cover;
+            position: absolute; }
+          .app-center .app .app-cen .center-mi .mi-zi {
+            width: 290px;
+            position: absolute;
+            bottom: 25px;
+            right: 20px; }
+            .app-center .app .app-cen .center-mi .mi-zi p {
+              font-size: 20px;
+              color: #c1c1c1; }
+          .app-center .app .app-cen .center-mi .right-center {
+            width: 408px;
+            height: 205px;
+            background: url(../img/hui.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 0; }
+            .app-center .app .app-cen .center-mi .right-center .zi {
+              width: 210px;
+              margin: 50px auto;
+              text-align: left; }
+              .app-center .app .app-cen .center-mi .right-center .zi .p1 {
+                font-size: 16px;
+                color: #97785F;
+                padding-bottom: 15px; }
+              .app-center .app .app-cen .center-mi .right-center .zi .p2 {
+                font-size: 14px;
+                color: #333; }
+        .app-center .app .app-cen .all {
+          width: 320px;
+          height: 300px;
+          display: flex;
+          position: relative;
+          margin-top: 60px;
+          margin-left: 30px; }
+          .app-center .app .app-cen .all .all-shu {
+            width: 3px;
+            height: 212px;
+            background: url(../img/shu.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 5px; }
+            .app-center .app .app-cen .all .all-shu .fang {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu1.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px; }
+            .app-center .app .app-cen .all .all-shu .fang-1 {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu2.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px;
+              top: 68px; }
+            .app-center .app .app-cen .all .all-shu .fang-2 {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu2.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px;
+              top: 129px; }
+            .app-center .app .app-cen .all .all-shu .fang-3 {
+              width: 18px;
+              height: 18px;
+              background: url(../img/shu2.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: -8px;
+              top: 195px; }
+          .app-center .app .app-cen .all .all-zi {
+            width: 310px;
+            height: 212px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            padding-left: 40px; }
+            .app-center .app .app-cen .all .all-zi p {
+              color: #F9C45E;
+              font-size: 20px; }
+            .app-center .app .app-cen .all .all-zi .p1 {
+              font-size: 16px;
+              color: #666; }
+  footer {
+    height: 490px;
+    bottom: 0; }
+    footer #bottom #botz {
+      margin-top: 280px; }
+    footer #bottom #bott {
+      position: absolute;
+      top: -100px; }
+      footer #bottom #bott div:first-child {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        margin-left: -115px; }
+      footer #bottom #bott #map {
+        width: 100%; } }

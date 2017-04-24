@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>景悦-旅行中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/7.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/a.css">
+    <link rel="stylesheet" href="../css/jPages.css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jPages.js"></script>
+    <script src="../js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="../js/H-main-1.js"></script>
+</head>
+<script>
+    $(function() {
+        $("ul li img").lazyload({
+            event: "turnPage",
+            effect: "fadeIn"
+        });
+        $("div.holder").jPages({
+            containerID: "itemContainer",
+            animation: "fadeInUp",
+            perPage: 6,
+            callback: function (pages, items) {
+                items.showing.find("img").trigger("turnPage");
+                items.oncoming.find("img").trigger("turnPage");
+            }
+        });
+    });
+</script>
+<body>
+
+<!--小屏-->
+<div class="container-fluid hidden-lg">
+    <div class="container hidden-lg">
+        <div class="row">
+            <div class="H-header clo-xs-12">
+                <div class="H-logo">
+                    <img src="../img/min-logo.png"/>
+                </div>
+                <span class="H-text">景悦JINGYUE</span>
+                <div class="H-head-icon-list hidden-lg">
+                    <img src="../img/list.png"/>
+                    <div class="H-list-box">
+                        <a href="H-main.html" class="H-active">旅游首页</a>
+                        <a href="7-zcy.html">旅游中心</a>
+                        <a href="travel.html">专属定制</a>
+                        <a href="L-strategy1">达人攻略</a>
+                        <a href="J-about.html">关于团队</a>
+                        <a href="J-contact.html">联系我们</a>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--大屏-->
+<div class="contaniner-fluid H-big-header hidden-xs hidden-md hidden-sm">
+    <div class="container">
+        <div class="row" style="height: 72px;">
+            <div class="col-lg-3">
+                <div class="H-big-logo">
+                    <img src="../img/max-logo.png"/>
+                    <p>景悦 <span>JINGYUE</span></p>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <div class="H-adorn">
+                </div>
+            </div>
+            <div class="col-lg-7 H-header-list">
+                <a href="H-main.html" class="col-lg-2 H-active-1">首页</a>
+                <a href="7-zcy.html" class="col-lg-2">旅行中心</a>
+                <a href="travel.html" class="col-lg-2">专属定制</a>
+                <a href="L-strategy1" class="col-lg-2">达人攻略</a>
+                <a href="J-about.html" class="col-lg-2">关于团队</a>
+                <a href="J-contact.html" class="col-lg-2">联系我们</a>
+            </div>
+            <div class="col-lg-1 H-search">
+                <span class="glyphicon glyphicon-search"></span>
+                <div class="H-inputbox">
+                    <input type="text" placeholder="搜索" name="" id="" value="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="vip1"></div>
+    <div id="vip2"></div>
+    <div id="vip3">
+        <p>那碧绿的海面，像丝绸一样柔和，微荡着涟漪。从高处看，烟波浩渺，一望无际；而有时，海水就在你的脚边，轻轻絮语。</p>
+        <p>The green sea,it is as soft as silk,with ripple Yi micro oscillation.Look,from a height,wide vast;Sometimes,the water is at your feet,gently whispers.</p>
+    </div>
+    <div id="vip4">
+        100%纯天然开发区
+    </div>
+    <div id="vip5">
+        <p>IN THE LAKE</p>
+        <p>在高山旁享受广阔天地</p>
+        <p>旅行是为了离开，旅行是对庸常生活的一次越狱</p>
+        <span>999人浏览</span>
+        <span>2016-10-21</span>
+        <div>
+            <h1>MO<br>RE+</h1>
+        </div>
+    </div>
+    <div class="top"></div>
+
+    <div class="banner">
+        <p><em>WEDDING</em></p>
+        <img src="../img/18.png" alt="" class="col-lg-6 col-lg-offset-3 col-xs-6 col-xs-offset-3">
+        <p class="col-lg-4 col-lg-offset-4 col-xs-4 col-xs-offset-4">The green sea,it is as soft as silk,with ripple Yi micro oscillation.Look,from a height,wide vast Sometimes,the water is at your feet,gently whispers.</p>
+        <p><a href="8-zcy.html">TRAVEL THE WORLD</a></p>
+    </div>
+
+    <main class="container-fluid col-lg-10 col-lg-offset-1 col-xs-12">
+        <div class="row">
+            <img id="img1" class="col-lg-offset-4 col-lg-4 col-xs-6 col-xs-offset-3" src="../img/20.png" alt="">
+        </div>
+
+        <div id="vip1-1" class="col-xs-12"></div>
+        <div id="vip3-3" class="col-xs-12">
+            <p>那碧绿的海面，像丝绸一样柔和，微荡着涟漪。从高处看，烟波浩渺，一望无际；而有时，海水就在你的脚边，轻轻絮语。</p>
+            <p>The green sea,it is as soft as silk,with ripple Yi micro oscillation.Look,from a height,wide vast;Sometimes,the water is at your feet,gently whispers.</p>
+        </div>
+        <div id="more" class="col-xs-12">
+            <div>MORE +</div>
+            <div class="afterbef"><img src="../img/48.png" alt="" style="width: 160px"></div>
+        </div>
+
+        <div class="row">
+            <img id="img2" class="col-lg-4" src="../img/21.png" alt="">
+        </div>
+
+        <div class="row" id="row3">
+            <img class="col-lg-offset-4 col-lg-4 col-xs-6 col-xs-offset-3" src="../img/20.png" alt="">
+        </div>
+
+        <div id="row4" class="row col-lg-offset-1 col-lg-10 col-xs-12" style="padding: 0">
+            <div></div>
+            <img src="../img/25.png" alt="">
+            <img src="../img/24.png" alt="">
+            <img src="../img/26.png" alt="">
+        </div>
+
+        <div class="line col-lg-offset-1 col-lg-10 col-xs-12"></div>
+
+        <div class="row col-lg-offset-1 col-lg-10 col-xs-12" id="row5" style="padding: 0px">
+            <img src="../img/27.png" alt="">
+            <img src="../img/28.png" alt="">
+        </div>
+
+        <div id="row6" class="row col-lg-offset-1 col-lg-10 col-xs-12" style="padding: 0">
+            <div></div>
+            <div id="six66">
+                <h1>MO<br>RE+</h1>
+            </div>
+
+            <div id="six">
+                <img src="../img/33.png" alt="">
+                <p>在高山旁享受广阔天地</p>
+                <p>旅行是为了离开，旅行是对庸常生活的一次越狱</p>
+                <span>999人浏览</span>
+                <span>2016-10-21</span>
+            </div>
+
+            <div id="vip6-5" class="col-md-offset-0 col-xs-8 col-xs-offset-2">
+                <p>IN THE LAKE</p>
+                <p>在高山旁享受广阔天地</p>
+                <p>旅行是为了离开，旅行是对庸常生活的一次越狱</p>
+                <span>999人浏览</span>
+                <span>2016-10-21</span>
+                <div>
+                    <h1>MO<br>RE+</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="row7" class="row col-lg-offset-1 col-lg-10 col-xs-12">
+            <div id="img777"></div>
+            <div id="vip5-5" class="col-md-offset-0 col-xs-8 col-xs-offset-2">
+                <p>IN THE LAKE</p>
+                <p>在高山旁享受广阔天地</p>
+                <p>旅行是为了离开，旅行是对庸常生活的一次越狱</p>
+                <span>999人浏览</span>
+                <span>2016-10-21</span>
+                <div>
+                    <h1>MO<br>RE+</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="row8" class="row col-lg-11 col-xs-12">
+            <div></div>
+            <div class="col-md-offset-0 col-xs-8 col-xs-offset-2">
+                <img src="../img/34.png" alt="">
+                <p>在森林中体会人与自然的美好</p>
+                <p>要么读书、要么旅行</p>
+                <span>999人浏览</span>
+                <span>2016-10-21</span>
+                <div>
+                    <h1>MO<br>RE+</h1>
+                </div>
+            </div>
+            <div id="none"></div>
+        </div>
+
+        <div id="row9" class="row col-lg-12 col-xs-12">
+            <img class="col-lg-offset-4 col-lg-4 col-xs-6 col-xs-offset-3" src="../img/35.png" alt="" >
+        </div>
+
+        <div class="row col-lg-offset-1 col-lg-10 col-xs-12" id="row10" style="padding: 0">
+            <div></div>
+            <img src="../img/25.png" alt="">
+            <img src="../img/36.png" alt="">
+            <img src="../img/26.png" alt="">
+        </div>
+
+        <div class="line col-lg-offset-1 col-lg-10 col-xs-12"></div>
+        <div class="row col-lg-12 col-xs-12" id="row11">
+            <img src="../img/37.png" alt="">
+        </div>
+
+        <section id="content" class="defaults row col-lg-10 col-lg-offset-1 col-xs-12">
+            <ul id="itemContainer">
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+                <li class="col-lg-4 col-xs-6">
+                    <div></div>
+                    <span class="del1">享受海边天地</span>
+                    <span class="del1">THE HOT</span>
+                    <p class="del2">THE HOT</p>
+                    <p class="del2">享受海边天地</p>
+                    <span>旅行要学会随遇而安，淡然…</span>
+                    <span>999人浏览</span>
+                    <span>2016-9-22</span>
+                    <img src="../img/38.png" alt="">
+                    <img src="../img/39.gif" alt="">
+                    <img src="../img/40.gif" alt="">
+                    <img src="../img/19.png" alt="">
+                    <img src="../img/41.gif" alt="">
+                </li>
+            </ul>
+            <div class="holder col-lg-5"></div>
+        </section>
+
+
+        <div class="row col-lg-12 col-xs-12" id="row12">
+            <p>LIFE ISN'T JUST IN FRONT OF THE SCENERY</p>
+            <p>生活不只是眼前的风景</p>
+            <p>……</p>
+        </div>
+        <div id="more2" class="col-xs-12">
+            <div>MORE +</div>
+            <div class="afterbef"><img src="../img/48.png" alt="" style="width: 160px"></div>
+        </div>
+
+
+    </main>
+
+    <footer class="col-lg-12 col-xs-12" style="padding: 0">
+        <div id="vip6"></div>
+        <div id="bottom" class="foot col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1" style="padding: 0">
+            <div id="botz" class="col-lg-6 col-xs-12" style="padding: 0">
+                <div>
+                    <img src="../img/42.png" alt="">
+                    <h1>出游管家</h1>
+                    <p><a href="">不用您懂旅游</a></p>
+                    <p><a href="">不用怕组织累</a></p>
+                    <p><a href="">我们帮您搞定</a></p>
+                </div>
+                <div>
+                    <img src="../img/43.png" alt="">
+                    <h1>阳光采购</h1>
+                    <p><a href="">阳光行程</a></p>
+                    <p><a href="">阳光价格</a></p>
+                    <p><a href="">阳光服务</a></p>
+                </div>
+                <div>
+                    <img src="../img/44.png" alt="">
+                    <h1>一站服务</h1>
+                    <p><a href="">企业旅游</a></p>
+                    <p><a href="">商旅会务</a></p>
+                    <p><a href="">联合营销</a></p>
+                </div>
+                <div>
+                    <img src="../img/45.png" alt="">
+                    <h1>品类齐全</h1>
+                    <p><a href="">165万条路线</a></p>
+                    <p><a href="">旅游标准品类</a></p>
+                    <p><a href="">企业定制产品</a></p>
+                </div>
+                <div>
+                    <img src="../img/46.png" alt="">
+                    <h1>系统完善</h1>
+                    <p><a href="">适应各类型企业</a></p>
+                    <p><a href="">与企业完美对接</a></p>
+                    <p><a href="">多样化系统方案</a></p>
+                </div>
+            </div>
+            <div id="bott" class="col-lg-6 col-xs-12" style="padding: 0">
+                <div>
+                    <form>
+                        <input type="text" class="form-control" id="name" placeholder="NAME">
+                        <input type="text" class="form-control" id="Tel" placeholder="TEL">
+                        <input type="text" class="form-control" id="content1" placeholder="CONTENT">
+                    </form>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

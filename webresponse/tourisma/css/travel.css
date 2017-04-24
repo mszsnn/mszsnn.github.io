@@ -1,0 +1,1317 @@
+@charset "UTF-8";
+@import url(base.css);
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+a:hover {
+  text-decoration: none; }
+
+.H-header {
+  height: 88px;
+  width: 750px; }
+
+.H-logo {
+  float: left;
+  margin-top: 32px;
+  margin-left: 13px; }
+
+.H-text {
+  font-size: 24px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: "苹方"; }
+
+.H-head-icon-list {
+  float: right;
+  width: 60px;
+  height: auto;
+  position: relative;
+  margin-top: 32px; }
+  .H-head-icon-list img {
+    cursor: pointer; }
+
+.H-list-box {
+  width: 684px;
+  height: 162px;
+  background: #FFFFFF;
+  position: absolute;
+  left: -636px;
+  top: 50px;
+  font-family: "苹方";
+  color: #a2a2a2;
+  font-size: 30px;
+  text-align: center;
+  line-height: 77px;
+  background-image: url(../img/H-img/list-border.png);
+  border: 1px solid #535353;
+  background-size: 684px;
+  display: none; }
+  .H-list-box a {
+    display: block;
+    color: #A2A2A2;
+    width: 226px;
+    height: 77px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px; }
+  .H-list-box .H-active {
+    color: #000; }
+
+.H-banner-box {
+  height: 803px;
+  background-image: url(../img/H-img/H-min-banner.png);
+  background-size: auto 803px;
+  background-position: -99px;
+  background-repeat: no-repeat; }
+  .H-banner-box .tin-2 {
+    display: block;
+    margin-top: 270px;
+    margin-bottom: 90px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #FFFFFF; }
+  .H-banner-box p {
+    font-size: 72px;
+    text-align: center;
+    line-height: 72px;
+    color: #FFFFFF; }
+    .H-banner-box p span {
+      color: #f9c45e;
+      font-size: 72px;
+      display: inline-block; }
+  .H-banner-box b {
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'helvetica';
+    margin-top: 60px; }
+    .H-banner-box b span {
+      color: #f9c45e; }
+  .H-banner-box .china {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "苹方";
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px; }
+    .H-banner-box .china span {
+      color: #f9c45e; }
+
+.H-big-header {
+  background-color: #020203;
+  height: 72px; }
+
+.H-big-logo img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px; }
+
+.H-big-logo p {
+  margin-top: 18px;
+  margin-left: 16px;
+  float: left;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: "微软雅黑"; }
+  .H-big-logo p span {
+    display: inline-block;
+    font-size: 20px;
+    font-family: helvetica; }
+
+.H-adorn {
+  background-image: url(../img/H-img/H-head-adorn.png);
+  width: 69px;
+  height: 100px;
+  background-size: 69px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+
+.H-header-list {
+  margin-top: 32px;
+  font-size: 18px; }
+  .H-header-list a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .H-header-list a:hover {
+    text-decoration: none;
+    color: #f9c45e; }
+  .H-header-list .H-active-1 {
+    color: #f9c45e; }
+
+.H-search {
+  position: relative; }
+  .H-search .H-inputbox {
+    padding: 4px 0px 4px 26px;
+    height: 26px;
+    border-radius: 13px;
+    width: 108px;
+    margin-top: 31px;
+    background-color: #FFFFFF; }
+  .H-search input {
+    width: 90%;
+    height: 100%;
+    border: none; }
+  .H-search span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 37px;
+    left: 24px; }
+
+.banner {
+  width: 100%;
+  height: 1137px;
+  background: url(../img/banner.png) no-repeat center;
+  background-size: cover; }
+  .banner .character {
+    width: 100%;
+    padding-top: 300px;
+    text-align: center; }
+    .banner .character span {
+      font-size: 16px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #e6eaea; }
+      .banner .character span a {
+        color: #c0c0c0; }
+    .banner .character h1 {
+      font-size: 150px;
+      color: #fff; }
+      .banner .character h1 strong {
+        color: #f9c45e; }
+    .banner .character .zi {
+      width: 600px;
+      clear: both;
+      font-size: 14px;
+      margin: 0 auto;
+      color: #9b9b9b; }
+    .banner .character .app-zi {
+      display: none; }
+    .banner .character .box {
+      width: 257px;
+      height: 44px;
+      border: 2px solid #D3D6D7;
+      text-align: center;
+      line-height: 44px;
+      margin: 20px auto; }
+      .banner .character .box a {
+        font-size: 16px;
+        color: #c0c0c0; }
+
+.base {
+  width: 100%;
+  height: 3787px;
+  position: relative; }
+  .base .app-row {
+    display: none; }
+  .base .center {
+    width: 1100px;
+    height: 4140px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px #b4b4b4;
+    position: absolute;
+    top: -325px;
+    left: 50%;
+    margin-left: -550px; }
+    .base .center .center-top {
+      width: 100%;
+      height: 1100px;
+      background: #ffffff;
+      text-align: center;
+      position: relative; }
+      .base .center .center-top .center-row {
+        width: 100%;
+        padding-top: 80px;
+        position: relative; }
+        .base .center .center-top .center-row .center-border {
+          width: 253px;
+          height: 47px;
+          background: url(../img/border.png) no-repeat;
+          display: block;
+          position: relative;
+          margin: 0 auto; }
+          .base .center .center-top .center-row .center-border span {
+            color: black;
+            font-size: 24px;
+            position: absolute;
+            top: 16px;
+            right: 50%;
+            margin-right: -63px; }
+          .base .center .center-top .center-row .center-border .yuan {
+            width: 22px;
+            height: 22px;
+            background: url(../img/yuan.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 22px;
+            left: 115px; }
+        .base .center .center-top .center-row .left-top {
+          width: 30px;
+          height: 30px;
+          background: url(../img/left-top.png) no-repeat;
+          position: absolute;
+          left: 416px;
+          top: 71px; }
+        .base .center .center-top .center-row .right-bottom {
+          width: 30px;
+          height: 30px;
+          background: url(../img/right-bottom.png) no-repeat;
+          position: absolute;
+          right: -8px;
+          bottom: -8px; }
+        .base .center .center-top .center-row h2 {
+          font-size: 36px;
+          color: #000;
+          padding-top: 10px; }
+        .base .center .center-top .center-row h6 {
+          font-size: 16px;
+          color: #cecece;
+          font-weight: 500; }
+          .base .center .center-top .center-row h6 strong {
+            color: #959595; }
+      .base .center .center-top .left-row {
+        width: 520px;
+        text-align: left;
+        padding-left: 100px;
+        padding-top: 70px; }
+        .base .center .center-top .left-row h2 {
+          font-size: 53px;
+          color: #060606;
+          font-weight: 500; }
+          .base .center .center-top .left-row h2 strong {
+            color: #000; }
+        .base .center .center-top .left-row p {
+          font-size: 14px;
+          color: #b4b4b4;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+        .base .center .center-top .left-row .left-zi {
+          height: 50px; }
+        .base .center .center-top .left-row a {
+          font-size: 16px;
+          color: #000;
+          font-weight: 600;
+          display: block;
+          float: left; }
+        .base .center .center-top .left-row .jt {
+          width: 28px;
+          height: 26px;
+          background: url(../img/jt.png) no-repeat;
+          background-size: cover;
+          display: block;
+          float: right; }
+      .base .center .center-top .top-img-1 {
+        width: 596px;
+        height: 336px;
+        background: url(../img/tu1.png) no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: -30px;
+        top: 300px; }
+      .base .center .center-top .img-zi {
+        width: 66px;
+        height: 90px;
+        position: absolute;
+        right: -100px; }
+        .base .center .center-top .img-zi p {
+          font-size: 16px; }
+      .base .center .center-top .top-img-2 {
+        width: 650px;
+        height: 420px;
+        background: url(../img/tu2.png) no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: -116px; }
+      .base .center .center-top .top-img-3 {
+        width: 690px;
+        height: 369px;
+        background: url(../img/kuang.png) no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        right: -111px;
+        top: 627px; }
+        .base .center .center-top .top-img-3 .img-zi-1 {
+          width: 650px;
+          font-size: 17px;
+          padding-top: 80px;
+          text-align: left;
+          margin: 0 auto; }
+          .base .center .center-top .top-img-3 .img-zi-1 p {
+            padding-top: 10px; }
+        .base .center .center-top .top-img-3 .img-100 {
+          width: 450px;
+          height: 130px;
+          background: url(../img/100.png) no-repeat;
+          background-size: cover;
+          position: absolute;
+          bottom: -30px;
+          left: 130px; }
+    .base .center .center-center {
+      width: 100%;
+      height: 1380px;
+      text-align: center; }
+      .base .center .center-center .center-row {
+        width: 100%;
+        padding-top: 80px;
+        position: relative; }
+        .base .center .center-center .center-row .center-border {
+          width: 253px;
+          height: 47px;
+          background: url(../img/border.png) no-repeat;
+          display: block;
+          position: relative;
+          margin: 0 auto; }
+          .base .center .center-center .center-row .center-border span {
+            color: black;
+            font-size: 24px;
+            position: absolute;
+            top: 16px;
+            right: 50%;
+            margin-right: -63px; }
+          .base .center .center-center .center-row .center-border .yuan {
+            width: 22px;
+            height: 22px;
+            background: url(../img/yuan.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 22px;
+            left: 115px; }
+        .base .center .center-center .center-row .left-top {
+          width: 30px;
+          height: 30px;
+          background: url(../img/left-top.png) no-repeat;
+          position: absolute;
+          left: 416px;
+          top: 71px; }
+        .base .center .center-center .center-row .right-bottom {
+          width: 30px;
+          height: 30px;
+          background: url(../img/right-bottom.png) no-repeat;
+          position: absolute;
+          right: -8px;
+          bottom: -8px; }
+        .base .center .center-center .center-row h2 {
+          font-size: 36px;
+          color: #000;
+          padding-top: 10px; }
+        .base .center .center-center .center-row h6 {
+          font-size: 16px;
+          color: #cecece;
+          font-weight: 500; }
+          .base .center .center-center .center-row h6 strong {
+            color: #959595; }
+      .base .center .center-center .center-bao {
+        width: 1000px;
+        height: 160px;
+        padding-left: 100px;
+        padding-top: 16px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .base .center .center-center .center-bao .xian {
+          width: 46px;
+          height: 3px;
+          background: url(../img/xian.png) no-repeat;
+          background-size: cover; }
+        .base .center .center-center .center-bao p {
+          font-size: 12px;
+          color: #c1c1c1; }
+        .base .center .center-center .center-bao em {
+          font-weight: 600;
+          font-size: 15px; }
+        .base .center .center-center .center-bao .jing {
+          width: 320px;
+          font-size: 12px;
+          color: #eee;
+          display: flex;
+          justify-content: space-between; }
+        .base .center .center-center .center-bao .xian1 {
+          width: 810px;
+          height: 3px;
+          background: url(../img/xian1.png) no-repeat;
+          background-size: cover; }
+      .base .center .center-center .center-mi {
+        width: 1000px;
+        height: 218px;
+        padding-left: 100px;
+        text-align: left; }
+        .base .center .center-center .center-mi h2 {
+          font-size: 30px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-weight: 500; }
+        .base .center .center-center .center-mi h3 {
+          font-size: 24px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-weight: 500;
+          color: #97785f; }
+      .base .center .center-center .center-san {
+        width: 1000px;
+        height: 630px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .base .center .center-center .center-san .san {
+          width: 100%;
+          height: 170px;
+          display: flex;
+          align-items: center; }
+          .base .center .center-center .center-san .san .san-1 {
+            width: 140px;
+            height: 91px;
+            background: url(../img/won.png) no-repeat;
+            background-size: cover;
+            position: relative; }
+            .base .center .center-center .center-san .san .san-1 .san-1-1 {
+              width: 50px;
+              height: 53px;
+              background: url(../img/won1.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: 40px;
+              top: 22px; }
+          .base .center .center-center .center-san .san .san-2 {
+            width: 302px;
+            height: 175px;
+            background: url(../img/shui.png) no-repeat;
+            background-size: cover; }
+          .base .center .center-center .center-san .san .san-3 {
+            width: 579px;
+            height: 127px;
+            background: url(../img/san-3.png) no-repeat;
+            background-size: cover;
+            position: relative; }
+            .base .center .center-center .center-san .san .san-3 .san-3-zi {
+              width: 100%;
+              padding-left: 50px;
+              padding-top: 20px;
+              text-align: left; }
+              .base .center .center-center .center-san .san .san-3 .san-3-zi .p1 {
+                font-size: 18px;
+                font-weight: 600; }
+              .base .center .center-center .center-san .san .san-3 .san-3-zi .p2 {
+                font-size: 16px; }
+              .base .center .center-center .center-san .san .san-3 .san-3-zi .shu {
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 20px; }
+                .base .center .center-center .center-san .san .san-3 .san-3-zi .shu .san-3-yuan {
+                  display: flex;
+                  width: 95px;
+                  justify-content: space-around;
+                  align-items: center; }
+                  .base .center .center-center .center-san .san .san-3 .san-3-zi .shu .san-3-yuan .yuan {
+                    width: 12px;
+                    height: 12px;
+                    background: #ccc;
+                    border-radius: 50%; }
+                  .base .center .center-center .center-san .san .san-3 .san-3-zi .shu .san-3-yuan .zi {
+                    font-size: 12px; }
+            .base .center .center-center .center-san .san .san-3 .san-3-tu {
+              width: 8px;
+              height: 8px;
+              background: url(../img/right-di.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              right: 0;
+              bottom: 0; }
+        .base .center .center-center .center-san .san-er {
+          margin-left: -60px; }
+          .base .center .center-center .center-san .san-er .san-1 {
+            width: 140px;
+            height: 91px;
+            background: url(../img/er.png) no-repeat;
+            background-size: cover;
+            position: relative; }
+          .base .center .center-center .center-san .san-er .san-3 .san-3-tu {
+            width: 47px;
+            height: 28px;
+            background: url(../img/tou.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: 50%;
+            margin-bottom: -14px;
+            right: 25px;
+            display: block; }
+        .base .center .center-center .center-san .san-san .san-1 {
+          width: 140px;
+          height: 91px;
+          background: url(../img/san.png) no-repeat;
+          background-size: cover;
+          position: relative; }
+      .base .center .center-center .center-fen {
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 44px auto; }
+        .base .center .center-center .center-fen .fen-left-1 {
+          display: block;
+          width: 27px;
+          height: 25px;
+          background: url(../img/fen-left.png) no-repeat;
+          background-size: cover; }
+        .base .center .center-center .center-fen .fen-center {
+          width: 160px;
+          height: 30px;
+          display: flex;
+          justify-content: space-around; }
+          .base .center .center-center .center-fen .fen-center > div {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .base .center .center-center .center-fen .fen-center > div a {
+              color: #fff; }
+          .base .center .center-center .center-fen .fen-center .yanse {
+            background: #ca966e; }
+        .base .center .center-center .center-fen .fen-right-1 {
+          display: block;
+          width: 27px;
+          height: 25px;
+          background: url(../img/fen-right.png) no-repeat;
+          background-size: cover; }
+    .base .center .center-bottom {
+      width: 100%;
+      height: 1660px;
+      text-align: center; }
+      .base .center .center-bottom .center-row {
+        width: 100%;
+        padding-top: 80px;
+        position: relative; }
+        .base .center .center-bottom .center-row .center-border {
+          width: 253px;
+          height: 47px;
+          background: url(../img/border.png) no-repeat;
+          display: block;
+          position: relative;
+          margin: 0 auto; }
+          .base .center .center-bottom .center-row .center-border span {
+            color: black;
+            font-size: 24px;
+            position: absolute;
+            top: 16px;
+            right: 50%;
+            margin-right: -63px; }
+          .base .center .center-bottom .center-row .center-border .yuan {
+            width: 22px;
+            height: 22px;
+            background: url(../img/yuan.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 22px;
+            left: 115px; }
+        .base .center .center-bottom .center-row .left-top {
+          width: 30px;
+          height: 30px;
+          background: url(../img/left-top.png) no-repeat;
+          position: absolute;
+          left: 416px;
+          top: 71px; }
+        .base .center .center-bottom .center-row .right-bottom {
+          width: 30px;
+          height: 30px;
+          background: url(../img/right-bottom.png) no-repeat;
+          position: absolute;
+          right: -8px;
+          bottom: -8px; }
+        .base .center .center-bottom .center-row h2 {
+          font-size: 36px;
+          color: #000;
+          padding-top: 10px; }
+        .base .center .center-bottom .center-row h6 {
+          font-size: 16px;
+          color: #cecece;
+          font-weight: 500; }
+          .base .center .center-bottom .center-row h6 strong {
+            color: #959595; }
+      .base .center .center-bottom .center-bao {
+        width: 1000px;
+        height: 160px;
+        padding-left: 100px;
+        padding-top: 16px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .base .center .center-bottom .center-bao .xian {
+          width: 46px;
+          height: 3px;
+          background: url(../img/xian.png) no-repeat;
+          background-size: cover; }
+        .base .center .center-bottom .center-bao p {
+          font-size: 12px;
+          color: #c1c1c1; }
+        .base .center .center-bottom .center-bao em {
+          font-weight: 600;
+          font-size: 15px; }
+        .base .center .center-bottom .center-bao .jing {
+          width: 320px;
+          font-size: 12px;
+          color: #eee;
+          display: flex;
+          justify-content: space-between; }
+        .base .center .center-bottom .center-bao .xian1 {
+          width: 810px;
+          height: 3px;
+          background: url(../img/xian1.png) no-repeat;
+          background-size: cover; }
+      .base .center .center-bottom .center-mi {
+        width: 1000px;
+        height: 188px;
+        padding-left: 100px;
+        text-align: left; }
+        .base .center .center-bottom .center-mi h2 {
+          font-size: 30px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-weight: 500; }
+        .base .center .center-bottom .center-mi h3 {
+          font-size: 24px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-weight: 500;
+          color: #97785f; }
+      .base .center .center-bottom .center-tu {
+        width: 1000px;
+        height: 800px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .base .center .center-bottom .center-tu .xue {
+          height: 238px;
+          display: flex;
+          justify-content: space-between; }
+          .base .center .center-bottom .center-tu .xue .xue-tu {
+            width: 500px;
+            height: 238px;
+            background: url(../img/xue.png) no-repeat;
+            background-size: cover; }
+          .base .center .center-bottom .center-tu .xue .xue-zi {
+            width: 350px;
+            height: 238px;
+            text-align: left;
+            margin-top: 25px; }
+            .base .center .center-bottom .center-tu .xue .xue-zi .zi-1 {
+              width: 110px;
+              height: 30px;
+              border-bottom: 1px solid #eee; }
+              .base .center .center-bottom .center-tu .xue .xue-zi .zi-1 span {
+                font-size: 20px;
+                color: #d4d4d4; }
+            .base .center .center-bottom .center-tu .xue .xue-zi h2 {
+              padding-top: 15px;
+              font-size: 18px; }
+            .base .center .center-bottom .center-tu .xue .xue-zi h3 {
+              padding-top: 5px;
+              padding-bottom: 5px;
+              font-size: 16px;
+              font-weight: 500; }
+            .base .center .center-bottom .center-tu .xue .xue-zi .xuxian {
+              width: 150px;
+              height: 1px;
+              border: 1px dashed #8d8d8d; }
+            .base .center .center-bottom .center-tu .xue .xue-zi p {
+              padding-top: 5px;
+              color: #9f9e9e;
+              font-size: 14px; }
+            .base .center .center-bottom .center-tu .xue .xue-zi .shu {
+              width: 200px;
+              display: flex;
+              justify-content: space-between;
+              padding-top: 20px; }
+              .base .center .center-bottom .center-tu .xue .xue-zi .shu .san-3-yuan {
+                display: flex;
+                width: 95px;
+                justify-content: space-around;
+                align-items: center; }
+                .base .center .center-bottom .center-tu .xue .xue-zi .shu .san-3-yuan .yuan {
+                  width: 12px;
+                  height: 12px;
+                  background: #ccc;
+                  border-radius: 50%; }
+                .base .center .center-bottom .center-tu .xue .xue-zi .shu .san-3-yuan .zi {
+                  font-size: 12px; }
+        .base .center .center-bottom .center-tu .xue-er {
+          width: 900px;
+          height: 270px;
+          background: url(../img/xue-tu.png) no-repeat;
+          background-size: cover;
+          display: flex;
+          align-items: center; }
+          .base .center .center-bottom .center-tu .xue-er .xue-tu {
+            margin-left: 30px; }
+      .base .center .center-bottom .center-fen {
+        width: 520px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 35px auto; }
+        .base .center .center-bottom .center-fen .fen-center {
+          width: 380px;
+          height: 30px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+          .base .center .center-bottom .center-fen .fen-center .aa {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .base .center .center-bottom .center-fen .fen-center .aa a {
+              color: #fff; }
+          .base .center .center-bottom .center-fen .fen-center .dian {
+            background: #fff;
+            display: flex;
+            align-items: center;
+            font-size: 30px; }
+            .base .center .center-bottom .center-fen .fen-center .dian a {
+              color: #000; }
+          .base .center .center-bottom .center-fen .fen-center .yanse {
+            background: #ca966e; }
+          .base .center .center-bottom .center-fen .fen-center .fen-right-1 {
+            display: block;
+            width: 27px;
+            height: 25px;
+            background: url(../img/fen-right.png) no-repeat;
+            background-size: cover; }
+          .base .center .center-bottom .center-fen .fen-center .fen-left-1 {
+            display: block;
+            width: 27px;
+            height: 25px;
+            background: url(../img/fen-left.png) no-repeat;
+            background-size: cover; }
+        .base .center .center-bottom .center-fen .GO {
+          width: 120px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: inherit;
+          font-size: 18px; }
+          .base .center .center-bottom .center-fen .GO .kuang {
+            width: 31px;
+            height: 16px;
+            background: url(../img/juxing.png) no-repeat;
+            background-size: cover; }
+          .base .center .center-bottom .center-fen .GO a {
+            color: #000; }
+          .base .center .center-bottom .center-fen .GO .aa {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .base .center .center-bottom .center-fen .GO .aa a {
+              color: #fff;
+              font-size: 16px; }
+      .base .center .center-bottom .center-di p {
+        font-size: 14px;
+        padding-top: 10px;
+        color: #888787; }
+
+footer {
+  height: 320px;
+  background: #000;
+  position: absolute;
+  bottom: -30px; }
+  footer #bottom {
+    height: 100%;
+    position: relative; }
+    footer #bottom #botz {
+      height: 160px;
+      margin-top: 120px; }
+      footer #bottom #botz div {
+        width: 20%;
+        height: 160px;
+        float: left;
+        text-align: center; }
+        footer #bottom #botz div h1 {
+          font: 600 15px/20px "";
+          color: #fff;
+          margin: 10px 0 15px; }
+        footer #bottom #botz div p a {
+          color: #fff;
+          font: 200 12px/20px "";
+          text-decoration: none; }
+      footer #bottom #botz div:nth-child(2) img {
+        margin-bottom: 2px; }
+      footer #bottom #botz div:last-child img {
+        margin-bottom: 4px; }
+    footer #bottom #bott {
+      height: 100%;
+      position: relative; }
+      footer #bottom #bott div:first-child {
+        width: 230px;
+        height: 150px;
+        padding: 10px;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        z-index: 2;
+        background: #fff; }
+        footer #bottom #bott div:first-child form input {
+          margin-bottom: 5px; }
+        footer #bottom #bott div:first-child form #content {
+          height: 50px; }
+      footer #bottom #bott #map {
+        width: 360px;
+        height: 250px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-image: url("../img/47.png");
+        background-size: cover; }
+
+@media screen and (max-width: 850px) {
+  .banner {
+    width: 750px;
+    height: 877px;
+    margin: 0 auto;
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover; }
+    .banner .character {
+      width: 100%;
+      padding-top: 272px;
+      text-align: center; }
+      .banner .character span {
+        font-size: 18px; }
+      .banner .character h1 {
+        font-size: 72px;
+        padding-top: 60px; }
+      .banner .character .zi {
+        display: none; }
+      .banner .character .app-zi {
+        width: 490px;
+        display: block;
+        margin: 0 auto; }
+      .banner .character p {
+        font-size: 20px;
+        padding-top: 40px;
+        color: #9b9b9b; }
+      .banner .character .box {
+        margin: 0 auto;
+        margin-top: 180px; }
+  .base {
+    width: 100%;
+    height: 5537px; }
+    .base .center {
+      display: none; }
+    .base .app-row {
+      width: 700px;
+      height: 100%;
+      margin: 0 auto;
+      display: block; }
+      .base .app-row .app-center {
+        width: 100%;
+        height: 1144px;
+        text-align: center; }
+        .base .app-row .app-center .center-row {
+          width: 100%;
+          padding-top: 96px;
+          position: relative;
+          text-align: center; }
+          .base .app-row .app-center .center-row .center-border {
+            width: 253px;
+            height: 47px;
+            background: url(../img/border.png) no-repeat;
+            display: block;
+            position: relative;
+            margin: 0 auto; }
+            .base .app-row .app-center .center-row .center-border span {
+              color: black;
+              font-size: 24px;
+              position: absolute;
+              top: 16px;
+              right: 50%;
+              margin-right: -63px; }
+            .base .app-row .app-center .center-row .center-border .yuan {
+              width: 22px;
+              height: 22px;
+              background: url(../img/yuan.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              top: 22px;
+              left: 115px; }
+          .base .app-row .app-center .center-row .left-top {
+            width: 30px;
+            height: 30px;
+            background: url(../img/left-top.png) no-repeat;
+            position: absolute;
+            left: 215px;
+            top: 87px; }
+          .base .app-row .app-center .center-row .right-bottom {
+            width: 30px;
+            height: 30px;
+            background: url(../img/right-bottom.png) no-repeat;
+            position: absolute;
+            right: -8px;
+            bottom: -8px; }
+          .base .app-row .app-center .center-row h2 {
+            font-size: 36px;
+            color: #000;
+            padding-top: 10px; }
+          .base .app-row .app-center .center-row h6 {
+            font-size: 16px;
+            color: #cecece;
+            font-weight: 500; }
+            .base .app-row .app-center .center-row h6 strong {
+              color: #959595; }
+        .base .app-row .app-center .center-tu {
+          width: 100%;
+          height: 460px;
+          background: url(../img/chitang.png) no-repeat;
+          background-size: cover;
+          margin-top: 35px; }
+        .base .app-row .app-center .p1 {
+          padding-top: 44px;
+          font-size: 19px;
+          color: #333; }
+        .base .app-row .app-center .p2 {
+          padding-top: 32px;
+          font-size: 19px;
+          color: #777; }
+        .base .app-row .app-center .more {
+          width: 497px;
+          height: 210px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 40px; }
+          .base .app-row .app-center .more .more-1 {
+            width: 497px;
+            height: 55px;
+            background: url(../img/c.png) no-repeat;
+            background-size: cover;
+            line-height: 55px; }
+            .base .app-row .app-center .more .more-1 h2 {
+              font-size: 30px;
+              color: #fff; }
+          .base .app-row .app-center .more .more-2 {
+            width: 497px;
+            height: 55px;
+            background: url(../img/c1.png) no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            align-items: center; }
+            .base .app-row .app-center .more .more-2 h2 {
+              font-size: 30px;
+              color: #000;
+              font-weight: 500; }
+              .base .app-row .app-center .more .more-2 h2 strong {
+                font-weight: 600; }
+            .base .app-row .app-center .more .more-2 h3 {
+              color: #000;
+              font-size: 23px; }
+            .base .app-row .app-center .more .more-2 h4 {
+              font-size: 21px;
+              color: #000; }
+      .base .app-row .app-you {
+        width: 100%;
+        height: 2055px;
+        text-align: center; }
+        .base .app-row .app-you .center-row {
+          width: 100%;
+          padding-top: 105px;
+          position: relative;
+          text-align: center; }
+          .base .app-row .app-you .center-row .center-border {
+            width: 253px;
+            height: 47px;
+            background: url(../img/border.png) no-repeat;
+            display: block;
+            position: relative;
+            margin: 0 auto; }
+            .base .app-row .app-you .center-row .center-border span {
+              color: black;
+              font-size: 24px;
+              position: absolute;
+              top: 16px;
+              right: 50%;
+              margin-right: -63px; }
+            .base .app-row .app-you .center-row .center-border .yuan {
+              width: 22px;
+              height: 22px;
+              background: url(../img/yuan.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              top: 22px;
+              left: 115px; }
+          .base .app-row .app-you .center-row .left-top {
+            width: 30px;
+            height: 30px;
+            background: url(../img/left-top.png) no-repeat;
+            position: absolute;
+            left: 215px;
+            top: 95px; }
+          .base .app-row .app-you .center-row .right-bottom {
+            width: 30px;
+            height: 30px;
+            background: url(../img/right-bottom.png) no-repeat;
+            position: absolute;
+            right: -8px;
+            bottom: -8px; }
+          .base .app-row .app-you .center-row h2 {
+            font-size: 36px;
+            color: #000;
+            padding-top: 10px; }
+          .base .app-row .app-you .center-row h6 {
+            font-size: 16px;
+            color: #cecece;
+            font-weight: 500; }
+            .base .app-row .app-you .center-row h6 strong {
+              color: #959595; }
+        .base .app-row .app-you .center-bao {
+          width: 100%;
+          height: 160px;
+          padding-top: 16px;
+          padding-left: 16px;
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around; }
+          .base .app-row .app-you .center-bao .xian {
+            width: 46px;
+            height: 3px;
+            background: url(../img/xian.png) no-repeat;
+            background-size: cover; }
+          .base .app-row .app-you .center-bao p {
+            font-size: 12px;
+            color: #c1c1c1; }
+          .base .app-row .app-you .center-bao em {
+            font-weight: 600;
+            font-size: 15px; }
+          .base .app-row .app-you .center-bao .jing {
+            width: 320px;
+            font-size: 12px;
+            color: #eee;
+            display: flex;
+            justify-content: space-between; }
+          .base .app-row .app-you .center-bao .xian1 {
+            width: 100%;
+            height: 3px;
+            background: url(../img/xian1.png) no-repeat;
+            background-size: cover; }
+        .base .app-row .app-you .center-zi {
+          width: 100%;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .base .app-row .app-you .center-zi h2 {
+            font-size: 30px;
+            color: #000;
+            font-weight: 500; }
+          .base .app-row .app-you .center-zi h3 {
+            font-size: 24px;
+            color: #97785F;
+            font-weight: 500; }
+        .base .app-row .app-you .center-tu {
+          width: 100%;
+          height: 600px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+          margin-bottom: 65px; }
+          .base .app-row .app-you .center-tu .center-tu1 {
+            width: 656px;
+            height: 373px;
+            background: url(../img/ct.png) no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+            position: absolute;
+            z-index: 11; }
+          .base .app-row .app-you .center-tu .center-tu2 {
+            width: 700px;
+            height: 168px;
+            background: url(../img/k.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 354px;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .base .app-row .app-you .center-tu .center-tu2 .san-3-zi {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center; }
+              .base .app-row .app-you .center-tu .center-tu2 .san-3-zi .p1 {
+                font-size: 18px;
+                font-weight: 600; }
+              .base .app-row .app-you .center-tu .center-tu2 .san-3-zi .p2 {
+                font-size: 16px; }
+              .base .app-row .app-you .center-tu .center-tu2 .san-3-zi .shu {
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 20px;
+                text-align: center; }
+                .base .app-row .app-you .center-tu .center-tu2 .san-3-zi .shu .san-3-yuan {
+                  display: flex;
+                  width: 95px;
+                  justify-content: space-around;
+                  align-items: center; }
+                  .base .app-row .app-you .center-tu .center-tu2 .san-3-zi .shu .san-3-yuan .yuan {
+                    width: 12px;
+                    height: 12px;
+                    background: #ccc;
+                    border-radius: 50%; }
+                  .base .app-row .app-you .center-tu .center-tu2 .san-3-zi .shu .san-3-yuan .zi {
+                    font-size: 12px; }
+          .base .app-row .app-you .center-tu .center-tu3 {
+            width: 140px;
+            height: 91px;
+            background: url(../img/won.png) no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: 0px; }
+            .base .app-row .app-you .center-tu .center-tu3 .center-tu3-1 {
+              width: 50px;
+              height: 53px;
+              background: url(../img/won1.png) no-repeat;
+              background-size: cover;
+              position: absolute;
+              left: 40px;
+              top: 22px; }
+        .base .app-row .app-you .center-02 .center-tu3 {
+          width: 140px;
+          height: 91px;
+          background: url(../img/02.png) no-repeat;
+          background-size: cover;
+          position: absolute;
+          bottom: 0px; }
+        .base .app-row .app-you .more {
+          width: 497px;
+          height: 130px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 40px; }
+          .base .app-row .app-you .more .more-1 {
+            width: 497px;
+            height: 55px;
+            background: url(../img/c.png) no-repeat;
+            background-size: cover;
+            line-height: 55px; }
+            .base .app-row .app-you .more .more-1 h2 {
+              font-size: 30px;
+              color: #fff; }
+          .base .app-row .app-you .more .more-2 {
+            width: 497px;
+            height: 55px;
+            background: url(../img/c1.png) no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            align-items: center; }
+            .base .app-row .app-you .more .more-2 h2 {
+              font-size: 30px;
+              color: #000;
+              font-weight: 500; }
+              .base .app-row .app-you .more .more-2 h2 strong {
+                font-weight: 600; }
+            .base .app-row .app-you .more .more-2 h3 {
+              color: #000;
+              font-size: 23px; }
+            .base .app-row .app-you .more .more-2 h4 {
+              font-size: 21px;
+              color: #000; }
+        .base .app-row .app-you .center-xue {
+          width: 656px;
+          height: 694px;
+          margin: 0 auto; }
+          .base .app-row .app-you .center-xue .xue {
+            width: 656px;
+            height: 295px;
+            background: url(../img/xue.png) no-repeat;
+            background-size: cover; }
+          .base .app-row .app-you .center-xue .xue-zi {
+            width: 100%;
+            height: 399px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around; }
+            .base .app-row .app-you .center-xue .xue-zi .zi-1 {
+              border-bottom: 1px solid #eee; }
+              .base .app-row .app-you .center-xue .xue-zi .zi-1 span {
+                font-size: 36px;
+                color: #d4d4d4; }
+            .base .app-row .app-you .center-xue .xue-zi h2 {
+              /*padding-top: 15px;*/
+              font-size: 30px; }
+            .base .app-row .app-you .center-xue .xue-zi h3 {
+              font-size: 24px;
+              font-weight: 500; }
+            .base .app-row .app-you .center-xue .xue-zi .xuxian {
+              width: 150px;
+              height: 1px;
+              border: 1px dashed #8d8d8d; }
+            .base .app-row .app-you .center-xue .xue-zi p {
+              padding-top: 5px;
+              color: #9f9e9e;
+              font-size: 24px; }
+            .base .app-row .app-you .center-xue .xue-zi .shu {
+              width: 232px;
+              display: flex;
+              justify-content: space-between; }
+              .base .app-row .app-you .center-xue .xue-zi .shu .san-3-yuan {
+                display: flex;
+                width: 110px;
+                justify-content: space-around;
+                align-items: center; }
+                .base .app-row .app-you .center-xue .xue-zi .shu .san-3-yuan .yuan {
+                  width: 12px;
+                  height: 12px;
+                  background: #ccc;
+                  border-radius: 50%; }
+                .base .app-row .app-you .center-xue .xue-zi .shu .san-3-yuan .zi {
+                  font-size: 18px; }
+  footer {
+    height: 490px;
+    bottom: -50px;
+    width: 750px !important; }
+    footer #bottom #botz {
+      margin-top: 280px; }
+    footer #bottom #bott {
+      position: absolute;
+      top: -100px; }
+      footer #bottom #bott div:first-child {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        margin-left: -115px; }
+      footer #bottom #bott #map {
+        width: 100%; } }

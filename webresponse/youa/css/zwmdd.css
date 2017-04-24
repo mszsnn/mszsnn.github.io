@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.iconfont {
+  float: left;
+  font-size: 12px;
+  margin-top: 1.5px;
+}
+
+h6 a{
+  color: #333333;
+}
+.zwsy {
+  text-align: center;
+  padding: 60px 0;
+}
+h6 a:hover{
+  color: #333333;
+}
+.zwsy img {
+  display: block;
+  margin: 0 auto;
+}
+.zwbt h6{
+  margin-top: 1px;
+}
+.zwhi {
+  width: 100%;
+  height: 300px;
+  background: #dcdcdc;
+}
+
+.zwhi .container {
+  padding: 0;
+}
+
+.zwh img {
+  width: 100%;
+  padding: 0 10px;
+  position: absolute;
+  top: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.zwhi .container .zwhc {
+  padding: 0 10px;
+}
+
+.zwhi .container .zwhc h5 {
+  margin-top: 110px;
+  font-size: 24px;
+}
+
+.zwqunabt {
+  padding: 20px 0;
+}
+
+.zwquna .zwt img {
+  width: 100%;
+}
+
+.zwm3 {
+  width: 100%;
+}
+
+.zwm4 {
+  padding: 0 0 10px 0;
+}
+
+.zwm5 {
+  padding: 20px 0;
+}
+
+.zwm6 {
+  padding: 20px 0;
+}
+
+.zwchina p {
+  font-size: 14px;
+}
+
+.zwp {
+  text-align: justify;
+  padding: 20px 0 0;
+  line-height: 25px;
+}
+
+.zwnav {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+.zwnav ul {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 40px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.zwnav ul:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.zwnav li {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+}
+
+.zwactive {
+  font-weight: bold;
+}
+
+.zwkuang{
+  	width: 100%;
+  	height: 450px;
+  	position: relative;
+  }
+  .zwul {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+.first{
+	opacity: 1;
+}
+@media screen and (max-width:376px ) {
+	.zwhi .container .zwhc>h5{
+		font-size:18px;
+		font-weight: bold;
+	}
+}

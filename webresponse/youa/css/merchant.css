@@ -1,0 +1,279 @@
+@charset "UTF-8";
+.address {
+  width: 100%;
+  height: 38px;
+  /*margin-top: 50px;*/
+}
+
+.address span {
+  font-size: 12px;
+  color: #333;
+}
+
+.address a {
+  color: #333;
+}
+
+.imgbox {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+}
+
+.imgbox img {
+  display: block;
+  margin: 0 auto;
+}
+
+.merchant {
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.merchant > div {
+  height: auto;
+}
+
+.merchant > div .circle {
+  height: 100%;
+}
+
+.merchant > div .circle li {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.merchant > div .circle li .icon {
+  float: left;
+  width: 30%;
+  height: 40px;
+}
+
+.merchant > div .circle li .icon span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 5px auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.merchant > div .circle li .icon span i {
+  font-size: 26px;
+}
+
+.merchant > div .circle li.active .merchantfont span:nth-child(2) {
+  float: right;
+  width: 50px;
+  border-radius: 30px;
+  background: #f39800;
+}
+
+.merchant > div .img {
+  height: auto;
+  position: relative;
+}
+
+.merchant > div .img li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+
+.merchant > div .img li > div {
+  background: #fff;
+  position: absolute;
+  left: 15px;
+  top: 30%;
+  width: 36%;
+  height: 35%;
+}
+
+.merchant > div .img li .zn_zi2 {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+
+.merchant > div .img li .zn_zi2 p {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.merchant > div .img li .zn_zi2 p:nth-child(2) {
+  cursor: pointer;
+  font-size: 12px;
+  font-family: '����';
+  color: #333;
+}
+
+.merchant > div .img li.active {
+  display: block;
+}
+
+.zn_xiangqing img {
+  display: block;
+  margin: 10px auto;
+}
+
+.zn_xiangqing .zn_zi1 {
+  width: 100%;
+  height: auto;
+}
+
+.zn_xiangqing .zn_zi1 p {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.zn_xiangqing .zn_zi1 p:nth-child(2) {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: '����';
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .merchant > div .img li div {
+    width: 34.5%;
+  }
+}
+
+.merchantfont {
+  width: 70%;
+  height: 40px;
+  float: left;
+}
+
+.merchantfont span {
+  display: block;
+  font-size: 12px;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  text-align: right;
+  line-height: 20px;
+  height: 20px;
+  color: #888;
+}
+
+.zjg-title {
+  width: 100%;
+  height: auto;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+.zjg-title p {
+  color: #4C4C4C;
+  font-size: 24px;
+}
+
+.zjg-title div {
+  width: auto;
+  float: left;
+  font-size: 24px;
+}
+
+.zjg-title div span:first-child {
+  color: #F39800;
+}
+
+.zjg-title div span:last-child {
+  color: #333333;
+}
+
+.zjg-title a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #5A5A5A;
+  display: block;
+  float: right;
+  margin-top: 30px;
+  font-family: '����';
+}
+
+.discount {
+  margin-top: 50px;
+}
+
+.discount .youhui li {
+  margin-top: 40px;
+}
+
+.discount .youhui li:first-child {
+  margin-top: 0;
+}
+
+.discount .price {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.discount .price span:first-child {
+  color: #FF0000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.discount .price span:last-child {
+  color: #333333;
+  font-size: 20px;
+}
+
+.discount .img img {
+  width: 100%;
+}
+
+.discount > div > p {
+  margin-top: 10px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.activities .zjg-box {
+  width: 100%;
+  height: auto;
+}
+
+.activities .zjg-box img {
+  width: 100%;
+}
+
+.activities .zjg-box p:first-of-type {
+  margin-top: 20px;
+}
+.activities .active {
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+}
+@media screen and (max-width: 768px) {
+  .yingchang {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .merchant {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

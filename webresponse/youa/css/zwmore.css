@@ -1,0 +1,33 @@
+.iconfont {
+  float: left;
+  margin-top: 1.5px;
+}
+
+.zwimg {
+  padding: 40px 20px;
+}
+
+.zwimg img {
+  width: 100%;
+}
+
+.zwp {
+  padding: 0 20px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+  .zwp p {
+    margin-top: 60px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .zwp p {
+    line-height: 30px;
+  }
+}
+h6 a{
+  color: #333333;
+}

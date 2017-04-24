@@ -1,0 +1,286 @@
+*{
+   padding:0 ;
+   margin: 0 ;
+   list-style: none;
+   text-decoration: none;
+}
+body{
+  
+  
+}
+/*大屏*/
+section.col-sm-12{
+   background:url(../img/images/banner_01.png) center center no-repeat;
+   background-size:cover ;
+   height: 650px;  
+}
+.l-banner {
+   overflow: hidden;
+}
+.l-banner p{
+   text-align:center ;
+   margin-top: 150px;
+   color:#fff;
+}
+.l-banner .l-link{
+   overflow: hidden;
+   color:#fff;
+   width: 180px;
+   height: 30px;
+   border:1px solid #fff;
+   text-align: center;
+   line-height: 30px;
+   /*margin-top: 300px;*/
+   margin: 0 auto;  
+}
+.l-banner .word{
+   width: 60px;
+   height:25px;
+   border-bottom:1px solid #fff;
+   text-align: center;
+   line-height:25px;
+   margin: 0 auto;
+   margin-top: 80px;
+   font-size:12px;
+}
+.l-banner .l-link:hover{
+   background: #f9c45e;
+}
+.l-banner .l-link a{
+    color:#fff;
+}
+.l-banner .l-link a:hover{
+   text-decoration: none;
+   cursor: pointer;
+  
+}
+.main div.box-shown{
+   box-shadow:0 0 5px rgba(0,0,0,0.5);
+   background: #FFF;
+   height:2000px;  
+   margin-top:-200px;
+   bottom: 50px;
+   z-index: 100;
+   
+}
+.about-us{
+   width:280px;
+   margin: 0 auto;
+}
+.space{
+   height:1px;
+   background: #97785f;
+}
+.main div ul{
+  height:600px;
+}
+.main div li{
+  margin-top:50px ;
+}
+.tt{
+  width: 50px;
+  height: 3px;
+  background: #9e816a;
+  margin-bottom: 10px;
+}
+.main div li p{
+  margin-bottom: 8px;
+  font-size:9px;
+}
+.main div li p.about{
+  font-weight: bold;
+  font-size:15px;
+}
+.main div li:nth-child(4){
+    width: 350px;
+    margin: 0 auto;
+    
+}
+.main div li:nth-child(4) img{
+  width: 350px;
+  margin-top: 50px;
+}
+.main div li:nth-child(5){
+   color:#a3a3a3;
+   
+}
+.main div li:nth-child(5) p{
+   font-size:12px;
+}
+.main div li:nth-child(5) .p-two,.main div li:nth-child(5) .p-one{
+   font-size:10px;
+   color: #b6b6b6;
+}
+.main div li:nth-child(5) p:last-child{
+  font-weight: bold;
+}
+div.pic{
+   position:relative;
+   height:500px;
+}
+div.pic img:first-child{
+   margin-top: -50px;
+   margin-left: -20px;
+   position:absolute;
+   z-index: 100;
+}
+div.pic img:nth-child(2){
+   position:absolute;
+   top:0;
+   right:-20px;
+   z-index: 20;
+}
+div.pic img:nth-child(3){
+   position:absolute;
+   top: 80px;
+   z-index: 50;
+}
+div.pic img:nth-child(4){
+   position:absolute;
+   top: 190px;
+}
+div.pic img:nth-child(5){
+   position:absolute;
+   top: 230px;
+}
+div.pic img:nth-child(6){
+   position:absolute;
+   top: 300px;
+}
+div.pic p{
+  position:absolute;
+  top: 400px;
+  color:#a3a3a3;
+}
+div.pic .last{
+  position:absolute;
+  top: 400px;
+ 
+}
+.form-box{
+   background: url(../img/images/l-pic_035.png) center center;
+   height:400px;
+   background-size:cover ;
+   margin-top: 15px;
+}
+.form-box form textarea{
+   height:200px;
+   margin-top:20px ;
+}
+.form-box form input{
+   height: 40px;
+  border:none;
+  border:1px solid #747474;
+}
+.form-box form input:first-child{
+   background: #dccfc6;
+}
+.form-box form input:first-child,.form-box form input:nth-child(2){
+   margin-top:40px ;
+}
+.form-box form input:nth-child(3){
+   margin-top: 20px;
+}
+.form-box form{
+   position:relative;
+   height:400px;
+}
+.form-box form input:last-child{
+   width:45px;
+   height:45px;
+   background: #000;
+   border:none;
+   color:#fff;
+   position:absolute;
+   bottom:100px;
+   right:30px;
+}
+.pre h3{
+   color:#c3c3c3;
+   text-align: center;
+   margin-top:70px ;
+}
+.pre p{
+   color:#c3c3c3;
+   font-size:11px;
+   text-align: center;
+}
+.pre .pre1{
+   margin-top: 25px;
+}
+.pre .pre2{
+   margin-top: 15px;
+}
+
+.l-phone{
+   display: none;
+}
+
+/*手机屏*/
+@media screen and (max-width: 768px) {
+.about-us img{
+    margin-top:50px;
+}
+.pic img:first-child{
+   position: absolute;
+   top:50px;
+   right: 0;
+   left:0;
+   margin: 0;
+}
+.pic img:nth-child(2){
+   position: absolute;
+   top:200px;
+   right: 0;
+   left:0;
+   margin: 0;
+}
+.form-box ul{
+    height:100%;
+}
+div.l-link{
+   margin-top: 100px !important;
+}
+.pic p{
+   text-align: center;
+}
+.l-phone{
+   display: block;
+   font-size:16px;
+   margin-top: 50px;
+   height:30px;
+}
+.l-pc{
+    display: none;
+}
+.pre1{
+     height:50px;
+}
+.pre .pre1{
+     font-weight:bold;
+     color: #6e6e6e;
+     margin-top: 10px;
+}
+.form-box{
+    height:300px;
+}
+.form-box form textarea{
+    height:100px;
+}
+.form-box form input:last-child{
+   width:35px;
+   height:35px;
+   background: #000;
+   border:none;
+   color:#fff;
+   position:absolute;
+   bottom:70px;
+   right:30px;
+}
+.form-box form{
+   position:relative;
+   height:300px;
+}
+.main div.box-shown{
+    height:1650px;
+}
