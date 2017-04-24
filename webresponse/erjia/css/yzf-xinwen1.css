@@ -1,0 +1,924 @@
+@charset "UTF-8";
+body {
+  background: #f6f6f6; }
+
+@media only screen and (max-width: 750px) {
+  .yzf-banner {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/yzf/banner1_01.png);
+    background-size: cover;
+    background-position: center center;
+    display: none; }
+    .yzf-banner .navmax {
+      width: 100%;
+      height: 60px;
+      position: absolute;
+      top: 34px;
+      left: 50%;
+      margin-left: -50%;
+      overflow: hidden; }
+      .yzf-banner .navmax .juone {
+        width: 10%;
+        height: 60px;
+        border-radius: 0  50px 50px 0;
+        background: #393A3A;
+        float: left; }
+      .yzf-banner .navmax .sy2 {
+        width: 6%;
+        height: 60px;
+        float: left;
+        background-image: url(../img/ly/sy.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 66px 60px;
+        margin-left: 2%; }
+      .yzf-banner .navmax .jutwo {
+        width: 80%;
+        height: 60px;
+        background: #393A3A;
+        border-radius: 50px 0 0 50px;
+        margin-left: 2%;
+        float: left; }
+        .yzf-banner .navmax .jutwo .active {
+          border-bottom: 4px solid #ff0000;
+          box-sizing: border-box; }
+        .yzf-banner .navmax .jutwo img {
+          float: left; }
+        .yzf-banner .navmax .jutwo a {
+          height: 100%;
+          float: left;
+          font-size: 18px;
+          color: white;
+          padding: 0 10px;
+          line-height: 60px;
+          text-decoration: none; }
+          .yzf-banner .navmax .jutwo a span {
+            font-size: 18px; }
+        .yzf-banner .navmax .jutwo .denglu {
+          width: 120px;
+          height: 60px;
+          margin-left: 50px;
+          float: left; }
+          .yzf-banner .navmax .jutwo .denglu a {
+            font-size: 16px;
+            float: left;
+            margin-top: 2px; }
+        .yzf-banner .navmax .jutwo input {
+          width: 170px;
+          height: 24px;
+          border-radius: 7px;
+          margin-left: 20px;
+          margin-top: 16px;
+          border-color: white;
+          outline: none;
+          padding-left: 10px;
+          box-sizing: border-box;
+          background: transparent;
+          color: #fff; }
+  .yzf-banner1 {
+    width: 100%;
+    height: auto; }
+    .yzf-banner1 .navmin {
+      width: 100%;
+      height: 40px;
+      padding: 0 24px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      z-index: 2; }
+      .yzf-banner1 .navmin div {
+        width: 40px;
+        height: 40px; }
+        .yzf-banner1 .navmin div img {
+          height: 100%; }
+      .yzf-banner1 .navmin div:last-child {
+        position: relative; }
+        .yzf-banner1 .navmin div:last-child ul {
+          display: none;
+          position: absolute;
+          top: 40px;
+          right: -30px;
+          width: 150px;
+          height: auto; }
+          .yzf-banner1 .navmin div:last-child ul li {
+            width: 100%;
+            height: auto;
+            padding: 6px 0;
+            box-sizing: border-box;
+            position: relative; }
+            .yzf-banner1 .navmin div:last-child ul li a {
+              display: block;
+              width: 100%;
+              height: 100%; }
+              .yzf-banner1 .navmin div:last-child ul li a:active {
+                text-decoration: none;
+                opacity: .9; }
+              .yzf-banner1 .navmin div:last-child ul li a h1 {
+                margin: 0;
+                font-size: 16px;
+                color: #fff;
+                opacity: 0.9;
+                width: 100%;
+                height: auto;
+                font-weight: normal; }
+              .yzf-banner1 .navmin div:last-child ul li a p {
+                margin: 0;
+                margin-top: 5px;
+                width: 100%;
+                height: auto;
+                color: #fff;
+                font-size: 10px;
+                font-weight: normal; }
+              .yzf-banner1 .navmin div:last-child ul li a div {
+                width: 100%;
+                height: 4px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                line-height: 5px; }
+                .yzf-banner1 .navmin div:last-child ul li a div img {
+                  width: 100%; }
+                .yzf-banner1 .navmin div:last-child ul li a div .active {
+                  display: none; }
+  .yzf-banner1 img {
+    width: 100%;
+    height: auto; }
+  body {
+    background: #fff; }
+  .box1 {
+    width: 89%;
+    height: auto;
+    position: absolute;
+    top: 420px;
+    left: 5.5%;
+    background: #fff;
+    overflow: hidden; }
+    .box1 > .yzf-nav {
+      width: 50%;
+      height: 80px;
+      background-image: url(../img/yzf/xinwen1_03.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 20px auto auto auto; }
+    .box1 > .yzf-down {
+      width: 30px;
+      height: 30px;
+      background-image: url(../img/yzf/xin1_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 10px auto auto auto; }
+    .box1 > .yzf-sign {
+      width: 111px;
+      height: 85px;
+      background-image: url(../img/yzf/xinwen1_07.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto 0 8%; }
+    .box1 > a {
+      width: 100%;
+      height: auto;
+      display: block; }
+      .box1 > a > .yzf-list1 {
+        width: 85%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        margin-top: -14px;
+        padding-top: 27px;
+        overflow: hidden; }
+        .box1 > a > .yzf-list1 > .yzf-font1 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_03.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list1 > .yzf-img1 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: 100% 100%;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list1 > .yzf-wenzi {
+          width: 100%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            text-align: justify; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            text-align: justify;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list2 {
+        width: 85%;
+        height: auto;
+        margin-left: 8%;
+        padding-top: 27px;
+        border-top: 1px solid #ccc;
+        overflow: hidden; }
+        .box1 > a > .yzf-list2 > .yzf-font2 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_07.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list2 > .yzf-img2 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_15.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list2 > .yzf-wenzi2 {
+          width: 100%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h4 {
+            text-align: justify;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list3 {
+        width: 85%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px;
+        overflow: hidden; }
+        .box1 > a > .yzf-list3 > .yzf-font3 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_11.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list3 > .yzf-img3 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list3 > .yzf-wenzi3 {
+          width: 100%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            text-align: justify;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list4 {
+        width: 85%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px;
+        overflow: hidden; }
+        .box1 > a > .yzf-list4 > .yzf-font4 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_14.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img4 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font5 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_17.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img5 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_26.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font6 {
+          width: 60px;
+          height: 60px;
+          background-image: url(../img/yzf/fontsize_19.png);
+          margin-top: 20px;
+          float: left;
+          z-index: 1000000; }
+        .box1 > a > .yzf-list4 > .yzf-img6 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_29.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-wenzi4 {
+          width: 100%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-top: 14px;
+            text-align: justify; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+    .box1 > .ss {
+      text-align: center;
+      margin-top: 30px;
+      display: none; }
+      .box1 > .ss .pagination {
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center; }
+        .box1 > .ss .pagination li {
+          border-radius: 50%; }
+          .box1 > .ss .pagination li a {
+            margin: 0 5px;
+            border-radius: 50%;
+            color: #333;
+            font-size: 18px; }
+          .box1 > .ss .pagination li input {
+            width: 60px;
+            padding: 10px 16px;
+            font-size: 18px;
+            line-height: 1.3333;
+            border-radius: 50%;
+            border: none;
+            border: 1px solid #ddd;
+            text-align: center;
+            outline: none;
+            color: #333; }
+        .box1 > .ss .pagination > li:nth-last-child > a {
+          border-radius: 50%; }
+          .box1 > .ss .pagination > li:nth-last-child > a span {
+            font-size: 18px; }
+        .box1 > .ss .pagination li:nth-child(1) a {
+          border-radius: 50%; }
+        .box1 > .ss .pagination .active a {
+          background: #fb263f;
+          border: 4px solid #ffb8b8; }
+      .box1 > .ss .pagination-lg > li:last-child > a {
+        border-radius: 50%; }
+    .box1 > .ss2 {
+      text-align: center;
+      margin-top: 30px; }
+      .box1 > .ss2 .pagination {
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center; }
+        .box1 > .ss2 .pagination li {
+          border-radius: 50%; }
+          .box1 > .ss2 .pagination li a {
+            margin: 0 5px;
+            border-radius: 50%;
+            color: #333;
+            font-size: 18px; }
+          .box1 > .ss2 .pagination li input {
+            width: 60px;
+            padding: 10px 16px;
+            font-size: 18px;
+            line-height: 1.3333;
+            border-radius: 50%;
+            border: none;
+            border: 1px solid #ddd;
+            text-align: center;
+            outline: none;
+            color: #333; }
+        .box1 > .ss2 .pagination > li:nth-last-child > a {
+          border-radius: 50%; }
+          .box1 > .ss2 .pagination > li:nth-last-child > a span {
+            font-size: 18px; }
+        .box1 > .ss2 .pagination li:nth-child(1) a {
+          border-radius: 50%; }
+        .box1 > .ss2 .pagination .active a {
+          background: #fb263f;
+          border: 4px solid #ffb8b8; }
+      .box1 > .ss2 .pagination-lg > li:last-child > a {
+        border-radius: 50%; }
+  .yzf-foot {
+    width: 315px;
+    height: 150px;
+    background-image: url(../img/yzf/footer_03.png);
+    margin: 0 auto; } }
+
+@media only screen and (min-width: 750px) {
+  .yzf-banner1 {
+    display: none; }
+  .yzf-banner {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/yzf/banner1_01.png);
+    background-size: cover;
+    background-position: center center; }
+    .yzf-banner .navmax {
+      width: 100%;
+      height: 60px;
+      position: absolute;
+      top: 34px;
+      left: 50%;
+      margin-left: -50%;
+      overflow: hidden; }
+      .yzf-banner .navmax .juone {
+        width: 10%;
+        height: 60px;
+        border-radius: 0  50px 50px 0;
+        background: rgba(255, 255, 255, 0.3);
+        float: left; }
+      .yzf-banner .navmax .sy2 {
+        width: 6%;
+        height: 60px;
+        float: left;
+        background-image: url(../img/ly/sy.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 66px 60px;
+        margin-left: 2%; }
+      .yzf-banner .navmax .jutwo {
+        width: 80%;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 50px 0 0 50px;
+        margin-left: 2%;
+        float: left; }
+        .yzf-banner .navmax .jutwo .active {
+          border-bottom: 4px solid #ff0000;
+          box-sizing: border-box; }
+        .yzf-banner .navmax .jutwo img {
+          float: left; }
+        .yzf-banner .navmax .jutwo a {
+          height: 100%;
+          float: left;
+          font-size: 18px;
+          color: white;
+          padding: 0 10px;
+          line-height: 60px;
+          text-decoration: none; }
+          .yzf-banner .navmax .jutwo a span {
+            font-size: 18px; }
+        .yzf-banner .navmax .jutwo .denglu {
+          width: 120px;
+          height: 60px;
+          margin-left: 50px;
+          float: left; }
+          .yzf-banner .navmax .jutwo .denglu a {
+            font-size: 16px;
+            float: left;
+            margin-top: 2px; }
+        .yzf-banner .navmax .jutwo input {
+          width: 170px;
+          height: 24px;
+          border-radius: 7px;
+          margin-left: 20px;
+          margin-top: 16px;
+          border-color: white;
+          outline: none;
+          padding-left: 10px;
+          box-sizing: border-box;
+          background: transparent;
+          color: #fff; }
+  .box1 {
+    width: 89%;
+    height: auto;
+    position: absolute;
+    top: 662px;
+    left: 5.5%;
+    background: #fff;
+    overflow: hidden; }
+    .box1 > .yzf-nav {
+      width: 330px;
+      height: 100px;
+      background-image: url(../img/yzf/xinwen1_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 80px auto auto auto; }
+    .box1 > .yzf-down {
+      width: 30px;
+      height: 30px;
+      background-image: url(../img/yzf/xin1_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 10px auto auto auto; }
+    .box1 > .yzf-sign {
+      width: 111px;
+      height: 85px;
+      background-image: url(../img/yzf/xinwen1_07.png);
+      background-size: cover;
+      background-position: center;
+      margin: 20px auto 0 8%; }
+    .box1 > a {
+      width: 100%;
+      height: auto;
+      display: block; }
+      .box1 > a > .yzf-list1 {
+        width: 85%;
+        height: 200px;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        margin-top: -14px;
+        padding-top: 27px; }
+        .box1 > a > .yzf-list1 > .yzf-font1 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_03.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list1 > .yzf-img1 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: 100% 100%;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list1 > .yzf-wenzi {
+          width: 65%;
+          height: 100%;
+          float: left;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list2 {
+        width: 85%;
+        height: 200px;
+        margin-left: 8%;
+        padding-top: 27px;
+        border-top: 1px solid #ccc; }
+        .box1 > a > .yzf-list2 > .yzf-font2 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_07.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list2 > .yzf-img2 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_15.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list2 > .yzf-wenzi2 {
+          width: 65%;
+          height: 100%;
+          float: left;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list3 {
+        width: 85%;
+        height: 210px;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px; }
+        .box1 > a > .yzf-list3 > .yzf-font3 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_11.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list3 > .yzf-img3 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list3 > .yzf-wenzi3 {
+          width: 65%;
+          height: 100%;
+          float: left;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list4 {
+        width: 85%;
+        height: 210px;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px; }
+        .box1 > a > .yzf-list4 > .yzf-font4 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_14.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img4 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font5 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_17.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img5 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_26.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font6 {
+          width: 60px;
+          height: 60px;
+          background-image: url(../img/yzf/fontsize_19.png);
+          margin-top: 20px;
+          float: left;
+          z-index: 1000000; }
+        .box1 > a > .yzf-list4 > .yzf-img6 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_29.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-wenzi4 {
+          width: 65%;
+          height: 100%;
+          float: left;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+    .box1 > .ss2 {
+      display: none; }
+    .box1 > .ss {
+      text-align: center;
+      margin-top: 50px; }
+      .box1 > .ss .pagination {
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center; }
+        .box1 > .ss .pagination li {
+          border-radius: 50%; }
+          .box1 > .ss .pagination li a {
+            margin: 0 5px;
+            border-radius: 50%;
+            color: #333;
+            font-size: 18px; }
+          .box1 > .ss .pagination li input {
+            width: 60px;
+            padding: 10px 16px;
+            font-size: 18px;
+            line-height: 1.3333;
+            border-radius: 50%;
+            border: none;
+            border: 1px solid #ddd;
+            text-align: center;
+            outline: none;
+            color: #333; }
+        .box1 > .ss .pagination > li:nth-last-child > a {
+          border-radius: 50%; }
+          .box1 > .ss .pagination > li:nth-last-child > a span {
+            font-size: 18px; }
+        .box1 > .ss .pagination li:nth-child(1) a {
+          border-radius: 50%; }
+        .box1 > .ss .pagination .active a {
+          background: #fb263f;
+          border: 4px solid #ffb8b8; }
+      .box1 > .ss .pagination-lg > li:last-child > a {
+        border-radius: 50%; }
+  .yzf-foot {
+    width: 315px;
+    height: 150px;
+    background-image: url(../img/yzf/footer_03.png);
+    margin: 0 auto; } }

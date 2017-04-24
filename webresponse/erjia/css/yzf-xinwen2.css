@@ -1,0 +1,765 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+body {
+  background: #fff; }
+
+@media only screen and (max-width: 750px) {
+  .yzf-banner1 {
+    display: none; }
+  .yzf-banner {
+    width: 100%;
+    height: auto; }
+    .yzf-banner .navmin {
+      width: 100%;
+      height: 40px;
+      padding: 0 24px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      z-index: 2; }
+      .yzf-banner .navmin div {
+        width: 40px;
+        height: 40px; }
+        .yzf-banner .navmin div img {
+          height: 100%; }
+      .yzf-banner .navmin div:last-child {
+        position: relative; }
+        .yzf-banner .navmin div:last-child ul {
+          display: none;
+          position: absolute;
+          top: 40px;
+          right: -30px;
+          width: 150px;
+          height: auto; }
+          .yzf-banner .navmin div:last-child ul li {
+            width: 100%;
+            height: auto;
+            padding: 6px 0;
+            box-sizing: border-box;
+            position: relative; }
+            .yzf-banner .navmin div:last-child ul li a {
+              display: block;
+              width: 100%;
+              height: 100%; }
+              .yzf-banner .navmin div:last-child ul li a:active {
+                text-decoration: none;
+                opacity: .9; }
+              .yzf-banner .navmin div:last-child ul li a h1 {
+                margin: 0;
+                font-size: 16px;
+                color: #fff;
+                opacity: 0.9;
+                width: 100%;
+                height: auto;
+                font-weight: normal; }
+              .yzf-banner .navmin div:last-child ul li a p {
+                margin: 0;
+                margin-top: 5px;
+                width: 100%;
+                height: auto;
+                color: #fff;
+                font-size: 10px;
+                font-weight: normal; }
+              .yzf-banner .navmin div:last-child ul li a div {
+                width: 100%;
+                height: 4px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                line-height: 5px; }
+                .yzf-banner .navmin div:last-child ul li a div img {
+                  width: 100%; }
+                .yzf-banner .navmin div:last-child ul li a div .active {
+                  display: none; }
+  .yzf-banner img {
+    width: 100%;
+    height: auto; }
+  .box {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  .box1 {
+    width: 89%;
+    height: auto;
+    position: relative;
+    top: 45px;
+    left: 0;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden; }
+    .box1 > .yzf-sign {
+      width: 100%;
+      height: 80px;
+      background-image: url(../img/yzf/xinwen2_03.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .box1 > .yzf-daohang {
+      position: absolute;
+      top: 0;
+      left: 12%; }
+      .box1 > .yzf-daohang a {
+        font-size: 24px;
+        color: #999999; }
+      .box1 > .yzf-daohang span {
+        font-size: 24px;
+        color: #999999; }
+      .box1 > .yzf-daohang .yzf-active {
+        color: #fe3052; }
+    .box1 > .yzf-biaoti {
+      width: 100%;
+      height: 126px;
+      background-image: url(../img/yzf/xinwen2_06.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto; }
+    .box1 > .yzf-down {
+      width: 25px;
+      height: 25px;
+      background-image: url(../img/yzf/xin1_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 5px auto auto auto; }
+    .box1 > .yzf-biaoti2 {
+      width: 100%;
+      height: 80px;
+      background-image: url(../img/yzf/xinwen2_09.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 auto; }
+    .box1 .yzf-date {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      font-size: 14px;
+      font-family: "[STXihei]";
+      color: #545454; }
+      .box1 .yzf-date > b {
+        font-family: "微软雅黑";
+        font-size: 20px; }
+      .box1 .yzf-date > span {
+        font-family: "[MyriadPro]";
+        font-size: 18px;
+        display: block; }
+    .box1 .yzf-line {
+      width: 100%;
+      height: 14px;
+      background-image: url(../img/yzf/xinwen2_12.png);
+      background-size: cover;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 auto; }
+    .box1 .yzf-font1 {
+      display: block;
+      width: 90%;
+      margin: 30px auto;
+      height: auto;
+      font-size: 14px;
+      font-family: "宋体";
+      color: #1f1f1f;
+      text-align: justify; }
+    .box1 .yzf-font2 {
+      display: block;
+      width: 90%;
+      margin: 35px auto;
+      height: auto;
+      font-size: 12px;
+      font-family: "[MyriadPro]";
+      color: #3e3a39;
+      text-align: justify; }
+    .box1 .yzf-img1 {
+      width: 40%;
+      height: 325px;
+      background-image: url(../img/yzf/xinwen2_15.png);
+      background-size: cover;
+      background-position: center;
+      float: left;
+      margin-bottom: 0.6rem; }
+    .box1 .yzf-img2 {
+      width: 60%;
+      height: 325px;
+      background-image: url(../img/yzf/xinwen2_16.png);
+      background-size: cover;
+      background-position: center;
+      float: left;
+      margin-bottom: 0.6rem; }
+    .box1 .yzf-list1 {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      margin: 0 auto;
+      border-bottom: 1px solid #ccc; }
+      .box1 .yzf-list1 > .one {
+        width: 119px;
+        height: 119px;
+        display: block;
+        float: left;
+        margin: 0.2rem auto; }
+      .box1 .yzf-list1 > p {
+        font-size: 14px;
+        font-family: "微软雅黑";
+        margin-left: 20px;
+        float: left;
+        color: #000;
+        display: block; }
+      .box1 .yzf-list1 > .center {
+        width: 49%;
+        height: auto;
+        float: left;
+        margin-top: 0.2rem;
+        margin-left: 15px;
+        color: #000; }
+        .box1 .yzf-list1 > .center > p {
+          display: none; }
+        .box1 .yzf-list1 > .center > h2 {
+          font-size: 14px;
+          font-family: "微软雅黑";
+          margin: 0;
+          color: #000;
+          color: #555; }
+        .box1 .yzf-list1 > .center > .icon {
+          margin-top: 0.2rem;
+          color: #393838; }
+          .box1 .yzf-list1 > .center > .icon > .fontone {
+            display: block;
+            float: left; }
+          .box1 .yzf-list1 > .center > .icon > .fonttwo {
+            display: block;
+            margin-top: 8px;
+            float: left;
+            margin-left: 0.35rem; }
+          .box1 .yzf-list1 > .center > .icon > .fontthree {
+            display: block;
+            float: left;
+            margin-left: 1.2rem; }
+          .box1 .yzf-list1 > .center > .icon > .fontfour {
+            display: block;
+            margin-top: 8px;
+            float: left;
+            margin-left: 0.35rem; }
+          .box1 .yzf-list1 > .center > .icon > .fontfive {
+            display: none;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: red;
+            float: left;
+            margin-top: 8px;
+            margin-right: 0.15rem; }
+          .box1 .yzf-list1 > .center > .icon > .fontsix {
+            display: none;
+            margin-top: 8px;
+            float: left;
+            margin-left: 0.05rem; }
+      .box1 .yzf-list1 > .two {
+        float: left;
+        display: block;
+        margin-top: 80px;
+        margin-left: 30px;
+        display: none; }
+      .box1 .yzf-list1 > .three {
+        float: left;
+        display: block;
+        margin-top: 80px;
+        margin-left: 30px;
+        display: none; }
+    .box1 .yzf-lunbo {
+      width: 100%;
+      height: auto; }
+      .box1 .yzf-lunbo > img {
+        width: 30%;
+        height: auto;
+        float: left; }
+    .box1 .yzf-more {
+      width: 146px;
+      height: 73px;
+      background-image: url(../img/yzf/xinwen2_49.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+      margin-top: 0.6rem; }
+    .box1 .yzf-foot {
+      width: 317px;
+      height: 135px;
+      background-image: url(../img/yzf/footer_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+      margin-top: 0.6rem; }
+  .zhc-footer {
+    display: none; }
+  .zhc-footermin {
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    background: url(../img/zhc/zhc-footermin_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+    .zhc-footermin .zhc-fotmin {
+      width: 100%;
+      text-align: center;
+      height: auto;
+      padding: 30px 35%; }
+      .zhc-footermin .zhc-fotmin img {
+        width: 100%;
+        display: block;
+        margin-top: 30px; }
+    .zhc-footermin p {
+      padding: 15px 0;
+      width: 60%;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 16px;
+      margin: 0;
+      margin-left: 20%;
+      color: #fff; }
+    .zhc-footermin h5 {
+      width: 100%;
+      height: auto;
+      padding: 30px 0;
+      margin: 0;
+      font-size: 16px;
+      color: #fff;
+      text-align: center; }
+    .zhc-footermin div {
+      width: 100%;
+      height: auto;
+      text-align: center; }
+      .zhc-footermin div img {
+        width: 34px;
+        height: 34px;
+        margin: 0 10px; }
+    .zhc-footermin .zhc-fotend {
+      border-top: 1px solid #b0b0b0;
+      margin-top: 30px;
+      padding: 30px 20%;
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+      color: #fff;
+      text-align: center; } }
+
+@media only screen and (min-width: 750px) {
+  body {
+    background: #f6f6f6; }
+  .yzf-banner {
+    display: none; }
+  .yzf-banner1 {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/yzf/banner1_01.png);
+    background-size: cover;
+    background-position: center center; }
+    .yzf-banner1 .navmax {
+      width: 100%;
+      height: 60px;
+      position: absolute;
+      top: 34px;
+      left: 50%;
+      margin-left: -50%;
+      overflow: hidden; }
+      .yzf-banner1 .navmax .juone {
+        width: 10%;
+        height: 60px;
+        border-radius: 0  50px 50px 0;
+        background: rgba(255, 255, 255, 0.3);
+        float: left; }
+      .yzf-banner1 .navmax .sy2 {
+        width: 6%;
+        height: 60px;
+        float: left;
+        background-image: url(../img/ly/sy.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 66px 60px;
+        margin-left: 2%; }
+      .yzf-banner1 .navmax .jutwo {
+        width: 80%;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 50px 0 0 50px;
+        margin-left: 2%;
+        float: left; }
+        .yzf-banner1 .navmax .jutwo .active {
+          border-bottom: 4px solid #ff0000;
+          box-sizing: border-box; }
+        .yzf-banner1 .navmax .jutwo img {
+          float: left; }
+        .yzf-banner1 .navmax .jutwo a {
+          height: 100%;
+          float: left;
+          font-size: 18px;
+          color: white;
+          padding: 0 10px;
+          line-height: 60px;
+          text-decoration: none; }
+          .yzf-banner1 .navmax .jutwo a span {
+            font-size: 18px; }
+        .yzf-banner1 .navmax .jutwo .denglu {
+          width: 120px;
+          height: 60px;
+          margin-left: 50px;
+          float: left; }
+          .yzf-banner1 .navmax .jutwo .denglu a {
+            font-size: 16px;
+            float: left;
+            margin-top: 2px; }
+        .yzf-banner1 .navmax .jutwo input {
+          width: 170px;
+          height: 24px;
+          border-radius: 7px;
+          margin-left: 20px;
+          margin-top: 16px;
+          border-color: white;
+          outline: none;
+          padding-left: 10px;
+          box-sizing: border-box;
+          background: transparent;
+          color: #fff; }
+  .box {
+    width: 100%;
+    height: auto; }
+  .box2 {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  .box1 {
+    width: 89%;
+    height: auto;
+    position: relative;
+    top: -55px;
+    left: 5%;
+    background: #fff;
+    overflow: hidden; }
+    .box1 > .yzf-sign {
+      width: 100%;
+      height: 115px;
+      margin-top: 60px;
+      background-image: url(../img/yzf/xinwen2_03.png);
+      background-size: 100% 100%;
+      background-position: center; }
+    .box1 > .yzf-daohang {
+      position: absolute;
+      top: 55px;
+      left: 12%; }
+      .box1 > .yzf-daohang a {
+        font-size: 24px;
+        color: #999999; }
+      .box1 > .yzf-daohang span {
+        font-size: 24px;
+        color: #999999; }
+      .box1 > .yzf-daohang .yzf-active {
+        color: #fe3052; }
+    .box1 > .yzf-biaoti {
+      width: 546px;
+      height: 126px;
+      background-image: url(../img/yzf/xinwen2_06.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto; }
+    .box1 > .yzf-down {
+      width: 33px;
+      height: 33px;
+      background-image: url(../img/yzf/xin1_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 5px auto auto auto; }
+    .box1 > .yzf-biaoti2 {
+      width: 40%;
+      height: 126px;
+      background-image: url(../img/yzf/xinwen2_09.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto; }
+    .box1 .yzf-date {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      font-size: 14px;
+      font-family: "[STXihei]";
+      color: #545454; }
+      .box1 .yzf-date > b {
+        font-family: "微软雅黑";
+        font-size: 24px; }
+      .box1 .yzf-date > span {
+        font-family: "[MicrosoftYa...";
+        font-size: 18px;
+        display: block; }
+    .box1 .yzf-line {
+      width: 100%;
+      height: 14px;
+      background-image: url(../img/yzf/xinwen2_12.png);
+      background-size: 100% 100%;
+      background-position: center;
+      margin: 0 auto; }
+    .box1 .yzf-font1 {
+      display: block;
+      width: 90%;
+      margin: 30px auto;
+      height: auto;
+      font-size: 14px;
+      font-family: "宋体";
+      color: #1f1f1f; }
+    .box1 .yzf-font2 {
+      display: block;
+      width: 90%;
+      margin: 35px auto;
+      height: auto;
+      font-size: 12px;
+      font-family: "[MyriadPro]";
+      color: #3e3a39; }
+    .box1 .yzf-img1 {
+      width: 40%;
+      height: 544px;
+      background-image: url(../img/yzf/xinwen2_15.png);
+      background-size: cover;
+      background-position: center;
+      float: left;
+      margin-bottom: 100px; }
+    .box1 .yzf-img2 {
+      width: 60%;
+      height: 544px;
+      background-image: url(../img/yzf/xinwen2_16.png);
+      background-size: cover;
+      background-position: center;
+      float: left;
+      margin-bottom: 100px; }
+    .box1 .yzf-list1 {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      margin: 0 auto;
+      border-bottom: 1px solid #ccc; }
+      .box1 .yzf-list1 > .one {
+        width: 119px;
+        height: 119px;
+        display: block;
+        float: left;
+        margin: 0.2rem auto 0.2rem 0.5rem; }
+      .box1 .yzf-list1 > p {
+        font-size: 14px;
+        font-family: "微软雅黑";
+        margin-left: 20px;
+        float: left;
+        color: #000;
+        display: block; }
+      .box1 .yzf-list1 > .center {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-top: 0.25rem;
+        margin-left: 0.2rem; }
+        .box1 .yzf-list1 > .center > h2 {
+          display: none; }
+        .box1 .yzf-list1 > .center > .icon {
+          color: #393838; }
+          .box1 .yzf-list1 > .center > .icon > .fontone {
+            display: block;
+            float: left; }
+          .box1 .yzf-list1 > .center > .icon > .fonttwo {
+            display: block;
+            margin-top: 8px;
+            float: left;
+            margin-right: 0.25rem; }
+          .box1 .yzf-list1 > .center > .icon > .fontthree {
+            display: block;
+            float: left; }
+          .box1 .yzf-list1 > .center > .icon > .fontfour {
+            display: block;
+            margin-top: 8px;
+            float: left;
+            margin-right: 0.25rem; }
+          .box1 .yzf-list1 > .center > .icon > .fontfive {
+            display: block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: red;
+            float: left;
+            margin-top: 8px; }
+          .box1 .yzf-list1 > .center > .icon > .fontsix {
+            display: block;
+            margin-top: 8px;
+            float: left;
+            margin-left: 0.05rem; }
+      .box1 .yzf-list1 > .two {
+        width: 10%;
+        height: auto;
+        display: block;
+        float: left;
+        margin-top: 30px;
+        margin-left: 5%; }
+      .box1 .yzf-list1 > .three {
+        width: 10%;
+        height: auto;
+        display: block;
+        float: left;
+        margin-top: 30px;
+        margin-left: 5%; }
+    .box1 .yzf-lunbo {
+      width: 100%;
+      height: auto; }
+      .box1 .yzf-lunbo > img {
+        width: 30%;
+        height: auto;
+        float: left; }
+    .box1 .yzf-more {
+      width: 146px;
+      height: 73px;
+      background-image: url(../img/yzf/xinwen2_49.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+      margin-top: 0.6rem; }
+    .box1 .yzf-foot {
+      width: 317px;
+      height: 135px;
+      background-image: url(../img/yzf/footer_03.png);
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+      margin-top: 0.6rem; }
+  .zhc-footer {
+    width: 100%;
+    height: auto;
+    background: url(../img/zhc/zhc-footers_07.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .zhc-footer .zhc-fot {
+      width: 100%;
+      height: auto;
+      padding: 30px 0;
+      padding-top: 150px;
+      overflow: hidden;
+      text-align: center; }
+      .zhc-footer .zhc-fot img {
+        height: 100%; }
+    .zhc-footer .zhc-fots {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden; }
+      .zhc-footer .zhc-fots div:first-child {
+        width: 45%;
+        height: 200px;
+        float: left; }
+        .zhc-footer .zhc-fots div:first-child img {
+          float: left;
+          height: 120px;
+          width: 120px;
+          margin: 40px; }
+        .zhc-footer .zhc-fots div:first-child div {
+          height: 100%;
+          width: 50%; }
+          .zhc-footer .zhc-fots div:first-child div h1 {
+            width: 100%;
+            margin: 0;
+            color: #fff;
+            font-size: 24px;
+            margin: 30px 0; }
+          .zhc-footer .zhc-fots div:first-child div p {
+            width: 100%;
+            margin: 0;
+            color: #fff;
+            font-size: 10px;
+            margin: 20px 0; }
+          .zhc-footer .zhc-fots div:first-child div img {
+            width: 34px;
+            height: 34px;
+            margin: 0;
+            margin-right: 15px; }
+      .zhc-footer .zhc-fots div:nth-child(2) {
+        float: right;
+        height: 200px;
+        width: 45%; }
+        .zhc-footer .zhc-fots div:nth-child(2) ul {
+          float: left;
+          height: 100%;
+          width: 400px; }
+          .zhc-footer .zhc-fots div:nth-child(2) ul li {
+            font-size: 14px;
+            color: #fff;
+            width: 100%;
+            height: auto;
+            padding: 20px 0;
+            border-bottom: 1px solid #b0b0b0; }
+          .zhc-footer .zhc-fots div:nth-child(2) ul li:last-child {
+            border: none; }
+        .zhc-footer .zhc-fots div:nth-child(2) img {
+          margin-left: 35px;
+          width: 101px;
+          height: 109px;
+          margin-top: 30px; }
+    .zhc-footer .zhc-fotss {
+      width: 100%;
+      height: auto;
+      padding: 30px 0;
+      border-top: 1px solid #fff;
+      text-align: center;
+      color: #fff;
+      margin-top: 20px; }
+  .zhc-footermin {
+    display: none; } }
+
+@media screen and (max-width: 414px) {
+  .zhc-footermin {
+    margin-top: 5px;
+    height: auto;
+    width: 100%;
+    background: url(../img/zhc/zhc-footermin_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+    .zhc-footermin .zhc-fotmin {
+      width: 100%;
+      text-align: center;
+      height: auto;
+      padding: 15px 25%; }
+      .zhc-footermin .zhc-fotmin img {
+        width: 100%;
+        height: 40px; }
+    .zhc-footermin p {
+      padding: 7px 0;
+      width: 60%;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 8px;
+      margin: 0;
+      margin-left: 20%;
+      color: #fff; }
+    .zhc-footermin h5 {
+      width: 100%;
+      height: auto;
+      padding: 15px 0;
+      margin: 0;
+      font-size: 8px;
+      color: #fff;
+      text-align: center; }
+    .zhc-footermin div {
+      width: 100%;
+      height: auto;
+      text-align: center; }
+      .zhc-footermin div img {
+        width: 17px;
+        height: 17px;
+        margin: 0 5px; }
+    .zhc-footermin .zhc-fotend {
+      border-top: 1px solid #b0b0b0;
+      margin-top: 15px;
+      padding: 15px 20%;
+      width: 100%;
+      height: auto;
+      font-size: 7px;
+      color: #fff;
+      text-align: center; } }
