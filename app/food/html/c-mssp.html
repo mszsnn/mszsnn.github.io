@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>美食视频</title>
+    <link rel="stylesheet" href="../css/c-mssp.css">
+    <script src="../js/common/common.js"></script>
+    <script src="../js/common/zepto.min.js"></script>
+    <script src="../js/common/iscroll.js"></script>
+</head>
+<body>
+    <!--头部开始-->
+    <div id="header">
+        <a onclick="history.go(-1)"><img class="z-return" src="../img/z-img/z-return.png" alt=""></a>
+        <img class="z-tupian1" src="../img/c-img/shipin.png" alt="">
+        <a href="z-searchfood.html"><img class="z-yuyin" src="../img/c-img/search.png" alt=""></a>
+    </div>
+    <!--头部结束-->
+    <!--视频列表-->
+    <div id="wrapper">
+        <div class="scroller">
+            <ul class="video-list">
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video1.png" alt="">
+                    <div class="v-zhao">
+                        <p>密云金丝小枣</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video2.png" alt="">
+                    <div class="v-zhao">
+                        <p>鼎日有福建肉松</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video3.png" alt="">
+                    <div class="v-zhao">
+                        <p>六必居酱菜</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video4.png" alt="">
+                    <div class="v-zhao">
+                        <p>密云金丝小枣</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video1.png" alt="">
+                    <div class="v-zhao">
+                        <p>密云金丝小枣</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video2.png" alt="">
+                    <div class="v-zhao">
+                        <p>鼎日有福建肉松</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video3.png" alt="">
+                    <div class="v-zhao">
+                        <p>六必居酱菜</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+                <li class="video">
+                    <img class="sp" src="../img/c-img/video4.png" alt="">
+                    <div class="v-zhao">
+                        <p>密云金丝小枣</p>
+                        <span>Zhaojun's taste of cherry</span>
+                        <img src="../img/c-img/eye.png" alt="">
+                        <span>18888</span>
+                        <img src="../img/c-img/fxin.png" alt="">
+                        <span>18888</span>
+                    </div>
+                    <img src="../img/c-img/video5.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    window.onload=function () {
+        var myScroll;
+        {
+            myScroll = new IScroll('#wrapper', {
+                mouseWheel: true,
+                freeScroll: true
+            });
+        }
+    }
+</script>

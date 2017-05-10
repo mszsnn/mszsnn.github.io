@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>陈奕迅</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../common/MobilePhone.css">
+    <link rel="stylesheet" href="../css/F-chenyixun.css">
+    <script src="../common/zepto.min.js"></script>
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/iscroll.js"></script>
+</head>
+<body>
+   <main>
+        <div class="header">
+           <div class="back">
+               <a href="javascript:window.history.go(-1);">
+                   <img src="../img/F-img/return.png" alt="">
+               </a>
+           </div>
+           <p>陈奕迅</p>
+           <span></span>
+           <div class="shoucang">
+               <img src="../img/F-img/cyx-xin.png" alt="">
+               <span>收藏</span>
+           </div>
+       </div>
+        <div class="introduce">
+            <span></span>
+            <p>歌手简介</p>
+            <div>
+                <img src="../img/F-img/cyx-touxiang.png" alt="">
+                <span></span>
+                <p>陈奕迅（Eason Chan)，1947年7月27日出生于香港，中国香港男歌手、演员，毕业于英国金斯顿大学。1995年获得14届新秀歌唱大赛冠军而正式出道</p>
+            </div>
+        </div>
+        <div class="info">
+            <span></span>
+            <p>详细信息</p>
+            <div>
+                <img src="../img/F-img/cyx-info.png" alt="">
+                <p>Rice & shine</p>
+                <span></span>
+                <span>陈奕迅</span>
+                <span>2014年5月15日发布</span>
+                <span>+关注</span>
+                <h4>简介</h4>
+                <p>这张专辑的创意来自陈奕迅与两组音乐人灵感的碰撞，在他们的精心制作下后诞生了这样一张极具反差的概念专辑。火星电台是周迅亲自推荐的，陈奕迅听说林俊杰做制作人会对歌手要求很高，因此亲自选定他。</p>
+            </div>
+        </div>
+        <div class="musicbox">
+            <span></span>
+            <p>专辑音乐</p>
+            <div class="music">
+
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>愚人快乐</section>
+                        <section>陈奕迅</section>
+                        <section>16.3W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>不如承诺来的简单</section>
+                        <section>陈奕迅</section>
+                        <section>6.5W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>对面</section>
+                        <section>陈奕迅</section>
+                        <section>5.7W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>娱乐天空(Remix)</section>
+                        <section>陈奕迅</section>
+                        <section>4.2W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   </main>
+</body>
+</html>
+<script>
+    //			侧滑
+    $(".swipeLeft").each(function(index,value){
+        value.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            startX = e.changedTouches[0].pageX,
+                startY = e.changedTouches[0].pageY;
+        });
+        value.addEventListener("touchmove", function(e) {
+            e.preventDefault();
+            moveEndX = e.changedTouches[0].pageX,
+                moveEndY = e.changedTouches[0].pageY,
+                X = (moveEndX - startX)/100,
+                Y = (moveEndY - startY)/100;
+            var l=parseInt($(".show").eq(index).css('marginLeft'));
+            if(0>=l>-3){
+                if(X<-0.4){
+                    $(".show").eq(index).css('marginLeft','-2.46rem');
+                }
+            }
+            if(l<0){
+                if(X>0.4){
+                    $(".show").eq(index).css('marginLeft','0');
+                }
+            }
+        });
+    })
+
+
+</script>

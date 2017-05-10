@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mv</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../common/MobilePhone.css">
+    <link rel="stylesheet" href="../css/F-MV-recommend.css">
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/iscroll.js"></script>
+</head>
+<body>
+    <header>
+        <div class="F-title">
+            <div>
+                <a href="z-index.html">
+                    <img src="../img/F-img/return.png" alt="">
+                </a>
+            </div>
+            <div>mv</div>
+            <div>
+                <a href="D-one.html">
+                    <img src="../img/F-img/search.png" alt="">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="F-MV-recommend.html">
+                        <img src="../img/F-img/tuijian.png" alt="">
+                        <span>|</span>
+                        <p>推荐</p>
+                        <span class="choose"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-MV-new.html">
+                        <img src="../img/F-img/zuixin.png" alt="">
+                        <span>|</span>
+                        <p>最新</p>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-MV-hot.html">
+                        <img src="../img/F-img/zuire.png" alt="">
+                        <span>|</span>
+                        <p>最热</p>
+                        <span></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <main id="scroller">
+            <section class="recommend">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div></div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <p>又是清明雨上，折菊寄到你身旁 你准备好了么...</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div></div>
+                        </a>
+                    </li>
+                    <li>
+                        <p>起风的日子流洒奔放</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <div>
+                                <div>
+                                    <span></span>
+                                    <p>26.5万</p>
+                                    <span></span>
+                                    <p>478</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <p>曾经的回忆已是往事</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <div>
+                                    <span></span>
+                                    <p>26.5万</p>
+                                    <span></span>
+                                    <p>478</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <p>爱你导天荒地老已是往事</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <div>
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <p> <i>经典魅力</i>之情歌</p>
+                        <p>收录DJ668<span>&gt;</span></p>
+                        <p><strong>Fashion charm of</strong> love songs</p>
+                    </div>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script>
+        window.onload=function () {
+            var myScroll = new IScroll('#wrapper', {
+                mouseWheel: true,
+                scrollbars: false,
+                click:true,
+            });
+        }
+    </script>
+</body>
+</html>

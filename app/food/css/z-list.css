@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html {
+    -ms-touch-action: none;
+}
+body,ul,li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    font-size: 12px;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+/*头部开始*/
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*line-height: 45px;*/
+    background-image: url("../img/z-img/z-beijing.png");
+    background-size:100% 100%;
+    padding: 0;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:.88rem;
+}
+#header .z-return{
+    padding-left: 0.36rem;
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: .2rem;
+}
+.z-dapei{
+    width:4.2rem;
+    height:.5rem;
+    border-radius: .5rem;
+    margin: .2rem auto;
+    font-size: .24rem;
+    background:white;
+}
+.z-dapeifenlei{
+    width:50%;
+    height:.35rem;
+    float: left;
+    margin-top: .075rem;
+}
+.z-dapeifen{
+    height:100%;
+    margin: 0 auto;
+    width:1.5rem;
+}
+.z-dapeifenlei .first{
+    background: #ffde27;
+    color:white;
+    border-radius: .35rem;
+}
+/*头部结束*/
+/*内容开始*/
+/*第二部分开始*/
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: .88rem;
+    left: 0;
+    bottom:0rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position: absolute;
+    left:0;
+    top:-0.88rem;
+    z-index: 1;
+    width:100%;
+    height: auto;
+    user-select: none;
+}
+.z-total{
+    position: relative;
+}
+.z-searchz{
+    display: none;
+}
+.z-beijingtu{
+    height:.47rem;
+    background-image: url("../img/z-img/z-beijing.png");
+    background-size:cover;
+    margin: 0.88rem -.36rem 0;
+    padding:0 .36rem;
+}
+.z-box{
+    height:auto ;
+    background: white;
+    margin:-.47rem .36rem 0;
+    padding:0 .36rem;
+}
+.z-li{
+    height:.7rem;
+    width:100%;
+
+    border-bottom: 1px solid #ffdf4e;
+    /*line-height: .7rem;*/
+}
+.z-li span:nth-child(1){
+    color: #ffdf4e;
+    font-size: .4rem;
+    line-height: .7rem;
+    margin-right: .2rem;
+    display: block;
+    float:left;
+}
+.z-li span:nth-child(2){
+    font-size: .24rem;
+    line-height: .7rem;
+}
+.z-li a:nth-child(3){
+    display: block;
+    float: right;
+    font-size: .24rem;
+    border-radius: .24rem;
+    background: #ffdf4e;
+    color: white;
+    height:.4rem;
+    margin-top: .15rem;
+    padding: 0 .1rem;
+    line-height: .4rem;
+}
+.z-index{
+    /*z-index: 1000;*/
+    display: block;
+}
+/*taji*/
+.z-cai{
+    /*width: 100%;*/
+    height: 2.7rem;
+    /*box-shadow: 1px 0 0.1rem 0 #e4e4e4;*/
+    border-radius: 0.05rem;
+    border: 1px solid #f3f3f3;
+    /*box-sizing: border-box;*/
+    margin:0.3rem .72rem 0.3rem;
+}
+.c-left{
+    width: 44%;
+    float: left;
+    padding: 0.2rem 0.12rem;
+}
+.c-left >img{
+    width: 2rem;
+}
+.c-right{
+    width: 56%;
+    float: left;
+    padding-right: 0.36rem;
+}
+.c-right >.c-cname{
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: #3e3e3e;
+    margin-top: 0.04rem;
+}
+.c-right >.c-engname{
+    font-size: 0.22rem;
+    font-family: "San Francisco Display";
+    color: #ffdc3b;
+    text-transform: uppercase;
+}
+.c-right >.c-rect{
+    width: 0.26rem;
+    height: 0.03rem;
+    background: #ffdc3b;
+    margin: 0.06rem 0;
+}
+.c-right >.assess{
+    font-size: 0.2rem;
+    color: #474747;
+}
+.c-right > .c-x{
+    color: #cfcfcf;
+    font-size: 0.2rem;
+}
+.c-right >.look,.c-right >.xin{
+    width: 50%;
+    float: left;
+}
+.look>img{
+    width: 0.32rem;
+}
+.look>span,.xin>span{
+    font-size: 0.22rem;
+    color:#656565;
+}
+/*.xin >img{*/
+    /*width: 0.3rem;*/
+/*}*/
+/*taijijieshu*/
+/*内容结束*/

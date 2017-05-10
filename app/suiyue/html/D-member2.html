@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+    <meta name="author" content="Nathan Searles">
+    <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+    <meta name="viewport" content="width=device-width">
+    <!-- End SlidesJS Required -->
+    <meta name="format-detection" content="telephone=no, email=no" />
+
+    <title>会员中心</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <script src="../common/MobilePhone.js"></script>
+
+    <link rel="stylesheet" href="../common/d-iscroll.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/D-member2.css">
+    <link rel="stylesheet" href="../css/bottom.css">
+    <link rel="stylesheet" href="../font/L-font/iconfont.css">
+    <script src="../common/zepto.min.js"></script>
+    <script src="../js/L-one.js"></script>
+    <script src="../js/D-member2.js"></script>
+    <script src="../common/iscroll.js"></script>
+</head>
+<style>
+    #wrapper{
+        margin-top: 0.9rem;
+    }
+</style>
+<body>
+    <header>
+        <a href="javascript:history.go(-1);"><img src="../img/D-one/return.png" alt=""></a>
+        <span>会员中心</span>
+    </header>
+    <section class="d-option">
+        <a href="D-member2.html">
+            豪华VIP
+            <div class="d-underline"></div>
+        </a>
+        <a href="D-member3.html">音乐包</a>
+    </section>
+    <div id="wrapper">
+        <div id="scroller">
+            <section class="d-person">
+                <a href="" class="d-head"></a>
+                <div class="d-introduce">
+                    <span>小明同学</span>
+                    <img src="../img/D-member1/2111_03.png" alt="">
+                    <img src="../img/D-member1/2111_06.png" alt="">
+                    <div>
+                        <span>岁乐会员</span><span>15天(体验) &nbsp;&nbsp;&nbsp;&nbsp;到期：2017.4.28</span>
+                        <a href="D-member4.html">续费</a>
+                    </div>
+                </div>
+            </section>
+            <section class="d-pay">
+                <p>开通会员即送<span>音乐付费包</span></p>
+                <ul class="d-open">
+                    <li>
+                        <!--<img src="../img/D-member1/background1.png" alt="">-->
+                        <div class="d-price">
+                            <p>连续包月<span>14元/月</span>，可随时取消续费</p>
+                            <a href="D-member4.html">开通</a>
+                        </div>
+                    </li>
+                    <li>
+                        <!--<img src="../img/D-member1/background2.png" alt="">-->
+                        <div class="d-price">
+                            <p>连续3月<span>13元/月</span>，可随时取消续费</p>
+                            <a href="D-member4.html">开通</a>
+                        </div>
+                    </li>
+                    <li>
+                        <!--<img src="../img/D-member1/background3.png" alt="">-->
+                        <div class="d-price">
+                            <p>连续6月<span>13元/月</span>，可随时取消续费</p>
+                            <a href="D-member4.html">开通</a>
+                        </div>
+                    </li>
+                    <!--<div><img src="../img/D-member1/组%204.png" alt=""></div>-->
+                </ul>
+            </section>
+            <section class="d-explain">
+                <h4>使用说明：</h4>
+                <div>
+                    <span>购买5分钟内生效</span>
+                    <span>若购买后无法正常使用特权，可尝试重启岁乐APP解决</span>
+                    <span>开通音乐包后即可畅享百万专属曲库以及下载加速特权</span>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <a href="L-six.html" class="image"></a>
+        <div>
+            <h4>NgauHung</h4>
+            <h6>Hoaprox</h6>
+        </div>
+        <div>
+            <canvas id='canvas' width="100" height="50" display="block"></canvas>
+        </div>
+        <div class="btn">
+            <span class="iconfont icon-icon-test3 prev"></span>
+            <span class="iconfont icon-icon-test2 play"></span>
+            <span class="iconfont icon-icon-test7 next"></span>
+        </div>
+        <audio src="../font/L-font/2.mp3" id="audio"></audio>
+    </footer>
+</body>
+</html>
+<script>
+    window.onload=function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true ,
+            click:true,
+        });
+    }
+</script>

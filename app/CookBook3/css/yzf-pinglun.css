@@ -1,0 +1,40 @@
+.yzf-nav{
+	width:7.5rem;
+	height:12.94rem;
+}
+.yzf-nav img:first-child{
+	width:7.5rem;
+	height:12.94rem;
+	position:relative;
+}
+.yzf-nav img:nth-child(2){
+	width:0.14rem;
+	height:0.25rem;
+	position:absolute;
+	top:0.3rem;
+	left:0.3rem;
+}
+.yzf-nav .fabu{
+	width:2.86rem;
+	height:1rem;
+	position:absolute;
+	bottom:1rem;
+	left:2.5rem;
+}
+.yzf-nav .fabu img{
+	width:2.86rem;
+	height:1rem;
+}
+form textarea{
+	width:4.9rem;
+	height:1.65rem;
+	line-height:0.5rem;
+	background:#E0E0E0;
+	position:absolute;
+	top:5rem;
+	left:1.5rem;
+	z-index:1000;
+	font-size:0.24rem;
+	color:#666;
+	padding-left:0.2rem;
+}

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+    <meta name="author" content="Nathan Searles">
+
+    <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+    <meta name="viewport" content="width=device-width">
+    <!-- End SlidesJS Required -->
+
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>搜索</title>
+    <link rel="stylesheet" href="../css/D-one.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../font/L-font/iconfont.css">
+    <link rel="stylesheet" href="../common/d-iscroll.css">
+    <link rel="stylesheet" href="../css/bottom.css">
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/zepto.min.js"></script>
+    <script src="../js/D-one.js"></script>
+    <script src="../js/L-one.js"></script>
+    <script src="../common/iscroll.js"></script>
+</head>
+<style>
+    body{
+        box-sizing: border-box;
+        background:#f1f1f1;
+    }
+    section.d-img{
+        width:100%;
+        height:auto;
+        text-align: center;
+    }
+    section.d-img > img{
+        width:75%;
+        margin-top: 2rem;
+    }
+    #wrapper{
+        width:95%;
+        margin-left: 2.5%;
+        background:#fff;
+        box-shadow: 0.02rem 0 0.09rem rgba(0,0,0,0.2);
+    }
+</style>
+<body>
+    <header>
+    <div class="d-return">
+        <a href="javascript:window.history.go(-1);"><img src="../img/D-one/return.png" alt=""></a>
+    </div>
+    <div class="d-search">
+        <input name="input" placeholder="搜索"/>
+        <div class="line"></div>
+        <span>
+                <img src="../img/D-one/search.png" alt="" class="d-searchicon">
+                <img src="../img/D-one/clear.png" alt="" class="d-clearicon">
+            </span>
+    </div>
+    <div class="d-microphone">
+        <a href="D-distinguish.html"><img src="../img/D-one/voice.png" alt=""></a>
+    </div>
+</header>
+    <section class="d-result">
+        <div class="d-box"><div class="d-triangle"></div></div>
+        <ul>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/note.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/play.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/note.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/play.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/search2.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/arrow.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/search2.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/arrow.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/search2.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/arrow.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/search2.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/arrow.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/search2.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/arrow.png" alt=""></a>
+                        </span>
+            </li>
+            <li>
+                <span class="d-icon"><img src="../img/D-one/search2.png" alt=""></span>
+                <div class="d-font">
+                    <span>刚好遇见你</span>
+                    <span>李玉刚</span>
+                </div>
+                <span class="d-icon">
+                            <a href=""><img src="../img/D-one/arrow.png" alt=""></a>
+                        </span>
+            </li>
+        </ul>
+    </section>
+    <div id="wrapper">
+        <div id="scroller">
+                <section class="d-img">
+                    <img src="../img/D-one/monkey.png" alt="">
+                </section>
+        </div>
+    </div>
+    <footer>
+        <a href="L-six.html" class="image"></a>
+        <div>
+            <h4>NgauHung</h4>
+            <h6>Hoaprox</h6>
+        </div>
+        <div>
+            <canvas id='canvas' width="100" height="50" display="block"></canvas>
+        </div>
+        <div class="btn">
+            <span class="iconfont icon-icon-test3 prev"></span>
+            <span class="iconfont icon-icon-test2 play"></span>
+            <span class="iconfont icon-icon-test7 next"></span>
+        </div>
+        <audio src="../font/L-font/2.mp3" id="audio"></audio>
+    </footer>
+</body>
+</html>
+<script>
+    window.onload=function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true ,
+            click:true,
+        });
+    }
+</script>

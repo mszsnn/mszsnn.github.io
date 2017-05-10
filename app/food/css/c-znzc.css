@@ -1,0 +1,210 @@
+@import url(c-header.css);
+@import url(common.css);
+body{
+    font-size: 16px;
+    background: #efefef;
+}
+/*滚动条*/
+#wrapper {
+    top: 2.1rem;
+}
+/*食材选择*/
+.c-top{
+    width: 100%;
+    height: 1.23rem;
+    background-image: url("../img/c-img/122.png");
+}
+.c-top>div{
+    margin: 0 0.37rem;
+}
+.c-select{
+    display: block;
+    overflow: hidden;
+}
+.c-select>p,.c-select>.c-title{
+    float: left;
+}
+.c-select>p{
+    color: #fff;
+    font-family: "Vijaya";
+    font-weight: bold;
+    font-size: 0.3rem;
+    padding-top: 0.1rem;
+    padding-right: 0.1rem;
+}
+.c-title>span{
+    color: #fff;
+    font-size: 0.24rem;
+    font-weight: normal;
+}
+.c-title>img{
+    width: 1px;
+    height: 0.16rem;
+}
+.c-title>.c-eng{
+    text-transform: uppercase;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    margin-left: 0.15rem;
+}
+.c-line{
+    width: 4.65rem;
+    margin-left: 0.3rem;
+    border-bottom: 1px dotted #fff;
+}
+.c-selected{
+    margin-left: 0.3rem;
+    margin-top: 0.12rem;
+    overflow: hidden;
+}
+.c-selected>span,.c-selected>ul li{
+    float: left;
+}
+.c-selected>span{
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.c-selected>ul li{
+    width: 1.2rem;
+    height: 0.4rem;
+    background: #fff;
+    border-radius: 0.28rem;
+    text-align: center;
+    margin-left: 0.15rem;
+}
+.c-selected>.c-xuan >li >span{
+    font-size: 0.24rem;
+    line-height: 0.28rem;
+}
+.c-selected>ul li>img{
+    width: 0.28rem;
+    margin-top: 0.05rem;
+    margin-left: 0.02rem;
+}
+
+section.zhan{
+    position: absolute;
+    top:0;
+    height: 0.8rem;
+    width: 100%;
+    background-image: url("../img/c-img/80.png");
+    z-index: -1;
+}
+/*主体部分*/
+main{
+    width: 7rem;
+    margin: 0 0.26rem;
+    height: auto;
+    background: #fff;
+    border-radius: 0.05rem;
+    margin-bottom: 1rem;
+}
+main >div{
+    padding: 0.24rem 0.1rem 0.1rem 0.1rem;
+}
+/*标题*/
+.c-tit{
+    width: 100%;
+    height: 0.68rem;
+}
+.c-tit>.c-t-left{
+    float: left;
+}
+.c-tit>.c-t-left>img{
+    float: left;
+    width: 0.45rem;
+}
+.c-tit>.c-t-left>div{
+    float: left;
+    margin-top: -0.1rem;
+}
+.c-tit>.c-t-left>div>p:first-child{
+    font-size: 0.24rem;
+    color: #303030;
+}
+.c-tit>.c-t-left>div>p:last-child{
+    font-size: 0.22rem;
+    font-family: "San Francisco Display";
+    text-transform: uppercase;
+}
+.c-tit>.c-t-right{
+    float: right;
+}
+.c-tit>.c-t-right a>span{
+    color: #eee;
+    font-size: 0.24rem;
+}
+.c-tit>.c-t-right a>span:last-child{
+    font-family: "宋体";
+}
+/*ul列表*/
+.c-list{
+    width: 100%;
+    overflow: hidden;
+}
+.c-list>li{
+    width: 33.333%;
+    height: 2.45rem;
+    margin: 0.12rem 0;
+    float: left;
+    position: relative;
+}
+.c-list >li >img{
+    margin-left: 0.25rem;
+    width: 1.67rem;
+    height: 1.76rem;
+    border-radius: 0.05rem;
+}
+/*对号*/
+.c-dui{
+    position: absolute;
+    top: 0;
+    right: 0.4rem;
+    display: none;
+}
+.c-dui.active{
+    display: block;
+}
+.c-dui>img{
+    width: 0.25rem;
+}
+.c-add{
+    width: 100%;
+    text-align: center;
+}
+.c-add>span{
+    font-size: 0.24rem;
+}
+.c-add >img{
+    width: 0.18rem;
+}
+.c-rou .c-tit>.c-t-left>div>p:last-child{
+    color: #fb756a;
+}
+.c-cai .c-tit>.c-t-left>div>p:last-child{
+    color: #7fd236;
+}
+.c-shui .c-tit>.c-t-left>div>p:last-child{
+    color: #8245f3;
+}
+
+/*按钮*/
+.btn{
+    background: rgba(0,0,0,0);
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    bottom: 0.4rem;
+}
+.btn>a{
+    width: 3.5rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 3px 20px 0 #ffdc3b;
+}
+.btn>a > img{
+    height: 100%;
+}

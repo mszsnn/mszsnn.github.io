@@ -1,0 +1,416 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        line-height: 45px;
+        background-image: url("../img/z-img/z-beijing.png");
+        background-size:100% 100%;
+        padding: 0;
+        color: #eee;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        height:.88rem;
+    }
+    #header .z-return{
+        padding-left: 0.36rem;
+        display: block;
+        float: left;
+        height:0.48rem;
+        margin-top: .2rem;
+    }
+    #header .z-tupian1{
+        width:1.92rem;
+        float: left;
+        margin-left: 2.05rem;
+        margin-top: 0.18rem;
+    }
+    #header .z-yuyin{
+        display: block;
+        float: right;
+        padding-right: 0.36rem;
+        height:.48rem;
+        margin-top: 0.2rem;
+    }
+
+.h-main{
+    width: 100%;
+    height:11.2rem ;
+    overflow: hidden;
+    margin: {
+        top: 0.88rem;
+        bottom: 0.98rem;
+    };
+}
+.h-iscrollBox{
+    position: relative;
+}
+.h-bannerbox{
+    height: 3.48rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner > .picture{
+    position:relative;
+    img{
+        width: 100%;
+    }
+}
+.h-bannertext{
+    width: 4.12rem;
+    height: 1.09rem;
+    background-image: url(../img/h-img/banner_text.png);
+    background-size: 4.12rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;    
+}
+#nav{
+    position: absolute;
+    bottom:0.2rem;
+    width: 2rem;
+    padding-left:5.75rem ;
+    height: 0.2rem;
+    right: 0.2rem;
+    line-height: 0.2rem;
+    z-index: 10;
+    span{
+        line-height: 0.2rem;
+        background-color: #FFFFFF ;
+        opacity: 1;
+        float: left;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #ffe429;
+    }
+}
+#h-search{
+    display: block;
+    width:100%;
+    height: 1rem;
+    background-image: url(../img/h-img/h-search.png);
+    background-size: 6.61rem;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    top: -0.3rem;
+    left: 0;
+    z-index: 100;
+}
+.h-btn{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 1.1rem;
+    }
+}
+.h-title-1{
+    background-color: #f9f9f9;
+    height: 1.25rem;
+    width: 100%;
+    .h-title_1{
+        background-image: url(../img/h-img/h-title.png);
+        background-size: 3.17rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1.05rem;
+        background-color: #fff;
+        margin-top: 0.2rem;
+        float: left;
+    }
+}
+.h-cookBox{
+    width: 100%;
+    height: 4.7rem;
+    .cook{
+        width: 3rem;
+        position: relative;
+        .picture{
+            width: 33%;
+            height: 4rem;
+        }
+       
+        .cook-img{
+            background: #FFFFFF;
+            height: 100%;
+            display: block;
+            width: 3rem;
+            box-sizing: border-box;
+            position: relative;
+            border-radius: 3px;
+            box-shadow: 0 2px 5px #e6e6e6;
+            float: left;
+            margin-left: 0.375rem;
+            padding: {
+                top: 0.02rem;
+                left: 0.02rem;
+                right: 0.02rem;
+            };
+            img{
+                width:2.96rem ;
+            }
+            .star{
+                background-image: url(../img/h-img/h-star.png);
+                background-size:0.47rem ;
+                width:0.47rem ;
+                height: 0.47rem;
+                position: absolute;
+                top: 1.7rem;
+                right: 0.2rem;
+            }
+            h3{
+                font-size: 0.24rem;
+                color: #242323;
+                line-height: 0.24rem;
+                margin-top: -0.15rem;
+                padding-bottom: 0.02rem;
+            }
+            p{
+                font-size: 0.2rem;
+                color: #fbe630;
+                line-height: 0.2rem;
+                text-transform: uppercase;
+                font-family: helvetica;
+                font-weight: 100;
+              
+            }
+            .star-lve{
+                width: 100%;
+                height: 0.38rem;
+                line-height: 0rem;
+                i{
+                    display: block;
+                    background-image: url(../img/h-img/star.png);
+                    background-size: 0.4rem;
+                    background-repeat: no-repeat;
+                    width: 0.4rem;
+                    height: 0.38rem;
+                    margin-left: 0.1rem;
+                    float: left;
+                }
+                span{
+                    display: block;
+                    background-image: url(../img/h-img/star_1.png);
+                    background-size: 0.4rem;
+                    background-repeat: no-repeat;
+                    width: 0.4rem;
+                    height: 0.38rem;
+                    margin-left: 0.1rem;
+                    float: left;
+                }
+            }
+            
+            .h-cook-bottom{
+                width: 100%;
+                height: 0.4rem;
+                padding-bottom: 0.1rem;
+                line-height: 0;
+                .cook-head{
+                    width: 0.44rem;
+                    float: left;
+                    height: 0.44rem;
+                    img{
+                        width: 0.44rem;
+                    }
+                }
+                .cook-text{
+                    float: left;
+                    font-size: 0.2rem;
+                    font-family: helvetica;
+                    text-align: center;
+                    line-height:0.18rem ;
+                    width: auto;
+                    height: 0.18rem;
+                    margin-top: 0.15rem;
+                    color: #a2a2a2;
+                }
+                .cook-more{
+                    font-size: 0.2rem;
+                    font-family: helvetica;
+                    width: 0.72rem;
+                    height: 0.22rem;
+                    line-height: 0.22rem;
+                    text-align: center;
+                    color: #FFFFFF;
+                    background-color: #fb7070;
+                    border-radius: 0.11rem;
+                    float: right;
+                    margin-top: 0.11rem;
+                    margin-right: 0.1rem;
+                }
+            }
+        }
+    }
+}
+
+.h-title-2{
+    width: 100%;
+    height: 1.45rem;
+    background-color: #f2f2f2;
+    .h-title_2{
+        background-image: url(../img/h-img/h-everyday.png);
+        background-size: 3.17rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1.25rem;
+        background-color: #FFFFFF;
+        margin-top: 0.21rem;
+        float: left;
+    }
+}
+.h-everyday-box{
+    width: 100%;
+    height: auto;
+    line-height: 0;
+    margin: {
+        bottom: 0.1rem;
+    };
+    .h-everyday-img{
+        display: block;
+        width: 100%;
+        height: 2.44rem;
+        text-align: center;
+        line-height: 0;
+        margin-top: 0.14rem;
+        img{
+            float: left;
+            margin: {
+                left: 0.24rem;
+            };
+            width: 7.02rem;
+        }
+    }
+}
+.h-title-3{
+    width: 100%;
+    height: 1.45rem;
+    background-color: #f2f2f2;
+    .h-title_3{
+        background-image: url(../img/h-img/h-title-play.png);
+        background-size: 3.17rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1.26rem;
+        background-color: #FFFFFF;
+        margin-top: 0.21rem;
+        float: left;
+    }
+}
+.h-playBox{
+    width: 100%;
+    height: auto;
+    line-height: 0;
+    overflow: hidden;
+    .h-play-img{
+        width: 7.05rem;
+        height: 3.1rem;
+        margin-top: 0.14rem;
+        background-image: url(../img/h-img/h-food-1.png);
+        background-size: 7.05rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;
+        margin: {
+            left: 0.225rem;
+        };
+        .h-playicon{
+            width: 0.88rem;
+            height: 1.19rem;
+            position: absolute;
+            bottom: 0;
+            right: 0.1rem;
+            background-image: url(../img/h-img/h-play.png);
+            background-size: 0.88rem;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .h-coner{
+            width: 100%;
+            height: 0.76rem;
+            background-color: rgba(62,60,60,0.55);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: #fff;
+            p{
+                line-height: 0.24rem;
+                display: block;
+                height: 0.24rem;
+                width: 100%;
+                font-size: 0.24rem;
+                font-family: "苹方";
+                float: left;
+                margin: {
+                    top: 0.14rem;
+                };
+                padding-left:0.3rem;
+                box-sizing: border-box;
+                .color{
+                    color: #ffea3b;
+                }
+            }
+            .text-2{
+                padding: {
+                    left: 0.3rem;
+                };
+                display: block;
+                width: 100%;
+                font-weight: 100;
+                font-size: 0.22rem;
+                font-family: helvetica;
+                height: 0.32rem;
+                line-height: 0.32rem;
+                text-transform: uppercase;
+                float: left;
+                box-sizing: border-box;
+                span{
+                    display: inline-block;
+                    width: 0.32rem;
+                    height: 0.32rem;
+                    background-image: url(../img/h-img/eve-icon.png);
+                    background-size: 0.32rem;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    top: 0.06rem;
+                }
+                i{
+                    display: inline-block;
+                    width: 0.32rem;
+                    height: 0.32rem;
+                    background-image: url(../img/h-img/heart-w.png);
+                    background-size: 0.32rem;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    top: 0.06rem;
+                }
+                .color_2{
+                    display: inline-block;
+                    font-weight: bold;
+                }
+                .active{
+                    color: #fb7070;
+                }
+            }
+        }
+    }
+}

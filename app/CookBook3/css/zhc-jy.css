@@ -1,0 +1,60 @@
+body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.zhc-jy{
+	height: 0.88rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #ffdc3b;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.zhc-jy img{
+	height: 100%;
+}
+.zhc-jy div{
+	display: inline-block;
+	height: 100%;
+	width: 0.4rem;
+}
+
+/*内容*/
+#zhc-wrappers{
+	height: 11.46rem;
+	width: 100%;
+	position:absolute;
+	top: 0.88rem;
+	bottom: 1rem;
+	overflow: hidden;
+	background: #fff;
+}
+.zhc-manbox{
+	width: 100%;
+	height: auto;
+	padding: 0.24rem;
+	box-sizing: border-box;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.zhc-manbox li{
+	width: 1.96rem;
+	height: 2.24rem;
+	margin-bottom: 0.24rem;
+}
+.zhc-manbox li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zhc-manbox li a img{
+	width: 100%;
+	height: 100%;
+}

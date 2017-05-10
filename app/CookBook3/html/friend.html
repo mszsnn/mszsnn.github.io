@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/friend.css" />
+		<script src="../js/common.js"></script> 
+		<script src="../js/jquery.js"></script>
+		<!-- <script src="../js/zepto.js"></script> -->
+		<script src="../js/swiper.js"></script>
+		<script src="../js/iscroll.js"></script>
+		<script src="../js/yzf-friend.js"></script>
+		<script src="../js/Hammer.js"></script>
+		<script src="../js/jquery.hammer.js"></script>
+		<style>
+			#wrapper {
+				position: absolute;
+				z-index: 1;
+				top: 0px;
+				bottom: 0px;
+				left: 0;
+				width: 100%;
+				overflow: hidden;
+			}
+			#scroller {
+				position: absolute;
+				z-index: 1;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body onload="loaded()">
+			<div class="yzf-nav">
+				<div class="yzf-box">
+					<img src="../img/yzf/icon-01.png" alt="" />
+					<img src="../img/yzf/friendd_03.png" alt="" />
+					<img src="../img/yzf/meishi_06.png" alt="" />
+				</div>
+				<!--<div class="yzf-box2">
+					<a href="javascript:;">
+						<span></span>
+						<span>食友推荐</span>
+						<span></span>
+					</a>
+					<a href="javascript:;">
+						<span></span>
+						<span>全部关注</span>
+						<span></span>
+					</a>
+					<img src="../img/yzf/linee_03.png" alt="" />
+				</div>-->
+				<div class="yzf-center">
+					<span>食友推荐</span>
+					<span>全部关注</span>
+					<img src="../img/yzf/linee_03.png" alt="" />
+				</div>
+			</div>
+			<div id="wrapper">
+				<div class="mo"  id='scroller'>
+					<!--内容-->
+					<ul class="bb">
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_13.png" alt="" />
+							<h5>时来运转</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>味之源</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_24.png" alt="" />
+							<h5>铁男</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_27.png" alt="" />
+							<h5>牵绊~洋洋</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_30.png" alt="" />
+							<h5>大显显</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>食亿</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+						<li>
+							<img src="../img/yzf/friend_05.png" alt="" />
+							<h5>越单纯越幸福</h5>
+							<div class="font">
+								<span>帖子</span>
+								<span>2288</span>
+								<span>菜谱</span>
+								<span>588</span>
+							</div>
+							<img class="guanzhu" src="../img/yzf/friend_08.png" alt="" />
+							<div class="del">
+								<img src="../img/yzf/friend_17.png"/>
+								<img src="../img/yzf/friend_19.png" alt="" />
+							</div>
+						</li>
+					</ul>
+			</div>
+		</div>
+			<script>
+			var myScroll;
+			function loaded () {
+			    myScroll = new IScroll('#wrapper', {
+			        scrollbars: true,
+			        mouseWheel: true,
+			        interactiveScrollbars: true,
+			        shrinkScrollbars: 'scale',
+			        fadeScrollbars: true,
+			       	click:true,
+			    });
+			}
+			</script>
+	</body>
+</html>

@@ -1,0 +1,202 @@
+.l-banner{
+	/* width: 7.5rem; */
+	height: 2rem;
+	background-image: url('../img/l-img/l-one.png');
+	overflow: hidden; 
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	position: relative;
+	z-index: 9999999999;
+}
+.l-banner>a{
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: -0.3rem;
+}
+.l-banner>a>img{
+	width: 80%;
+}
+.l-banner>img{s
+	margin: 0 auto;
+	float: left;
+	width: 25%;
+	margin-left: 2rem;
+	margin-top: 0.2rem;
+}
+.l-banner>span{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.3rem;
+	color: #fff;
+	
+}
+.l-banner>.l-t{
+	width: 4.3rem;
+	height: 0.6rem;
+	position: absolute;
+	left: 22%;
+	top:65%;
+	border-radius: 0.5rem;
+	background: #fff;
+	z-index: 9999999;
+}
+
+.l-banner>.l-t>a{
+	display: block;
+	width: 33.3333%;
+	height:0.3rem;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 0.15rem;
+}
+.l-banner>.l-t>a{
+	width: 0.86rem;
+	height: 0.32rem;
+	border: 0;
+	border-radius: 0.5rem;
+
+	margin-left: 0.4rem;
+}
+/* .l-banner>.l-t>a:last-child{
+	background: #FFDC3E;
+}
+.l-banner>.l-t>a:last-child>p{
+		color: #fff;
+}
+ */
+.l-banner>.l-t>a>p{
+	font-size: 0.25rem;
+	text-align: center;
+	color:#666;
+	line-height: 0.3rem;
+}
+
+.bbj{
+	width: 7.5rem;
+	height: auto;
+	overflow: hidden;
+}
+.ssw{
+	display: none;
+}
+.one{
+	width: 7rem;
+	height: 5.2rem;
+	background: #FDFDFD;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	border-radius: 0.2rem;
+	border: 1px solid #ccc;
+}
+.one>.one-o{
+	margin-top: 0.2rem;
+	width: 6.62rem;
+	height: 1.10rem;
+	margin: 0 auto;
+	font-size: 0;
+}
+.one>.one-o>a{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+	display: block;
+	margin-top: 0.2rem;
+}
+.one>.one-o>a>img{
+	width: 100%;
+}
+.one>.one-o>p{
+	font-size: 0.3rem;
+	/* line-height: 0.6rem; */
+	margin-left: 0.2rem;
+	display: inline-block;
+	margin-top: 0.4rem;
+	color: #313131;
+}
+.one>.one-o>span{
+	font-size: 0.25rem;
+	line-height: 0.2rem;
+	margin-left: 0.2rem;
+	color: #636363;
+}
+.one>.one-o>.one-t{
+	width: 0.7rem;
+	height: 0.3rem;
+	float: right;
+	display: block;
+	background:#FFDC3E; 
+	font-size: 0;
+	margin-top: -5%;
+	margin-right: 0s%;
+}
+.one>.one-o>.one-t>span{
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+}
+.two-o{
+	width: 4.9rem;
+	height: 0.5rem;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;s
+}
+.two-o>p{
+	font-size: 0.22rem;
+
+}
+.t-o{
+	width:3.04rem;
+	height: 2.10rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 5%;
+}
+.t-o>img{
+	width: 100%;
+	border-radius: 0.2rem;
+}
+.t-t{
+	width:3.04rem;
+	height: 2.10rem;
+	float: left;
+	margin-left: 0.6rem;
+	margin-top: 5%;
+}
+.t-t>img{
+	width: 100%;
+	border-radius: 0.2rem;
+}
+.xian{
+	width: 7rem;
+	height: 0.1rem;
+	font-size: 0;
+}
+.xian>img{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.pl{
+	width: 7rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	margin-top: 2.5rem;
+	font-size: 0;
+}
+.pl>a{
+	width: 2.24rem;
+	height: 0.56rem;
+	float: left;
+	margin-top: 0.2rem;
+	display: block;
+}
+.pl>a:first-child{
+	margin-left: 0.18rem;
+}
+.pl>a>img{
+	width: 100%;
+}
+.pl>a:last-child{
+	margin-top: 1%;
+}

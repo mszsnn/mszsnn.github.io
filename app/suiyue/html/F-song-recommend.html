@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../common/MobilePhone.css">
+    <link rel="stylesheet" href="../css/F-song-recommend.css">
+    <link rel="stylesheet" href="../common/swiper.min.css">
+    <link rel="stylesheet" href="../font/L-font/iconfont.css">
+    <script src="../common/zepto.min.js"></script>
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/iscroll.js"></script>
+    <script src="../common/swiper.min.js"></script>
+    <script src="../js/L-one.js"></script>
+</head>
+<body>
+    <header>
+        <div class="F-title">
+            <div><a href="z-index.html"><img src="../img/F-img/return.png" alt=""></a></div>
+            <div>歌曲</div>
+            <div><a href="D-one.html"><img src="../img/F-img/search.png" alt=""></a></div>
+        </div>
+        <nav>
+            <div class="chose"></div>
+            <ul>
+                <li  class="choose">
+                    <a href="F-song-recommend.html">
+                        <img src="../img/F-img/recommend.png" alt="">
+                        <span>推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-ranking.html">
+                        <img src="../img/F-img/ranking.png" alt="">
+                        <span>排行</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-singer.html">
+                        <img src="../img/F-img/singer.png" alt="">
+                        <span>歌手</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-list.html">
+                        <img src="../img/F-img/song.png" alt="">
+                        <span>歌单</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-classify.html">
+                        <img src="../img/F-img/classify.png" alt="">
+                        <span>分类</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <main id="scroller">
+            <!--banner-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img  class="banner" src="../img/F-img/banner1.png" alt=""></div>
+                    <div class="swiper-slide"><img class="banner" src="../img/F-img/banner2.png" alt=""></div>
+                    <div class="swiper-slide"><img class="banner" src="../img/F-img/banner3.png" alt=""></div>
+                    <div class="swiper-slide"><img class="banner" src="../img/F-img/banner4.png" alt=""></div>
+                    <div class="swiper-slide"><img class="banner" src="../img/F-img/banner5.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    centeredSlides: true,
+                    autoplay: 4000,
+                    autoplayDisableOnInteraction: false,
+                    loop:15
+                });
+            </script>
+            <!--banner结束-->
+
+            <div class="title">
+                <span></span>
+                <img src="../img/F-img/rec.png" alt="">
+                <p>个性化推荐</p>
+                <div><a href="">更多 <span>&gt;</span></a></div>
+            </div>
+            <div class="recommend">
+                <div class="swiper-container2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="">
+                                <img src="../img/F-img/list.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <img src="../img/F-img/list.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <img src="../img/F-img/list.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <img src="../img/F-img/list.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    var swiper = new Swiper('.swiper-container2', {
+                        slidesPerView: 2.5,
+                        paginationClickable: true,
+                        freeMode: true,
+                    });
+                </script>
+            </div>
+
+            <div class="music">
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>愚人快乐</section>
+                        <section>陈奕迅</section>
+                        <section>16.3W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>愚人快乐</section>
+                        <section>陈奕迅</section>
+                        <section>16.3W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>愚人快乐</section>
+                        <section>陈奕迅</section>
+                        <section>16.3W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>不如承诺来的简单</section>
+                        <section>陈奕迅</section>
+                        <section>6.5W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>对面</section>
+                        <section>陈奕迅</section>
+                        <section>5.7W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+                <div class="swipeLeft">
+                    <div class="show">
+                        <section>
+                            <img src="../img/F-img/cyx-info.png" alt="">
+                        </section>
+                        <section>娱乐天空(Remix)</section>
+                        <section>陈奕迅</section>
+                        <section>4.2W</section>
+                    </div>
+                    <div class="hid">
+                        <img src="../img/F-img/hid_03.png" alt="">
+                        <img src="../img/F-img/hid_04.png" alt="">
+                        <img src="../img/F-img/hid_05.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="image">
+            <a href="L-six.html"></a>
+        </div>
+        <div>
+            <h4>NgauHung</h4>
+            <h6>Hoaprox</h6>
+        </div>
+        <div>
+            <canvas id='canvas' width="100" height="50" display="block"></canvas>
+        </div>
+        <div class="btn">
+            <span class="iconfont icon-icon-test3 prev"></span>
+            <span class="iconfont icon-icon-test2 play"></span>
+            <span class="iconfont icon-icon-test7 next"></span>
+        </div>
+        <audio src="../font/L-font/2.mp3" id="audio"></audio>
+    </footer>
+</body>
+</html>
+<script>
+    var myScroll = new IScroll('#wrapper', {
+        mouseWheel: true,
+        scrollbars: false,
+        click:true,
+    });
+//			侧滑
+    $(".swipeLeft").each(function(index,value){
+        value.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            startX = e.changedTouches[0].pageX,
+                startY = e.changedTouches[0].pageY;
+        });
+        value.addEventListener("touchmove", function(e) {
+            e.preventDefault();
+            moveEndX = e.changedTouches[0].pageX,
+                moveEndY = e.changedTouches[0].pageY,
+                X = (moveEndX - startX)/100,
+                Y = (moveEndY - startY)/100;
+            var l=parseInt($(".show").eq(index).css('marginLeft'));
+            if(0>=l>-3){
+                if(X<-0.4){
+                    $(".show").eq(index).css('marginLeft','-2.46rem');
+                }
+            }
+            if(l<0){
+                if(X>0.4){
+                    $(".show").eq(index).css('marginLeft','0');
+                }
+            }
+        });
+    })
+
+
+</script>

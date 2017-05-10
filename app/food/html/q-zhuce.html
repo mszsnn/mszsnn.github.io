@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<script src='../js/common/common.js'></script>
+		<script src='../js/common/jquery.min.js'></script>
+		<script src='../js/common/jquery.validate.min.js'></script>
+		<link rel="stylesheet" href="../css/qyh-zhuce.css" />
+		<script src='../js/qyh-zhuce.js'></script>
+	</head>
+	<body>
+		<header>
+			<div id="header">
+			    <a onclick="history.go(-1)"><img class="z-return" src="../img/qyh-img/z-return.png" alt=""></a>
+			    <img class="z-tupian1" src="../img/qyh-img/zc.png" alt="">
+			</div>
+		</header>
+		<article class='q-form'>
+			<ul class="q-ti">
+				<li class='q-active'>手机</li>
+				<li>邮箱</li>
+			</ul>
+			<div class='q-phone'>
+				<form class='q-form1' action="main.php" method="post">
+					<img src="../img/qyh-img/ren.png" alt="" />
+					<div class="q-chacha1"><img src="../img/qyh-img/cuohao.png" alt="" /></div>
+					<input type="text" name='phone' />
+					<img src="../img/qyh-img/suo.png" alt="" />
+					<img src="../img/qyh-img/yanjing.png" alt=""  class="yj"/>
+					<input type="password" name='zcma1' id="zcma1"/>
+					<img src="../img/qyh-img/suo.png" alt="" />
+					<img src="../img/qyh-img/yanjing.png" alt="" class="yj"/>
+					<input type="password" name='zcma2'/>
+					<div class="hq">获取验证码</div>
+					<input type="text" name='yzm' />
+					<img src="../img/qyh-img/passteo.png" alt="" />
+					<input type="submit" value="" />
+				</form>
+				<form class=" q-form2 q-active" action="h-main.html.php" method="post">
+					<img src="../img/qyh-img/ren.png" alt="" />
+					<div class="q-chacha1"><img src="../img/qyh-img/cuohao.png" alt="" /></div>
+					<input type="email" name='email'/>
+					<img src="../img/qyh-img/suo.png" alt="" />
+					<img src="../img/qyh-img/yanjing.png" alt="" class="yj" />
+					<input type="password" name='zcma3' id='zcma2'/>
+					<img src="../img/qyh-img/suo.png" alt="" />
+					<img src="../img/qyh-img/yanjing.png" alt="" class="yj" />
+					<input type="password" name='zcma4'/>
+					<div class="hq">获取验证码</div>
+					<input type="text" name='yzm' />
+					<img src="../img/qyh-img/passteo.png" alt="" />
+					<input type="submit" value="" />
+				</form>
+				
+			</div>
+		</article>
+		<div class="tj">
+			<p>你已注册成功.......</p>
+			<p>You have registered success</p>
+			<a onclick="history.go(-1)"><img src="../img/qyh-img/gogogo.png" alt="" /></a>
+		</div>
+	</body>
+</html>

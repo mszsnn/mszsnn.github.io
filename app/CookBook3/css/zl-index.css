@@ -1,0 +1,699 @@
+@font-face{
+	font-family: '苹方';
+	src:url(../font/PingFang Regular.ttf);
+}
+@font-face{
+	font-family: '三番';
+	src:url(../font/SF Grandezza Medium.ttf);
+}
+/*顶部*/
+div.zl-top{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	width:100%;
+	height:0.88rem;
+	display: flex;
+	background:rgb(255,220,59);
+}
+div.zl-menu{
+	width:0.88rem;
+	height:100%;
+	background:url(../img/zl/index_02.png) no-repeat center;
+	background-size:auto 100%;
+}
+div.zl-god{
+	flex:auto;
+	height:100%;
+	background:url(../img/zl/index_03.png) no-repeat center;
+	background-size:auto 100%;
+}
+div.zl-saoma{
+	width:0.88rem;
+	height:100%;
+	background:url(../img/zl/index_05.png) no-repeat center;
+	background-size:auto 100%;
+}
+/*中间滚动部分*/
+#wrapper{
+	position:absolute;
+	left:0;
+	top:0.88rem;
+	bottom:1.36rem;
+	z-index: 5;
+	width:100%;
+	overflow: hidden;
+}
+/*大banner*/
+div.zl-banner{
+	width:100%;
+	height:3.5rem;
+	position: relative;
+	overflow: hidden;
+}
+div.zl-banner >ul{
+	/*position:absolute;*/
+	height:100%;
+}
+div.zl-banner >ul >li{
+/*	float:left;
+	height*/
+	height:100%;
+}
+div.zl-banner >ul >li >a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+div.zl-banner >ul >li >a >img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+/*导航点点*/
+.swiper-container1 >.swiper-pagination{
+    text-align: right;
+    padding-right:0.25rem;
+    bottom:0.4rem;
+    box-sizing: border-box;
+}
+.swiper-container1 >.swiper-pagination > span.swiper-pagination-bullet {
+    /*float: left;*/
+    width: 0.11rem;
+    height:  0.11rem;
+    background: white;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 0 0.05rem;
+}
+.swiper-container1 >.swiper-pagination > span.swiper-pagination-bullet-active {
+    background:rgb(255,228,41);
+}
+/*搜索*/
+div.zl-search{
+	position: absolute;
+	top:3.19rem;
+	left:0.6rem;
+	right:0.6rem;
+	z-index: 15;
+	height:0.62rem;
+}
+div.zl-search >input{
+	width:100%;
+	height:100%;
+	line-height:0.62rem;
+	border-radius: 0.31rem;
+	border:0;
+	outline:none;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+	padding-left:2rem;
+	color:rgb(215,215,215);
+	font-size:0.24rem;
+	font-family: '苹方';
+	box-sizing: border-box;
+}
+div.zl-search >.zl-fd{
+	width:1rem;
+	height:0.52rem;
+	background:url(../img/zl/index2_03.png) no-repeat center;
+	background-size: auto 100%;
+	border-right:1px solid rgb(255,228,41);
+	position: absolute;
+	top:50%;
+	margin-top:-0.26rem;
+	left:0.2rem;
+}
+div.zl-search >p{
+	/*width:1rem;*/
+	height:0.52rem;
+	line-height: 0.52rem;
+	color:rgb(255,228,41);
+	position: absolute;
+	top:50%;
+	margin-top:-0.26rem;
+	left:50%;
+	font-size:0.24rem;
+	font-family: '苹方';
+	margin-left:-0.78rem;
+}
+div.zl-search >p >span{
+	color:rgb(215,215,215);
+	font-size:0.24rem;
+	font-family: '苹方';
+}
+/*四菜单*/
+div.zl-carte{
+	width:100%;
+	height:1.75rem;
+	padding-top:0.7rem;
+	padding-bottom:0.25rem;
+	display: flex;
+	justify-content: space-around;
+}
+div.zl-carte >a{
+	display: block;
+	width:1.1rem;
+	height:1.75rem;
+	text-align: center;
+}
+div.zl-carte >a >img{
+	display: block;
+	width:100%;
+}
+div.zl-carte >a >p{
+	color:rgb(51,51,51);
+	font-size:0.24rem;
+	line-height: 0.65rem;
+	font-family: '苹方';
+}
+/*分割线*/
+div.zl-line{
+	width:100%;
+	height:0.25rem;
+	background:rgb(240,240,240);
+}
+div.zl-title{
+	width:100%;
+	height:1.24rem;
+}
+div.zl-title >img{
+	width:100%;
+	height:1.24rem;
+}
+/*滑动轮播*/
+div.zl-banner2{
+	width:100%;
+	height:4.7rem;
+	position: relative;
+	overflow: hidden;
+}
+div.zl-banner2 >ul{
+	/*width:100%;*/
+	height:4rem;
+}
+div.zl-banner2 >ul >li{
+	width:3rem !important;
+	margin-right:0.3rem;
+	height:4rem;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	border-radius: 0.05rem;
+}
+div.zl-banner2 >ul >li >img{
+	display: block;
+	width:100%;
+	height:2.42rem;
+}
+div.zl-banner2 >ul >li >div.zl-content{
+	width:100%;
+	height:1.58rem;
+	position:relative;
+	padding-left:0.15rem;
+	box-sizing: border-box;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-xing{
+	width:0.5rem;
+	height:0.5rem;
+	position: absolute;
+	top:-0.25rem;
+	right:0.2rem;
+	background:url(../img/zl/index_26.png) no-repeat center;
+	background-size:100%;
+}
+div.zl-banner2 >ul >li >div.zl-content >h6{
+	/*width:100%;*/
+	height:0.48rem;
+	line-height:0.48rem;
+	font-size:0.24rem;
+	color:rgb(35,35,35);
+	font-family:'苹方';
+}
+div.zl-banner2 >ul >li >div.zl-content >p{
+	/*width:100%;*/
+	height:0.22rem;
+	line-height:0.22rem;
+	font-size:0.2rem;
+	color:rgb(251,230,48);
+	font-family:'三番';
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-star{
+	/*width:100%;*/
+	height:0.24rem;
+	margin:0.03rem 0;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-star >span{
+	width:0.24rem;
+	height:0.24rem;
+	float:left;
+	margin-right:0.05rem;
+	background:url(../img/zl/index_32.png) no-repeat center;
+	background-size:100%;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-star >span.zl-on{
+	background:url(../img/zl/index_30.png) no-repeat center;
+	background-size:100%;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-customer{
+	/*width:0.24rem;*/
+	height:0.58rem;
+	line-height:0.58rem;
+	display: flex;
+	/*justify-content: ;*/
+	align-items: center;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-customer >.zl-head{
+	width:0.5rem;
+	height:0.5rem;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-customer >.zl-head >img{
+	width:100%;
+	height:100%;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-customer >.zl-name{
+	font-size:0.2rem;
+	color:rgb(162,162,162);
+	font-family:'三番';
+	padding-left:0.1rem;
+	/*width:100%;*/
+	height:100%;
+	flex:auto;
+}
+div.zl-banner2 >ul >li >div.zl-content >div.zl-customer >a{
+	display: block;
+	font-size:0.2rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+	width:0.72rem;
+	height:0.22rem;
+	line-height: 0.22rem;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 0.11rem;
+	background:rgb(251,112,112);
+	margin-right:0.1rem;
+}
+/*每日一菜*/
+div.zl-meiri{
+	width:100%;
+	height:5.4rem;
+}
+div.zl-eday{
+	width:7rem;
+	height:2.44rem;
+	margin:0 auto 0.26rem auto;
+}
+div.zl-eday >a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+div.zl-eday >a >img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+/*美食直播*/
+div.zl-zhibowrap{
+	width:100%;
+	height:6.7rem;
+}
+div.zl-zhibo{
+	width:7rem;
+	height:3.1rem;
+	margin:0 auto 0.25rem auto;
+	position: relative;
+}
+div.zl-zhibo >img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+div.zl-introduce{
+	width:100%;
+	box-sizing: border-box;
+	padding-left:0.25rem;
+	height:0.75rem;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+div.zl-introduce >h6{
+	height:0.38rem;
+	line-height:0.38rem;
+	font-size:0.24rem;
+	color:rgb(255,255,255);
+	font-family:'苹方';
+}
+div.zl-introduce >h6 >span{
+	color:rgb(251,230,48);	
+	line-height:0.38rem;
+	font-size:0.24rem;
+	font-family:'苹方';
+}
+div.zl-introduce >p{
+	/*width:100%;*/
+	height:0.37rem;
+	line-height:0.37rem;
+	font-size:0.2rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+}
+div.zl-see{
+	width:;
+	height:0.37rem;
+	line-height:0.37rem;
+	position:absolute;
+	bottom:0;
+	right:2.7rem;
+	font-size:0.22rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+}
+div.zl-see >span{
+	float:left;
+	width:0.3rem;
+	height:0.3rem;
+	margin-top:0.04rem;
+	background:url(../img/zl/index_56.png) no-repeat center;
+	background-size:100%; 
+}
+div.zl-zan{
+	width:;
+	height:0.37rem;
+	line-height:0.37rem;
+	position:absolute;
+	bottom:0;
+	right:1.5rem;
+	font-size:0.22rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+}
+div.zl-zan >span{
+	float:left;
+	width:0.3rem;
+	height:0.3rem;
+	margin-top:0.04rem;
+	background:url(../img/zl/index_58.png) no-repeat center;
+	background-size:100%; 
+}
+div.zl-z{
+	color:rgb(251,112,112);
+}
+div.zl-z >span{
+	background:url(../img/zl/index_64.png) no-repeat center;
+	background-size:100%; 
+}
+div.zl-bf{
+	position: absolute;
+	right:0.15rem;
+	bottom:0;
+	height:1.23rem;
+	width:0.88rem;
+	background:url(../img/zl/index_53.png) no-repeat center;
+	background-size: 100%;
+}
+div.zl-bf >a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+/*底部*/
+div.zl-footer{
+	/*display: none;*/
+	position:absolute;
+	left:0;
+	width:100%;
+	height:1.36rem;
+	bottom:0;
+	z-index: 10;
+	background:rgb(255,255,255) url(../img/zl/index3_02.png) no-repeat center;
+	background-size:auto 100%;
+}
+div.zl-footer a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+div.zl-shouye{
+	position: absolute;
+	left:50%;
+	bottom:0;
+	height:0.9rem;
+	width:1.36rem;
+	margin-left:-3rem;
+	background:url(../img/zl/index2_22.png) no-repeat center;
+	background-size: auto 100%;
+}
+div.zl-dl{
+	position: absolute;
+	left:50%;
+	bottom:0;
+	height:1.36rem;
+	width:1.36rem;
+	margin-left:-0.68rem;
+}
+div.zl-tuijian{
+	position: absolute;
+	right:50%;
+	bottom:0;
+	z-index: 2;
+	height:0.9rem;
+	width:1.36rem;
+	margin-right:-3rem;
+	background:url(../img/zl/index2_24.png) no-repeat center;
+	background-size: auto 100%;
+}
+div.zl-tuijian a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+/*底部按钮们*/
+div.zl-zao{
+	width:100%;
+	/*height:100%;*/
+	height:0;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index: 666;
+	overflow: hidden;
+	transition:height 0.2s;
+}
+div.zl-yuandi{
+	width:3.5rem;
+	height:3.5rem;
+	position: absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-1.75rem;
+	margin-bottom:-2rem;
+	background:rgb(255,255,255);
+	border-radius: 50%;
+	transition:all 0.2s;
+}
+
+div.zl-close{
+	width:0.82rem;
+	height:0.82rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	z-index: 6;
+	margin-left:-0.41rem;
+	margin-top:0.43rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_13.png) no-repeat center;
+	background-size:100%;
+}
+div.zl-meishi,div.zl-fatie{
+	width:0.82rem;
+	height:0.82rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-0.41rem;
+	margin-top:0.6rem;
+	border-radius: 50%;
+	background:rgb(251,230,48);
+}
+div.zl-chuancai{
+	width:0.82rem;
+	height:0.82rem;
+	position: absolute;
+	top:0;
+	right:50%;
+	margin-right:-0.41rem;
+	margin-top:0.6rem;
+	border-radius: 50%;
+	background:rgb(251,230,48);
+}
+div.zl-show >div.zl-meishi{
+	width:1.14rem;
+	height:1.14rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-2.47rem;
+	margin-top:-0.8rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_06.png) no-repeat center;
+	background-size:100%;
+	transition:all 0.2s;
+}
+div.zl-show >div.zl-fatie{
+	width:1.14rem;
+	height:1.14rem;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-0.57rem;
+	margin-top:-1.8rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_03.png) no-repeat center;
+	background-size:100%;
+	transition:all 0.2s;
+}
+div.zl-show >div.zl-chuancai{
+	width:1.14rem;
+	height:1.14rem;
+	position: absolute;
+	top:0;
+	right:50%;
+	margin-right:-2.47rem;
+	margin-top:-0.8rem;
+	border-radius: 50%;
+	background:url(../img/zl/click_09.png) no-repeat center;
+	background-size:100%;
+	transition:all 0.2s;
+}
+
+/*侧滑*/
+body{
+	perspective:1000px;
+}
+div.zl-you{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	transition: all 0.5s;
+	transform-origin:center left;
+}
+div.zl-zuo{
+	position:absolute;
+	left:-5.8rem;
+	top:0;
+	width:5.8rem;
+	height:100%;
+	background:#212121;
+	transition: all 0.5s;
+}
+div.zl-user{
+	width:100%;
+	height:4.78rem;
+}
+div.zl-user >img{
+	width:100%;
+	height:100%;
+}
+div.zl-xgq{
+	height:1.1rem;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	border-bottom:1px dotted rgb(255,220,59);
+}
+div.zl-xgq >p{
+	margin-top:0.5rem;
+	height:0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	width:1.7rem;
+	font-size:0.24rem;
+	color:rgb(255,255,255);
+	position: relative;
+	font-family: '苹方';
+}
+div.zl-xgq >p:first-child~p{
+	border-left:1px solid rgb(255,220,59);
+}
+div.zl-xgq >p >span{
+	position: absolute;
+	top:-0.3rem;
+	left:50%;
+	margin-left:-0.77rem;
+	height:0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	width:1.55rem;
+	font-size:0.24rem;
+	color:rgb(255,220,59);
+	font-family: '三番';
+}
+div.zl-xgq >p >i{
+	position: absolute;
+	top:-0.2rem;
+	left:0.85rem;
+	height:0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+	width:0.3rem;
+	font-size:0.18rem;
+	color:rgb(255,255,255);
+	font-family: '三番';
+	font-style:normal;
+	background:rgb(255,220,59);
+	border-radius: 50%;
+}
+ul.zl-grsz{
+	width:100%;
+	height:auto;
+}
+ul.zl-grsz >li{
+	width:100%;
+	height:1rem;
+	line-height: 1rem;
+}
+ul.zl-grsz >li >a{
+	display: block;
+	width:100%;
+	height:100%;
+	font-size:0.24rem;
+	color:rgb(255,255,255);
+	font-family: '三番';
+	padding-left:0.6rem;
+	box-sizing: border-box;
+	position: relative;
+}
+ul.zl-grsz >li >a >img{
+	/*display: block;*/
+	width:0.4rem;
+	height:0.4rem;
+	vertical-align: -0.11rem;
+}
+ul.zl-grsz >li >a >img{
+	/*display: block;*/
+	width:0.4rem;
+	height:0.4rem;
+	vertical-align: -0.11rem;
+}
+ul.zl-grsz >li >a >span{
+	/*display: block;*/
+	/*float:right;*/
+	width:0.4rem;
+	height:0.4rem;
+	background:url(../img/zl/cehua_10.png) no-repeat center;
+	background-size:100%;
+	position:absolute;
+	right:0.1rem;
+	top:50%;
+	margin-top:-0.2rem;
+}

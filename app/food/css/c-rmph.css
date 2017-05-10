@@ -1,0 +1,119 @@
+@import url(c-header.css);
+@import url(common.css);
+body{
+    font-size: 16px;
+}
+
+/*滚动条*/
+#wrapper{
+    top:0.9rem
+}
+
+/*排行列表*/
+.c-ph-list{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.c-ph{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    overflow: hidden;
+}
+.c-mokuai{
+    width:100%;
+    height:3rem;
+    background-image: url("../img/z-img/z-mobantu.png");
+    background-size: 100% 100%;
+    margin-top: .3rem;
+}
+.c-mokuai .c-w-top{
+    height:auto;
+    overflow: hidden;
+}
+.c-mokuai .c-w-1{
+    width: 1.94rem;
+    padding-left: .2rem;
+    padding-top: .15rem;
+    display: block;
+    float: left;
+}
+.c-mokuai .c-title{
+    padding-left: .3rem;
+    padding-top: .45rem;
+    font-size: .22rem;
+    float: left;
+    padding-right: .2rem;
+}
+.c-mokuai .c-w-star{
+    width:.2rem;
+    display: block;
+    float: left;
+    margin-right: .05rem;
+    padding-top: .5rem;
+}
+.c-mokuai .c-title-e{
+    font-size: .22rem;
+    padding-top: .2rem;
+    padding-left: .3rem;
+    float: left;
+    color: #454545;
+}
+.c-mokuai .c-p{
+    font-size: .22rem;
+    padding:0 .15rem;
+    color: white;
+    background: #fdd936;
+    height:.35rem;
+    line-height: .35rem;
+    margin-left: .2rem;
+    float: left;
+    border-radius: .35rem;
+    margin-top: .2rem;
+}
+.c-mokuai .c-w-q{
+    height: .36rem;
+    display: block;
+    float: left;
+    padding-left: .3rem;
+    margin-top: .2rem;
+}
+.c-mokuai .c-w-a{
+    font-size: .22rem;
+    color: #797777;
+    float: left;
+    margin-left: .1rem;
+    margin-top: .2rem;
+}
+.c-mokuai .c-w-gongneng{
+    width:33.3333333333%;
+    float: left;
+    margin-top: .3rem;
+    box-sizing: border-box;
+}
+.c-mokuai .c-w-gongneng .c-w-gongnengtu{
+    width:.3rem;
+    float: left;
+    padding-left: .25rem;
+    margin-top: .05rem;
+}
+.c-mokuai .c-w-gongneng .c-w-gongnengtu1{
+    width:.3rem;
+    padding-left: .35rem;
+}
+.c-mokuai .c-w-gongneng .c-w-w{
+    font-size: .2rem;
+    color: #454545;
+    margin-left: .2rem;
+    float: left;
+    line-height: .4rem;
+}
+
+.c-mokuai .caixi{
+    width: .52rem;
+    position: absolute;
+    top:.4rem;
+    right: .44rem;
+}

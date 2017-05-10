@@ -1,0 +1,259 @@
+body{
+    background: #D53434;
+}
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 100px; } }
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pack {
+    width: 100%;
+    height: 100%;
+    background: url("../img/sc-img/bj1.png") no-repeat;
+    background-size: cover;
+}
+    .top{
+        width:100%;
+        height:0.4rem;
+    }
+    .tou{
+        width:2rem;
+        height:2rem;
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius:50%;
+        margin:0 auto;
+        margin-top: 1.06rem;
+        margin-bottom: 0.7rem;
+        background: url("../img/sc-img/tou.png")no-repeat;
+        background-size: cover;
+    }
+    .cuowu{
+        width: 3.5rem;
+        height:0.3rem;
+        margin-left: 1.15rem;
+    }
+    .cuowu-1{
+        width: 3.5rem;
+        height:0.3rem;
+        color: #D53434;
+        background: #ffffff;
+        font-size: 0.2rem;
+        border-radius: 0.1rem;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .cuowu a{
+        width: 0.3rem;
+        height:0.3rem;
+        background: url("../img/sc-img/cuowu.png")no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 0.05rem;
+    }
+    .from{
+        width: 5.2rem;
+        height: 2.1rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .from .from-1{
+        width:100%;
+        height:0.86rem;
+        background: rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        margin-top: 0.1rem;
+        border-radius: 0.1rem;
+    }
+    .from-1 a{
+        width: 0.5rem;
+        height:0.5rem;
+        background: url("../img/sc-img/zh1.png")no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 0.2rem;
+    }
+    .from-1 p{
+        width: 0.05rem;
+        height: 0.45rem;
+        background: url("../img/sc-img/shu.png")no-repeat;
+        background-size: cover;
+        margin-right: 0.2rem;
+    }
+    .from-1 input{
+        width: 3.5rem;
+        height: 100%;
+        border-radius: 0.1rem;
+        font-size: 0.26rem;
+        outline: none;
+        background: rgba(255, 255, 255,0);
+        color: #fff;
+    }
+    .from-1 em{
+        width: 0.16rem;
+        height:0.17rem;
+        background: url("../img/sc-img/x1.png")no-repeat;
+        background-size: cover;
+        display: block;
+    }
+    .from .from-2{
+        width:100%;
+        height:0.86rem;
+        margin-top: 0.3rem;
+        background: rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        border-radius: 0.1rem;
+    }
+    .from-2 a{
+        width: 0.4rem;
+        height:0.5rem;
+        background: url("../img/sc-img/mm1.png")no-repeat;
+        background-size: cover;
+        display: block;
+        margin: 0 0.25rem;
+    }
+    .from-2 p{
+        width: 0.05rem;
+        height: 0.45rem;
+        background: url("../img/sc-img/shu.png")no-repeat;
+        background-size: cover;
+        margin-right: 0.2rem;
+    }
+    .from-2 input{
+        width: 3.5rem;
+        height: 100%;
+        border-radius: 0.1rem;
+        font-size: 0.26rem;
+        outline: none;
+        background: rgba(255, 255, 255, 0);
+        color: #fff;
+    }
+    input::-webkit-input-placeholder{
+    	color: #fff !important;
+    }
+    .from-2 em{
+        width: 0.3rem;
+        height:0.2rem;
+        background: url("../img/sc-img/y.png")no-repeat;
+        background-size: cover;
+        display: block;
+    }
+    .zi{
+        width:5rem;
+        height:0.6rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .zi .zi-left a{
+        color: #ffffff;
+        font-size: 0.26rem;
+        line-height: 0.6rem;
+        display: block;
+    }
+    .zi .zi-right a{
+        color: #ffffff;
+        font-size: 0.26rem;
+        line-height: 0.6rem;
+        display: block;
+    }
+    .login{
+        width: 5.2rem;
+        height:0.82rem;
+        background: #FDBD24;
+        border: 3px solid #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 0.9rem;
+        border-radius: 1rem;
+    }
+    .login .login-1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .login a{
+        width: 100%;
+        color: #ffffff;
+        font-size: 0.28rem;
+    }
+    .login .a2{
+        color: #ffffff;
+        font-size: 0.24rem;
+    }
+    .san-login{
+        width: 6.66rem;
+        height:0.6rem;
+        margin: 0 auto;
+        margin-top: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .xian{
+        width: 2.37rem;
+        height:0.02rem;
+        /*background: url("../img/sc-img/xian.png")no-repeat;*/
+        background-size: cover;
+        background: #fff;
+    }
+    .san-login a{
+        color: #ffffff;
+        font-size: 0.28rem;
+    }
+    .icon{
+        width: 6.66rem;
+        height: 2.4rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .icon a{
+        display: block;
+        width: 1rem;
+        height: 1rem;
+    }
+    .icon a:nth-child(1){
+        background: url("../img/sc-img/qq.png")no-repeat;
+        background-size: cover;
+    }
+    .icon a:nth-child(2){
+        background: url("../img/sc-img/wx.png")no-repeat;
+        background-size: cover;
+    }
+    .icon a:nth-child(3){
+        background: url("../img/sc-img/xl.png")no-repeat;
+        background-size: cover;
+    }

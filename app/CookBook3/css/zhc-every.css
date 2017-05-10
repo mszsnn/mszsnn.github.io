@@ -1,0 +1,163 @@
+.zhc-every{
+	height: 0.88rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #ffdc3b;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.zhc-every img{
+	height: 100%;
+}
+.zhc-every div{
+	display: inline-block;
+	height: 100%;
+	width: 0.4rem;
+}
+
+#zhc-evheader{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#zhc-everywrapper{
+	height: 12.46rem;
+	width: 100%;
+	position:absolute;
+	top: 0.88rem;
+	bottom: 0;
+	overflow: hidden;
+	background: #fff;
+}
+.iScrollVerticalScrollbar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 0.1rem;
+	border-radius: 0.08rem;
+}
+.iScrollIndicator{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 99;
+	width: 100%;
+	border-radius: 8px;
+}
+/*内容*/
+.zhc-everybox{
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	padding-bottom: 1rem;
+}
+.zhc-everybox h1{
+	font-size: 0.28rem;
+	color: #fb7070;
+	margin: 0.5rem 0;
+	width: 100%;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	border-left: 2px solid #fb7070;
+	font-weight: 200;
+}
+.zhc-everylist{
+	width: 100%;
+	height: auto;
+}
+.zhc-everylist .zhc-evli{
+	width: 100%;
+	height: 1.96rem;
+	background: url(../img/zhc/images/zhc-evback_07.png);
+	background-size: cover;
+	padding-top: 0.15rem;
+	box-sizing: border-box;
+	margin-bottom: 0.2rem;
+	box-shadow:0 0 0.1rem #e3e3e3 ;
+}
+.zhc-everylist .zhc-evli .zhc-everyl{
+	float: left;
+	width: 1.66rem;
+	height: 1.66rem;
+	margin-left: 0.15rem;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	box-shadow: 0 0 0.08rem #f3f3f3;
+}
+.zhc-everylist .zhc-evli .zhc-everyl img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.zhc-everylist .zhc-evli .zhc-everyr{
+	width: 4.75rem;
+	height: 100%;
+	float: right;
+}
+.zhc-everylist .zhc-evli .zhc-everyr h2{
+	font-size: 0.28rem;
+	color: #454545;
+	font-weight: normal;
+}
+.zhc-everylist .zhc-evli .zhc-everyr .zhc-evtiao{
+	width: 100%;
+	height: 0.03rem;
+	background: url(../img/zhc/images/zhc-evtiao_11.png);
+	background-size:cover ;
+	margin: 0.1rem 0;
+}
+.zhc-everylist .zhc-evli .zhc-everyr p span{
+	font-size: 0.22rem;
+	color: #454545;
+}
+.zhc-everylist .zhc-evli .zhc-everyr p b{
+	font-size: 0.22rem;
+	color: #454545;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul{
+	width: 100%;
+	height: 0.6rem;
+	margin-top:0.2rem ;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:first-child span{
+	font-size: 0.2rem;
+	color: #454545;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:first-child img{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:first-child img.active{
+	display: none;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:last-child{
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:last-child span{
+	font-size: 0.2rem;
+	color: #454545;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:last-child img{
+	width: 0.44rem;
+}
+.zhc-everylist .zhc-evli .zhc-everyr ul li:last-child img:nth-of-type(2){
+	margin-left: 0.1rem;
+}

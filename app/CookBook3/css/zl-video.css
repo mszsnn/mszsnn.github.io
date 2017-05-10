@@ -1,0 +1,156 @@
+@font-face{
+	font-family: '苹方';
+	src:url(../font/PingFang Regular.ttf);
+}
+@font-face{
+	font-family: '三番';
+	src:url(../font/SF Grandezza Medium.ttf);
+}
+/*顶部*/
+div.zl-top{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	width:100%;
+	height:0.88rem;
+	display: flex;
+	background:rgb(255,220,59);
+}
+div.zl-back{
+	width:0.88rem;
+	height:100%;
+	background:url(../img/zl/foodvideo_02.png) no-repeat center;
+	background-size:auto 100%;
+}
+div.zl-god{
+	flex:auto;
+	height:100%;
+	background:url(../img/zl/foodvideo_03.png) no-repeat center;
+	background-size:auto 100%;
+}
+div.zl-searching{
+	width:0.88rem;
+	height:100%;
+	background:url(../img/zl/foodvideo_04.png) no-repeat center;
+	background-size:auto 100%;
+}
+/*中间滚动部分*/
+#wrapper{
+	position:absolute;
+	left:0;
+	top:0.88rem;
+	/*bottom:1.36rem;*/
+	bottom:0;
+	z-index: 5;
+	width:100%;
+	overflow: hidden;
+}
+
+/*美食视频*/
+div.zl-zhibowrap{
+	width:100%;
+	/*height:6.7rem;*/
+	padding-top:0.25rem;
+}
+div.zl-zhibo{
+	width:7rem;
+	height:3.1rem;
+	margin:0 auto 0.25rem auto;
+	position: relative;
+}
+div.zl-zhibo >img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+div.zl-introduce{
+	width:100%;
+	box-sizing: border-box;
+	padding-left:0.25rem;
+	height:0.75rem;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+div.zl-introduce >h6{
+	height:0.38rem;
+	line-height:0.38rem;
+	font-size:0.24rem;
+	color:rgb(255,255,255);
+	font-family:'苹方';
+}
+div.zl-introduce >h6 >span{
+	color:rgb(251,230,48);	
+	line-height:0.38rem;
+	font-size:0.24rem;
+	font-family:'苹方';
+}
+div.zl-introduce >p{
+	/*width:100%;*/
+	height:0.37rem;
+	line-height:0.37rem;
+	font-size:0.2rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+}
+div.zl-see{
+	width:;
+	height:0.37rem;
+	line-height:0.37rem;
+	position:absolute;
+	bottom:0;
+	right:2.7rem;
+	font-size:0.22rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+}
+div.zl-see >span{
+	float:left;
+	width:0.3rem;
+	height:0.3rem;
+	margin-top:0.04rem;
+	background:url(../img/zl/index_56.png) no-repeat center;
+	background-size:100%; 
+}
+div.zl-zan{
+	width:;
+	height:0.37rem;
+	line-height:0.37rem;
+	position:absolute;
+	bottom:0;
+	right:1.5rem;
+	font-size:0.22rem;
+	color:rgb(255,255,255);
+	font-family:'三番';
+}
+div.zl-zan >span{
+	float:left;
+	width:0.3rem;
+	height:0.3rem;
+	margin-top:0.04rem;
+	background:url(../img/zl/index_58.png) no-repeat center;
+	background-size:100%; 
+}
+div.zl-z{
+	color:rgb(251,112,112);
+}
+div.zl-z >span{
+	background:url(../img/zl/index_64.png) no-repeat center;
+	background-size:100%; 
+}
+div.zl-bf{
+	position: absolute;
+	right:0.15rem;
+	bottom:0;
+	height:1.23rem;
+	width:0.88rem;
+	background:url(../img/zl/index_53.png) no-repeat center;
+	background-size: 100%;
+}
+div.zl-bf >a{
+	display: block;
+	width:100%;
+	height:100%;
+}

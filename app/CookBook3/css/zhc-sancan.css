@@ -1,0 +1,156 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f4f4f4;
+}
+header{
+	width: 100%;
+	height: auto;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #ffdc3b;
+}
+.zhc-every{
+	height: 0.88rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.zhc-every img{
+	height: 100%;
+}
+
+.zhc-jrtsbox{
+	height: 0.88rem;
+	width: 100%;
+	text-align: center;
+	line-height: 0.88rem;
+	position: relative;
+}
+.zhc-jrtsbox ul{
+	display: inline-block;
+	height: 0.62rem;
+	width: 4.32rem;
+	background: url(../img/zhc/images/zhc-ulback_07.png);
+	background-size: cover;
+	padding: 0.15rem 0.2rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.zhc-jrtsbox ul li{
+	height: 100%;
+	width: 0.82rem;
+	border-radius: 0.2rem;
+	line-height: 0.3rem;
+	font-size: 0.24rem;
+	color: #ffdc3b;
+	font-weight: 100;
+}
+.zhc-jrtsbox ul li.active{
+	background: #ffdc3b;
+	color: #fff;
+}
+/*内容*/
+article{
+	width: 100%;
+	height: 9rem;
+	padding: 0.4rem 0.24rem;
+	box-sizing: border-box;
+}
+article .zhc-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+article .zhc-box li{
+	width: 100%;
+	height: 100%;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+article .zhc-box li.zhc-block{
+	display: block;
+}
+article .zhc-box li .zhc-back{
+	float: left;
+	width: 80%;
+	height: 5.8rem;
+	background: #ffdc3b;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	transform: rotateZ(10deg);
+	margin-left: 10%;
+	margin-top: 0.4rem;
+	position: relative;
+}
+article .zhc-box li .zhc-img{
+	width: 80%;
+	height: 5.8rem;
+	background: #fff;
+	padding: 0.04rem;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0.8rem;
+	left: 10%;
+	z-index: 1;
+}
+article .zhc-box li .zhc-img a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+article .zhc-box li .zhc-img a img{
+	width: 100%;
+	height: 100%;
+}
+article .zhc-box li .zhc-sancan{
+	width: 100%;
+	height: 1.42rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+article .zhc-box li .zhc-sancan img{
+	width: 100%;
+}
+
+
+footer{
+	width: 100%;
+	height: 1rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	position: relative;
+}
+footer div{
+	width: 1.78rem;
+	height: 0.58rem;
+	background: url(../img/zhc/images/zhc-tsbtn_18.png);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+footer div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.26rem;
+	color: #fff;
+	line-height: 0.58rem;
+	text-align: center;
+}

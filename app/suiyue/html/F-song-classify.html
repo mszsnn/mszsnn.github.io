@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../common/MobilePhone.css">
+    <link rel="stylesheet" href="../css/F-song-classify.css">
+    <link rel="stylesheet" href="../font/L-font/iconfont.css">
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/iscroll.js"></script>
+    <script src="../js/L-one.js"></script>
+</head>
+<body>
+    <header>
+        <div class="F-title">
+            <div><a href="z-index.html"><img src="../img/F-img/return.png" alt=""></a></div>
+            <div>歌曲</div>
+            <div><a href="D-one.html"><img src="../img/F-img/search.png" alt=""></a></div>
+        </div>
+        <nav>
+            <div class="chose"></div>
+            <ul>
+                <li>
+                    <a href="F-song-recommend.html">
+                        <img src="../img/F-img/recommend.png" alt="">
+                        <span>推荐</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-ranking.html">
+                        <img src="../img/F-img/ranking.png" alt="">
+                        <span>排行</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-singer.html">
+                        <img src="../img/F-img/singer.png" alt="">
+                        <span>歌手</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-list.html">
+                        <img src="../img/F-img/song.png" alt="">
+                        <span>歌单</span>
+                    </a>
+                </li>
+                <li  class="choose">
+                    <a href="F-song-classify.html">
+                        <img src="../img/F-img/classify.png" alt="">
+                        <span>分类</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <main id="scroller">
+            <section class="F-classify">
+                <ul class="sec1">
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/niandai.png" alt="">
+                            <span>年代</span>
+                        </a>
+                    </li>
+                    <li><a href="">70后</a><span></span></li>
+                    <li><a href="">80后</a><span></span></li>
+                    <li><a href="">90后</a></li>
+                    <li><a href="">00后</a></li>
+                </ul>
+                <ul class="sec2">
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/yuyan.png" alt="">
+                            <span>语言</span>
+                        </a>
+                    </li>
+                    <li><a href="">国语</a><span></span></li>
+                    <li><a href="">粤语</a><span></span></li>
+                    <li><a href="">日语</a><span></span></li>
+                    <li><a href="">英语</a><span></span></li>
+                    <li><a href="">法语</a></li>
+                    <li><a href="">闽南语</a></li>
+                    <li><a href="">小语种</a></li>
+                </ul>
+                <ul class="sec3">
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/pifu.png" alt="">
+                            <span>主题</span>
+                        </a>
+                    </li>
+                    <li><a href="">怀旧</a><span></span></li>
+                    <li><a href="">网络</a><span></span></li>
+                    <li><a href="">神曲</a><span></span></li>
+                    <li><a href="">翻唱</a><span></span></li>
+                    <li><a href="">舞曲</a></li>
+                    <li><a href="">成名曲</a></li>
+                    <li><a href="">老情歌</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="image">
+            <a href="L-six.html"></a>
+        </div>
+        <div>
+            <h4>NgauHung</h4>
+            <h6>Hoaprox</h6>
+        </div>
+        <div>
+            <canvas id='canvas' width="100" height="50" display="block"></canvas>
+        </div>
+        <div class="btn">
+            <span class="iconfont icon-icon-test3 prev"></span>
+            <span class="iconfont icon-icon-test2 play"></span>
+            <span class="iconfont icon-icon-test7 next"></span>
+        </div>
+        <audio src="../font/L-font/2.mp3" id="audio"></audio>
+    </footer>
+</body>
+</html>
+<script>
+    var myScroll = new IScroll('#wrapper', {
+        mouseWheel: true,
+        scrollbars: false,
+        click:true,
+    });
+</script>

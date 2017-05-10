@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<script src='../js/common/common.js'></script>
+		<script src='../js/common/jquery.min.js'></script>
+		<script src='../js/common/swiper.min.js'></script>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/swiper.min.css" />
+	</head>
+	<style type="text/css">
+		html,body{
+			width:100%;
+			height:100%;
+			overflow: hidden;
+		}
+		.swiper-container img{
+			width:100%;
+			height:100%;
+		}
+		.swiper-pagination-bullet-active{
+			background: #FFDC3B;
+		}
+		.swiper-container-horizontal>.swiper-pagination{
+			bottom: 115px;
+		}
+	</style>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<img class="swiper-slide" src="../img/qyh-img/shan1.png" alt=""/>
+		    	<img class="swiper-slide" src="../img/qyh-img/shan2.png" alt="" />
+		    	<img class="swiper-slide q-none" src="../img/qyh-img/shan3.png" alt="" />
+			  </div>
+			  <div class="swiper-pagination"></div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	var mySw=iper = new Swiper('.swiper-container',{
+	    loop:false,
+		paginationType : 'custom',
+		pagination : '.swiper-pagination',
+	});
+  	$('.q-none').on('touchmove',function(){
+  		location.href='qyh-login.html';
+  	})
+</script>

@@ -1,0 +1,73 @@
+html{
+  width:100%;
+  height:100%;
+}
+body{
+  overflow: hidden;
+  width:100%;
+  height:100%;
+  background-image: url("../img/D-song/background.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+section.d-top{
+  width:100%;
+  height:0.9rem;
+  text-align: center;
+  line-height: 0.9rem;
+  padding:0 0.24rem;
+  box-sizing: border-box;
+  a{
+    float:left;
+    color:#fff;
+    font:{
+      size:0.32rem;
+      family: "宋体";
+    }
+  }
+  span{
+    color:#fff;
+    font:{
+      size:0.32rem;
+      family: "苹方 中等";
+    }
+  }
+}
+section.load{
+  width:100%;
+  height:auto;
+  text-align: center;
+  margin-top:2.5rem;
+  img{
+    width:70%;
+
+  }
+}
+.xuanzhuan{
+  transition:load 0.2s;
+}
+section.btn{
+  width:3.25rem;
+  height:0.8rem;
+  background:#fff;
+  border-radius: 0.5rem;
+  margin:3rem auto;
+  text-align: center;
+  line-height: 0.8rem;
+  color:#ff0000;
+  font:{
+    size:0.36rem;
+    family: "苹方 中等";
+  }
+}
+@keyframes load {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,154 @@
+ #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        line-height: 45px;
+        background-image: url("../img/z-img/z-beijing.png");
+        background-size:100% 100%;
+        padding: 0;
+        color: #eee;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        height:.88rem;
+        z-index: 99999999;
+    }
+    #header .z-return{
+        padding-left: 0.2rem;
+        display: block;
+        float: left;
+        height:.48rem;
+        margin-top: .2rem;
+    }
+    #header .z-tupian1{
+        width:1.92rem;
+        float: left;
+        margin-left: 2rem;
+        margin-top: .12rem;
+    }
+    #header .z-yuyin{
+        display: block;
+        float: right;
+        padding-right: 0.36rem;
+        height:.48rem;
+        margin-top: .2rem;
+    }
+.rq{
+    width: 1.7rem;
+    height: 0.3rem;
+    background: #f6f6f6;
+    float: left;
+    border-left: 2px solid #FB7070;
+    margin-top: 1.2rem;
+     margin-left: 0.3rem;
+}
+.qwq{
+    width: 1.7rem;
+    height: 0.3rem;
+    background: #f6f6f6;
+    float: left;
+    border-left: 2px solid #FB7070;
+    margin-top: 0.5rem;
+     margin-left: 0.3rem;
+     margin-bottom: 0.3rem;
+}
+.rq>p{
+    font-size: 0.25rem;
+    margin-left: 0.15rem;
+    color: #FB7070;
+}
+.da{
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+    background: #F5F5F5;
+}
+.ppp{
+    width: 7.0rem;
+    height: 6.3rem;
+    margin: 0 auto;
+    background: #F5F5F5;
+    margin-top: 1.8rem;
+}
+.sas{
+    width: 7.0rem;
+    height: 6.3rem;
+    margin: 0 auto;
+    background: #F5F5F5;
+    margin-top: 0.5rem;
+}
+.ppp>ul{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #F5F5F5;
+}
+
+.ppp>ul>li{
+    width: 100%;
+    height: 1.95rem;
+    background: #fff;
+    font-size: 0;
+
+}
+.ppp>ul>li:nth-child(1)~li{
+    margin-top: 0.2rem;
+}
+.ppp>ul>li>a{
+    width: 2.1rem;
+    height: 2rem;
+    float: left;
+    display: block;
+}
+.ppp>ul>li>a>img{
+    width: 100%;
+}
+.ppp>ul>li>p{
+    font-size: 0.3rem;
+    line-height: 1.2rem;
+}
+.xian{
+    width: 4.43rem;
+    height: 0.2rem;
+    float: right;
+    margin-right: 0.45rem;
+    margin-top: -0.2rem;
+    font-size: 0;
+}
+.xian>img{
+    width: 100%;
+}
+li>span{
+    font-size: 0.2rem;
+    line-height: 0rem;
+    float: left;
+}
+li>h1{
+    font-size: 0.2rem;
+    margin-top: 0.3rem;
+    font-weight: normal;
+    float: left;
+}
+li>.like{
+    width: 1.43rem;
+    height: 0.35rem;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+li>.like>a>img{
+    width: 100%;
+}
+
+li>.pl{
+    width: 1.43rem;
+    height: 0.35rem;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+}
+li>.pl>a>img{
+    width: 100%;
+}

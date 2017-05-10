@@ -1,0 +1,230 @@
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 100px; } }
+.pack{
+    width: 100%;
+    height: 13.34rem;
+    background: #ffffff;
+}
+.music{
+    height: 0.88rem;
+    width: 100%;
+}
+.zxq-top1 a:last-child{
+    float:right;
+}
+.singer{
+    width: 100%;
+    height: 0.88rem;
+}
+.hot{
+    width: auto;
+    height: auto;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    background: #ffffff;
+}
+.hot .hot-nk{
+    width: 100%;
+    height:100%;
+}
+.hot .all{
+    width: 100%;
+    height: 3.2rem;
+}
+.hot .all .all-s{
+    width: 5.9rem;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hot .all .all-sm{
+    width: 2.7rem;
+}
+.hot .all a{
+    color: #111111;
+    font-size: 0.26rem;
+    display: flex;
+}
+.hot .all .yanse{
+    color: #e13838;
+}
+.hot .all img{
+    width: 0.65rem;
+    height: 0.65rem;
+}
+.focus{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.focus .f-left{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.focus .f-left a{
+    width: 100%;
+    height: 100%;
+}
+.focus .f-left img{
+    width: 100%;
+    height: 100%;
+}
+.focus .f-right{
+    width: 5.75rem;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.focus .f-right a{
+    color: #111111;
+    font-size: 0.28rem;
+    display: flex;
+}
+.zxq-bottom{
+    width:100%;
+    height:0.98rem;
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-sizing:border-box;
+    z-index: 2;
+    background: #fff;
+}
+.zxq-bottom .zxq-icon{
+    width:0.95rem;
+    height:0.95rem;
+    background-image:url('../img/zxq-xt.png');
+    background-size:100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    float:left;
+    margin-top:0.01rem;
+    margin-left:0.01rem;
+}
+.zxq-bottom .zxq-play{
+    width:2.15rem;
+    height:100%;
+    float:right;
+}
+.zxq-bottom .zxq-play img{
+    display: block;
+    float: left;
+}
+.zxq-bottom .zxq-play1{
+    width:0.34rem;
+    height:100%;
+    margin-right:0.34rem;
+    float:left;
+}
+.zxq-bottom .zxq-play1 img{
+    width:100%;
+    height:0.3rem;
+    margin-top:0.34rem;
+    /*margin-bottom:0.32rem;*/
+}
+.zxq-bottom .zxq-play2{
+    width:0.6rem;
+    height:100%;
+    margin-right:0.34rem;
+    float:left;
+}
+.zxq-bottom .zxq-play2 img{
+    width:100%;
+    height:0.6rem;
+    margin-top:0.18rem;
+}
+.zxq-bottom .zxq-play3{
+    width:0.3rem;
+    height:100%;
+    margin-right:0.23rem;
+    float:left;
+}
+.zxq-bottom .zxq-play3 img{
+    width:100%;
+    height:0.29rem;
+    margin-top:0.34rem;
+}
+.zxq-bottom .zxq-tiao{
+    width:100%;
+    height:0.02rem;
+    background: #a0a0a0;
+    position:relative;
+    margin-top:0.01rem;
+    z-index:3;
+}
+.zxq-bottom .zxq-tiao .zxq-ctiao{
+    width:0%;
+    height:0.02rem;
+    border-radius:4px;
+    background:#ff0000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:4;
+}
+.zxq-bottom  .zxq-tiao .zxq-ctiao .zxq-yuan{
+    width: 0.1rem;
+    height: 0.01rem;
+    background: #ff0000;
+    position: absolute;
+    right: -1px;
+}
+.zxq-bottom .zxq-statues{
+    height:100%;
+    float:left;
+    margin-left:0.24rem;
+}
+.zxq-bottom .zxq-statues .zxq-author{
+    width:100%;
+    height:100%;
+    color:#fff;
+    text-align: left;
+
+}
+.zxq-bottom .zxq-statues .zxq-author span:first-child{
+    display:block;
+    width:100%;
+    height:auto;
+    font-size: 0.24rem;
+    color:#111111;
+    font-family: 'San Francisco Display';
+    margin-top:0.10rem;
+}
+.zxq-bottom .zxq-statues .zxq-author span:last-child{
+    display:block;
+    height:auto;
+    font-size: 0.22rem;;
+    color:#5f5f5f;
+    font-family: 'San Francisco Display';
+    margin-top:0.15rem;
+}
+.zxq-bottom canvas{
+    z-index: 50;
+}

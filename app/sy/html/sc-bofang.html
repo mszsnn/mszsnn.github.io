@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>播放页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/sc-bofang.css">
+    <link rel="stylesheet" href="../css/common.css">
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/sc-bofang.js"></script>
+</head>
+<body>
+<audio id="audio" src="../song/b.mp3"></audio>
+<div class="pack">
+	<div class="mask">
+		<!--top-->
+		<div class="top"></div>
+		<!--题目-->
+		<div class="titles">
+			<div class="xia"></div>
+			<a href="#">Counting Stars</a>
+			<div class="dian"></div>
+		</div>
+		<!--歌手-->
+		<div class="names">
+			<a href="#">——　OneRepublic　——</a>
+		</div>
+		<!--图-->
+		<div class="center"></div>
+		<!--歌词-->
+		<div class="lyrics">
+			<a href="#">Lately I been, I been losing sleep</a>
+			<a href="#" class="a2">最近我总是辗转反侧 难以入眠</a>
+		</div>
+		<!--进度条-->
+		<div class="article">
+			<div class="cen">
+				<div class="tiao">
+					<span class="dtime">00:00</span>
+					<div class="tiao-1">
+						<div class="tiao-1-1">
+							<div class="dian"></div>
+						</div>
+					</div>
+					<span class="ctime">04:54</span>
+				</div>
+				<div class="play">
+					<div class="xh"></div>
+					<div class="left"></div>
+					<div class="plays bf1"></div>
+					<div class="right"></div>
+					<div class="lb"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+        var audio=$('audio').get(0);
+        $('.bf1').on('click',function(){
+            if(audio.paused){
+                $('.plays').removeClass('bf1').addClass('bf');
+                audio.play();
+            }else{
+                $('.plays').removeClass('bf').addClass('bf1');
+                audio.pause();
+            }
+        })
+
+    })
+</script>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>本地歌曲</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/fh-gedan.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zxq-dibu.js"></script>
+    <script src="../js/iscroll.js"></script>
+</head>
+<style>
+    #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:1.76rem;
+    }
+    #footer {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.98rem;
+    }
+    #wrapper {
+        position: absolute;
+        z-index: 1;
+        top: 1.76rem;
+        bottom:0.98rem;
+        left: 0;
+        width: 100%;
+        background: #f1f1f1;
+        overflow: hidden;
+    }
+    #scroller {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+        background:#f1f1f1;
+    }
+</style>
+<body>
+<div id="header">
+    <div class='zxq-top1'>
+        <a href="index.html"></a>
+        <span>歌曲</span>
+        <a href="#"></a>
+    </div>
+    <div class='zxq-top2'>
+        <ul>
+            <li>
+                <a href="lp-song.html">
+                    <img src="../img/zxq-f.png" alt="" />
+                    <span>推荐</span>
+                </a>
+            </li>
+            <li>
+                <a href="lp-ranking.html">
+                    <img src="../img/zxq-f5.png" alt="" />
+                    <span>排行</span>
+                </a>
+            </li>
+            <li>
+                <a href="sc-singer.html">
+                    <img src="../img/zxq-f2.png" alt="" />
+                    <span>歌手</span>
+                </a>
+            </li>
+            <li class='active'>
+                <a href="javascript:;">
+                    <img src="../img/zxq-f3.png" alt="" />
+                    <span>歌单</span>
+                </a>
+            </li>
+            <li>
+                <a href="sc-fenlei.html">
+                    <img src="../img/zxq-f4.png" alt="" />
+                    <span>分类</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--内容-->
+<div id="wrapper">
+    <div id="scroller">
+        <div class="fh-content">
+            <ul>
+                <li>
+                    <h1>分开旅行</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img class="fh-last" src="../img/fh-14.png" alt="">
+                    <h2>刘若英/黄立行 · 音浪</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>背对背拥抱</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>林俊杰 · 100天</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>新贵妃醉酒</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>李玉刚 · 刚好遇见你</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>雨花石</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>李玉刚 · 刚好遇见你</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>清明上河图</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>李玉刚 · 刚好遇见你</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>逐梦令</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>李玉刚 · 刚好遇见你</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>李</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>李玉刚 · 刚好遇见你</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>听一千遍后</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>陈奕迅 · ？</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>白色球鞋</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>陈奕迅 · 认了吧</h2>
+                    <div class="fh-line"></div>
+                </li>
+                <li>
+                    <h1>真的很爱你</h1>
+                    <img src="../img/fh-13.png" alt="">
+                    <img src="../img/fh-14.png" alt="">
+                    <img class="fh-last" src="../img/fh-15.png" alt="">
+                    <h2>陈奕迅 · ？</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div id="footer">
+    <audio src='../song/b.mp3' id='audio'></audio>
+    <ul class="zxq-bottom">
+        <li class='zxq-tiao'>
+            <div class='zxq-ctiao'>
+                <div class='zxq-yuan'></div>
+            </div>
+        </li>
+        <li class='zxq-icon'></li>
+        <li class='zxq-statues'>
+            <div class='zxq-author'>
+                <span>Ngẫu Hứng</span>
+                <span>Hoaprox</span>
+            </div>
+            <!--<canvas id="canvas" width='200px' height='800px'></canvas>-->
+        </li>
+        <li class='zxq-play'>
+            <div class="zxq-play1 i1">
+                <img src="../img/zxq-zy.png" alt="" />
+            </div >
+            <div class="zxq-play2 i1">
+				<img src="../img/bf11.png" alt="" class='zxq-aa'/>
+				<img src="../img/bf1.png" alt="" class='zxq-bb'/>
+			</div>
+            <div class="zxq-play3 i1">
+                <img src="../img/zxq-next.png" alt="" />
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+    })
+</script>

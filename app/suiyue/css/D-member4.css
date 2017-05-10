@@ -1,0 +1,125 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+div.d-zhao {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+section.d-payment {
+  width: 6.75rem;
+  height: 7.9rem;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.375rem;
+  margin-top: -3.95rem;
+  z-index: 200;
+  border-radius: 0.2rem;
+}
+
+section.d-payment p {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #000;
+  margin-top: 0.55rem;
+  font-size: 0.26rem;
+  font-family: "苹方 中等";
+}
+
+section.d-payment p span {
+  color: #ff0000;
+  font-size: 0.26rem;
+}
+
+section.d-payment h1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0.3rem 0;
+  font-size: 0.75rem;
+  font-family: "苹方 常规";
+}
+
+section.d-payment > ul {
+  width: 100%;
+  height: auto;
+}
+
+section.d-payment > ul li {
+  width: 90%;
+  height: 1.1rem;
+  box-shadow: 0.01rem 0.01rem 0.1rem rgba(210, 210, 210, 0.75);
+  margin: 0.16rem 0 0.16rem 0.36rem;
+  padding-top: 0.23rem;
+  box-sizing: border-box;
+}
+
+section.d-payment > ul li img {
+  float: left;
+  width: 0.64rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+section.d-payment > ul li span:first-of-type {
+  color: #747474;
+  font-size: 0.24rem;
+  font-family: "苹方 粗体";
+}
+
+section.d-payment > ul li span:nth-of-type(2) {
+  color: #b5b1b1;
+  font-size: 0.22rem;
+  font-family: "苹方 粗体";
+}
+
+section.d-payment a.d-sure {
+  display:block;
+  width: 6.1rem;
+  height: 0.92rem;
+  background: #fdbd24;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.92rem;
+  color: #fff;
+  border-radius: 0.1rem;
+  border: 0.02rem solid #fff;
+  box-shadow: 0.01rem 0.01rem 0.09rem rgba(0, 0, 0, 0.2);
+  font-size: 0.34rem;
+  font-family: "苹方 常规";
+}
+
+section.d-payment div.d-auto {
+  width: 6.1rem;
+  height: auto;
+  margin: 0.2rem auto;
+  display: flex;
+}
+
+section.d-payment div.d-auto img {
+  width: 0.36rem;
+  height: 0.36rem;
+  margin: 0 0.1rem 0 0;
+}
+
+section.d-payment div.d-auto span {
+  color: #000;
+  font-size: 0.22rem;
+  font-family: "苹方 常规";
+}
+
+section.d-payment div.d-auto span:last-child {
+  color: #ff0000;
+}

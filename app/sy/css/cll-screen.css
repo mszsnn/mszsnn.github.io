@@ -1,0 +1,50 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.big{
+	width: 100%;
+	height: 100%;
+}
+.myimg{
+	font-size: 0.2rem;
+}
+.myimg img{
+	width: 100%;
+}
+.myimg .rect{
+	display: block;
+	width:0.98rem ;
+	height: 0.34rem;
+	background: #dfc346;
+	border: 0.02rem solid #fff;
+	border-radius: 0.17rem;
+	position: absolute;
+	top:0.32rem;
+	right: 0.48rem;
+	z-index: 333;
+	color: #fff;
+	text-align: center;
+	line-height: 0.34rem;
+	font-size: 0.24rem;
+}
+.myimg .imme{
+	display: block;
+	width:2.78rem ;
+	height: 0.54rem;
+	background: #fff;
+	border-radius: 0.27rem;
+	position: absolute;
+	bottom:2rem;
+	left: 50%;
+	z-index: 444;
+	margin-left: -1.39rem;
+	color: #a3a1d3;
+	text-align: center;
+	line-height: 0.54rem;
+	font-size: 0.36rem;
+}
+.big .swiper-container .circle{
+	bottom: 0.4rem;
+}

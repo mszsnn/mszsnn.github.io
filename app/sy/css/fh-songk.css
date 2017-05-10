@@ -1,0 +1,356 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size:0.24rem;
+}
+img{
+    display: block;
+}
+body{
+    background:#F1F1F1;
+}
+.zxq-top{
+    width:100%;
+    height: 0.88rem;
+    background: #e13838;
+    /*position:absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+}
+.zxq-top .zxq-innertop{
+    width:7.02rem;
+    margin:0 auto;
+    height:0.86rem;
+}
+.zxq-top .zxq-innertop a{
+    display: block;
+}
+.zxq-top .zxq-innertop .zxq-cd{
+    width:0.4rem;
+    height:0.4rem;
+    margin-top:0.25rem;
+    float: left;
+}
+
+.zxq-top .zxq-innertop span{
+    font-size:0.32rem;
+    color:rgba(255,255,255,0.7);
+    float: left;
+    line-height: 0.86rem;
+    cursor: pointer;
+}
+.zxq-top .zxq-innertop .music3{
+    margin-left:1.12rem;
+}
+.zxq-top .zxq-innertop .music1{
+    margin-left:0.8rem;
+}
+.zxq-top .zxq-innertop .music2{
+    margin-left:1.1rem;
+}
+.zxq-top .zxq-innertop span.active{
+    color:#fff;
+    font-size: 0.32rem;
+}
+
+.zxq-top .zxq-innertop .zxq-ss{
+    width:0.35rem;
+    height:0.36rem;
+    float: left;
+    margin-top:0.27rem;
+    margin-left:1.08rem;
+}
+/*小明同学*/
+.fh-top{
+    width:100%;
+    height:1.2rem;
+    /*margin-top: 0.88rem;*/
+}
+.fh-top > img:nth-child(1){
+    margin-left:0.3rem;
+    height:0.88rem;
+    float:left;
+    margin-top:0.16rem;
+}
+.fh-top > h1{
+    font-size:0.24rem;
+    float:left;
+    margin-left:0.2rem;
+    line-height:1.2rem;
+}
+.fh-top > img:nth-child(3){
+    float:left;
+    height:0.27rem;
+    margin-top:0.46rem;
+    margin-left:0.1rem;
+}
+.fh-diange{
+    width:1.63rem;
+    height:0.64rem;
+    float:right;
+    border-radius:0.32rem;
+    background: #e13838;
+    margin-top:0.28rem;
+    margin-right:0.24rem;
+}
+.fh-diange img{
+    height:0.3rem;
+    margin-top:0.17rem;
+    float:left;
+    margin-left:0.3rem;
+    margin-right:0.1rem;
+}
+.fh-diange h1{
+    line-height:0.64rem;
+    font-size:0.26rem;
+    color:#fff;
+}
+.fh-diange h1 a{
+    color:#fff;
+}
+.fh-banner{
+    width:100%;
+    height:3.23rem;
+}
+.fh-banner img{
+    width:100%;
+}
+.fh-line{
+    height:0.02rem;
+    width:100%;
+    background:#fff;
+    margin-top:0.32rem;
+}
+/*经典热歌榜*/
+.fh-song{
+    /*width:100%;*/
+    height:4.35rem;
+    background:#fff;
+    margin-bottom:0.2rem;
+}
+.fh-biaoti{
+    width:100%;
+    height:0.52rem;
+    padding:0.12rem 0;
+    box-sizing: border-box;
+}
+.fh-biaoti .fh-left{
+    width:0.02rem;
+    height:0.28rem;
+    background:#e13838;
+    float:left;
+}
+.fh-biaoti img{
+    float:left;
+    height:0.3rem;
+    margin-left:0.1rem;
+}
+.fh-biaoti h2{
+    float:left;
+    font-size: 0.24rem;
+    margin-left:0.04rem;
+}
+.fh-biaoti h3{
+    float:right;
+    margin-right:0.24rem;
+}
+.fh-biaoti h3 span{
+    font-family: "宋体";
+}
+.fh-box{
+    width:100%;
+    overflow: hidden;
+}
+.fh-ge{
+    width:13rem;
+    height:3.83rem;
+    padding-left:0.1rem;
+    box-sizing: border-box;
+}
+.fh-ge li{
+    width: 2.9rem!important;
+    margin-right:0.1rem;
+    margin-top:0.1rem;
+    float:Left;
+}
+.fh-ge li div{
+    width:100%;
+    height:2.9rem;
+    background-image: url("../img/fh-6.png");
+    background-size:110% auto;
+    background-position: center;
+}
+.fh-ge li:nth-child(2) div{
+    width:100%;
+    height:2.9rem;
+    background-image: url("../img/fh-7.png");
+    background-size:100% auto;
+}
+.fh-ge li h3{
+    margin-left:0.05rem;
+    margin-top:0.1rem;
+    color:#d81e06;
+    font-size:0.24rem;
+}
+.fh-ge span{
+    color:#000;
+}
+/*本周热门明星*/
+.fh-star{
+    width:7.21rem;
+    height:2rem;
+    margin:0.5rem auto;
+    background: #fff;
+    position: relative;
+    border-radius:0.1rem;
+}
+.fh-star .fh-img{
+    position: absolute;
+    left:0.05rem;
+    top:-0.3rem;
+    width:2.25rem;
+    height:2.25rem;
+    background-image: url("../img/fh-10.png");
+    background-size: 100% auto;
+    border-radius:0.1rem;
+}
+.fh-zi{
+    width:4.5rem;
+    height:100%;
+    margin-left:2.7rem;
+    padding-top:0.23rem;
+    box-sizing: border-box;
+}
+.fh-zi h1{
+    font-size:0.28rem;
+    margin-bottom:0.2rem;
+}
+.fh-zi h2{
+    font-size:0.26rem;
+    color:rgba(0,0,0,0.7)
+}
+.fh-kongbai{
+    width:100%;
+    height:0.98rem;
+}
+/*底部*/
+.zxq-bottom{
+    width:100%;
+    height:0.98rem;
+    background: #fff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-sizing:border-box;
+    z-index: 2;
+}
+.zxq-bottom .zxq-icon{
+    width:0.95rem;
+    height:0.95rem;
+    background-image:url('../img/zxq-xt.png');
+    background-size:100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    float:left;
+    margin-top:0.01rem;
+    margin-left:0.01rem;
+}
+.zxq-bottom .zxq-play{
+    width:2.15rem;
+    height:100%;
+    float:right;
+}
+.zxq-bottom .zxq-play img{
+    display: block;
+    float: left;
+}
+.zxq-bottom .zxq-play1{
+    width:0.34rem;
+    height:100%;
+    margin-right:0.34rem;
+    float:left;
+}
+.zxq-bottom .zxq-play1 img{
+    width:100%;
+    height:0.3rem;
+    margin-top:0.34rem;
+    /*margin-bottom:0.32rem;*/
+}
+.zxq-bottom .zxq-play2{
+    width:0.6rem;
+    height:100%;
+    margin-right:0.34rem;
+    float:left;
+}
+.zxq-bottom .zxq-play2 img{
+    width:100%;
+    height:0.6rem;
+    margin-top:0.18rem;
+}
+.zxq-bottom .zxq-play3{
+    width:0.3rem;
+    height:100%;
+    margin-right:0.23rem;
+    float:left;
+}
+.zxq-bottom .zxq-play3 img{
+    width:100%;
+    height:0.29rem;
+    margin-top:0.34rem;
+}
+.zxq-bottom .zxq-tiao{
+    width:100%;
+    height:0.01rem;
+    background: #a0a0a0;
+    position:relative;
+    margin-top:0.01rem;
+    z-index:3;
+}
+.zxq-bottom .zxq-tiao .zxq-ctiao{
+    width:0%;
+    height:0.01rem;
+    border-radius:4px;
+    background:#ff0000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:4;
+}
+.zxq-bottom  .zxq-tiao .zxq-ctiao .zxq-yuan{
+    width: 0.1rem;
+    height: 0.01rem;
+    background: #ff0000;
+    position: absolute;
+    right: -1px;
+}
+.zxq-bottom .zxq-statues{
+    height:100%;
+    float:left;
+    margin-left:0.24rem;
+}
+.zxq-bottom .zxq-statues .zxq-author{
+    width:100%;
+    height:100%;
+    color:#fff;
+    text-align: left;
+
+}
+.zxq-bottom .zxq-statues .zxq-author span:first-child{
+    display:block;
+    width:100%;
+    height:auto;
+    font-size: 0.24rem;
+    color:#111111;
+    font-family: 'San Francisco Display';
+    margin-top:0.10rem;
+}
+.zxq-bottom .zxq-statues .zxq-author span:last-child{
+    display:block;
+    height:auto;
+    font-size: 0.22rem;;
+    color:#5f5f5f;
+    font-family: 'San Francisco Display';
+    margin-top:0.15rem;
+}
+.zxq-bottom canvas{
+    z-index: 50;
+}

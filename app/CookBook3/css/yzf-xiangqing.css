@@ -1,0 +1,292 @@
+/*nav*/
+.yzf-nav{
+	width:100%;
+	height:1rem;
+	background: #ffdc3b;
+	position:absolute;
+	top:0;
+	left: 0;
+	z-index:1000;
+}
+.yzf-nav .photo-one{
+	display: block;
+	float: left;
+	width: 0.16rem;
+	height: 0.28rem;
+	margin:0.4rem auto 0.3rem 0.32rem;
+}
+.yzf-nav .photo-two{
+	display: block;
+	float: left;
+	width: 2.5rem;
+	height: 0.7rem;
+	margin: 0.2rem auto 0.14rem 2rem;
+}
+.yzf-nav .photo-three{
+	display: block;
+	float: right;
+	width: 0.5rem;
+	height: 0.2rem;
+	margin:0.4rem 0.34rem 0.34rem auto;
+}
+/*tudou*/
+
+.yzf-tudou{
+	width:5.6rem;
+	height:3rem;
+	background-image: url(../img/yzf/xiangqing_03.png);
+	background-size:100%;
+	margin:0 auto;
+	margin-top:1.2rem;
+}
+.xuangou{
+	width:3.34rem;
+	height:0.7rem;
+	background-image:url(../img/yzf/xiangqing_07.png);
+	background-size:100%;
+	margin:0 auto;
+	margin-top:0.5rem;
+}
+.font{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	margin-top:0.2rem;
+}
+.font li{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.font li span:first-child{
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#ffdc3b;
+	float:left;
+	margin-top:0.15rem;
+}
+.font li span:nth-child(2){
+	display: block;
+	float:left;
+	margin-left:0.15rem;
+}
+
+
+
+
+
+.yzf-yangying{
+	width:3.34rem;
+	height:0.7rem;
+	background-image: url(../img/yzf/xiangqing_10.png);
+	background-size:100%;
+	margin:0 auto;
+	margin-top:0.3rem;
+}
+.yzf-yangyingimg{
+	width:6.84rem;
+	height:8.24rem;
+	margin:0 auto;
+	margin-top:0.2rem;
+	background-image: url(../img/yzf/xiangqing_13.png);
+	background-size:100%;
+}
+
+
+
+
+.yzf-box2{
+	
+}
+.yzf-xuanze{
+	width:3rem;
+	height:0.5rem;
+	background:#fff;
+	border-radius:15px;
+	box-shadow:0 0 10px 3px #ccc;
+	margin:0 auto;
+}
+.yzf-xuanze .di{
+	width:1.3rem;
+	height:0.32rem;
+	border-radius: 10px;
+	background: #ffdc3b;
+	text-align: center;
+	line-height: 0.32rem;
+	margin-top:0.09rem;
+	margin-left:0.1rem;
+	float:left;
+	position:relative;
+}
+.yzf-xuanze .di span:first-child{
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#fff;
+	position: absolute;
+	top:0.15rem;
+	left:0.05rem;
+}
+.yzf-xuanze .di span:last-child{
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#fff;
+	position: absolute;
+	top:0.12rem;
+	right:0.05rem;
+}
+.yzf-xuanze .da{
+	width:1.3rem;
+	height:0.32rem;
+	border-radius: 10px;
+	background: #fff;
+	text-align: center;
+	line-height: 0.32rem;
+	margin-top:0.09rem;
+	margin-left:0.1rem;
+	float:left;
+	position:relative;
+}
+.yzf-xuanze .da span:first-child{
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#fff;
+	position: absolute;
+	top:0.15rem;
+	left:0.05rem;
+}
+.yzf-xuanze .da span:last-child{
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#fff;
+	position: absolute;
+	top:0.12rem;
+	right:0.05rem;
+}
+
+/*滑动*/
+.swiper-wrapper .yzf-one{
+	width:1.8rem;
+	height:2.15rem;
+	border-radius:5px;
+	background-image:url(../img/yzf/xiangqing_17.png);
+	background-size:100%;
+}
+.swiper-wrapper .yzf-two{
+	width:1.8rem;
+	height:2.15rem;
+	border-radius:5px;
+	background-image:url(../img/yzf/xiangqing_19.png);
+	background-size:100%;
+}
+.swiper-wrapper .yzf-three{
+	width:1.8rem;
+	height:2.15rem;
+	border-radius:5px;
+	background-image:url(../img/yzf/xiangqing_21.png);
+	background-size:100%;
+}
+
+
+
+.caipuimg{
+	width:3.34rem;
+	height:0.7rem;
+	background-image: url(../img/yzf/xiangqing_27.png);
+	background-size:100%;
+	margin:0 auto;
+	margin-top:0.3rem;
+}
+
+
+
+
+
+/*产品*/
+a{
+	color:#333;
+}
+.yzf-chanpin{
+	width:100%;
+	height:2.4rem;
+	box-shadow: 0 0 10px 3px #ccc;
+	float:left;
+	margin-top:0.3rem;
+}
+.yzf-chanpin .yzf-photo{
+	width:2.06rem;
+	height:1.96rem;
+	background-image:url(../img/yzf/list_03.png);
+	background-size:100%;
+	margin-top:0.25rem;
+	margin-left:0.2rem;
+	float:left;
+}
+.yzf-chanpin .yzf-title{
+	width:auto;
+	height:0.8rem;
+	float:left;
+	margin-left:0.72rem;
+	margin-top:0.15rem;
+	position:relative;
+}
+.yzf-chanpin .yzf-title span:first-child{
+	font-size:0.28rem;
+	color:#3e3e3e;
+	display: block;
+}
+.yzf-chanpin .yzf-title span:nth-child(2){
+	font-size:0.22rem;
+	color:#ffdc3b;
+	display: block;
+	font-family:"Tahoma";
+}
+.yzf-chanpin .yzf-title img{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.yzf-neirong{
+	width:3.65rem;
+	height:0.95rem;
+	float:left;
+	margin-left:0.72rem;
+	color:#ccc;
+}
+.yzf-neirong > h5{
+	 color:#ccc;
+ }
+.yzf-neirong img{
+	width:1.7rem;
+	height:0.15rem;
+}
+
+
+.yzf-dianzan{
+	width:3.65rem;
+	height:0.35rem;
+	float:left;
+	margin-left:0.72rem;
+	line-height:0.35rem;
+}
+.yzf-dianzan img{
+	width:0.38rem;
+	height:0.3rem;
+	/*margin-top:0.05rem;*/
+	float:left;
+}
+.yzf-dianzan span{
+	margin-bottom:0.1rem;
+	float:left;
+	color:#ccc;
+}
+

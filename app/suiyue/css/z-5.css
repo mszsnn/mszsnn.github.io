@@ -1,0 +1,221 @@
+body{
+    background: #f1f1f1;
+}
+header {
+    width: 100%;
+    height: 0.9rem;
+    background: #d43837;
+    text-align: center;
+    line-height: 0.9rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    /*position: absolute;*/
+    /*z-index: 100;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    font-size: 0.32rem;
+    font-family: "苹方";
+}
+
+header a:first-of-type {
+    float: left;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.32rem;
+    font-family: "宋体";
+    font-weight: bold;
+}
+
+header a:nth-of-type(2){
+    float:right;
+    width:auto;
+    height:auto;
+    line-height: 0.9rem;
+}
+header a:nth-of-type(2) img{
+    height:0.4rem;
+    margin-top:0.25rem;
+}
+header span {
+    font-size: 0.32rem;
+    color: #fff;
+}
+header a:nth-of-type(1) img{
+    height:0.35rem;
+}
+
+/*占位*/
+div.seat{
+    width:100%;
+    height:0.9rem;
+}
+#wrapper{
+    margin-top:0.9rem;
+}
+
+
+/*顶部*/
+ul.top{
+    width:100%;
+    height:0.9rem;
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    z-index:100;
+    line-height: 0.9rem;
+    top:-0.2rem;
+    left:0;
+}
+ul.top > li{
+    width:auto;
+    height:100%;
+    position: relative;
+}
+ul.top > li > a{
+    color:#101010;
+    font-size: 0.3rem;
+    font-family: "苹方 常规";
+}
+ul.top > li > div.triangle{
+    width:0;
+    height:0;
+    border:0.1rem solid rgba(0,0,0,0);
+    border-bottom: 0.15rem solid red;
+    border-left: 0.1rem solid rgba(0,0,0,0);
+    border-right: 0.1rem solid rgba(0,0,0,0);
+    position: absolute;
+    left:50%;
+    bottom:0;
+}
+
+/*电台个性推荐*/
+section.d-radio{
+    width:100%;
+    height:auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+section.d-radio > div.d-radio-one{
+    width:100%;
+    height:auto;
+    border-radius: 0.1rem;
+    border: 2px solid #fff;
+    box-shadow: 0 0.01rem 0.09rem  rgba(0,0,0,0.2);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+section.d-radio > div.d-radio-one > img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+section.d-radio > div.d-radio-two{
+    width:100%;
+    height:2.3rem;
+    display:flex;
+    justify-content: space-between;
+    margin-top:0.2rem;
+}
+section.d-radio > div.d-radio-two > img{
+    width:2.25rem;
+    height:auto;
+    border: 1px solid #f3f3f3;
+    box-shadow:  0.01rem 0.01rem 0.09rem rgba(0,0,0,0.2);
+}
+
+
+/*情感调频*/
+.title{
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /*margin-top:0.9rem;*/
+}
+.title::after{
+    content: "";
+    width:.04rem;
+    height:.3rem;
+    background: #E71B1A;
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-.15rem;
+}
+
+.title>div{
+    font-size: .26rem;
+    margin-left: .24rem;
+    display: flex;
+    align-items:center;
+}
+.title>div>img{
+    margin-right: .24rem;
+    width: .15rem;
+}
+.title>div>span{
+    font-size: .26rem;
+    margin-right: .1rem;
+}
+
+.xx{
+    width:7.02rem;
+    height:1.25rem;
+    background: #fff;
+    margin:0 auto .2rem;
+    position:relative;
+}
+.xx>img{
+    width: 1.2rem;
+    margin:.05rem 0 0 .6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    position: absolute;
+    top:.01rem;
+    left: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border:1px solid #fff;
+    background: url("../img/z-img/70.jpg") center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.img1{
+    position: absolute;
+    top:.01rem;
+    left: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border:1px solid #fff;
+    background: url("../img/z-img/71.jpg") center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.click>img{
+    width:.2rem;
+}
+.bot{
+    width:4.5rem;
+    position:absolute;
+    top:.15rem;
+    right:.5rem;
+}
+.bot>img{
+    width:100%;
+}
+.diantai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.red{
+    color:#E6312F;
+}

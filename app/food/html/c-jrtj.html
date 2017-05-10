@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>今日推荐</title>
+    <link rel="stylesheet" href="../css/c-jrtj.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/common/common.js"></script>
+    <script src="../js/common/zepto.min.js"></script>
+    <script src="../js/common/iscroll.js"></script>
+    <script src="../js/common/swiper.js"></script>
+</head>
+<body>
+    <!--头部开始-->
+    <div id="header">
+        <a onclick="history.go(-1)"><img class="z-return" src="../img/z-img/z-return.png" alt=""></a>
+        <img class="z-tupian1" src="../img/c-img/tuijian.png" alt="">
+         <a href="z-searchfood.html"><img class="z-yuyin" src="../img/c-img/search.png" alt=""></a>
+    </div>
+    <!--头部结束-->
+    <div class="swiper-container">
+        <!--标题栏-->
+        <div class="c-biaoti">
+            <div class="swiper-pagination c-image">
+
+            </div>
+        </div>
+        <!--标题栏结束-->
+
+        <!--内容-->
+        <div class="swiper-wrapper c-tj-con">
+            <div class="swiper-slide c-can-con active">
+                <img src="../img/c-img/jrtj1.png" alt="" class="c-tj">
+                <div class="c-description">
+                    <div class="c-won"><span>美好的一天从</span> <img src="../img/c-img/fang.png" alt=""><span>开始</span></div>
+                    <p class="c-d-eng">Good day starts with breakfast</p>
+                    <div class="splc"></div>
+                </div>
+            </div>
+            <div class="swiper-slide c-can-con">
+                <img src="../img/c-img/jrtj2.png" alt="" class="c-tj">
+                <div class="c-description">
+                    <div class="c-won"><span>美好的一天从</span> <img src="../img/c-img/fang.png" alt=""><span>开始</span></div>
+                    <p class="c-d-eng">Good day starts with breakfast</p>
+                    <div class="splc"></div>
+                </div>
+            </div>
+            <div class="swiper-slide c-can-con">
+                <img src="../img/c-img/jrtj3.png" alt="" class="c-tj">
+                <div class="c-description">
+                    <div class="c-won"><span>美好的一天从</span> <img src="../img/c-img/fang.png" alt=""><span>开始</span></div>
+                    <p class="c-d-eng">Good day starts with breakfast</p>
+                    <div class="splc"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script>
+    var arr=["早餐","午餐","晚餐"];
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        paginationBulletRender: function (swiper, index, className) {
+            return `<span class="${className}">${arr[index]} </span>`;
+        }
+    });
+
+
+</script>

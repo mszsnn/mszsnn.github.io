@@ -1,0 +1,23 @@
+body,html{
+    width:100%;
+    height:100%;
+}
+.ly-spy{
+    width:100%;
+    height:100%;
+    .ly-spydian{
+        bottom:70px; 
+        .swiper-pagination-bullet{
+            background:yellow;
+        } 
+    }
+} 
+.ly-spytu{
+    width:100%;
+    height:100%;
+    img{
+        width:100%;
+        height:100%;
+    }
+}
+

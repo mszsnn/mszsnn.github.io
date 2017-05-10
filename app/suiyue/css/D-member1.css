@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+section.d-portrait {
+  width: 100%;
+  height: auto;
+  padding: 0 0.24rem 0.58rem;
+  box-sizing: border-box;
+  background: #d43837;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+section.d-portrait div.d-head {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+
+section.d-portrait div.d-head img {
+  width: 65%;
+  margin: 0 auto;
+}
+
+section.d-portrait p {
+  font-family: "苹方 中等";
+  font-size: 0.3rem;
+  color: #fff;
+}
+
+section.d-portrait ul.d-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 0.58rem;
+  padding: 0 0.58rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+section.d-portrait ul.d-btn li {
+  width: 2.18rem;
+  height: 0.58rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 0.58rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}
+
+section.d-portrait ul.d-btn li a {
+  color: #fff;
+  font-size: 0.3rem;
+  font-family: "苹方 中等";
+}
+
+section.d-portrait ul.d-btn li:first-child {
+  background: #f3bb27;
+}
+
+section.d-portrait ul.d-btn li:nth-child(2) {
+  background: #ff0000;
+}
+
+section.d-clearance {
+  width: 100%;
+  height: 0.3rem;
+  background: #f1f1f1;
+}
+
+section.d-privilege {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding-bottom: 0.5rem;
+}
+
+section.d-privilege div.d-privilege-top {
+  width: 100%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+}
+
+section.d-privilege div.d-privilege-top div.d-rect {
+  width: 2px;
+  height: 50%;
+  background: #d43837;
+  float: left;
+  margin-top: 3%;
+}
+
+section.d-privilege div.d-privilege-top > a {
+  width: auto;
+  height: auto;
+}
+
+section.d-privilege div.d-privilege-top > a img {
+  margin-left: 0.24rem;
+  height: 0.28rem;
+}
+
+section.d-privilege div.d-privilege-top > a span {
+  margin-left: 0.1rem;
+  font-family: "苹方 中等";
+  font-size: 0.26rem;
+  color: #111111;
+}
+
+section.d-privilege ul.d-privilege-content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  margin-top: 0.3rem;
+}
+
+section.d-privilege ul.d-privilege-content li {
+  width: 2rem;
+  height: auto;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+
+section.d-privilege ul.d-privilege-content li a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+section.d-privilege ul.d-privilege-content li a img {
+  height: 0.7rem;
+}
+
+section.d-privilege ul.d-privilege-content li a p {
+  color: #111111;
+  font-size: 0.2rem;
+  font-family: "苹方 常规";
+  margin-top: 0.35rem;
+}
+
+section.d-privilege ul.d-privilege-content li:nth-child(3) ~ li {
+  margin-top: 0.6rem;
+}

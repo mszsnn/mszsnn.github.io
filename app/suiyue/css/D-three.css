@@ -1,0 +1,268 @@
+@charset "UTF-8";
+body {
+  background: #f1f1f1;
+}
+
+header {
+  width: 100%;
+  height: 0.9rem;
+  background: #d43837;
+  line-height: 0.9rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+header div.d-return {
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+header div.d-return a {
+  font-family: "宋体";
+  color: #fff;
+  font-size: 24px;
+}
+
+header div.d-search {
+  width: 70%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+header div.d-search input {
+  width: 100%;
+  height: 0.56rem;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0.5rem;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+  font-family: "苹方";
+  font-size: 0.24rem;
+  color: #5F5F5F;
+  outline:0;
+}
+
+header div.d-search div.line {
+  width: 0.01rem;
+  height: 0.54rem;
+  background-image: url("../img/D-one/line.png");
+  position: absolute;
+  right: 0.6rem;
+  top: 0.17rem;
+}
+
+header div.d-search span {
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0.18rem;
+  top: 50%;
+  margin-top: -0.36rem;
+}
+
+header div.d-search span img {
+  height: 0.3rem;
+}
+
+header div.d-search span img.d-searchicon {
+  display: inline-block;
+}
+
+header div.d-search span img.d-clearicon {
+  display: none;
+}
+
+header div.d-microphone {
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+header div.d-microphone a {
+  width: 100%;
+  height: 100%;
+  line-height: 1.2rem;
+}
+
+header div.d-microphone a img {
+  height: 0.48rem;
+}
+section.d-single {
+  width: 7.02rem;
+  height: 1.24rem;
+  margin: 0.2rem auto;
+  border-radius: 0.04rem;
+  background: #fff;
+}
+
+section.d-single a {
+  width: auto;
+  height: 100%;
+  float: left;
+  margin-right: 0.3rem;
+}
+
+section.d-single a img {
+  height: 100%;
+  width: auto;
+}
+
+section.d-single h4 {
+  float: left;
+  color: #111111;
+  margin: 0.15rem 0;
+  font-size: 0.24rem;
+  font-family: "苹方 常规";
+  font-weight: 400;
+}
+
+section.d-single > img {
+  width: 65%;
+  float: left;
+}
+
+section.d-single > div {
+  width: 65%;
+  height: 0.3rem;
+  overflow: hidden;
+  float: left;
+  line-height: 0.3rem;
+  margin-top: 0.1rem;
+}
+
+section.d-single > div > span {
+  color: #f62d2d;
+  font-size: 0.24rem;
+  font-family: "苹方 常规";
+  float: left;
+}
+
+section.d-single > div > div.dianjiliang {
+  width: auto;
+  height: auto;
+  display: flex;
+  float: right;
+}
+
+section.d-single > div > div.dianjiliang > img:first-child {
+  height: 0.2rem;
+  width: auto;
+  margin: 0.03rem 0.08rem 0;
+}
+
+section.d-single > div > div.dianjiliang > span {
+  color: #aaaaaa;
+  font-size: 0.2rem;
+  font-family: "苹方 常规";
+  font-weight: 100;
+  margin: 0 0.1rem;
+}
+
+section.song-content {
+  width: 100%;
+  height: auto;
+}
+
+section.song-content > .d-classification {
+  width: 7.02rem;
+  height: 1.1rem;
+  background: #fff;
+  margin: 0.4rem auto 0;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+section.song-content > .d-classification a {
+  color: #111111;
+  font-size: 0.3rem;
+  font-family: "苹方 常规";
+}
+
+section.song-content > ul {
+  width: 7.02rem;
+  height: auto;
+  padding-left: 0.22rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  background: #fff;
+  margin: 0 auto;
+}
+
+section.song-content > ul li {
+  width: 100%;
+  height: 1.1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+section.song-content > ul li > a {
+  width: 100%;
+  height: 100%;
+}
+
+section.song-content > ul li > a div.d-left {
+  width: auto;
+  height: 100%;
+  float: left;
+}
+
+section.song-content > ul li > a div.d-left > div.d-info {
+  width: auto;
+  height: 50%;
+  line-height: 0.5rem;
+  display: flex;
+  color: #111111;
+  font-size: 0.24rem;
+  font-family: "苹方 中等";
+}
+
+section.song-content > ul li > a div.d-left > div.d-info > div {
+  width: auto;
+  height: 0.25rem;
+  color: #fff;
+  font-size: 0.18rem;
+  border-radius: 0.03rem;
+  text-align: center;
+  line-height: 0.25rem;
+  padding: 0 0.05rem;
+  margin: 0.1rem 0.05rem;
+}
+
+section.song-content > ul li > a div.d-left > div.d-info > div:first-of-type {
+  background: #f2c22f;
+}
+
+section.song-content > ul li > a div.d-left > div.d-info > div:first-of-type ~ div {
+  background: #d43837;
+}
+
+section.song-content > ul li > a div.d-left p {
+  color: #111111;
+  font-size: 0.2rem;
+  font-family: "苹方 中等";
+}
+
+section.song-content > ul li > a div.d-left p span {
+  color: #7f7f7f;
+}
+
+section.song-content > ul li > a > div.d-right {
+  float: right;
+  width: 0.18rem;
+  height: 100%;
+  line-height: 1.1rem;
+  color: #333333;
+  margin-right: 0.3rem;
+  font-size: 0.4rem;
+  font-family: "苹方 常规";
+  font-weight: bold;
+}
+section.song-content > ul li > a > div.d-right > img{
+  height:30%;
+}

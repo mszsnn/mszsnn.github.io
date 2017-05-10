@@ -1,0 +1,51 @@
+/*头部*/
+#header {
+    width: 100%;
+    line-height: 45px;
+    background-image: url("../img/z-img/z-beijing.png");
+    background-size:100% 100%;
+    padding: 0;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:.88rem;
+}
+#header .z-return{
+    padding-left: 0.36rem;
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: .2rem;
+}
+#header .z-tupian1{
+    width:1.92rem;
+    float: left;
+    margin-left: 2rem;
+    margin-top: .18rem;
+}
+#header .z-yuyin{
+    display: block;
+    float: right;
+    padding-right: 0.36rem;
+    height:.48rem;
+    margin-top: .2rem;
+}
+/*头部结束*/
+
+/*滚动条*/
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    transform: translateZ(0);
+    user-select: none;
+}

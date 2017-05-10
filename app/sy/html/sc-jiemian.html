@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>界面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/sc-jiemian.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="pack">
+    <div class="pack-1">
+        <!--top-->
+        <div class="top">
+            <a href="" class="jian"></a>
+            <a href="">界面风格</a>
+        </div>
+        <!--图-->
+        <div class="yi swiper-container">
+            <div class="swiper-wrapper">
+                <div href="" class="tu1 swiper-slide">
+                    <img src="../img/sc-img/da1.png" alt="">
+                    <span>静谧蓝  Quiet blue ...</span>
+                </div>
+                <div href="" class="tu2 swiper-slide">
+                    <img src="../img/sc-img/da2.png" alt="">
+                    <span>静谧蓝  Quiet blue ...</span>
+                </div>
+                <div href="" class="tu3 swiper-slide">
+                    <img src="../img/sc-img/da3.png" alt="">
+                    <span>静谧蓝  Quiet blue ...</span>
+                </div>
+            </div>
+        </div>
+        <!--应用-->
+            <a href="" class="ying"></a>
+            <a href="" class="ying1"></a>
+    </div>
+
+</div>
+<script src="../js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+    });
+</script>
+
+</body>
+</html>
+<script>
+	$(document).ready(function (){
+	$('.top > .jian').on('touchstart',function(){
+		history.go(-1);
+	})
+})
+
+</script>

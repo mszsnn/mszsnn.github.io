@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<<<<<<< HEAD
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>搜索食物</title>
+>>>>>>> 4e20d73da86f25413d3e928f0ef6df4bfdab3d6e
+    <title>Title</title>
+</head>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=750){
+                    // 这里的640 取决于设计稿的宽度
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+        list-style: none;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+    }
+    html {
+        -ms-touch-action: none;
+    }
+    body,ul,li {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    body {
+        font-size: 12px;
+        font-family: ubuntu, helvetica, arial;
+        overflow: hidden; /* this is important to prevent the whole page to bounce */
+    }
+    /*头部开始*/
+    #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        line-height: 45px;
+        background-image: url("../img/z-img/z-beijing.png");
+        background-size:100% 100%;
+        padding: 0;
+        color: #eee;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        height:.88rem;
+    }
+    #header .z-return{
+        padding-left: 0.36rem;
+        display: block;
+        float: left;
+        height:0.48rem;
+        margin-top: .2rem;
+    }
+    #header .z-tupian1{
+        width:1.92rem;
+        float: left;
+<<<<<<< HEAD
+        margin-left: 3.05rem;
+        margin-top: 0.18rem;
+=======
+        margin-left: 2rem;
+        margin-top: .18rem;
+>>>>>>> 4e20d73da86f25413d3e928f0ef6df4bfdab3d6e
+    }
+    #header .z-yuyin{
+        display: block;
+        float: right;
+        padding-right: 0.36rem;
+        height:.48rem;
+        margin-top: 0.2rem;
+    }
+    /*头部结束*/
+</style>
+<body>
+<!--头部开始-->
+<div id="header">
+    <img class="z-return" src="../img/z-img/z-return.png" alt="">
+    <img class="z-tupian1" src="../img/z-img/z-tupian1.png" alt="">
+    <img class="z-yuyin" src="../img/z-img/z-yuyin.png" alt="">
+</div>
+<!--头部结束-->
+</body>
+</html>

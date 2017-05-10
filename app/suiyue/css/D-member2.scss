@@ -1,0 +1,237 @@
+section.d-option{
+  width:100%;
+  height:0.9rem;
+  background:#d43837;
+  display:flex;
+  >a{
+    width:50%;
+    height:100%;
+    text-align: center;
+    line-height: 0.9rem;
+    font:{
+      size:0.32rem;
+      family: "苹方 常规";
+    }
+    color:#fff;
+    position: relative;
+    div.d-underline{
+      width:60%;
+      height:0.05rem;
+      background:yellow;
+      position: absolute;
+      left:50%;
+      bottom:0;
+      margin-left:-30%;
+    }
+  }
+  a:nth-child(2){
+    color:rgba(255,255,255,0.7)
+  }
+}
+section.d-person{
+  width:100%;
+  height:1.85rem;
+  border-bottom: 0.01rem solid #b8b8b8;
+  padding-top: 0.325rem;
+  box-sizing: border-box;
+  display:flex;
+  a.d-head{
+    width:1.2rem;
+    height: 1.2rem;
+    background:yellow;
+    background-image: url("../img/D-member1/图层-3.png");
+    background-size: auto 100%;
+    background-position: center;
+    margin:{
+      left:0.44rem;
+    }
+    border-radius: 50%;
+  }
+  div.d-introduce{
+    width:80%;
+    height:100%;
+    padding-left:0.26rem;
+    box-sizing: border-box;
+    font-family: "苹方 常规";
+    >span{
+      margin-top:0.2rem;
+      font:{
+        size:0.32rem;
+        //family: "苹方 常规";
+      }
+      color: #111111;
+    }
+    img{
+      height:0.4rem;
+    }
+    >div{
+      margin-top:0.2rem;
+      width:100%;
+      height:auto;
+      display: flex;
+      span:first-child{
+        color:#ff0000;
+        font-size:0.24rem;
+      }
+      span:first-child~span{
+        color:#111;
+        font-size:0.24rem;
+      }
+      a{
+        width:0.6rem;
+        height:0.25rem;
+        background:#e13838;
+        text-align: center;
+        line-height: 0.25rem;
+        border-radius: 0.1rem;
+        color:#fff;
+        margin-left:0.1rem;
+        font:{
+          size:0.2rem;
+          family: "苹方 常规";
+        }
+      }
+    }
+  }
+}
+section.d-pay{
+  width:100%;
+  height:auto;
+  margin-top:0.15rem;
+  //box-shadow: 0 0.01rem 0.03rem #000;
+  >p{
+    width:100%;
+    height:0.8rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    line-height: 0.8rem;
+    color:#111;
+    font:{
+      size:0.26rem;
+      family: "苹方 中等";
+    }
+    span{
+      color:#ff0000;
+      font-size:0.28rem;
+    }
+  }
+  ul.d-open{
+    width:100%;
+    height:auto;
+    margin-top:0.3rem;
+    position: relative;
+    li{
+      //background:red;
+      width:100%;
+      height:1.6rem;
+      text-align: center;
+      position: relative;
+      //img{
+      //  width:80%;
+      //}
+      div.d-price{
+        width:100%;
+        line-height: 0.58rem;
+        display:flex;
+        height:auto;
+        position: absolute;
+        left:0;
+        top:15%;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        >p{
+          color:#111111;
+          font:{
+            size:0.24rem;
+            family: "苹方 中等";
+          }
+          span{
+            color:#fe0000;
+            font-size: 0.26rem;
+          }
+        }
+        >a{
+          width:1.2rem;
+          height:0.58rem;
+          background:#d53938;
+          border-radius: 0.05rem;
+          color:#fff;
+          text-align: center;
+          line-height: 0.58rem;
+          font:{
+            size:0.28rem;
+            family: "苹方 中等";
+          }
+          margin:{
+            left:0.4rem;
+            bottom:0.2rem;
+          }
+        }
+      }
+    }
+
+    li:first-child{
+      background-image: url("../img/D-member1/组-5.png");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size:92% auto;
+    }
+    li:nth-child(2){
+      background-image: url("../img/D-member1/组-5.png");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size:92% auto;
+    }
+    li:nth-child(3){
+      background-image: url("../img/D-member1/组-5.png");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size:92% auto;
+    }
+
+    li.first{
+      height:2rem;
+      background-image: url("../img/D-member1/组-6.png");
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      div.d-price{
+        >a{
+          background:#ff8241;
+        }
+      }
+    }
+    div:last-child{
+      width:auto;
+      height:auto;
+      position: absolute;
+      top:-0.46rem;
+      right:0;
+      img{
+        width:95%;
+      }
+    }
+  }
+}
+section.d-explain{
+  padding:0 0.8rem;
+  box-sizing: border-box;
+  h4{
+    color:#010101;
+    font:{
+      size:0.24rem;
+      family: "苹方 中等";
+    }
+  }
+  >div{
+    margin-top:0.4rem;
+    color:#080103;
+    font:{
+      size:0.2rem;
+      family: "苹方 中等";
+    }
+    span{
+      display: block;
+      margin-top:0.2rem;
+    }
+  }
+}

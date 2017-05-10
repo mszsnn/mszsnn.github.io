@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MV最热</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/fh-mvhot.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/iscroll.js"></script>
+</head>
+<style>
+    #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:1.76rem;
+    }
+    /*#footer {*/
+        /*position: absolute;*/
+        /*z-index: 2;*/
+        /*bottom: 0;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*height: 0.98rem;*/
+    /*}*/
+    #wrapper {
+        position: absolute;
+        z-index: 1;
+        top: 1.76rem;
+        bottom:0rem;
+        left: 0;
+        width: 100%;
+        background: #f1f1f1;
+        overflow: hidden;
+    }
+    #scroller {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+        background:#f1f1f1;
+    }
+</style>
+<body>
+<div id="header">
+    <div class="fh-header">
+        <a href="index.html">
+            <img src="../img/fh-11.png" alt="">
+        </a>
+        <h1>MV</h1>
+        <a href="zxq-search.html">
+            <img src="../img/fh-12.png" alt="">
+        </a>
+    </div>
+    <div class="fh-top">
+        <ul class="fh-son">
+            <li>
+                <img src="../img/fh-mv1.png" alt="">
+                <div></div>
+                <h1><a href="fh-mvtj.html">推荐</a></h1>
+            </li>
+            <li>
+                <img src="../img/fh-mv2.png" alt="">
+                <div></div>
+                <h1><a href="fh-mvnew.html">最新</a></h1>
+            </li>
+            <li class="fh-xuan">
+                <img src="../img/fh-mv3.png" alt="">
+                <div></div>
+                <h1>最热</h1>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--上面一张图-->
+<div id="wrapper">
+    <div id="scroller">
+        <a href="zxq-mv.html">
+            <div class="fh-ones">
+                <img src="../img/fh-mv13.png" alt="">
+                <div class="fh-bottom">
+                    <h1>全新专辑 <span>&</span> 《装酷》</h1>
+                    <div class="fh-right fh-1">
+                        <img src="../img/fh-mv10.PNG" alt="">
+                        <h3>17683</h3>
+                    </div>
+                    <div class="fh-right fh-2">
+                        <img src="../img/fh-mv6.png" alt="">
+                        <h3>23657</h3>
+                    </div>
+                    <h2>AHAEAD FULL OF DREAMS</h2>
+                </div>
+            </div>
+        </a>
+
+        <ul class="fh-many">
+            <li class="fh-one">
+                <img src="../img/fh-mvs1.PNG" alt="">
+                <h1>热辣开场 怪才实力开唱</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>703万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mvs2.png" alt="">
+                <h1>日落大道</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>1140万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mvs3.png" alt="">
+                <h1>光明来临 决绝的信仰</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>1146万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mvs4.png" alt="">
+                <h1>欧美力作 Lady gaga全新专辑</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>3769万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mv4.png" alt="">
+                <h1>变革之旅 新式摇滚乐</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>548万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mvs5.PNG" alt="">
+                <h1>等你等到我心痛</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>3769万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mvs6.PNG" alt="">
+                <h1>热门短篇 天籁之音</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>975万</h2>
+            </li>
+            <li class="fh-one">
+                <img src="../img/fh-mv5.png" alt="">
+                <h1>乡村摇滚 泰格斯威夫特</h1>
+                <img src="../img/fh-mv6.png" alt="">
+                <h2>3793万</h2>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--下面好多图-->
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+    })
+</script>

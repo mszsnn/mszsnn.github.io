@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MV推荐</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/fh-mvtj.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/iscroll.js"></script>
+</head>
+<style>
+    #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:1.76rem;
+    }
+    /*#footer {*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 0.98rem;*/
+    /*}*/
+    #wrapper {
+        position: absolute;
+        z-index: 1;
+        top: 1.76rem;
+        bottom:0rem;
+        left: 0;
+        width: 100%;
+        background: #f1f1f1;
+        overflow: hidden;
+    }
+    #scroller {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+        background:#f1f1f1;
+    }
+</style>
+<body>
+<div id="header">
+    <div class="fh-header">
+        <a href="index.html"><img src="../img/fh-11.png" alt=""></a>
+        <h1>MV</h1>
+        <a href="zxq-search.html">
+            <img src="../img/fh-12.png" alt="">
+        </a>
+    </div>
+    <div class="fh-top">
+        <ul class="fh-son">
+            <li class="fh-xuan">
+                <img src="../img/fh-mv1.png" alt="">
+                <div></div>
+                <h1>推荐</h1>
+            </li>
+            <li>
+                <img src="../img/fh-mv2.png" alt="">
+                <div></div>
+                <h1><a href="fh-mvnew.html">最新</a></h1>
+            </li>
+            <li>
+                <img src="../img/fh-mv3.png" alt="">
+                <div></div>
+                <h1><a href="fh-mvhot.html">最热</a></h1>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="wrapper">
+    <div id="scroller">
+        <div class="fh-content">
+            <a href="zxq-mv.html">
+                <img src="../img/fh-mvq1.png" alt="">
+            </a>
+            <a href="zxq-mv.html">
+                <img src="../img/fh-mvq2.png" alt="">
+            </a>
+            <div class="fh-middle">
+                <div class="fh-mi-top">
+                    <div class="fh-mi-bot">
+                        <div class="fh-bu fh-bu1">
+                            <img src="../img/fh-mvq5.png" alt="">
+                            <h1>26.5万</h1>
+                        </div>
+                        <div class="fh-bu fh-bu2">
+                            <img src="../img/fh-mvq6.png" alt="">
+                            <h1>478</h1>
+                        </div>
+                        <div class="fh-bu fh-bu3">
+                            <img src="../img/fh-mvq7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h3>曾经的回忆已是往事</h3>
+            </div>
+            <div class="fh-middle fh-middles">
+                <div class="fh-mi-top">
+                    <div class="fh-mi-bot">
+                        <div class="fh-bu fh-bu1">
+                            <img src="../img/fh-mvq5.png" alt="">
+                            <h1>26.5万</h1>
+                        </div>
+                        <div class="fh-bu fh-bu2">
+                            <img src="../img/fh-mvq6.png" alt="">
+                            <h1>478</h1>
+                        </div>
+                        <div class="fh-bu fh-bu3">
+                            <img src="../img/fh-mvq7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h3>爱你到天荒地老已是往事</h3>
+            </div>
+            <!--最下面-->
+            <div class="fh-love">
+                <h3>收录DJ668<span> &gt;</span></h3>
+                <img src="../img/fh-mvq8.PNG" alt="">
+                <h1><span>经典魅力</span>之情歌</h1>
+                <h2><span>Fashion charm of</span> love song</h2>
+            </div>
+            <div class="fh-xia">
+                <div>
+                    <img src="../img/fh-mvq11.png" alt="">
+                    <h1>BaenBa</h1>
+                </div>
+            </div>
+            <div class="fh-xia fh-xias">
+                <div>
+                    <img src="../img/fh-mvq11.png" alt="">
+                    <h1>BaenBa</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容部分-->
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+    })
+</script>

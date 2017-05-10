@@ -1,0 +1,327 @@
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 1.76rem;
+    bottom:0.98rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    background:#f2f2f2;
+}
+main{
+    width:100%;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+.header{
+    width:100%;
+    height:3.94rem;
+    background: url(../img/F-img/chenyixun.png) no-repeat;
+    background-position: 100% 13%;
+    background-size: cover;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(255,0,0,0.2);
+}
+.header>.back{
+    width:0.4rem;
+    height:0.88rem;
+    line-height: 0.88rem;
+    float: left;
+}
+.header>.back>a{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.header>.back>a>img{
+    width:0.4rem;
+    display: inline-block;
+    float: left;
+    margin-top:0.24rem;
+}
+.header>p{
+    width:auto;
+    font-size: 0.36rem;
+    font-family: 'PingFang SC';
+    color:#fff;
+    margin-left: 0.24rem;
+    line-height: 0.88rem;
+    float: left;
+}
+.header>span{
+    width:0.72rem;
+    height:0.88rem;
+    background: url(../img/F-img/cyx-01.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    float: right;
+}
+.header>div.shoucang{
+    width:1.08rem;
+    height:0.44rem;
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius: 0.3rem;
+    background: #fff;
+    position: absolute;
+    right:0.6rem;
+    bottom: 0.15rem;
+}
+.header>div.shoucang>img{
+    width:0.25rem;
+    float: left;
+    margin:0.11rem 0 0 0.11rem;
+}
+.header>div.shoucang>span{
+    height:0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.18rem;
+    color:#000;
+    float: left;
+    margin-left: 0.08rem;
+}
+
+.introduce{
+    margin-top:0.34rem;
+    width:100%;
+    height:auto;
+    position: relative;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+.introduce>span{
+    display: block;
+    background:#ff0000 ;
+    width:0.04rem;
+    height:0.44rem;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.introduce>p{
+    height:0.44rem;
+    font-size: 0.26rem;
+    line-height: 0.44rem;
+    color:#111;
+}
+.introduce>div{
+    width:100%;
+    height:1.7rem;
+    background: #fff;
+    border-radius: 0.05rem;
+    box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(255,0,0,0.1);
+}
+.introduce>div>img{
+    width:1.34rem;
+    margin:0.1rem 0 0 0.1rem;
+    float: left;
+}
+.introduce>div>span{
+    display: inline-block;
+    margin:0.37rem 0.17rem 0 0.18rem;
+    width:1px;
+    height:0.8rem;
+    background: #aaaaaa;
+    float: left;
+}
+.introduce>div>p{
+    width:4.9rem;
+    height:0.8rem;
+    display: inline-block;
+    font-size: 0.18rem;
+    color:#040404;
+    padding-top:0.2rem;
+}
+
+.info{
+    margin-top:0.34rem;
+    width:100%;
+    height:auto;
+    position: relative;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+.info>span{
+    display: block;
+    background:#ff0000 ;
+    width:0.04rem;
+    height:0.44rem;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.info>p{
+    height:0.44rem;
+    font-size: 0.26rem;
+    line-height: 0.44rem;
+    color:#111;
+}
+.info>div{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0.05rem;
+    box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(255,0,0,0.1);
+    position: relative;
+}
+.info>div>img{
+    width:1.34rem;
+    margin:0.1rem 0 0 0.1rem;
+    float: left;
+}
+.info>div>p:nth-child(2){
+    display: block;
+    font-size: 0.32rem;
+    font-family: 'San Francisco Display';
+    color:#000;
+    margin-left: 1.77rem;
+    margin-top:0.1rem;
+}
+.info>div>span:nth-child(3){
+    width:0.85rem;
+    height:1px;
+    background: #aaaaaa;
+    display: block;
+    margin:0.12rem 0;
+    margin-left: 1.77rem;
+}
+.info>div>span:nth-child(4){
+    font-size: 0.26rem;
+    margin-left: 1.77rem;
+    margin-bottom: 0.12rem;
+    display: block;
+    color:#5f5f5f;
+}
+.info>div>span:nth-child(5){
+    font-size: 0.26rem;
+    margin-left: 1.77rem;
+    display: block;
+    color:#5f5f5f;
+}
+.info>div>span:nth-child(6){
+    position: absolute;
+    right:0.35rem;
+    top:0.6rem;
+    display: block;
+    width:1rem;
+    height:0.45rem;
+    border-radius: 0.23rem;
+    text-align: center;
+    line-height: 0.45rem;
+    background: #fff;
+    font-size: 0.26rem;
+    color:#ff0000;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.1);
+}
+.info>div>h4{
+    font-size: 0.28rem;
+    margin-left: 0.2rem;
+    font-family: 'PingFang SC';
+}
+.info>div>p:last-child{
+    font-size: 0.22rem;
+    width:6.59rem;
+    margin:0 auto;
+    padding: 0.2rem 0;
+    font-family: 'PingFang SC';
+}
+.musicbox{
+    margin-top:0.34rem;
+    position: relative;
+}
+.music{
+    width:7.04rem;
+    height:auto;
+    position: relative;
+    margin:0 0.24rem;
+    /*margin-top:0.34rem;*/
+    overflow: hidden;
+}
+.musicbox>span{
+    display: block;
+    background:#ff0000 ;
+    width:0.04rem;
+    height:0.44rem;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.musicbox>p{
+    margin-left: 0.24rem;
+    height:0.44rem;
+    font-size: 0.26rem;
+    line-height: 0.44rem;
+    color:#111;
+}
+.music>div{
+    width:9.5rem;
+    height:1.58rem;
+    /*margin:0 auto;*/
+    /*background:#fff;*/
+    overflow:hidden;
+}
+.music>div>div.show{
+    width:7.04rem;
+    height:1.24rem;
+    margin:0.17rem 0;
+    background:#fff;
+    border-radius:3px;
+    background-image:url("../img/L-img/8.png");
+    background-position: center;
+    background-size:100% 100%;
+    position:relative;
+    transition:margin-left 0.2s linear;
+    float: left;
+}
+.music>div>div.show>section:nth-child(1){
+    width:1.24rem;
+    height:1.24rem;
+    border-radius:3px;
+    border:1px #fff solid;
+    box-sizing:border-box;
+}
+.music>div>div.show>section:nth-child(1)>img{
+    display:block;
+    width:100%;
+    height:100%;
+    border-radius:3px;
+}
+.music>div>div.show>section:nth-child(2){
+    font-size:0.24rem;
+    color:#111111;
+    position:absolute;
+    left:2.03rem;
+    top:0.2rem;
+}
+.music>div>div.show>section:nth-child(3){
+    font-size:0.24rem;
+    color:#F62D2D;
+    position:absolute;
+    left:2.03rem;
+    top:0.76rem;
+}
+.music>div>div.show>section:nth-child(4){
+    font-size:0.22rem;
+    color:#AAAAAA;
+    position:absolute;
+    left:6rem;
+    top:0.76rem;
+}
+.music>div>div.hid{
+    width:2.46rem;
+    height:1.24rem;
+    margin:0.17rem 0;
+    float:left;
+    background: red;
+}
+.music>div>div.hid>img{
+    width:0.82rem;
+    float:left;
+}

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/z-4.css">
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="javascript:window.history.go(-1);">
+            <img src="../img/zcy-img/51.png" alt="">
+        </a>
+        <span>界面风格</span>
+        <div></div>
+    </header>
+    <div class="container">
+        <div id="slide" class="slide index-slide">
+            <div class="img">
+                <img src="../img/zcy-img/ff1.jpg"/>
+                <p>静谧蓝 Quiet blue</p>
+            </div>
+            <div class="img">
+                <img src="../img/zcy-img/ff2.jpg"/>
+                <p>情迷紫 Passion purple</p>
+            </div>
+            <div class="img">
+                <img src="../img/zcy-img/ff3.jpg"/>
+                <p>迷幻风 Psychedelic</p>
+            </div>
+            <div class="img">
+                <img src="../img/zcy-img/ff4.png"/>
+                <p>梦想金 Dream gold</p>
+            </div>
+            <div class="img">
+                <img src="../img/zcy-img/ff5.png"/>
+                <p>养眼绿 Seductive green</p>
+            </div>
+            <div class="img">
+                <img src="../img/zcy-img/ff6.png"/>
+                <p>静谧蓝 Quiet blue</p>
+            </div>
+        </div>
+    </div>
+    <div class="but">
+        <img src="../img/zcy-img/52.png" alt="">
+        <img src="../img/zcy-img/53.png" alt="">
+    </div>
+
+    <script>
+        var autoLb = false;          //autoLb=true为开启自动轮播
+        var autoLbtime = 1;         //autoLbtime为轮播间隔时间（单位秒）
+        var touch = true;           //touch=true为开启触摸滑动
+        var slideNub;               //轮播图片数量
+
+        $(function(){
+            slideNub = $(".slide .img").size();             //获取轮播图片数量
+            for(i=0;i<slideNub;i++){
+                $(".slide .img:eq("+i+")").attr("data-slide-imgId",i);
+            }
+
+
+            //根据轮播图片数量设定图片位置对应的class
+            if(slideNub==1){
+                for(i=0;i<slideNub;i++){
+                    $(".slide .img:eq("+i+")").addClass("img3");
+                }
+            }
+            if(slideNub==2){
+                for(i=0;i<slideNub;i++){
+                    $(".slide .img:eq("+i+")").addClass("img"+(i+3));
+                }
+            }
+            if(slideNub==3){
+                for(i=0;i<slideNub;i++){
+                    $(".slide .img:eq("+i+")").addClass("img"+(i+2));
+                }
+            }
+            if(slideNub>3&&slideNub<6){
+                for(i=0;i<slideNub;i++){
+                    $(".slide .img:eq("+i+")").addClass("img"+(i+1));
+                }
+            }
+            if(slideNub>=6){
+                for(i=0;i<slideNub;i++){
+                    if(i<5){
+                        $(".slide .img:eq("+i+")").addClass("img"+(i+1));
+                    }else{
+                        $(".slide .img:eq("+i+")").addClass("img5");
+                    }
+                }
+            }
+
+            //自动轮播
+            if(autoLb){
+                setInterval(function(){
+                    right();
+                }, autoLbtime*1000);
+            }
+
+
+            if(touch){
+                k_touch();
+            }
+            slideLi();
+            imgClickFy();
+        })
+
+
+        //右滑动
+        function right(){
+            var fy = new Array();
+            for(i=0;i<slideNub;i++){
+                fy[i]=$(".slide .img[data-slide-imgId="+i+"]").attr("class");
+            }
+            for(i=0;i<slideNub;i++){
+                if(i==0){
+                    $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[slideNub-1]);
+                }else{
+                    $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[i-1]);
+                }
+            }
+            imgClickFy();
+            slideLi();
+        }
+
+
+        //左滑动
+        function left(){
+            var fy = new Array();
+            for(i=0;i<slideNub;i++){
+                fy[i]=$(".slide .img[data-slide-imgId="+i+"]").attr("class");
+            }
+            for(i=0;i<slideNub;i++){
+                if(i==(slideNub-1)){
+                    $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[0]);
+                }else{
+                    $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[i+1]);
+                }
+            }
+            imgClickFy();
+            slideLi();
+        }
+
+
+        //轮播图片左右图片点击翻页
+        function imgClickFy(){
+            $(".slide .img").removeAttr("onclick");
+            $(".slide .img2").attr("onclick","left()");
+            $(".slide .img4").attr("onclick","right()");
+        }
+
+
+        //修改当前最中间图片对应按钮选中状态
+        function slideLi(){
+            var slideList = parseInt($(".slide .img3").attr("data-slide-imgId")) + 1;
+            $(".slide-bt span").removeClass("on");
+            $(".slide-bt span[data-slide-bt="+slideList+"]").addClass("on");
+        }
+
+
+        //轮播按钮点击翻页
+        function tz(id){
+            var tzcs = id - (parseInt($(".slide .img3").attr("data-slide-imgId")) + 1);
+            if(tzcs>0){
+                for(i=0;i<tzcs;i++){
+                    setTimeout(function(){
+                        right();
+                    },1);
+                }
+            }
+            if(tzcs<0){
+                tzcs=(-tzcs);
+                for(i=0;i<tzcs;i++){
+                    setTimeout(function(){
+                        left();
+                    },1);
+                }
+            }
+            slideLi();
+        }
+
+
+        //触摸滑动模块
+        function k_touch() {
+            var _start = 0, _end = 0, _content = document.getElementById("slide");
+            _content.addEventListener("touchstart", touchStart, false);
+            _content.addEventListener("touchmove", touchMove, false);
+            _content.addEventListener("touchend", touchEnd, false);
+            function touchStart(event) {
+                var touch = event.targetTouches[0];
+                _start = touch.pageX;
+            }
+            function touchMove(event) {
+                var touch = event.targetTouches[0];
+                _end = (_start - touch.pageX);
+            }
+
+            function touchEnd(event) {
+                if (_end < -100) {
+                    left();
+                    _end=0;
+                }else if(_end > 100){
+                    right();
+                    _end=0;
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

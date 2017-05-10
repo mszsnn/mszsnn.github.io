@@ -1,0 +1,118 @@
+@import url('common.css');
+html,body{
+	width:100%;
+	height:100%;
+	background-image:url(../img/qyh-img/xinxi.png) ;
+	background-size: cover;
+	overflow:hidden;
+}
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 45px;
+    background-size:100% 100%;
+    padding: 0;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:.88rem;
+}
+#header .z-return{
+    padding-left: 0.36rem;
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: .2rem;
+}
+#header .z-tupian1{
+	height: 0.52rem;
+    float: left;
+    margin-left: 1.65rem;
+    margin-top: .18rem;
+}
+body > div{
+	width:100%;
+	height:1.5rem;
+	text-align: center;
+	margin-top: .9rem;
+}
+body > div >p{
+	color:#fff;
+	font-size: 0.32rem;
+	width:100%;
+	text-align: center;
+	line-height: 1.8em;
+}
+section	{
+	width: 100%;
+	height:auto;
+}
+section p{
+	font-size: 0.28rem;
+	color: #fff;
+	padding:0.1rem 0;
+}
+section > p{
+	color: #FFDC3B;
+	margin-left: 0.4rem;
+}
+section > p:last-of-type{
+	border-top: 1px dotted #FFDC3B;
+	width:4rem;
+	margin-left: 0.8rem;
+}
+section > ul{
+	width:100%;
+	height:2,12rem;
+	padding: 0rem 0.4rem;
+	box-sizing: border-box;
+}
+section > ul > li:first-child{
+	font-size: 0.32rem;
+	color: #FFDC3B;
+	padding:0.4rem 0rem 0.1rem;
+}
+section > ul > li.jiantou,section > ul > li.chizi{
+	line-height: 0;
+}
+section > ul.height > li.jiantou{
+	width:0.14rem;
+	height:0.28rem;
+	margin-left:4.2rem;
+}
+section > ul > li > img{
+	width:100%;
+	height:100%;
+}
+section > ul.weight{
+	height:5rem;
+	position: relative;
+}
+section > ul.height > li.chizi{
+	width:6.5rem;
+	height:0.46rem;
+}
+section > ul.weight > li.tx{
+	width:5rem;
+	height:4.8rem;
+	margin:0 auto;
+}
+section > ul.weight > li.num{
+	color:#fc5f48;
+	font-size: 0.84rem;
+	font-weight: bold;
+	position: absolute;
+	top:2.8rem;
+	left:2.8rem;
+}
+body>a>img{
+	width:3.03rem;
+	height: 1.12rem;
+	position: absolute;
+	bottom:1rem;
+	left: 2.1rem;
+}

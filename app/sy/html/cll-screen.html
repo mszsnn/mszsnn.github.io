@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <meta name="x5-orientation" content="portrait | landscape" />
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-fullscreen" content="true" />
+	    <meta name="full-screen" content="yes">
+	    <meta name="format-detection" content="telephone=no, email=no" />
+	    <link rel="stylesheet" href="../css/common.css">
+	    <link rel="stylesheet" href="../css/cll-screen.css">
+	    <link rel="stylesheet" href="../css/swiper.min.css" />
+	    <script src="../js/zepto.min.js"></script>
+	    <script src="../js/iscroll.js"></script>
+	    <script src="../js/common.js"></script>
+	    <script src="../js/cll-screen.js"></script>
+	    <script src="../js/swiper.min.js"></script>
+	</head>
+	<body>
+		<!--banner-->
+	    <div class="big">
+	        <div class="swiper-container">
+	            <div class="swiper-wrapper">
+	            	<div class="swiper-slide myimg">
+	            		<img src="../img/cll-scr1.png" alt="" />
+	            		<a href="sc-login.html" class="rect">跳过</a>
+	            	</div>
+	            	<div class="swiper-slide myimg">
+	            		<img src="../img/cll-scr2.png" alt="" />
+	            		<a href="sc-login.html" class="rect">跳过</a>
+	            	</div>
+	            	<div class="swiper-slide myimg">
+	            		<img src="../img/cll-scr3.png" alt="" />
+	            		<a class="imme" href="sc-login.html">立即体验</a>
+	            	</div>
+	            </div>
+	            <!-- Add Pagination -->
+	            <div class="swiper-pagination circle"></div>
+	        </div>
+	    </div>
+	</body>
+</html>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+//      autoplay: 2000,
+//      loop:true,
+//      autoplayDisableOnInteraction: false,
+        autoplayStopOnLast: true
+    });
+</script>

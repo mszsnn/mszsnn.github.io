@@ -1,0 +1,314 @@
+body{
+    background: #f1f1f1;
+}
+.video{
+    width:100%;
+    height:4rem;
+    background: url(../img/F-img/MV.png) no-repeat;
+    background-size: 100%;
+}
+.back{
+    width:0.4rem;
+    height:0.88rem;
+    line-height: 0.88rem;
+    float: left;
+    margin-left: 0.24rem;
+}
+.back>a{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.back>a>img{
+    width:0.4rem;
+    display: inline-block;
+    float: left;
+    margin-top:0.24rem;
+}
+.info{
+    width :100%;
+    height:2.39rem;
+    background: url(../img/F-img/MV-show-indo_05.png) no-repeat;
+    background-size: 100%;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+.info>p{
+    padding-top:0.3rem;
+    font-size: 0.26rem;
+    font-family: 'San Francisco Display';
+}
+.info>span:nth-child(2){
+     position: absolute;
+     top:0.74rem;
+     left:0.5rem;
+     font-size: 0.2rem;
+ }
+.info>span:nth-child(3){
+    position: absolute;
+    bottom:0.83rem;
+    left:0.24rem;
+    font-size: 0.2rem;
+    color:#d53434;
+    font-family: 'San Francisco Display';
+}
+.info>span:nth-child(4){
+    position: absolute;
+    bottom:0.83rem;
+    right:1.65rem;
+    font-size: 0.2rem;
+    color:#bfbebe;
+    font-family: 'San Francisco Display';
+}
+.info>span:nth-child(5){
+    position: absolute;
+    bottom:0.83rem;
+    right:0.24rem;
+    font-size: 0.2rem;
+    color:#bfbebe;
+    font-family: 'San Francisco Display';
+
+}
+.info>span:nth-child(6){
+    position: absolute;
+    bottom: 0.3rem;
+    left:0.8rem;
+    font-size: 0.2rem;
+ }
+.info>span:nth-child(7){
+    position: absolute;
+    bottom: 0.3rem;
+    left:2.73rem;
+    font-size: 0.2rem;
+}
+.info>span:nth-child(8){
+    position: absolute;
+    bottom: 0.3rem;
+    right:2.35rem;
+    font-size: 0.2rem;
+}
+.info>span:nth-child(9){
+    position: absolute;
+    bottom: 0.3rem;
+    right:0.5rem;
+    font-size: 0.2rem;
+}
+.next,.other,.comment{
+    width:100%;
+    background: #fff;
+    border-top: 1px solid #f1f1f1;
+    overflow: hidden;
+}
+.next>div:first-child,.other>div:first-child{
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: 'PingFang SC Bold';
+    padding:0.3rem 0;
+}
+.next>div>span,.other>div>span{
+    display: inline-block;
+    float: right;
+    margin-right: 0.24rem;
+    width:0.3rem;
+    height:0.3rem;
+    margin-top:0.05rem;
+}
+.next>div>span>a,.other>div>span>a{
+    display: block;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    background: #e13838;
+    font-family: '宋体';
+    color:#fff;
+}
+.next .swiper-container2 img{
+    width:2.7rem;
+    height:1.5rem;
+
+}
+.next .swiper-slide{
+    width:2.8rem;
+    margin-right: 0.1rem;
+}
+.next a{
+    display: block;
+    width:100%;
+    height:100%;
+    position: relative;
+    margin-bottom: 0.3rem;
+}
+.next .now{
+    width:2.7rem;
+    height:1.5rem;
+    background: url(../img/F-img/show-now.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0.8;
+}
+.next p{
+    font-size: 0.22rem;
+    font-family: "PingFang SC";
+    color:#111;
+    padding-lft: 0.05rem;
+}
+.other{
+    margin-bottom: 0.3rem;
+}
+.other ul{
+    padding:0 0.24rem;
+}
+.other ul>li{
+    height:auto;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+.other a{
+    display: block;
+    width:100%;
+    height:100%;
+
+}
+.other a>img{
+    width:2rem;
+    height:1.1rem;
+    float: left;
+}
+.other a>p{
+    width:4.8rem;
+    float: left;
+    font-size: 0.22rem;
+    font-family: 'PingFang SC Bold';
+    color:#111;
+    padding-left: 0.2rem;
+}
+.other a>span:nth-child(3){
+    width:0.25rem;
+    height:0.15rem;
+    display: block;
+    background: url(../img/F-img/show-other_06.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0.1rem;
+    left:2.24rem;
+}
+.other a>span:nth-child(4){
+    font-size: 0.2rem;
+    position: absolute;
+    bottom: 0.02rem;
+    left:2.6rem;
+}
+.other a>span:nth-child(5){
+    font-size: 0.2rem;
+    position: absolute;
+    bottom: 0.02rem;
+    right:0.24rem;
+    opacity: 0.7;
+    color:#111;
+}
+.comment h2{
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: 'PingFang SC Bold';
+    padding:0.3rem 0;
+    font-weight: normal;
+}
+.comment ul{
+    padding:0 0.24rem;
+}
+.comment ul>li{
+    border-bottom: 1px solid #f1f1f1;
+    padding:0.26rem 0 0 0.22rem;
+    height:auto;
+    overflow: hidden;
+}
+.comment ul>li>img{
+    width:0.7rem;
+    height:0.7rem;
+    float: left;
+}
+.comment ul>li>p{
+    width:5.1rem;
+    float: left;
+    margin-left: 0.17rem;
+    font-size: 0.26rem;
+    color:#111;
+}
+.comment ul>li>p:nth-child(4){
+    padding:0.15rem 0;
+}
+.comment ul>li>p>span{
+    opacity: 0.7;
+    padding-left: 0.35rem;
+}
+.comment ul>li>span:nth-last-child(2){
+    height:0.4rem;
+    padding-right:0.5rem;
+    line-height: 0.54rem;
+    font-size: 0.2rem;
+    color:#b6b6b6;
+    display: block;
+    float: right;
+    background: url(../img/F-img/zan.png) no-repeat right;
+    background-size:contain ;
+}
+.comment>div:nth-child(3){
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: 'PingFang SC Bold';
+    padding:0.3rem 0;
+    position: relative;
+}
+.comment>div:nth-child(3)>span{
+    display: inline-block;
+    float: right;
+    width:0.3rem;
+    height:0.3rem;
+    margin-top:0.05rem;
+    position: absolute;
+    right: 2.48rem;
+}
+.comment>div:nth-child(3)>span>a{
+    display: block;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    background: #e13838;
+    font-family: '宋体';
+    color:#fff;
+}
+.comment>div:last-child{
+    width:100%;
+    height:0.83rem;
+    background: #cac9c9;
+    padding-top:0.15rem;
+}
+.comment>div:last-child>input{
+    border: 0;
+    outline: 0;
+    width:7.16rem;
+    height:0.68rem;
+    margin:0 auto;
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+    padding-left: 0.23rem;
+    box-sizing: border-box;
+    color:#787777;
+    font-size: 0.26rem;
+    line-height: 0.68rem;
+    font-family: 'PingFang SC Bold';
+}
+
+

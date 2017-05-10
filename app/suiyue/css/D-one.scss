@@ -1,0 +1,355 @@
+html{
+  width:100%;
+  height:100%;
+  position: relative;
+  overflow: hidden;
+}
+
+body{
+  height:100%;
+  overflow: hidden;
+}
+div.seat{
+  width:100%;
+  height:0.9rem;
+}
+header{
+  width:100%;
+  height:0.9rem;
+  background:#d43837;
+  line-height: 0.9rem;
+  text-align: center;
+  position: absolute;
+  left:0;
+  top:0;
+  div.d-return{
+    width:15%;
+    height:100%;
+    float:left;
+    a{
+      font-family: "宋体";
+      color:#fff;
+      font-size: 24px;
+    }
+  }
+  div.d-search{
+    width:70%;
+    height:100%;
+    float:left;
+    position: relative;
+    input{
+      width:100%;
+      height:0.56rem;
+      box-sizing: border-box;
+      border: 0;
+      border-radius: 0.5rem;
+      padding-left:0.3rem;
+      box-sizing: border-box;
+      font:{
+        family: "苹方";
+        size:0.24rem;
+      }
+      color:#5F5F5F;
+    }
+    div.line{
+      width:0.01rem;
+      height:0.54rem;
+      background-image: url("../img/D-one/line.png");
+      position: absolute;
+      right:0.6rem;
+      top:0.17rem;
+    }
+    span{
+      width:auto;
+      height:auto;
+      position: absolute;
+      right:0.18rem;
+      top:50%;
+      margin-top:-0.36rem;
+      img{
+        height:0.3rem;
+      }
+      img.d-searchicon{
+        display:inline-block;
+      }
+      img.d-clearicon{
+        display:none;
+      }
+    }
+  }
+  div.d-microphone{
+    width:15%;
+    height:100%;
+    float:left;
+    a{
+      width:100%;
+      height:100%;
+      line-height: 1.2rem;
+      img{
+        height:0.48rem;
+      }
+    }
+  }
+}
+section.d-history{
+  width:100%;
+  height:3.1rem;
+  overflow: hidden;
+  background:#fff;
+  margin-bottom: 0.4rem;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px #d8d5d3;
+  div.history-header{
+    width:100%;
+    height:0.9rem;
+    line-height: 0.9rem;
+    div.history-header-rect{
+      width:2px;
+      height:50%;
+      background:#d43837;
+      float:left;
+      margin-top:3%;
+    }
+    span{
+      color:#101010;
+      font:{
+        family: "苹方";
+        size:0.26rem;
+      }
+      margin-left:0.15rem;
+    }
+    img{
+      height:0.26rem;
+    }
+    a.d-viewAll{
+      float:right;
+      margin-right:0.25rem;
+      color:#7e8887;
+      font:{
+        family: "苹方";
+        size:0.22rem;
+      }
+    }
+  }
+  ul.d-record{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li{
+      width:1.42rem;
+      height:0.48rem;
+      background:#D43837;
+      border-radius: 0.4rem;
+      text-align: center;
+      line-height: 0.48rem;
+      a{
+        font:{
+          family: "苹方";
+          size:0.24rem;
+        }
+        color:#fff;
+      }
+    }
+    li:nth-child(2){
+      width:1.8rem;
+      background: #f5cb1d;
+    }
+    li:nth-child(5){
+      width:2.64rem;
+    }
+    li:nth-child(6){
+      width:1.74rem;
+    }
+    li:nth-child(4)~li{
+      margin:0.26rem 0 0.48rem;
+      background:#f5cb1d;
+    }
+  }
+  div.d-clear{
+    width:100%;
+    height:auto;
+    text-align: center;
+    a{
+      color:#e71f19;
+      font:{
+        size:0.2rem;
+        family: "苹方";
+      }
+    }
+  }
+}
+section.d-hot{
+  width: 100%;
+  height:auto;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 0.4rem;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px #d8d5d3;
+  div.hot-header {
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    div.history-header-rect {
+      width: 2px;
+      height: 50%;
+      background: #d43837;
+      float: left;
+      margin-top: 3%;
+    }
+    span {
+      color: #101010;
+      font: {
+        family: "苹方";
+        size: 0.26rem;
+      }
+      margin-left: 0.15rem;
+    }
+    img {
+      height: 0.26rem;
+    }
+    a.d-viewAll {
+      float: right;
+      margin-right: 0.25rem;
+      color: #7e8887;
+      font: {
+        family: "苹方";
+        size: 0.22rem;
+      }
+    }
+  }
+  ul.d-record{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li{
+      width:1.42rem;
+      height:0.48rem;
+      //background:#D43837;
+      border-radius: 0.4rem;
+      text-align: center;
+      line-height: 0.48rem;
+      border: 1px solid #000;
+      margin-bottom:0.26rem;
+      a{
+        font:{
+          family: "苹方";
+          size:0.24rem;
+        }
+        color:#030000;
+      }
+    }
+    li:first-child{
+      border: 1px solid #e71f19;
+      a{
+        color: #e71f19;
+      }
+    }
+    li:nth-child(2){
+      width:1.8rem;
+    }
+    li:nth-child(5){
+      width:2.64rem;
+    }
+    li:nth-child(6){
+      width:2rem;
+    }
+    li:nth-child(7)~li{
+      margin-bottom:0.48rem;
+    }
+  }
+  div.d-clear{
+    width:100%;
+    height:0.48rem;
+    text-align: center;
+    margin-bottom:0.2rem;
+    a{
+      display: inline-block;
+      width:2rem;
+      height:100%;
+      border: 0.02rem solid #e71f1c;
+      border-radius: 0.4rem;
+      text-align: center;
+      line-height: 0.48rem;
+      font:{
+        family: "苹方";
+        size:0.2rem;
+      }
+      color:#101010;
+    }
+  }
+}
+section.d-result{
+  display:none;
+  width:70%;
+  height:auto;
+  overflow: hidden;
+  position: absolute;
+  top:0.65rem;
+  left:0;
+  margin-left:15%;
+  div.d-box{
+    width:100%;
+    height:auto;
+    div.d-triangle{
+      width:0;
+      height:0;
+      border: 0.15rem solid rgba(0,0,0,0);
+      border-bottom: 0.15rem solid #fff;
+      border-left: 0.1rem solid rgba(0,0,0,0);
+      border-right: 0.1rem solid rgba(0,0,0,0);
+      margin-left:0.3rem;
+    }
+  }
+  >ul{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background:rgba(255,255,255,0.85);
+    padding-bottom: 1rem;
+    li{
+      width:100%;
+      height:0.56rem;
+      line-height: 0.56rem;
+      display: flex;
+      >span.d-icon{
+        display:inline-block;
+        width:0.54rem;
+        height:100%;
+        text-align: center;
+        img{
+          height:0.25rem;
+          margin-top: 0.15rem;
+        }
+      }
+      >span.d-icon:nth-child(3){
+        border-bottom: 1px solid #d2d2d2;
+        box-sizing: border-box;
+      }
+      >div{
+        width:4.32rem;
+        height:100%;
+        border-bottom: 1px solid #d2d2d2;
+        box-sizing: border-box;
+        >span:first-child{
+          margin-right:0.2rem;
+        }
+      }
+    }
+    li:nth-child(2)~li{
+      >span.d-icon:nth-child(3) > a > img{
+          height:0.1rem;
+          margin-top: 0.15rem;
+          width:50%;
+        }
+      }
+  }
+
+}
+
+

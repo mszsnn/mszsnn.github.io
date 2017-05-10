@@ -1,0 +1,163 @@
+header{
+  width:100%;
+  height:0.9rem;
+  background:#d43837;
+  text-align: center;
+  line-height: 0.9rem;
+  padding:0 0.24rem;
+  box-sizing: border-box;
+  //position: absolute;
+  z-index:100;
+  left:0;
+  top:0;
+  font:{
+    size:0.32rem;
+    family: "苹方";
+  }
+  a{
+    float: left;
+    display: inline-block;
+    color:#fff;
+    font:{
+      size:0.32rem;
+      family:"宋体";
+      weight: bold;
+    }
+  }
+  span{
+    font-size: 0.32rem;
+    color:#fff;
+  }
+}
+section.d-portrait{
+  width:100%;
+  height:auto;
+  padding:0 0.24rem 0.58rem;
+  box-sizing: border-box;
+  background:#d43837;
+  text-align: center;
+  div.d-head{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding:0.4rem 0;
+    img{
+      width:65%;
+      margin: 0 auto;
+    }
+  }
+  p{
+    font:{
+      family: "苹方 中等";
+      size:0.3rem;
+    }
+    color:#fff;
+  }
+  ul.d-btn{
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-top:0.58rem;
+    padding: 0 0.58rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    li{
+      width:2.18rem;
+      height:0.58rem;
+      border-radius: 0.3rem;
+      text-align: center;
+      line-height: 0.58rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      box-sizing: border-box;
+      a{
+        color:#fff;
+        font:{
+          size:0.3rem;
+          family: "苹方 中等";
+        }
+      }
+    }
+    li:first-child{
+      background:#f3bb27;
+    }
+    li:nth-child(2){
+      background: #ff0000;
+    }
+
+  }
+}
+section.d-clearance{
+  width:100%;
+  height:0.3rem;
+  background:#f1f1f1;
+}
+section.d-privilege{
+  width:100%;
+  height:auto;
+  background:#fff;
+  div.d-privilege-top{
+    width:100%;
+    height:0.9rem;
+    line-height: 0.9rem;
+    div.d-rect{
+      width: 2px;
+      height: 50%;
+      background: #d43837;
+      float: left;
+      margin-top: 3%;
+    }
+    >a{
+      width:auto;
+      height:auto;
+      img{
+        margin-left: 0.24rem;
+        height:0.28rem;
+      }
+      span{
+        margin-left:0.1rem;
+        font:{
+          family: "苹方 中等";
+          size:0.26rem;
+        }
+        color:#111111;
+      }
+    }
+
+  }
+  ul.d-privilege-content{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    margin-top:0.3rem;
+    li{
+      width:2rem;
+      height:auto;
+      padding:0.1rem;
+      box-sizing: border-box;
+      a{
+        width:100%;
+        height:100%;
+        text-align: center;
+        img{
+          height:0.7rem;
+        }
+        p{
+          color:#111111;
+          font:{
+            size:0.2rem;
+            family: "苹方 常规";
+          }
+          margin-top:0.35rem;
+        }
+      }
+    }
+    li:nth-child(3)~li{
+      margin-top:0.6rem;
+    }
+  }
+}

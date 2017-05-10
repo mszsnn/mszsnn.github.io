@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/zxq-search.css" />
+		<link rel="stylesheet" href="../css/zxq-bottom.css" />
+		<script src='../js/jquery.min.js'></script>
+		<!--<script src='../js/zepto.min.js'></script>-->
+		<script src="../js/common.js"></script>
+		<script src="../js/zxq-search.js"></script>
+		<script src='../js/zxq-dibu.js'></script>
+		<script type="text/javascript" src="../js/iscroll.js"></script>
+		<script type="text/javascript">
+	        var myScroll;
+	        function loaded () {
+	            myScroll = new IScroll('#wrapper',{
+	                scrollbars: true,
+	                mouseWheel: true,
+	                interactiveScrollbars: true,
+	                shrinkScrollbars: 'scale',
+	                fadeScrollbars: true,
+	                click:true
+	            });
+	        }
+		</script>
+		<style>
+			#header {
+				position: absolute;
+				z-index: 2;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 0.88rem;
+			}
+			#footer {
+				position: absolute;
+				z-index: 2;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 0.98rem;
+			}
+			#wrapper {
+				position: absolute;
+				z-index: 1;
+				top:0.88rem;
+				bottom: 0.98rem;
+				left: 0;
+				width: 100%;
+				overflow: hidden;
+			}
+			#scroller {
+				position: absolute;
+				z-index: 1;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body onload="loaded()"> 
+		<div id="header">
+			<div class='zxq-topp'>
+				<a href="javascript:;">
+					<img src="../img/zxq-an1.png" alt="" class="zxq-sc1"/>
+				</a>
+				<input type="text" placeholder="搜索"/>
+				<img src="../img/zxq-a1.png" alt="" class="zxq-sc"/>
+				<a href="zxq-sq.html">
+					<img src="../img/zxq-a2.png" alt="" />
+				</a>
+			</div>
+			<div class="zxq-searchmask" style="display:none;">
+				<div class="zxq-searchcontent" style="display:none;">
+					<div class="zxq-jiantou"></div>
+					<ul>
+				        <li>
+				        	<img src="../img/zxq-d1.png" alt="" />
+				            <a href="zxq-ssxq.html" class="zl-hid">
+				            	<h1>刚好遇见你</h1>
+				            	<h2>李玉刚 </h2>
+				            </a>
+				            <a href="">
+				                <img class="zxq-mai" src="../img/zxq-d2.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d1.png" alt="" />  
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>糖糖</h2>
+					        </a>
+				            <a href="">
+				                <img class="zxq-mai" src="../img/zxq-d2.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d3.png" alt="" />  
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>坤哲</h2>
+					        </a>
+				            <a href="">
+				                <img class="zxq-mai zxq-mai1" src="../img/zxq-d4.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d3.png" alt="" />
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>可泽</h2>
+					        </a>
+				            <a href="">
+				                <img class="zxq-mai zxq-mai1" src="../img/zxq-d4.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d3.png" alt="" /> 
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>张思思</h2>
+				            </a>
+				            <a href="">
+				                <img class="zxq-mai zxq-mai1" src="../img/zxq-d4.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d3.png" alt="" />  
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>林俊熙</h2>
+					        </a>
+				            <a href="">
+				                <img class="zxq-mai zxq-mai1" src="../img/zxq-d4.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d3.png" alt="" />
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>MC阳子</h2>
+				           </a>
+				            <a href="">
+				                <img class="zxq-mai zxq-mai1" src="../img/zxq-d4.png" alt="">
+				            </a>
+				        </li>
+				        <li>
+				        	<img src="../img/zxq-d3.png" alt="" />
+				        	<a href="zxq-ssxq.html" class="zl-hid">
+					            <h1>刚好遇见你</h1>
+					            <h2>左凡</h2>
+					        </a>
+				            <a href="">
+				                <img class="zxq-mai zxq-mai1" src="../img/zxq-d4.png" alt="">
+				            </a>
+				        </li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div id='scroller'>	
+				<div class='zxq-content'>
+					<div class='zxq-first'>
+						<div class='zxq-line1'>
+							<img src="../img/zxq-a3.png" alt="" />
+							<h1>历史搜索</h1>
+							<img src="../img/zxq-a4.png" alt="" class='zxq-ls'/>
+							<h2>查看全部</h2>
+						</div>
+						<div class='zxq-line2 aa'>
+							<h1>陈奕迅</h1>
+							<h2>刚好遇见你</h2>
+							<h1>张学友</h1>
+							<h1>迪迦</h1>
+						</div>
+						<div class='zxq-line3 aa'>
+							<h1>We Are Strong Pitbull</h1>
+							<h2>告白气球</h2>
+							<h3>童话镇</h3>
+						</div>
+						<div class='zxq-line4' >
+							<h3>清除历史搜索</h3>
+						</div>
+					</div>
+					<div class='zxq-second'>
+						<div class='zxq-line1'>
+							<img src="../img/zxq-a3.png" alt="" />
+							<h1>热门搜索</h1>
+							<img src="../img/zxq-rm.png" alt="" class='zxq-ls'/>
+						</div>
+						<div class='zxq-line2'>
+							<h1>歌手</h1>
+							<h2>高尚 薛之谦</h2>
+							<h3>温柔乡</h3>
+							<h3>实名制</h3>
+						</div>
+						<div class='zxq-line3'>
+							<h1>致姗姗来迟的你</h1>
+							<h2>Heart Of Gold</h2>
+							<h3>Winner</h3>
+						</div>
+						<div class='zxq-line4'>
+							<h1>赵雷</h1>
+							<h1>林俊杰</h1>
+							<h1>张学友</h1>
+							<h1>华晨宇</h1>
+						</div>
+						<div class='zxq-line5'>
+							<h3>查看更多热门</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<audio src='../song/b.mp3' id='audio'></audio>
+			<ul class="zxq-bottom">
+				<li class='zxq-tiao'>
+					<div class='zxq-ctiao'>
+						<div class='zxq-yuan'></div>
+					</div>
+				</li>
+				<li class='zxq-icon'></li>
+				<li class='zxq-statues'>
+					<div class='zxq-author'>
+						<span>Ngẫu Hứng</span>
+						<span>Hoaprox</span>
+					</div>
+					<!--<canvas id="canvas" width='200px' height='800px'></canvas>-->
+				</li>
+				<li class='zxq-play'>
+					<div class="zxq-play1 i1">
+						<img src="../img/zxq-zy.png" alt="" />
+					</div >
+					<div class="zxq-play2 i1">
+						<img src="../img/bf11.png" alt="" class='zxq-aa'/>
+						<img src="../img/bf1.png" alt="" class='zxq-bb'/>
+					</div>
+					<div class="zxq-play3 i1">
+						<img src="../img/zxq-next.png" alt="" />
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

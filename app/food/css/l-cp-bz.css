@@ -1,0 +1,225 @@
+.bj{
+	/* width: 7.5rem; */
+	height: 13.8rem;
+	background-image: url('../img/l-img/658.png');
+	overflow: hidden; 
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+.l-banner>a{
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: -0.2rem;
+}
+.l-banner>img{
+	margin: 0 auto;
+	float: left;
+	width: 35%;
+	margin-left: 1.8rem;
+	margin-top: 0.2rem;
+}
+.l-banner>span{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.3rem;
+	color: #fff;
+}
+.l-z{
+	width: 1.75rem;
+	height: 0.43rem;
+	margin-top: 1.2rem;
+	font-size: 0;
+}
+.l-z>img{
+	width: 100%;
+}
+.db{
+	/* width: 7rem; */
+	height: 12rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	background: #fff;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.db .l-w{
+	color: #292929;
+}
+.db>.one{
+	width: 2rem;
+	height: 0.6rem;
+	font-size: 0;
+	margin-left: 0.35rem;
+}
+.db>.one>span{
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	margin-left: 0.1rem;
+}
+.db>.one>span.l-o{
+	color: #FFE158;
+}
+
+
+.db>.two{
+	width: 2rem;
+	height: 0.6rem;
+	font-size: 0;
+	margin-left: 0.35rem;
+	margin-top: 0.5rem;
+}
+.db>.two>span{
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	margin-left: 0.1rem;
+}
+.db>.two>span.l-o{
+	color: #FFE158;
+}
+
+.db>.three{
+	width: 2rem;
+	height: 0.6rem;
+	font-size: 0;
+	margin-left: 0.35rem;
+	margin-top: 0.5rem;
+}
+.db>.three>span{
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	margin-left: 0.1rem;
+}
+.db>.three>span.l-o{
+	color: #FFE158;
+}
+.db>.three>.jia{
+	width: 5.24rem;
+	height: 3.16rem;
+	margin-left: 0.7rem;
+}
+.db>.three>.jia>a{
+	width: 1.55rem;
+	height: 1.48rem;
+	display: block;
+	float: left;
+
+}
+.db>.three>.jia>a>img{
+	width: 100%;
+}
+.db>.three>.jia>a:nth-child(2){
+	margin-left: 0.3rem;
+}
+.db>.three>.jia>a:nth-child(3){
+	margin-left: 0.28rem;
+}
+.db>.three>.jia>a:nth-child(4){
+	margin-top: 0.2rem;
+}
+
+
+.db>.four{
+	width: 2.5rem;
+	height: 0.6rem;
+	font-size: 0;
+	margin-left: 0.35rem;
+	margin-top: 4rem;
+}
+.db>.four>span{
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	margin-left: 0.1rem;
+}
+.db>.four>span.l-o{
+	color: #FFE158;
+}
+
+.db>.four>.jia{
+	width: 5.24rem;
+	height: 1.48rem;
+	margin-left: 0.7rem;
+}
+.db>.four>.jia>a{
+	width: 1.55rem;
+	height: 1.48rem;
+	display: block;
+	float: left;
+
+}
+.db>.four>.jia>a>img{
+	width: 100%;
+}
+.db>.four>.jia>a:nth-child(2){
+	margin-left: 0.3rem;
+}
+.db>.four>.jia>a:nth-child(3){
+	margin-left: 0.28rem;
+}
+
+
+.db>.five{
+	width: 2rem;
+	height: 0.6rem;
+	font-size: 0;
+	margin-left: 0.35rem;
+	margin-top: 0.5rem;
+}
+.db>.five>span{
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	margin-left: 0.1rem;
+	z-index: 100;
+}
+.db>.five>span.l-o{
+	color: #FFE158;
+}
+.db>.five>a{
+	display: block;
+	width: 1.55rem;
+	height: 0.47rem;
+	background: #FFDC3E;
+	margin-left: 35%;
+	margin-top: -32%;
+	border-radius: 0.1rem;
+	text-align: center;
+	line-height: 0.47rem;
+}
+.db>.five>a>span{
+	font-size: 0.25rem;
+	color: #fff;
+}
+.db>.five>a.aa{
+	width: 1rem;
+	height: 0.47rem;
+	margin-left: 126%;
+	margin-top: -23%;
+}
+
+.l-imgg{
+	width: 2.85rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	margin-top: 2rem;
+	position: relative;
+	font-size: 0;
+}
+.l-imgg>img{
+	width: 100%;
+}
+.l-imgg>a>p{
+	font-size: 0.3rem;
+	position: absolute;
+	left: 30%;
+	color: #fff;
+	top: 15%;
+}
+/* .xian{
+	width: 0.01rem;
+	height: 9.88rem;
+	background:  #000;
+	position: absolute;
+	top: 14%;
+	left: 19%;
+
+} */

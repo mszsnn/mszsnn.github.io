@@ -1,0 +1,219 @@
+html,body{
+	background: #efefef;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.zhc-box{
+	width: 100%;
+	height: 2.12rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#wrapper{
+	height: 10.12rem;
+	width: 100%;
+	position:absolute;
+	top: 2.12rem;
+	bottom: 1.1rem;
+	overflow: hidden;
+	background: #efefef;
+}
+.iScrollVerticalScrollbar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 0.1rem;
+	border-radius: 0.08rem;
+}
+.iScrollIndicator{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 99;
+	width: 100%;
+	border-radius: 8px;
+}
+.zhc-zcheader{
+	height: 0.88rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #ffdc3b;
+	display: flex;
+	justify-content: space-between;
+}
+.zhc-zcheader img{
+	height: 100%;
+}
+.zhc-one{
+	width: 100%;
+	height: 1.24rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #ffdc3b;
+}
+.zhc-one .zhc-onepic{
+	height:0.5rem ;
+	width: 100%;
+}
+.zhc-one .zhc-onepic img{
+	height: 100%;
+}
+.zhc-onebian{
+	height: 0.7rem;
+	width: 100%;
+}
+.zhc-onebian h1{
+	float: left;
+	height: 100%;
+	width: 25%;
+	color: #fff;
+	text-align: right;
+	font-weight: normal;
+	font-size: 0.2rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+}
+.zhc-onebian ul{
+	float: left;
+	height: 100%;
+	width: 75%;
+}
+.zhc-onebian ul li{
+	float: left;
+	height: 0.3rem;
+	width: auto;
+	padding: 0 0.2rem;
+	margin: 0 0.2rem;
+	line-height: 0.3rem;
+	background: #fff;
+	margin-top: 0.06rem;
+	border-radius: 0.2rem;
+	position: relative;
+}
+.zhc-onebian ul li p{
+	width: 0.2rem;
+	height: 0.2rem;
+	line-height: 0.18rem;
+	color: #fff;
+	text-align: center;
+	background: #fb7070;
+	border-radius: 50%;
+	position: absolute;
+	right: -0.04rem;
+	top: 23%;
+	margin-top: -0.1rem;
+	font-size: 0.2rem;
+}
+
+/*内容开始*/
+.zhc-zcmain{
+	width: 100%;
+	height:auto;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	padding-bottom: 1rem;
+}
+.zhc-zcmain .zhc-zcart{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.zhc-zcmain .zhc-zcart .zhc-biaoti{
+	height: 0.5rem;
+	width: 100%;
+	padding-top: 0.3rem;
+}
+.zhc-zcmain .zhc-zcart .zhc-biaoti img{
+	float: left;
+	height: 100%;
+}
+.zhc-zcmain .zhc-zcart .zhc-biaoti a{
+	display: block;
+	float: right;
+	width: auto;
+	height: 100%;
+	margin-right: 0.1rem;
+}
+.zhc-zcmain .zhc-zcart .zhc-biaoti a span{
+	font-size: 0.24rem;
+	color: #e9e9e9;
+}
+.zhc-zcmain .zhc-zcart .zhc-biaoti a i{
+	font-style: normal;
+	font-size: 0.24rem;
+	color: #e9e9e9;
+	font-family: '宋体';
+}
+.zhc-zcmain .zhc-zcart ul{
+	height: auto;
+	width: 100%;
+	padding: 0 0.38rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 0.3rem;
+}
+.zhc-zcmain .zhc-zcart ul li{
+	width: 1.68rem;
+	height: auto;
+	position: relative;
+	margin-top: 0.26rem;
+}
+.zhc-zcmain .zhc-zcart ul li img{
+	width: 100%;
+}
+.zhc-zcmain .zhc-zcart ul li p{
+	width: 100%;
+	height: 0.4rem;
+	text-align: center;
+}
+.zhc-zcmain .zhc-zcart ul li p b{
+	font-size: 0.28rem;
+	color: #ffdc3b;
+}
+.zhc-zcmain .zhc-zcart ul li p span{
+	font-size: 0.24rem;
+	color: #333;
+}
+											/*状态在这里*/
+.zhc-zcmain .zhc-zcart ul li div.zhc-active{
+	display: block;
+}
+.zhc-zcmain .zhc-zcart ul li div{
+	width: 0.2rem;
+	height: 0.2rem;
+	position: absolute;
+	top: 0.04rem;
+	right: 0.06rem;
+	display: none;
+
+}
+.zhc-zcmain .zhc-zcart ul li div img{
+	width: 100%;
+}
+
+
+/*开始组菜*/
+.zhc-fot{
+	width: 100%;
+	height: 1.1rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #efefef;
+}
+.zhc-fot a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zhc-fot img{
+	width: 100%;
+}

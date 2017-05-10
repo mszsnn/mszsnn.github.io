@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mv</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../common/MobilePhone.css">
+    <link rel="stylesheet" href="../css/F-MV-hot.css">
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/iscroll.js"></script>
+</head>
+<body>
+    <header>
+        <div class="F-title">
+            <div>
+                <a href="z-index.html">
+                    <img src="../img/F-img/return.png" alt="">
+                </a>
+            </div>
+            <div>mv</div>
+            <div>
+                <a href="D-one.html">
+                    <img src="../img/F-img/search.png" alt="">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="F-MV-recommend.html">
+                        <img src="../img/F-img/tuijian.png" alt="">
+                        <span>|</span>
+                        <p>推荐</p>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-MV-new.html">
+                        <img src="../img/F-img/zuixin.png" alt="">
+                        <span>|</span>
+                        <p>最新</p>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-MV-hot.html">
+                        <img src="../img/F-img/zuire.png" alt="">
+                        <span>|</span>
+                        <p>最热</p>
+                        <span   class="choose"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <main id="scroller">
+            <section class="hot">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_01.png" alt="">
+                            <div></div>
+                            <h5>全新专辑 <em>&</em>《装酷》</h5>
+                            <h6>ahaead full of dreams</h6>
+                            <span></span>
+                            <i>23657</i>
+                            <span></span>
+                            <i>17682</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_02.png" alt="">
+                            <p>热辣开场  怪才实力开唱</p>
+                            <span></span>
+                            <i>793万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_03.png" alt="">
+                            <p>日落大道</p>
+                            <span></span>
+                            <i>1146万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_04.png" alt="">
+                            <p>光明来临  决绝的信仰</p>
+                            <span></span>
+                            <i>1146万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_05.png" alt="">
+                            <p>欧美力作  lady gaga全新专辑</p>
+                            <span></span>
+                            <i>3769万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_06.png" alt="">
+                            <p>变革之旅  新式摇滚乐</p>
+                            <span></span>
+                            <i>548万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_07.png" alt="">
+                            <p>等你等到我心痛</p>
+                            <span></span>
+                            <i>3769万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_08.png" alt="">
+                            <p>热门短片  天籁之音</p>
+                            <span></span>
+                            <i>975万</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../img/F-img/hot-bg_09.png" alt="">
+                            <p>乡村摇滚  泰勒斯威夫特</p>
+                            <span></span>
+                            <i>3793万</i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script>
+        window.onload=function () {
+            var myScroll = new IScroll('#wrapper', {
+                mouseWheel: true,
+                scrollbars: false,
+                click:true,
+            });
+        }
+    </script>
+</body>
+</html>

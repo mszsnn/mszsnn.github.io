@@ -1,0 +1,196 @@
+.l-banner{
+	/* width: 7.5rem; */
+	height: 2.8rem;
+	background-image: url('../img/l-img/l-one.png');
+	overflow: hidden; 
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	position: relative;
+}
+.l-banner>a{
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: -0.2rem;
+}
+.l-banner>img{
+	margin: 0 auto;
+	float: left;
+	width: 35%;
+	margin-left: 1.8rem;
+	margin-top: 0.2rem;
+}
+.l-banner>span{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.3rem;
+	color: #fff;
+}
+.l-banner>.l-t{
+	width: 3.75rem;
+	height: 0.67rem;
+	position: absolute;
+	left: 26%;
+	top:30%;
+}
+.l-banner>.l-t>img{
+	width: 100%;
+}
+.l-banner>.l-t>p{
+	font-size: 0.3rem;
+	position: absolute;
+	left: 18%;
+	top: 70%;
+}
+.l-banner-two{
+	width: 7.5rem;
+	height: 1.2rem;
+	margin-top: 2rem;
+	margin-left: -0.25rem;
+	z-index: 100;
+}
+.l-banner-two>img{
+	width: 100%;
+}
+.l-n{
+	width:6.83rem;
+	height: 3.96rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.l-n>li{
+	width: 1.76rem;
+	height: 1.88rem;
+	float: left;
+}
+.l-n>li>a>img{
+	width: 100%;
+}
+.l-pp{
+	width: 1.8rem;
+	height: 0.5rem;
+	margin-left: 0.32rem;
+	margin-top: 0.2rem;
+}
+.l-pp>p{
+	font-size: 0.22rem;
+}
+.l-tt{
+	width: 1.78rem;
+	height: 0.5rem;
+	margin-left: 0.32rem;
+	margin-top: 0.1rem;
+	font-size: 0;
+}
+.l-tt>img{
+	width: 100%;
+}
+.input{
+	width: 6.9rem;
+	height: 2.14rem;
+	margin: 0 auto;
+}
+.input>input{
+	width: 100%;
+	height: 100%;
+	border: 0.1px solid #ccc;
+}
+.l-imgg{
+	width: 2.85rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	position: relative;
+	font-size: 0;
+}
+.l-imgg>img{
+	width: 100%;
+}
+.l-imgg>p{
+	font-size: 0.3rem;
+	position: absolute;
+	left: 30%;
+	color: #fff;
+	top: 15%;
+}
+.l-zsz{
+	width: 7.5rem;
+	height: 14rem;
+	background:rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.l-zsz>.phone{
+	width: 5.6rem;
+	height: 2.9rem;
+	background:#fff;
+	margin-top: 71%;
+	margin-left: 12%;
+	border-radius: 0.5rem;
+	position: relative;
+}
+.l-zsz>.phone>a{
+	width: 1.2rem;
+	height: 1.1rem;
+	/* background: yellow; */
+	display: block;
+	margin: 0 auto;
+}
+.l-zsz>.phone>a>img{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.l-zsz>.phone>.l-q{
+	width: 0.8rem;
+	height: 0.85rem;
+	margin-left: 0.8rem;
+}
+.l-zsz>.phone>.l-q>img{
+	width: 100%;
+
+}
+.l-zsz>.phone>p{
+	font-size: 0.35rem;
+	margin-left: 1.7rem;
+	margin-top: -0.35rem;
+}
+.l-zsz>.phone>.fg{
+	width: 3.88rem;
+	height: 0.2rem;
+	/* background: red; */
+	margin-top: 1%;
+	margin-left: 17%;
+	font-size: 0;
+}
+.l-zsz>.phone>.fg>img{
+	width: 100%;
+}
+.l-zsz>.phone>.l-fg>img{
+	width: 100%;
+}
+.l-zsz>.phone>.l-fg{
+	width: 0.15rem;
+	height: 0.55rem;
+	/* background: red; */
+	margin-top: 0%;
+	margin-left: 50%;
+	z-index: 200;
+	font-size: 0;
+}
+.l-zsz>.phone>a>h2{
+	font-size: 0.3rem;
+	position: absolute;
+	top: 81%;
+	left: 25%;
+	font-weight: normal;
+	color: #FFDC3E;
+}
+.l-zsz>.phone>a>h1{
+	font-size: 0.3rem;
+	position: absolute;
+	top: 81%;
+	left: 67%;
+	font-weight: normal;
+	color: #FFDC3E;
+}

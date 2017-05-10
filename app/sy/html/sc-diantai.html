@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<title>电台年代</title>
+    <link rel="stylesheet" href="../css/sc-diantai.css">
+</head>
+<script src='../js/zepto.min.js'></script>
+<script src='../js/iscroll.js'></script>
+<script src='../js/common.js'></script>
+<link rel="stylesheet" href="../css/sc-diantai.css">
+<link rel="stylesheet" href="../css/common.css">
+<script src='../js/zxq-dibu.js'></script>
+<body>
+	<div id="header">
+		<div class='zxq-top1'>
+			<a href="index.html" class='zxq-return'></a>
+			<span>电台</span>
+			<a href="zxq-search.html"></a>
+		</div>
+		<!--电台-->
+	    <div class="radio">
+	        <div class="zi">
+	            <a href="sc-diantai4.html">推荐电台</a>
+	            <div class="active"></div>
+	        </div>
+	        <div class="zi">
+	            <a href="sc-diantai3.html">港澳电台</a>
+	            <div class="active"></div>
+	        </div>
+	        <div class="zi">
+	            <a href="sc-diantai2.html">欧美电台</a>
+	            <div class="active"></div>
+	        </div>
+	        <div class="zi">
+	            <a href="#">年代电台 </a>
+	            <div class="active"></div>
+	        </div>    
+	    </div>
+	</div>
+	<div id="wrapper">
+		<div id="scroller">
+		    <!--推荐-->
+		    <div class="tuijian">
+		        <a href="#">电台个性推荐</a>
+		        <div class="right">
+		            <a href="#">更多</a>
+		            <em></em>
+		        </div>
+		    </div>
+		    <!--大图-->
+		    <div class="datu">
+		        <div class="tu"></div>
+		    </div>
+		    <!--小图-->
+		    <div class="xiaotu">
+		        <div class="tu"></div>
+		        <div class="tu1"></div>
+		        <div class="tu2"></div>
+		    </div>
+		    <!--推荐二-->
+		    <div class="tuijian">
+		        <a href="#">情感调频</a>
+		        <div class="right">
+		            <a href="#">更多</a>
+		            <em></em>
+		        </div>
+		    </div>
+		    <!--调频-->
+		    <div class="FM">
+                <div class='lp-list'>
+                    <div class='lp-lall'>
+                        <a href="javascript:;" class='lp-a'>
+                            <img src='../img/sc-img/fm.png'>
+                            <div class='lp-listr'>
+                                <h4>Please Don't Go</h4>
+                                <img src='../img/lp/lp-song-16.png'>
+                                <div class='lp-left'>
+                                    <span>J.Fla -</span>
+                                    <span>Inspiration</span>
+                                </div>
+                                <div class='lp-right'>
+                                    <img src='../img/lp/lp-song-14.png'>
+                                    <span>点击量</span>
+                                    <img src='../img/lp/lp-song-15.png'>
+                                    <span>8269</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class='lp-hua'>
+                            <div class='lp-hua1'>
+                                <img src='../img/lp/lp-song-17.png'>
+                            </div>
+                            <div class='lp-hua2'>
+                                <img src='../img/lp/lp-song-18.png'>
+                            </div>
+                            <div class='lp-hua3'>
+                                <img src='../img/lp/lp-song-19.png'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='lp-lall'>
+                        <a href="javascript:;" class='lp-a'>
+                            <img src='../img/lp/lp-song-4.png'>
+                            <div class='lp-listr'>
+                                <h4>Please Don't Go</h4>
+                                <img src='../img/lp/lp-song-16.png'>
+                                <div class='lp-left'>
+                                    <span>J.Fla -</span>
+                                    <span>Inspiration</span>
+                                </div>
+                                <div class='lp-right'>
+                                    <img src='../img/lp/lp-song-14.png'>
+                                    <span>点击量</span>
+                                    <img src='../img/lp/lp-song-15.png'>
+                                    <span>8269</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class='lp-hua'>
+                            <div class='lp-hua1'>
+                                <img src='../img/lp/lp-song-17.png'>
+                            </div>
+                            <div class='lp-hua2'>
+                                <img src='../img/lp/lp-song-18.png'>
+                            </div>
+                            <div class='lp-hua3'>
+                                <img src='../img/lp/lp-song-19.png'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div> 
+		</div>
+	</div>
+	<div id="footer">
+		<audio src='../song/b.mp3' id='audio'></audio>
+		<ul class="zxq-bottom">
+			<li class='zxq-tiao'>
+				<div class='zxq-ctiao'>
+					<div class='zxq-yuan'></div>
+				</div>
+			</li>
+			<li class='zxq-icon'></li>
+			<li class='zxq-statues'>
+				<div class='zxq-author'>
+					<span>Ngẫu Hứng</span>
+					<span>Hoaprox</span>
+				</div>
+				<!--<canvas id="canvas" width='200px' height='800px'></canvas>-->
+			</li>
+			<li class='zxq-play'>
+				<div class="zxq-play1 i1">
+					<img src="../img/zxq-zy.png" alt="" />
+				</div >
+				<div class="zxq-play2 i1">
+					<img src="../img/bf11.png" alt="" class='zxq-aa'/>
+					<img src="../img/bf1.png" alt="" class='zxq-bb'/>
+				</div>
+				<div class="zxq-play3 i1">
+					<img src="../img/zxq-next.png" alt="" />
+				</div>
+			</li>
+		</ul>
+	</div>
+	 <script>
+	    window.onload=function(){
+	    	//	    	返回键
+//			$('.zxq-return')[0].addEventListener('touchstart', function() {
+//				window.history.back();
+//			})
+		    var myScroll = new IScroll('#wrapper', {
+			    mouseWheel: true,
+			    scrollbars: true,
+			    click:true    
+			});
+			$('.radio .zi').each(function(index,value){
+				value.addEventListener('touchstart',function(){
+					$('.radio .zi').children('.active').css('display',"none");
+					$(this).children('.active').css('display',"block");
+				})
+			})
+            //			侧滑
+            $(".lp-a").each(function(index,value){
+                value.addEventListener('touchstart', function(e) {
+                    e.preventDefault();
+                    startX = e.changedTouches[0].pageX,
+                        startY = e.changedTouches[0].pageY;
+                    console.log(index)
+                });
+                value.addEventListener("touchmove", function(e) {
+                    e.preventDefault();
+                    moveEndX = e.changedTouches[0].pageX,
+                        moveEndY = e.changedTouches[0].pageY,
+                        X = (moveEndX - startX)/100,
+                        Y = (moveEndY - startY)/100;
+                    var l=parseInt($(".lp-a").eq(index).css('marginLeft'));
+                    if(0>=l>-3){
+                        if(X<-0.4){
+                            $(".lp-a").eq(index).css('marginLeft','-2.46rem');
+                        }
+                    }
+                    if(l<0){
+                        if(X>0.4){
+                            $(".lp-a").eq(index).css('marginLeft','0');
+                        }
+                    }
+                });
+            })
+		}
+    </script>
+</body>
+</html>

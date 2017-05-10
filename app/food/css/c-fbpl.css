@@ -1,0 +1,90 @@
+@import url(c-header.css);
+@import url(common.css);
+body{
+    font-size: 16px;
+    background: #efefef;
+}
+img.trangle{
+    width: 100%;
+}
+.c-pl-one{
+    width: 5.26rem;
+    height: 1.45rem;
+    padding: .2rem;
+    border-radius: 0.05rem;
+    background: #fff;
+    box-shadow: 0 0 .2rem 0 #ffdc3b;
+    position: absolute;
+    left: 50%;
+    top:1.2rem;
+    z-index: 1;
+    margin-left: -2.83rem;
+}
+.pl-one{
+    font-size: .38rem;
+    font-family: Vijaya;
+    color: #ffdc3b;
+}
+.c-pl-one img{
+    display: block;
+    margin: .15rem 0;
+    height: .2rem;
+}
+.c-txt,.c-pl-one >p{
+    color: #ffdc3b;
+    font-size: .3rem;
+}
+.c-pl-con{
+    width: 5.7rem;
+    height: 8.8rem;
+    border-radius: .05rem;
+    position: absolute;
+    background: #fff;
+    left: .25rem;
+    bottom: 0;
+    padding:1rem .65rem;
+}
+.c-cont{
+    width: 100%;
+}
+.c-cont >img{
+    width: .2rem;
+    float: left;
+    margin: 0 .2rem;
+}
+.c-speak{
+    width: 5.1rem;
+    height: 5.7rem;
+    float: left;
+}
+.c-cont p{
+    font-size: .24rem;
+    color: #282828;
+}
+textarea{
+    width: 5.15rem;
+    height: 1.65rem;
+    background: #eee;
+    color: #a5a5a5;
+    font-size: .24rem;
+    border-radius: .05rem;
+    margin: .8rem 0 1.2rem 0;
+    resize: none;
+    outline: 0;
+    border: 0;
+}
+.c-speak >img{
+    width: 1.75rem;
+}
+.c-fb{
+    width: 2.77rem;
+    height: .7rem;
+    border-radius: .35rem;
+    box-shadow: 0 .03rem .2rem 0 #ffdc3b;
+    background-image: url("../img/c-img/fabu.png");
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.38rem;
+    bottom: 1.4rem;
+}

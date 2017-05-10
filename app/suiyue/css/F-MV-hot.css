@@ -1,0 +1,258 @@
+body{
+    background: #f1f1f1;
+}
+header{
+    width:100%;
+    height:1.86rem;
+    background: #e13838;
+    position: fixed;
+    left:0;
+    top:0;
+    overflow: hidden;
+    z-index: 100;
+}
+header>.F-title{
+    width:100%;
+    height:0.88rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+header>.F-title:after{
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+header>.F-title>div{
+    display: inline-block;
+    font-size: 0.32rem;
+    text-transform: uppercase;
+    color:#fff;
+    overflow: hidden;
+}
+header>.F-title>div:first-child{
+    margin-top:0.25rem;
+    float: left;
+}
+header>.F-title>div:nth-child(2){
+    width:6.22rem;
+    text-align: center;
+    margin:0 auto;
+    margin-top:0.27rem;
+    float: left;
+}
+header>.F-title>div:last-child{
+    margin-top:0.25rem;
+    float: right;
+}
+header>.F-title>div>a{
+    width:0.4rem;
+    height:0.4rem;
+    display: block;
+}
+header>.F-title>div>a>img{
+    width:0.4rem;
+    display: block;
+}
+header nav>ul{
+    width:7.05rem;
+    height:0.72rem;
+    margin:0 auto;
+    margin-top:0.05rem;
+    background: #fff;
+    border-radius: 0.05rem;
+}
+header nav>ul>li{
+    width:33.333333%;
+    height:100%;
+    padding-top:0.16rem;
+    padding-left: 0.56rem;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+header nav>ul>li>a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+header nav>ul>li img{
+    width:0.37rem;
+    height:0.37rem;
+    float: left;
+}
+header nav>ul>li span:nth-child(2){
+    font-size: 0.2rem;
+    color:#e13838;
+    float: left;
+    line-height: 0.32rem;
+    margin:0 0.1rem;
+}
+header nav>ul>li p{
+    width:auto;
+    float: left;
+    font-size: 0.24rem;
+    color:#e13838;
+}
+header nav>ul>li span:nth-child(4){
+    display: block;
+    width:1.97rem;
+    height:0.05rem;
+    font-size: 20px;
+    position: absolute;
+    bottom:0.03rem;
+    left:50%;
+    margin-left: -0.98rem;
+}
+header nav>ul>li span:nth-child(4).choose{
+    background:#e13838;
+}
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 1.86rem;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    background:#f2f2f2;
+}
+.hot{
+    background: #f1f1f1;
+}
+.hot>ul{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    padding:0.16rem 0.24rem;
+    box-sizing: border-box;
+}
+.hot>ul>li{
+    width:3.3rem;
+    height:2.82rem;
+    float: left;
+    margin-bottom:0.22rem;:
+}
+.hot>ul>li>a{
+    width:100%;
+    height:100%;
+    display: block;
+    color:#111;
+}
+.hot>ul>li:first-child{
+    width:7.04rem;
+    height:3.1rem;
+    border:2px solid #fff;
+    float: left;
+    border-radius: 0.05rem 0.05rem 0 0;
+    position: relative;
+}
+.hot>ul>li:first-child>a>img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.hot>ul>li:first-child>a>div{
+    background: url(../img/F-img/hot-play.png) no-repeat;
+    background-size: 100%;
+    width:0.88rem;
+    height:0.88rem;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin:-0.44rem 0 0 -0.44rem;
+    opacity: 0.9;
+}
+.hot>ul>li:first-child>a>h5{
+    font-size: 0.24rem;
+    font-family: '苹方';
+    color:#fff;
+    position: absolute;
+    bottom:0.38rem;
+    left:0.27rem;
+}
+.hot>ul>li:first-child>a>h5>em{
+    color:#f31b2e;
+    font-style: normal;
+}
+.hot>ul>li:first-child>a>h6{
+    font-weight: normal;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 0.22rem;
+    font-family: 'San Francisco Display';
+    position: absolute;
+    left:0.27rem;
+    bottom: 0;
+}
+.hot>ul>li:first-child>a>span:nth-child(5){
+    position: absolute;
+    bottom:0.11rem;
+    right:2.09rem;
+}
+.hot>ul>li:first-child>a>i:nth-child(6){
+    font-weight: normal;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 0.22rem;
+    font-family: 'San Francisco Display';
+    position: absolute;
+    right:1.34rem;
+    bottom: 0.13rem;
+}
+.hot>ul>li:first-child>a>span:nth-last-child(2){
+    width:0.24rem;
+    height:0.21rem;
+    background: url(../img/F-img/hot-heart.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom:0.16rem;
+    right:0.8rem;
+}
+.hot>ul>li:first-child>a>i:last-child{
+    font-weight: normal;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 0.22rem;
+    font-family: 'San Francisco Display';
+    position: absolute;
+    right:0.09rem;
+    bottom: 0.13rem;
+    margin:0;
+}
+.hot>ul>li:nth-child(2n){
+    margin-right: 0.42rem;
+}
+.hot>ul>li>a>img{
+    width:3.3rem;
+    height:2.1rem;
+    display: block;
+}
+.hot ul>li>a>p{
+    font-family: 'PingFang SC Medium';
+    font-weight: bold;
+    font-size: 0.22rem;
+    float: left;
+    width:100%;
+    padding-top:0.18rem;
+}
+.hot ul>li>a>span{
+    float: left;
+    width:0.32rem;
+    height:0.18rem;
+    background: url(../img/F-img/video.png) no-repeat;
+    background-size: 100%;
+    margin-top:0.1rem;
+}
+.hot ul>li>a>i{
+    float: left;
+    font-style: normal;
+    font-family:  '苹方';
+    font-size: 0.2rem;
+    padding-top:0.05rem;
+    margin-left: 0.18rem;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/cll-record-pre.css">
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/iscroll.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/cll-record-pre.js"></script>
+</head>
+<script>
+    function loaded () {
+        var myScroll = new IScroll('#wrapper', {
+            scrollbars:true,
+            freeScroll: true,
+            fadeScrollbars:true,
+        });
+    }
+</script>
+<body>
+    <!--头部-->
+    <div id="header">
+        <img src="../img/cll-chahao_03.png" alt="">
+        <p>录音预览</p>
+        <!--豪华vip和音乐包-->
+        <div class="cll-box">
+            <!--鼓楼-->
+            <div>鼓楼(live)</div>
+            <!--评分-->
+            <div>评分5432分</div>
+        </div>
+    </div>
+    <!--身体-->
+    <div id="wrapper">
+        <div id="scroller">
+            <!--音量-->
+            <div class="volume">
+                <!--三角-->
+                <img src="../img/cll-sanjiao_03.png" alt="">
+                <!--开始时间-->
+                <span>03:14</span>
+                <!--进度条-->
+                <div class="bom">
+                    <div class="pro">
+                        <div class="bar"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <!--结束时间-->
+                <span>04:54</span>
+            </div>
+            <!--伴奏音量和原唱音量-->
+            <div class="acc">
+                <!--伴奏音量-->
+                <div>
+                    <img src="../img/fh-216.png" alt="">
+                    <span>伴奏音量</span>
+                    <img src="../img/fh-214.png" alt="">
+                </div>
+                <!--原唱音量-->
+                <div>
+                    <img src="../img/fh-217.png" alt="">
+                    <span>原唱音量</span>
+                    <img src="../img/fh-215.png" alt="">
+                </div>
+            </div>
+            <!--音效-->
+            <div class="sound">
+                <p>音效</p>
+                <div class="box">
+                    <div class="active">
+                        <div class="box1 ">
+                            <img src="../img/cll-sound_09.png" alt="">
+                        </div>
+                        <div class="box2">电音</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_11.png" alt="">
+                        </div>
+                        <div class="box2">录音棚</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_06.png" alt="">
+                        </div>
+                        <div class="box2">KTV</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_03.png" alt="">
+                        </div>
+                        <div class="box2">演唱会</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_17.png" alt="">
+                        </div>
+                        <div class="box2">蝰蛇</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_18.png" alt="">
+                        </div>
+                        <div class="box2">小剧场</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_19.png" alt="">
+                        </div>
+                        <div class="box2">迷幻</div>
+                    </div>
+                    <div>
+                        <div class="box1">
+                            <img src="../img/cll-sound_20.png" alt="">
+                        </div>
+                        <div class="box2">和声</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div id="footer">
+        <img src="../img/cll-dibu_02.png" alt="">
+        <img src="../img/cll-dibu_04.png" alt="">
+    </div>
+</body>
+</html>

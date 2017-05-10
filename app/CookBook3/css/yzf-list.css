@@ -1,0 +1,202 @@
+.yzf-nav{
+	width:100%;
+	height:1.75rem;
+	background:#ffdc3b;
+}
+.yzf-box{
+	width:100%;
+	height:0.3rem;
+	float:left;
+	margin-top:0.5rem;
+}
+
+.yzf-box > a{
+	width:0.15rem;
+	height:0.25rem;
+	margin-left:0.3rem;
+	float:left;
+}
+.yzf-box > a > .photo-one{
+	width:0.15rem;
+	height:0.25rem;
+}
+.yzf-center{
+	width:2.8rem;
+	height:0.5rem;
+	float:left;
+	background:#fff;
+	margin-left:1.8rem;
+	margin-top:-0.1rem;
+	border-radius:15px;
+	position:relative;
+}
+.yzf-center span:first-child{
+	float:left;
+	width:1.1rem;
+	height:0.4rem;
+	background:#ffdc3b;
+	display: block;
+	border-radius:10px;
+	margin-top:0.05rem;
+	margin-left:0.3rem;
+	color:#fff;
+		line-height:0.38rem;
+	text-align: center;
+}
+.yzf-center span:nth-child(2){
+	width:1.1rem;
+	height:0.4rem;
+	/*background:#ffdc3b;*/
+	display: block;
+	border-radius:10px;
+	color:#ffdc3b;
+	margin-top:0.05rem;
+	margin-left:0.2rem;
+	color:#ffdc3b;
+	float:left;
+	line-height:0.38rem;
+	text-align: center;
+}
+.yzf-center img{
+	width:0.1rem;
+	height:0.4rem;
+	position:absolute;
+	top:0.05rem;
+	left:1.45rem;
+}
+.yzf-del{
+	float:right;
+	margin-right:0.3rem;
+	color:#fff;
+	font-size:0.28rem;
+}
+
+
+/*list*/
+.yzf-list{
+	width:7rem;
+	height:auto;
+	overflow: hidden;
+		margin:0 auto;
+	margin-top:-0.5rem;
+	background:#fff;
+	z-index:10000;
+}
+.yzf-list li{
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	float:left;
+	border-bottom: 1px dashed #ffdc3b;
+}
+.yzf-list li span:first-child{
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	background:#ffdc3b;
+	display: block;
+	margin-top:0.5rem;
+	float:left;
+	margin-left:0.3rem;
+}
+.yzf-list li span:nth-child(2){
+	width:auto;
+	height:0.7rem;
+	display: block;
+	float:left;
+	margin-left:0.2rem;
+	/*line-height: 0.7rem;*/
+	/*margin-top:0.3rem;*/
+}
+.yzf-list li .xuangou{
+	width:1.15rem;
+	height:0.32rem;
+	float:right;
+	margin-top:0.35rem;
+	margin-right:0.2rem;
+}
+.yzf-list li .yzf-line{
+	background-image: url(../img/yzf/list_24.png);
+	background-size:100%;
+	width:100%;
+	height:0.01rem;
+	margin-top:0.99rem;
+}
+a{
+    color:#ccc;
+}
+.yzf-chanpin{
+	width:100%;
+	height:2.4rem;
+	box-shadow: 0 0 10px 3px #ccc;
+	float:left;
+	/*margin-top:0.1rem;*/
+	display: none;
+}
+.yzf-chanpin .yzf-photo{
+	width:2.06rem;
+	height:1.96rem;
+	background-image:url(../img/yzf/list_03.png);
+	background-size:100%;
+	margin-top:0.25rem;
+	margin-left:0.2rem;
+	float:left;
+}
+.yzf-chanpin .yzf-title{
+	width:auto;
+	height:0.8rem;
+	float:left;
+	margin-left:0.72rem;
+	margin-top:0.15rem;
+	position:relative;
+}
+.yzf-chanpin .yzf-title span:first-child{
+	font-size:0.28rem;
+	color:#3e3e3e;
+	display: block;
+}
+.yzf-chanpin .yzf-title span:nth-child(2){
+	font-size:0.22rem;
+	color:#ffdc3b;
+	display: block;
+	font-family:"Tahoma";
+}
+.yzf-chanpin .yzf-title img{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.yzf-neirong{
+	width:3.65rem;
+	height:0.95rem;
+	float:left;
+	margin-left:0.72rem;
+}
+.yzf-neirong img{
+	width:1.7rem;
+	height:0.15rem;
+}
+
+
+.yzf-dianzan{
+	width:3.65rem;
+	height:0.35rem;
+	float:left;
+	margin-left:0.72rem;
+	line-height:0.35rem;
+}
+.yzf-dianzan img{
+	width:0.38rem;
+	height:0.3rem;
+	/*margin-top:0.05rem;*/
+	float:left;
+}
+.yzf-dianzan span{
+	margin-bottom:0.1rem;
+	float:left;
+}
+
+.active{
+	display: block;
+}

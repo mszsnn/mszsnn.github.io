@@ -1,0 +1,325 @@
+body,html{
+    width:100%;
+    height:100%;
+    background: #f0f0f0;
+}
+header{
+    width:100%;
+    height:1.75rem;
+    background: #e13838;
+    position: fixed;
+    left:0;
+    top:0;
+    overflow: hidden;
+    z-index: 100;
+}
+header>.F-title{
+    width:100%;
+    height:0.87rem;
+    padding:0 0.24rem;
+    line-height: 0.87rem;
+    box-sizing: border-box;
+    text-align: justify;
+}
+header>.F-title:after{
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+header>.F-title>div{
+    display: inline-block;
+    font-size: 0.3rem;
+
+    color:#fff;
+}
+header>.F-title>div>a{
+    width:0.4rem;
+    height:0.4rem;
+    display: block;
+}
+header>.F-title>div>a>img{
+    width:0.4rem;
+}
+header>nav{
+    height:0.88rem;
+    margin:0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+header>nav>ul{
+    text-align: justify;
+    width:100%;
+    height:100%;
+    position: absolute;
+
+}
+header>nav>ul:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+header>nav>ul>li{
+    display: inline-block;
+    height:100%;
+    text-align: center;
+    line-height: 100%;
+    overflow: hidden;
+    opacity: 0.7;
+}
+header>nav>ul>li>a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+header>nav>ul>li.choose{
+    opacity: 1;
+}
+header>nav>ul>li:first-child>a>img{
+    width:0.23rem;
+    margin-top:0.3rem;
+}
+header>nav>ul>li>a>img{
+    width:0.3rem;
+    color:#fff;
+    float: left;
+    margin-top:0.32rem;
+    margin-left:0.2rem;
+}
+header>nav>ul>li>a>span{
+    padding-top:0.2rem;
+    float: left;
+    font-size: 0.3rem;
+    line-height: 0.49rem;
+    margin-left: 0.07rem;
+    color:#fff;
+    overflow: hidden;
+}
+header>nav>div{
+    width:1.32rem;
+    height:0.49rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    left:0;
+    top:0.24rem;
+}
+header>nav>div.chose{
+    background:#c83030;
+}
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 1.76rem;
+    bottom:0.98rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    background:#f2f2f2;
+}
+main{
+    padding-top: 0.07rem;
+}
+
+main .banner{
+    width:100%;
+    height:3.17rem;
+}
+main .swiper-pagination-bullet{
+    background: rgba(125,125,125,0.9);
+}
+main .swiper-pagination-bullet-active{
+    background: rgba(255,255,255,0.75);
+}
+main>.music,.recommend{
+    margin:0 0.24rem;
+    overflow: hidden;
+}
+main>.music>div{
+    width:9.5rem;
+    height:1.58rem;
+    /*margin:0 auto;*/
+    /*background:#fff;*/
+    overflow:hidden;
+}
+main>.music>div>div.show{
+    width:7.04rem;
+    height:1.24rem;
+    margin:0.17rem 0;
+    background:#fff;
+    border-radius:3px;
+    background-image:url("../img/L-img/8.png");
+    background-position: center;
+    background-size:100% 100%;
+    position:relative;
+    transition:margin-left 0.2s linear;
+    float: left;
+}
+main>.music>div>div.show>section:nth-child(1){
+    width:1.24rem;
+    height:1.24rem;
+    border-radius:3px;
+    border:1px #fff solid;
+    box-sizing:border-box;
+}
+main>.music>div>div.show>section:nth-child(1)>img{
+    display:block;
+    width:100%;
+    height:100%;
+    border-radius:3px;
+}
+main>.music>div>div.show>section:nth-child(2){
+    font-size:0.24rem;
+    color:#111111;
+    position:absolute;
+    left:2.03rem;
+    top:0.2rem;
+}
+main>.music>div>div.show>section:nth-child(3){
+    font-size:0.24rem;
+    color:#F62D2D;
+    position:absolute;
+    left:2.03rem;
+    top:0.76rem;
+}
+main>.music>div>div.show>section:nth-child(4){
+    font-size:0.22rem;
+    color:#AAAAAA;
+    position:absolute;
+    left:6rem;
+    top:0.76rem;
+}
+main>.music>div>div.hid{
+    width:2.46rem;
+    height:1.24rem;
+    margin:0.17rem 0;
+    float:left;
+    transition:margin-left 0.2s linear;
+    background: red;
+}
+main>.music>div>div.hid>img{
+    width:0.82rem;
+    float:left;
+}
+main>.recommend .swiper-container2 img{
+    width:2.8rem;
+    height:2.8rem;
+
+}
+main>.recommend .swiper-slide{
+    width:2.8rem;
+    margin-right: 0.1rem;
+}
+.title{
+    width:100%;
+    height:0.4rem;
+    margin-bottom: 0.3rem;
+}
+.title>span{
+    display: inline-block;
+    float: left;
+    width:2px;
+    height:0.4rem;
+    background: #e7312c;
+}
+.title>img{
+    width:0.4rem;
+    height:0.4rem;
+    float: left;
+    margin-left: 0.22rem;
+}
+.title>p{
+    display: inline-block;
+    float: left;
+    font-size: 0.26rem;
+    font-family: 'PingFang SC';
+    color:#111;
+    height:0.4rem;
+    line-height: 0.4rem;
+    margin-left: 0.07rem;
+}
+.title>div>a{
+    float: right;
+    display: block;
+    font-size: 0.26rem;
+    font-family: 'PingFang SC';
+    color:#111;
+    height:0.4rem;
+    line-height: 0.4rem;
+    margin-right: 0.14rem;
+}
+.title>div>a>span{
+    margin:0 0.1rem;
+    color:#e44b4a;
+    font-family: '宋体';
+    font-weight: bold;
+}
+
+
+footer{
+    width:100%;
+    height:0.97rem;
+    background:#ffffff;
+    box-sizing:border-box;
+    border-top:1px solid #A0A0A1;
+    position:fixed;
+    bottom: 0;
+}
+footer>div:first-child{
+    width:0.95rem;
+    height:0.95rem;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background-image:url(../img/L-img/5.png);
+    background-size:100% 100%;
+    background-position:contain;
+}
+footer>div:nth-child(2){
+    width:1.23rem;
+    height:100%;
+    position:absolute;
+    left:1.2rem;
+    bottom:0;
+}
+footer>div:nth-child(2)>h4{
+    font-size:0.26rem;
+    color:#000;
+    font-weight:normal;
+    margin-top:0.24rem;
+}
+footer>div:nth-child(2)>h6{
+    font-size:0.15rem;
+    color:#5F5F5F;
+}
+footer>div:nth-child(3){
+    position:absolute;
+    bottom:0;
+    right:2.3rem;
+
+}
+footer>div:nth-child(4){
+    width:2.26rem;
+    height:100%;
+    float:right;
+    display:flex;
+    justify-content:space-between;
+}
+footer>div:nth-child(4)>span:nth-child(2){
+    font-size:0.58rem;
+    color:#E7332E;
+    margin-top:0.195rem
+}
+footer>div:nth-child(4)>span:nth-child(odd){
+    font-size:0.31rem;
+    color:#B3B2B3;
+    margin-top:0.33rem;
+}
+footer>div>a{
+    display: block;
+    width:100%;
+    height:100%;
+}

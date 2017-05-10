@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/cll-success.css">
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/iscroll.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/cll-common.js"></script>
+</head>
+<script>
+    function loaded () {
+        var myScroll = new IScroll('#wrapper', {
+            scrollbars:true,
+            freeScroll: true,
+            fadeScrollbars:true,
+        });
+    }
+</script>
+<body onload="loaded()">
+    <!--头部-->
+    <div id="header">
+        <img src="../img/cll-back.png" alt="">
+        <p>会员中心</p>
+    </div>
+    <!--身体-->
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="success">
+                <div class="su">
+                    <div class="return">
+                    	<a href="#">返回首页</a>
+                    </div>
+                    <div class="continue">
+                    	<a href="#">继续开通</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="pri">
+                <p>
+                    <img src="../img/cll-suc_03.png" alt="">
+                    <span>查看特权</span>
+                </p>
+                <div>
+                    <div>
+                        <img src="../img/cll-pri_06.png" alt="">
+                        <p>SQ音乐下载</p>
+                    </div>
+                    <div>
+                        <img src="../img/cll-pri_03.png" alt="">
+                        <p>空间音乐</p>
+                    </div>
+                    <div>
+                        <img src="../img/cll-pri_09.png" alt="">
+                        <p>个性音乐</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="../img/cll-pri_18.png" alt="">
+                        <p>VIP专属皮肤</p>
+                    </div>
+                    <div>
+                        <img src="../img/cll-pri_20.png" alt="">
+                        <p>付费音乐下载</p>
+                    </div>
+                    <div>
+                        <img src="../img/cll-pri_15.png" alt="">
+                        <p>新歌抢先体验</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+	$('.return a').on('touchstart',function(){
+		location.assign('index.html');
+	})
+	$('.continue a').on('touchstart',function(){
+		location.assign('cll-member-click.html');
+	})
+</script>

@@ -1,0 +1,233 @@
+@import url('common.css');
+html,body{
+	background-image:url(../img/qyh-img/q-bg.png) ;
+	background-size:cover ;
+	overflow£ºhidden;
+}
+header{
+	height:0.8rem;
+}
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 45px;
+    background-size:100% 100%;
+    padding: 0;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:.88rem;
+}
+#header .z-return{
+    padding-left: 0.36rem;
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: .2rem;
+}
+#header .z-tupian1{
+    /*width:1.92rem;*/
+	height:0.6rem;
+    float: left;
+    margin-left: 2.5rem;
+    margin-top: .18rem;
+}
+article.q-form{
+	width:5.54rem;
+	height:7.1rem;
+	border-radius: 5px;
+	margin:2.17rem auto 0;
+}
+article.q-form >.q-ti{
+	width:100%;
+	height:0.70rem;
+	display: flex;
+	justify-content: space-between;
+}
+article.q-form >.q-ti > li{
+	width:50%;
+	height:0.6rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+	background: #fff;
+	border-radius: 3px 3px 0 0;
+}
+article.q-form >.q-ti > li.q-active{
+	height:110%;
+	margin-top:0 ;
+	line-height: 0.65rem;
+	color:#FFDC3B;
+}
+div.q-phone{
+	width:100%;
+	height:6.4rem;
+	background: #fff;
+	border-radius:0 0 3px 3px;
+}
+
+div.q-phone > form{
+	position: relative;
+	width:100%;
+	height:7.1rem;
+	box-sizing: border-box;
+	padding:0.2rem;
+}
+div.q-phone > form > div.q-chacha1{
+	position: absolute;
+	right:0.3rem;
+	width:0.28rem;
+	height:0.28rem;
+	line-height: 0;
+	z-index: 5;
+	display: none;
+}
+div.q-phone > form > div.q-chacha1 > img{
+	width:100%;
+	height:100%;
+}
+div.q-phone > form > div.q-chacha1.q-active{
+	display: block;
+}
+div.q-phone > form > div.q-chacha1{
+	top:0.9rem;
+}
+div.q-phone > form > div.hq{
+	width:1.4rem;
+	height:0.4rem;
+	font-size: 0.24rem;
+	color:#FFFFFF;
+	background: #FFDC3B;
+	border-radius: 10px;
+	position: absolute;
+	top:4.4rem;
+	right:0.3rem;
+	z-index: 3;
+	text-align: center;
+}
+div.q-phone > form > input{
+	height:1rem;
+	width:72%;
+	position: absolute;
+	left: 0.15rem;
+	padding-left: 1.2rem;
+	border:none;
+	border-bottom: 1px dotted #FFDC3B;;
+	outline: 0;
+	font-size: 0.3rem;
+	padding-top:0.08rem;
+}
+div.q-phone > form > input:first-of-type{
+	top:0.5rem;
+}
+div.q-phone > form > input:nth-of-type(2){
+	top:1.7rem;
+}
+div.q-phone > form > input:nth-of-type(3){
+	top:2.9rem;
+}
+div.q-phone > form > input:nth-of-type(4){
+	top:4.1rem;
+}
+div.q-phone > form > input:last-child{
+	background-image:url(../img/qyh-img/zhuce.png) ;
+	width:3rem;
+	height:0.72rem;
+	background-size:cover;
+	border:0;
+	display: block;
+	position: absolute;
+	bottom:1rem;
+	left:1.3rem;
+	outline: 0;
+}
+
+div.q-phone > form >img:first-child{
+	position: absolute;
+	top:0.7rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(2){
+	position: absolute;
+	top:1.85rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(3){
+	position: absolute;
+	top:2.1rem;
+	right:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(4){
+	position: absolute;
+	top:3rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(5){
+	position: absolute;
+	top:3.25rem;
+	right:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(6){
+	position: absolute;
+	top:4.15rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form.q-active{
+	display: none;
+}
+
+div.tj{
+	/*display: none;*/
+	position: absolute;
+	top:3.5rem;
+	left:1.2rem;
+	background-image:url(../img/qyh-img/gongxi.png) ;
+	background-size:cover ;
+	width:5.11rem;
+	height:5.69rem;
+	z-index: 10;
+	display: none;
+}
+
+div.tj > p:first-child{
+	font-size: .28rem;
+	position: absolute;
+	bottom:2rem;
+	left:0rem;
+}
+div.tj > p:last-of-type{
+	font-size: .28rem;
+	position: absolute;
+	bottom:1.5rem;
+	left:0rem;
+	color:#FFDC3B;
+}
+div.tj >a{
+	position: absolute;
+	bottom:0.5rem;
+	right:0rem;
+	width:2.99rem;
+	display: block;
+	height:0.335rem;
+	line-height: 0;
+}
+div.tj >a> img{
+	/*position: absolute;*/
+	/*bottom:0.5rem;*/
+	/*right:0rem;*/
+	width:2.99rem
+}
+div.tj.q-active{
+	display: block;
+}

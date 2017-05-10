@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>唱K</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/fh-songk.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/iscroll.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zxq-dibu.js"></script>
+    <script src="../js/swiper.min.js"></script>
+</head>
+<style>
+    #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:2.08rem;
+    }
+    #footer {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0.98rem;
+    }
+    #wrapper {
+        position: absolute;
+        z-index: 1;
+        top: 2.08rem;
+        bottom:0.98rem;
+        left: 0;
+        width: 100%;
+        background: #f1f1f1;
+        overflow: hidden;
+    }
+    #scroller {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+        background:#f1f1f1;
+    }
+</style>
+<body>
+<div id="header">
+    <div class='zxq-top'>
+        <div class='zxq-innertop'>
+            <a href="javascript:;">
+                <img src="../img/zxq-sy.png" alt="" class="zxq-cd"/>
+            </a>
+            <a href="index.html">
+                <span class='music music3'>音乐馆</span>
+            </a>
+            <a href="#">
+                <span class='active music music1'>唱K</span>
+            </a>
+            <a href="sc-screen.html">
+                <span class='music music2'>我的</span>
+            </a>
+            <a href="zxq-search.html">
+                <img src="../img/zxq-ss.png" alt="" class="zxq-ss"/>
+            </a>
+        </div>
+    </div>
+    <div class="fh-top">
+        <img src="../img/fh-1.png" alt="">
+        <h1>小明同学</h1>
+        <img src="../img/fh-2.png" alt="">
+        <div class="fh-diange">
+            <img src="../img/fh-3.png" alt="">
+            <h1><a href="fh-diange.html">点歌</a></h1>
+        </div>
+    </div>
+</div>
+<!--小明同学-->
+<div id="wrapper">
+    <div id="scroller">
+        <div class="fh-banner">
+            <img src="../img/fh-4.png" alt="">
+            <div class="fh-line"></div>
+        </div>
+        <!--经典热歌榜-->
+        <div class="fh-song">
+            <div class="fh-biaoti">
+                <div class="fh-left"></div>
+                <img src="../img/fh-5.png" alt="">
+                <h2>经典热歌榜</h2>
+                <h3>看榜单 <span>&gt;</span></h3>
+            </div>
+            <div class="fh-box swiper-container">
+                <ul class="fh-ge swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div></div>
+                        <h3>我 - <span>张学友</span></h3>
+                    </li>
+                    <li class="swiper-slide">
+                        <div></div>
+                        <h3>外面的世界 - <span>莫文蔚</span></h3>
+                    </li>
+                    <li class="swiper-slide">
+                        <div></div>
+                        <h3>蓝莲花 - <span>许巍</span></h3>
+                    </li>
+                    <li class="swiper-slide">
+                        <div></div>
+                        <h3>蓝莲花 - <span>许巍</span></h3>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!--本周热门明星-->
+        <div class="fh-biaoti">
+            <div class="fh-left"></div>
+            <img src="../img/fh-9.png" alt="">
+            <h2>本周热门明星</h2>
+        </div>
+        <div class="fh-star">
+            <div class="fh-img"></div>
+            <div class="fh-zi">
+                <h1>张学友</h1>
+                <h2>一首歌一段人生，张学友用歌讲故事</h2>
+                <h2>1985年，首张专辑《Smile》</h2>
+                <h2>1993年，代表专辑《吻别》</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div id="footer">
+    <audio src='../song/b.mp3' id='audio'></audio>
+    <ul class="zxq-bottom">
+        <li class='zxq-tiao'>
+            <div class='zxq-ctiao'>
+                <div class='zxq-yuan'></div>
+            </div>
+        </li>
+        <li class='zxq-icon'></li>
+        <li class='zxq-statues'>
+            <div class='zxq-author'>
+                <span>Ngẫu Hứng</span>
+                <span>Hoaprox</span>
+            </div>
+            <!--<canvas id="canvas" width='200px' height='800px'></canvas>-->
+        </li>
+        <li class='zxq-play'>
+            <div class="zxq-play1 i1">
+                <img src="../img/zxq-zy.png" alt="" />
+            </div >
+            <div class="zxq-play2 i1">
+				<img src="../img/bf11.png" alt="" class='zxq-aa'/>
+				<img src="../img/bf1.png" alt="" class='zxq-bb'/>
+			</div>
+            <div class="zxq-play3 i1">
+                <img src="../img/zxq-next.png" alt="" />
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 2.5,
+            paginationClickable: true,
+            freeMode: true
+        });
+    })
+
+</script>
+</html>

@@ -1,0 +1,103 @@
+body{
+    background: #E13838;
+    overflow: hidden;
+}
+header{
+    width:100%;
+    height:1rem;
+    background:#E13838;
+    line-height: 1rem;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 .01rem .08rem 0 rgba(255,56,56,.3);
+}
+header>a>img{
+    width: .16rem;
+    float: left;
+    margin:.32rem -.5rem 0 .24rem;
+}
+
+.container{
+    width: 100%;
+    height:10rem;
+}
+.slide{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+}
+.slide .img{
+    position: absolute;
+    transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+}
+.slide .img>p{
+    color:#fff;
+    font-size:.3rem;
+    position: absolute;
+    bottom:-.4rem;
+    left:1rem;
+}
+.slide .img img{
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    margin: 7px;
+}
+.slide .img1{
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: -50%;
+    z-index: 1;
+}
+.slide .img2{
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: -50%;
+    z-index: 2;
+}
+.slide .img3{
+    width: 80%;
+    height: 90%;
+    top: 5%;
+    left: 10%;
+    z-index: 3;
+}
+.slide .img4{
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 90%;
+    z-index: 2;
+}
+.slide .img5{
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 110%;
+    z-index: 1;
+}
+
+.main{
+    width:100%;
+    height:10rem;
+}
+.main>ul{
+    height:100%;
+}
+.main>ul>li{
+    width:4.47rem;
+    height:7.76rem;
+}
+
+.but{
+    margin-top:.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.but>img{
+    width: 2.46rem;
+    height:.89rem;
+}

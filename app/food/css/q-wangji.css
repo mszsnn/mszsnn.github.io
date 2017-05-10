@@ -1,0 +1,185 @@
+@import url("swiper.min.css" );
+@import url('common.css');
+html,body{
+	background-image:url(../img/qyh-img/q-bg.png) ;
+	background-size:cover ;
+	overflow:hidden;
+}
+header{
+	height:0.88rem;
+}
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 45px;
+    background-size:100% 100%;
+    padding: 0;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:.88rem;
+}
+#header .z-return{
+    padding-left: 0.36rem;
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: .2rem;
+}
+#header .z-tupian1{
+	height: 0.52rem;
+    float: left;
+    margin-left: 2.3rem;
+    margin-top: .18rem;
+}
+article.q-form{
+	width:5.54rem;
+	height:7.1rem;
+	border-radius: 5px;
+	margin:2.17rem auto 0;
+}
+article.q-form >.q-ti{
+	width:100%;
+	height:0.70rem;
+	display: flex;
+	justify-content: space-between;
+}
+article.q-form >.q-ti > li{
+	width:50%;
+	height:0.6rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+	background: #fff;
+	border-radius: 3px 3px 0 0;
+}
+article.q-form >.q-ti > li.q-active{
+	height:110%;
+	margin-top:0 ;
+	line-height: 0.65rem;
+	color:#FFDC3B;
+}
+div.q-phone{
+	width:100%;
+	height:6.4rem;
+	background: #fff;
+	border-radius:0 0 3px 3px;
+}
+
+div.q-phone > form{
+	position: relative;
+	width:100%;
+	height:6.3rem;
+	box-sizing: border-box;
+	padding:0.2rem;
+}
+
+div.q-phone > form > div{
+	position: absolute;
+	right:0.3rem;
+	width:0.28rem;
+	height:0.28rem;
+	line-height: 0;
+	z-index: 5;
+	display: none;
+}
+div.q-phone > form > div.q-active{
+	display: block;
+}
+div.q-phone > form > div.q-chacha1{
+	top:1.1rem;
+}
+div.q-phone > form > div > img{
+	width:100%;
+	height:100%;
+}
+div.q-phone > form > input{
+	height:1rem;
+	width:72%;
+	position: absolute;
+	left: 0.15rem;
+	padding-left: 1.2rem;
+	border:none;
+	border-bottom: 1px dotted #FFDC3B;;
+	outline: 0;
+	font-size: 0.3rem;
+	padding-top:0.08rem;
+}
+div.q-phone > form > input:first-of-type{
+	top:0.8rem;
+}
+div.q-phone > form > input:nth-of-type(2){
+	top:2rem;
+}
+div.q-phone > form > input:nth-of-type(3){
+	top:3.2rem;
+}
+div.q-phone > form >a:last-of-type{
+	bottom:0.5rem;
+	left:1.2rem;
+	background-image:url(../img/qyh-img/queding.png) ;
+	width:3rem;
+	height:0.77rem;
+	background-size:cover;
+	border:0;
+	display: block;
+	margin:4.9rem auto 0;
+	outline: 0;
+}
+div.q-phone > form >img:first-child{
+	position: absolute;
+	top:1rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(2){
+	position: absolute;
+	top:2.15rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(3){
+	position: absolute;
+	top:3.6rem;
+	right:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form >img:nth-of-type(4){
+	position: absolute;
+	top:3.3rem;
+	left:0.3rem;
+	z-index: 3;
+}
+div.q-phone > form.q-active{
+	display: none;
+}
+div.q-phone > input{
+	background-image:url(../img/qyh-img/zhuce.png) ;
+	width:3rem;
+	height:0.72rem;
+	background-size:cover;
+	border:0;
+	display: block;
+	margin:0.1rem auto 0;
+	outline: 0;
+}
+div.q-phone > form > div.hq{
+	width:1.4rem;
+	height:0.4rem;
+	font-size: 0.24rem;
+	color:#FFFFFF;
+	background: #FFDC3B;
+	border-radius: 10px;
+	position: absolute;
+	top:2.3rem;
+	right:0.3rem;
+	z-index: 3;
+	text-align: center;
+	display: block;
+	line-height:0.4rem;
+}

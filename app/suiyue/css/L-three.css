@@ -1,0 +1,219 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+header{
+    height:1.28rem;
+    width:100%;
+    background:#D43837;
+    overflow:hidden;
+}
+nav{
+    height:0.88rem;
+    width:100%;
+    margin-top:0.4rem;
+    display:flex;
+    justify-content:space-between;
+}
+nav>div:nth-child(odd){
+    height:100%;
+    width:0.8rem;
+}
+nav>div:nth-child(even){
+    width:auto;
+    height:100%;
+    font-size:0.36rem;
+    color:#ffffff;
+    line-height:0.88rem;
+}
+
+nav>div>img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+main{
+    height:12.06rem;
+    width:100%;
+    background-image:url("../img/L-img/9.png");
+    background-position:center center;
+    background-size:100% 100%;
+    position:relative;
+}
+main>div{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color:rgba(0,0,0,0.5);
+}
+main>div>section:nth-child(1){
+    margin:0 auto;
+    margin-top:0.48rem;
+    width:6.72rem;
+    height:0.52rem;
+    background:#D53434;
+    opacity:0.57;
+    border-radius:0.26rem;
+    position:relative;
+}
+main>div>section:nth-child(1)>div:first-child{
+    opacity:1;
+    width:0.86rem;
+    height:0.86rem;
+    background:black;
+    border-radius:0.43rem;
+    position:absolute;
+    left:0;
+    top:-0.17rem;
+    background-image:url('../img/L-img/5.png');
+    background-size:contain;
+}
+main>div>section:nth-child(1)>span:nth-child(2){
+    font-size:0.28rem;
+    color:#ffffff;
+    position:absolute;
+    left:1rem;
+    top:0.09rem;
+}
+main>div>section:nth-child(2){
+    width:100%;
+    height:3.28rem;
+    margin-top:0.27rem;
+    position:relative;
+}
+main>div>section:nth-child(2)>div:nth-child(1){
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:1.64rem;
+    background-image:linear-gradient(to right,#ffffff,red );
+    opacity:0.3;
+}
+main>div>section:nth-child(2)>div:nth-child(n+2){
+    height:0.08rem;
+    background:#F0F0F0;
+}
+main>div>section:nth-child(2)>div:nth-child(2){
+    position:absolute;
+    left:0;
+    top:0.9rem;
+    width:0.68rem;
+    opacity:0.48;
+}
+main>div>section:nth-child(2)>div:nth-child(3){
+    position:absolute;
+    left:0.68rem;
+    top:1.45rem;
+    width:1.46rem;
+    opacity:0.48;
+}
+main>div>section:nth-child(2)>div:nth-child(4){
+    position:absolute;
+    left:2.12rem;
+    top:1.25rem;
+    width:1.46rem;
+    opacity:0.48;
+}
+main>div>section:nth-child(2)>div:nth-child(5){
+    position:absolute;
+    left:3.6rem;
+    top:1rem;
+    width:0.95rem;
+    opacity:0.48;
+}
+main>div>section:nth-child(2)>div:nth-child(6){
+    position:absolute;
+    left:6rem;
+    top:1.25rem;
+    width:1.46rem;
+    opacity:0.48;
+}
+main>div>section:nth-child(2)>div:nth-child(7){
+    position:absolute;
+    left:5rem;
+    top:1rem;
+    width:1rem;
+    opacity:0.48;
+}
+
+
+main>footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:1.44rem;
+    width:100%;
+    /*background:red;*/
+}
+main>footer>div:nth-child(1){
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    height:0.72rem;
+}
+main>footer>div:nth-child(1)>div{
+    line-height:0.72rem;
+    width:0.44rem;
+    text-align:center;
+    font-size:0.4rem;
+    color:#fff;
+
+}
+main>footer>div:nth-child(1)>div:nth-child(3){
+    width:1.16rem;
+    height:1.16rem;
+    border-radius:50%;
+    background:#ffffff;
+    opacity:0.4;
+
+}
+main>footer>div:nth-child(1)>div:nth-child(3)>div{
+    width:1rem;
+    height:1rem;
+    border-radius:50%;
+    background:#E72D4E;
+    opacity:1;
+    margin:0 auto;
+    margin-top:0.08rem;
+    overflow:hidden;
+}
+main>footer>div:nth-child(1)>div:nth-child(3)>div>div{
+    width:0.5rem;
+    height:0.5rem;
+    border-radius:10px;
+    background:#ffffff;
+    opacity:1;
+    margin:0 auto;
+    margin-top:0.25rem;
+}
+
+
+
+
+
+
+main>footer>div:nth-child(2){
+    display:flex;
+    justify-content:space-around;
+
+}
+main>footer>div:nth-child(2)>span{
+    width:0.8rem;
+    text-align:center;
+    font-size:0.2rem;
+    color:#fff;
+    flex-grow:1;
+}
+main>footer>div:nth-child(2)>span:nth-child(3){
+    flex-grow:2;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,207 @@
+@charset "UTF-8";
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.zc {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 2; }
+
+.ly-zccg {
+  width: 5.11rem;
+  height: 5.69rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10; }
+  .ly-zccg > img {
+    width: 100%; }
+
+.ly-zc {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/ly/zcbg.png);
+  background-size: 100% ; }
+  .ly-zc > a {
+    width: 3.06rem;
+    height: 0.67rem;
+    position: absolute;
+    left: 3.2rem;
+    top: 8.5rem;
+    z-index: 20; }
+    .ly-zc > a > img {
+      width: 100%; }
+  .ly-zc .top {
+    width: 100%;
+    height: 1rem; }
+    .ly-zc .top > a {
+      display: block;
+      width: 0.44rem;
+      height: 0.5rem;
+      float: left;
+      margin-top: 0.25rem;
+      margin-left: 0.12rem; }
+      .ly-zc .top > a img {
+        width: 100%; }
+    .ly-zc .top > img {
+      width: 1.05rem;
+      height: 0.5rem;
+      float: left;
+      margin-top: 0.25rem;
+      margin-left: 2.80rem; }
+
+.ly-ljzc {
+  width: 5.55rem;
+  height: 6.68rem;
+  position: absolute;
+  top: 3.08rem;
+  left: 1rem;
+  background: white;
+  border-radius: 0.02rem; }
+  .ly-ljzc > a {
+  width: 3.06rem;
+  height: 0.67rem;
+  position: absolute;
+  left:2.3rem;
+  top: 5.2rem;
+  z-index: 20;
+}
+
+.ly-ljzc > a > img {
+  width: 100%;
+}
+  .ly-ljzc .ly-sjzc {
+    width: 50%;
+    height: 0.72rem;
+    float: left;
+    text-align: center;
+    font-size: 0.24rem;
+    border-radius: 0.05rem; }
+  .ly-ljzc .ly-yxzc {
+    width: 50%;
+    height: 0.72rem;
+    float: right;
+    text-align: center;
+    font-size: 0.24rem;
+    border-radius: 0.05rem; }
+  .ly-ljzc .sjl {
+    width: 50%;
+    height: 0.26rem;
+    background: white;
+    float: left;
+    margin-top: -0.26rem;
+    border-radius: 0.03rem 0.03rem 0 0;
+    position:relative;
+  	left:0;
+  	top:0.01rem; }
+  .ly-ljzc .sjr {
+    width: 50%;
+    height: 0.26rem;
+    background: white;
+    float: left;
+    margin-top: -0.26rem;
+    border-radius: 0.03rem 0.03rem 0 0;
+    display: none; }
+  .ly-ljzc .messagebox {
+    width: 100%;
+    height: 4.5rem;
+    margin-top: 0.9rem; }
+    .ly-ljzc .messagebox .message {
+      width: 100%;
+      height: 0.6rem;
+      margin-top: 0.5rem; }
+      .ly-ljzc .messagebox .message a {
+        display: block;
+        width: 1.26rem;
+        height: 0.43rem;
+        /*float: left;*/ 
+        margin-left:4rem;
+        /*margin-top:-0.4rem;*/
+        }
+        .ly-ljzc .messagebox .message a img {
+          width: 100%;
+          height: 100%；; }
+      .ly-ljzc .messagebox .message .ck {
+        width: 0.26rem;
+        height: 0.2rem;
+        /*float: left;*/
+        line-height: 0.38rem;
+        margin-left: 4.52rem; }
+        .ly-ljzc .messagebox .message .ck img {
+          width: 100%;
+          height: 100%; }
+      .ly-ljzc .messagebox .message .ly-sjh {
+        width: 0.72rem;
+        height: 0.38rem;
+        margin-left: 0.45rem;
+        float: left; }
+        .ly-ljzc .messagebox .message .ly-sjh img {
+          width: 100%;
+          height: 100%; }
+      .ly-ljzc .messagebox .message input {
+        border: none;
+        float: left;
+        line-height: 0.38rem; }
+    .ly-ljzc .messagebox .ly-xian {
+      width: 4.76rem;
+      height: 0.12rem;
+      margin-left: 0.5rem; }
+      .ly-ljzc .messagebox .ly-xian img {
+        width: 100%;
+        height: 100%; }
+
+#telephone-error{
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}
+#password-error{
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}
+#confirm_password-error{
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}
+.ly-yz{
+	width:2.82rem;
+	height:0.32rem;
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}
+.ly-yc{
+	display:none;
+}
+#submit{
+	width:3.02rem;
+	height:0.7rem;
+	background-image: url(../img/ly/zhuce.png);
+	background-size: 100% 100%;
+	background-position: center;
+	border:none; 
+	margin-top:0.3rem;
+	margin-left:1.32rem;
+}
+#yanzheng-error{
+	width:2.82rem;
+	height:0.32rem;
+	color:red;
+	margin-left:1.1rem;
+	margin-top:0.1rem;
+	float:left;
+}

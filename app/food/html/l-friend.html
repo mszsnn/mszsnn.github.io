@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/l-friend.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper.min.css"/>
+	<script src="../js/common/common.js"></script>
+	<script src="../js/common/swiper.min.js"></script>
+	<script type="text/javascript" src="../js/common/iscroll.js"></script>
+	<script type="text/javascript" src="../js/common/zepto.min.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+	<meta name="x5-orientation" content="portrait | landscape" />
+		<!---->
+	<meta name="screen-orientation" content="portrait">
+		<!--全屏问题-->
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+		<!--禁止打电话、登录邮箱-->
+	<meta name="format-detection" content="telephone=no, email=no" />
+</head>
+
+<script type="text/javascript">
+        var myScroll;
+    function loaded(){
+         myScroll = new IScroll('#wrapper', {
+                scrollbars: false,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+	     });
+        }
+</script>
+	<style>
+		#wrapper {
+		width:100%;
+		height: 11.8rem;
+		position: relative;
+		z-index: 999;
+			}	
+	</style>	
+<body onload="loaded()">
+
+	<div class="l-banner">
+		<a onclick="history.go(-1)">
+			<img class="z-return" src="../img/z-img/z-return.png" alt="">
+		</a>
+		<img src="../img/l-img/lhaoyou_biaoti.png">
+		<span>存草稿</span>
+		<div class="l-t">
+				<a href="javascript:;">
+					<p>食友推荐</p>
+				</a>
+				
+				<a href="javascript:;">
+					<p>全部关注</p>
+				</a>
+		</div>
+	</div>
+	<div id="wrapper">
+		<div class="gjr_box" id='scroller'>
+	<ul>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_4.png">
+			</a>
+			<p>Janner</p>
+			
+			<span>菜谱569</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_1.png">
+			</a>
+			<p>食来运转</p>
+			
+			<span>菜谱258</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_2.png">
+			</a>
+			<p>味之源</p>
+			
+			<span>菜谱120</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_3.png">
+			</a>
+			<p>铁男</p>
+			
+			<span>菜谱58</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_5.png">
+			</a>
+			<p>馨子</p>
+			
+			<span>菜谱78</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_6.png">
+			</a>
+			<p>大象</p>
+			
+			<span>菜谱58</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:;">
+				<img src="../img/l-img/lhaoyou_7.png">
+			</a>
+			<p>JOKE</p>
+			
+			<span>菜谱588</span>
+			<div class="one-t">
+				<span>已关注</span>
+			</div>
+		</li>
+	</ul>
+</div></div>
+</body>
+</html>
+<script>	
+
+$(document).ready(function(){
+	    var swiper = new Swiper('.swiper-container',{
+	    	slidesPerView:'auto',
+	    });		
+	});
+
+
+
+
+</script>

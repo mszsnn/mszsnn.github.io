@@ -1,0 +1,330 @@
+@charset "UTF-8";
+body {
+  background: #F0EFEE;
+}
+
+.ly-top {
+  width: 100%;
+  height: 3.78rem;
+  background: #FFDC3D;
+}
+
+.ly-top .ly-hit {
+  width: 7.02rem;
+  height: 1.85rem;
+  background-image: url(../img/ly/ly-hit.png);
+  background-position: center;
+  background-size: 7.02rem 1.85rem;
+  margin: 0 auto;
+}
+
+.ly-top .ly-hit > img {
+  width: 4.48rem;
+  height: 0.49rem;
+  margin-top: 0.3rem;
+  margin-left: 0.1rem;
+}
+
+.ly-top .ly-hit .ly-tianjia {
+  width: 98%;
+  height: 0.65rem;
+  background: red;
+  margin: 0 auto;
+}
+
+.ly-top .ly-title2 {
+  width: 100%;
+  height: 0.98rem;
+  text-align: center;
+}
+
+.ly-top .ly-title2 > img {
+  width: 5.20rem;
+  height: 0.98rem;
+}
+
+.ly-top .ly-title {
+  width: 100%;
+  height: 0.88rem;
+  padding-top: 0.2rem;
+}
+
+.ly-top .ly-title > a {
+  font-family: "宋体";
+  padding-top: 0.1rem;
+  margin-left: 0.25rem;
+  width: 0.36rem;
+  height: 0.66rem;
+  font-size: 0.36rem;
+  color: white;
+  float: left;
+  line-height: 0.66rem;
+}
+
+.ly-top .ly-title .ly-add {
+  width: 2.74rem;
+  height: 0.66rem;
+  float: left;
+  margin-left: 2rem;
+}
+
+.ly-top .ly-title .ly-add img {
+  width: 100%;
+}
+
+.ly-foods {
+  width: 7.02rem;
+  height: 7.74rem;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ly-foods .ly-xl {
+  width: 2.25rem;
+  height: 2.1rem;
+  background-image: url(../img/ly/ly-xl.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.48rem;
+  left: 0.68rem;
+  border-radius: 50%;
+  line-height: 2.0rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-xl > p {
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-xl > span {
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-yuan1 {
+  width: 0.49rem;
+  height: 0.49rem;
+  position: absolute;
+  left: 3.15rem;
+  top: 1.6rem;
+  background-image: url(../img/ly/ly-yuan.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.ly-foods .ly-ml {
+  width: 1.49rem;
+  height: 1.47rem;
+  background-image: url(../img/ly/ly-ml.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1.56rem;
+  left: 3.7rem;
+  border-radius: 50%;
+  line-height: 1.37rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-ml > p {
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-ml > span {
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-yuan2 {
+  width: 0.49rem;
+  height: 0.49rem;
+  position: absolute;
+  left: 5.16rem;
+  top: 2.96rem;
+  background-image: url(../img/ly/ly-yuan.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.ly-foods .ly-gw {
+  width: 1.35rem;
+  height: 1.64rem;
+  background-image: url(../img/ly/ly-gw.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1.7rem;
+  left: 5.68rem;
+  line-height: 1.54rem;
+  color: white;
+}
+
+.ly-foods .ly-gw > p {
+  padding-left: 0.5rem;
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-gw > span {
+  padding-left: 0.5rem;
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-sxw {
+  width: 1.51rem;
+  height: 1.58rem;
+  background-image: url(../img/ly/ly-sxw.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 2.8rem;
+  left: 0rem;
+  border-radius: 50%;
+  line-height: 1.38rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-sxw > p {
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-sxw > span {
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-yuan3 {
+  width: 0.49rem;
+  height: 0.49rem;
+  position: absolute;
+  left: 1.52rem;
+  top: 4.34rem;
+  background-image: url(../img/ly/ly-yuan.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.ly-foods .ly-xxw {
+  width: 1.67rem;
+  height: 1.66rem;
+  background-image: url(../img/ly/ly-xxw.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 2.9rem;
+  left: 2rem;
+  border-radius: 50%;
+  line-height: 1.56rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-xxw > p {
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-xxw > span {
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-cxw {
+  width: 2.03rem;
+  height: 2.12rem;
+  background-image: url(../img/ly/ly-cxw.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 3.50rem;
+  left: 3.80rem;
+  border-radius: 50%;
+  line-height: 2.02rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-cxw > p {
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-cxw > span {
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-yuan4 {
+  width: 0.49rem;
+  height: 0.49rem;
+  position: absolute;
+  left: 5.6rem;
+  top: 5.4rem;
+  background-image: url(../img/ly/ly-yuan.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.ly-foods .ly-kxw {
+  width: 1.04rem;
+  height: 1.20rem;
+  background-image: url(../img/ly/ly-kxw.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 4.10rem;
+  left: 6rem;
+  line-height: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-kxw > p {
+  padding-left: 0.1rem;
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-kxw > span {
+  padding-left: 0.1rem;
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-qt {
+  width: 1.49rem;
+  height: 1.52rem;
+  background-image: url(../img/ly/ly-qt.png);
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 4.8rem;
+  left: 2rem;
+  border-radius: 50%;
+  line-height: 1.42rem;
+  text-align: center;
+  color: white;
+}
+
+.ly-foods .ly-qt > p {
+  height: 0.3rem;
+  font-size: 0.3rem;
+}
+
+.ly-foods .ly-qt > span {
+  font-size: 0.24rem;
+}
+
+.ly-foods .ly-next {
+  width: 3rem;
+  height: 0.88rem;
+  position: absolute;
+  top: 7.3rem;
+  left: 2.3rem;
+}
+
+.ly-foods .ly-next > img {
+  width: 100%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../common/MobilePhone.css">
+    <link rel="stylesheet" href="../css/F-song-ranking.css">
+    <link rel="stylesheet" href="../font/L-font/iconfont.css">
+    <script src="../common/MobilePhone.js"></script>
+    <script src="../common/zepto.min.js"></script>
+    <script src="../common/iscroll.js"></script>
+    <script src="../js/L-one.js"></script>
+</head>
+<body>
+    <header>
+        <div class="F-title">
+            <div><a href="z-index.html"><img src="../img/F-img/return.png" alt=""></a></div>
+            <div>歌曲</div>
+            <div><a href="D-one.html"><img src="../img/F-img/search.png" alt=""></a></div>
+        </div>
+        <nav>
+            <div class="chose"></div>
+            <ul>
+                <li>
+                    <a href="F-song-recommend.html">
+                        <img src="../img/F-img/recommend.png" alt="">
+                        <span>推荐</span>
+                    </a>
+                </li>
+                <li  class="choose">
+                    <a href="F-song-ranking.html">
+                        <img src="../img/F-img/ranking.png" alt="">
+                        <span>排行</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-singer.html">
+                        <img src="../img/F-img/singer.png" alt="">
+                        <span>歌手</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-list.html">
+                        <img src="../img/F-img/song.png" alt="">
+                        <span>歌单</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="F-song-classify.html">
+                        <img src="../img/F-img/classify.png" alt="">
+                        <span>分类</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <main id="scroller">
+            <section class="F-ranking">
+                <ul>
+                    <li>
+                        <div>新歌榜</div>
+                        <div>
+                            <div>
+                                <img src="../img/F-img/1.png" alt="">
+                                <p>田馥甄-小幸运</p>
+                                <p>Costumes & Access Picture</p>
+                            </div>
+                        </div>
+                        <p>02. 洛天依－深夜书店</p>
+                        <p>03. 赵雷－成都</p>
+                    </li>
+                    <li>
+                        <div>飙升榜</div>
+                        <div>
+                            <div>
+                                <img src="../img/F-img/1.png" alt="">
+                                <p>李玉刚-刚好遇见你</p>
+                                <p>Costumes & Access Picture</p>
+                            </div>
+                        </div>
+                        <p>02.The One-The Chainsmokers</p>
+                        <p>03.大雁-马頔
+                        </p>
+                    </li>
+                    <li>
+                        <div>原创榜</div>
+                        <div>
+                            <div>
+                                <img src="../img/F-img/1.png" alt="">
+                                <p>李玉刚-刚好遇见你</p>
+                                <p>Costumes & Access Picture</p>
+                            </div>
+                        </div>
+                        <p>02.阿和-崔开潮</p>
+                        <p>03.旧梦如炽-王三溥</p>
+                    </li>
+                    <li>
+                        <div>歌手榜</div>
+                        <div>
+                            <div>
+                                <img src="../img/F-img/1.png" alt="">
+                                <p>薛之谦</p>
+                                <p>Costumes & Access Picture</p>
+                            </div>
+                        </div>
+                        <p>2.周杰伦 <span></span><em>1598757</em></p>
+                        <p>3.陈奕迅 <span></span><em>1598757</em></p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="image">
+            <a href="L-six.html"></a>
+        </div>
+        <div>
+            <h4>NgauHung</h4>
+            <h6>Hoaprox</h6>
+        </div>
+        <div>
+            <canvas id='canvas' width="100" height="50" display="block"></canvas>
+        </div>
+        <div class="btn">
+            <span class="iconfont icon-icon-test3 prev"></span>
+            <span class="iconfont icon-icon-test2 play"></span>
+            <span class="iconfont icon-icon-test7 next"></span>
+        </div>
+        <audio src="../font/L-font/2.mp3" id="audio"></audio>
+    </footer>
+</body>
+</html>
+<script>
+    var myScroll = new IScroll('#wrapper', {
+        mouseWheel: true,
+        scrollbars: false,
+        click:true,
+    });
+</script>

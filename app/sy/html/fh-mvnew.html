@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MV最新</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/fh-mvnew.css">
+    <script src="../js/common.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/iscroll.js"></script>
+</head>
+<style>
+    #header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:1.76rem;
+    }
+    /*#footer {*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 0.98rem;*/
+    /*}*/
+    #wrapper {
+        position: absolute;
+        z-index: 1;
+        top: 1.76rem;
+        bottom:0rem;
+        left: 0;
+        width: 100%;
+        background: #f1f1f1;
+        overflow: hidden;
+    }
+    #scroller {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+        background:#f1f1f1;
+    }
+</style>
+<body>
+<div id="header">
+    <div class="fh-header">
+        <a href="index.html">
+            <img src="../img/fh-11.png" alt="">
+        </a>
+        <h1>MV</h1>
+        <a href="zxq-search.html">
+            <img src="../img/fh-12.png" alt="">
+        </a>
+    </div>
+    <div class="fh-top">
+        <ul class="fh-son">
+            <li>
+                <img src="../img/fh-mv1.png" alt="">
+                <div></div>
+                <h1><a href="fh-mvtj.html">推荐</a></h1>
+            </li>
+            <li class="fh-xuan">
+                <img src="../img/fh-mv2.png" alt="">
+                <div></div>
+                <h1>最新</h1>
+            </li>
+            <li>
+                <img src="../img/fh-mv3.png" alt="">
+                <div></div>
+                <h1><a href="fh-mvhot.html">最热</a></h1>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--最上面俩图-->
+<div id="wrapper">
+    <div id="scroller">
+        <div class="fh-twotu">
+            <a href="zxq-mv.html">
+                <div class="fh-one">
+                    <img src="../img/fh-mv4.png" alt="">
+                    <h1>变革之旅 新式摇滚乐</h1>
+                    <img src="../img/fh-mv6.png" alt="">
+                    <h2>548万</h2>
+                </div>
+            </a>
+            <a href="zxq-mv.html">
+                <div class="fh-one fh-two">
+                    <img src="../img/fh-mv5.png" alt="">
+                    <h1>乡村摇滚 泰格斯威夫特</h1>
+                    <img src="../img/fh-mv6.png" alt="">
+                    <h2>3793万</h2>
+                </div>
+            </a>
+        </div>
+        <!--下面三张图-->
+        <div class="fh-tu">
+            <div class="fh-di">
+                <h1>跑步<span>#</span>汗水有他的节奏</h1>
+                <h3>1879</h3>
+                <img src="../img/fh-mv10.PNG" alt="">
+                <h2><span>RUNNING</span> RADIO LET 'S RUN NOW</h2>
+                <img src="../img/fh-mv7.png" alt="">
+            </div>
+        </div>
+        <div class="fh-tu fh-tu1">
+            <div class="fh-di">
+                <h1>经典翻唱<span>#</span>你心里记得的旋律</h1>
+                <h3>1335</h3>
+                <img src="../img/fh-mv10.PNG" alt="">
+                <h2><span>RECHANGE</span> RADIO TIME FOR SONG</h2>
+                <img src="../img/fh-mv7.png" alt="">
+            </div>
+        </div>
+        <div class="fh-tu fh-tu2">
+            <div class="fh-di">
+                <h1>甜蜜约会<span>#</span>给我一首歌的时间</h1>
+                <h3>1879</h3>
+                <img src="../img/fh-mv10.PNG" alt="">
+                <h2><span>SWEET LOVE</span> RADIO LOVING HEART</h2>
+                <img src="../img/fh-mv7.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: true,
+            click:true
+        });
+    })
+</script>

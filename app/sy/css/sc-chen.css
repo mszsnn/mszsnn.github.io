@@ -1,0 +1,418 @@
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 100px; } }
+.pack{
+    width: 100%;
+    height: auto;
+    background: #efefef;
+}
+.row-s{
+    width: 100%;
+    height: 3.94rem;
+    background: url("../img/sc-img/xun.png")no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.row-s .xun{
+    width: auto;
+    height: 0.88rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-s .xun .chen{
+    width:1.7rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-s .xun .chen .fan{
+    width: 0.18rem;
+    height: 0.33rem;
+    background: url("../img/sc-img/fan.png")no-repeat;
+    background-size: cover;
+}
+.row-s .xun .chen a{
+    color: #fff;
+    font-size: 0.36rem;
+}
+.row-s .xun .fen{
+    width: 0.44rem;
+    height: 0.35rem;
+    background: url("../img/sc-img/fen.png")no-repeat;
+    background-size: cover;
+    display: block;
+}
+.row-s .tu{
+    width: 1.28rem;
+    height:0.63rem;
+    background: url("../img/sc-img/xin.png")no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0.15rem;
+    right: 0.5rem;
+    display: block;
+}
+.all{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.allrow{
+    width: auto;
+    height: 0.44rem;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    border-left: 3px solid #AA0000;
+    display: flex;
+    align-items: center;
+}
+.all a{
+    color: #111111;
+    font-size: 0.28rem;
+}
+.xinxi{
+    width: auto;
+    height: 1.56rem;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.xinxi-1{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.xinxi .tu{
+    width: 1.34rem;
+    height: 1.34rem;
+    background: url("../img/sc-img/134.png")no-repeat;
+    background-size: cover;
+}
+.xinxi .zi{
+    width: 5.3rem;
+    height: 0.93rem;
+    border-left: 2px solid #efefef;
+    display: flex;
+    align-items: center;
+}
+.xinxi .zi p{
+    font-size: 0.2rem;
+    color: #393939;
+    margin-left: 0.3rem;
+}
+.all-xinxi {
+    width: auto;
+    height: 3.86rem;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+}
+.all-1{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.all-1-1{
+    width: 100%;
+    height: 1.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-1-1 .zi{
+    width: 3.3rem;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.all-1-1 .zi a{
+    color: #000;
+    font-size: 0.32rem;
+}
+.all-1-1 .zi p{
+    color: #666;
+    font-size: 0.26rem;
+}
+.all-1-1 .zi .xian{
+    width: 0.88rem;
+    height: 1px;
+    background: #c0c0c0;
+}
+.all-xinxi .tu{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: url("../img/sc-img/160.png")no-repeat;
+    background-size: cover;
+}
+.all-xinxi .tu1{
+    width: 1.19rem;
+    height: 0.63rem;
+    background: url("../img/sc-img/jia.png")no-repeat;
+    background-size: cover;
+    margin-right: 0.3rem;
+    display: block;
+}
+.all-1-2{
+    width: auto;
+    height: auto;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    display: flex;
+    flex-direction: column;
+}
+.all-1-2 span{
+    font-size: 0.28rem;
+    margin-top: 0.2rem;
+}
+.all-1-2 p{
+    font-size: 0.22rem;
+    margin-top: 0.3rem;
+}
+.lp-list{
+    width:100%;
+}
+.lp-lall{
+    width:7.04rem;
+    height:1.25rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+    background:#fff;
+    overflow:hidden;
+}
+.lp-a{
+    display:block;
+    height:1.25rem;
+    width:7.04rem;
+    box-sizing:border-box;
+    float:left;
+    transition:all 0.2s linear;
+}
+.lp-a>img{
+    display:block;
+    width:1.75rem;
+    float:left;
+    margin-left:0.02rem;
+}
+.lp-a>.lp-listr{
+    float:left;
+    width:5rem;
+    height:100%;
+    margin-left:0.26rem;
+}
+.lp-a>.lp-listr>h4{
+    font-size:0.23rem;
+    color:#111111;
+    margin-top:0.24rem;
+    margin-left:0.02rem;
+    font-weight:100;
+}
+.lp-a>.lp-listr>img{
+    display:block;
+    height:0.05rem;
+    margin-top:0.12rem;
+}
+.lp-a>.lp-listr>.lp-left{
+    font-size:0.23rem;
+    float:left;
+    margin-top:0.1rem;
+}
+.lp-a>.lp-listr>.lp-left>span:nth-child(1){
+    color:#f62d2d;
+}
+.lp-a>.lp-listr>.lp-left>span:nth-child(2){
+    color:#9e9a9a;
+}
+.lp-a>.lp-listr>.lp-right{
+    float:right;
+    font-size:0.18rem;
+    margin-right:0.4rem;
+    margin-top:0.16rem;
+    color:#aaaaaa;
+}
+.lp-a>.lp-listr>.lp-right>img{
+    height:0.22rem;
+    margin-right:0.04rem;
+}
+.lp-a>.lp-listr>.lp-right>span{
+    margin-right:0.04rem;
+}
+.lp-hua{
+    width:2.46rem;
+    height:1.25rem;
+    float:left;
+    transition:all 0.2s linear;
+}
+.lp-hua>div{
+    height:1.25rem;
+    width:33.33%;
+    float:left;
+}
+.lp-hua>div>img{
+    width:0.48rem;
+    float:left;
+    margin-top:0.38rem;
+    margin-left:0.18rem;
+}
+.lp-hua>.lp-hua1{
+    background:#e13838;
+}
+.lp-hua>.lp-hua2{
+    background:#d53434;
+}
+.lp-hua>.lp-hua3{
+    background:#c83131;
+}
+/*底部common*/
+.zxq-bottom{
+    width:100%;
+    height:0.98rem;
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-sizing:border-box;
+    z-index: 2;
+    background: #fff;
+}
+.zxq-bottom .zxq-icon{
+    width:0.95rem;
+    height:0.95rem;
+    background-image:url('../img/zxq-xt.png');
+    background-size:100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    float:left;
+    margin-top:0.01rem;
+    margin-left:0.01rem;
+}
+.zxq-bottom .zxq-play{
+    width:2.15rem;
+    height:100%;
+    float:right;
+}
+.zxq-bottom .zxq-play img{
+    display: block;
+    float: left;
+}
+.zxq-bottom .zxq-play1{
+    width:0.34rem;
+    height:100%;
+    margin-right:0.34rem;
+    float:left;
+}
+.zxq-bottom .zxq-play1 img{
+    width:100%;
+    height:0.3rem;
+    margin-top:0.34rem;
+    /*margin-bottom:0.32rem;*/
+}
+.zxq-bottom .zxq-play2{
+    width:0.6rem;
+    height:100%;
+    margin-right:0.34rem;
+    float:left;
+}
+.zxq-bottom .zxq-play2 img{
+    width:100%;
+    height:0.6rem;
+    margin-top:0.18rem;
+}
+.zxq-bottom .zxq-play3{
+    width:0.3rem;
+    height:100%;
+    margin-right:0.23rem;
+    float:left;
+}
+.zxq-bottom .zxq-play3 img{
+    width:100%;
+    height:0.29rem;
+    margin-top:0.34rem;
+}
+.zxq-bottom .zxq-tiao{
+    width:100%;
+    height:0.02rem;
+    background: #a0a0a0;
+    position:relative;
+    margin-top:0.01rem;
+    z-index:3;
+}
+.zxq-bottom .zxq-tiao .zxq-ctiao{
+    width:0%;
+    height:0.02rem;
+    border-radius:4px;
+    background:#ff0000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:4;
+}
+.zxq-bottom  .zxq-tiao .zxq-ctiao .zxq-yuan{
+    width: 0.1rem;
+    height: 0.01rem;
+    background: #ff0000;
+    position: absolute;
+    right: -1px;
+}
+.zxq-bottom .zxq-statues{
+    height:100%;
+    float:left;
+    margin-left:0.24rem;
+}
+.zxq-bottom .zxq-statues .zxq-author{
+    width:100%;
+    height:100%;
+    color:#fff;
+    text-align: left;
+
+}
+.zxq-bottom .zxq-statues .zxq-author span:first-child{
+    display:block;
+    width:100%;
+    height:auto;
+    font-size: 0.24rem;
+    color:#111111;
+    font-family: 'San Francisco Display';
+    margin-top:0.10rem;
+}
+.zxq-bottom .zxq-statues .zxq-author span:last-child{
+    display:block;
+    height:auto;
+    font-size: 0.22rem;;
+    color:#5f5f5f;
+    font-family: 'San Francisco Display';
+    margin-top:0.15rem;
+}
+.zxq-bottom canvas {
+    z-index: 50;
+}

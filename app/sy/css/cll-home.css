@@ -1,0 +1,354 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-touch-action: none;
+}
+
+body,ul,li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    /*font-size: 12px;*/
+    font-family: "苹方";
+    background: #f1f1f1;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden; /* this is important to prevent the whole page to bounce */
+}
+
+#header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 0.88rem;*/
+    height: 1.76rem;
+    line-height: 0.88rem;
+    background: #e13838;
+    padding: 0;
+    color: #eee;
+    text-align: center;
+    font-family: '苹方 常规';
+}
+
+#footer {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    /*background: #444;*/
+    padding: 0;
+    border-top: 1px solid #444;
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    /*top: 0.88rem;*/
+    top: 1.76rem;
+    bottom: 0.96rem;
+    left: 0;
+    width: 100%;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 7.5rem;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    background: #fff;
+}
+
+
+/*自己*/
+#header img{
+    height: 0.34rem;
+    position: absolute;
+    left: 0.24rem;
+    top:0.27rem;
+}
+#header p{
+    font-size: 0.32rem;
+}
+.cll-box{
+    height: 0.88rem;
+    width: 100%;
+    background:#e13838 ;
+}
+.cll-box > div{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+    float: left;
+    position: relative;
+}
+.cll-box > div span{
+    color: #fff;
+}
+.cll-box > div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.cll-box > div div{
+    width: 2.18rem;
+    height: 0.04rem;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0.7rem;
+    display: none;
+}
+.cll-box > div div.active{
+    display: block;
+}
+.visible{
+    opacity: 0.7;
+}
+/*豪华vip页面*/
+/*背景三张图*/
+.vip{
+    width: 100%;
+    /*height: 4.34rem;*/
+    height: 4.5rem;
+    position: relative;
+}
+.vip > img{
+    position: absolute;
+    /*height: 3.52rem;*/
+    width: 6.46rem;
+    top:0.15rem;
+    left:0.55rem;
+    /*box-shadow: 0 0 0.2rem #f6c542;*/
+}
+/*小明同学*/
+.cll-word{
+    position: absolute;
+    top:0.15rem;
+    left:0.55rem;
+    padding: 0.42rem 0.2rem;
+    box-sizing: border-box;
+    height: 4.03rem;
+    width: 6.46rem;
+    font-size: 0.12rem;
+}
+.cll-word > img{
+    float: left;
+}
+.cll-word > .picture1{
+    width: 0.7rem;
+    margin-left: 1.3rem;
+}
+.cll-word > span{
+    float: left;
+    font-size: 0.32rem;
+    display: block;
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    margin-top: 0.14rem;
+}
+.cll-word .picture2{
+    width: 0.36rem;
+    /*height: 0.42rem;*/
+    margin-top: 0.14rem;
+    margin-right: 0.04rem;
+}
+.cll-word .picture3{
+    width: 0.36rem;
+    margin-top: 0.18rem;
+    margin-right: 1.4rem;
+}
+
+.cll-word > .p{
+    float: left;
+    margin-top: 0.44rem;
+    width: 4.2rem;
+    margin-left:0.9rem;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    margin-bottom: 0.28rem;
+}
+.cll-word > .p > span{
+    color: #fff;
+    font-size: 0.34rem;
+}
+.cll-word > .p > div{
+    width: 0.88rem;
+    height: 0.34rem;
+    border-radius: 0.02rem;
+    background: #ff0000;
+    float: right;
+    text-align: center;
+    line-height: 0.34rem;
+    font-size: 0.28rem;
+    margin-top: 0.04rem;
+}
+.cll-word > .p > div a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.cll-word >.cll-bottom{
+    float: left;
+    height: 1.04rem;
+    width: 100%;
+    margin-top: 0.26rem;
+}
+.cll-word >.cll-bottom > div{
+    width: 33.333333%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.cll-word >.cll-bottom > div > img{
+    width: 0.52rem;
+    margin-bottom: 0.2rem;
+}
+.cll-word >.cll-bottom > div > p{
+    font-size: 0.26rem;
+}
+/*立即开通*/
+.dredge{
+    width: 5.32rem;
+    height:0.74rem ;
+    border-radius: 1.8rem;
+    font-size: 0.38rem;
+    text-align: center;
+    line-height: 0.74rem;
+    background: #e13838;
+    color: #fff;
+    margin-left: 1.12rem;
+    margin-bottom: 0.28rem;
+}
+/*你是新用户*/
+.news{
+    /*width: 4.6rem;*/
+    width: auto;
+    margin-left: 1.3rem;
+    height: 0.6rem;
+}
+.news>img{
+    width: 0.36rem;
+    float: left;
+    margin-right: 0.04rem;
+}
+.news>span{
+    font-size: 0.22rem;
+    float: left;
+}
+.news > span:nth-of-type(2){
+    font-family: '宋体';
+    margin-left: 0.04rem;
+    margin-top: 0.04rem;
+}
+/*分隔条*/
+.line{
+    width: 100%;
+    height: 0.28rem;
+    background: #f1f1f1;
+}
+/*音乐特权*/
+.pri{
+    width: 100%;
+    height: 5.24rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #d9d9d9;
+    box-sizing: border-box;
+}
+.pri > p{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.36rem;
+    color: #111111;
+    text-align: center;
+    padding-top: 0.3rem;
+    box-sizing: border-box;
+}
+.pri > div{
+    width: 100%;
+    height: 2.12rem;
+    padding-bottom: 0.8rem;
+}
+.pri > div > div{
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+}
+.pri > div > div > img{
+    width: 0.8rem;
+    /*margin-bottom: 0.32rem;*/
+}
+.pri > div > div > p{
+    font-size: 0.2rem;
+    color: #111111;
+}
+/*付费歌曲特权*/
+.song{
+    width: 100%;
+    height: 2.58rem;
+    background: #fff;
+}
+.song > p{
+    width: 100%;
+    height:1.3rem;
+    text-align: center;
+    font-size:0.36rem ;
+    color: #111;
+    font-family: '苹方 中等';
+    padding:0.4rem 0 0.52rem 0 ;
+    box-sizing: border-box;
+}
+.song > div.hear{
+    width: 100%;
+    height: 1.28rem;
+}
+.song > .hear > div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+.song > .hear > div >img{
+    width: 0.88rem;
+    float: left;
+}
+.song > .hear > div > p{
+    float: left;
+    font-size: 0.24rem;
+    margin-left: 0.06rem;
+}
+.song > .hear > div > span{
+    float: left;
+    font-size: 0.2rem;
+    margin-left: 0.06rem;
+}

@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    height: 0.9rem;
+    background: #d43837;
+    text-align: center;
+    line-height: 0.9rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    font-size: 0.32rem;
+    font-family: "苹方";
+}
+header a {
+    width:auto;
+    height:100%;
+    float: left;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.32rem;
+    font-family: "宋体";
+    font-weight: bold;
+    line-height: 0.9rem;
+}
+header img{
+    height:0.35rem;
+}
+header span {
+    font-size: 0.32rem;
+    color: #fff;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/yzf-xiangqing.css" />
+		<link rel="stylesheet" href="../css/swiper.css" />
+		<script src="../js/common.js"></script> 
+		<script src="../js/jquery.js"></script>
+		<script src="../js/zepto.js"></script>
+		<script src="../js/swiper.js"></script>
+		<script src="../js/iscroll.js"></script>
+		<script src="../js/yzf-xiangqing.js"></script>
+		<style>
+			#wrapper {
+				position: absolute;
+				z-index: 1;
+				top: 0px;
+				bottom: 0px;
+				left: 0;
+				width: 100%;
+				overflow: hidden;
+			}
+			#scroller {
+				position: absolute;
+				z-index: 1;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+				width: 100%;
+			}
+
+    .swiper-container {
+        width: 90%;
+        height: 100%;
+        margin-top:0.5rem;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+		</style>
+	</head>
+	<body onload="loaded()">
+		<!--导航-->
+		<div class="yzf-nav">
+			<a href="javascript:;">
+				<img class="photo-one" src="../img/yzf/icon-01.png" alt="" />
+			</a>
+			<img class="photo-two" src="../img/yzf/tudou_03.png" alt="" />
+			<a href="javascript:;">
+				<img class="photo-three" src="../img/yzf/icon_05.png" alt="" />
+			</a>
+		</div>
+		
+		<div id="wrapper">
+			<div class="mo"  id='scroller'>
+				<div class="yzf-box1">
+					<div class="yzf-tudou"></div>
+					<div class="xuangou"></div>
+					<ul class="font">
+						<li>
+							<span></span>
+							<span>芽眼少且浅：芽眼少且浅的土豆容易去皮，利用率也更高；</span>
+						</li>
+						<li>
+							<span></span>
+							<span>手感瓷实：用手按压土豆，感觉瓷实的更新鲜，水分充足；</span>
+						</li>
+						<li>
+							<span></span>
+							<span>表皮完整：土豆要挑选表皮干燥，没有破皮或损伤的;</span>
+						</li>
+						<li>
+							<span></span>
+							<span>表皮变绿：变软或已经发芽的土豆食用后可能引起中毒；</span>
+						</li>
+						<li>
+							<span></span>
+							<span>脆皮豆：外表滑嫩、颜色发白、麻点少，适合凉；</span>
+						</li>
+						<li>
+							<span></span>
+							<span>面土豆：颜色发灰，外面麻点较多，适合炖菜、做土豆泥；</span>
+						</li>
+					</ul>
+					
+					<div class="yzf-yangying"></div>
+					<div class="yzf-yangyingimg"></div>
+				</div>
+				
+				<div class="yzf-box2">
+					<div class="yzf-xuanze">
+						<div class="di">
+							<span></span>
+							<span>适宜搭配</span>
+							<span></span>
+						</div>
+						<div class="da">
+							<span></span>
+							<span>不宜搭配</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide yzf-one"></div>
+				            <div class="swiper-slide yzf-two"></div>
+				            <div class="swiper-slide yzf-three"></div>
+				            <div class="swiper-slide yzf-one"></div>
+				            <div class="swiper-slide yzf-two"></div>
+				            <div class="swiper-slide yzf-three"></div>
+				        </div>
+				    </div>
+				</div>
+				
+				
+				<div class="caipu">
+					<div class="caipuimg"></div>
+					<div class="yzf-chanpin">
+						<div class="yzf-photo"></div>
+						<div class="yzf-title">
+							<span>太极明虾</span>
+							<span>SQJIRREL&nbsp;STEAK</span>
+							<img src="../img/yzf/list_06.png" alt="" />
+						</div>
+						<div class="yzf-neirong">
+							<h5>其肉质松对身体虚弱以及病后需要调养的人是极好的食物</h5>
+							<img src="../img/yzf/list_09.png" alt="" />
+						</div>
+						<div class="yzf-dianzan">
+							<img src="../img/yzf/list_12.png" alt="" />
+							<span>58888</span>
+							<img src="../img/yzf/list_14.png" alt="" />
+							<span>58888</span>
+						</div>
+					</div>
+					<div class="yzf-chanpin">
+						<div class="yzf-photo"></div>
+						<div class="yzf-title">
+							<span>太极明虾</span>
+							<span>SQJIRREL&nbsp;STEAK</span>
+							<img src="../img/yzf/list_06.png" alt="" />
+						</div>
+						<div class="yzf-neirong">
+							<h5>其肉质松对身体虚弱以及病后需要调养的人是极好的食物</h5>
+							<img src="../img/yzf/list_09.png" alt="" />
+						</div>
+						<div class="yzf-dianzan">
+							<img src="../img/yzf/list_12.png" alt="" />
+							<span>58888</span>
+							<img src="../img/yzf/list_14.png" alt="" />
+							<span>58888</span>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	var myScroll;
+	function loaded () {
+	    myScroll = new IScroll('#wrapper', {
+	        scrollbars: true,
+	        mouseWheel: true,
+	        interactiveScrollbars: true,
+	        shrinkScrollbars: 'scale',
+	        fadeScrollbars: true,
+	       	click:true,
+	    });
+	}
+	</script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+    </script>
+	</body>
+</html>

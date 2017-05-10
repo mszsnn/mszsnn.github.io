@@ -1,0 +1,185 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size:0.24rem;
+}
+img{
+    display: block;
+}
+body{
+    background:#F1F1F1;
+}
+.fh-header{
+    width:100%;
+    height:0.88rem;
+    padding:0.25rem;
+    box-sizing: border-box;
+    background: #e13838;
+}
+.fh-header img:nth-child(1){
+    height:0.35rem;
+    float:left;
+}
+.fh-header h1{
+    float:left;
+    font-size:0.3rem;
+    color:#fff;
+    margin-left:2.85rem;
+}
+.fh-header a:nth-child(3){
+    height:0.35rem;
+    float:right;
+}
+.fh-top{
+    width:100%;
+    height:1rem;
+    background:#e13838;
+    padding-top:0.05rem;
+    box-sizing: border-box;
+}
+.fh-son{
+    width:7rem;
+    height:0.7rem;
+    background: #fff;
+    margin:0 auto;
+    border-radius: 0.1rem;
+}
+.fh-son li{
+    width:33.333%;
+    height:100%;
+    float:left;
+    position: relative;
+}
+.fh-son img{
+    margin-left: 0.5rem;
+    height:0.42rem;
+    float:left;
+    margin-top:0.14rem;
+}
+.fh-son li.fh-xuan:after{
+    content: '';
+    display: block;
+    width:1.97rem;
+    height:0.05rem;
+    background: #e13838;
+    position: absolute;
+    left:0.12rem;
+    bottom:0.01rem;
+}
+.fh-son div{
+    width:0.02rem;
+    height:0.2rem;
+    margin:0.25rem 0.1rem;
+    float:left;
+    background:#e13838;
+}
+.fh-son h1{
+    float:left;
+    font-size:0.18rem;
+    line-height: 0.7rem;
+    color:#e13838;
+}
+.fh-son h1 a{
+    color:#e13838;
+}
+/*上面一张图*/
+.fh-ones{
+    width:7.04rem;
+    height:3.1rem;
+    margin:0.13rem auto 0.14rem auto;
+    background-image: url("../img/fh-mv12.png");
+    background-size:100%;
+    position: relative;
+}
+.fh-ones > img{
+    width:0.9rem;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.fh-bottom{
+    width:100%;
+    height:0.7rem;
+    position: absolute;
+    left:0;
+    bottom:0;
+    padding-left:0.3rem;
+    box-sizing: border-box;
+}
+.fh-bottom h1{
+    font-size: 0.2rem;
+    color:#fff;
+    font-weight: bold;
+}
+.fh-bottom h2{
+    font-size: 0.18rem;
+    color:#fff;
+    float:left;
+}
+.fh-right{
+    float:right;
+    width:1.1rem;
+    height:0.3rem;
+    margin-right:0.1rem;
+}
+.fh-1 img{
+    height:0.3rem;
+    float:left;
+}
+.fh-1 h3{
+    font-size:0.24rem;
+    float:right;
+    color:#fff;
+}
+.fh-2{
+    width:1.3rem;
+    margin-right:0.2rem;
+}
+.fh-2 img{
+    height:0.2rem;
+    float:left;
+    margin-top:0.07rem;
+}
+.fh-2 h3{
+    font-size:0.24rem;
+    float:right;
+    color:#fff;
+}
+/*下面好多图*/
+.fh-many{
+    width:7.04rem;
+    margin:0 auto;
+}
+.fh-one{
+    width:3.35rem;
+    height:3rem;
+    float:left;
+    margin-bottom: 0.22rem;
+}
+.fh-one:nth-child(2n){
+    margin-left:0.3rem;
+}
+.fh-one img:nth-child(1){
+    width:100%;
+    border-radius:0.05rem;
+}
+.fh-one h1{
+    margin-top:0.13rem;
+    font-size: 0.22rem;
+    color:#111;
+    font-weight: bold;
+}
+.fh-one img:nth-child(3){
+    height:0.2rem;
+    float:left;
+    margin-top:0.13rem;
+}
+.fh-one h2{
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.7);
+    float:left;
+    margin-top:0.08rem;
+    margin-left: 0.2rem;
+}

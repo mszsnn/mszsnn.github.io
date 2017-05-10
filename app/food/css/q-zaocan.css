@@ -1,0 +1,167 @@
+@import url('common.css');
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+#wrapper {
+	width: 100%;
+	height:100%;
+	margin-top:0.88rem;
+	overflow: hidden;
+	position: relative;
+}
+
+#scroller{
+    position: absolute; 
+	width:100%;
+	/*height:100%;*/  
+}
+
+#header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 45px;
+    background-size:100% 100%;
+    padding: 0;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:.88rem;
+    background: #ffdc3b;
+}
+#header .z-return{
+    padding-left: 0.36rem;
+    display: block;
+    float: left;
+    height:.48rem;
+    margin-top: .2rem;
+}
+#header .z-tupian1{
+	height: 0.52rem;
+    float: left;
+    margin-left: 1.65rem;
+    margin-top: .18rem;
+}
+section{
+	width:100%;
+	height:16.5rem;
+	/*padding:1rem 0;*/
+}
+section > img{
+	width:7.02rem;
+	height:3.79rem;
+	margin:0.3rem auto;
+	display: block;
+}
+section > ul.pu{
+	width:100%;
+	height:5rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+section > ul.pu > li{
+	width:5.89rem;
+	height:2.06rem;
+	float: right;
+	position: relative;
+	margin-top:1rem ;
+	box-shadow:2px -5px 5px rgba(0,0,0,.1);
+}
+section > ul.pu > li:first-child{
+	margin-top:0.5rem;
+}
+section > ul.pu > li > img{
+	width:3rem;
+	position:absolute;
+	top:-0.2rem;
+	left:-1.13rem;
+	z-index: 3;
+	
+}
+section > ul.pu > li > ul{
+	width: 3.8rem;
+	height:100%;
+	float: right;
+	height:100%;
+}
+section > ul.pu > li > ul>li{
+	font-size: 0.2rem;
+	padding:0.04rem 0;
+}
+section > ul.pu > li > ul>li:first-child{
+	font-size: 0.24rem;
+	margin-top:0.2rem;
+}
+section > ul.pu > li > ul>li:nth-child(3){
+	padding:0 0.1rem;
+	box-sizing: border-box;
+	height:0.05rem;
+	line-height: 0.05rem;
+}
+section > ul.pu > li > ul>li:nth-child(3) > img{
+	width:100%;
+	height:0.03rem;
+}
+section > ul.pu > li > ul>li:nth-child(4) > img{
+	width:1.35rem;
+}
+section > ul.pu > li > ul>li:nth-child(5){
+	display: flex;
+}
+section > ul.pu > li > ul>li:nth-child(5)>p{
+	width:50%;
+	
+}
+section > ul.pu > li > div{
+	position: absolute;
+	bottom:-0.25rem;
+	right: 0;
+	background: #ffdc3b;
+	width:68%;
+	height:0.42rem;
+	display: flex;
+	
+}
+section > ul.pu > li > div > div{
+	width:33.333%;
+	height:100%;
+	text-align: center;
+	line-height: 0rem;
+}
+section > ul.pu > li > div > div > img{
+	width:0.2rem;
+	display: inline-block;
+	margin-right: 0.1rem;
+}
+section > ul.pu > li > div > div > span{
+	font-size: 0.2rem;
+	color:#fff;
+	display: inline-block;
+	height: 100%;
+	line-height: 0.42rem;
+}
+article{
+	width:100%;
+	height:5rem;
+	text-align: center;
+}
+article > img{
+	width:3.17rem;
+	height:0.59rem;
+}
+article > ul{
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	height:2.24rem;
+}
+article > ul >li{
+	width:1.97rem;
+}
+article > ul >li> img{
+	width:100%;
+}
