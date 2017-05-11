@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/xx-pay-card.css" />	
+	<body>
+		<header>
+			<div>
+				<a href="xx-pay.html">
+					<img src="img/xx-private01.png"/>
+				</a>
+			</div>
+			<div class="title">
+				<img src="img/xx-pay03.png"/>
+				<div>支付方式</div>
+				<img src="img/xx-pay01.png"/>
+			</div>
+		</header>
+		<section>
+			<p>
+				260
+				<span>REM</span>
+			</p>
+			<p>
+				使用本地钱包付款可优惠
+				<span>2元</span>
+			</p>
+			<div>
+				<img src="img/xx-pay-c02.png"/>
+				<div class="wallet">
+					<p>
+						<span>本地钱包</span>
+						<img src="img/xx-pay-c03.png"/>
+					</p>
+					<p>
+						LOCAL
+						<span>WALLEF</span>
+					</p>
+					<img src="img/xx-pay-c04.png"/>
+					<p>本地钱包完成支付可减免以及获得优惠
+						<img src="img/xx-pay-c05.png"/>
+					</p>
+				</div>
+			</div>
+			<img src="img/xx-pay-c10.png"/>
+			<div>
+				<img src="img/xx-pay-c06.png"/>
+				<div class="wallet">
+					<p>
+						<span>支付宝</span>
+					</p>
+					<p>
+						LOCAL
+						<span>WALLEF</span>
+					</p>
+					<img src="img/xx-pay-c04.png"/>
+					<p>跳转到支付宝进行支付
+						<img src="img/xx-pay-c07.png"/>
+					</p>
+				</div>
+			</div>
+			<img src="img/xx-pay-c10.png"/>
+			<div>
+				<img src="img/xx-pay-c08.png"/>
+				<div class="wallet">
+					<p>
+						<span>微信支付</span>
+					</p>
+					<p>
+						LOCAL
+						<span>WALLEF</span>
+					</p>
+					<img src="img/xx-pay-c04.png"/>
+					<p>使用微信支付确保微信里余额足够
+						<img src="img/xx-pay-c07.png"/>
+					</p>
+				</div>
+			</div>
+		</section>
+		<a class="bottom">
+			<p>去结算</p>
+			<p>TO  ACCOUNTS</p>
+		</a>
+		<div class="zhe">
+			<div>
+				<p>请输入支付密码</p>
+				<h4>
+					please
+					<span>password</span>
+				</h4>
+				<div>
+					<input id="focus" type="password" name="" id="" value="" readonly="true"/>
+					<input type="password" name="" id="" value="" readonly="true"/>
+					<input type="password" name="" id="" value="" readonly="true"/>
+					<input type="password" name="" id="" value="" readonly="true"/>
+					<input type="password" name="" id="" value="" readonly="true"/>
+					<input type="password" name="" id="" value="" readonly="true"/>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/rem.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.validate.min.js"></script>	
+	<script src="js/zepto.min.js"></script>
+	<script>
+		
+		$(".bottom").on("touchend",function(){
+			$(".zhe").css('display','block')
+			setTimeout(function(){
+				
+				$("#focus").focus();
+			},200)
+		})
+		var aa=$("input[type='password']");
+	var number=0;
+	var arr=[];
+	for(var i = 0; i<aa.length;i++){
+		 var t = aa[i];
+         t.index = i;
+         t.setAttribute("readonly", true);
+         t.onkeyup=function(){
+     		$('input').addClass('color');
+  			$('input').each(function(index,val){
+  				if(aa[index].value.length==0){
+  					$('input').eq(index).removeClass('color');		
+  				}
+  			})
+  			if($('.color').length==6){
+//				$('.cover').removeClass('active');
+//      		$('.zhe')[0].addEventListener('touchstart',function(){
+        			location.href='L-dingdan.html';
+//      		})
+			}
+            this.value=this.value.replace(/^(.).*$/,'$1');
+            var next = this.index + 1;
+            if(next > aa.length - 1) return;
+            aa[next].removeAttribute("readonly");
+            aa[next].focus();
+        }
+	}
+	aa[0].removeAttribute("readonly");	
+	</script>
+</html>

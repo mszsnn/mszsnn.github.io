@@ -1,0 +1,202 @@
+
+#wrapper{
+	position: absolute;
+	z-index: 1;
+	top: 3rem;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #FEF2F0;
+}
+/*头部*/
+.l-top{
+	width: 100%;
+	height: 3rem;
+	position: relative;
+	overflow: hidden;
+}
+.l-top .l-back{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.l-top .l-head{
+	width: 100%;
+	height: 0.4rem;
+}
+/**/
+.l-top .l-tit{
+	width: 100%;
+	height: 0.88rem;
+	position: absolute;
+	top:0.4rem;
+	left: 0;
+}
+.l-top .l-tit span{
+	color: #fff;
+	position: absolute;
+	top:0.3rem;
+	left: 0;
+	float: left;
+	margin-left: 0.44rem;
+}
+.l-top .l-tit img.tit1{
+	width:2.36rem;
+	float: left;
+	margin-left: 2.63rem;
+	margin-top: 0.16rem;
+}
+.l-top .l-tit img.tit2{
+	width:0.55rem;
+	float: right;
+	margin-right: 0.44rem;
+	margin-top: 0.16rem;
+}
+/**/
+.l-top .l-nav{
+	width: 100%;
+	height: 0.6rem;
+	position: absolute;
+	top:1.55rem;
+	left: 0;
+}
+.l-top .l-box{
+	width: 6.9rem;
+	height: 0.6rem;
+	margin: 0 auto;
+	background: #fff;
+	border-radius:0.07rem ;
+}
+.l-top .l-box ul{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.l-top .l-box ul li.xuan{
+	width: 50%;
+	height: 100%;
+	border: 0.02rem solid #fff;
+	background: #fc6955;
+	box-sizing: border-box;
+	border-radius:0.07rem 0 0 0.07rem  ;
+}
+.l-top .l-box ul li img{ 
+	width: 3.5rem;
+}
+.l-top .l-box ul li:first-child img{ 
+	position: absolute;
+	top:0rem;
+	left:0rem;
+}
+.l-top .l-box ul li:last-child img{ 
+	position: absolute;
+	top:0rem;
+	left:3.5rem;
+}
+.zwcontent{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.first{
+	display: block;
+}
+.zwcontent ul{
+	width: 100%;
+	height: auto;
+}
+.zwcontent ul li{
+	width: 100%;
+	height: auto;
+	padding: 0.1rem 0;
+	position: relative;
+}
+.zwcontent ul li a img.zwmsbj{
+	display: block;
+	width: 7.02rem;
+	height: auto;
+	margin: 0 auto;
+}
+.zwms{
+	width: 1.76rem;
+	height: 1.76rem;
+	position: absolute;
+	top: 0.3rem;
+	left: 0.5rem;
+}
+.zwmsname{
+	position: absolute;
+	left: 2.5rem;
+	top: 0.46rem;
+}
+.zwmsname h6{
+	font-size: 0.28rem;
+	color: #454545;
+}
+p{
+	font-size: 0.24rem;
+	color: #454545;
+	position: absolute;
+	left: 2.5rem;
+	top: 1rem;
+}
+.zwprice{
+	font-size: 0.48rem;
+	font-weight: bold;
+	color: #fc6955;
+	position: absolute;
+	left: 2.5rem;
+	bottom: 0.8rem;
+}
+.zwmsj{
+	color: #a4a4a4;
+	position: absolute;
+	right: 2rem;
+	bottom: 0.87rem;
+}
+.zwjl{
+	color: #7c7c7c;
+	position: absolute;
+	left: 1.6rem;
+	bottom: 0.16rem;
+}
+.zwshou{
+	color: #7c7c7c;
+	position: absolute;
+	left: 3.9rem;
+	bottom: 0.16rem;
+}
+.zwzan{
+	color: #7c7c7c;
+	position: absolute;
+	right: 0.8rem;
+	bottom: 0.16rem;
+}	

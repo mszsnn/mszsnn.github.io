@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/zw-xg.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-fullscreen" content="true" />
+	    <meta name="full-screen" content="yes">
+	    <meta name="format-detection" content="telephone=no, email=no" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/iscroll.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body onload="loaded()">
+		<nav>
+			<ul class='tou'>
+				<a href="zwxq.html"><li class='left iconfont icon-xiaoyuhao'></li></a>
+				<li class='center'>
+					<input type="text" name="" id="" value="" placeholder="当前搜索：水果沙拉" />
+				</li>
+				<a href=""><li class='right iconfont icon-search'></li></a>
+			</ul>
+		</nav>
+		<div id="wrapper">
+			<div id="scroller">
+				<div class='contain'>
+					<ul class='top'>
+						<li>
+							共为您搜索到<span>190</span>条相关信息
+						</li>
+						<li>
+							<span>HISTORY</span>
+							<span>SEARCH</span>
+						</li>
+					</ul>
+					<div class='zhong'>
+						<ul class='title'>
+							<li>魔芋坊水果沙拉</li>
+							<li></li>
+							<li>千峰路店</li>
+						</ul>
+						<ul class='neirong'>
+							<li class='left'>
+								<img src="img/zw-1.png" alt="" />
+							</li>
+							<li class='right'>
+								<ul>
+									<li>
+										<span>鲜果盖饭</span>
+										<img src="img/zw-xian.png" alt="" />
+										<p>Measurelngredient cupsChicken stock</p>
+										<span>86</span><span>RMB</span><span>门市价：￥109</span>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+						<img src="img/zw-xx.png" alt="" />
+						<ul class='neirong'>
+							<li class='left'>
+								<img src="img/zw-2.png" alt="" />
+							</li>
+							<li class='right'>
+								<ul>
+									<li>
+										<span>水果沙拉</span>
+										<img src="img/zw-xian.png" alt="" />
+										<p>Measurelngredient cupsChicken stock</p>
+										<span>36</span><span>RMB</span><span>门市价：￥109</span>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</div>
+					<div class='xian'></div>
+					<div class='zhong'>
+						<ul class='title'>
+							<li>非吃不可的水果</li>
+							<li></li>
+							<li>千峰路店</li>
+						</ul>
+						<ul class='neirong'>
+							<li class='left'>
+								<img src="img/zw-3.png" alt="" />
+							</li>
+							<li class='right'>
+								<ul>
+									<li>
+										<span>鲜虾盖饭</span>
+										<img src="img/zw-xian.png" alt="" />
+										<p>Measurelngredient cupsChicken stock</p>
+										<span>86</span><span>RMB</span><span>门市价：￥109</span>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+						<img src="img/zw-xx.png" alt="" />
+						<ul class='neirong'>
+							<li class='left'>
+								<img src="img/zw-4.png" alt="" />
+							</li>
+							<li class='right'>
+								<ul>
+									<li>
+										<span>鲜虾盖饭</span>
+										<img src="img/zw-xian.png" alt="" />
+										<p>Measurelngredient cupsChicken stock</p>
+										<span>86</span><span>RMB</span><span>门市价：￥109</span>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	var myScroll;
+	function loaded () {
+		myScroll = new IScroll('#wrapper', {
+			scrollbars: true,
+			mouseWheel: true,
+			interactiveScrollbars: true,
+			shrinkScrollbars: 'scale',
+			fadeScrollbars: true
+		});
+	}
+</script>

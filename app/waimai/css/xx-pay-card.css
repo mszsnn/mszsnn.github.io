@@ -1,0 +1,260 @@
+body{
+	background: #FEF2F0;
+	height: 100%;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 3rem;
+	background-image: url(../img/xx-pay05.png);
+	background-size: 100%;
+	padding-top: .38rem;
+	box-sizing: border-box;
+}
+header > div:first-of-type{
+	width: .7rem;
+	height: .54rem;
+	float: left;
+}
+header > div:first-of-type > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	color: #FFFFFF;
+	font-size: .6rem;
+}
+header > div:first-of-type > a > img{
+	width: .94rem;
+}
+.title{
+	width: 3rem;
+	height: .4rem;
+	float: left;
+	margin-left: 2rem;
+	
+}
+.title > img:first-of-type{
+	width: .14rem;
+	display: block;
+	float: left;
+	margin-top: .1rem;
+}
+.title > div{
+	padding-left: .12rem;
+	width: 1.65rem;
+	height: 100%;
+	font-size: .38rem;
+	color: #FFFFFF;
+	float: left;
+}
+.title > img:nth-of-type(2){
+	width: .1rem;
+	display: block;
+	float: left;
+	margin-top: .32rem;
+}
+.middle{
+	width: 7.02rem;
+	height: 9.75rem;
+	margin: -1.4rem auto 0 auto;
+}
+section{
+	width: 7.26rem;
+	height: 9.89rem;
+	margin: -1.7rem auto 0 auto;
+	/*background: #FFFFFF;*/
+	border-radius: .07rem;
+	overflow: hidden;
+	background-image: url(../img/xx-pay-c01.png);
+	background-size: 100%;
+}
+section > p:first-of-type{
+	text-align: center;
+	width: auto;
+	height: .7rem;
+	font-size: .72rem;
+	color: #FC6955;
+	margin-top: 1.04rem;
+}
+section > p:first-of-type > span{
+	font-size: .36rem;
+	margin-left: -.2rem;
+}
+section > p:nth-of-type(2){
+	text-align: center;
+	width: auto;
+	height: .5rem;
+	font-size: .24rem;
+	color: #6b6b6b;
+	margin-top: .1rem;
+}
+section > p:nth-of-type(2) > span{
+	color: #fc6955;
+	margin-left: -.05rem;
+}
+section > div:nth-of-type(1){
+	width: 6.2rem;
+	height: 1.62rem;
+	margin: 1.3rem auto 0 auto;
+}
+section > div:nth-of-type(1) > img{
+	width: 1.33rem;
+	display: block;
+	float: left;
+	margin-right: .28rem;
+}
+section > div:nth-of-type(2),section > div:nth-of-type(3){
+	width: 6.2rem;
+	height: 1.62rem;
+	margin: .33rem auto 0 auto;
+}
+section > div:nth-of-type(2) > img,section > div:nth-of-type(3) > img{
+	width: 1.33rem;
+	display: block;
+	float: left;
+	margin-right: .28rem;
+}
+.wallet{
+	width: 4.5rem;
+	height: 1.33rem;
+	float: left;
+}
+.wallet > p:first-of-type{
+	width: auto;
+	height: .5rem;
+	overflow: hidden;
+}
+.wallet >p:first-of-type > img{
+	width: .37rem;
+	margin-top: .1rem;
+	/*display: inline;
+	line-height: .2rem;*/
+}
+.wallet >p:first-of-type > span{
+	display: block;
+	float: left;
+	font-size: .3rem;
+	color: #535353;
+	line-height: .6rem;
+}
+.wallet > p:nth-of-type(2){
+	width: auto;
+	height: .2rem;
+	color: #fc6955;
+	font-size: .2rem;
+}
+.wallet > p:nth-of-type(2) > span{
+	color: #535353;
+}
+.wallet >img{
+	width: 2.06rem;
+	margin-top: -.1rem;
+}
+.wallet > p:nth-of-type(3){
+	color: #a3a2a2;
+	font-size: .22rem;
+	height: .5rem;
+}
+.wallet > p:nth-of-type(3) >img{
+	width: .36rem;
+	display: block;
+	float: right;
+	margin-top: .03rem;
+}
+section > img{
+	display: block;
+	width: 6.07rem;
+	margin-left: .6rem;
+	/*margin-top: -.2rem;*/
+}
+.bottom{
+	width: 6.69rem;
+	height: .89rem;
+	background-image: url(../img/xx-pay-c09.png);
+	background-size: 100%;
+	margin: .77rem auto 0 auto;
+	overflow: hidden;
+	display: block;
+}
+.bottom > p:first-of-type{
+	width: .93rem;
+	height: .3rem;
+	font-size: .28rem;
+	color: #FFFFFF;
+	margin-left: 2.9rem;
+	margin-top: .16rem;
+}
+.bottom > p:nth-of-type(2){
+	width: 2rem;
+	height: .3rem;
+	font-size: .18rem;
+	color: #ffefea;
+	margin-left: 2.9rem;
+	margin-top: .04rem;
+}
+.zhe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,.55);
+	display: none;
+}
+.zhe > div{
+	width: 6.3rem;
+	height: 2.58rem;
+	margin: 5.3rem auto 0 auto;
+	background: #FFFFFF;
+	border-radius: .07rem;
+	overflow: hidden;
+	text-align: center;
+}
+.zhe > div > p{
+	color: #f87462;
+	font-size: .28rem;
+	margin: .28rem auto 0 auto ; 
+	text-align: center;
+}
+.zhe > div > h4{
+	color: #c6c6c6;
+	font-size: .24rem;
+	text-align: center;
+	font-weight: 600;
+}
+.zhe > div > h4 > span{
+	font-weight: normal;
+}
+input{
+	width: .62rem;
+	height: .92rem;
+	/*display: block;
+	float: left;*/
+	border:0;
+	border-bottom: 0.01rem solid #333333;
+	margin: 0 .1rem;
+	color: #f87462;
+	text-align: center;
+	outline:none;
+	font-size: .5rem;
+}
+input.color{
+	border-bottom: 0.01rem solid #f87462;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
