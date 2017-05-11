@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/swiper.css" />
+		<script src="js/zepto.min.js"></script>	
+		<script src="js/common.js"></script>
+		<script src="js/iscroll.js" ></script>
+    	<script src="js/swiper.min.js"></script>
+    	<script src="js/hammer.js"></script>   	
+		<title>主页</title>
+	</head>
+	<body>						
+		<!--左滑菜单-->
+		<div class="H-slide" id="return">
+			<div class="H-slide-top">
+				<img src="img/H-personal-portrait.png"/>
+				<p class="H-personal-name">刘慧涛</p>
+				<p class="H-personal-ename">Liu,HT</p>
+				<p class="H-personal-level">
+					<span class="H-fill">&#xe60d;</span>
+					<span class="H-fill">&#xe60d;</span>
+					<span class="H-fill">&#xe60d;</span>
+					<span class="H-fill">&#xe60d;</span>
+					<span class="H-stroke">&#xe60d;</span>
+				</p>
+				<div class="H-personal-mess">
+					<div class="H-personal-list">
+						<p class="H-mess-num">98%</p>
+						<p>好评率</p>
+					</div>
+					<img src="img/H-personal-line.png"/>
+					<div class="H-personal-list">
+						<p class="H-mess-num">3213</p>
+						<p>积分</p>
+					</div>
+					<img src="img/H-personal-line.png"/>
+					<div class="H-personal-list">
+						<p class="H-mess-num">18</p>
+						<a href="H-hotoplace.html">足迹</a>
+					</div>
+				</div>	
+			</div>
+			
+			<div class="H-slide-bill">
+				<div class="H-slide-list">
+					<a href="lxb-buy.html">
+						<p><img src="img/H-slide-list1.png"/></p>
+						<p>待收货</p>
+					</a>
+					<img src="img/H-slide-list-line.png"/>
+					<a href="javascript:;">
+						<p><img src="img/H-slide-list2.png"/></p>
+						<p>评价</p>
+					</a>
+				</div>
+				<div class="H-slide-list">
+					<a href="javascript:;">
+						<p><img src="img/H-slide-list3.png"/></p>
+						<p>客服</p>
+					</a>
+					<img src="img/H-slide-list-line.png"/>
+					<a href="lxb-buy.html">
+						<p><img src="img/H-slide-list4.png"/></p>
+						<p>待付款</p>
+					</a>
+				</div>
+				<div class="H-slide-list">
+					<a href="javascript:;">
+						<p><img src="img/H-slide-list5.png"/></p>
+						<p>物流查询</p>
+					</a>
+					<img src="img/H-slide-list-line.png"/>
+					<a href="H-collection.html">
+						<p><img src="img/H-slide-list6.png"/></p>
+						<p>收藏</p>
+					</a>
+				</div>
+			</div>
+			
+			<div class="H-slide-set">
+				<a href="lxb-clear.html" class="H-set-left"><span>&#xe602;</span> 设置</a>
+				<p class="H-set-right">夜间模式  <span>&#xe635;</span></p>
+			</div>
+		</div>
+		<!--内容部分-->
+		<div id="header">
+			<header class="_topbar-jl">
+				<a class="_loction-jl" href="H-selectcity.html">
+					<img class="_loction-icon-jl" src="img/_location-icon.png" alt="" />
+					<span id="_loc-jl">山西</span>
+					<span class="iconfont">&#xe7cb;</span>
+				</a>
+				<input class="_serach-jl" type="text" placeholder="🔍搜索商品" />
+				<a class="_message-jl iconfont" href="_chat-message-jl.html">&#xe609;</a>
+			</header>
+		</div>
+		<div id="wrapper">
+			<div id="scroller">
+				<!--banner-->
+				<section class="H-banner">
+					<div class="swiper-container-banner">
+				        <div class="swiper-wrapper">
+				            <img class="swiper-slide" src="img/H-banner1.png"/>
+							<img class="swiper-slide" src="img/H-banner2.png"/>
+							<img class="swiper-slide" src="img/H-banner1.png"/>
+							<img class="swiper-slide" src="img/H-banner2.png"/>
+				        </div>
+				        <div class="swiper-pagination"></div>
+				    </div>
+					<div class="H-list">
+						<a href="hyy-ssbd.html">
+							<img src="img/H-list-bed.png"/>
+							<p>家具</p>
+						</a>
+						<a href="hyy-ssbd.html">
+							<img src="img/H-list-washer.png"/>
+							<p>家电</p>
+						</a>
+						<a href="hyy-ssbd.html">
+							<img src="img/H-list-lamp.png"/>
+							<p>灯饰</p>
+						</a>
+						<a href="hyy-qbfl.html">
+							<img src="img/H-list-more.png"/>
+							<p>更多</p>
+						</a>
+					</div>
+					<div class="H-banner-bottom"></div>
+				</section>			
+				<!--热卖排行-->								
+	        	<section class="H-seniority ">
+					<div class="H-seniority-top">
+						<img src="img/H-seniority.png"/>
+					</div>
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+			        		<ul class="H-seniority-bottom swiper-slide">
+								<li>
+									<img src="img/H-seniority-1.png"/>
+									<p class="H-description">简约/时尚沙发</p>
+									<p class="H-split">丨</p>
+									<p class="H-price">￥1299.00</p>
+									<a href="confirm.html">立即购买</a>
+								</li>
+							</ul>
+							<ul class="H-seniority-bottom swiper-slide">
+								<li>
+									<img src="img/H-seniority-1.png"/>
+									<p class="H-description">简约/时尚沙发</p>
+									<p class="H-split">丨</p>
+									<p class="H-price">￥1299.00</p>
+									<a href="confirm.html">立即购买</a>
+								</li>
+							</ul>
+							<ul class="H-seniority-bottom swiper-slide">
+								<li>
+									<img src="img/H-seniority-1.png"/>
+									<p class="H-description">简约/时尚沙发</p>
+									<p class="H-split">丨</p>
+									<p class="H-price">￥1299.00</p>
+									<a href="confirm.html">立即购买</a>
+								</li>
+							</ul>
+						</div>
+				    </div>
+				</section>	        			        
+				<!--精品推荐-->
+				<a href="H-commend.html" class="H-recommend">
+					<div class="H-recommend-top">
+						<img src="img/H-recommend.png"/>
+					</div>
+					<div class="H-recommend-bottom">
+						<div class="H-recommend-left">
+							<img src="img/H-recommend-1.png"/>
+							<p class="H-recommend-description">引领时尚潮流</p>
+							<p class="H-recommend-price">￥2999.00</p>
+						</div>
+						<div class="H-recommend-right">
+							<img src="img/H-recommend-2.png"/>
+							<p class="H-recommend-price">￥699.00</p>
+						</div>
+						<div class="H-recommend-right">
+							<img src="img/H-recommend-3.png"/>
+							<p class="H-recommend-price">￥899.00</p>
+						</div>
+						<div class="H-recommend-right-b">
+							<img src="img/H-recommend-4.png"/>
+							<p class="H-recommend-price">￥1699.00</p>
+						</div>
+					</div>										
+				</a>					
+				<!--全部商品-->
+				<section class="H-commodity">
+					<div class="H-commodity-top">
+						<img src="img/H-commodity.png"/>
+					</div>
+					<div class="H-commodity-bottom">
+						<div  class="H-commodity-list">
+							<img src="img/H-commodity-1.png"/>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-description">Alpha  休闲椅</p>
+							<a href="xiangqing.html" class="H-commodity-price">￥1699.00</a>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-rate">
+								<span>12890人已购买</span>
+								<span>好评率99%</span>
+							</p>
+						</div>
+						<div  class="H-commodity-list">
+							<img src="img/H-commodity-3.png"/>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-description">高修休闲椅</p>
+							<a href="xiangqing.html" class="H-commodity-price">￥1699.00</a>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-rate">
+								<span>12890人已购买</span>
+								<span>好评率99%</span>
+							</p>
+						</div>
+						<div  class="H-commodity-list">
+							<img src="img/H-commodity-5.png"/>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-description">高修休闲椅</p>
+							<a href="xiangqing.html" class="H-commodity-price">￥1699.00</a>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-rate">
+								<span>12890人已购买</span>
+								<span>好评率99%</span>
+							</p>
+						</div>
+					</div>
+					<div class="H-commodity-bottom">
+						<div  class="H-commodity-list">
+							<img src="img/H-commodity-2.png"/>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-description">Alpha  落地灯</p>
+							<a href="xiangqing.html" class="H-commodity-price">￥599.00</a>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-rate">
+								<span>12890人已购买</span>
+								<span>好评率99%</span>
+							</p>
+						</div>					
+						<div  class="H-commodity-list">
+							<img src="img/H-commodity-4.png"/>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-description">Alpha  茶几</p>
+							<a href="xiangqing.html" class="H-commodity-price">￥599.00</a>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-rate">
+								<span>12890人已购买</span> 
+								<span>好评率99%</span>
+							</p>
+						</div>
+						<div  class="H-commodity-list">
+							<img src="img/H-commodity-6.png"/>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-description">Alpha  茶几</p>
+							<a href="xiangqing.html" class="H-commodity-price">￥599.00</a>
+							<img src="img/H-commodity-line.png" class="H-commodity-line" />
+							<p class="H-commodity-rate">
+								<span>12890人已购买</span>
+								<span>好评率99%</span>
+							</p>
+						</div>
+					</div>										
+				</section>
+			</div>
+		</div>
+			
+		<footer id="footer" class="_bottombar-jl">
+	    	<a href="index.html" class="_sec-jl  _selected-jl">
+	    		<span class="iconfont">&#xe628;</span>
+	    		<span>首页</span>
+	    	</a>
+	    	<a href="_ring-expert.html" class="_sec-jl">
+	    		<span class="iconfont">&#xe697;</span>
+	    		<span>圈子</span>
+	    	</a>
+	    	<a href="jxh-but_car.html" class="_sec-jl">
+	    		<span class="iconfont">&#xe600;</span>
+	    		<span>购物车</span>
+	    	</a>
+	    	<a href="H-personal.html" class="_sec-jl">
+	    		<span class="iconfont">&#xe60c;</span>
+	    		<span>我的</span>
+	    	</a>
+		</footer>
+		
+		<script>
+			window.onload=function(){
+				var myScroll=new IScroll('#wrapper',{click:true,monuseWheel:true,});
+				
+				var swiper1 = new Swiper('.swiper-container', {
+					slidesPerView: 1.2,
+					graCursor:true,
+			        spaceBetween:10,
+			   });		    
+				var swiper2 = new Swiper('.swiper-container-banner', {
+			   		autoplay: 2000,
+			   		pagination: '.swiper-pagination',
+			        debugger: true
+			    });			    
+			    
+				//左滑事件
+	         	var hammertime = new Hammer(document.getElementById("wrapper"));
+				//swipe事件
+			    hammertime.on("swiperight", function (e) {
+//			        $('.H-slide').addClass('width');
+			        $('#wrapper').addClass('right');
+			        $('#footer').addClass('right');
+			        $('#header').addClass('right');
+			    });
+		     	var hammertime1 = new Hammer(document.getElementById("return"));
+			    hammertime.on("swipeleft", function (e) {
+//			        $('.H-slide').removeClass('width');
+			        $('#wrapper').removeClass('right');
+			        $('#footer').removeClass('right');
+			        $('#header').removeClass('right');
+			    });
+			    hammertime1.on("swipeleft", function (e) {
+//			        $('.H-slide').removeClass('width');
+			        $('#wrapper').removeClass('right');
+			        $('#footer').removeClass('right');
+			        $('#header').removeClass('right');
+			    });
+			   	//搜索框
+			   	$('._serach-jl').on("touchstart",function(){
+			   		location.href="hyy-search.html";
+			   	})
+			   	
+			}	
+		</script>
+	</body>	
+</html>

@@ -1,0 +1,303 @@
+/*头部*/
+body{
+	overflow: hidden;
+}
+ header{
+	background: #31bcff;
+	width: 100%;
+	height: 1.8rem;
+}
+.H-header-top{
+	font-size: 0.36rem;
+	height: 0.94rem;
+	line-height: 0.94rem;
+	text-align: center;
+}
+.H-header-top a{
+	font-family: 'iconfont';
+	color: #fff;
+	float: left;
+	margin-left: 0.2rem;
+}
+.H-header-top span{
+	color: #fff;
+	margin-left: -0.2rem;
+}
+.H-header-bottom div{
+	font-size: 0.36rem;
+	width: 3.17rem;
+	height: 0.56rem;
+	float: left;	
+	border-radius: 0.28rem;
+	text-align: center;
+	padding:0.06rem 0;
+}
+.H-header-bottom div p{
+	font-size: 0.24rem;
+}
+.H-header-bottom div:first-child{
+	margin-left: 0.6rem;
+}
+.H-header-bottom div.H-collection{
+	border: 0.01rem solid #fff;
+	color: #fff;
+}
+.H-header-bottom div.H-collection-article{
+	border: 0.01rem solid #31bbff;
+	background: #fff;
+	color: #31bbff;
+}
+
+/*iscroll*/
+#header {
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding: 0;
+	color: #eee;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 1.88rem;
+	bottom: .48rem;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+}
+
+.H-collection-tab{
+	width: 7rem;
+	margin: 0 auto;
+	display: none;
+	overflow: hidden;
+}
+.H-collection-first{
+	display: block;
+}
+
+.H-collection-touch{
+	width: 7rem;
+	height: 2rem;
+	margin-top: 0.5rem;
+	position: relative;
+}
+.H-collection-touch1{
+	height: 2.65rem;
+}
+
+.H-tab-menu{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 1.35rem;
+	height: 2.06rem;
+	background: #fd3d67;
+	color: #fff;
+	font-size: 0.24rem;
+	border-radius: 0.1rem;
+	text-align: center;
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+}
+.H-tab-menu span{
+	font-family: 'iconfont';
+	font-size: 0.7rem;
+}
+.H-tab-menu p{
+	margin-top: 0.2rem;
+}
+.H-tab-menu1{
+	height: 2.65rem;
+}
+.H-tab-menu1 p{
+	margin-top: 0.4rem;
+}
+.H-list{
+	transition: left 0.3s linear;
+}
+/*商品列表*/
+.H-promotion-list{
+	width: 100%;
+	height: 2rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 0.2rem 0 #ccc;
+	padding-bottom: 0.06rem;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 10;
+}
+.H-promotion-list .H-list-left{
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	float: left;
+}
+.H-promotion-list .H-list-left img{
+	width: 1.6rem;
+	margin-top: 0.6rem;
+}
+.H-promotion-list .H-list-right{
+	width: 5rem;
+	height: 2rem;
+	float: left;
+}
+.H-promotion-list .H-list-right p{
+	margin-top: 0.08rem;
+	overflow: hidden;
+}
+.H-promotion-list .H-list-right .H-promotion-title{
+	margin-top: 0.1rem;
+}
+.H-promotion-list .H-list-right .H-promotion-title span{
+	float: left;
+	margin-left: 0.3rem;
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+
+.H-promotion-list .H-list-right img{
+	display: block;
+	margin-top: 0.08rem;
+	margin-left: 0.3rem;
+}
+.H-promotion-list .H-list-right .H-promotion-price i{
+	float: left;
+	margin-left: 0.28rem;
+	font-size: 0.36rem;
+	font-weight: bold;
+	color: #ffb730;
+}
+.H-promotion-list .H-list-right .H-promotion-price span{
+	float: left;
+	margin-left: 0.5rem;
+	font-size: 0.22rem;
+	color: #b3b2b2;
+}
+.H-promotion-list .H-list-right .H-promotion-advantage span{
+	display: block;
+	float: left;
+	margin-left: 0.3rem;
+	border: 0.01rem solid #ffb730;
+	border-radius: 0.1rem;
+	font-size: 0.2rem;
+	padding: 0 0.15rem;
+	box-sizing: border-box;
+}
+.H-promotion-list .H-list-right .H-promotion-description span:first-child{
+	float: left;
+	margin-left: 0.3rem;
+	font-size: 0.22rem;
+	color: #6a6a6a;
+}
+.H-promotion-list .H-list-right .H-promotion-description span:last-child a{
+	display: block;
+	width: 1.3rem;
+	height: 0.3rem;
+	background: #32acff;
+	border-radius: 0.05rem;
+	float: right;
+	margin-right: 0.05rem;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+}
+
+/*文章列表*/
+.H-article-list{
+	width: 7rem;
+	height: 2.65rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 0.2rem 0 #ccc;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+/*顶部*/
+.H-article-list .H-list-top p span{
+	font-family: 'iconfont';
+	font-size: 0.22rem;
+}
+.H-article-list .H-list-top{
+	margin-top: 0.1rem;
+	overflow: hidden;
+}
+.H-article-list .H-list-top .H-list-top-left{
+	width: 2.5rem;	
+	float: left;
+}
+.H-article-list .H-list-top .H-list-top-left img{
+	width:0.6rem;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.2rem;
+}
+.H-article-list .H-list-top .H-list-top-left span{
+	float: left;
+	margin-left: 0.2rem;
+}
+.H-article-list .H-list-top .H-list-top-left span.H-list-top-name{
+	margin-top: 0.03rem;
+}
+.H-article-list .H-list-top .H-list-top-left span.H-list-top-time{
+	color: #3d3d3d;
+}
+.H-article-list .H-list-top .H-list-top-right{
+	width: 1.2rem;
+	line-height: 0.6rem;
+	float: right;
+}
+.H-article-list .H-list-top .H-list-top-right span{
+	float: left;
+}
+.H-article-list .H-list-top .H-list-top-right span:first-child{
+	color: #32abff;
+}
+.H-article-list .H-list-top .H-list-top-right span:last-child{
+	margin-left: 0.18rem;
+	color: #9797a9;
+}
+.H-article-line{
+	display: block;
+	margin: 0.1rem auto;
+}
+.H-article-list .H-list-left{
+	width: 2rem;
+	text-align: center;
+	float: left;
+}
+.H-article-list .H-list-left img{
+	width: 1.6rem;
+}
+.H-article-list .H-list-right p.H-article-title{
+	font-size: 0.28rem;
+}
+.H-article-list .H-list-right img{
+	display: block;
+	width: 5rem;
+	margin-top: 0.1rem;
+}
+.H-article-list .H-list-right p.H-article-description{
+	font-size: 0.22rem;
+	color: #666;
+	margin-top: 0.08rem;
+}

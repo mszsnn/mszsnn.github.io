@@ -1,0 +1,529 @@
+body{
+	background: #F2F2F2;
+}
+
+.right {
+   left: 5.36rem !important;
+}
+
+/*左滑*/
+.H-slide{
+	width: 5.36rem;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index:-1;
+    transition: width .5s linear;
+    background: #fff;
+}
+.H-slide-top{
+	width: 5.36rem;
+	height: 5.36rem;
+	background-image: url(../img/H-slide-bg.png);
+	background-size: 100%;
+	text-align: center;
+}
+.H-slide-top > img{
+	width: 1.5rem;
+	border-radius: 50%;
+	margin-top: 1rem;
+}
+.H-slide-top .H-personal-name{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.H-slide-top .H-personal-ename{
+	font-size: 0.3rem;
+	color: #fff;
+	margin-top: 0.1rem;
+}
+.H-slide-top .H-personal-level{
+	height: 0.5rem;
+	line-height: 0.2rem;
+	letter-spacing: -0.1rem;
+}
+.H-slide-top .H-personal-level span{
+	font-family: 'iconfont';
+	font-size: 0.36rem;
+	margin-left: .1rem;
+}
+.H-slide-top .H-personal-level span.H-fill{
+	color: #fdba3c;
+}
+.H-slide-top .H-personal-level span.H-stroke{
+	color: #fff;
+}
+.H-personal-mess{
+	display: flex;
+	font-size: 0.24rem;
+	justify-content: center;
+	color: #fff;
+	height: 0.6rem;
+	margin-top: 0.3rem;
+}
+.H-personal-mess img{
+	margin:0 0.5rem;
+}
+.H-personal-mess div:nth-child(3){
+	font-size: 0.24rem;
+	margin:0 0.1rem;
+}
+
+.H-personal-mess div a:last-child{
+	margin-top: 0.02rem;
+	font-size: 0.24rem;
+	color: #fff;
+}
+.H-personal-mess div p:last-child{
+	margin-top: 0.02rem;
+}
+
+.H-slide-list{
+	display: flex;
+	justify-content: space-around;
+	font-size: 0.28rem;
+	text-align: center;
+	margin-top: 0.2rem;	
+}
+.H-slide-list > img{
+	width: 0.01rem;
+	height: 1rem;
+	margin-top: 0.35rem;
+	margin-left: -0.02rem;
+}
+
+.H-slide-list a{
+	display: block;
+	color: #010101;
+}
+
+.H-slide-list a p{
+	width: 2rem;
+}
+.H-slide-list a p  img{
+	width: 0.8rem;
+	margin-top: 0.3rem;
+}
+.H-slide-list a p:nth-child(2){
+	margin-top: 0.2rem;
+}
+
+/*设置*/
+.H-slide-set{
+	margin-top: 1.7rem;
+}
+
+.H-slide-set span{
+	font-size: .5rem;
+	font-family: 'iconfont';
+}
+
+.H-slide-set a.H-set-left{
+	display: block;
+	float: left;
+	font-size: 0.3rem;
+	font-family: 'iconfont';
+	margin: -.24rem 0.24rem 0;
+	color: #010101;
+}
+.H-slide-set p.H-set-right{
+	float: right;
+	font-size: 0.3rem;
+	font-family: 'iconfont';
+	margin: -.24rem 0.24rem 0 0;
+}
+
+/*iscroll*/
+#header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+  box-sizing: border-box;
+  transition: left .5s linear;
+}
+#footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: left .5s linear;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: .88rem;
+	bottom: .98rem;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	transition: left .5s linear;
+	background: #F2F2F2;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	background: #F2F2F2;
+}
+/*顶部*/
+._topbar-jl{
+	width: 100%;
+	height: .88rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+._topbar-jl .iconfont{
+	color: #fff;
+}
+._loction-jl{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: .3rem;
+	font-size: .3rem;
+}
+#_loc-jl{
+	color: #fff;
+	margin: 0 .06rem;
+}
+._loction-icon-jl{
+	width: .2rem;
+	height: .3rem;
+	margin: -.04rem 0 0 0;
+}
+._serach-jl{
+	width: 4.74rem;
+	height: .56rem;
+	border-radius: .1rem;
+}
+._serach-jl::-webkit-input-placeholder{
+	color: #32c9fe;
+	text-align: center;
+}
+._message-jl{
+	margin-right: .3rem;
+	font-size: .4rem;
+}
+#_loc-jl{
+	font-size: .24rem;
+	padding: 0 .05rem;
+}
+/*banner开始*/
+.H-banner{
+	position: relative;
+	height:5.3rem;
+}
+.H-imgbox{
+	width: 7.5rem;
+}
+.H-imgbox img{
+	width:7.5rem;
+	display: block;
+}
+
+div.swiper-container-horizontal > div.swiper-pagination-bullets{
+	position: relative;
+    top:-0.6rem;
+    left: 6rem;
+    width: 2rem;
+}
+
+div.swiper-container-horizontal > div.swiper-pagination-bullets .swiper-pagination-bullet{
+    float: left;
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 0.05rem;
+	background: #35CEF7;
+	float: left;
+    display: block;
+    font-size: 0;
+    opacity: 1;
+}
+div.swiper-container-horizontal > div.swiper-pagination-bullets .swiper-pagination-bullet-active{
+	width: 0.2rem;
+}
+
+.H-list{
+	width: 7rem;
+	height: 1.95rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	position: absolute;
+	left: 0.25rem;
+	bottom:0rem;
+	display: flex;
+	justify-content: space-around;
+	z-index: 200;
+}
+.H-list a{
+	display: block;
+	color: #333;
+}
+.H-list a img{
+	width: 0.7rem;
+	margin-top: 0.3rem;
+}
+.H-list a p{
+	font-size: 0.24rem;
+	margin-left: 0.1rem;
+	color: #333;
+}
+.H-banner-bottom{
+	width: 6.55rem;
+	height: 0.1rem;
+	background: #35CEF7;
+	position: absolute;
+	left: 0.5rem;
+	bottom: -0.1rem;
+	z-index: 200;
+}
+/*banner结束*/
+
+/*热卖排行开始*/
+.H-seniority{
+	margin: 0.3rem 0;
+}
+.H-seniority .H-seniority-top{
+	width: 3.5rem;
+	margin: 0.1rem auto;
+}
+.H-seniority .H-seniority-top img{
+	width: 100%;
+}
+/*swiper*/
+.swiper-container {
+    width: 7.5rem;
+    height: 2.7rem;
+}
+.swiper-slide{
+	width: 6rem;
+	height: 3rem;
+}
+.H-seniority .H-seniority-bottom{
+	font-size: 0.2rem;
+	text-align: center;
+	background: #fff;
+	margin-bottom: 0.5rem;
+	overflow: hidden;
+}
+.H-seniority .H-seniority-bottom li{
+	overflow: hidden;
+}
+.H-seniority .H-seniority-bottom img{
+	width: 5rem;
+}
+.H-seniority .H-seniority-bottom p{
+	float: left;
+}
+.H-seniority .H-seniority-bottom p.H-description{
+	margin-left: 0.2rem;
+}
+.H-seniority .H-seniority-bottom p.H-split{
+	color: #31c7ff;
+}
+.H-seniority .H-seniority-bottom p.H-price{
+	color: #ffb730;
+}
+.H-seniority .H-seniority-bottom a{
+	display: block;
+	width: 1.14rem;
+	height: 0.6rem;
+	line-height: 0rem;
+	background-image: url(../img/H-seniority-bg.png);
+	background-position: 0 0.08rem;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	left: 5.1rem;
+	bottom: 0.1rem;
+	color: #fff;
+}
+/*热卖排行结束*/
+
+/*精品推荐*/
+.H-recommend {
+	display: block;
+	margin-top: 0.3rem;
+}
+.H-recommend .H-recommend-top{
+	display: block;
+	width: 3.5rem;
+	margin: 0 auto;
+}
+.H-recommend .H-recommend-top img{
+	width: 100%;
+}
+.H-recommend .H-recommend-bottom{
+	width: 7.15rem;
+	height: 3.7rem;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 0.1rem;
+	padding-top: 0.1rem;
+}
+.H-recommend .H-recommend-bottom .H-recommend-left{
+	width: 2.9rem;	
+	margin-left: 0.1rem;
+	position: relative;
+	float: left;
+}
+.H-recommend .H-recommend-bottom .H-recommend-left img{	
+	width: 100%;
+	height: 3.6rem;
+}
+.H-recommend .H-recommend-bottom .H-recommend-left p{
+	position: absolute;
+	left: 0.2rem;
+}
+.H-recommend .H-recommend-left p.H-recommend-description{
+	top:0.3rem;
+	font-size: 0.24rem;
+}
+.H-recommend .H-recommend-left p.H-recommend-price{
+	top:0.7rem;
+	font-size: 0.3rem;
+	color: #ffb730;
+}
+.H-recommend .H-recommend-right{
+	width: 2rem;
+	height: 2rem;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.H-recommend .H-recommend-right img{
+	width: 100%;
+	height: 2rem;
+	display: block;
+}
+.H-recommend .H-recommend-right p.H-recommend-price{
+	font-size: 0.24rem;
+	color: #ffb730;
+	position: absolute;
+	left:0.5rem;
+	bottom:0.2rem;
+}
+.H-recommend .H-recommend-right-b{
+	width: 4rem;
+	height: 1.7rem;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.H-recommend .H-recommend-right-b img{
+	height: 1rem;
+	display: block;
+	margin: 0.2rem auto;
+}
+.H-recommend .H-recommend-right-b p.H-recommend-price{
+	font-size: 0.24rem;
+	color: #ffb730;
+	position: absolute;
+	left:1.4rem;
+	bottom:0.1rem;
+}
+
+/*全部商品开始*/
+.H-commodity .H-commodity-top{
+	width: 3.5rem;
+	margin: 0 auto;
+}
+.H-commodity .H-commodity-top img{
+	width: 100%;
+}
+.H-commodity .H-commodity-bottom{
+	width: 48%;
+	float: left;
+}
+.H-commodity .H-commodity-list{
+	display: block;
+	width: 3.4rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	margin-left: 0.25rem;
+	color: #232323;
+}
+.H-commodity .H-commodity-list img{
+	display: block;
+}
+.H-commodity .H-commodity-list img:first-child{
+	width: 90%;
+	margin-left:5%;
+	margin-top: 0.2rem;
+}
+.H-commodity .H-commodity-list img.H-commodity-line{
+	margin: 0.1rem auto;
+}
+.H-commodity .H-commodity-list p.H-commodity-description{
+	font-size: 0.3rem;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+.H-commodity .H-commodity-list a.H-commodity-price{
+	font-size: 0.3rem;
+	color: #ffb730;
+	margin-left: 0.2rem;
+	display: block;
+}
+.H-commodity .H-commodity-list p.H-commodity-rate{
+	height: 0.4rem;
+	
+}
+.H-commodity .H-commodity-list p.H-commodity-rate span{
+	font-size: 0.1rem;
+	display: block;
+	line-height: 0.4rem;
+}
+.H-commodity .H-commodity-list p.H-commodity-rate span:first-child{
+	float: left;
+	margin-left: 0.2rem;
+}
+.H-commodity .H-commodity-list p.H-commodity-rate span:last-child{
+	float: right;
+	margin-right: 0.2rem;
+}
+
+/*底部固定栏*/
+._bottombar-jl{
+	width: 100%;
+	height: .98rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -4px 6px 0 rgba(0,0,0,.2);
+	z-index: 100;
+	background-color: #fff;
+}
+._sec-jl .iconfont{
+	font-size: .5rem;
+}
+._sec-jl{
+	text-align: center;
+	color: #5a5a5a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: .24rem;
+}
+/*选中状态*/
+._selected-jl{
+	color: #32c7ff;
+}

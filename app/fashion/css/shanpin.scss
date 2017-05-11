@@ -1,0 +1,95 @@
+html,body{
+    width: 100%;
+    height: 100%; 
+}
+
+.swiper-container {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mx-sp-bg.png);
+    background-size:cover ;
+    .swiper-slide {
+        height: 95%;
+        text-align: center;
+        font-size: .18rem;
+        .word{
+            color: #fff;
+            font-size: .3rem;
+            display: block;
+            margin-top: .38rem ;
+            text-align: right;
+            padding-right:.36rem ;
+        }
+        .tu>img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .go{
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: #fff;
+            width: 3.9rem;
+            height: .7rem;
+            margin: auto;
+            text-align: center;
+            line-height: .7rem;
+            font-size: .2rem ;
+            border-radius: .4rem;
+            >img{
+                height: 100%;
+                width: auto;
+            }
+            >a{
+                display: block;
+                float: left;
+                color: #ff5757;
+                font-size: .24rem;
+                margin-left: .3rem;
+            }
+            .circle1{
+                width: .08rem;
+                height: .08rem;  
+                border: .02rem solid #ff5757;
+                border-radius: 50%;
+                background: #fff;
+                float: left;
+                margin-left: .5rem;
+                margin-top: .27rem;
+            }
+            .circle2{
+                width: .12rem;
+                height: .12rem;  
+                border: .02rem solid #ff5757;
+                border-radius: 50%;
+                background: #fff;
+                float: left;
+                margin-left: .15rem;
+                margin-top: .25rem;
+            }
+        }
+        
+    }  
+    .swiper-pagination{
+        z-index: 0;
+    }
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #fff;  
+    opacity: 1;
+}
+
+
+.swiper-pagination-bullet-active {
+    width: .3rem;
+    border-radius: .08rem;
+    background: #FFFFFF;
+}
+
+
+

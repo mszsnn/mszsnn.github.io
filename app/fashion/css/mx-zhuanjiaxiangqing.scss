@@ -1,0 +1,224 @@
+body{
+    overflow: hidden;
+    background: #ececec;
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 0rem;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+@mixin big{
+    margin:.1rem .25rem;
+    height: auto;
+    box-sizing: border-box;
+//  overflow: hidden;
+}
+
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    .bigimg{
+    	width: 100%;
+    	height: 4.5rem;
+    	background-image:url(../img/mx-zhuanjiaxiangqing-big.png) ;
+    	background-size: 100% auto ;
+    	background-repeat: no-repeat;
+    	.before{
+    	    display: block;
+    	    @include big;
+    	    margin:.1rem .25rem;
+    	    height: .8rem;
+    	    >span{
+    	        color: #fff;
+    	        font-size: .4rem;
+    	        line-height: .8rem;
+    	        float: left;
+    	    }
+    	}
+    }
+    .decription{
+        @include big;
+        margin: 0 .25rem;
+        padding: .2rem 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dashed #b5b5b5;
+        .imgbox{
+           width: 1rem;
+           height: 1rem;
+           border-radius: 50%;
+           overflow: hidden;
+           >img{
+               height: 100%;
+               width: auto;
+               display: block;
+           }
+        }
+        .mx-names{
+            color: #3d3d3d;
+            margin-top: .13rem;
+            margin-left: -2.5rem;
+            h2{
+                font-weight: normal;
+                font-size: .36rem;
+            }
+            h3{
+                font-weight: normal;
+                font-size: .24rem;
+            }
+        }
+        .love{
+            line-height: 1rem;
+            font-size: .24rem;
+            >span{
+                font-size: .4rem;
+            }
+        }
+    }
+    .wenzhang{
+        @include big;
+        font-size: .24rem;
+        line-height: 1.7em;
+        >h2{
+            font-size:.3rem ;
+            color: #3d3d3d;
+            margin-bottom: .3rem;
+            font-weight: normal;
+        }
+        .img{
+            width: 100%;
+            height: auto;
+            margin: .1rem 0;
+            >img{
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        height: .98rem;
+        background: #fff;
+        padding: 0 .25rem;
+        box-sizing: border-box;
+        position: relative;
+        >li{
+            width: 25%;
+            height: 100%;
+            float: left;
+            font-size: .24rem;
+            line-height: .98rem;
+            box-sizing: border-box;
+            overflow: hidden;
+            text-align: center;
+            color: #232323;
+            
+            >a{
+                display: block;
+                color: #232323;
+            }
+            i{
+   
+                line-height: .98rem;
+                font-size: .4rem;
+                color: #007AFF;
+            }        
+        }
+    }
+}
+
+.zhezhao{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.43);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000000;
+    .share{
+        width: 100%;
+        height: 4.6rem;
+        position:fixed;
+        left:0 ;
+        bottom: 0rem;
+        padding: .01rem .25rem;
+        box-sizing: border-box;
+        >.share-top{
+            height:3rem ;
+            text-align: center; 
+            background: rgba(255,255,255,.85);
+            border-radius: .4rem;
+            overflow: hidden;
+            h6{
+                font-size: .3rem;
+                color: #292929;
+                height: .4rem;
+                line-height: .4rem;
+                padding-top: .15rem; 
+                font-weight: normal;
+            }
+            .share-img{
+                width: 100%;
+                height:2.45rem ;
+                display: flex;
+                padding: .45rem 0;
+                box-sizing: border-box;
+                >a{
+                    font-size: .24rem;
+                    color: #292929;
+                    display: block;
+                    width: 25%;
+                    >img{
+                        width: 1.14rem;
+                        display: block;
+                        margin: 0 auto;
+                        margin-bottom: .15rem;
+                    }
+                }
+            }
+            
+        }
+        >button{
+            width: 100%;
+            height: 1.14rem;
+            text-align: center; 
+            background: rgba(255,255,255,.85);
+            border-radius: .4rem;
+            font-size: .4rem;
+            line-height: 1.14rem;
+            color: #0084ff;
+        }
+    }
+}
+
+
+.hidden{
+    display: none;
+}
+ 

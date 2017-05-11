@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<title>闪屏页</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shanpin.css"/>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+	</head>
+	<body>
+		<!-- Swiper -->
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<a href="index.html" class="word">跳过</a>
+	            	<div class="tu">
+	            		<img src="img/mx-sp1.png"/>
+	            	</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="index.html" class="word">跳过</a>
+	            	<div class="tu">
+	            		<img src="img/mx-sp2.png"/>
+	            	</div>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="index.html" class="word">跳过</a>
+	            	<div class="tu">
+	            		<img src="img/mx-sp3.png"/>
+	            	</div>
+	            	<div class="go">
+	            		<div class="circle1"></div>
+	            		<div class="circle2"></div>
+						<a href="index.html">开启时尚之旅</a>
+						<img src="img/mx-fj.png" alt="" />
+					</div>
+	            </div>
+	        </div>
+	    <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>	
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			    paginationClickable: true
+			});
+		</script>
+	</body>
+</html>

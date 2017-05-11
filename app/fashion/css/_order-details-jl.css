@@ -1,0 +1,275 @@
+@import url("common.css");
+
+body{
+	background-color: #f2f2f2;
+	font-size: .12rem;
+	overflow: hidden;
+}
+/*标题*/
+._ring-jl{
+	width: 100%;
+	height: .88rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._back-jl{
+	margin-left: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+._ring-title-jl{
+	font-size: .36rem;
+	color: #fff;
+}
+._share-jl{
+	margin-right: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+._header-bg-jl{
+	width: 100%;
+	height: .92rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+}
+/*内容*/
+._order-details-jl{
+	width: 7.02rem;
+	height: 10.08rem;
+	background: #fff;
+	margin: 0 auto;
+	z-index: 10;
+	position: relative;
+	top: -.74rem;
+	left: 0;
+	border-radius: .1rem;
+}
+/*商品信息*/
+._order-dtop-jl{
+	width: 100%;
+	height: 1.8rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: .5rem .2rem 0;
+	border-radius: .1rem;
+}
+._order-dtop-left-jl{
+	width: 2.3rem;
+	height: .95rem;
+}
+._order-dtop-left-jl img{
+	width: 100%;
+}
+._order-dtop-right-jl{
+	margin-left: .4rem;
+}
+._good-name-jl{
+	color: #303030;
+	font-size: .3rem;
+}
+._buy-number-jl{
+	margin-left: .4rem;
+}
+._describe-jl{
+	color: #a5a5a5;
+	font-size: .22rem;
+}
+._good-pirce-jl{
+	color: #ffb11e;
+	font-size: .24rem;
+}
+._pirce-jl{
+	font-size: .36rem;
+	font-weight: bold;
+	margin-right: .1rem;
+}
+/*分隔符1*/
+._separator1-jl{
+	width: 100%;
+	border-top: .01rem dashed #e6e6e6;
+}
+/*收货人*/
+._consignee-jl{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: .15rem .2rem;
+	box-sizing: border-box;
+}
+._consignee-bg-jl{
+	width: .3rem;
+	height: .3rem;
+}
+._consignee-bg-jl img{
+	width: 100%;
+}
+._consignee-name-jl{
+	margin: 0 0 0 .1rem;
+	color: #2b2b2b;
+	font-size: .28rem;
+}
+._consignee-tel-jl{
+	margin: 0 0 0 .3rem;
+	color: #2b2b2b;
+	font-size: .28rem;
+}
+/*收货地址*/
+._location-jl{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: .15rem .2rem;
+	box-sizing: border-box;
+}
+._location-bg-jl{
+	width: .3rem;
+	height: .3rem;
+}
+._location-bg-jl img{
+	height: 100%;
+}
+._location-area-jl{
+	margin: 0 0 0 .1rem;
+	color: #949494;
+	font-size: .22rem;
+}
+/*分隔符2*/
+._separator2-jl{
+	width: 100%;
+}
+._separator2-jl img{
+	width: 100%;
+}
+/*收货时间*/
+._receivingtime-jl{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: .15rem .2rem;
+	box-sizing: border-box;
+}
+._debang-jl{
+	width: .83rem;
+	height: .3rem;
+}
+._debang-jl img{
+	width: 100%;
+}
+._receiving-time-jl{
+	width: 1rem;
+	margin: 0 0 0 .1rem;
+	color: #7d7d7d;
+	font-size: .24rem;
+}
+._receivingt-jl{
+	margin: 0 0 0 .2rem;
+	color: #1a1a1a;
+	font-size: .22rem;
+}
+._debang-jl{
+	margin: 0 0 0 2.5rem;
+}
+._receivingtime-bg-jl{
+	width: .3rem;
+	height: .3rem;
+}
+._receivingtime-bg-jl img{
+	height: 100%;
+}
+/*订单时间*/
+._order-time-jl{
+	padding: .1rem .2rem;
+	box-sizing: border-box;
+	color: #545454;
+	font-size: .24rem;
+}
+/*订单价格*/
+._pirce-info-jl{
+	padding: .1rem .2rem;
+	box-sizing: border-box;
+	color: #a7a7a7;
+	font-size: .24rem;
+}
+._tprice-jl{
+	width: 100%;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+._total-price-jl{
+	color: #ffb11e;
+	font-size: .64rem;
+}
+._vertical-line-jl{
+	height: .42rem;
+	border-left: .01rem solid #a0a0a0;
+	margin: 0 .15rem 0 .2rem;
+}
+._tprice-jl h5{
+	width: .5rem;
+	color: #A7A7A7;
+	font-size: .22rem;
+}
+._tprice-jl h6{
+	color: #a7a7a7;
+	font-size: .58rem;
+	font-weight: 900;
+	margin: 0 0 0 .2rem;
+}
+._des-jl{
+	color: #a7a7a7;
+	font-size: .22rem;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+}
+/*操作*/
+._operation-jl{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+._operation-jl a{
+	width: 1.75rem;
+	height: .72rem;
+	border-radius: .72rem;
+	background: #31c2ff;
+	text-align: center;
+	line-height: .72rem;
+	color: #fff;
+	font-size: .24rem;
+	margin: 0 .2rem 0 0;
+}
+/*选中状态*/
+._operation-jl a._selected-jl{
+	background: #ffb11e;
+}
+
+
+/*底部固定栏*/
+._bottombar-jl{
+	width: 100%;
+	height: .98rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -4px 6px 0 rgba(0,0,0,.2);
+	z-index: 100;
+	background-color: #fff;
+}
+._bottombar-jl .iconfont{
+	font-size: .5rem;
+}
+._sec-jl{
+	text-align: center;
+}
+/*选中状态*/
+._selected-jl{
+	color: #32c7ff;
+}

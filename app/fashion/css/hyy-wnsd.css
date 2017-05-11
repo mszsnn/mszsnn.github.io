@@ -1,0 +1,323 @@
+
+*{
+    font-size:0.24rem;
+}
+/*导航开始*/
+nav{
+    height:0.88rem;
+    width:100%;
+    background-image: url("../img/hyynav.png");
+    background-size: 100%;
+    text-align:center;
+    line-height: 0.96rem;
+    position: absolute;
+    z-index: 2222;
+    top: 0;
+    left: 0;
+}
+nav img.hyyjt{
+    width:0.6rem;
+    position: absolute;
+    left:0.24rem;
+    top:0.1rem;
+}
+nav img.hyyss{
+    width:0.45rem;
+    position: absolute;
+    right:0.24rem;
+    top:0.2rem;
+}
+nav input{
+    font-size: 0.36rem;
+    border:none;
+    outline: none;
+    height:0.56rem;
+    width:4.75rem;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    padding:0.05rem 0.3rem;
+}
+nav a.hyytz{
+    display: block;
+    position:absolute;
+    right:1.5rem;
+    top:0.08rem;
+    width:0.5rem;
+    height:0.8rem;
+}
+nav img.hyysl{
+    width:100%;
+}
+/*隐藏*/
+nav .hidden{
+    height:5.35rem;
+    width:7.03rem;
+    background:rgba(255,255,255,0.95);
+    position: absolute;
+    top:95%;
+    left:0.23rem;
+    z-index: 222;
+    display: none;
+    box-shadow: 0 2px 7px 1px #B7B7B7;
+    border-radius: 7px;
+}
+nav .hidden .san{
+    width: 0;
+    border: 9px solid rgba(0,0,0,0);
+    border-bottom: 9px solid #fff;
+    position: absolute;
+    left: 24%;
+    top: -6%;
+    margin-left: -10px;
+}
+
+nav .hidden ul{
+    width:94%;
+    height:100%;
+    text-align: left;
+}
+nav .hidden ul li{
+    line-height: 0.63rem;
+    width:100%;
+    height:0.63rem;
+    border-bottom:1px solid #E3E3E3;
+}
+nav .hidden ul li a{
+    display: block;
+    height:100%;
+    width:100%;
+}
+nav .hidden ul li a p{
+    color:#6A6A6A;
+    padding-left:0.3rem;
+    box-sizing: border-box;
+}
+nav .hidden ul li a p span{
+    color:#FFDAA2;
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 222;
+    top: 0.88rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position: absolute;
+    z-index: 222;
+    height:950px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+div.recommend{
+    height:auto;
+    width:100%;
+    background:#fff;
+}
+.headline{
+    width:7.02rem;
+    height:0.8rem;
+    margin:0 auto;
+}
+.headline img{
+    height:70%;
+    margin-top:0.2rem;
+}
+div.recommend .hyysf{
+    height:1.88rem;
+    width:7.02rem;
+    border:1px solid #DCDADA;
+    border-radius: 10px;
+    margin:0.15rem auto;
+}
+
+div.recommend .hyysf div{
+    float:left;
+}
+div.recommend .hyysf div.left{
+    width:30%;
+    height:100%;
+}
+div.recommend .hyysf div.left img{
+    width:100%;
+    margin-top:0.25rem;
+    margin-left:0.03rem;
+}
+div.recommend .hyysf div.left img.hyywzt{
+    width:93%;
+    margin-top:0.02rem;
+    /*margin-left:0.05rem;*/
+}
+div.recommend .hyysf div.right{
+    width:65%;
+    height:100%;
+    margin-left:5%;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+}
+div.recommend .hyysf div.right h3{
+    font-weight:bold;
+    color:#484848;
+    font-size:0.36rem;
+    margin-top:0.08rem;
+    float:left;
+}
+div.recommend .hyysf div.right .hyyf{
+    float:right;
+    margin-top:0.15rem;
+    margin-right:0.2rem;
+    color:#C6C6C6;
+}
+div.recommend .hyysf div.right img{
+    width:100%;
+}
+div.recommend .hyysf div.right h4{
+    color:#454545;
+    font-size:0.28rem;
+    margin-top:0.1rem;
+}
+div.recommend .hyysf div.right h5{
+    color:#B7B7B7;
+    font-size:0.22rem;
+    margin-top:0.1rem;
+}
+
+div.recommend .hyysf div.right .hyyrmb{
+    color:#FFB730;
+    font-size:0.36rem;
+    font-weight:900;
+    font-style:italic;
+    letter-spacing: 0.01rem;
+}
+div.recommend .hyysf div.right .hyysrmb{
+    color:#C6C6C6;
+    margin-left:0.3rem;
+}
+div.recommend .hyysf div.right p{
+    color:#000;
+}
+
+body,html{
+    width:100%;
+    height:100%;
+    
+}
+.cehua{
+    height:13.34rem;
+    width:100%;
+    background-image: url('../img/bgch.png');
+    background-size: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    /*display: none;*/
+    z-index: 21;
+    padding:0 0.3rem;
+    box-sizing: border-box;
+}
+.cehua .incehua{
+    height:100%;
+    width: 81%;
+    float:right;
+}
+.cehua .incehua .nav{
+    height:1rem;
+    width:100%;
+    border-bottom: 0.2rem;
+}
+.cehua .incehua .nav img{
+    height:100%;
+}
+.cehua .incehua > ul{
+    height:auto;
+    width:100%;
+}
+.cehua .incehua > ul > li{
+    height:2.66rem;
+    width:100%;
+    border-bottom:1px dotted #fff;
+}
+.cehua .incehua > ul > li:last-child{
+    border-bottom:none;
+}
+.cehua .incehua > ul > li .title{
+    height:25%;
+    width:100%;
+    margin-top:0.15rem;
+}
+.cehua .incehua > ul > li .title img{
+    height:100%;
+}
+.cehua .incehua > ul > li  ul{
+    text-align: center;
+    margin-top:0.25rem;
+}
+.cehua .incehua > ul > li  ul li{
+    float:left;
+    width:33.33%;
+    height:0.8rem;
+}
+.cehua .incehua > ul > li  ul li p{
+    height:0.45rem;
+    line-height: 0.45rem;
+    width:1.52rem;
+    border:1px solid #fff;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+.cehua .incehua > ul > li  ul li .butong{
+    background: #FFB730;
+}
+.hyyqd{
+    width:100%;
+    height:7%;
+}
+.hyyqd section{
+    float:left;
+    margin:0 auto;
+    width:1.8rem;
+    height:0.72rem;
+    background: #fff;
+    border-radius: 0.65rem;
+    text-align: center;
+    margin:0 0.45rem;
+}
+.hyyqd section p{
+    color: #FFB730;
+}
+.hyyqd span{
+    margin:0 auto;
+    width:1.8rem;
+    height:0.72rem;
+    color: #FFB730;
+}
+.bai{
+    background:#fff;
+    position:absolute;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    z-index: 111;
+}
+.left {
+    left: -6rem !important;
+}

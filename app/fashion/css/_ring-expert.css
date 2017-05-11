@@ -1,0 +1,362 @@
+@import url("common.css");
+
+body{
+	background-color: #f2f2f2;
+}
+/*标题*/
+._ring-jl{
+	width: 100%;
+	height: .7rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._back-jl{
+	margin-left: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+._ring-title-jl{
+	font-size: .36rem;
+	color: #fff;
+}
+._share-jl{
+	margin-right: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+/*栏目*/
+._column-jl{
+	width: 100%;
+	height: .9rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+._dynamic-jl{
+	width: 3.17rem;
+	height: .7rem;
+	border-radius: .7rem .4rem .4rem .7rem;
+	background-color: #fff;
+	text-align: center;
+	border: .02rem solid #fff;
+	box-sizing: border-box;
+}
+._dynamic-jl p{
+	font-size: .24rem;
+	color: #32acff;
+}
+._expert-jl{
+	width: 3.17rem;
+	height: .7rem;
+	border-radius: .4rem .7rem .7rem .4rem;
+	background-color: #fff;
+	text-align: center;
+	border: .02rem solid #fff;
+	box-sizing: border-box;
+}
+._expert-jl p{
+	font-size: .24rem;
+	color: #32adff;
+}
+/*栏目选中*/
+._selected-column-jl{
+	background-color: #32adff;
+}
+._selected-column-jl p{
+	color: #fff;
+}
+/*轮播*/
+.swiper-container{
+	width: 100%;
+	height: 3.6rem;
+}
+.swiper-wrapper img{
+	width: 100%;
+}
+
+/*专家s*/
+._columns-jl{
+	width: 7.04rem;
+	height: 1.63rem;
+	background-color: #fff;
+	margin: .5rem auto 0;
+	border-radius: .06rem;
+	padding: .1rem .15rem .1rem .1rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._left-imgs-jl{
+	width: 1.41rem;
+	height: 1.42rem;
+	box-shadow: 0 0 0.16rem 0 rgba(27,100,199,.6);
+	border: .02rem solid #fff;
+	border-radius: .1rem;
+}
+._left-imgs-jl img{
+	width: 100%;
+	border-radius: .1rem;
+}
+._right-content-jl{
+	width: 5rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #888;
+}
+._r-top-jl{
+	font-size: .28rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._column-name-jl{
+	color: #393939;
+}
+._like-jl{
+	color: #32abff;
+	font-size: .36rem;
+}
+._describe-jl{
+	font-size: .2rem;
+	color: #919191;
+}
+._member-jl{
+	font-size: .2rem;
+	color: #919191;
+}
+._lines-1-jl{
+	width: 4.96rem;
+	border-top: .01rem dashed #9f9f9f;
+}
+._operation-jl{
+	padding: 0.05rem;
+	display: flex;
+}
+._operation-jl li{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #aaa;
+	font-size: 0.24rem;
+}
+._operation-jl li:first-of-type{
+	border-right: .01rem dashed #9f9f9f;
+}
+._line-jl{
+	margin: 0 .1rem;
+	height: .16rem;
+	border-right: .01rem dashed #9f9f9f;
+}
+._liked-jl{
+	color: #ffb730;
+	font-size: .26rem;
+}
+._loved-jl{
+	color: #4d9dff;
+}
+/*底部固定栏*/
+._bottombar-jl{
+	width: 100%;
+	height: .98rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -4px 6px 0 rgba(0,0,0,.2);
+	z-index: 100;
+	background-color: #fff;
+	font-size: .24rem;
+}
+._sec-jl .iconfont{
+	font-size: .5rem;
+}
+._sec-jl{
+	text-align: center;
+	color: #5a5a5a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: .24rem;
+}
+/*选中状态*/
+._selected-jl{
+	color: #32c7ff;
+}
+/*滚动条*/
+._header-jl{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#_wrapper{
+	position: absolute;
+	z-index: 1;
+	top: 1.6rem;
+	bottom: .98rem;
+	left: 0;
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+#_scroller{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+/*专家、动态*/
+._ring-dynamic,._ring-expert{
+	display: none;
+}
+._show-jl{
+	display: block;
+}
+
+/*动态*/
+div.swiper-container-horizontal > div.swiper-pagination-bullets{
+	position: relative;
+    top:-0.6rem;
+    left: 6rem;
+    width: 2rem;
+}
+
+div.swiper-container-horizontal > div.swiper-pagination-bullets .swiper-pagination-bullet{
+    float: left;
+	width:0.1rem;
+	height: 0.1rem;
+	border-radius: 0.05rem;
+	background: #35CEF7;
+	float: left;
+    display: block;
+    font-size: 0;
+    opacity: 1;
+}
+div.swiper-container-horizontal > div.swiper-pagination-bullets .swiper-pagination-bullet-active{
+	width: 0.2rem;
+}
+
+/*动态内容*/
+._dynamic-content-jl{
+	width: 7.02rem;
+	height: 3rem;
+	border: .01rem solid rgba(0,0,0,.05);
+	box-shadow: 0 .06rem .16rem rgba(0,0,0,0.1);
+	background-color: #fff;
+	margin: .4rem auto 0;
+	border-radius: .08rem;
+	padding: 0.1rem .25rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+/*顶*/
+._d-c-top{
+	width: 100%;
+	height: .8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._d-c-t-head{
+	display: flex;
+	align-items: center;
+}
+._dy-head-jl{
+	width: .62rem;
+	height: .62rem;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.1);
+	box-shadow: 0 0 0 .04rem rgba(0,0,0,.1);
+	margin-right: .2rem;
+}
+._dy-head-jl img{
+	width: 100%;
+	display: block;
+}
+._column-name-jl{
+	color: #3d3d3d;
+	font-size: .24rem;
+}
+._dy-time-jl{
+	color: rgba(61,61,61,.3);
+	font-size: .22rem;
+}
+._aatention-jl{
+	color: #888;
+	font-size: .22rem;
+}
+._like-jl{
+	color: #32abff;
+	font-size: .26rem;
+}
+._splitters1-jl{
+	width: 100%;
+	border-top: .01rem dashed #bfbfbf;
+	margin: .04rem 0;
+}
+/*中*/
+._d-c-middle{
+	display: flex;
+	align-items: center;
+}
+._d-c-m-img-jl{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+._d-c-m-img-jl img{
+	width: 100%;
+}
+._dy-text-content-jl{
+	width: 4.44rem;
+	margin-left: .2rem;
+}
+._dy-title-jl{
+	color: #454545;
+	font-size: .28rem;
+}
+._splitters2-jl{
+	width: 100%;
+	border-top: .01rem solid #32abff;
+	position: relative;
+	margin: .05rem 0;
+}
+._splitters2-con-jl{
+	width: .32rem;
+	height: .03rem;
+	background-color: #32abff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+._dy-text-jl{
+	color: #898989;
+	font-size: .22rem;
+	overflow: hidden;
+}
+._splitters3-jl{
+	width: 100%;
+	border-top: .01rem dashed #bfbfbf;
+	margin: .04rem 0;
+}
+/*下*/
+._d-c-bottom{
+	display: flex;
+	justify-content: space-between;
+	color: #797777;
+	font-size: .2rem;
+}
+._d-c-bottom .iconfont{
+	color: #32abff;
+	font-size: .26rem;
+}

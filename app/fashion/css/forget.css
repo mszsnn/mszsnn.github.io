@@ -1,0 +1,129 @@
+﻿*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body{
+	background:#f2f2f2;
+}
+.top{
+	width:100%;
+	height:0.88rem;
+	background: #32acff;
+}
+.left{
+	float: left;
+	font-size: 0.42rem;
+	color:#f2f2f2;
+	line-height: 0.88rem;
+	margin-left: 0.28rem;
+}
+.top p{
+	float: left;
+	margin-top:0.24rem;
+	margin-left: 31%;
+	color:#f2f2f2 ;
+	font-weight: none;
+	font-size:0.32rem;
+}
+.onebac{
+	width:100%;
+	height:0.8rem;
+	margin-top:0.2rem;
+	background: #fff;
+	position:relative;
+
+}
+.onebac > img{
+	width:0.8rem;
+	height:0.7rem;
+	position:absolute;
+	top:0.1rem;
+	left:0.1rem;
+}
+.twobac > img{
+	width:0.7rem;
+	height:0.6rem;
+	position:absolute;
+	top:0.16rem;
+	left:0.2rem;
+	
+}
+.one{
+	float: right;
+	border: none;
+	width:86%;
+	height:0.8rem;
+	color:darkgray;
+}
+.insert{
+	width:100%;
+	height:0.7rem;
+	font-size:0.2rem;
+	line-height: 0.7rem;
+	padding-left: 0.4rem;
+}
+.insert span{
+	color:#fdce4d;
+}
+.twoba{
+	width:100%;
+	height:0.8rem;
+}
+.twobac{
+	width:70%;
+	height:0.8rem;
+	background: #fff;
+	float:left;
+	position:relative;
+	
+}
+.two{
+	float:left;
+	float: right;
+	border: none;
+	width:80%;
+	height:0.8rem;
+	color:darkgray;
+}
+.yan{
+	float: right;
+	width:26%;
+	height:0.8rem;
+	font-size:0.28rem;
+	background: #fdce4d;
+	border-radius: 0.08rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin-right: 0.14rem;
+	color:#fff;
+}
+.md{
+	width:100%;
+	height:0.8rem;
+	margin-top:0.2rem;
+	background: #fff;
+	position:relative;
+
+}
+.md > img{
+	width:0.8rem;
+	height:0.7rem;
+	position:absolute;
+	top:0.1rem;
+	left:0.1rem;
+	
+}
+.liji{
+	display: block;
+	width:60%;
+	height:0.8rem;
+	background: #32ACFF;
+	font-size:0.30rem;
+	margin:0 auto;
+	margin-top:0.4rem;
+	border-radius: 0.12rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.8rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" href="css/H-selectcity.css" />
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script src="js/iscroll.js"></script>
+		<title>选择城市</title>		
+	</head>
+	<body>
+		<div id="header">
+			<header>
+				<div class="H-header-top">
+					<a href="index.html">&#xe63d;</a>
+					<span>选择城市</span>
+				</div>
+				<div class="H-header-bottom">
+					<input type="text" value="&#xe604; 搜索商品"/>
+				</div>
+			</header>
+		</div>		
+		
+		<div id="wrapper">
+			<div id="scroller">
+				<!--定位城市-->
+				<section class="H-localcity ">
+					<p>定位城市</p>
+					<div class="city active">太原</div>
+				</section>
+				<!--热门城市-->
+				<section class="H-hotcity">
+					<p>热门城市</p>
+					<div class="city">上海</div>
+					<div class="city">北京</div>
+					<div class="city">广州</div>
+					<div class="city">杭州</div>
+					<div class="city">深圳</div>
+					<div class="city">武汉</div>
+					<div class="city">成都</div>
+					<div class="city">重庆</div>
+					<div class="city">西安</div>
+				</section>
+			</div>
+		</div>
+		<script>
+			$(function(){
+				$(".city").on("touchstart",function(){
+					$(".city").removeClass('active')
+					$(this).addClass('active');
+					location.href="index.html";
+				})
+				
+				$('.H-header-bottom input').on("touchstart",function(){
+					location.href="hyy-search.html";
+				})
+
+				var myScroll=new IScroll('#wrapper',{click:true,monuseWheel:true,});
+
+			})
+		</script>
+	</body>
+</html>

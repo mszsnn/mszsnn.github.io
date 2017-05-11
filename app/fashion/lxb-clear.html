@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="x5-orientation" content="portrait | landscape" />
+        <meta name="screen-orientation" content="portrait">
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="full-screen" content="yes">
+        <meta name="format-detection" content="telephone=no, email=no" />
+		<title>设置</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" href="css/set.css" />
+		<script type="text/javascript" src="js/demo.js"></script>
+		<script src="js/jquery.min.js">
+		</script>
+	</head>
+	<body>
+		<div class=top>
+			<a	href="javascript:window.history.go(-1)" class="iconfont left">&#xe63d;</a>
+			<p>设置</p>
+		</div>
+		<div class=shou>
+			<p>收货地址</p>
+			<div class="iconfont right">&#xe633;</div>
+		</div>
+		<a href="lxb-revisephone.html" class=xius>
+			<p>修改手机号</p>
+			<div class="iconfont right">&#xe633;</div>
+		</a>
+		<a href="lxb-forget.html"class=xium>
+			<p>修改密码</p>
+			<div class="iconfont right">&#xe633;</div>
+		</a>
+		<div class=xius>
+			<p>通知设置</p>
+			<div class=opens>关  开<div class="circle"></div></div>
+		</div>
+		<div class=xium>
+			<p>夜间模式</p>
+			<div class=opens>关  开<div class=circle></div></div>
+		</div>
+		
+		
+		<div class=xius>
+			<p>版本更新</p>
+			<div class="iconfont right">&#xe633;</div>
+		</div>
+		<div class=xium>
+			<p>关于我们</p>
+			<div class="iconfont right">&#xe633;</div>
+		</div>
+			<a href="lxb-advice.html" class=xius>
+			<p>意见反馈</p>
+			<div class="iconfont right">&#xe633;</div>
+		</a>
+			
+	</div>
+		<div class=huancun>
+			<p>缓存清理</p>
+			<div class="iconfont right">&#xe633;</div>
+		</div>
+		
+		<a href="jxh-login.html" class=liji>退出登录</a>
+		
+		<div class="zhe active"></div>
+		
+		<div class='clear active'>
+			<div class=up>清理缓存</div>
+			<div class=mid>
+					<p>为您检测到有50M缓存，再次预览时会重新加载</p>
+			</div>
+			<div class=down>
+				<ul>
+					<li class=sure>确定</li>
+					<li class=no>取消</li>
+				</ul>
+			</div>
+		</div>
+	<script>
+		$(function(){
+
+			var no=document.querySelector(`.down > ul > li.no`);
+			var clear=document.querySelector(`.clear`)
+			var zhe=document.querySelector(`.zhe`)
+			no.addEventListener('touchend',function(){
+				$(clear).addClass(`active`);
+				$(zhe).addClass(`active`)
+			})
+			
+			document.querySelector('.sure').addEventListener('touchend',function(){
+				$(clear).addClass(`active`);
+				$(zhe).addClass(`active`)
+			})
+
+			document.querySelector(".huancun").addEventListener('touchend',function(){
+				$(clear).removeClass(`active`);
+				$(zhe).removeClass(`active`)
+			})
+			$('.opens').each(function(index,value){
+				var now=$(value);
+				value.addEventListener("touchend",function(){
+					now.toggleClass('open_di').find(".circle").toggleClass("open_circle");
+				})
+			})
+		})
+		
+		
+		
+		
+	</script>
+	</body>
+	
+	
+</html>

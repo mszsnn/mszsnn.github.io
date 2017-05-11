@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/jxh-login.css"/>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    
+</head>
+<body>
+	<section id="top-nav">
+		<div class="cancel"><a href="index.html">取消</a></div>
+	    <div class="sign-in"><a href="jxh-sign-in.html">快速注册</a></div>	
+	</section>
+	<section class="head-por">
+		<a href="javascript:;"><img src="img/head-por.png" alt="" /></a>
+	</section>
+	<section class="form-box">
+		<form action="" method="post">
+			<div class="account">
+				<label for=""></label><input type="text" name="" id="" placeholder="请输入你的账号/手机号"/>
+				<div class="success-icon"><img src="img/sucuss_03.png"></div>
+				<div class="success-icon1"><img src="img/cuo-icon_03.png"></div>
+				
+			</div>
+			<div class="password">
+				<label for=""></label><input type="password" name="" id="" placeholder="请输入你的密码"/>
+				<a href="jxh-sign-in.html">忘记密码</a>
+				<div class="yan"><img src="img/sucuss_07.png"/></div>
+			</div>
+			<div class="login">
+				<input type="button" />
+			</div>
+		</form>
+	</section>
+	<section class="shan-login"></section>
+	<section class="shan-login-tb">
+		<ul>
+			<li><a href="javascript:;"><img src="img/qq.png"/><span>QQ登录</span></a></li>
+			<li><a href="javascript:;"><img src="img/weixin.png"/><span>微信登录</span></a></li>
+			<li><a href="javascript:;"><img src="img/weibo.png"/><span>微博登录</span></a></li>
+			
+		</ul>
+	</section>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+	var zhanghao=$('.account input');
+		var pass=$('.password input');
+		console.log(zhanghao);
+		console.log(pass);
+		    zhanghao.blur(function(){
+		    	if(zhanghao.val()=='18435105873'){
+		    		$('.success-icon1').css('display','none');
+		    		$('.success-icon').css('display','block');
+		    	}
+		    	else{
+		    		$('.success-icon').css('display','none');
+		    		$('.success-icon1').css('display','block');
+		    	}
+		    })
+		    pass.keydown(function(){
+		    	$('.yan').css('display','block');
+		    	if(pass.val()==''){
+		    		console.log(1);
+		    		$('.yan').css('display','none');
+		    	}
+		    })
+		    zhanghao.blur(function(){
+		    	if(zhanghao.val()=='18435105873'){
+		    		$('.success-icon1').css('display','none');
+		    		$('.success-icon').css('display','block');
+		    	}
+		    	else{
+		    		$('.success-icon').css('display','none');
+		    		$('.success-icon1').css('display','block');
+		    	}
+		    })
+			$('.login input').on('touchend',function(){
+				if(zhanghao.val()=='18435105873'){
+					$(this).css('background','url(img/yanzheng-icon_09.png)')
+					location.href='index.html';
+					if(zhanghao.val()!='18435105873'){
+						$('.success-icon1').css('display','block');
+					}
+   				}
+				
+			})
+})
+		
+	
+
+</script>

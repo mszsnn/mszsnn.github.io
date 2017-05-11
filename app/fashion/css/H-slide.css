@@ -1,0 +1,99 @@
+.H-slide{
+	width: 5.36rem;
+	height: 100%;
+}
+.H-slide-top{
+	width: 5.36rem;
+	height: 5.36rem;
+	background-image: url(../img/H-slide-bg.png);
+	background-size: 100%;
+	text-align: center;
+}
+.H-slide-top > img{
+	width: 1.5rem;
+	border-radius: 50%;
+	margin-top: 1rem;
+}
+.H-slide-top .H-personal-name{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.H-slide-top .H-personal-ename{
+	font-size: 0.3rem;
+	color: #fff;
+	margin-top: 0.1rem;
+}
+.H-slide-top .H-personal-level{
+	height: 0.5rem;
+	line-height: 0.2rem;
+	letter-spacing: -0.1rem;
+}
+.H-slide-top .H-personal-level span{
+	font-family: 'iconfont';
+	font-size: 0.36rem;
+}
+.H-slide-top .H-personal-level span.H-fill{
+	color: #fdba3c;
+}
+.H-slide-top .H-personal-level span.H-stroke{
+	color: #fff;
+}
+.H-personal-mess{
+	display: flex;
+	font-size: 0.24rem;
+	justify-content: center;
+	color: #fff;
+	height: 0.6rem;
+	margin-top: 0.3rem;
+}
+.H-personal-mess img{
+	margin:0 0.5rem;
+}
+.H-personal-mess div:nth-child(3){
+	font-size: 0.24rem;
+	margin:0 0.1rem;
+}
+.H-personal-mess div p:last-child{
+	margin-top: 0.02rem;
+}
+
+.H-slide-list{
+	display: flex;
+	justify-content: space-around;
+	font-size: 0.28rem;
+	text-align: center;
+	margin-top: 0.2rem;	
+}
+.H-slide-list > img{
+	width: 0.01rem;
+	height: 1rem;
+	margin-top: 0.35rem;
+	margin-left: -0.02rem;
+}
+.H-slide-list div p{
+	width: 2rem;
+}
+.H-slide-list div p  img{
+	width: 0.8rem;
+	margin-top: 0.3rem;
+}
+.H-slide-list div p:nth-child(2){
+	margin-top: 0.2rem;
+}
+
+/*设置*/
+.H-slide-set{
+	margin-top: 1.5rem;
+}
+.H-slide-set p.H-set-left{
+	float: left;
+	font-size: 0.3rem;
+	font-family: 'iconfont';
+	margin-left: 0.25rem;
+}
+.H-slide-set p.H-set-right{
+	float: right;
+	font-size: 0.3rem;
+	font-family: 'iconfont';
+	margin-right: 0.25rem;
+}

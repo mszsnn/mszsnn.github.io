@@ -1,0 +1,124 @@
+body{
+    background: #f2f2f2;
+}
+*{
+    font-size:0.24rem;
+}
+/*导航开始*/
+nav{
+    height:0.88rem;
+    width:100%;
+    background-image: url("../img/hyynav.png");
+    background-size: 100%;
+    text-align:center;
+    line-height: 0.88rem;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+nav>a{
+	display: block;
+}
+
+nav img.hyyjt{
+    width:0.6rem;
+    position: absolute;
+    left:0.24rem;
+    top:0.1rem;
+}
+nav img.hyyss{
+    width:0.6rem;
+    position: absolute;
+    right:0.24rem;
+    top:0.17rem;
+}
+nav p{
+    font-size: 0.36rem;
+    color:#fff;
+}
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: .88rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+#scroller div.hyyk {
+    width:7.02rem;
+    height:4.23rem;
+    margin:0 auto;
+}
+#scroller div.hyyk .hyytitle{
+    width:100%;
+    height:0.79rem;
+}
+
+#scroller div.hyyk .hyytitle img{
+    width:1.2rem;
+    margin-top:0.22rem;
+}
+#scroller div.hyyk .hyybig{
+    width:100%;
+    height:3.44rem;
+    background:#fff;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+}
+
+#scroller div.hyyk .hyybig>li>a{
+	display: block;
+	color: #232323;
+}
+
+#scroller div.hyyk .hyybig1{
+    width:100%;
+    height:1.72rem;
+    background:#fff;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#scroller div.hyyk .hyybig .hx{
+    width:100%;
+    position: absolute;
+    top:1.83rem;
+    left:0;
+}
+#scroller div.hyyk .hyybig .sx1{
+    height:100%;
+    position: absolute;
+    top:0;
+    left:2.3rem;
+}
+#scroller div.hyyk .hyybig .sx2{
+    height:100%;
+    position: absolute;
+    top:0;
+    left:4.64rem;
+}
+#scroller div.hyyk .hyybig li{
+    float:left;
+    height:1.66rem;
+    width:2.3rem;
+    margin-left:0.03rem;
+    margin-top:0.02rem;
+}
+#scroller div.hyyk .hyybig li img{
+    width:60%;
+}
+#scroller div.hyyk .hyybig li p{
+    line-height:0.1rem;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<title>会话</title>
+		<link rel="stylesheet" type="text/css" href="css/_chat-jl.css"/>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.slides.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--
+        	作者：948962131@qq.com
+        	时间：2017-05-03
+        	描述：标题
+        -->
+		<div class="_header-jl">
+			<div class="_ring-jl">
+				<a class="_back-jl iconfont" href="javascript:window.history.go(-1)">&#xe63d;</a>
+				<a class="_chat-name-jl" href="javescript:;">高雨欣</a>
+				<a class="_share-jl iconfont" href="javescript:;"></a>
+			</div>
+		</div>
+		<!--
+        	作者：948962131@qq.com
+        	时间：2017-05-03
+        	描述：滚动条
+        -->
+		<div id="_wrapper">
+			<div id="_scroller">
+				<div>
+					<ul class="_chat-textarea-jl">
+						<li class="_chat-gyx-jl">
+							<a href="H-personal.html"><img src="img/chat-gyx.png" alt="" /></a>
+							<p>我们这沙发，666的
+								<span class="_chatbg-jl"></span>
+							</p>
+						</li>
+						<li class="_chat-me-jl">
+							<a href="H-personal.html"><img src="img/chat-me.png" alt="" /></a>
+							<p>是吗？这个价格有点低
+								<span class="_chatbg-jl _chatbg-me-jl"></span>
+							</p>
+						</li>
+						<li class="_chat-gyx-jl">
+							<a href="H-personal.html"><img src="img/chat-gyx.png" alt="" /></a>
+							<p class="iconfont">&#xe795;
+								<span class="_chatbg-jl"></span>
+							</p>
+							<span class="_voice-time-jl">5″</span>
+						</li>
+						<li class="_chat-me-jl">
+							<a href="H-personal.html"><img src="img/chat-me.png" alt="" /></a>
+							<p>
+								<span class="_textarea-img1-jl"><img src="img/chat-content-img1.png" alt="" /></span>
+								<span class="_chatbg-jl _chatbg-me-jl"></span>
+							</p>
+						</li>
+						<div class="_send-time-jl">18:30</div>
+						<li class="_chat-gyx-jl">
+							<a href="H-personal.html"><img src="img/chat-gyx.png" alt="" /></a>
+							<p>
+								<span class="_textarea-img2-jl"><img src="img/chat-content-gyx1.png" alt="" /></span>
+								<span class="_chatbg-jl"></span>
+							</p>
+						</li>
+						<li class="_chat-gyx-jl">
+							<a href="H-personal.html"><img src="img/chat-gyx.png" alt="" /></a>
+							<p>
+								<span class="_textarea-img2-jl"><img src="img/chat-content-gyx1.png" alt="" /></span>
+								<span class="_chatbg-jl"></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <!--
+    	作者：948962131@qq.com
+    	时间：2017-05-02
+    	描述：底部固定栏
+	    -->
+	    <footer class="_bottombar-jl">
+	    	<section class="_bottombar-top-jl">
+	    		<p class="iconfont">&#xe625;</p>
+	    		<input type="text" name="_chat-textarea-input-jl" id="_chat-textarea-input-jl" value="" />
+	    		<p id="_add-jl" class="iconfont">&#xe646;</p>
+	    	</section>
+	    	<section class="_bottombar-bottom-jl">
+	    		<section class="_sec-jl">
+		    		<div class="_bb-img"><img src="img/photos-jl.png" alt="" /></div>
+		    		<p>图片</p>
+		    	</section>
+		    	<section class="_sec-jl _selected-jl">
+		    		<div class="_bb-img"><img src="img/screen-captrue-jl.png" alt="" /></div>
+		    		<p>截图</p>
+		    	</section>
+		    	<section class="_sec-jl">
+		    		<div class="_bb-img"><img src="img/collect-jl.png" alt="" /></div>
+		    		<p>收藏</p>
+		    	</section>
+	    	</section>
+	    </footer>
+<script type="text/javascript">
+	$(function(){
+		//滚动条
+		var myScroll= new IScroll('#_wrapper',{
+			mouseWheel: true,
+			click: true,
+		});
+		//点击+
+		$('#_add-jl').on("touchend",function(){
+			$('._bottombar-jl').toggleClass('_ptop-jl');
+		});
+	})
+	
+</script>
+	</body>
+</html>

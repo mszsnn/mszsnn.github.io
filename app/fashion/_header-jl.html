@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<link rel="stylesheet" type="text/css" href="css/_header-jl.css"/>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+    <title></title>
+    
+</head>
+<body>
+	<!--
+    	作者：948962131@qq.com
+    	时间：2017-05-02
+    	描述：头部
+    -->
+	<header class="_topbar-jl">
+		<a class="_loction-jl iconfont" href="">&#xe627;  <span id="_loc-jl">山西</span>    &#xe71c;</a>
+		<input class="_serach-jl" type="text" placeholder="🔍搜索商品" />
+		<a class="_message-jl iconfont" href="">&#xe609;</a>
+	</header>
+	
+	<!--
+    	作者：948962131@qq.com
+    	时间：2017-05-02
+    	描述：底部固定栏
+    -->
+    <footer class="_bottombar-jl">
+    	<a href="index.html" class="_sec-jl _selected-jl">
+    		<span class="iconfont">&#xe628;</span>
+    		<p>首页</p>
+    	</a>
+    	<a href="_ring-expert.html" class="_sec-jl">
+    		<span class="iconfont">&#xe697;</span>
+    		<p>圈子</p>
+    	</a>
+    	<a href="" class="_sec-jl">
+    		<span href="" class="iconfont">&#xe600;</span>
+    		<p>购物车</p>
+    	</a>
+    	<a href="" class="_sec-jl">
+    		<span class="iconfont">&#xe60c;</span>
+    		<p>我的</p>
+    	</a>
+    </footer>
+	<script type="text/javascript">
+		$(function(){
+			$('._sec-jl').each(function(index,value){
+				console.log($(this))
+				$(this).removeClass('_selected-jl');
+				value.addEventListener('touchend',function(event){
+					event.preventDefault();
+					$(this).toggleClass('_selected-jl');
+				})
+			})
+		})
+	</script>
+</body>
+</html>

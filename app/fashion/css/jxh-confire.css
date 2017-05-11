@@ -1,0 +1,412 @@
+*{
+	padding:0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background: #f2f2f2;
+    overflow: hidden;
+}
+.top-bg{
+	height:1rem;
+	background: #32b2ff;
+	overflow: hidden;	
+}
+.indent-nav{
+	overflow: hidden;
+	height:auto;
+	margin:0 0.25rem 0 0.25rem;
+	margin-top: 0.15rem;
+}
+.indent-nav a{
+	display: block;
+	width: 0.25rem;
+	height: auto;
+	float: left;
+	
+}
+.indent-nav a img{
+	width:0.25rem;
+	display: block;
+	float:left;
+}
+.indent-nav h3{
+	float:left;
+	width:6rem;
+	text-align: center;
+	font-weight: normal;
+	color:#fff;
+	font-size:0.36rem;
+	margin: 0 auto;
+	margin-left: 0.15rem;
+}
+.state_bg{
+	background: #32b0ff;
+	overflow: hidden;
+}
+.state{
+	width:6.47rem;
+	height:1.5rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+/*	margin-top: 0.3rem;*/
+}
+
+.state li{
+	float:left;
+	width:33.3333333%;
+	position: relative;
+}
+.state li div:first-child{
+	width:100%;
+	height:0.05rem;
+	background: #fff;
+}
+.state li.indent-first div:first-child{	
+	background: #31c7ff;
+}
+.state li.indent-first div:nth-child(2){
+	color:#31c7ff;
+	font-size:0.24rem;
+	width:0.5rem;
+	height:0.3rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	text-align: center;
+	line-height:0.3rem;
+	position:absolute;
+	top:-0.1rem;
+	left:0.9rem;
+}
+.state li div:last-child{
+	color:#fff;
+	font-size:0.24rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+/*主体内容*/
+.indent-main{
+	margin:0 0.25rem 0 0.25rem;
+	background: #fff;
+	height:14rem;
+	box-shadow: 0 0 0.1rem rgba(213,213,213,0.7);
+	margin-top: -0.5rem;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+.sofa {
+	margin-top: 0.3rem;
+	overflow: hidden;
+	height:auto;
+}
+.sofa li{
+	float:left;
+	height:2rem;
+}
+.sofa li:first-child img{
+	width:3rem;
+}
+.sofa li:last-child p:first-child{
+	font-size:0.34rem;
+	
+}
+.sofa li:last-child p{
+	margin-top: 0.1rem;
+}
+.sofa li:last-child p:nth-child(2){
+	font-size:0.28rem;
+	color: #a5a5a5;
+	
+}
+.sofa li:last-child p:last-child{
+	height:auto;
+	overflow: hidden;
+	margin-top: 0.2rem;
+}
+span.sofa-price{
+	font-size:0.38rem;
+	color:#ffb11e;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+span.sofa-price + span{
+	font-size:0.28rem;
+	color:#ffb11e;
+	display: block;
+	float: left;
+	margin-top: 0.07rem;
+}
+.indent-space{
+	height: auto;
+	position:relative;
+}
+.fenge{
+	background: #e5e5e5;
+	width:6.66rem ;
+	height: 0.02rem;
+	margin: 0 auto;
+	/*border:0.0rem dashed #e5e5e5;*/
+}
+.crile-l,.crile-r{
+	width:0.26rem;
+	height: 0.26rem;
+	border-radius: 100%;
+	background: #e3e3e3;
+	position:absolute;
+	top:-0.13rem;
+}
+.crile-l{
+	left:-0.13rem;
+}
+.crile-r{
+	right:-0.13rem;
+}
+/*信息*/
+.j-message{
+	margin-top: 0.3rem;
+}
+.j-message li{
+	/*line-height:0.66rem;*/
+	height:auto;
+	overflow: hidden;
+}
+.j-message img{
+	width:0.45rem;
+}
+.j-message div{
+	float:left;
+	font-size:0.32rem;
+	color:#2b2b2b;
+	margin-left: 0.2rem;
+}
+/*地址*/
+.addren{
+	margin-top: 0.05rem;
+	margin-bottom: 0.3rem;
+}
+.addren > div{
+	font-size:0.25rem;
+	color:#a4a4a4;
+}
+.addren > div:last-child{
+	float:right;
+	margin-right: 0.4rem;
+}
+.banma-line{
+	background: url(../img/line_11.png);
+	height:0.01rem!important;
+	margin-bottom: 0.3rem;
+}
+/*优惠劵*/
+.youh > div{
+	color:#a4a4a4;
+	font-size:0.26rem;
+}
+.youh > div > span{
+	color:#59bbff;
+}
+.line2{
+	width:6.63rem;
+	height:0.02rem!important;
+	background:#e5e5e5 ;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+.youh > div:last-child{
+	float:right;
+	margin-right: 0.4rem;
+}
+.youh > div:last-child img{
+	display: block;
+	width:0.2rem!important;
+}
+/*物流*/
+.wuliu > div{
+	color:#a4a4a4;
+	font-size:0.26rem;
+	line-height: 0.35rem;
+}
+.wuliu > div:nth-child(2) ~ div > img{
+	width: 1.1rem;
+}
+.wuliu > div:nth-child(2) ~ div{
+	margin-left: 0.3rem;
+}
+.active{
+	border:1px solid #FFB11E;
+	border-radius: 4px;
+	box-sizing: border-box!important;
+}
+/*收货时间*/
+.time > div{
+	color:#a4a4a4;
+	font-size:0.26rem;
+	line-height: auto;
+}
+.data-time{
+	height: 0.38rem;
+	width: 0.45rem;
+	border: 1px solid #dcdcdc;
+	box-sizing: border-box;
+	border-radius: 0.12rem;
+	text-align: center;
+	line-height: 0.38rem;
+}	
+.time1{
+	margin-left: 0.3rem!important;
+}
+.time7{
+	background: #ffb11e;
+	color:#fff!important;
+	border:0;
+}
+/*上门安装*/
+.section{
+	width:1rem;
+	height:0.4rem;
+	border: 1px solid #dcdcdc;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 0.15rem;
+	line-height: 0.4rem!important;
+}
+
+.section2{
+    background:#ffb11e ;
+	color:#fff!important;
+	border:0;
+}
+/*发票*/
+.fap > div:last-child{
+	float:right;
+	color:#3d3d3d;
+}
+.fap > div:nth-child(3){
+	float:right;
+	margin-right: 0.4rem;
+}
+.fap > div:nth-child(3) img{
+	display: block;
+	width:0.2rem!important;
+}
+.secend{
+	margin-top: 0.3rem;
+}
+.desc{
+	width:5.6rem;
+	height:auto;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+.desc li{
+	color:#d1d1d1;
+	font-size: 0.26rem;
+	margin-top: 0.1rem;
+}
+.desc li:first-child{
+	margin-top: 0.3rem;
+}
+.desc li:nth-child(4){
+	margin-top: 0.2rem;
+}
+.desc-more{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.desc-more div{
+	float:left;
+}
+.desc-more div:first-child{
+	color:#ffb11e;
+	font-size:0.65rem;
+	position:relative;
+}
+.desc-more div:first-child:after{
+	content:"";
+	width:0.4rem;
+	height:0.02rem;
+	background: #ffb11e;
+	display: block;
+     position:absolute;
+     bottom:0rem;
+     left:0;
+     z-index: 10000;	
+}
+.desc-more div:nth-child(2){
+	position:relative;
+	margin-left: 0.4rem;
+	margin-right: 0.1rem;
+}
+.desc-more div:nth-child(2):after{
+	content:"";
+	width:0.02rem;
+	height:0.5rem;
+	background: #e6e6e6;
+	display: block;
+     position:absolute;
+     bottom:0.05rem;
+     left:-0.2rem;
+     z-index: 10000;	
+}
+.desc-more div:nth-child(2) p:first-child{
+	margin-top: 0.1rem;
+}
+.desc-more div:last-child{
+	color:#e9e9e9;
+	font-size:0.6rem;
+}
+.desc li:last-child span{
+	color:#ffb11e;
+}
+/*结算*/
+.jie-account{
+	background: #ffb11e;
+	height:1rem;
+	width:100%;
+	overflow: hidden;
+}
+.jie-account a{
+	display: block;
+    width:100%;
+    height:100%;
+}
+.jie-account p{
+	text-align: center;
+	color:#fff;
+}
+.jie-account p:first-child{
+	margin-top: 0.05rem;
+	font-size:0.34rem;
+}
+.jie-account p:last-child{
+	font-size:0.28rem;
+}
+
+
+#header{
+	width: 100%;
+	position: absolute;
+	top:0;
+    z-index: 1000;
+	
+}
+#wrapper{
+	width: 100%;
+	z-index: 1;
+	position:absolute;
+	top:1rem;	
+	left:0;
+	overflow: hidden;
+    height:12.4rem;
+}
+#scroller{
+	position:absolute;
+	width: 100%;
+	/*height:15rem;*/
+	z-index: 1;
+}

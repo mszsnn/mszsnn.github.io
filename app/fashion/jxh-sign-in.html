@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css/jxh-sign-in.css"/>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+//  		$('.login input').click(function(){
+//  			console.log(1)
+//  			location.href='redbao.html';
+//  		});
+            $('.sign').on('touchend',function(){
+            	$('.zhec').css('display','block');
+            })
+    		$('.shade-close').click(function(){
+    			$(this).parent().css('display','none');
+  			location.href='jxh-login.html';
+    		});
+    	})
+    
+    		
+    
+    </script>
+</head>
+<body>
+	<!--遮罩-->
+	<!--<section class="shade"></section>-->
+	<section class="zhec">
+		<div class="shade"></div>
+	    <div class="redbao"></div>
+	    <div class="shade-close">
+	        <img src="img/close.png"/>
+	    </div>
+	    <div class="now-use"><a href="index.html">立即使用</a></div>
+	</section>
+	<section id="top-nav">
+		<div class="cancel"><a href="jxh-login.html">取消</a></div>
+	    <div class="sign-in"><a href="javascript:;"></a></div>	
+	</section>
+	<section class="head-por">
+		<a href="javascript:;"><img src="img/head-por.png" alt="" /></a>
+	</section>
+	<section class="form-box">
+		<form action="" method="post">
+			<div class="account">
+				<label for=""></label><input type="text" name="" id="" placeholder="请输入你的账号/手机号"/>
+			</div>
+			<div class="password">
+				<label for=""></label><input type="text" name="" id="" placeholder="请输入你的密码"/>
+				
+			</div>
+			<div class="verlfy">
+				<input type="text" name="" id="" placeholder="请输入验证码"/>
+				<input type="button" name="" id="" value="发送验证码"/>
+			</div>
+			<div class="sign">
+					<!--<label for=""></label><input type="submit" name="" id="" value=""/>-->
+			        <a href="javascript:;"></a>			 
+				
+			</div>
+		</form>
+	</section>
+</body>
+</html>

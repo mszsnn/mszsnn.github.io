@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="x5-orientation" content="portrait | landscape" />
+        <meta name="screen-orientation" content="portrait">
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="full-screen" content="yes">
+        <meta name="format-detection" content="telephone=no, email=no" />
+		<title>优惠劵</title>
+		<link rel="stylesheet" type="text/css" href="css/jxh-discount-conper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<script type="text/javascript" src="js/demo.js"></script>
+		<script src="js/iscroll.js"></script>
+	</head>
+	<body>
+		<!--
+        	作者：948962131@qq.com
+        	时间：2017-05-03
+        	描述：标题
+        -->
+		<div class="_header-jl">
+			<div class="_ring-jl">
+				<a class="_back-jl iconfont" href="javascript:window.history.go(-1);">&#xe63d;</a>
+				<a class="_ring-title-jl">优惠券</a>
+				<a class="_share-jl iconfont" href=""></a>
+			</div>
+		</div>
+		<section id="wrapper">
+			<div class="scroller">
+				<ul class="discount">
+					<li><img src="img/discount_03.png"/></li>
+					<li><img src="img/discount_06.png"/></li>
+					<li><img src="img/discount_08.png"/></li>										
+				</ul>
+				<div class="now_use"><a href="index.html">马上使用</a></div>
+			</div>
+		</section>
+	</body>
+</html>
+<script>
+	window.onload=function(){
+		var myScroll=new IScroll('#wrapper',{click:true,monuseWheel:true,});
+	}
+</script>

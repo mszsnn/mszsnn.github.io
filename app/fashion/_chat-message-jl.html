@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<title>消息列表</title>
+		<link rel="stylesheet" type="text/css" href="css/_chat-message-jl.css"/>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.slides.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/hammer.js"></script>
+		<script type="text/javascript" src="js/_chat-message-jl.js"></script>
+	</head>
+	<body>
+		<!--
+        	作者：948962131@qq.com
+        	时间：2017-05-03
+        	描述：标题
+        -->
+		<div class="_header-jl">
+			<div class="_ring-jl">
+				<a class="_back-jl iconfont" href="javascript:window.history.go(-1)">&#xe63d;</a>
+				<a class="_chat-name-jl" href="javascript:;">消息</a>
+				<a class="_share-jl iconfont" href="javascript:;"></a>
+			</div>
+		</div>
+		<!--
+        	作者：948962131@qq.com
+        	时间：2017-05-03
+        	描述：滚动条
+        -->
+		<div id="_wrapper">
+			<div id="_scroller">
+					<!--
+                    	作者：948962131@qq.com
+                    	时间：2017-05-07
+                    	描述：消息列表
+                    -->
+                    <ul class="_chat-message-jl">
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message1-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">刘慧涛</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_csign-jl">04</span>
+                    		</div>
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message2-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">高雨欣</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_voice-sign-jl iconfont">&#xe795;</span>
+                    		</div>
+                    		
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message3-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">马恒飞</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_voice-sign-jl iconfont">&#xe619;</span>
+                    		</div>
+                    		
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message4-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">高职</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_csign-jl _chat-signup-jl">离线</span>
+                    		</div>
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message1-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">刘慧涛</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_csign-jl">04</span>
+                    		</div>
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message2-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">高雨欣</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_voice-sign-jl iconfont">&#xe795;</span>
+                    		</div>
+                    		
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message3-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">马恒飞</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_voice-sign-jl iconfont">&#xe619;</span>
+                    		</div>
+                    		
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message4-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">高职</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_csign-jl _chat-signup-jl">离线</span>
+                    		</div>
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message1-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">刘慧涛</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_csign-jl">04</span>
+                    		</div>
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message2-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">高雨欣</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_voice-sign-jl iconfont">&#xe795;</span>
+                    		</div>
+                    		
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message3-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">马恒飞</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_voice-sign-jl iconfont">&#xe619;</span>
+                    		</div>
+                    		
+                    	</li>
+                    	<li>
+                    		<div class="_display">
+                    			<div class="_delete-rect-jl">
+	                    			<span class="iconfont">&#xe692;</span>
+	                    			<span>删除</span>
+	                    		</div>
+	                    		<div class="_collect-rect-jl">
+	                    			<span class="iconfont">&#xe61f;</span>
+	                    			<span>收藏</span>
+	                    		</div>
+                    		</div>
+                    		<div class="_li">
+                    			<a href="_chat-jl.html" class="_chat-mbg-jl"><img src="img/chat-message4-jl.png" alt="" /></a>
+	                    		<div class="_chat-content-jl">
+	                    			<h6 class="_cname-jl">高职</h6>
+	                    			<p class="_ccon-jl">今天，经过约2个半小时的垂直转运，长征七号</p>
+	                    		</div>
+	                    		<span class="_csign-jl _chat-signup-jl">离线</span>
+                    		</div>
+                    	</li>
+                    </ul>
+			</div>
+		</div>
+	</body>
+</html>

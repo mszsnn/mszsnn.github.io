@@ -1,0 +1,56 @@
+@import url("jxh-sign-in.css");
+.shade{
+	position:absolute;
+    top:0;
+	left:0;
+	width:100%;
+	height:13.34rem;
+	z-index: 100;
+	background:rgba(37,71,94,0.5);
+	display:block;
+}
+.redbao{
+	position:absolute;
+	top:3.8rem;
+	left:1.25rem;
+	margin: 0 auto;
+	z-index:30000;
+	width:4.95rem;
+	height:6.39rem;
+	background: url(../img/redbao.png);
+	background-size:cover ;
+}
+.shade-close{
+	position:absolute;
+	right:1rem;
+	top:1.5rem;
+	z-index: 500000;
+}
+.shade-close img{
+	width:0.6rem;
+}
+.now-use{
+	position:absolute;	
+    left:1.25rem;
+    bottom: 1.5rem;
+	width:4.82rem;
+	height:0.7rem;
+	z-index: 500001;
+	background: #fa264d;
+	border-radius: 0.4rem;
+	
+}
+.now-use a{
+	display: block;
+	font-size:0.3rem;
+	color:#fff1f4;
+	text-align: center;
+	height:100%;
+	line-height:0.7rem;
+	font-family: '苹方’';
+}
+
+.sign input{
+	background:url(../img/yanzheng-icon_09.png);
+	background-size:cover ;
+}

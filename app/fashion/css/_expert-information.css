@@ -1,0 +1,268 @@
+@import url("common.css");
+
+body{
+	background-color: #f2f2f2;
+	font-size: .12rem;
+	overflow: hidden;
+}
+/*标题*/
+._ring-jl{
+	width: 100%;
+	height: .88rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._back-jl{
+	margin-left: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+._ring-title-jl{
+	font-size: .36rem;
+	color: #fff;
+}
+._share-jl{
+	margin-right: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+/*bgcolor*/
+._bgcolor-jl{
+	background-color: #f2f2f2;
+}
+/*动态内容*/
+
+
+._expert-information-jl{
+	width: 100%;
+	height: 4rem;
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+._expert-head-jl{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	margin-top: .2rem;
+}
+._expert-head-jl img{
+	width: 100%;
+}
+._expert-name-jl{
+	font-size: .3rem;
+	color: #787878;
+	margin-top: .3rem;
+}
+._expert-win-jl{
+	font-size: .24rem;
+	color: #3f3f3f;
+	margin-top: .2rem;
+}
+._expert-member-jl{
+	font-size: .24rem;
+	color: #3f3f3f;
+}
+._expert-describe-jl{
+	font-size: .22rem;
+	color: #919191;
+	margin-top: .1rem;
+}
+._expert-menu-jl{
+	width: 4.1rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: .2rem;
+}
+._expert-menu-jl li{
+	width: 1.94rem;
+	height: .72rem;
+	border-radius: .08rem;
+	background-color: #fff;
+	color: #31c2ff;
+	border: .02rem solid #31c2ff;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .24rem;
+}
+/*选中*/
+._expert-menu-jl ._selected-expert-jl{
+	background-color: #31c2ff;
+	color: #fff;
+}
+
+
+._dynamic-content-jl{
+	width: 7.02rem;
+	height: 3rem;
+	border: .01rem solid rgba(0,0,0,.05);
+	box-shadow: 0 .06rem .16rem rgba(0,0,0,0.1);
+	background-color: #fff;
+	margin: .4rem auto 0;
+	border-radius: .08rem;
+	padding: 0.1rem .25rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+/*顶*/
+._d-c-top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._d-c-t-head{
+	display: flex;
+	align-items: center;
+}
+._dy-head-jl{
+	width: .62rem;
+	height: .62rem;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.1);
+	box-shadow: 0 0 0 .04rem rgba(0,0,0,.1);
+	margin-right: .2rem;
+}
+._dy-head-jl img{
+	width: 100%;
+}
+._column-name-jl{
+	color: #3d3d3d;
+	font-size: .24rem;
+}
+._dy-time-jl{
+	color: rgba(61,61,61,.3);
+	font-size: .22rem;
+}
+._aatention-jl{
+	color: #888;
+	font-size: .22rem;
+}
+._like-jl{
+	color: #ffb730;
+	font-size: .26rem;
+}
+._splitters1-jl{
+	width: 100%;
+	border-top: .01rem dashed #bfbfbf;
+	margin: .04rem 0;
+}
+
+._d-c-middle-1{
+	display: block;
+}
+
+/*中*/
+._d-c-middle{
+	display: flex;
+	align-items: center;
+}
+._d-c-m-img-jl{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+._d-c-m-img-jl img{
+	width: 100%;
+}
+._dy-text-content-jl{
+	width: 4.44rem;
+	margin-left: .2rem;
+}
+._dy-title-jl{
+	color: #454545;
+	font-size: .28rem;
+}
+._splitters2-jl{
+	width: 100%;
+	border-top: .01rem solid #32abff;
+	position: relative;
+	margin: .05rem 0;
+}
+._splitters2-con-jl{
+	width: .32rem;
+	height: .03rem;
+	background-color: #32abff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+._dy-text-jl{
+	color: #898989;
+	font-size: .22rem;
+	overflow: hidden;
+}
+._splitters3-jl{
+	width: 100%;
+	border-top: .01rem dashed #bfbfbf;
+	margin: .04rem 0;
+}
+/*下*/
+._d-c-bottom{
+	display: flex;
+	justify-content: space-between;
+	color: #797777;
+	font-size: .2rem;
+}
+._d-c-bottom .iconfont{
+	color: #32abff;
+	font-size: .26rem;
+}
+
+/*底部固定栏*/
+._bottombar-jl{
+	width: 100%;
+	height: .98rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 -4px 6px 0 rgba(0,0,0,.2);
+	z-index: 100;
+	background-color: #fff;
+}
+._bottombar-jl .iconfont{
+	font-size: .5rem;
+}
+._sec-jl{
+	text-align: center;
+	color: #5a5a5a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*选中状态*/
+._selected-jl{
+	color: #32c7ff;
+}
+/*滚动条*/
+._header-jl{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#_wrapper{
+	position: absolute;
+	z-index: 1;
+	top: .88rem;
+	bottom: .98rem;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+#_scroller{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	
+}

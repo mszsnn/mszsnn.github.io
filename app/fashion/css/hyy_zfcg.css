@@ -1,0 +1,154 @@
+body{
+    background: #f2f2f2;
+}
+*{
+    font-size:0.24rem;
+}
+
+/*头部*/
+header{
+    height:4.06rem;
+    width:100%;
+    background-image: url('../img/hyybgz.png');
+    text-align: center;
+    position: absolute;
+    left:0;
+    top:0;
+}
+header img{
+    width:1.4rem;
+    margin-top:0.5rem;
+}
+header h4{
+    color:#fff;
+    font-size:0.48rem;
+}
+header p{
+    color:#fff;
+}
+header div{
+    width:65%;
+    height:0.8rem;
+    text-align: center;
+    margin:0 auto;
+}
+header div span{
+    display:block;
+    width:2rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    border-radius: 20px;
+    float:left;
+    margin-left:0.3rem;
+    margin-top:0.2rem;
+    color:#32ACFF;
+    background: #fff;
+    font-weight: 600;
+}
+/*优惠券*/
+section{
+    height:2.82rem;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:4.06rem;
+}
+section img{
+    margin-top:0.2rem;
+    width:100%;
+}
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 6.88rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height:600px;
+}
+/*推荐*/
+#scroller div.recommend{
+    height:5.6rem;
+    width:100%;
+    background:#fff;
+    margin-top:0.3rem;
+}
+div.recommend .headline{
+    width:7.02rem;
+    height:1rem;
+    margin:0 auto;
+}
+div.recommend .headline img{
+    height:80%;
+    margin-top:0.06rem;
+}
+
+div.recommend>a{
+	display: block;
+}
+
+div.recommend .hyysf{
+	display: block;
+    height:1.88rem;
+    width:7.02rem;
+    border:1px solid #32ABFF;
+    border-radius: 10px;
+    margin:0 auto;
+}
+div.recommend .hyysf1{
+    margin-top:0.2rem;
+}
+div.recommend .hyysf div{
+    float:left;
+}
+div.recommend .hyysf div.left{
+    width:30%;
+    height:100%;
+}
+div.recommend .hyysf div.left img{
+     width:100%;
+     margin-top:0.2rem;
+     margin-left:0.08rem;
+}
+div.recommend .hyysf div.right{
+    width:65%;
+    height:100%;
+    margin-left:5%;
+}
+div.recommend .hyysf div.right h3{
+    font-weight:bold;
+    color:#484848;
+    font-size:0.36rem;
+    margin-top:0.08rem;
+    float:left;
+}
+div.recommend .hyysf div.right .hyyf{
+    float:right;
+    margin-top:0.15rem;
+    margin-right:0.2rem;
+    color:#C6C6C6;
+}
+div.recommend .hyysf div.right img{
+    width:100%;
+}
+div.recommend .hyysf div.right .hyyrmb{
+    color:#FFB730;
+    font-size:0.36rem;
+    font-weight:900;
+    font-style:italic;
+    letter-spacing: 0.01rem;
+}
+div.recommend .hyysf div.right .hyysrmb{
+    color:#C6C6C6;
+    margin-left:0.3rem;
+}
+div.recommend .hyysf div.right p{
+    color:#000;
+}
