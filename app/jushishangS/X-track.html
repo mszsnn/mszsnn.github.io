@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/X-track.css" />
+    
+    <script src="js/common.js"></script>
+    <script src="js/hammer.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/X-collect.js"></script>
+    
+    <script type="text/javascript">
+		var myScroll;
+		
+		function loaded () {
+			myScroll = new IScroll('#wrapper');
+		}
+		
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+			capture: false,
+			passive: false
+		} : false);
+	</script>
+</head>
+
+<style type="text/css">
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
+
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: ubuntu, helvetica, arial;
+	overflow: hidden; /* this is important to prevent the whole page to bounce */
+	background: #F2F2F2;
+}
+
+#wrapper {
+	width: 100%;
+	position: absolute;
+	top: 0.88rem;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+</style>
+
+<body onload="loaded()">
+	<!--头部-->
+	<header>
+		<section class="left">
+			<a href="m-grzx.html">
+				<img src="img/X-img/X-1.png" alt="" />
+			</a>
+		</section>
+		<span>足迹</span>
+	</header>
+	
+	
+	<!--沙发足迹列表-->
+	<div id="wrapper">
+		<div id="scroller">
+			<section class="track">
+				<ul>
+					<li>
+						<div class="left">
+							<img src="img/X-img/X-56.png" alt="" />
+						</div>
+						<div class="right">
+							<p>
+								<span>双人沙发</span>
+								<span>19298人已购买</span>
+							</p>
+							<p><img src="img/X-img/X-146.png" alt="" /></p>
+							<p>
+								<span><i>1399</i></span>
+								<span><i>RMB</i></span>
+								<span>市场价1999RMB</span>
+							</p>
+							<p>
+								<span>包邮</span>
+								<span>精品</span>
+								<span>正品保障</span>
+							</p>
+							<p>
+								<span>新西兰松木+E1多层实木板</span>
+								<span>立即购买</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="left">
+							<img src="img/X-img/X-58.png" alt="" />
+						</div>
+						<div class="right">
+							<p>
+								<span>茶几</span>
+								<span>19298人已购买</span>
+							</p>
+							<p>
+								<img src="img/X-img/X-146.png" alt="" />
+							</p>
+							<p>
+								<span><i>1399</i></span>
+								<span><i>RMB</i></span>
+								<span>市场价1999RMB</span>
+							</p>
+							<p>
+								<span>包邮</span>
+								<span>精品</span>
+								<span>正品保障</span>
+							</p>
+							<p>
+								<span>贵州松木+E1多层实木板</span>
+								<span>立即购买</span>
+							</p>
+						</div>
+						
+					</li>
+					<li>
+						<div class="left">
+							<img src="img/X-img/X-59.png" alt="" />
+						</div>
+						<div class="right">
+							<p>
+								<span>休闲当人椅</span>
+								<span>19298人已购买</span>
+							</p>
+							<p><img src="img/X-img/X-146.png" alt="" /></p>
+							<p>
+								<span><i>1399</i></span>
+								<span><i>RMB</i></span>
+								<span>市场价1999RMB</span>
+							</p>
+							<p>
+								<span>包邮</span>
+								<span>精品</span>
+								<span>正品保障</span>
+							</p>
+							<p>
+								<span>新西兰松木+E1多层实木板</span>
+								<span>立即购买</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="left">
+							<img src="img/X-img/X-56.png" alt="" />
+						</div>
+						<div class="right">
+							<p>
+								<span>双人沙发</span>
+								<span>19298人已购买</span>
+							</p>
+							<p><img src="img/X-img/X-146.png" alt="" /></p>
+							<p>
+								<span><i>1399</i></span>
+								<span><i>RMB</i></span>
+								<span>市场价1999RMB</span>
+							</p>
+							<p>
+								<span>包邮</span>
+								<span>精品</span>
+								<span>正品保障</span>
+							</p>
+							<p>
+								<span>新西兰松木+E1多层实木板</span>
+								<span>立即购买</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="left">
+							<img src="img/X-img/X-56.png" alt="" />
+						</div>
+						<div class="right">
+							<p>
+								<span>双人沙发</span>
+								<span>19298人已购买</span>
+							</p>
+							<p><img src="img/X-img/X-146.png" alt="" /></p>
+							<p>
+								<span><i>1399</i></span>
+								<span><i>RMB</i></span>
+								<span>市场价1999RMB</span>
+							</p>
+							<p>
+								<span>包邮</span>
+								<span>精品</span>
+								<span>正品保障</span>
+							</p>
+							<p>
+								<span>新西兰松木+E1多层实木板</span>
+								<span>立即购买</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="left">
+							<img src="img/X-img/X-56.png" alt="" />
+						</div>
+						<div class="right">
+							<p>
+								<span>双人沙发</span>
+								<span>19298人已购买</span>
+							</p>
+							<p><img src="img/X-img/X-146.png" alt="" /></p>
+							<p>
+								<span><i>1399</i></span>
+								<span><i>RMB</i></span>
+								<span>市场价1999RMB</span>
+							</p>
+							<p>
+								<span>包邮</span>
+								<span>精品</span>
+								<span>正品保障</span>
+							</p>
+							<p>
+								<span>新西兰松木+E1多层实木板</span>
+								<span>立即购买</span>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</section>	
+		</div>
+	</div>
+	<!--沙发足迹列表-->
+</body>
+</html>

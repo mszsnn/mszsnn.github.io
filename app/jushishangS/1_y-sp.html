@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <meta name="x5-orientation" content="portrait | landscape" />
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-fullscreen" content="true" />
+	    <meta name="full-screen" content="yes">
+	    <meta name="format-detection" content="telephone=no, email=no" />  
+	    <link rel="stylesheet" href="css/common.css">
+	    <link rel="stylesheet" href="css/swiper.min.css">
+	    <link rel="stylesheet" href="css/y-sp.css">
+	    <script src="js/common.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/zepto.min.js"></script>
+        <script src="js/hammer.min.js"></script>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<a href="m-index.html">
+				<div class="skip">跳过</div>
+			</a>
+    		<div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		            <img src="img/y-img/bg-1.png" alt="">
+		        </div>
+		        <div class="swiper-slide">
+		            <img src="img/y-img/bg-2.png" alt="">
+		        </div>
+		        <div class="swiper-slide">
+		            <img src="img/y-img/bg-3.png" alt="">
+		            <a href="m-index.html">
+		                <div class="btn">
+		                	<img src="img/y-img/btn_03.png" alt="" />
+		                </div>
+		            </a>
+		        </div>
+    		</div>
+    		<!-- Add Pagination -->
+    		<div class="swiper-pagination swiper-pagination-white"></div>
+		</div>
+		<script>
+		    var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        spaceBetween:0,
+		        centeredSlides: true,
+		        autoplayDisableOnInteraction: false,
+		    });
+		    var lis=$('.swiper-wrapper').children().eq(2);
+		    console.log(lis);
+		    if(lis.hasClass('swiper-slide-active')){
+		    	$('.swiper-pagination').css('display','none');
+		    }
+    	</script>
+	</body>
+</html>
+<style>
+	body,html{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+</style>

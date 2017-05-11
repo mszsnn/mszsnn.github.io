@@ -1,0 +1,244 @@
+body{
+    background: #F2F2F2;
+    overflow: hidden;
+}
+.top{
+    width: 100%;
+    height: 2.1rem;
+    background: linear-gradient(to left,#31c7ff,#32abff);
+    position: relative;
+    padding-top:0.5rem ;
+    box-sizing: border-box;
+}
+.top a{
+    position: absolute;
+    left: 0.23rem;
+    top:0.5rem;
+    font-size: 0.5rem;
+    color: #fff;
+}
+.top .biaoti{
+    width: 2rem;
+    height: 0.45rem;
+    margin:0 auto;
+    font-size: 0.35rem;
+    text-align: center;
+    color: #fff;
+}
+.top .list{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+}
+.top .list div{
+    width: 33.33%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.zfbox{
+    width: 7rem;
+    height: 8rem;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 8px 1px #ccc;
+    position: relative;
+    left: 0.23rem;
+    top: -0.30rem;
+    padding-top: 0.76rem;
+    box-sizing: border-box;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+.zfbox .yfje{
+    width: 1.45rem;
+    height: 0.41rem;
+    text-align: center;
+    line-height: 0.41rem;
+    margin: 0 auto;
+    color: #BFBFBF;
+}
+.zfbox .qian{
+    width: 2.6rem;
+    height: 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0.7rem;
+    color: #656565;
+}
+.zfbox .zfb{
+    width: 100%;
+    height: 1.8rem;
+    border-top: 1px dotted #CACACA;
+    border-bottom: 1px dotted #CACACA;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+.zfbox .weixin {
+    width: 100%;
+    height: 1.8rem;
+}
+.zfbox .yinglian{
+    width: 100%;
+    height: 1.8rem;
+    border-top: 1px dotted #CACACA;
+    border-bottom: 1px dotted #CACACA;
+    box-sizing: border-box;
+}
+.zfbox .one{
+    width: 1.8rem;
+    height: 100%;
+    float: left;
+}
+.zfbox .one img{
+    width: 100%;
+    display: block;
+    margin-top: 6px;
+}
+.zfbox .two{
+    width: 4.33rem;
+    height: 100%;
+    float: left;
+    padding-top:0.45rem;
+    padding-left: 0.15rem;
+    box-sizing: border-box;
+}
+.zfbox .two span:nth-child(1){
+    font-size: 0.32rem;
+    color: #2C2C2C;
+}
+.zfbox .two span:nth-child(2){
+    font-size: 0.24rem;
+    margin-left: 0.2rem;
+}
+.zfbox .two span:nth-child(4){
+    font-size: 0.24rem;
+    color: #909090;
+}
+.zhezhao{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    display: none;
+}
+.fkbox{
+    width: 100%;
+    height: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+.fkbox .shang{
+    width: 100%;
+    height: 0.9rem;
+    border-bottom: 1px solid #D2D2D2;
+}
+.fkbox .one{
+    width: 100%;
+    height: 100%;
+}
+.fkbox .one img{
+    display: block;
+    height: 100%;
+    float: left;
+}
+.fkbox .one div{
+    float: left;
+    font-size: 0.3rem;
+    line-height: 55px;
+    margin-left: 5px;
+}
+.fkbox .xia{
+    width: 100%;
+    height: 7rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+.fkbox .two{
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.fkbox .two span{
+    font-size: 0.6rem;
+}
+.fkbox .three{
+    width: 100%;
+    height: 0.6rem;
+}
+.fkbox .three span:nth-child(1){
+    display: block;
+    font-size: 0.24rem;
+    float: left;
+    margin-top: 0.15rem;
+    color: #3D3D3D;
+}
+.fkbox .three span:nth-child(2) {
+    display: block;
+    font-size: 0.24rem;
+    float: right;
+    margin-top: 0.15rem;
+    color: #3D3D3D;
+}
+.fkbox .xia .four{
+    width: 100%;
+    height: 0.85rem;
+}
+.fkbox .xia .four span:nth-child(1){
+    display: block;
+    font-size: 0.24rem;
+    float: left;
+    margin-top: 0.15rem;
+    color: #3D3D3D;
+}
+.fkbox .xia .four span:nth-child(2){
+    display: block;
+    font-size: 0.24rem;
+    float: right;
+    margin-top: 0.15rem;
+    color: #3D3D3D;
+}
+.fkbox .xia .five{
+    width: 100%;
+    height: 0.9rem;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+.fkbox .xia .five span:nth-child(1){
+    display: block;
+    font-size: 0.24rem;
+    float: left;
+    margin-top: 0.3rem;
+    color: #3D3D3D;
+}
+.fkbox .xia .five span:nth-child(2){
+    display: block;
+    font-size: 0.24rem;
+    float: right;
+    margin-top: 0.3rem;
+    margin-left: 0.15rem;
+    font-family: "宋体";
+    color: #3D3D3D;
+}
+.fkbox .xia .five span:nth-child(3){
+    display: block;
+    font-size: 0.24rem;
+    float: right;
+    margin-top: 0.3rem;
+    color: #3D3D3D;
+}
+.fkbox .xia .six{
+    width: 100%;
+    height: 3.66rem;
+}
+.fkbox .xia .six img{
+    width: 100%;
+}

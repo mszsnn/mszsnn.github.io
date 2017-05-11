@@ -1,0 +1,237 @@
+.top{
+    background: linear-gradient(to left,#31c7ff,#32abff);
+    width: 100%;
+    height: 1.8rem;
+    box-sizing: border-box;
+}
+.top .biaoti{
+    width: 7rem;
+    height: 0.88rem;
+    margin: 0 auto;
+    line-height: .88rem;
+    font-size: 0.35rem;
+    color: #fff;
+}
+body{
+    background: #F2F2F2;
+}
+.neirong{
+    width: 7rem;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    top: -0.75rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 1px #ccc;
+}
+.srsf{
+    width: 100%;
+    height: 1.8rem;
+    border-bottom: 1px dotted #E6E6E6;
+}
+.srsf .left{
+    width: 2.5rem;
+    height: 1.65rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+.srsf .left img{
+    height: 100%;
+}
+.srsf .right{
+    width: 4rem;
+    height: 1.65rem;
+    float: left;
+    margin-top: 0.15rem;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+.srsf .right p:nth-child(1){
+    font-size: 0.3rem;
+    margin-top: 0.3rem;
+}
+.srsf .right p:nth-child(2){
+    font-size: 0.25rem;
+    color: #A5A5A5;
+}
+.srsf .right p:nth-child(3){
+    font-size: 0.42rem;
+    color: #FFB11E;
+    float: left;
+}
+.srsf .right p:nth-child(4){
+    font-size: 0.3rem;
+    color: #FFB11E;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.neirong .lht{
+    width: 100%;
+    height: 1.17rem;
+}
+.lht .one{
+    width: 100%;
+    height: 50%;
+}
+.lht .one img{
+    width: 0.38rem;
+    display: block;
+    float: left;
+    margin-top: 0.1rem;
+}
+.lht .one p{
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+}
+.lht .two{
+    width: 100%;
+    height: 50%;
+}
+.lht .two img{
+    width: 0.4rem;
+    display: block;
+    float: left;
+    margin-top: 0.05rem;
+}
+.lht .two p{
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+    font-size: 0.25rem;
+    color: #B2B2B2;
+}
+img.tiao{
+    display: block;
+    width: 7rem;
+    margin-left: -0.25rem;
+}
+.neirong .shsj{
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 1px dotted #E6E6E6;
+}
+.shsj img:nth-of-type(1){
+    width: 0.34rem;
+    display: block;
+    float: left;
+    margin-top: 0.24rem;
+}
+.shsj img:nth-of-type(2){
+    width: 0.8rem;
+    display: block;
+    float: right;
+    margin-top: 0.24rem;
+}
+.shsj p:nth-of-type(1){
+    font-size: 0.28rem;
+    float: left;
+    margin-top: 0.23rem;
+    margin-left: 0.1rem;
+    color: #7D7D7D;
+}
+.shsj p:nth-of-type(2){
+    font-size: 0.23rem;
+    float: left;
+    margin-left: 0.56rem;
+    margin-top: 0.26rem;
+}
+.neirong .smaz{
+    width: 100%;
+    height: 0.85rem;
+    border-bottom: 1px dotted #E6E6E6;
+}
+.smaz p:nth-of-type(1){
+    font-size: 0.28rem;
+    float: left;
+    margin-top: 0.23rem;
+    margin-left: 0.1rem;
+    color: #7D7D7D;
+}
+.smaz p:nth-of-type(2){
+    font-size: 0.23rem;
+    float: left;
+    margin-left: 0.56rem;
+    margin-top: 0.26rem;
+}
+.smaz img{
+    width: 0.34rem;
+    display: block;
+    float: left;
+    margin-top: 0.24rem;
+}
+.neirong .fp{
+    width: 100%;
+    height: 0.85rem;
+    border-bottom: 1px dotted #E6E6E6;
+}
+.fp p:nth-of-type(1){
+    font-size: 0.28rem;
+    float: left;
+    margin-top: 0.23rem;
+    margin-left: 0.1rem;
+    color: #7D7D7D;
+}
+.fp p:nth-of-type(2){
+    font-size: 0.23rem;
+    float: left;
+    margin-left: 1.1rem;
+    margin-top: 0.26rem;
+}
+.fp img{
+    width: 0.34rem;
+    display: block;
+    float: left;
+    margin-top: 0.24rem;
+}
+.neirong .ddxq{
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px dotted #E6E6E6;
+    position: relative;
+}
+.ddxq p{
+    font-size: 0.26rem;
+    margin-top: 0.05rem;
+    color: #545454;
+}
+.fuzhi{
+    width: 0.73rem;
+    height: 0.33rem;
+    border-radius: 10px;
+    border: 1px solid #898989;
+    font-size: 0.2rem;
+    line-height: 0.33rem;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0.2rem;
+}
+.neirong .spjg{
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+}
+.neirong .spjg p{
+    font-size: 0.2rem;
+    color: #ADADAD;
+}
+.neirong .spjg img{
+    display: block;
+    width: 3.86rem;
+    margin-left: -0.07rem;
+    margin-top: 0.1rem;
+}
+.an{
+    width: 1.43rem;
+    height: auto;
+    display: block;
+    float: right;
+    margin-right: 0.2rem;
+}

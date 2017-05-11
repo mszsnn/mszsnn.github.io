@@ -1,0 +1,60 @@
+a,button,input{
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		-webkit-appearance: none;
+		text-decoration: none;
+}
+body{
+		-webkit-user-select:none;
+		-webkit-text-size-adjust:100%;
+		-webkit-overflow-scrolling:touch;
+}
+*{
+		font-family: "helvetica";
+		max-height:9999999px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+}
+/*滚动条*/
+#q-wrapper{
+	width: 100%;
+	height: 10.65rem;
+	overflow: hidden;
+	position: relative;
+	z-index: 9999;
+}
+/*底部*/
+.q-foot{
+	width: 100%;
+	height: .98rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	z-index: 99999999;
+	box-shadow: 0 -.03rem .3rem #ccc;
+}
+.q-foot-box{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	padding-top: .1rem;
+	box-sizing: border-box;
+	background: #fff;
+}
+.q-foot-box a{
+	color: #5a5a5a;
+}
+.q-foot-box img{
+	width: .55rem;
+	display: block;
+	margin: auto;
+}
+.q-foot-box span{
+	font-size: .22rem;
+	display: block;
+}
+/*选中状态*/
+.q-active{
+    color: #32abff;
+}

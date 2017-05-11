@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>具时尚</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m-grzx.css">
+    <script src="js/common.js"></script>
+    <script src="js/iscroll.js"></script>
+</head>
+<body>
+<!--头-->
+    <div class="m-header">个人中心</div>
+<!--banner-->
+<div id="q-wrapper">
+	
+	<div>
+    <div class="m-banner">
+        <div class="m-message-bg"></div>
+        <div class="m-message">
+            <div class="headimg"></div>
+            <div class="username">
+                <p>刘慧涛</p>
+                <p>Liu，HT</p>
+            </div>
+            <div class="headxx">
+                <span class="icon">&#xe602;</span>
+                <span class="icon">&#xe602;</span>
+                <span class="icon">&#xe602;</span>
+                <span class="icon">&#xe602;</span>
+                <span class="icon white">&#xe602;</span>
+            </div>
+            <ul class="head-message">
+                <li>
+                    <a href="p-youhuiquan.html">
+                    <p>3张</p>
+                    <p>优惠券</p>
+                    </a>
+                </li>
+                <li>
+                    <p>3213</p>
+                    <p>积分</p>
+                </li>
+                <li>
+                    <a href="X-track.html">
+                    <p>18</p>
+                    <p>足迹</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--查看订单-->
+<div class="m-set">
+    <a href="wddd.html"><p><span class="icon">&#xe60f;</span>我的全部订单</p>
+        <span>&gt;</span></a>
+</div>
+    <ul class="list">
+        <li>
+            <img src="m-img/slide-list4.png" alt="加载失败">
+            <span>待付款</span>
+            <p></p>
+        </li>
+        <li>
+            <img src="m-img/slide-list1.png" alt="加载失败">
+            <span>待收货</span>
+            <p></p>
+        </li>
+        <li>
+            <img src="m-img/slide-list2.png" alt="加载失败">
+            <span>待评价</span>
+        </li>
+    </ul>
+<!--物流-->
+    <ul class="m-wl">
+        <li>
+            <span>最新物流</br>04-28</span>
+            <img src="m-img/images/m-wl1.png" alt="加载失败">
+            <p>
+                <span>已签收</span>
+                <span>[太原市]客户已签收</span>
+            </p>
+        </li>
+        <li>
+            <span>最新物流</br>04-28</span>
+            <img src="m-img/images/m-wl2.png" alt="加载失败">
+            <p>
+                <span>运输中</span>
+                <span>[河北省]快件已到达河北省，下一站太原市</span>
+            </p>
+        </li>
+    </ul>
+<!--设置-->
+    <div class="m-set">
+        <a href="X-set-clear.html"><p><span class="icon">&#xe60f;</span>设置</p>
+        <span>&gt;</span></a>
+    </div>
+</div>
+    </div>
+<!--foot-->
+<div class="q-foot">
+    <div class="q-foot-box">
+        <a href="m-index.html">
+            <img src="m-img/q-foot1.png" alt="" />
+            <span>首页</span>
+        </a>
+    </div>
+    <div class="q-foot-box">
+        <a href="Q-quanzi.html">
+            <img src="img/q-foot2-1.png" alt="" />
+            <span >圈子</span>
+        </a>
+    </div>
+    <div class="q-foot-box">
+        <a href="p-gouwuche.html">
+            <img src="m-img/q-foot3.png" alt="" />
+            <span>购物车</span>
+        </a>
+    </div>
+    <div class="q-foot-box">
+        <a href="javascript:;">
+            <img src="img/q-foot4-1.png" alt="" />
+            <span class="q-active">我的</span>
+        </a>
+    </div>
+</div>
+</body>
+</html>
+<style>
+    .q-foot-box a{
+        display: block;
+    }
+    #q-wrapper{
+    	height: 12rem;
+    }
+    #q-wrapper > div{
+    	height: 13rem;
+    }
+</style>
+<script>
+	setTimeout(function(){
+	    	var myScroll = new IScroll('#q-wrapper',{
+        	click:true,
+        	mouseWheel:true,
+        });
+	    },200);
+</script>

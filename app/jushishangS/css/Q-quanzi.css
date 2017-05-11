@@ -1,0 +1,415 @@
+@charset "utf-8";
+body,html{
+	background: #f2f2f2;
+}
+/*头部标题*/
+.q-head{
+	width: 100%;
+	height: .88rem;
+	background: linear-gradient(to left,#31c7ff,#32abff);
+}
+.q-head p{
+	text-align: center;
+	font-size: .32rem;
+	line-height: .88rem;
+	color: #fff;
+	position: relative;
+}
+.q-head p img{
+	display: block;
+	width: .38rem;
+	position: absolute;
+	right: .28rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+/*选项卡*/
+.q-tab{
+	width: 100%;
+	height: .56rem;
+	padding: .08rem 0;
+	background: linear-gradient(to left,#31c7ff,#32abff);
+}
+.q-tabB{
+	width: 6.34rem;
+	height: 100%;
+	margin: auto;
+	background: url(../img/q-head.png) no-repeat center;
+	background-size: cover;
+}
+.q-tabB a{
+	display: block;
+	width: 3.17rem;
+	height: .56rem;
+	margin: auto;
+	float: left;
+}
+.q-tabB a:first-child{
+	background: url(../img/q-active.png) no-repeat center;
+	background-size: 35%;
+}
+.q-tabB a:last-child{
+	background: url(../img/q-zhuanjia.png) no-repeat center;
+	background-size: 35%;
+}
+/*轮播图*/
+.swiper-container{
+	width: 100%;
+	height: 3.62rem;
+	box-shadow: 0 .04rem .14rem #999;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-pagination{
+	display: flex;
+	justify-content: flex-end;
+	width: 7rem !important;
+	bottom: .3rem !important;
+}
+.swiper-pagination-bullet{
+	transition: all .3s;
+	background: #32aeff !important;
+	opacity: 1 !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0 .05rem !important;
+}
+.swiper-pagination-bullet-active{
+	height: .15rem !important;
+	width: .3rem !important;
+	border-radius: 20px !important;
+	background: #32aeff !important;
+}
+/*专家列表页*/
+.q-list{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	padding: .22rem .22rem 0;
+	box-sizing: border-box;
+}
+.q-list:last-child{
+	padding: .22rem .22rem;
+}
+.q-list-box{
+	width: 100%;
+	height: 1.63rem;
+	border-radius: .05rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.q-list-head{
+	width: 1.45rem;
+	height: 1.46rem;
+	float: left;
+	margin: auto;
+	background: #fff;
+	padding: .02rem;
+	box-sizing: border-box;
+	box-shadow: 0 0 .14rem #32AEFF;
+	border-radius: .06rem;
+}
+.q-list-img{
+	border-radius: .06rem;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.q-list-img img{
+	width: 100%;
+	height: 100%;
+}
+.q-list-con{
+	width: 5.43rem;
+	height: 1.46rem;
+	padding: 0 .22rem;
+	box-sizing: border-box;
+}
+.q-list-top{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 1px dashed #c1c1c1;
+	position: relative;
+}
+.q-list-top::after,
+.q-list-top::before{
+	content: "";
+	position: absolute;
+	bottom: -.03rem;
+	width: .05rem;
+	height: .05rem;
+	border-radius: 50%;
+	background: #2e73f3;
+}
+.q-list-top::before{
+	right: 0;
+}
+.q-list-top::after{
+	left: 0;
+}
+.q-list-top p:first-child{
+	font-size: .26rem;
+	color: #393939;
+}
+.q-list-top p span{
+	float: right;
+	display: block;
+	width: .88rem;
+	text-align: right;
+	height: 100%;
+	color: #888888;
+	font-size: .2rem;
+	line-height: .4rem;
+	background: url(../img/q-xin.png) no-repeat left .1rem;
+	background-size: 28%;
+}
+.q-list-top p{
+	font-size: .18rem;
+	color: #929292;
+}
+.q-list-bottom{
+	width: 100%;
+	height: 0.41rem;
+	padding: .05rem 0;
+	display: flex;
+}
+.q-list-bottom .q-b-box{
+	width: 50%;
+	height: 100%;
+}
+.q-list-bottom .q-b-box:first-child{
+	border-right: 1px dashed #CCCCCC;
+}
+.q-b-box p span{
+	display: block;
+	width: .26rem;
+	text-align: right;
+	height: 100%;
+	color: #888888;
+	font-size: .2rem;
+	background: url(../img/q-xin-active.png) no-repeat left .06rem;
+	background-size: 90%;
+	float: left;
+	margin-left: .3rem;
+}
+.q-b-box p{
+	font-size: .18rem;
+	height: .3rem;
+	width: 50%;
+	margin: .08rem 0;
+	line-height: .3rem;
+	color: #aaaaaa;
+	float: left;
+	box-sizing: border-box;
+}
+.q-b-box p:first-child{
+	border-right: 1px dashed #AAAAAA;	
+}
+.q-b-box p:nth-child(2){
+	text-indent: .14rem;
+}
+.q-b-box:nth-child(2) p span{
+	background: url(../img/q-good-active.png) no-repeat left .06rem;
+	background-size: 90%;
+	margin-left: .5rem;
+}
+/*选中状态*/
+.q-active{
+	color: #32abff;
+}
+
+/*专家*/
+.q-zhuanjia{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: .1rem .24rem 0;
+}
+
+.q-zhuanBox{
+	width: 100%;
+	height: 100%;
+	border-radius: .1rem;
+	background: url(../img/q-zhuanBg.png) no-repeat center;
+	background-size: cover;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: .07rem .24rem;
+	margin-bottom: .18rem;
+}
+
+.q-zhuan-top{
+	width: 100%;
+	height: .78rem;
+	border-bottom: 1px dashed #c2c2c2;
+}
+
+.q-zhuan-img{
+	width: .62rem;
+	height: .62rem;
+	border: .03rem solid #e8e8e8;
+	border-radius: 50%;
+	background: url(../img/q-person1.png) no-repeat center;
+	background-size: 110%;
+	float: left;
+}
+
+.q-zhuan-font{
+	float: left;
+	width: 1.3rem;
+	height: .62rem;
+	line-height: .3rem;
+	padding-left: .2rem;
+}
+
+.q-zhuan-font p:first-child{
+	padding-top: .06rem;
+}
+
+.q-zhuan-font p{
+	font-size: .22rem;
+}
+
+.q-zhuan-font p:last-child{
+	font-size: .08rem;
+	color: #c4c4c4;
+}
+
+a.q-zhuan-guan{
+	display: block;
+	float: right;
+	width: .9rem;
+	line-height: .24rem;
+	height: .62rem;
+	font-size: .18rem;
+	text-align: right;
+	color: #888888;
+	background: url(../img/q-xin.png) no-repeat;
+	background-size: 30%;
+	margin-top: .1rem;
+}
+
+.q-zhuan-bottom{
+	width: 100%;
+	height: 1.67rem;
+	padding: .1rem;
+	box-sizing: border-box;
+}
+
+.q-zhuan-boImg{
+	width: 1.45rem;
+	height: 1.45rem;
+	background: url(../img/q-zhuan-file.png) no-repeat center;
+	border-radius: .1rem;
+	float: left;
+}
+
+.q-zhuan-boF{
+	float: left;
+	width: 4.5rem;
+	height: 1.45rem;
+	padding: 0 .18rem;
+}
+
+.q-zhuan-boF p:first-child{
+	font-size: .26rem;
+	border-bottom: 1px solid #86ceff;
+	padding-bottom: .1rem;
+	color: #454545;
+	position: relative;
+}
+
+.q-zhuan-boF p:first-child::after{
+	content: '';
+	display: block;
+	width: .32rem;
+	height: .03rem;
+	background: #32abff;
+	position: absolute;
+	bottom: 0;
+}
+
+.q-zhuan-boF p:last-child{
+	font-size: .2rem;
+	color: #898989;
+}
+
+.q-ping{
+	width: 100%;
+	height: .46rem;
+	padding: .08rem 0;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.q-ping a{
+	display: flex;
+	justify-content: center;
+	width: 32%;
+	height: 100%;
+	box-sizing: border-box;
+	color: #919191;
+	border-right: 1px solid #d0d0d0;
+}
+
+.q-ping a:last-child{
+	border: none;
+}
+
+.q-ping a:nth-child(2){
+	width: 36%;
+}
+
+.q-ping a span{
+	display: block;
+	width: .26rem;
+	height: .26rem;
+	margin: 0;
+	float: left;
+	background: url(../img/q-good.png) no-repeat center;
+	background-size: 100%;
+}
+
+.q-ping a:nth-child(2) span{
+	background: url(../img/q-pinglun.png) no-repeat center;
+	background-size: 100%;
+}
+
+.q-ping a:nth-child(3) span{
+	background: url(../img/q-zhuanfa.png) no-repeat center;
+	background-size: 100%;
+}
+
+.q-ping a h4{
+	float: left;
+	width: 1.2rem;
+	text-indent: .1rem;
+	height: 100%;
+	font-size: .1rem;
+	line-height: .33rem;
+	font-weight: 200;
+}

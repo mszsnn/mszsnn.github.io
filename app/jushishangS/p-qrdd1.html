@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="x5-orientation" content="portrait | landscape" />
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/p-qrdd1.css">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/hammer.min.js"></script>
+
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <a style="font-family: '宋体'" href="X-confirm.html">&lt;</a>
+    <div class="biaoti">确认订单</div>
+    <img style="width: 6.5rem;margin: 0 auto;display: block;" src="img/p-jdt.png" alt="">
+    <div class="list">
+        <div>确认订单</div>
+        <div>支付</div>
+        <div>完成</div>
+    </div>
+</div>
+<!--支付方式-->
+<div class="zfbox">
+    <div class="yfje"><span>应付金额</span></div>
+    <div class="qian"><span style="font-size: 0.6rem">943</span>&nbsp;<span style="font-size: 0.36rem">RMB</span></div>
+    <div class="zfb">
+        <div class="one">
+            <img src="img/zhifu_03.png" alt="">
+        </div>
+        <div class="two">
+            <span >支付宝支付</span>
+            <span >PAY BY ALIPAY</span><br>
+            <span >支付满38元赢1999元红包</span>
+        </div>
+    </div>
+    <div class="weixin">
+        <div class="one">
+            <img src="img/zhifu_05.png" alt="">
+        </div>
+        <div class="two">
+            <span>微信支付</span>
+            <span>PAY BY ALIPAY</span><br>
+            <span>支付满38元赢1999元红包</span>
+        </div>
+    </div>
+    <div class="yinglian">
+        <div class="one">
+            <img src="img/zhifu_07.png" alt="">
+        </div>
+        <div class="two">
+            <span>银联支付</span>
+            <span>PAY BY ALIPAY</span><br>
+            <span>支付满38元赢1999元红包</span>
+        </div>
+    </div>
+</div>
+<!--遮罩-->
+<div class="zhezhao"></div>
+<!--确认付款-->
+<div class="fkbox">
+    <div class="shang">
+        <div class="one">
+            <img class="guanbi" src="img/p-50.png" alt="">
+            <img style="margin-left: 1.8rem" src="img/p-51.png" alt="">
+            <div class="qrfk"><span>确认付款</span></div>
+            <img style="margin-left: 2.2rem" src="img/p-52.png" alt="">
+        </div>
+    </div>
+    <div class="xia">
+        <div class="two">
+            <span>￥</span>
+            <span >943.00</span>
+        </div>
+        <div class="three">
+            <span>收款方</span>
+            <span>具时尚</span>
+        </div>
+        <div class="four">
+            <span>订单信息</span>
+            <span>具时尚893375327897号订单</span>
+        </div>
+        <div class="five">
+            <span>付款方式</span>
+            <span>&gt;</span>
+            <span>蚂蚁花呗</span>
+        </div>
+        <div class="six">
+            <img src="img/p-zhiwen.png" alt="">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+<script>
+    // 确认订单页面确认支付
+    $(document).ready(function () {
+        $('.zfb').click(function () {
+            $('.zhezhao').css('display','block');
+            $('.fkbox').css('height','8.5rem')
+        })
+        $('.guanbi').click(function () {
+            $('.fkbox').css('height',0);
+            $('.zhezhao').css('display','none');
+        })
+        var fks = new Hammer($('.fkbox').get(0));
+        fks.on('tap', function () {
+            location.href = 'p-zfcg.html';
+        });
+    });
+</script>

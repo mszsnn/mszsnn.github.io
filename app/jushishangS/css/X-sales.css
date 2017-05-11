@@ -1,0 +1,1130 @@
+/*头部*/
+header{
+	width:100%;
+	height:0.88rem;
+	background-image:linear-gradient(to right,#32abff,#31c7ff);
+	position:relative;
+}
+header .left{
+	width:0.43rem;
+	height:0.49rem;
+	position:absolute;
+	top:0.2rem;
+	left:0.24rem;
+	z-index: 10;
+}
+header .left img{
+	display:block;
+	width:0.43rem;
+	height:0.49rem;
+}
+header span{
+	display: block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:0.88rem ;
+	font-size:0.36rem;
+	color:#FFF;
+}
+header .right{
+	width:0.35rem;
+	height:0.34rem;
+	position:absolute;
+	top:0.27rem;
+	right:0.24rem;
+	z-index: 10;
+}
+header .right img{
+	display:block;
+	width:0.35rem;
+	height:0.34rem;
+}
+/*头部*/
+
+/*banner*/
+.banner{
+	width:100%;
+	height:auto;
+}
+.banner img{
+	display:block;
+	width:100%;
+	height:5.17rem;
+}
+.paint{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+.paint img{
+	display:block;
+	width:100%;
+	height:2.19rem;
+}
+
+.paint .con{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+.paint .con div:nth-child(1){
+	width:100%;
+	height:0.45rem;
+	margin-top:0.15rem;
+}
+.paint .con div:nth-child(1) span{
+	display: block;
+	font-size:0.36rem;
+	color:#525252;
+	margin-left:0.24rem;
+}
+.paint .con div:nth-child(2){
+	width:100%;
+	height:0.45rem;
+	margin-top:0.06rem;
+}
+.paint .con div:nth-child(2) span{
+	display: block;
+	font-size:0.3rem;
+	color:#9F9F9F;
+	margin-left:0.24rem;
+}
+.paint .con div:nth-child(3){
+	width:100%;
+	height:0.45rem;
+	margin-top:0.1rem;
+	overflow: hidden;
+}
+.paint .con div:nth-child(3) span:nth-child(1){
+	display: block;
+	width:1.36rem;
+	height:0.5rem;
+	float:left;
+	font-size:0.4rem;
+	color:#FFB732;
+	margin-left:0.24rem;
+}
+.paint .con div:nth-child(3) span:nth-child(2){
+	display: block;
+	width:0.7rem;
+	height:0.25rem;
+	float:left;
+	margin-top:0.15rem;
+	font-size:0.12rem;
+	color:#FA2B52;
+	border:0.01rem solid #FA2B52;
+	border-radius:2px;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.paint .con div:nth-child(3) span:nth-child(3){
+	display: block;
+	width:0.7rem;
+	height:0.25rem;
+	float:left;
+	margin-top:0.15rem;
+	font-size:0.12rem;
+	color:#FFB732;
+	border:0.01rem solid #FFB732;
+	border-radius:2px;
+	text-align: center;
+	line-height: 0.25rem;
+	margin-left:0.24rem;
+}
+.paint .con div:nth-child(3) span:nth-child(4){
+	display: block;
+	width:1.36rem;
+	height:0.25rem;
+	float:left;
+	margin-top:0.15rem;
+	font-size:0.12rem;
+	color:#35ABFF;
+	border:0.01rem solid #35ABFF;
+	border-radius:2px;
+	text-align: center;
+	line-height: 0.25rem;
+	margin-left:0.24rem;
+}
+.paint .con div:nth-child(4){
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.paint .con div:nth-child(4) span{
+	display: block;
+	font-size:0.12rem;
+	color:#B9B9B9;
+}
+.paint .con div:nth-child(4) span:nth-child(1){
+	float:left;
+	margin-left:0.24rem;
+}
+.paint .con div:nth-child(4) span:nth-child(2){
+	float:left;
+	margin-left:1.5rem;
+}
+.paint .con div:nth-child(4) span:nth-child(3){
+	float:right;
+	margin-right:0.24rem;
+}
+
+
+/*评价*/
+.evalute{
+	width:100%;
+	height:13rem;
+	background: #FFF;
+	box-shadow: 0 -1px 1px #E2E2E2;
+	margin-top:0.08rem;
+}
+.evalute .title{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.evalute .title span{
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.1rem;
+	margin-left:0.24rem;
+}
+
+.evalute .pic{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.evalute .pic img{
+	display: block;
+	width:7.02rem;
+	height:auto;
+	margin:0 auto;
+	margin-top:0.05rem;
+}
+
+.evalute .picall{
+	width:100%;
+	height:4.1rem;
+	overflow: hidden;
+	position:relative;
+}
+.evalute .picall .imgone{
+	display: block;
+	width:2.16rem;
+	height:1.97rem;
+	overflow: hidden;
+	margin:0 auto;
+	margin-top:1rem;
+}
+
+.evalute .picall .picone{
+	width:1rem;
+	height:0.9rem;
+	overflow: hidden;
+	position:absolute;
+	top:0.2rem;
+	left:3.2rem;
+}
+.evalute .picall .picone img{
+	display: block;
+	width:0.46rem;
+	height:0.33rem;
+	margin:0 auto;
+}
+.evalute .picall .picone span{
+	display: block;
+	font-size: 0.24rem;
+	color:#949494;
+	margin-top:0.1rem;
+}
+
+.evalute .picall .pictwo{
+	width:1rem;
+	height:0.9rem;
+	overflow: hidden;
+	position:absolute;
+	top:1.2rem;
+	left:1.5rem;
+}
+.evalute .picall .pictwo img{
+	display: block;
+	width:0.46rem;
+	height:0.33rem;
+	margin:0 auto;
+}
+.evalute .picall .pictwo span{
+	display: block;
+	font-size: 0.24rem;
+	color:#949494;
+	margin-top:0.1rem;
+}
+
+.evalute .picall .picthree{
+	width:1rem;
+	height:0.9rem;
+	overflow: hidden;
+	position:absolute;
+	top:1.2rem;
+	left:5rem;
+}
+.evalute .picall .picthree img{
+	display: block;
+	width:0.46rem;
+	height:0.33rem;
+	margin:0 auto;
+}
+.evalute .picall .picthree span{
+	display: block;
+	font-size: 0.24rem;
+	color:#949494;
+	margin-top:0.1rem;
+}
+
+.evalute .picall .picfour{
+	width:1rem;
+	height:0.9rem;
+	overflow: hidden;
+	position:absolute;
+	top:3rem;
+	left:2.5rem;
+}
+.evalute .picall .picfour img{
+	display: block;
+	width:0.47rem;
+	height:0.42rem;
+	margin:0 auto;
+}
+.evalute .picall .picfour span{
+	display: block;
+	font-size: 0.24rem;
+	color:#949494;
+	margin-top:0.1rem;
+}
+
+.evalute .picall .picfive{
+	width:1rem;
+	height:0.9rem;
+	overflow: hidden;
+	position:absolute;
+	top:3rem;
+	left:4rem;
+}
+.evalute .picall .picfive img{
+	display: block;
+	width:0.5rem;
+	height:0.4rem;
+	margin:0 auto;
+}
+.evalute .picall .picfive span{
+	display: block;
+	font-size: 0.24rem;
+	color:#949494;
+	margin-top:0.1rem;
+}
+.evalute .cont{
+	width:100%;
+	height:auto;
+	margin-top:0.1rem;
+	overflow: hidden;
+}
+.evalute .cont ul{
+	width:100%;
+	height:auto;
+}
+.evalute .cont ul li{
+	width:100%;
+	height:auto;
+}
+.evalute .cont ul li div{
+	width:100%;
+	height:auto;
+}
+.evalute .cont ul li div img:nth-child(1){
+	display: block;
+	width:7.02rem;
+	height:0.12rem;
+	margin:0 auto;
+}
+.evalute .cont ul li div img:nth-child(2){
+	display: block;
+	width:0.52rem;
+	height:0.53rem;
+	float: left;
+	margin-left:0.24rem;
+	margin-top:0.1rem;
+}
+.evalute .cont ul li div span:nth-child(3){
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color:#BBBBBB;
+	margin-top:0.14rem;
+	margin-left:0.1rem;
+}
+.evalute .cont ul li div img:nth-child(4){
+	display: block;
+	width:0.23rem;
+	height:0.23rem;
+	float: left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
+}
+.evalute .cont ul li div img:nth-child(5){
+	display: block;
+	width:0.23rem;
+	height:0.23rem;
+	float: left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
+}
+.evalute .cont ul li div img:nth-child(6){
+	display: block;
+	width:0.23rem;
+	height:0.23rem;
+	float: left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
+}
+.evalute .cont ul li div img:nth-child(7){
+	display: block;
+	width:0.23rem;
+	height:0.23rem;
+	float: left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
+}
+.evalute .cont ul li div span:nth-child(8){
+	display: block;
+	float: right;
+	font-size: 0.24rem;
+	color:#BBBBBB;
+	margin-right:0.24rem;
+	margin-top:0.2rem;
+}
+.evalute .cont ul li div span:nth-child(9){
+	display: block;
+	width:100%;
+	height:auto;
+	font-size: 0.24rem;
+	color:#BBBBBB;
+	float: left;
+	margin-left:0.24rem;
+	margin-top:0.1rem;
+}
+.evalute .cont ul li div span:nth-child(10){
+	display: block;
+	width:100%;
+	height:auto;
+	font-size: 0.24rem;
+	color:#BBBBBB;
+	float: left;
+	margin-left:0.24rem;
+	margin-top:0.05rem;
+}
+
+.evalute .imgs{
+	width:100%;
+	height:2.25rem;
+	margin-top:0.24rem;
+}
+.evalute .imgs img{
+	width:2.14rem;
+	height:2.25rem;
+}
+.evalute .imgs img:nth-child(1){
+	float:left;
+	margin-left:0.24rem;
+}
+.evalute .imgs img:nth-child(2){
+	float:left;
+	margin-left:0.3rem;
+}
+.evalute .imgs img:nth-child(3){
+	float:right;
+	margin-right:0.24rem;
+}
+.evalute .alleva{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	margin-top:0.24rem;
+}
+.evalute .alleva img{
+	display:block;
+	width:2.11rem;
+	height:0.61rem;
+	margin:0 auto;
+}
+/*评价*/
+
+
+/*专家推荐*/
+.rec{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	position: relative;
+}
+.rec > img{
+	width:100%;
+	height:3.41rem;
+}
+
+.rec .con{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.rec .title{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	position:relative;
+}
+.rec .title span:nth-child(1){
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.3rem;
+	margin-left:0.3rem;
+}
+.rec .title span:nth-child(2){
+	display: block;
+	float:right;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.3rem;
+	margin-right:0.24rem;
+}
+.rec .con .pro{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.rec .con .pro span{
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.3rem;
+	margin-left:0.24rem;
+}
+.rec .con .styles{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.rec .con .styles .left{
+	width:1.26rem;
+	height:1.33rem;
+	float:left;
+	margin-left:0.24rem;
+}
+.rec .con .styles .left img{
+	display: block;
+	width:1.26rem;
+	height:1.33rem;
+}
+.rec .con .styles .right{
+	width:6rem;
+	height:1.33rem;
+	float:left;
+}
+.rec .con .styles span:nth-child(1){
+	display: block;
+	font-size: 0.36rem;
+	color:#4D4D4D;
+}
+.rec .con .styles img:nth-child(2){
+	display: block;
+	width: 5.74rem;
+	height: 0.14rem;
+}
+.rec .con .styles span:nth-child(3){
+	display: block;
+	font-size: 0.2rem;
+	color:#595959;
+}
+.rec .con .styles span:nth-child(4){
+	display: block;
+	font-size: 0.2rem;
+	color:#595959;
+}
+/*专家推荐*/
+
+
+
+/*向上滑动查看详情*/
+.slideup{
+	width: 100%;
+	height: 1.56rem;
+	overflow: hidden;
+}
+.slideup img:nth-child(1){
+	display: block;
+	width: 4.68rem;
+	height: 0.3rem;
+	margin:0 auto;
+	margin-top:0.24rem;
+}
+.slideup img:nth-child(2){
+	display: block;
+	width: 0.5rem;
+	height: 0.62rem;
+	margin:0 auto;
+}
+
+/*向上滑动查看详情*/
+
+
+/*基本参数*/
+.base{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	background: #FFF;
+}
+.base .top{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.base .top span{
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.3rem;
+	margin-left:0.3rem;
+}
+.base .top img{
+	display: block;
+	width: 7.02rem;
+	height:0.16rem;
+	margin: 0 auto;
+}
+
+.base .bottom{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	background: #FFF;
+}
+.base .bottom ul{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.base .bottom ul li{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.base .bottom ul li .left{
+	width:2rem;
+	height:auto;
+	overflow: hidden;
+	float:left;
+	margin-left:0.24rem;
+	margin-top:0.05rem;
+}
+.base .bottom ul li .left span{
+	display: block;
+	font-size: 0.3rem;
+	color:#A7A7A7;
+}
+.base .bottom ul li .right{
+	width:5rem;
+	height:auto;
+	overflow: hidden;
+	float:left;
+	margin-top:0.05rem;
+}
+.base .bottom ul li .right span{
+	display: block;
+	font-size: 0.3rem;
+	color:#343434;
+}
+
+.base .words{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+}
+.base .words p{
+	width: 7.02rem;
+	height:auto;
+	overflow: hidden;
+	margin:0 auto;
+	font-size: 0.24rem;
+	color:#7F7F7F;
+}
+.base .words p:nth-child(1){
+	margin-top:0.2rem;
+}
+.base .words p:nth-child(2){
+	margin-top:0.3rem;
+}
+.base .words p:nth-child(5){
+	margin-top:0.3rem;
+}
+/*基本参数*/
+
+
+/*多维度图*/
+.dim{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	background: #FFF;
+}
+.dim .top{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.dim .top span{
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.3rem;
+	margin-left:0.3rem;
+}
+.dim .top img{
+	display: block;
+	width: 7.02rem;
+	height:0.16rem;
+	margin: 0 auto;
+}
+.dim .imgs{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.dim .imgs img:nth-child(1){
+	display: block;
+	width:100%;
+	height:2.51rem;
+	margin: 0 auto;
+}
+.dim .imgs img:nth-child(2){
+	display: block;
+	width:100%;
+	height:3.64rem;
+	margin: 0 auto;
+}
+.dim .imgs img:nth-child(3){
+	display: block;
+	width:100%;
+	height:3.64rem;
+	margin: 0 auto;
+}
+.dim .imgs img:nth-child(4){
+	display: block;
+	width:100%;
+	height:4.83rem;
+	margin: 0 auto;
+}
+/*多维度图*/
+
+
+
+.detail{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	background: #FFF;
+}
+.detail .top{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.detail .top span{
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#595959;
+	margin-top:0.3rem;
+	margin-left:0.3rem;
+}
+.detail .top img{
+	display: block;
+	width: 7.02rem;
+	height:0.16rem;
+	margin: 0 auto;
+}
+.detail .imgs{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top:0.4rem;
+}
+.detail .imgs img:nth-child(1){
+	display: block;
+	width: 3.16rem;
+	height: 3.19rem;
+	float:left;
+	margin-left:0.6rem;
+}
+.detail .imgs img:nth-child(2){
+	display: block;
+	width: 3.16rem;
+	height: 3.19rem;
+	float:right;
+	margin-right:0.4rem;
+}
+.detail .words p{
+	width: 7.02rem;
+	height:auto;
+	overflow: hidden;
+	margin:0 auto;
+	font-size: 0.24rem;
+	color:#4F4F4F;
+}
+.detail .words p:nth-child(1){
+	margin-top:0.1rem;
+}
+.detail .words p:nth-child(5){
+	margin-top:0.4rem;
+}
+.detail .words p:nth-child(9){
+	margin-top:0.4rem;
+}
+
+.maskbot{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	position:fixed;
+	bottom:0;
+}
+.maskbot .bot1{
+	display: block;
+	width: 100%;
+	height: 1.13rem;
+}
+.maskbot .con{
+	width:100%;
+	height:1rem;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.maskbot .con .left{
+	width:33.333%;
+	height:1rem;
+	float:left;
+}
+.maskbot .con .left div{
+	width:50%;
+	height:1rem;
+	float:left;
+}
+.maskbot .con .left div img{
+	display: block;
+	width:0.56rem;
+	height:0.42rem;
+	margin:0 auto;
+	margin-top:0.1rem;
+}
+.maskbot .con .left div span{
+	display: block;
+	width:100%;
+	height: auto;
+	font-size:0.3rem;
+	color:#8B8B8B;
+	text-align: center;
+	margin-top:0.1rem;
+}
+.maskbot .con .med{
+	width:33.333%;
+	height:1rem;
+	float:left;
+	background: #31A6F8;
+	font-size:0.36rem;
+	text-align: center;
+	line-height: 1.2rem;
+	color:#FFF;
+}
+.maskbot .con .right{
+	width:33.333%;
+	height:1rem;
+	float:left;
+	background: #FFB730;
+	font-size:0.36rem;
+	text-align: center;
+	line-height: 1.2rem;
+	color:#FFF;
+}
+
+/*遮罩*/
+.mask{
+	width:100%;
+	height:100%;
+	display: none;
+	position: fixed;
+	left:0;
+	top:0;
+	z-index: 100;
+	background: url(../img/X-img/X-115.png);
+	transition: all .5s;
+}
+.mask .sofall{
+	width:100%;
+	/*height:5.3rem;*/
+	background: url(../img/X-img/X-122.png) no-repeat center;
+	background-size: contain;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	bottom:0;
+	left:0;
+	z-index: 101;
+	transition: all .5s;
+}
+.mask .sofals{
+	height: 5.3rem;
+}
+.mask .sofall .sofa{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.mask .sofall .sofa .left{
+	width:2.74rem;
+	height:1.22rem;
+	margin-left:0.4rem;
+	float:left;
+}
+.mask .sofall .sofa .left img{
+	display: block;
+	width:2.9rem;
+	height:1.4rem;
+}
+.mask .sofall .sofa .right{
+	width:4rem;
+	height:auto;
+	overflow: hidden;
+	float:right;
+}
+.mask .sofall .sofa .right span{
+	display: block;
+	float:right;
+	overflow: hidden;
+}
+.mask .sofall .sofa .right span:nth-child(1){
+	font-size: 0.2rem;
+	color:#FFB52A;
+	margin-right:0.24rem;
+	margin-top:0.7rem;
+}
+.mask .sofall .sofa .right span:nth-child(2){
+	font-size: 0.3rem;
+	color:#FFB52A;
+	margin-right:0.04rem;
+	margin-top:0.65rem;
+}
+.mask .sofall .sofa .right span:nth-child(3){
+	font-size: 0.3rem;
+	color:#4A4A4A;
+	margin-right:0.8rem;
+	margin-top:0.65rem;
+}
+.mask .sofall .sofa .right span:nth-child(4){
+	font-size: 0.12rem;
+	color:#BCBCBC;
+	margin-right:0.5rem;
+	margin-top:0.04rem;
+}
+.mask .sofall .sofa .bot{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	margin-top:0.05rem;
+}
+.mask .sofall .sofa .bot img{
+	display: block;
+	width:100%;
+	height:0.1rem;
+}
+
+.mask .sofall .colors{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	margin-top:0.4rem;
+}
+.mask .sofall .colors span{
+	display: block;
+	float:left;
+	font-size: 0.28rem;
+	color:#7A7A7A;
+	margin-left:0.24rem;
+	margin-top:0.24rem;
+}
+.mask .sofall .colors div{
+	display: block;
+	float:left;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	position:relative;
+}
+.mask .sofall .colors div.imgone img{
+	width: 1.17rem;
+	height: 0.71rem;
+	margin-left:0.6rem;
+	margin-top:0.14rem;
+}
+.mask .sofall .colors div.imgone img.imgmask{
+	width: 1.17rem;
+	height: 0.71rem;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.mask .sofall .colors div.imgtwo img{
+	width: 1.19rem;
+	height: 0.71rem;
+	margin-left:0.7rem;
+	margin-top:0.14rem;
+}
+.mask .sofall .colors div.imgtwo img.imgmask{
+	width: 1.17rem;
+	height: 0.71rem;
+	position:absolute;
+	left:0;
+	top:0;
+	display: none;
+}
+.mask .sofall .colors div.imgthree img{
+	width: 1.17rem;
+	height: 0.71rem;
+	margin-left:0.7rem;
+	margin-top:0.14rem;
+}
+.mask .sofall .colors div.imgthree img.imgmask{
+	width: 1.17rem;
+	height: 0.71rem;
+	position:absolute;
+	left:0;
+	top:0;
+	display: none;
+}
+.mask .sofall .colors .imgfour{
+	width: 100%;
+	height: 0.11rem;
+	margin-top:0.3rem;
+}
+
+.mask .sofall .num{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	margin-top:0.2rem;
+}
+.mask .sofall .num span:nth-child(1){
+	display: block;
+	float:left;
+	font-size: 0.28rem;
+	color:#7A7A7A;
+	margin-left:0.24rem;
+	margin-top:0.14rem;
+}
+.mask .sofall .num span:nth-child(2){
+	display: block;
+	float:right;
+	width:0.4rem;
+	height: 0.4rem;
+	/*border-radius:50%;*/
+	border-radius:100px;
+	background: #FFB11E;
+	font-size: 0.4rem;
+	color:#FFF;
+	text-align: center;
+	line-height: 0.4rem;
+	margin-top:0.14rem;
+	margin-right:0.5rem;
+}
+.mask .sofall .num span:nth-child(3){
+	display: block;
+	float:right;
+	width:1.11rem;
+	height: 0.4rem;
+	border-radius:15px;
+	background: #EEEEEE;
+	font-size: 0.3rem;
+	color:#4B4B4B;
+	text-align: center;
+	line-height: 0.4rem;
+	margin-top:0.14rem;
+	margin-right:0.24rem;
+}
+.mask .sofall .num span.sub{
+	display: block;
+	float:right;
+	width:0.4rem;
+	height: 0.4rem;
+	/*border-radius:50%;*/
+	border-radius: 20000px;
+	background: #CFCFCF;
+	font-size: 0.6rem;
+	color:#FFF;
+	text-align: center;
+	line-height: 0.3rem;
+	margin-top:0.14rem;
+	margin-right:0.24rem;
+}
+.mask .sofall .num span.active{
+	background: #FFB11E;
+}
+.mask .sofall .sure{
+	width:100%;
+	height:0.72rem;
+	background: #FFB11E;
+	position: absolute;
+	bottom:0;
+	z-index: 105;
+	text-align: center;
+	line-height: 0.72rem;
+	font-size: 0.36rem;
+	
+}
+.mask .sofall .sure a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#FFF;
+}
+/*遮罩*/
+
+/*成功加入购物车*/
+.addGou{
+	width: 2rem;
+	height: .5rem;
+	line-height: .5rem;
+	text-align: center;
+	border-radius: .04rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(0,0,0,.5);
+	z-index: 99999999999;
+	color: #FFf;
+	font-size: .2rem;
+}

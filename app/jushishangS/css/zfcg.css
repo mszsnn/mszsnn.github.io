@@ -1,0 +1,150 @@
+body{
+    background: #F2F2F2;
+}
+.top{
+    width: 100%;
+    height: 4.45rem;
+    background: linear-gradient(to left,#31c7ff,#32abff);
+    padding-top: 0.9rem;
+    box-sizing: border-box;
+}
+.top .duigou{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0 auto;
+}
+.top .duigou img{
+    width: 100%;
+}
+.top .wenzi{
+    width: 2rem;
+    height: 0.7rem;
+    margin: 0.2rem auto;
+    font-size: 0.4rem;
+    color: #fff;
+    line-height: 0.7rem;
+    text-align: center;
+}
+.top .ddbh{
+    width: 100%;
+    height: 0.33rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #fff;
+    margin-top: -0.2rem;
+}
+.top .ckdd{
+    width: 2rem;
+    height: 0.5rem;
+    border-radius: 0.2rem;
+    background: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+    color: #4CB7FF;
+    margin-left: 1.56rem;
+    float: left;
+    margin-top: 0.3rem;
+}
+.top .fhsy{
+    width: 2rem;
+    height: 0.5rem;
+    border-radius: 0.2rem;
+    background: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.3rem;
+    color: #4CB7FF;
+    margin-right: 1.56rem;
+    float: right;
+    margin-top: 0.3rem;
+}
+ .yhq{
+    width: 100%;
+    height: 2.5rem;
+}
+.yhq img{
+    width: 100%;
+}
+.xiabox{
+    width: 100%;
+    height: auto;
+    padding: 0 0.2rem;
+    padding-bottom:  0.3rem;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 0 10px 2px #ccc;
+}
+.xiabox img{
+    display: block;
+    width: 2.5rem;
+}
+
+
+.xiabox .one{
+    width: 100%;
+    height: 2.02rem;
+    border-radius: 6px;
+    background: #fff;
+    margin-top: 0.2rem;
+    position: relative;
+    border: 1px solid #32ACFF;
+    border-radius: 5px;
+}
+.xiabox .one .left{
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-radius: 6px;
+}
+.xiabox .one .left img{
+    height: 100%;
+    border-radius: 6px;
+}
+.xiabox .one .right{
+    float: right;
+    width: 67%;
+    height: 100%;
+}
+.right .first{
+    width: 100%;
+    height: 0.68rem;
+    border-radius: 6px;
+    font-size: 0.3rem;
+    border-bottom: 1px dashed #D6D6D6;
+}
+.right .two{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    color: #FFB730;
+}
+.right .two span{
+    font-size: 0.15rem;
+    margin-left: 20px;
+    color: #A4A4A4;
+}
+.right .three{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.15rem;
+    color: #6E6E6E;
+}
+.right .four{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.17rem;
+    color: #6E6E6E;
+}
+.right .four a{
+    display: block;
+    width: 1.3rem;
+    height: 0.33rem;
+    border-radius: 5px;
+    background: #FFB730;
+    color: #fff;
+    text-align: center;
+    line-height: 0.33rem;
+    float: right;
+    margin-right: 0.15rem;
+}

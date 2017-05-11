@@ -1,0 +1,292 @@
+{
+	"index.html": {
+		"href": "index.html",
+		"priority": 0
+	},
+	"m-index.html": {
+		"resources": [
+			"m-img/all-img3.png",
+			"js/m-index.js",
+			"m-img/nav-img1.png",
+			"m-img/slide-list2.png",
+			"m-img/q-cehua-img.png",
+			"m-img/label-img3.png",
+			"m-img/all-img4.png",
+			"m-img/q-foot3.png",
+			"img/q-foot-active.png",
+			"m-img/slide-bn.png",
+			"m-img/q-foot4.png",
+			"m-img/slide-list1.png",
+			"m-img/nav-img3.png",
+			"m-img/recom-img2.png",
+			"img/q-foot2-1.png",
+			"m-img/slide-list4.png",
+			"m-img/now-buy.png",
+			"icon/iconfont.woff",
+			"js/iscroll.js",
+			"m-img/all-img2.png",
+			"m-img/recom-img1.png",
+			"m-img/images/q-ban01.png",
+			"css/m-index.css",
+			"m-img/nav-img4.png",
+			"m-img/hot-img1.png",
+			"m-img/slide-list3.png",
+			"m-img/slide-list6.png",
+			"m-img/label-img1.png",
+			"m-img/nav-img2.png",
+			"m-img/all-img6.png",
+			"m-img/all-img1.png",
+			"Q-quanzi.html",
+			"m-img/recom-img4.png",
+			"m-img/slide-list5.png",
+			"m-img/all-img7.png",
+			"m-img/all-img5.png",
+			"js/fx.js",
+			"m-img/recom-img3.png",
+			"m-img/label-img2.png",
+			"X-set-clear.html",
+			"X-sales.html",
+			"m-city.html",
+			"X-search1.html",
+			"X-jpcx.html"
+		],
+		"refer": [
+			"Q-quanzi.html",
+			"X-set-clear.html",
+			"X-sales.html",
+			"m-city.html",
+			"X-search1.html",
+			"X-jpcx.html"
+		]
+	},
+	"Q-quanzi.html": {
+		"resources": [
+			"img/q-ban01.png",
+			"img/q-good.png",
+			"js/q-quanzi.js",
+			"img/q-zhuan-file.png",
+			"img/q-good-active.png",
+			"css/Q-quanzi.css",
+			"img/q-foot4.png",
+			"img/q-box3.png",
+			"img/q-zhuanBg.png",
+			"img/q-foot1.png",
+			"img/q-xin.png",
+			"img/q-box1.png",
+			"img/q-box2.png",
+			"img/q-head.png",
+			"img/q-foot3.png",
+			"img/q-box4.png",
+			"img/q-person1.png",
+			"img/q-zhuanjia.png",
+			"img/q-foot2.png",
+			"img/q-zhuanfa.png",
+			"img/q-xin-active.png",
+			"img/q-pinglun.png",
+			"img/q-active.png",
+			"m-index.html",
+			"p-gouwuche.html"
+		],
+		"refer": [
+			"m-index.html",
+			"p-gouwuche.html"
+		]
+	},
+	"1_y-sp.html": {
+		"resources": [
+			"m-index.html",
+			"img/y-img/bg-3.png",
+			"img/y-img/bg-1.png",
+			"img/y-img/bg1.png",
+			"css/y-sp.css",
+			"img/y-img/btn_03.png",
+			"js/swiper.min.js",
+			"js/hammer.min.js",
+			"js/common.js",
+			"css/common.css",
+			"js/zepto.min.js",
+			"img/y-img/bg-2.png",
+			"css/swiper.min.css"
+		],
+		"refer": [
+			"m-index.html"
+		]
+	},
+	"p-gouwuche.html": {
+		"resources": [
+			"img/p-33.png",
+			"img/q-shanchu.png",
+			"img/p-100.png",
+			"img/q-foot3-1.png",
+			"img/p-00.png",
+			"m-grzx.html",
+			"img/kefu.png",
+			"img/q-shoucang.png",
+			"css/p-gouwuche.css",
+			"js/peng.js",
+			"img/p-yuan.png",
+			"img/p-99.png",
+			"Q-quanzi.html"
+		],
+		"refer": [
+			"m-grzx.html",
+			"Q-quanzi.html"
+		]
+	},
+	"m-grzx.html": {
+		"resources": [
+			"Q-quanzi.html",
+			"m-img/images/m-wl1.png",
+			"img/q-foot4-1.png",
+			"m-img/q-foot1.png",
+			"m-img/images/m-wl2.png",
+			"css/m-grzx.css",
+			"p-gouwuche.html"
+		],
+		"refer": [
+			"Q-quanzi.html",
+			"p-gouwuche.html"
+		]
+	},
+	"X-modphone.html": {
+		"resources": [
+			"img/X-img/X-41.png",
+			"X-set-clear.html",
+			"img/X-img/X-40.png"
+		],
+		"refer": [
+			"X-set-clear.html"
+		]
+	},
+	"X-set-clear.html": {
+		"resources": [
+			"X-modphone.html",
+			"img/X-img/X-37.png",
+			"img/X-img/X-36.png",
+			"img/X-img/X-38.png",
+			"img/X-img/X-1.png",
+			"m-grzx.html",
+			"X-forgetpass1.html",
+			"img/X-img/X-35.png",
+			"js/X-set.js",
+			"css/X-set.css"
+		],
+		"refer": [
+			"X-modphone.html",
+			"m-grzx.html",
+			"X-forgetpass1.html"
+		]
+	},
+	"X-forgetpass1.html": {
+		"resources": [
+			"X-set-clear.html",
+			"img/X-img/X-42.png"
+		],
+		"refer": [
+			"X-set-clear.html"
+		]
+	},
+	"X-sales.html": {
+		"resources": [
+			"img/X-img/X-94.png",
+			"img/X-img/X-137.png",
+			"img/X-img/X-98.png",
+			"img/X-img/X-52.png",
+			"img/X-img/X-113.png",
+			"img/X-img/X-90.png",
+			"img/X-img/X-112.png",
+			"img/X-img/X-136.png",
+			"img/X-img/X-155.png",
+			"img/X-img/X-114.png",
+			"img/X-img/X-111.png",
+			"img/X-img/X-99.png",
+			"img/X-img/X-122.png",
+			"img/X-img/X-96.png",
+			"img/X-img/X-97.png",
+			"img/X-img/X-106.png",
+			"img/X-img/X-104.png",
+			"img/X-img/X-115.png",
+			"img/X-img/X-121.png",
+			"img/X-img/X-110.png",
+			"img/X-img/X-103.png",
+			"img/X-img/X-89.png",
+			"img/X-img/X-95.png",
+			"css/X-sales.css",
+			"img/X-img/X-120.png",
+			"img/X-img/X-102.png",
+			"img/X-img/X-116.png",
+			"img/X-img/X-108.png",
+			"img/X-img/X-92.png",
+			"img/X-img/X-93.png",
+			"img/X-img/X-105.png",
+			"img/X-img/X-107.png",
+			"img/X-img/X-119.png",
+			"img/X-img/X-91.png",
+			"img/X-img/X-101.png",
+			"js/X-sales.js",
+			"img/X-img/X-88.png",
+			"img/X-img/X-117.png",
+			"img/X-img/X-100.png",
+			"img/X-img/X-138.png",
+			"img/X-img/X-109.png",
+			"m-index.html"
+		],
+		"refer": [
+			"m-index.html"
+		]
+	},
+	"m-city.html": {
+		"resources": [
+			"m-index.html",
+			"css/m-city.css",
+			"js/m-city.js"
+		],
+		"refer": [
+			"m-index.html"
+		]
+	},
+	"X-search1.html": {
+		"resources": [
+			"m-index.html",
+			"img/X-img/X-2.png",
+			"img/X-img/X-7.png",
+			"img/X-img/X-20.png",
+			"img/X-img/X-17.png",
+			"css/X-search.css",
+			"img/X-img/X-14.png",
+			"img/X-img/X-11.png",
+			"img/X-img/X-15.png",
+			"img/X-img/X-16.png",
+			"img/X-img/X-8.png",
+			"img/X-img/X-10.png",
+			"img/X-img/X-4.png",
+			"img/X-img/X-19.png",
+			"img/X-img/X-22.png",
+			"img/X-img/X-13.png",
+			"img/X-img/X-9.png",
+			"img/X-img/X-21.png",
+			"img/X-img/X-5.png",
+			"img/X-img/X-18.png",
+			"img/X-img/X-6.png",
+			"img/X-img/X-12.png"
+		],
+		"refer": [
+			"m-index.html"
+		]
+	},
+	"X-jpcx.html": {
+		"resources": [
+			"m-index.html",
+			"js/X-collect.js",
+			"img/X-img/X-56.png",
+			"img/X-img/X-1.png",
+			"css/X-track.css",
+			"img/X-img/X-58.png",
+			"img/X-img/X-146.png",
+			"img/X-img/X-59.png"
+		],
+		"refer": [
+			"m-index.html"
+		]
+	}
+}

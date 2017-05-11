@@ -1,0 +1,60 @@
+.swiper-container{
+	background-image:url(../img/y-img/bg1.png);
+	background-position: center;
+	background-size:cover ;
+	width:100%;
+	height:100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide{
+	width:100%;
+	height:100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+	width:7.5rem;
+	margin-top: -.6rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide > a{
+    display: block;
+    position:relative;
+    bottom:1.5rem;
+    z-index:99999;
+    width:3.9rem;
+    height: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.swiper-container .swiper-wrapper .swiper-slide > a .btn{
+	position:absolute;
+	bottom:0rem;
+	z-index:9999;
+	width:3.9rem;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+.swiper-container .swiper-wrapper .swiper-slide > a .btn img{
+	width:4.06rem;
+	height:0.88rem;
+}
+.swiper-container .skip{
+	position: absolute;
+	right:0.4rem;
+	top:0.4rem;
+	font-size:0.28rem;
+	color:#fff;
+	z-index:100;
+}
+.swiper-pagination-white .swiper-pagination-bullet-active{
+	width:0.32rem;
+	height:0.16rem;
+	border-radius:80px;
+	color:#fff;
+}
+.swiper-pagination{
+	text-align: center;
+	margin-left:0.16rem;
+    height: .4rem !important;
+    line-height: .1rem;
+}
+

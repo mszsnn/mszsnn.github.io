@@ -1,0 +1,38 @@
+.top{
+    background: linear-gradient(to left,#31c7ff,#32abff);
+    width: 100%;
+    height: .88rem;
+	line-height: .88rem;
+    box-sizing: border-box;
+}
+.top .biaoti{
+    width: 7rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    font-size: 0.35rem;
+    color: #fff;
+}
+body{
+    background:#F2F2F2;
+}
+img.youhuiquan{
+    width: 6.38rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+}
+.bottom{
+    width:4.85rem ;
+    height: 0.75rem;
+
+    line-height: 0.75rem;
+    text-align: center;
+    font-size: 0.3rem;
+    background: #32ACFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 0.75rem;
+}
+.bottom a{
+    color: #fff;
+}

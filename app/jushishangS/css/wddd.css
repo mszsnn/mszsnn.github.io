@@ -1,0 +1,168 @@
+
+.top{
+    width: 100%;
+    height: 1.8rem;
+    background: linear-gradient(to left,#31c7ff,#32abff);
+    position: relative;
+    padding-top:0.6rem;
+    box-sizing: border-box;
+}
+.top a{
+    position: absolute;
+    left: 0.23rem;
+    top:0.50rem;
+    font-size: 0.6rem;
+    color: #fff;
+}
+.top .biaoti{
+    width: 2rem;
+    height: 0.45rem;
+    margin:0 auto;
+    font-size: 0.35rem;
+    text-align: center;
+    color: #fff;
+}
+.top .list{
+    width: 100%;
+    height: 0.75rem;
+    display: flex;
+}
+.top .list div{
+    width: 25%;
+    height: 100%;
+    font-size: 0.26rem;
+    line-height: 0.75rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+body{
+    background:#F1F1F1;
+}
+.ddbox{
+    width: 100%;
+    height: auto;
+    padding:0 0.2rem;
+    box-sizing: border-box;
+    display: none;
+}
+div.first{
+    display: block;
+}
+.ddbox .one{
+    width: 100%;
+    height: 2.02rem;
+    border-radius: 6px;
+    background: #fff;
+    margin-top: 0.2rem;
+    position: relative;
+}
+.ddbox .one .left{
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-radius: 6px;
+}
+.ddbox .one .left img{
+    height: 100%;
+    border-radius: 6px;
+}
+.ddbox .one .right{
+    float: right;
+    width: 67%;
+    height: 100%;
+}
+.right .first{
+    width: 100%;
+    height: 0.68rem;
+    border-radius: 6px;
+    font-size: 0.3rem;
+    border-bottom: 1px dashed #D6D6D6;
+}
+.right .two{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    color: #FFB730;
+}
+.right .two span{
+    font-size: 0.15rem;
+    margin-left: 20px;
+    color: #A4A4A4;
+}
+.right .three{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.15rem;
+    color: #6E6E6E;
+}
+.right .four{
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.17rem;
+    color: #6E6E6E;
+}
+.right .four a{
+    display: block;
+    width: 1.3rem;
+    height: 0.33rem;
+    border-radius: 5px;
+    background: #FFB730;
+    color: #fff;
+    text-align: center;
+    line-height: 0.33rem;
+    float: right;
+    margin-right: 0.15rem;
+}
+.one .bottom{
+    width: 100%;
+    height: 0.65rem;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 1px dashed #D6D6D6;
+    display: flex;
+    padding:  0.1rem 0;
+    box-sizing: border-box;
+}
+.one .bottom div{
+    width: 33.33%;
+    height: 100%;
+    border-right: 1px dotted #D6D6D6;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.one .bottom div img{
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+.one .duigou{
+    width: 0.35rem;
+    height: .35rem;
+    border-radius: 50%;
+    border: 1px solid #FFB11E;
+    box-sizing: border-box;
+    position: absolute;
+    left: -0.42rem;
+    top: 50%;
+    margin-top: -0.16rem;
+}
+.duigou-a{
+    background: url(../img/p-17.png) no-repeat center;
+    background-size: cover;
+}
+.sanjiao{
+    display: block;
+    position: absolute;
+    left: 41%;
+    top: 0.58rem;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    display: none;
+}
+.list span.first{
+    display: block;
+}

@@ -1,0 +1,109 @@
+.bg {
+  background-image: url(../img/y-img/lg.png);
+  width: 7.5rem;
+  height: 13.34rem;
+  background-position: center;
+  background-size: 100%; }
+body{
+	overflow: hidden;
+}
+.top {
+  width: 100%;
+  height: 0.88rem;
+  line-height: 0.88rem; }
+  .top .left {
+    float: left;
+    font-size: 0.32rem;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 0.04rem;
+    margin: 0 0.24rem; }
+  .top .right {
+    float: right;
+    font-size: 0.32rem;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 0.04rem;
+    margin: 0 0.24rem; }
+
+.mid {
+  margin-top: 1.2rem;
+  text-align: center; }
+  .mid img {
+    width: 1.68rem;
+    height: 2.54rem;
+    margin-bottom: 0.2rem; }
+  .mid form {
+    width: 5.42rem;
+    margin: 0 auto; }
+    .mid form div {
+      position: relative;
+      width: 5.42rem;
+      height: 0.68rem;
+      display: flex;
+      margin-top: 0.56rem; }
+      .mid form div img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0.62rem;
+        height: 0.68rem; }
+      .mid form div input {
+        width: 5.42rem;
+        height: 0.68rem;
+        border-radius: 0.08rem;
+        text-indent: 0.64rem;
+        outline: none;
+      	border: none;
+        color: #d0d0d0; }
+      .mid form div h5 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 0.24rem;
+        color: #FFC001; }
+    .mid form .sub .text {
+      position: absolute;
+		  left: 0;
+		  top: 0;
+		  width: 5.42rem;
+		  height: 0.68rem;
+		  margin-top: 0;
+		  display: flex;
+		  flex-wrap: wrap;}
+      .mid form .sub .text p {
+         line-height: 0.48rem;
+			  font-size: 0.28rem;
+			  color: #32abff;
+			  font-weight: 200;
+			  margin-bottom: -0.1rem;
+			  width: 5.42rem;
+			  text-align: center;}
+      .mid form .sub .text span {
+        font-size: 0.24rem;
+			  color: #32abff;
+			  display: block;
+			  width: 100%;
+			  text-align: center;}
+    .mid form .sub input {
+      background-color: #fff; }
+    .mid form .code input {
+      float: left;
+      width: 3.02rem;
+      height: 0.68rem; }
+    .mid form .code button {
+      float: right;
+      width: 2.16rem;
+      height: 0.68rem;
+      color: #fff;
+      margin-left: .2rem;
+      font-size: 0.28rem;
+      text-align: center;
+      background-color: #fdce4d;
+      border-radius: 0.08rem;
+      border: none; }
+  .mid h6 {
+    color: #fff;
+    text-align: right;
+    font-weight: normal;
+    margin-top: 0.1rem; }

@@ -1,0 +1,189 @@
+@import url("common.css");
+
+body{
+	background-color: #f2f2f2;
+	font-size: .12rem;
+	overflow: hidden;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:.16rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*标题*/
+._ring-jl{
+	width: 100%;
+	height: .88rem;
+	background-image: linear-gradient(to right,#32abff,#31c7ff);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+._back-jl{
+	margin-left: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+._chat-name-jl{
+	font-size: .36rem;
+	color: #fff;
+}
+._share-jl{
+	margin-right: .3rem;
+	font-size: .4rem;
+	color: #fff;
+}
+/*消息列表*/
+._chat-message-jl{
+	width: 100%;
+}
+._chat-message-jl li{
+	width: 100%;
+	height: 1rem;
+	margin-top: .24rem;
+	background: #fff;
+	position: relative;
+}
+
+._li{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 .24rem;
+	align-items: center;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+}
+
+._display{
+	width:1.7rem;
+	height: 1rem;
+	overflow: hidden;
+	display: flex;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*头像*/
+._chat-mbg-jl{
+	width: .8rem;
+	height: .8rem;
+	border-radius: 50%;
+}
+._chat-mbg-jl img{
+	width: 100%;
+}
+/*信息*/
+._chat-content-jl{
+	width: 4.6rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+._cname-jl{
+	color: #2e2e2e;
+	font-size: .24rem;
+}
+._ccon-jl{
+	width: 100%;
+	height: .34rem;
+	color: #919191;
+	font-size: .22rem;
+	overflow: hidden;
+}
+/*提示*/
+._csign-jl{
+	width: .66rem;
+	height: .28rem;
+	border-radius: .28rem;
+	background: #fd3d67;
+	color: #fff;
+	line-height: .28rem;
+	text-align: center;
+}
+/*语音、图片提示*/
+._voice-sign-jl{
+	width: .66rem;
+	height: .3rem;
+	text-align: center;
+	color: #049cff;
+}
+/*离线*/
+
+
+._chat-signup-jl{
+	background: #d0d0d0;
+}
+
+._fff{
+	background: #fff;
+}
+
+
+/*滑动*/
+
+._delete-rect-jl{
+	width: .8rem;
+	height: 100%;
+	background: #fd3d67;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+._collect-rect-jl{
+	width: .8rem;
+	height: 100%;
+	background: #fd3d67;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-left: .1rem;
+}
+
+/*滚动条*/
+._header-jl{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#_wrapper{
+	position: absolute;
+	z-index: 1;
+	top: .88rem;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+#_scroller{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	
+}

@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height:100%;
+    background:#F2F2F2;
+}
+/*头部*/
+.m-header{
+    width:100%;
+    height:0.88rem;
+    background: linear-gradient(to left,#31c7ff,#32abff);
+    position:relative;
+}
+.m-header span{
+    display: block;
+    text-align: center;
+    line-height:0.88rem;
+    color:#DCF4FF;
+    font-size:0.4rem;
+}
+.m-header a{
+    display: block;
+    width:0.8rem;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    line-height:0.88rem;
+    text-align: center;
+    font-size:0.5rem;
+    font-weight: 700;
+    color:#DEEBF4;
+    font-family:'宋体' ;
+}
+/*专家信息*/
+.m-message{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.m-message .m-imgbox{
+    width:1.04rem;
+    height:1.04rem;
+    margin:0.25rem auto;
+    border-radius: 50%;
+    background:#fff url("../m-img/images/expert-img.png")no-repeat;
+    background-size: cover;
+}
+.m-message h4{
+    width:100%;
+    height:0.5rem;
+    color:#979797;
+    line-height:0.5rem;
+    font-size:0.46rem;
+    font-weight: normal;
+    text-align: center;
+}
+.m-message h5{
+    width:100%;
+    height:0.5rem;
+    color:#646464;
+    line-height:0.5rem;
+    font-size:0.36rem;
+    font-weight: normal;
+    text-align: center;
+}
+.m-message h5:nth-child(3){
+    margin-top:0.2rem;
+}
+.m-message p{
+    width:100%;
+    height:0.4rem;
+    margin-top:0.2rem;
+    color:#989898;
+    line-height:0.4rem;
+    font-size:0.36rem;
+    font-weight: normal;
+    text-align: center;
+}
+.m-message .m-click{
+    width:4.32rem;
+    height:0.74rem;
+    margin:0.3rem auto 0;
+}
+.m-message .m-click button{
+    width:1.92rem;
+    height:100%;
+    margin:0 0.12rem;
+    float:left;
+    background:#34C2FF;
+    border-radius: 0.1rem;
+    border:0.02rem solid #34C2FF;
+    outline: none;
+    color:#DEF5FF;
+    font-size:0.3rem;
+}
+.m-message .m-click button:last-child{
+    background:#F2F2F2;
+    color:#34C2FF;
+}
+.m-message .m-click button img{
+    width:0.3rem;
+    margin-right:0.15rem;
+}
+.expert{
+    width:7.02rem;
+    height:3rem;
+    background:#fff url("../m-img/images/expert.png")no-repeat;
+    background-size: cover;
+    margin:0.2rem auto 0;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.04rem 0.01rem #d8d8d8;
+    overflow: hidden;
+}
+.expert .expert-top{
+    width:6.62rem;
+    height:0.64rem;
+    margin:0.1rem auto;
+}
+.expert .expert-top .expert-img{
+    width:0.64rem;
+    height:100%;
+    float:left;
+    border-radius: 50%;
+    border:0.02rem solid #E9E9E9;
+    box-sizing: border-box;
+    background:url("../m-img/images/expert-img.png")no-repeat;
+    background-size: cover;
+}
+.expert .expert-top p{
+    width:4.7rem;
+    height:100%;
+    float:left;
+}
+.expert .expert-top p span{
+    display: block;
+    width:100%;
+    height:50%;
+    line-height:0.32rem;
+    margin-left:0.15rem;
+    font-size:0.26rem;
+}
+.expert .expert-top p span:last-child{
+    color:#D1D1D1;
+}
+.expert .expert-top > span{
+    display:block;
+    width:1.26rem;
+    height:100%;
+    line-height:0.64rem;
+    font-size:0.26rem;
+    color:#9C9C9C;
+    float:left;
+}
+.expert .expert-top span img{
+    height:0.26rem;
+    margin-right:0.1rem;
+}
+.expert .expert-middle{
+    width:100%;
+    height:1.6rem;
+    padding:0 0.3rem;
+    box-sizing: border-box;
+}
+.expert .expert-middle  .expert-middle-img{
+    width:1.5rem;
+    height:1.5rem;
+    background:url("../m-img/images/expert-middle.png")no-repeat;
+    background-size:cover;
+    border-radius: 0.1rem;
+    float:left;
+}
+.expert .expert-middle  .expert-middle-word{
+    width:4.6rem;
+    height:1.56rem;
+    float:left;
+    margin-left:0.2rem;
+}
+.expert .expert-middle  .expert-middle-word p{
+    width:100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    font-size:0.3rem;
+    color:#4B4B4B;
+    border-bottom:0.01rem solid #8CD0FF;
+    position:relative;
+}
+.expert .expert-middle  .expert-middle-word p span{
+    width:0.36rem;
+    height:0.03rem;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background:#35ABFF;
+}
+.expert .expert-middle  .expert-middle-word > span{
+    display: block;
+    width:100%;
+    height:auto;
+    color:#BFBFBF;
+    overflow: hidden;
+    font-size:0.26rem;
+}
+.expert .expert-foot{
+    width:100%;
+    height:0.45rem;
+    margin-top:0.1rem;
+}
+.expert .expert-foot p{
+    width:2.14rem;
+    height:100%;
+    line-height:0.45rem;
+    float:left;
+    font-size:0.26rem;
+    text-align: center;
+    color:#828282;
+    vertical-align: bottom;
+}
+.expert .expert-foot p img{
+    width:0.32rem;
+    margin-top:0.1rem;
+}
+.expert .expert-foot p:nth-child(2){
+    width:2.32rem;
+}

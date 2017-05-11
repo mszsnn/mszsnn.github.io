@@ -1,0 +1,485 @@
+/*头部*/
+header{
+	width:100%;
+	height:0.88rem;
+	background-image:linear-gradient(to right,#32abff,#31c7ff);
+	position:relative;
+}
+header .left{
+	width:0.43rem;
+	height:0.49rem;
+	position:absolute;
+	top:0.2rem;
+	left:0.24rem;
+	z-index: 10;
+}
+header .left a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+header .left img{
+	display:block;
+	width:0.43rem;
+	height:0.49rem;
+}
+header span{
+	display: block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:0.88rem ;
+	font-size:0.36rem;
+	color:#FFF;
+}
+/*头部*/
+
+
+/*设置内容*/
+.set{
+	width:100%;
+	height:auto;
+}
+.set ul{
+	width:100%;
+	height:auto;
+}
+.set ul li{
+	width:100%;
+	height:auto;
+	margin-top:0.26rem;
+}
+.set ul li:nth-child(2) div:nth-child(2){
+	margin-top:0.04rem;
+}
+.set ul li:nth-child(3) div:nth-child(2){
+	margin-top:0.04rem;
+}
+.set ul li:nth-child(4) div:nth-child(2){
+	margin-top:0.02rem;
+}
+.set ul li:nth-child(4) div:nth-child(3){
+	margin-top:0.02rem;
+}
+.set ul li:nth-child(4) div:nth-child(4){
+	margin-top:0.02rem;
+}
+.set ul li div{
+	width:100%;
+	height:0.72rem;
+	background-color: #FFF;
+}
+.set ul li div a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.set ul li div span:nth-child(1){
+	font-size: 0.28rem;
+	color:#898989;
+	float:left;
+	margin-left:0.24rem;
+	margin-top:0.16rem;
+}
+.set ul li div span:nth-child(2){
+	font-size: 0.28rem;
+	color:#787878;
+	float:right;
+	margin-right:0.24rem;
+	margin-top:0.16rem;
+}
+.set ul li div img{
+	float:right;
+	width:1.14rem;
+	height:0.56rem;
+	margin-right:0.24rem;
+	margin-top:0.08rem;
+}
+/*设置内容*/
+
+/*退出登录*/
+.outlog{
+	width:100%;
+	height:auto;
+	text-align: center;
+}
+.outlog img{
+	width:4.96rem;
+	height:0.78rem;
+	margin-top:0.6rem;
+}
+/*退出登录*/
+
+
+
+
+/*清理缓存*/
+.setclear{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+.setclear .clear{
+	width:5.41rem;
+	height:2.88rem;
+	background:#F8F8F8;
+	border-radius: 20px;
+	margin-top:5.7rem;
+	margin-left:1.045rem;
+	position:relative;
+}
+.setclear .clear div:nth-child(1){
+	width:100%;
+	height:auto;
+	float: left;
+	text-align: center;
+}
+.setclear .clear div:nth-child(1) img{
+	display: block;
+	float:left;
+	width: 0.42rem;
+	height: 0.37rem;
+	margin-left:1.5rem;
+	margin-top:0.2rem;
+}
+.setclear .clear div:nth-child(1) span{
+	display: block;
+	float:left;
+	font-size: 0.36rem;
+	color:#060606;
+	margin-left:0.05rem;
+	margin-top:0.18rem;
+}
+.setclear .clear div:nth-child(2){
+	width:100%;
+	height:auto;
+	float: left;
+	text-align: center;
+	font-size: 0.3rem;
+	color:#0C0C0C;
+	margin-top:0.2rem;
+}
+.setclear .clear div:nth-child(3){
+	width:100%;
+	height:auto;
+	float: left;
+	text-align: center;
+	font-size: 0.3rem;
+	color:#0C0C0C;
+}
+.setclear .clear div:nth-child(4){
+	width:50%;
+	height:auto;
+	float: left;
+	text-align: center;
+	font-size: 0.36rem;
+	color:#3291FE;
+	margin-top:0.4rem;
+}
+.setclear .clear div:nth-child(5){
+	width:50%;
+	height:auto;
+	float: left;
+	text-align: center;
+	font-size: 0.36rem;
+	color:#3291FE;
+	margin-top:0.4rem;
+}
+
+.setclear .clear .lineh{
+	width:100%;
+	height:0.01rem;
+	background:#6E6E6E;
+	position: absolute;
+	top:2rem;
+}
+.setclear .clear .linev{
+	width:0.01rem;
+	height:0.86rem;
+	background:#6E6E6E;
+	position: absolute;
+	bottom:0;
+	left:2.7rem;
+}
+/*清理缓存*/
+
+
+
+/*意见反馈*/
+.feedback{
+	width:7.02rem;
+	height:3.1rem;
+	margin:0 auto;
+	background:#FFF;
+	border-radius: 5px;
+	margin-top:0.25rem;
+}
+
+.feedback span{
+	display: block;
+	float: left; 
+	font-size: 0.12rem;
+	color:#D2D2D2;
+	margin-left:0.24rem;
+	margin-top:0.24rem;
+}
+
+.set_submit{
+	width:100%;
+	height:auto;
+	text-align: center;
+	margin-top:0.71rem;
+}
+.set_submit img{
+	width:4.93rem;
+	height:0.79rem;
+}
+/*意见反馈*/
+
+
+
+
+/*忘记密码1*/
+form{
+	width:100%;
+	height: auto;
+}
+form p{
+	width:100%;
+	height:0.72rem;
+	background:#FFFFFF;
+	margin-top:0.24rem;
+}
+form p:nth-child(2){
+	width:5.02rem;
+	height:0.72rem;
+	background:#FFFFFF;
+	margin-top:0.24rem;
+	position:relative;
+}
+form p img{
+	display: block;
+	width:0.65rem;
+	height:0.58rem;
+	float: left;
+	margin-left:0.24rem;
+	margin-top:0.07rem;
+}
+form p input{
+	color:#CBCBCB;
+	text-indent: 0.2rem;
+	font-size: 0.28rem;
+}
+form p:nth-child(1) input{
+	display: block;
+	width:6rem;
+	height:0.72rem;
+	float: left;
+	border:0;
+	border-radius: 5px;
+	outline:0;
+}
+form p:nth-child(2) input{
+	display: block;
+	width:4.3rem;
+	height:0.72rem;
+	border:0;
+	border-radius: 5px;
+	position:absolute;
+	right:-0.2rem;
+	top:0;
+	outline:0;
+}
+form p:nth-child(2) span{
+	display: block;
+	width:2rem;
+	height:0.72rem;
+	border-radius: 5px;
+	background:#FDCE4F;
+	position:absolute;
+	right:-2.43rem;
+	top:0;
+	text-align:center;
+	font-size:0.3rem;
+	color: #F5E5B9;
+	line-height:0.72rem;
+}
+form p:nth-child(2) span a{
+	display: block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:0.3rem;
+	color: #F5E5B9;
+	line-height:0.72rem;
+}
+form p:nth-child(3) input{
+	display: block;
+	width:6rem;
+	height:0.72rem;
+	float: left;
+	border:0;
+	border-radius: 5px;
+	outline:0;
+}
+
+
+.mod{
+	width:5.43rem;
+	height:0.73rem;
+	background:#FFF;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top:0.45rem;
+	border-radius: 5px;
+	overflow: hidden
+}
+.mod span:nth-child(1){
+	display: block;
+	width:5.43rem;
+	height:auto;
+	text-align: center;
+	font-size: 0.3rem;
+	color:#34BAFF;
+	margin-top:0.05rem;
+}
+.mod span:nth-child(2){
+	display: block;
+	width:5.43rem;
+	height:auto;
+	text-align: center;
+	font-size: 0.12rem;
+	color:#34BAFF;
+	margin-top:-0.1rem;
+}
+/*忘记密码1*/
+
+
+
+
+/*忘记密码2*/
+form{
+	width:100%;
+	height: auto;
+}
+form p{
+	width:100%;
+	height:0.72rem;
+	background:#FFFFFF;
+	margin-top:0.24rem;
+}
+form .identify{
+	margin-top:0.1rem;
+}
+form p:nth-child(3){
+	width:5.02rem;
+	height:0.72rem;
+	background:#FFFFFF;
+	position:relative;
+}
+form p img{
+	display: block;
+	width:0.65rem;
+	height:0.58rem;
+	float: left;
+	margin-left:0.24rem;
+	margin-top:0.07rem;
+}
+form p input{
+	color:#CBCBCB;
+	text-indent: 0.2rem;
+	font-size: 0.28rem;
+}
+form p:nth-child(1) input{
+	display: block;
+	width:6rem;
+	height:0.72rem;
+	float: left;
+	border:0;
+	border-radius: 5px;
+}
+form p:nth-child(3) input{
+	display: block;
+	width:4.3rem;
+	height:0.72rem;
+	border:0;
+	border-radius: 5px;
+	position:absolute;
+	right:-0.2rem;
+	top:0;
+}
+form p:nth-child(3) span{
+	display: block;
+	width:2rem;
+	height:0.72rem;
+	border-radius: 5px;
+	background:#FDCE4F;
+	position:absolute;
+	right:-2.43rem;
+	top:0;
+	text-align:center;
+	font-size:0.3rem;
+	color: #F5E5B9;
+	line-height:0.72rem;
+}
+form p:nth-child(4) input{
+	display: block;
+	width:6rem;
+	height:0.72rem;
+	float: left;
+	border:0;
+	border-radius: 5px;
+}
+form div:nth-child(2){
+	width:100%;
+	height:0.3rem;
+	margin-top:0.2rem;
+}
+form div:nth-child(2) span:nth-child(1){
+	display: block;
+	float:left;
+	font-size: 0.24rem;
+	color: #9D9D9D;
+	margin-left:0.24rem;
+}
+form div:nth-child(2) span:nth-child(2){
+	display: block;
+	float:left;
+	font-size: 0.24rem;
+	color: #FDCE4F;
+}
+
+
+.modt{
+	width:5.43rem;
+	height:0.73rem;
+	background:#34BAFF;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-top:0.45rem;
+	border-radius: 5px;
+	overflow: hidden
+}
+.modt span:nth-child(1){
+	display: block;
+	width:5.43rem;
+	height:auto;
+	text-align: center;
+	font-size: 0.3rem;
+	color:#FFF;
+	margin-top:0.05rem;
+}
+.modt span:nth-child(2){
+	display: block;
+	width:5.43rem;
+	height:auto;
+	text-align: center;
+	font-size: 0.12rem;
+	color:#FFF;
+	margin-top:-0.1rem;
+}
+/*忘记密码2*/

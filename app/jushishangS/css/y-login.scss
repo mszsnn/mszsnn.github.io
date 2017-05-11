@@ -1,0 +1,126 @@
+.bg{
+    background-image: url(../img/y-img/lg.png);
+    width:7.5rem;
+    height:13.34rem;
+    background-position: center;
+    background-size:100%;
+}
+@mixin fot{
+    font:{
+       size:0.32rem;
+       weight:100;
+    };
+    color:#fff;
+    letter-spacing:0.04rem;
+    margin:0 0.24rem;
+}
+$scolor:#32abff;
+.top{
+    width:100%;
+    height:0.88rem;
+    line-height:0.88rem;
+    .left{
+        float:left;
+        @include fot;
+    }
+    .right{
+        float:right;
+        @include fot;
+    }
+}
+.mid{
+    margin-top:1.2rem;
+    text-align: center;
+    img{
+        width:1.68rem;
+        height:2.54rem;
+        margin-bottom:0.2rem;
+    }
+    form{
+        width:5.42rem;
+        margin:0 auto;
+        div{
+            position: relative;
+            width:5.42rem;
+            height:0.68rem;
+            margin-top:0.56rem;
+            img{
+                position:absolute;
+                left:0;
+                top:0;
+                width:0.62rem;
+                height:0.68rem;
+            }
+            input{
+                width:5.42rem;
+                height:0.68rem;
+                border-radius:0.08rem;
+                text-indent:0.64rem;
+                outline:none;
+                color:#d0d0d0;
+            }
+            h5{
+                position: absolute;
+                left:0;
+                bottom:0;
+                font-size:0.24rem;
+                color:#FFC001;
+            }
+        }
+        .sub{
+            .text{
+                position: absolute;
+                left:0;
+                top:0;
+                width:5.42rem;
+                height:0.68rem;
+                margin-top:0;
+                p{
+                    line-height:0.48rem;
+                    font-size:0.28rem;
+                    color:$scolor;
+                    font-weight:200;
+                    margin-bottom:-0.1rem;
+                }
+                span{
+                    font-size:0.24rem;
+                    color:$scolor;
+                }
+            }
+            input{
+                background-color:#fff;
+            }
+        }
+    }
+    h6{
+        color:#fff;
+        text-align:right;
+        font-weight:normal;
+        margin-top:0.1rem;
+    }
+}
+.bottom{
+    width:100%;
+    .line{
+        width:100%;
+        text-align: center;
+        margin-top:1.68rem;
+        img{
+            width:3.5rem;
+            height:0.4rem;
+        }
+    }
+    .bot{
+        width:100%;
+        height:1.6rem;
+        margin-top:0.98rem;
+        display: flex;
+        justify-content:space-around;
+        div{
+            img{
+                width:1.04rem;
+                height:1.16rem;
+            }
+        }
+    }
+}
